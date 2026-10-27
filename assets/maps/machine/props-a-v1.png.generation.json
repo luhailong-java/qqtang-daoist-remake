@@ -1,0 +1,73 @@
+{
+  "file": "assets/maps/machine/props-a-v1.png",
+  "sha256": "c4f89d4c222f03cc30256c51b2058bb0d22f388c53a19073354ab3377ed86809",
+  "generatedAt": "2026-10-26T20:24:44+00:00",
+  "timeEvidence": "clock-tool-after-host-result",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "officialRecheckedOn": "2026-10-26",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "assets/maps/machine/references/machine-batch-a-structure.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露实际模型/质量；无model/quality选择参数。",
+  "evidence": {
+    "toolOutputFile": "C:/Users/luyua/.codex/generated_images/01a17790-aedd-7342-8bf7-ed53c8cb263f/exec-65f114a7-609e-46b5-b5b2-94d5584037f2.png",
+    "resultId": "exec-65f114a7-609e-46b5-b5b2-94d5584037f2",
+    "toolOutputFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "explicitModelOrQualityReturned": false
+  },
+  "prompt": "assets/maps/machine/batch-a.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary-user-confirmed-art-style"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary-user-confirmed-art-style"
+    },
+    {
+      "path": "assets/maps/machine/references/machine-batch-a-structure.png",
+      "sha256": "a4213cd81d2d1c184cbafe66eac40b2d74ef4ba085d96a1c36c3167e6a146509",
+      "purpose": "source-structure-aspect-and-footprint-only"
+    }
+  ],
+  "nativeAlphaExtrema": [
+    0,
+    255
+  ],
+  "nativeDimensionsNotExportDimensions": true
+}

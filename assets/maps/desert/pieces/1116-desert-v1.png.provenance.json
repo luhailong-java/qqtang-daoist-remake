@@ -1,0 +1,81 @@
+{
+  "elementId": 1116,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1116-desert-v1.png",
+  "sha256": "e95863df5cba413043ce246cb06e633a779648f595aae20da895fc7bad53ce04",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-e-v1.png",
+    "sha256": "854ad9a60d87b9c9534fe6addcdbbd2ca67b597b5a0ea5e97224afa272012817",
+    "generationRecord": "assets/maps/desert/props-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      152,
+      158,
+      365,
+      370
+    ],
+    "uniformScale": 0.7511737089201878,
+    "placementPx": [
+      0,
+      1
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1116-482706de1c95.png",
+    "sha256": "2baa377c506af03af57f3826b3c04a76a5971b1eb74115ec3208784345d8e729",
+    "representativeElementId": 1116,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0048076923076923,
+    "relativeAspectDeviation": 0.004807692307692291,
+    "generatedCellLTRB": [
+      140,
+      145,
+      376,
+      383
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

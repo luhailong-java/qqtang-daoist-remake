@@ -1,0 +1,81 @@
+{
+  "elementId": 4015,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4015-mine-v1.png",
+  "sha256": "db5bb3df5b9e18bd8f1cf1c5213e765ce3ad9c85e90f017efbb0541f6d3426ec",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-c-v1.png",
+    "sha256": "2a63e22bb2b9f82509df8f77a28a01f0aece1ef524da0ec37a8e7172814ca941",
+    "generationRecord": "assets/maps/mine/props-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1062,
+      102,
+      1311,
+      346
+    ],
+    "uniformScale": 0.642570281124498,
+    "placementPx": [
+      0,
+      3
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4015-efa62f3572ac.png",
+    "sha256": "48d0ef874bc55ec376d84b48bec43e71da947feb31f10ec2a6c442fe7d68e592",
+    "representativeElementId": 4015,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3840
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0208333333333333,
+    "relativeAspectDeviation": 0.02083333333333326,
+    "generatedCellLTRB": [
+      1045,
+      85,
+      1325,
+      365
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

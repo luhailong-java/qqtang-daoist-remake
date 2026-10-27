@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/frames-south-v2/S/02.png",
+  "sha256": "78e25f9dcbfd0b61ee2bff46e7559fd5658b15924f0e427a53d2560351fd7e62",
+  "derivedAt": "2026-10-26T17:43:03.582334+00:00",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": {
+    "file": "assets/characters/motion-generated/daoist-child/walk-south-v2.png",
+    "sha256": "9d4aba929cca2b22bbda6d8d96270c72f201db229f169eef114c8a8f649304a7",
+    "generationRecord": "assets/characters/motion-generated/daoist-child/walk-south-v2.png.generation.json"
+  },
+  "operation": {
+    "type": "full_pose_ownership_crop_then_shared_padded_canvas_and_uniform_downscale",
+    "sourceSize": [
+      2048,
+      768
+    ],
+    "cropLTRB": [
+      512,
+      0,
+      1024,
+      768
+    ],
+    "nominalCellRootX": 256,
+    "placementOnCommonCanvas": [
+      236,
+      108
+    ],
+    "commonCanvas": [
+      984,
+      984
+    ],
+    "scale": 0.2601626016260163,
+    "resampler": "LANCZOS premultiplied RGBa",
+    "output": [
+      256,
+      256
+    ],
+    "perFrameSubjectFit": false,
+    "mirror": false,
+    "interpolatedPoses": false,
+    "newGeneration": false,
+    "note": "Placement derives only from fixed nominal sheet centers, not per-pose bbox/feet. Same scale and vertical offset for all poses."
+  },
+  "anchor": [
+    128,
+    215.93495934959353
+  ],
+  "anchorStatus": "fixed_shared_direction_candidate_not_client_approved",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaGt8BBox": [
+    67,
+    37,
+    192,
+    215
+  ],
+  "boundaryPixelsAlphaGt8": 0,
+  "status": "internal_visual_candidate",
+  "runtimeEnabled": false,
+  "clientApproved": false
+}

@@ -1,0 +1,56 @@
+{
+  "elementId": 7013,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/bomb/pieces/7013-football-field.png",
+  "sha256": "fe014f34166258c31de97dab63dad3c5d0eedae2394546011e4731a1f37e9bfa",
+  "width": 2400,
+  "height": 2080,
+  "worldFrameWidth": 600,
+  "worldFrameHeight": 520,
+  "exportDensity": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/maps/bomb/props-a-v1.png",
+      "sha256": "05c448bc5b547b7acce63a13e118e58cbb439f74654e96151a113ef6c92d8591",
+      "generationRecord": "assets/maps/bomb/props-a-v1.png.generation.json",
+      "purpose": "new painted grass RGB"
+    },
+    {
+      "file": "assets/ui/controls/input-normal.png",
+      "sha256": "74c72b983f6748cd07a1e98839aa9356ecf4b2eb37b78b8d55ad1d8982b9629e",
+      "generationRecord": "assets/ui/qdao-ui-controls-v3.png.generation.json",
+      "purpose": "new painted ivory line texture RGB"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/bomb/frames/candidate-7013-06e3a0881bf4.png",
+      "sha256": "ce86fccce4e08c67d7dc93445d2ddd695c203c0f729f5cc352566dbb43b6943f",
+      "purpose": "source field-line mask geometry only, no RGB copied"
+    }
+  ],
+  "operation": {
+    "type": "AI-image-textures-composited-through-reference-line-mask",
+    "newModelGeneration": false,
+    "resampled": true,
+    "sourcePixelColoursReused": false,
+    "logicalMaskSize": [
+      600,
+      520
+    ],
+    "logicalMaskSha256": "410db3f627c83c5564b3a8fc01b74853e377ba2365b0fd14eca0bd4af2a0c3a5",
+    "lineClassifier": "R>170,G>170,B>150,abs(R-G)<40,abs(B-G)<65",
+    "linePixelCount": 24447,
+    "grassStripeWidthLogicalPixels": 40,
+    "grassStripesStatus": "visual candidate, exact source colour segmentation not asserted",
+    "sourceAdvertisementRegionExcluded": null
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "geometryAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-field-composite-candidate-awaiting-mask-and-in-game-validation",
+  "warnings": [
+    "line-classification-and-turf-joins-await-visual-validation"
+  ]
+}

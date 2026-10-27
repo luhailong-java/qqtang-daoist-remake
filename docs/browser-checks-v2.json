@@ -1,0 +1,184 @@
+{
+  "testedOn": "2026-10-26",
+  "tool": "cua_repl / IAB",
+  "checks": [
+    {
+      "check": "本地身份进入频道",
+      "pass": true
+    },
+    {
+      "check": "创建八席房间",
+      "pass": true
+    },
+    {
+      "check": "第二独立标签加入同一房间",
+      "pass": true
+    },
+    {
+      "check": "未准备真人阻止开局",
+      "pass": true
+    },
+    {
+      "check": "房间聊天跨标签同步",
+      "pass": true
+    },
+    {
+      "check": "空席关闭同步",
+      "pass": true
+    },
+    {
+      "check": "真人准备同步",
+      "pass": true
+    },
+    {
+      "check": "双方进入同一权威对局",
+      "pass": true
+    },
+    {
+      "check": "双端自然结算",
+      "pass": true
+    },
+    {
+      "check": "房主暂停双端同步",
+      "pass": true
+    },
+    {
+      "check": "权威暂停跨调用冻结时间",
+      "pass": true
+    },
+    {
+      "check": "恢复后双方暂停框关闭",
+      "pass": true
+    },
+    {
+      "check": "他人回房自动关闭旧结算框",
+      "pass": true
+    },
+    {
+      "check": "手机固定触控栏可见且44px",
+      "pass": true
+    },
+    {
+      "check": "未持针不能免费自救",
+      "pass": true
+    },
+    {
+      "check": "原版角色泰坦属性差异",
+      "pass": true
+    },
+    {
+      "check": "本地商城试穿显示",
+      "pass": true
+    },
+    {
+      "check": "设置音效开关",
+      "pass": true
+    },
+    {
+      "check": "键盘调节音量",
+      "pass": true
+    },
+    {
+      "check": "Escape关闭设置",
+      "pass": true
+    },
+    {
+      "check": "真实结算战绩可见",
+      "pass": true
+    },
+    {
+      "check": "同局双方战绩分别保存并跨标签合并",
+      "pass": true
+    },
+    {
+      "check": "设置保存不覆盖另一玩家战绩",
+      "pass": true
+    },
+    {
+      "check": "八席满员AI房间展示",
+      "pass": true
+    }
+  ],
+  "modeSmoke": [
+    {
+      "mode": "普通竞技",
+      "pass": true
+    },
+    {
+      "mode": "比武",
+      "pass": true
+    },
+    {
+      "mode": "抢包山",
+      "pass": true
+    },
+    {
+      "mode": "热血足球",
+      "pass": true
+    },
+    {
+      "mode": "推箱子",
+      "pass": true
+    },
+    {
+      "mode": "合作探险",
+      "pass": true
+    }
+  ],
+  "layouts": [
+    {
+      "documentWidth": 1905,
+      "height": 1080,
+      "minButton": 26.399999618530273,
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "documentWidth": 1425,
+      "height": 900,
+      "minButton": 26.399999618530273,
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "documentWidth": 1265,
+      "height": 800,
+      "minButton": 26.399999618530273,
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "documentWidth": 753,
+      "height": 1024,
+      "minButton": 44,
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "documentWidth": 375,
+      "height": 844,
+      "minButton": 44,
+      "overflow": false,
+      "width": 390
+    }
+  ],
+  "mobileBattle": {
+    "canvas": 322,
+    "dock": {
+      "bottom": 836.0000305175781,
+      "position": "fixed",
+      "top": 674.4000244140625,
+      "width": 366.3999938964844
+    },
+    "height": 844,
+    "minTouch": 44,
+    "overflow": false,
+    "width": 390
+  },
+  "consoleErrors": [],
+  "notes": [
+    "双浏览器标签为真实独立本地身份，SSE/HTTP连接同一权威服务。",
+    "规则和服务端另有20项Node测试；本浏览器记录不声称腾讯协议兼容。",
+    "第一次回房弹窗残留与多身份战绩覆盖已修复并复测。"
+  ]
+}

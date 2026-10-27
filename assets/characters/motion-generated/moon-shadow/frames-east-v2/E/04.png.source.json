@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/frames-east-v2/E/04.png",
+  "sha256": "94d5d3d69bb315207827e74b0ef0ec685b5f2bea59e0770e65fe554fb0a83fe1",
+  "derivedAt": "2026-10-26T21:32:03.323083+00:00",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": {
+    "file": "assets/characters/motion-generated/moon-shadow/walk-east-v2.png",
+    "sha256": "f1ab9f9ab0ef0e40ffc4694e888d84b1b04e23a76d83fecd3746986cbe064fe6",
+    "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-east-v2.png.generation.json"
+  },
+  "operation": {
+    "type": "ownership_crop_fixed_nominal_root_common_transparent_canvas_uniform_downscale",
+    "sourceSize": [
+      2048,
+      768
+    ],
+    "cropLTRB": [
+      1536,
+      0,
+      2048,
+      768
+    ],
+    "nominalCellRootX": 256,
+    "placementOnCommonCanvas": [
+      236,
+      108
+    ],
+    "commonCanvas": [
+      984,
+      984
+    ],
+    "scale": 0.2601626016260163,
+    "resampler": "LANCZOS premultiplied RGBa",
+    "output": [
+      256,
+      256
+    ],
+    "perFrameSubjectFit": false,
+    "mirror": false,
+    "interpolatedPoses": false,
+    "newGeneration": false
+  },
+  "anchor": [
+    128,
+    217.75609756097563
+  ],
+  "anchorStatus": "shared_character_root_candidate_not_client_approved",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaGt8BBox": [
+    71,
+    44,
+    192,
+    211
+  ],
+  "boundaryPixelsAlphaGt8": 0,
+  "status": "not_passed",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "failureReasons": [
+    "opposite_leg_phase_not_established: frames1/3 or2/4 retain the same leading/support limb",
+    "left_hair_ornament_visibility_changes_in_frame4; side_camera_or_identity_orientation_inconsistent"
+  ]
+}

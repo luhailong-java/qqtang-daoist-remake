@@ -1,0 +1,2699 @@
+{
+  "schemaVersion": 1,
+  "tilePixels": 40,
+  "tilePixelEvidence": "community logic constant; official specification unverified",
+  "status": "production-candidates",
+  "pieces": [
+    {
+      "elementId": 5001,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5001-water-v1.png",
+      "sha256": "3fb30b5d7eea59c4d03dddd324c1f6f13c697d92c1d1a5b1d02149221e7eb9af",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-a-v1.png",
+        "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+        "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          103,
+          100,
+          433,
+          429
+        ],
+        "uniformScale": 0.48484848484848486,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "nominal-grid-then-measured-alpha-core"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5001-1424d16a2b69.png",
+        "sha256": "daff2ea859274e698f13376e5b683ab78029a49d8259c283ce9588630ab71fda",
+        "representativeElementId": 5001,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 1.0,
+        "generatedVisibleAspect": 1.003076923076923,
+        "relativeAspectDeviation": 0.003076923076922977,
+        "generatedCellLTRB": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5002,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5002-water-v2-crop.png",
+      "sha256": "a02ab264cc7838ed47d346bccb873c616caa17aa83ff0501bf90a7119672cb13",
+      "width": 180,
+      "height": 216,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-a-v1.png",
+        "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+        "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "refined-measured-crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          623,
+          62,
+          920,
+          457
+        ],
+        "uniformScale": 0.5468354430379747,
+        "placementPx": [
+          9,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "supersedes": {
+          "file": "assets/maps/water/pieces/5002-water-v1.png",
+          "sha256": "3ec2d035d583a5bb47aa8c8cf874cf50603c68e8de0ef347619ba265493a8ec0"
+        },
+        "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row."
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5002-03341311b6b9.png",
+        "sha256": "a1264c9785e69a614466f29993a0e53f14f16ab525332ba278ef11dbcf653548",
+        "representativeElementId": 5002,
+        "nativeFrameSize": [
+          45,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        5,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8333333333333334,
+        "generatedVisibleAspect": 0.7493606138107417,
+        "relativeAspectDeviation": 0.10076726342710995,
+        "generatedCellLTRB": [
+          580,
+          40,
+          950,
+          495
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.101-exceeds-0.100-review-required"
+        ]
+      }
+    },
+    {
+      "elementId": 5003,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5003-water-v1.png",
+      "sha256": "9c66c2028fb67482ee99876c34a0171ce45ce693df02bf8b3b9df615047a66cf",
+      "width": 172,
+      "height": 244,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 61,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-a-v1.png",
+        "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+        "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1126,
+          52,
+          1434,
+          481
+        ],
+        "uniformScale": 0.5584415584415584,
+        "placementPx": [
+          0,
+          4
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "nominal-grid-then-measured-alpha-core"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5003-4bb3e35b65ce.png",
+        "sha256": "ecd41bd0dad99c872f3bf933fa3b2f68334fb04417aa760b29af97f0e48445f8",
+        "representativeElementId": 5003,
+        "nativeFrameSize": [
+          43,
+          61
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        21
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.7049180327868853,
+        "generatedVisibleAspect": 0.7152941176470589,
+        "relativeAspectDeviation": 0.014719562243502127,
+        "generatedCellLTRB": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5004,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5004-water-v1.png",
+      "sha256": "7356c8b84e73fc75aceead06b549d97031aa73d769af1e4532f7634d352b786b",
+      "width": 172,
+      "height": 244,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 61,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-a-v1.png",
+        "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+        "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          117,
+          533,
+          425,
+          949
+        ],
+        "uniformScale": 0.5584415584415584,
+        "placementPx": [
+          0,
+          12
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "nominal-grid-then-measured-alpha-core"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5004-f20313256fcc.png",
+        "sha256": "8bda1c9f6b141227a9483e58a8489f09a28cb334ef3119a0bd895540603e5fe9",
+        "representativeElementId": 5004,
+        "nativeFrameSize": [
+          43,
+          61
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        20
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.7049180327868853,
+        "generatedVisibleAspect": 0.7378640776699029,
+        "relativeAspectDeviation": 0.04673741250846697,
+        "generatedCellLTRB": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5005,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5005-water-v2-crop.png",
+      "sha256": "8a9931b08fe1b0db888312361dee716d67f2e841a029f409d6631140455d7c60",
+      "width": 168,
+      "height": 252,
+      "worldFrameWidth": 42,
+      "worldFrameHeight": 63,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-a-v1.png",
+        "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+        "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "refined-measured-crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          624,
+          508,
+          931,
+          947
+        ],
+        "uniformScale": 0.5472312703583062,
+        "placementPx": [
+          0,
+          12
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "supersedes": {
+          "file": "assets/maps/water/pieces/5005-water-v1.png",
+          "sha256": "8fda3a5f0b7e3c88a39f7657a9acd9eaa63ed3dde78a3ddab62638cda0b9add5"
+        },
+        "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row."
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5005-4c98389c8515.png",
+        "sha256": "962c2c58636cc69c18cc30f6bba31d141fcff091b692f5936bf5415e3fe56d13",
+        "representativeElementId": 5005,
+        "nativeFrameSize": [
+          42,
+          63
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        22
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.6666666666666666,
+        "generatedVisibleAspect": 0.696551724137931,
+        "relativeAspectDeviation": 0.04482758620689653,
+        "generatedCellLTRB": [
+          580,
+          500,
+          960,
+          980
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5006,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5006-water-v1.png",
+      "sha256": "29604eb49691cda54fd9dbccdcf7a627ee43d57ea602dcfcbdb7713074c88231",
+      "width": 160,
+      "height": 200,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-a-v1.png",
+        "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+        "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1151,
+          590,
+          1429,
+          935
+        ],
+        "uniformScale": 0.5755395683453237,
+        "placementPx": [
+          0,
+          1
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "nominal-grid-then-measured-alpha-core"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5006-9d92383a2c45.png",
+        "sha256": "db7cb29d5530aeebd9cde919e11ebdabd6592bd95f37b6e6f3bd4a75c84ed96f",
+        "representativeElementId": 5006,
+        "nativeFrameSize": [
+          40,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        -1,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8,
+        "generatedVisibleAspect": 0.8035190615835777,
+        "relativeAspectDeviation": 0.004398826979471915,
+        "generatedCellLTRB": [
+          1024,
+          512,
+          1536,
+          1024
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5007,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5007-water-v1.png",
+      "sha256": "bc13c4f7d51c87e7dfffddd87b4d7ed181af3b08bb00b2975afe71ab3f15b0b2",
+      "width": 180,
+      "height": 200,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-b-v1.png",
+        "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+        "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          115,
+          163,
+          364,
+          440
+        ],
+        "uniformScale": 0.7220216606498195,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5007-e5639f9b1546.png",
+        "sha256": "1e05f9a29735d4bb55bd5bd2d47c858649d835294cc3e65318b46fcc6605f178",
+        "representativeElementId": 5007,
+        "nativeFrameSize": [
+          45,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.9,
+        "generatedVisibleAspect": 0.8974358974358975,
+        "relativeAspectDeviation": 0.002849002849002802,
+        "generatedCellLTRB": [
+          90,
+          140,
+          390,
+          470
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5008,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5008-water-v1.png",
+      "sha256": "8853272f68f6e782201244f1822e90ee818f3be0640a0c828624cfd0f7a7b23b",
+      "width": 180,
+      "height": 200,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-b-v1.png",
+        "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+        "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          580,
+          162,
+          838,
+          440
+        ],
+        "uniformScale": 0.6976744186046512,
+        "placementPx": [
+          0,
+          6
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5008-82f9ebae536b.png",
+        "sha256": "fc49ede3ba3618403bf96f4b28e24789c4bc52e452c8e6f8eab66f77610387c0",
+        "representativeElementId": 5008,
+        "nativeFrameSize": [
+          45,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.9,
+        "generatedVisibleAspect": 0.927007299270073,
+        "relativeAspectDeviation": 0.030008110300081103,
+        "generatedCellLTRB": [
+          550,
+          140,
+          865,
+          470
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5009,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5009-water-v1.png",
+      "sha256": "052070ebb623a1c3d2196e8eca61a704eb447d2ee3ab89ab5e8f4a47a5bee353",
+      "width": 508,
+      "height": 368,
+      "worldFrameWidth": 127,
+      "worldFrameHeight": 92,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-b-v1.png",
+        "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+        "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          915,
+          96,
+          1527,
+          541
+        ],
+        "uniformScale": 0.8269662921348314,
+        "placementPx": [
+          1,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5009-387bdbde9a04.png",
+        "sha256": "5a880f803443987bb34ab9376de9a4dd05de6627b9378427fd8a3cc009c31db5",
+        "representativeElementId": 5009,
+        "nativeFrameSize": [
+          127,
+          92
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        3,
+        2
+      ],
+      "sourceGridAttr": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        14
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 1.3804347826086956,
+        "generatedVisibleAspect": 1.3786848072562359,
+        "relativeAspectDeviation": 0.0012676986805220114,
+        "generatedCellLTRB": [
+          890,
+          70,
+          1536,
+          555
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5010,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5010-water-v1.png",
+      "sha256": "8dc9f17e97eb537bf19d9c546d9176d09699a11f4691f0757695d522fb2ba119",
+      "width": 160,
+      "height": 228,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 57,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-b-v1.png",
+        "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+        "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          119,
+          606,
+          350,
+          929
+        ],
+        "uniformScale": 0.6926406926406926,
+        "placementPx": [
+          0,
+          4
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5010-a99762f03a59.png",
+        "sha256": "2b91810aeb19058df5ba6678666e5ab15121f1387fa53d9c3bace8003fd0009b",
+        "representativeElementId": 5010,
+        "nativeFrameSize": [
+          40,
+          57
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        5397
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        18
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.7017543859649122,
+        "generatedVisibleAspect": 0.7115987460815048,
+        "relativeAspectDeviation": 0.014028213166144221,
+        "generatedCellLTRB": [
+          90,
+          570,
+          385,
+          970
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5011,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5011-water-v1.png",
+      "sha256": "6af68c452b89eb4f6f7b13093b3e7fbd0bdc149f780a8149d97272dae15f593d",
+      "width": 640,
+      "height": 316,
+      "worldFrameWidth": 160,
+      "worldFrameHeight": 79,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-b-v1.png",
+        "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+        "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          429,
+          676,
+          1097,
+          953
+        ],
+        "uniformScale": 0.9580838323353293,
+        "placementPx": [
+          0,
+          51
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5011-6fa78776aa7c.png",
+        "sha256": "c8e2b1aec4b1f735442cfb92fdd8f8dfac236241a0b30e14d79bd4b0ddc46c5b",
+        "representativeElementId": 5011,
+        "nativeFrameSize": [
+          160,
+          79
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        4,
+        2
+      ],
+      "sourceGridAttr": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        1
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        1
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 2.0253164556962027,
+        "generatedVisibleAspect": 2.432234432234432,
+        "relativeAspectDeviation": 0.20091575091575065,
+        "generatedCellLTRB": [
+          400,
+          645,
+          1120,
+          990
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.201-exceeds-0.100-review-required"
+        ]
+      }
+    },
+    {
+      "elementId": 5012,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5012-water-v1.png",
+      "sha256": "3c6c3bdc8ac9f2534d5e787dc21c188ba4386f56828655cb6d8899bba789fe4d",
+      "width": 160,
+      "height": 240,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 60,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-b-v1.png",
+        "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+        "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1174,
+          584,
+          1425,
+          939
+        ],
+        "uniformScale": 0.6374501992031872,
+        "placementPx": [
+          0,
+          14
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5012-17ce9f4fc0dc.png",
+        "sha256": "ce05fc80f7e8b958dfc28631ce1024d8030d2d1e198e5dc3f1dce63961493b74",
+        "representativeElementId": 5012,
+        "nativeFrameSize": [
+          40,
+          60
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        22
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.6666666666666666,
+        "generatedVisibleAspect": 0.7037037037037037,
+        "relativeAspectDeviation": 0.05555555555555558,
+        "generatedCellLTRB": [
+          1140,
+          550,
+          1460,
+          990
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5013,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5013-water-v1.png",
+      "sha256": "37e23856217fb0de1de3ea794c76412c8d26ba13bdc48eb17591eb24c255f616",
+      "width": 160,
+      "height": 188,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 47,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-c-v1.png",
+        "sha256": "74c728c86df769f2ccb133b1aee52f37ec91976bc12bf3fd68effd73d6036670",
+        "generationRecord": "assets/maps/water/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          133,
+          133,
+          447,
+          462
+        ],
+        "uniformScale": 0.5095541401273885,
+        "placementPx": [
+          0,
+          20
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5013-41530b64da76.png",
+        "sha256": "75c8fec44065203edd86c841105b3b5e1a4ff84d21876b9caf01232f1e01bda2",
+        "representativeElementId": 5013,
+        "nativeFrameSize": [
+          40,
+          47
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        7
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.851063829787234,
+        "generatedVisibleAspect": 0.9538461538461539,
+        "relativeAspectDeviation": 0.12076923076923074,
+        "generatedCellLTRB": [
+          100,
+          100,
+          475,
+          485
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.121-exceeds-0.100-review-required"
+        ]
+      }
+    },
+    {
+      "elementId": 5014,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5014-water-v1.png",
+      "sha256": "682aad82965b183e2837f7dab2acc11ffae00dcb801fbe57de1c66a89e04dc8d",
+      "width": 160,
+      "height": 220,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 55,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-c-v1.png",
+        "sha256": "74c728c86df769f2ccb133b1aee52f37ec91976bc12bf3fd68effd73d6036670",
+        "generationRecord": "assets/maps/water/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          610,
+          74,
+          926,
+          485
+        ],
+        "uniformScale": 0.5063291139240507,
+        "placementPx": [
+          0,
+          12
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5014-10a857ddc08a.png",
+        "sha256": "e31710627c72088cbfb5c46675cceb7db8ee201e8af4218c63df5ebea5d16a64",
+        "representativeElementId": 5014,
+        "nativeFrameSize": [
+          40,
+          55
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        15
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.7272727272727273,
+        "generatedVisibleAspect": 0.7665847665847666,
+        "relativeAspectDeviation": 0.054054054054053946,
+        "generatedCellLTRB": [
+          580,
+          45,
+          950,
+          495
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5015,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5015-water-v1.png",
+      "sha256": "821f37d0a5e170c42c058b2b9be2365e89025a13bd8c1718750c495735137286",
+      "width": 180,
+      "height": 200,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-c-v1.png",
+        "sha256": "74c728c86df769f2ccb133b1aee52f37ec91976bc12bf3fd68effd73d6036670",
+        "generationRecord": "assets/maps/water/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1102,
+          128,
+          1432,
+          469
+        ],
+        "uniformScale": 0.5454545454545454,
+        "placementPx": [
+          0,
+          14
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5015-2bdf9960538b.png",
+        "sha256": "f6fdd0350859b7a5774da2e30bc63d11d8203dc6ca890ba19fa4a7ab26b81fa3",
+        "representativeElementId": 5015,
+        "nativeFrameSize": [
+          45,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        10
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.9,
+        "generatedVisibleAspect": 0.9673590504451038,
+        "relativeAspectDeviation": 0.07484338938344859,
+        "generatedCellLTRB": [
+          1070,
+          100,
+          1460,
+          495
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5016,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5016-water-v1.png",
+      "sha256": "9f19f342e48b74362a609746e52b3f409412d14367586be7bbe9f4920c098c65",
+      "width": 180,
+      "height": 200,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-c-v1.png",
+        "sha256": "74c728c86df769f2ccb133b1aee52f37ec91976bc12bf3fd68effd73d6036670",
+        "generationRecord": "assets/maps/water/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          118,
+          582,
+          440,
+          935
+        ],
+        "uniformScale": 0.5590062111801242,
+        "placementPx": [
+          0,
+          3
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5016-4ecd2f6c4ac9.png",
+        "sha256": "849e5612181060a406e0b8e366485f890063ebbe8aeeb7633f2bb64e4164705a",
+        "representativeElementId": 5016,
+        "nativeFrameSize": [
+          45,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        5,
+        10
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.9,
+        "generatedVisibleAspect": 0.9111747851002865,
+        "relativeAspectDeviation": 0.01241642788920716,
+        "generatedCellLTRB": [
+          100,
+          550,
+          470,
+          970
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5017,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5017-water-v1.png",
+      "sha256": "ffada96fc76b348f60b015720c7f8c927703a7d07f8b0c1c75907d8d10298e27",
+      "width": 180,
+      "height": 216,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-c-v1.png",
+        "sha256": "74c728c86df769f2ccb133b1aee52f37ec91976bc12bf3fd68effd73d6036670",
+        "generationRecord": "assets/maps/water/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          617,
+          554,
+          922,
+          936
+        ],
+        "uniformScale": 0.5654450261780105,
+        "placementPx": [
+          4,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5017-53c1100975e8.png",
+        "sha256": "0b41fb66d2a9aed16c77a6318834abed8237cdebc7edd94ce829e19955bf4939",
+        "representativeElementId": 5017,
+        "nativeFrameSize": [
+          45,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        5,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8333333333333334,
+        "generatedVisibleAspect": 0.7962962962962963,
+        "relativeAspectDeviation": 0.04444444444444451,
+        "generatedCellLTRB": [
+          580,
+          525,
+          950,
+          975
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5018,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5018-water-v1.png",
+      "sha256": "e94917c8eed98d6eceb16a041628fbb47075c0095a0d0ae38a8c81f5931a2706",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-c-v1.png",
+        "sha256": "74c728c86df769f2ccb133b1aee52f37ec91976bc12bf3fd68effd73d6036670",
+        "generationRecord": "assets/maps/water/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1112,
+          571,
+          1434,
+          939
+        ],
+        "uniformScale": 0.546583850931677,
+        "placementPx": [
+          0,
+          15
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5018-b141c4df42fe.png",
+        "sha256": "5e552ec33e4670ee6664c944c428c10d17e0924b654cedb9a4ce1f4727d5a5bf",
+        "representativeElementId": 5018,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8736263736263736,
+        "relativeAspectDeviation": 0.0721778221778222,
+        "generatedCellLTRB": [
+          1080,
+          540,
+          1460,
+          975
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5019,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5019-water-v1.png",
+      "sha256": "e3f26cbf2bd543faefde25ec741ecba73ceaa0c2109f44a630a6198779593f14",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-d-v1.png",
+        "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+        "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          150,
+          190,
+          390,
+          430
+        ],
+        "uniformScale": 0.6666666666666666,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5019-d37e8b78e42f.png",
+        "sha256": "3683ff9706ada644c3ae39d9b7e836cfc16413f6bffdbb389dffb8d1b35ce591",
+        "representativeElementId": 5019,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 1.0,
+        "generatedVisibleAspect": 1.0,
+        "relativeAspectDeviation": 0.0,
+        "generatedCellLTRB": [
+          130,
+          170,
+          420,
+          455
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5020,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5020-water-v1.png",
+      "sha256": "cd4de21a1fbd69b140c1da235a33deed4173661c054e1bf639772af43776acd5",
+      "width": 160,
+      "height": 200,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-d-v1.png",
+        "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+        "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          661,
+          133,
+          882,
+          441
+        ],
+        "uniformScale": 0.6493506493506493,
+        "placementPx": [
+          8,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5020-e8d761a5d1f4.png",
+        "sha256": "e11242d675801b470d31200fa6fe8c76d9d9700da5f473a25f040959611c11ea",
+        "representativeElementId": 5020,
+        "nativeFrameSize": [
+          40,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        10
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8,
+        "generatedVisibleAspect": 0.7138157894736842,
+        "relativeAspectDeviation": 0.1077302631578948,
+        "generatedCellLTRB": [
+          630,
+          105,
+          920,
+          465
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.108-exceeds-0.100-review-required"
+        ]
+      }
+    },
+    {
+      "elementId": 5021,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5021-water-v1.png",
+      "sha256": "765ac29b4dbe6e68fc8750baf89fb0be8fa5e1da80f951588d58efc10f295303",
+      "width": 176,
+      "height": 200,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-d-v1.png",
+        "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+        "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1155,
+          146,
+          1422,
+          436
+        ],
+        "uniformScale": 0.6591760299625468,
+        "placementPx": [
+          0,
+          9
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5021-f86a62a44af8.png",
+        "sha256": "fc1b3f03279655c70f9cc3cccbfd597205527180949b1ee4332a5a28ed380c32",
+        "representativeElementId": 5021,
+        "nativeFrameSize": [
+          44,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        10
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.88,
+        "generatedVisibleAspect": 0.9195804195804196,
+        "relativeAspectDeviation": 0.04497774952320399,
+        "generatedCellLTRB": [
+          1125,
+          120,
+          1450,
+          465
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5023,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5023-water-v1.png",
+      "sha256": "68705990b0dd62b4ec0df02d23b2f710f4ce53dbcac8d77460a20046be9c5066",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-d-v1.png",
+        "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+        "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          145,
+          641,
+          398,
+          890
+        ],
+        "uniformScale": 0.6324110671936759,
+        "placementPx": [
+          0,
+          3
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5023-86ff8db59ebf.png",
+        "sha256": "59f2257689e9209f187676b5bf6aa71459a01da2aa1423dd52a373f3cc957739",
+        "representativeElementId": 5023,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 1.0,
+        "generatedVisibleAspect": 1.0163265306122449,
+        "relativeAspectDeviation": 0.01632653061224487,
+        "generatedCellLTRB": [
+          125,
+          620,
+          420,
+          925
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5024,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5024-water-v2-crop.png",
+      "sha256": "310621c048927b69f93c145a3984d00246acbcd65a06dae869a3391e1be0d62e",
+      "width": 180,
+      "height": 216,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-d-v1.png",
+        "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+        "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "refined-measured-crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          622,
+          565,
+          915,
+          907
+        ],
+        "uniformScale": 0.6143344709897611,
+        "placementPx": [
+          0,
+          6
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "supersedes": {
+          "file": "assets/maps/water/pieces/5024-water-v1.png",
+          "sha256": "6b3f8c7993fdb4cc34fe45cee0b9f90aaeaeb6f03b6ddddd1dfcad18499b2b1f"
+        },
+        "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row."
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5024-fd839c889c19.png",
+        "sha256": "c5ad633ee4542e77058ae97fb1befeacdbd3bcf28abbfb7de5f6b397428a1a6a",
+        "representativeElementId": 5024,
+        "nativeFrameSize": [
+          45,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        11
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8333333333333334,
+        "generatedVisibleAspect": 0.8550295857988166,
+        "relativeAspectDeviation": 0.026035502958579926,
+        "generatedCellLTRB": [
+          600,
+          515,
+          970,
+          950
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5025,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5025-water-v1.png",
+      "sha256": "9493ecdaf998687f70c127a24ee0e6726a70081aca414ad4d05cabdb9326ecda",
+      "width": 180,
+      "height": 216,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-d-v1.png",
+        "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+        "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1166,
+          565,
+          1427,
+          907
+        ],
+        "uniformScale": 0.631578947368421,
+        "placementPx": [
+          7,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5025-edae7df57013.png",
+        "sha256": "ef818c06734d173c4cea73024fefe939825d462e54ea80a5a218ca69f1776155",
+        "representativeElementId": 5025,
+        "nativeFrameSize": [
+          45,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8333333333333334,
+        "generatedVisibleAspect": 0.7603550295857988,
+        "relativeAspectDeviation": 0.08757396449704147,
+        "generatedCellLTRB": [
+          1140,
+          535,
+          1455,
+          940
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5026,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5026-water-v1.png",
+      "sha256": "9b0b2b3aff51f4c43df12c2d819ace78166a866ce453125b0d9b7b2169208eae",
+      "width": 172,
+      "height": 244,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 61,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-e-v1.png",
+        "sha256": "3b7705de0cbae834420d68600681b3e6795e3380ea0b2279d13ca5391937cc20",
+        "generationRecord": "assets/maps/water/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          143,
+          137,
+          357,
+          451
+        ],
+        "uniformScale": 0.7770700636942676,
+        "placementPx": [
+          3,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5026-5237ab6f6103.png",
+        "sha256": "12ad254ca0a95f09a657e4dc11e5b97d1e2b420dbff8faf8e93af4ca212717d6",
+        "representativeElementId": 5026,
+        "nativeFrameSize": [
+          43,
+          61
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        21
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.7049180327868853,
+        "generatedVisibleAspect": 0.6774193548387096,
+        "relativeAspectDeviation": 0.03900975243810956,
+        "generatedCellLTRB": [
+          100,
+          110,
+          390,
+          480
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5028,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5028-water-v1.png",
+      "sha256": "1478ab25961da0961afa129474f3831011dc7fff2078482c9df6aa58cdcaae26",
+      "width": 180,
+      "height": 200,
+      "worldFrameWidth": 45,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-e-v1.png",
+        "sha256": "3b7705de0cbae834420d68600681b3e6795e3380ea0b2279d13ca5391937cc20",
+        "generationRecord": "assets/maps/water/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          603,
+          164,
+          833,
+          442
+        ],
+        "uniformScale": 0.7194244604316546,
+        "placementPx": [
+          7,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5028-3448764c2e57.png",
+        "sha256": "8a645013c1aed6792768abaceb5a86157a3db85768960e4805144bb359126461",
+        "representativeElementId": 5028,
+        "nativeFrameSize": [
+          45,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        5,
+        9
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.9,
+        "generatedVisibleAspect": 0.8248175182481752,
+        "relativeAspectDeviation": 0.08353609083536095,
+        "generatedCellLTRB": [
+          570,
+          130,
+          870,
+          480
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5029,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5029-water-v1.png",
+      "sha256": "913ae7475f49967c23c89f40945ca95d8c3efe9bca90dab45f528cdf0a9ecb52",
+      "width": 168,
+      "height": 196,
+      "worldFrameWidth": 42,
+      "worldFrameHeight": 49,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-e-v1.png",
+        "sha256": "3b7705de0cbae834420d68600681b3e6795e3380ea0b2279d13ca5391937cc20",
+        "generationRecord": "assets/maps/water/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1166,
+          168,
+          1407,
+          445
+        ],
+        "uniformScale": 0.6970954356846473,
+        "placementPx": [
+          0,
+          3
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5029-27a88c0ca0a5.png",
+        "sha256": "6476248abf6d4984e2bd459b08f76d74d66fb8a0044d1189aa3cbe3e0c3e8396",
+        "representativeElementId": 5029,
+        "nativeFrameSize": [
+          42,
+          49
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        9
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        14
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8571428571428571,
+        "generatedVisibleAspect": 0.8681318681318682,
+        "relativeAspectDeviation": 0.012820512820512997,
+        "generatedCellLTRB": [
+          1140,
+          140,
+          1450,
+          480
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5030,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5030-water-v1.png",
+      "sha256": "337f51b6c3427f9039b776eb17f1b82884f807cac954236b6ee8af1ec1e43aee",
+      "width": 160,
+      "height": 208,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 52,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-e-v1.png",
+        "sha256": "3b7705de0cbae834420d68600681b3e6795e3380ea0b2279d13ca5391937cc20",
+        "generationRecord": "assets/maps/water/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          110,
+          622,
+          338,
+          929
+        ],
+        "uniformScale": 0.6775244299674267,
+        "placementPx": [
+          3,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5030-cdfba69d65ae.png",
+        "sha256": "707a0ec57d4a971a971402594da383f9da26f0b106f2da4205f125089aa7dd49",
+        "representativeElementId": 5030,
+        "nativeFrameSize": [
+          40,
+          52
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        11
+      ],
+      "sourceFrameOffsetRaw": [
+        5,
+        4
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.7692307692307693,
+        "generatedVisibleAspect": 0.7392739273927392,
+        "relativeAspectDeviation": 0.038943894389439015,
+        "generatedCellLTRB": [
+          90,
+          590,
+          375,
+          970
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5034,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5034-water-v1.png",
+      "sha256": "3579371fcc5c9adad2cf2d8d16f49e322262ffd988f22e6879fb386a7894c40e",
+      "width": 448,
+      "height": 364,
+      "worldFrameWidth": 112,
+      "worldFrameHeight": 91,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-e-v1.png",
+        "sha256": "3b7705de0cbae834420d68600681b3e6795e3380ea0b2279d13ca5391937cc20",
+        "generationRecord": "assets/maps/water/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          405,
+          557,
+          893,
+          940
+        ],
+        "uniformScale": 0.9180327868852459,
+        "placementPx": [
+          0,
+          12
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5034-527355913bf6.png",
+        "sha256": "3e9e7fe27fabfb05297779e1ce05e2c22c73197c70f49b2fe14ef0a5ea91e383",
+        "representativeElementId": 5034,
+        "nativeFrameSize": [
+          112,
+          91
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        2,
+        1
+      ],
+      "sourceGridAttr": [
+        0,
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        17,
+        49
+      ],
+      "sourceFrameOffsetRaw": [
+        4,
+        4
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 1.2307692307692308,
+        "generatedVisibleAspect": 1.2770448548812665,
+        "relativeAspectDeviation": 0.03759894459102897,
+        "generatedCellLTRB": [
+          380,
+          525,
+          925,
+          990
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5035,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5035-water-v1.png",
+      "sha256": "fbba373b51ad71da929f64ba3becc7291bbeeb0bc7c0b939ecf96553a53945eb",
+      "width": 800,
+      "height": 616,
+      "worldFrameWidth": 200,
+      "worldFrameHeight": 154,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-e-v1.png",
+        "sha256": "3b7705de0cbae834420d68600681b3e6795e3380ea0b2279d13ca5391937cc20",
+        "generationRecord": "assets/maps/water/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          950,
+          508,
+          1529,
+          962
+        ],
+        "uniformScale": 1.3568281938325992,
+        "placementPx": [
+          7,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5035-c1b5ae9f2807.png",
+        "sha256": "f52410a05ba24d2cf1e9f234954f6ccf7182af42383653140f82894e8c72e25d",
+        "representativeElementId": 5035,
+        "nativeFrameSize": [
+          200,
+          154
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        5,
+        2
+      ],
+      "sourceGridAttr": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        74
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 1.2987012987012987,
+        "generatedVisibleAspect": 1.2777777777777777,
+        "relativeAspectDeviation": 0.016111111111111187,
+        "generatedCellLTRB": [
+          925,
+          490,
+          1536,
+          1005
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5036,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5036-water-v1.png",
+      "sha256": "be33a3f4ff0cdf7097d52a46d6e02a8c06962dc326fe70ff361b7d2a21f81495",
+      "width": 2400,
+      "height": 320,
+      "worldFrameWidth": 600,
+      "worldFrameHeight": 80,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-f-v1.png",
+        "sha256": "9d5115c6ed2fa74e0f9f0d6b26e53656b55edf7333d7c0604f2323cfc2296c91",
+        "generationRecord": "assets/maps/water/props-f-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          10,
+          177,
+          1532,
+          402
+        ],
+        "uniformScale": 1.4222222222222223,
+        "placementPx": [
+          117,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5036-6f8d2153f802.png",
+        "sha256": "3e841ef7e0963296c1664e64ec9a1d2ef736f6071872c207b66c72119d40dd0a",
+        "representativeElementId": 5036,
+        "nativeFrameSize": [
+          600,
+          80
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        15,
+        2
+      ],
+      "sourceGridAttr": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 7.5,
+        "generatedVisibleAspect": 6.868778280542986,
+        "relativeAspectDeviation": 0.08416289592760184,
+        "generatedCellLTRB": [
+          0,
+          140,
+          1536,
+          430
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 5037,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/water/pieces/5037-water-v1.png",
+      "sha256": "c7015d5566548674e6bc0f1df64e359897afb8b584c49b38bf037c01e2f332d7",
+      "width": 168,
+      "height": 192,
+      "worldFrameWidth": 42,
+      "worldFrameHeight": 48,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-f-v1.png",
+        "sha256": "9d5115c6ed2fa74e0f9f0d6b26e53656b55edf7333d7c0604f2323cfc2296c91",
+        "generationRecord": "assets/maps/water/props-f-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          631,
+          646,
+          906,
+          929
+        ],
+        "uniformScale": 0.610909090909091,
+        "placementPx": [
+          0,
+          19
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5037-7c6029b9ec9f.png",
+        "sha256": "def28a1482256972c1a45170c7acf1dd4898941fa436974581a348c621f8e7bc",
+        "representativeElementId": 5037,
+        "nativeFrameSize": [
+          42,
+          48
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        3
+      ],
+      "sourceFrameOffsetRaw": [
+        2,
+        24
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.875,
+        "generatedVisibleAspect": 0.9713261648745519,
+        "relativeAspectDeviation": 0.11008704557091642,
+        "generatedCellLTRB": [
+          600,
+          610,
+          950,
+          975
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.110-exceeds-0.100-review-required"
+        ],
+        "manualUnpassed": [
+          {
+            "check": "visible-horizontal-plank-count",
+            "value": 4,
+            "threshold": 5
+          }
+        ]
+      }
+    }
+  ],
+  "supersededCrops": [
+    {
+      "elementId": 5002,
+      "file": "assets/maps/water/pieces/5002-water-v1.png",
+      "replacedBy": "assets/maps/water/pieces/5002-water-v2-crop.png",
+      "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row.",
+      "retentionReason": "May still be referenced by root global inventory until its next refresh; do not delete automatically."
+    },
+    {
+      "elementId": 5005,
+      "file": "assets/maps/water/pieces/5005-water-v1.png",
+      "replacedBy": "assets/maps/water/pieces/5005-water-v2-crop.png",
+      "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row.",
+      "retentionReason": "May still be referenced by root global inventory until its next refresh; do not delete automatically."
+    },
+    {
+      "elementId": 5024,
+      "file": "assets/maps/water/pieces/5024-water-v1.png",
+      "replacedBy": "assets/maps/water/pieces/5024-water-v2-crop.png",
+      "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row.",
+      "retentionReason": "May still be referenced by root global inventory until its next refresh; do not delete automatically."
+    }
+  ],
+  "sourcePictureAliases": []
+}

@@ -1,0 +1,82 @@
+{
+  "elementId": 4047,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4047-mine-v1.png",
+  "sha256": "aa29fe45417aac7f7894860a658eb4bc814582cf07db37fea56e9d9922a72185",
+  "width": 160,
+  "height": 320,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 80,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-g-v1.png",
+    "sha256": "319572e8bc61e66d938fcffdb08e1b6dcfa0ae2b360cb8c331d2b4c3534cc6e1",
+    "generationRecord": "assets/maps/mine/props-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1135,
+      48,
+      1374,
+      481
+    ],
+    "uniformScale": 0.6694560669456067,
+    "placementPx": [
+      0,
+      30
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4047-caa3536e5c29.png",
+    "sha256": "aebc3f3b99220a3e6ab367099b9cb2103902c2d2da3984c3484005063296a19d",
+    "representativeElementId": 4047,
+    "nativeFrameSize": [
+      40,
+      80
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.5,
+    "generatedVisibleAspect": 0.5477855477855478,
+    "relativeAspectDeviation": 0.09557109557109555,
+    "generatedCellLTRB": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

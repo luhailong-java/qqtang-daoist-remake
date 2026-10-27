@@ -1,0 +1,81 @@
+{
+  "elementId": 4001,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4001-mine-v1.png",
+  "sha256": "41b69de6e4c4ce5a649140792d4feef747b25a9ca23da4936d3747e1db8aa7eb",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-a-v1.png",
+    "sha256": "6f1fc5cdcebe5f35102b8c2baa7c7e2b41fdda4dcc1cbae8c8c80cd0753b8129",
+    "generationRecord": "assets/maps/mine/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      102,
+      84,
+      431,
+      424
+    ],
+    "uniformScale": 0.47058823529411764,
+    "placementPx": [
+      2,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4001-700d8bf1d535.png",
+    "sha256": "1e587d0ceefe1a803a46421829673f6ad680efbc9e0e307aab9e7cf53ef127a9",
+    "representativeElementId": 4001,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 0.9672619047619048,
+    "relativeAspectDeviation": 0.03273809523809523,
+    "generatedCellLTRB": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "testedOn": "2026-10-26",
+  "tool": "cua_repl / in-app browser",
+  "checks": [
+    {
+      "check": "地图筛选",
+      "pass": true
+    },
+    {
+      "check": "收藏状态",
+      "pass": true
+    },
+    {
+      "check": "选择铃音",
+      "pass": true
+    },
+    {
+      "check": "角色选择持久化",
+      "pass": true
+    },
+    {
+      "check": "空房间名拦截",
+      "pass": true
+    },
+    {
+      "check": "角色持久化实际图集坐标",
+      "pass": true
+    },
+    {
+      "check": "房间创建与AI/地图/时长配置",
+      "pass": true
+    },
+    {
+      "check": "触屏开局与暂停",
+      "pass": true
+    },
+    {
+      "check": "暂停冻结计时",
+      "pass": true
+    },
+    {
+      "check": "对战自然结束并弹出结算",
+      "pass": true
+    },
+    {
+      "check": "再来一局",
+      "pass": true
+    },
+    {
+      "check": "退出二次确认",
+      "pass": true
+    },
+    {
+      "check": "战绩写入",
+      "pass": true
+    },
+    {
+      "check": "音效开关",
+      "pass": true
+    },
+    {
+      "check": "音量键盘调节",
+      "pass": true
+    },
+    {
+      "check": "Escape关闭弹窗",
+      "pass": true
+    },
+    {
+      "check": "玩法说明完整",
+      "pass": true
+    },
+    {
+      "check": "内联交付版经HTTP开局",
+      "pass": true
+    }
+  ],
+  "layouts": [
+    {
+      "documentWidth": 1905,
+      "height": 1080,
+      "minButtonSize": 26,
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "documentWidth": 1425,
+      "height": 900,
+      "minButtonSize": 26,
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "documentWidth": 1265,
+      "height": 800,
+      "minButtonSize": 26,
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "documentWidth": 753,
+      "height": 1024,
+      "minButtonSize": 26,
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "documentWidth": 375,
+      "height": 844,
+      "minButtonSize": 44,
+      "overflow": false,
+      "width": 390
+    }
+  ],
+  "consoleErrors": [],
+  "offlineFileProtocolTest": "未执行：浏览器安全策略禁止自动访问file协议；改用本地HTTP验证内联构建版本。"
+}

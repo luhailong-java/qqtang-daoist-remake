@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/walk-north-v2.png",
+  "sha256": "381bf49aaf7799c854fd8520511642f71d49e9e3de458f87925d339a38f7df9b",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 18:25:50 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 18:28:16 UTC"
+    }
+  },
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case identity-preserve. ONE horizontal four-frame NORTH/back-view walk strip of the same original Moon Shadow girl from input1. Keep her short silver-grey bob/cowlick, navy crescent/petal ornament on ANATOMICAL LEFT, navy/gold cloud scarf, ivory/indigo Taoist outfit, crescent belt and blue beads, indigo/gold boots, one silver crescent dagger per hand. Images2/3: primary hand-painted Taoist style only, no UI. Image4: the existing SOUTH set for identical body volume, garments and paint finish; do NOT retain its front view.\nExactly ONE row of FOUR whole figures, preferably2048x768, on genuine transparent alpha. Uniform columns, fixed camera/scale/body height and torso center. Generous >=14% side and15% top/bottom padding around the WHOLE silhouette, including scarf/knives. No floor/shadow/text/grid/particles. All four figures face directly NORTH, away from viewer: BACK of hair and clothes visible, no eyes or front face. BACK view means anatomical LEFT is viewerLEFT, RIGHT is viewerRIGHT. Hair ornament stays on viewerLEFT from the back; scarf can trail right but stays inside cell.\nFour unmistakably different leg poses:\n1 RIGHT FOOT FORWARD/AWAY, LEFT FOOT TRAILING NEARER: RIGHT boot viewerRIGHT is farther/higher at x59%,y74%; LEFT boot viewerLEFT extends behind/nearer/lower at x39%,y85%. Right knee leads away, left leg reaches down toward camera.\n2 RIGHT SUPPORT, LEFT LIFTED: RIGHT boot viewerRIGHT planted at x58%,y85%; LEFT boot viewerLEFT raised toward camera with dark SOLE visible at x43%,y73%. Clear left bent knee.\n3 LEFT FOOT FORWARD/AWAY, RIGHT FOOT TRAILING NEARER: LEFT boot viewerLEFT farther/higher at x41%,y74%; RIGHT boot viewerRIGHT extends nearer/lower at x61%,y85%. OPPOSITE near/far knees from frame1. Do not keep the left boot low again.\n4 LEFT SUPPORT, RIGHT LIFTED: LEFT boot viewerLEFT planted x42%,y85%; RIGHT boot viewerRIGHT raised toward camera with dark SOLE visible x57%,y73%. OPPOSITE planted/lifted feet from frame2. Do not lift the left boot again.\nOpposite arms gently counter-swing while holding daggers pointed safely down, no attack. Real grounded walk, no jumping. Four-phase alternating LEFT/RIGHT, not redrawn duplicates. Stable head/torso, small cloth follow-through only, maximum clean fine hand-painted detail.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/moon-shadow.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/walk-south-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具仅返回image_url/output_hint，没有可核实版本、质量或精确生成时刻。",
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/moon-shadow/walk-north-v2.receipt.json",
+    "submission": "assets/characters/motion-generated/moon-shadow/walk-north-v2.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "prompt": {
+    "path": "assets/characters/motion-generated/moon-shadow/walk-north-v2.prompt.txt",
+    "sha256": "f7c5ff726c12509fd9461ba26ea76e0499c93ad018c16ddff54fca8cca516f3f"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/moon-shadow.png",
+      "sha256": "8ccc7e9118ed1ca608a407687e5a76cf392b1f694ef7737ccc28536caae84bfc",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 4,
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/walk-south-v2.png",
+      "sha256": "bd923ad328d7227e43914bf7e0c2f8e10bd2c2ede5a3e0583cd9b826973eb245",
+      "role": "adopted south action body/finish reference"
+    }
+  ],
+  "status": "not_passed",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "direction": "N",
+    "identity": "original character recognizable; phase/side issues separately listed",
+    "transparency": "actual alpha; ivory/dark composition reviewed; hidden RGB excluded",
+    "gait": "not_passed",
+    "failureReasons": [
+      "opposite_leg_phase_not_established: frames1/3 or2/4 retain the same leading/support limb",
+      "back_head_with_front_waist_clasp_and_front_boot_motifs; rear garment design not established"
+    ],
+    "note": "Different PNG hashes do not establish different gait phases."
+  }
+}

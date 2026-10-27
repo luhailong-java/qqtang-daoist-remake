@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/walk-sheet-v1.png",
+  "sha256": "7bf42e768982e57faa657f0a833f2b5ad9a4892d3734b21e21751fdfb113c5bc",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 16:26:19 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 16:28:19 UTC"
+    }
+  },
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: identity-preserve. Asset type: game-ready transparent 2D character WALK animation sprite sheet.\nCreate ONE square sheet of EXACTLY 16 separately drawn full-body sprites of the SAME original Taoist chibi boy shown in reference image 1, arranged on an exact invisible uniform 4-column by 4-row grid. This is a new action set for this same identity, not a redesign.\nInput image 1 is the identity master: keep his short spiky dark-brown hair, broad golden-yellow headband tied at his left temple, huge amber-brown eyes, cheerful round face, short-body big-head proportions, cream-white Taoist robe and trousers, jade-green sleeveless gold-edged overcoat, taiji belt medallion, jade/cream shoes, small belt bells and beads, and golden taiji gourd carried in the character's LEFT hand. No sword, staff, mask, new hat, different face, or duplicate gourd. His free right arm swings naturally while walking. Side views must respect anatomical left/right; do not simply mirror equipment.\nInput images 2 and 3 are STYLE ONLY: match their fine hand-painted Taoist chibi rendering, jade/teal, ivory cloth, warm-gold trim, clear expressive face, soft painterly shading. Do not reproduce their UI, background, text, frames, other characters, landscape, logos or decorations.\nSHEET CONTRACT: square composition, preferably 2048x2048 if the host supports it. 4 exactly equal columns and 4 exactly equal rows. NO visible grid, dividing lines, labels, numerals, letters, ground, shadows, platforms, scenery or background: genuine transparent alpha everywhere between sprites. Keep every whole figure and accessory inside its own cell with at least 10% horizontal margin and 7% top/bottom margin. All cells share the same camera distance and figure scale, torso center at 50% cell width, intended ground-root at 50% width and 90% cell height. Never crop hands, shoes, headband tails or gourd. No crossing into neighboring cells.\nROW DIRECTION ORDER, top to bottom:\nrow 1: NORTH / walking away, BACK of head and back of robe visible, no front face.\nrow 2: EAST / walking right, clean RIGHT-facing side view, nose points right.\nrow 3: SOUTH / walking toward viewer, FRONT view.\nrow 4: WEST / walking left, clean LEFT-facing side view, nose points left.\nWithin EACH row, columns 1 to 4 are four genuinely distinct sequential WALK poses in a seamless cycle:\n1. left foot forward contacting ground, right foot back, opposite arm counter-swing;\n2. weight passes over left leg, right knee bends and swings forward;\n3. right foot forward contacting ground, left foot back, opposite counter-swing;\n4. weight passes over right leg, left knee bends and swings forward.\nWalking is a relaxed lively walk, not standing copied four times, not a jump or attack. Show clear alternating knees and foot separation even from the back. Keep stable body volume and head size; gentle garment/headband-tail follow-through only. All four directions use the same exact four gait phases. Soft consistent diffuse lighting and crisp clean alpha edges. Maximum available hand-painted detail and quality. No text, no signatures.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具仅返回image_url/output_hint，没有可核实型号、质量或精确出图时间。",
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/daoist-child/walk-sheet-v1.receipt.json",
+    "submission": "assets/characters/motion-generated/daoist-child/walk-sheet-v1.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "prompt": {
+    "path": "assets/characters/motion-generated/daoist-child/walk-sheet-v1.prompt.txt",
+    "sha256": "1764515a3dfb6c40780f73f8993abd0044c8e2c10135bc2c3aec941c396321b2"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style reference, no UI/layout content copied"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style reference, no UI/layout content copied"
+    }
+  ],
+  "status": "not_passed",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "identityAndFourDirections": "internal_visual_match",
+    "transparency": "actual_alpha_0_255; ivory_composite_clean; hidden_RGB_not_a_visible_halo",
+    "gait": "not_passed: columns 1/3 and 2/4 retain similar supporting legs; genuine opposite-leg four-phase loop not established",
+    "grid": "not_passed: body/scarf/hair pixels meet or cross equal-cell boundaries in S/W; full fixed-grid slices not safe",
+    "note": "Different PNG hashes do not establish different gait phases."
+  }
+}

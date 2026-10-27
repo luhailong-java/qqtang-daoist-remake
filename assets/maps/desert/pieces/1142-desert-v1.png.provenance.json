@@ -1,0 +1,81 @@
+{
+  "elementId": 1142,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1142-desert-v1.png",
+  "sha256": "7bcccea022dcf1619a39b79844bc6ebea60b63bab24e7172b5bd0810e1dccd82",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-g-v1.png",
+    "sha256": "40c60a6f39c86c6ac740352e5f4247e19b3d42dbf880d307c586e68d903936ab",
+    "generationRecord": "assets/maps/desert/props-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      684,
+      675,
+      926,
+      915
+    ],
+    "uniformScale": 0.6611570247933884,
+    "placementPx": [
+      0,
+      1
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1142-fdf9819bee66.png",
+    "sha256": "c09fa95afcac3b2a055d38cafeb0431f6676d5d113352b9e80cdd57a7896947e",
+    "representativeElementId": 1142,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0084745762711864,
+    "relativeAspectDeviation": 0.008474576271186418,
+    "generatedCellLTRB": [
+      672,
+      662,
+      939,
+      929
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

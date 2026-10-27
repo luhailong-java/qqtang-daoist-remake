@@ -1,0 +1,4 @@
+{
+  "modelGenerationFailures": 0,
+  "postprocessFailures": [{"error": "TypeError: Object of type int64 is not JSON serializable", "stage": "first opaque-square source record serialization", "cause": "NumPy column index in rectangle was not converted to Python int", "resolution": "Convert endpoint column to int; reuse only byte-identical deterministic partial PNG; no image regeneration or cleanup of other assets."}]
+}

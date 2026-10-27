@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/frames-v1/E/04.png",
+  "sha256": "448acfcd4921fb99fcb9fce651f74852d080945a364490280630fd9e6828e604",
+  "artSource": "derived_existing_generated_sheet",
+  "generatedAt": null,
+  "derivedAt": "2026-10-26T16:58:38.465338+00:00",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": {
+    "file": "assets/characters/motion-generated/moon-shadow/walk-sheet-v1.png",
+    "sha256": "952815a01f490b036b494e1a037c6fb89270e2a15eabd61f67de32edc186b89a",
+    "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-sheet-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "integer_equal_grid_crop_then_uniform_downscale",
+    "cropLTRB": [
+      940,
+      313,
+      1254,
+      627
+    ],
+    "cropSize": [
+      314,
+      314
+    ],
+    "nativeSheetSize": [
+      1254,
+      1254
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "row": 2,
+    "column": 4,
+    "transparentPadRightBottomTo": [
+      314,
+      314
+    ],
+    "scale": 0.8152866242038217,
+    "resampler": "LANCZOS premultiplied alpha",
+    "output": [
+      256,
+      256
+    ],
+    "perFrameSubjectFit": false,
+    "subjectTranslation": [
+      0,
+      0
+    ],
+    "mirror": false,
+    "newPoseGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaGt8BBox": [
+    38,
+    2,
+    230,
+    248
+  ],
+  "warnings": [
+    "four_phase_opposite_leg_gait_not_established",
+    "requested_10pct_side_7pct_vertical_margin_not_met"
+  ],
+  "status": "not_passed",
+  "runtimeEnabled": false
+}

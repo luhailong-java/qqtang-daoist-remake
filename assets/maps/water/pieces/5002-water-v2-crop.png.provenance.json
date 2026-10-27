@@ -1,0 +1,86 @@
+{
+  "elementId": 5002,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5002-water-v2-crop.png",
+  "sha256": "a02ab264cc7838ed47d346bccb873c616caa17aa83ff0501bf90a7119672cb13",
+  "width": 180,
+  "height": 216,
+  "worldFrameWidth": 45,
+  "worldFrameHeight": 54,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-a-v1.png",
+    "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+    "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "refined-measured-crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      623,
+      62,
+      920,
+      457
+    ],
+    "uniformScale": 0.5468354430379747,
+    "placementPx": [
+      9,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "supersedes": {
+      "file": "assets/maps/water/pieces/5002-water-v1.png",
+      "sha256": "3ec2d035d583a5bb47aa8c8cf874cf50603c68e8de0ef347619ba265493a8ec0"
+    },
+    "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row."
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5002-03341311b6b9.png",
+    "sha256": "a1264c9785e69a614466f29993a0e53f14f16ab525332ba278ef11dbcf653548",
+    "representativeElementId": 5002,
+    "nativeFrameSize": [
+      45,
+      54
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    5,
+    12
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8333333333333334,
+    "generatedVisibleAspect": 0.7493606138107417,
+    "relativeAspectDeviation": 0.10076726342710995,
+    "generatedCellLTRB": [
+      580,
+      40,
+      950,
+      495
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.101-exceeds-0.100-review-required"
+    ]
+  }
+}

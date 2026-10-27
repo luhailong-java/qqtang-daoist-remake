@@ -1,0 +1,83 @@
+{
+  "elementId": 5002,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5002-water-v1.png",
+  "sha256": "3ec2d035d583a5bb47aa8c8cf874cf50603c68e8de0ef347619ba265493a8ec0",
+  "width": 180,
+  "height": 216,
+  "worldFrameWidth": 45,
+  "worldFrameHeight": 54,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-a-v1.png",
+    "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+    "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      623,
+      62,
+      920,
+      512
+    ],
+    "uniformScale": 0.48,
+    "placementPx": [
+      18,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5002-03341311b6b9.png",
+    "sha256": "a1264c9785e69a614466f29993a0e53f14f16ab525332ba278ef11dbcf653548",
+    "representativeElementId": 5002,
+    "nativeFrameSize": [
+      45,
+      54
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    5,
+    12
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8333333333333334,
+    "generatedVisibleAspect": 0.6540178571428571,
+    "relativeAspectDeviation": 0.21517857142857155,
+    "generatedCellLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "coreTouchesCellEdge": true,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.215-exceeds-0.100-review-required",
+      "visible-core-touches-generated-cell-edge-review-required"
+    ]
+  }
+}

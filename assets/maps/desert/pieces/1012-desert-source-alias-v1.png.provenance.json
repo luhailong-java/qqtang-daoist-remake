@@ -1,0 +1,75 @@
+{
+  "elementId": 1012,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1012-desert-source-alias-v1.png",
+  "sha256": "d7380fa82e9ddb2cc303a18dd37c55eaab6c6635558cd9817073531231e305be",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-a-v1.png",
+    "sha256": "c9037b8e1e0ca408c4875d7350380761672941a6cadc11c021896ecb46692ee8",
+    "generationRecord": "assets/maps/desert/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "reuse-original-ai-painted-candidate-for-identical-source-visible-picture",
+    "sourcePaintedFile": "assets/maps/desert/pieces/1001-sand-ground.png",
+    "sourcePaintedSha256": "d7380fa82e9ddb2cc303a18dd37c55eaab6c6635558cd9817073531231e305be",
+    "resampled": false,
+    "newModelGeneration": false,
+    "sourceRectLTRB": [
+      112,
+      133,
+      415,
+      432
+    ]
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1001-d0a6511b766a.png",
+    "sha256": "36e6c3dc88ef09216935ee25434ca214179d90d1faea4450aab06c063be8612a",
+    "representativeElementId": 1001,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": false,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0135593220338983,
+    "relativeAspectDeviation": 0.013559322033898313,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "ground-repeat-seam-and-full-square-coverage-not-verified",
+      "source-picture-alias-not-an-additional-model-generation",
+      "independent-offset-and-in-game-validation-required"
+    ]
+  },
+  "sourcePictureAliasOfElementId": 1001,
+  "newIndependentPainting": false
+}

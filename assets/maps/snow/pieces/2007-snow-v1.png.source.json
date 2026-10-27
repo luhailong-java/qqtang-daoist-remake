@@ -1,0 +1,74 @@
+{
+  "elementId": 2007,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/snow/pieces/2007-snow-v1.png",
+  "sha256": "7394db79251208eb2989ace0b828f8f9c5ea67508cac51f8f7da87eba529ee51",
+  "width": 160,
+  "height": 240,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 60,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    0
+  ],
+  "mapElemOffsetRaw": [
+    0,
+    25
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/snow/frames/candidate-2007-c67d3172b381.png",
+    "sha256": "3e4ee43922350d51019635c3cc12f7552d7f79436384aa94629599ccb0e9b049",
+    "representativeElementId": 2007,
+    "nativeFrameSize": [
+      40,
+      60
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": {
+    "file": "assets/maps/snow/batch-01/sheet-v1.png",
+    "sha256": "685fe016ed69de3a103aa5bfa5ada11c66410137f6c55d8f30d8955926d99681",
+    "generationRecord": "assets/maps/snow/batch-01/sheet-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1142,
+      558,
+      1428,
+      961
+    ],
+    "cropSelection": "alpha>=8 bounds plus four sheet-pixel margin, verified against visible object; alpha values inside crop unchanged",
+    "uniformScale": 0.5594405594405595,
+    "placementPx": [
+      0,
+      15
+    ],
+    "resampled": true,
+    "resampler": "LANCZOS",
+    "newModelGeneration": false,
+    "sourceAlphaPositivePixels": 84958,
+    "croppedAlphaPositivePixels": 84479,
+    "droppedAlphaPositivePixels": 479,
+    "droppedAlphaPositiveFraction": 0.005638079992466866,
+    "alphaAtLeast8DroppedPixels": 0
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null
+}

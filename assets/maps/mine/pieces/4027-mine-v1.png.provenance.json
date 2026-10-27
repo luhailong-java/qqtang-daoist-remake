@@ -1,0 +1,82 @@
+{
+  "elementId": 4027,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4027-mine-v1.png",
+  "sha256": "a259ec1e827ed5f491fcf0e63c459e8b3bf596f9d8caba300403a632e5eaa6fa",
+  "width": 176,
+  "height": 256,
+  "worldFrameWidth": 44,
+  "worldFrameHeight": 64,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-f-v1.png",
+    "sha256": "968c7d62ba7e32802aae37807fad7d7fdcf2510daedbdf568d3fdcba631bcd3d",
+    "generationRecord": "assets/maps/mine/props-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      138,
+      121,
+      418,
+      483
+    ],
+    "uniformScale": 0.6285714285714286,
+    "placementPx": [
+      0,
+      28
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4027-b9b03ccce859.png",
+    "sha256": "a72bac5d25b3ec964f24ba21163c95c5b6b644b6eac39ad4b6013dbb5124d7c1",
+    "representativeElementId": 4027,
+    "nativeFrameSize": [
+      44,
+      64
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    4,
+    21
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.6875,
+    "generatedVisibleAspect": 0.770949720670391,
+    "relativeAspectDeviation": 0.12138141188420515,
+    "generatedCellLTRB": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.121-exceeds-0.100-review-required"
+    ]
+  }
+}

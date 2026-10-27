@@ -1,0 +1,82 @@
+{
+  "elementId": 4059,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4059-mine-v1.png",
+  "sha256": "9cc6af039d20714f444ee0327b6cb83aaa5cf53b07a04b44060838d8cbfc52b4",
+  "width": 160,
+  "height": 320,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 80,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-h-v1.png",
+    "sha256": "fe87ed0f361de5c548f8d1991244324de6449daaa03f3f322334b4c32e429fb1",
+    "generationRecord": "assets/maps/mine/props-h-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      650,
+      526,
+      885,
+      963
+    ],
+    "uniformScale": 0.6808510638297872,
+    "placementPx": [
+      0,
+      22
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4059-3df57045a003.png",
+    "sha256": "b842adf455cccea2df3ea103faaa1a67273af1921e7b40656e2cd0fc17bf996e",
+    "representativeElementId": 4059,
+    "nativeFrameSize": [
+      40,
+      80
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.5,
+    "generatedVisibleAspect": 0.5334872979214781,
+    "relativeAspectDeviation": 0.06697459584295617,
+    "generatedCellLTRB": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

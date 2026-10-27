@@ -1,0 +1,120 @@
+{
+  "file": "assets/qqtang-characters-v2.png",
+  "sourceStorageStatus": "2026-10-26：正式PNG已与宿主原输出逐字节哈希核对；按用户保留规则删除宿主目录中的冗余原输出，来源文字、时间及SHA256仍保留。",
+  "sha256": "cdaa2e278b285e99db0f284e2c060e592a33e29fe6df38a78ab4ef29b517c36a",
+  "generatedAt": "2026-10-26T06:49:24.754323-04:00",
+  "generatedAtEvidence": "宿主原文件落盘mtime；服务端生成时刻未披露",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\qqtang-ui\\references\\qqtang-original\\four-characters-contact.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露型号或质量；配置和官方公告不等于本次实际参数。",
+  "prompt": "docs/qqtang-characters-v2.prompt.txt",
+  "references": [
+    {
+      "path": "image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "实际附入：手绘道家Q版风格"
+    },
+    {
+      "path": "image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "实际附入：手绘道家Q版风格"
+    },
+    {
+      "path": "references/qqtang-original/four-characters-contact.png",
+      "sha256": "0ff68dd7a1c208a0b991f0e57bb665584398a7308465d2a0836558ea2ffaa249",
+      "purpose": "实际附入：毛毛/阿莎/悟空/泰坦四位角色身份；来源社区留存，非风格参考",
+      "derivedFrom": [
+        {
+          "file": "maomao-community-reference.png",
+          "sha256": "89c6e7ec35e3e01c18ac90712e4e400b5b7599a469cfd41c0dc3a6ace4183a4c"
+        },
+        {
+          "file": "asha-community-reference.png",
+          "sha256": "30b7c1a24bf63b1a9549105f5d22b6d993a38ea5f84f67f50849dd81e9dca70a"
+        },
+        {
+          "file": "wukong-community-reference.png",
+          "sha256": "2a1fe50ef5b685b53cccfbf5d39994b31b74d31a2f419fbea737b18eb158a32e"
+        },
+        {
+          "file": "titan-community-reference.png",
+          "sha256": "5c7f99a89abc55cf94954cbdd7f198085721e68303523eceabd12a47ec10e588"
+        }
+      ],
+      "sourceEvidence": "references/qqtang-original/source.json"
+    }
+  ],
+  "evidence": {
+    "toolOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17789-9eaa-7ed3-b597-50d6259dbf2c\\exec-d23077b5-e387-4080-bdd4-e31fad33834e.png",
+    "sourceSha256": "cdaa2e278b285e99db0f284e2c060e592a33e29fe6df38a78ab4ef29b517c36a",
+    "metadataReturned": [
+      "image_url",
+      "output_hint"
+    ],
+    "officialRecheckedOn": "2026-10-26",
+    "officialSources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "finding": "官方文档仍支持配置目标Sunburst/max；内置调用无model/quality选择器。"
+  },
+  "processing": {
+    "operation": "原生PNG逐字节复制；未缩放或重采样。角色图集按art.json源矩形在运行时等比裁显。",
+    "nativeDimensions": [
+      1536,
+      1024
+    ]
+  },
+  "visualReview": {
+    "identity": "四角色实际参考：毛毛酒红侧刘海半眯眼、阿莎金棕短发大眼、悟空猴耳金箍红金棍、泰坦蓝青机械盔和圆耳罩；其他两格为本轮原创怪物与包子。",
+    "uniformGrid": false
+  },
+  "alphaValidation": {
+    "extrema": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 694004,
+    "nearOpaquePixels": 750051,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "realTransparency": true,
+    "note": "透明区RGB保留底色，但Alpha=0；实际SVG/Canvas按Alpha绘制。最大Alpha254，未谎报255。"
+  }
+}

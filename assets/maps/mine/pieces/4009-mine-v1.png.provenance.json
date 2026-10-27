@@ -1,0 +1,81 @@
+{
+  "elementId": 4009,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4009-mine-v1.png",
+  "sha256": "748fa8f195c3a74cbaa796407dd485a37414f0400ba30bd5c76ff3c23519b04f",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-b-v1.png",
+    "sha256": "31d6d0c425775f433971d36c24019cbdf9b4d55d84b483018204d954bf08c217",
+    "generationRecord": "assets/maps/mine/props-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1114,
+      159,
+      1403,
+      446
+    ],
+    "uniformScale": 0.5536332179930796,
+    "placementPx": [
+      0,
+      1
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4009-c09de25690ba.png",
+    "sha256": "d78df3873f000f4d054c6b337f758b733eb2b4cd84d56c30781bdabeef03c34d",
+    "representativeElementId": 4009,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0070671378091873,
+    "relativeAspectDeviation": 0.007067137809187329,
+    "generatedCellLTRB": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

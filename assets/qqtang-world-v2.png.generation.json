@@ -1,0 +1,79 @@
+{
+  "file": "assets/qqtang-world-v2.png",
+  "sourceStorageStatus": "2026-10-26：正式PNG已与宿主原输出逐字节哈希核对；按用户保留规则删除宿主目录中的冗余原输出，来源文字、时间及SHA256仍保留。",
+  "sha256": "df713082592761fab54e0ff29c55094dda780064857b9a5bdc3bb5b8fee2c41f",
+  "generatedAt": "2026-10-26T06:56:17.989416-04:00",
+  "generatedAtEvidence": "宿主原文件落盘mtime；服务端生成时刻未披露",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露型号或质量；配置和官方公告不等于本次实际参数。",
+  "prompt": "docs/qqtang-world-v2.prompt.txt",
+  "references": [
+    {
+      "path": "image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "实际附入：手绘道家Q版风格"
+    },
+    {
+      "path": "image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "实际附入：手绘道家Q版风格"
+    }
+  ],
+  "evidence": {
+    "toolOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17789-9eaa-7ed3-b597-50d6259dbf2c\\exec-726215f4-0824-4a27-92d9-79b2a729b370.png",
+    "sourceSha256": "df713082592761fab54e0ff29c55094dda780064857b9a5bdc3bb5b8fee2c41f",
+    "metadataReturned": [
+      "image_url",
+      "output_hint"
+    ],
+    "officialRecheckedOn": "2026-10-26",
+    "officialSources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "finding": "官方文档仍支持配置目标Sunburst/max；内置调用无model/quality选择器。"
+  },
+  "processing": {
+    "operation": "原生PNG逐字节复制；未缩放或重采样。角色图集按art.json源矩形在运行时等比裁显。",
+    "nativeDimensions": [
+      1672,
+      941
+    ]
+  },
+  "visualReview": {
+    "identity": "无字无人物环境底图，承接玉绿/象牙白/暖金细边、道家Q版手绘；场景非原版地图坐标复原。",
+    "uniformGrid": null
+  }
+}

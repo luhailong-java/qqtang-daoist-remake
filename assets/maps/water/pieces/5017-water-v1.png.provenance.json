@@ -1,0 +1,81 @@
+{
+  "elementId": 5017,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5017-water-v1.png",
+  "sha256": "ffada96fc76b348f60b015720c7f8c927703a7d07f8b0c1c75907d8d10298e27",
+  "width": 180,
+  "height": 216,
+  "worldFrameWidth": 45,
+  "worldFrameHeight": 54,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-c-v1.png",
+    "sha256": "74c728c86df769f2ccb133b1aee52f37ec91976bc12bf3fd68effd73d6036670",
+    "generationRecord": "assets/maps/water/props-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      617,
+      554,
+      922,
+      936
+    ],
+    "uniformScale": 0.5654450261780105,
+    "placementPx": [
+      4,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5017-53c1100975e8.png",
+    "sha256": "0b41fb66d2a9aed16c77a6318834abed8237cdebc7edd94ce829e19955bf4939",
+    "representativeElementId": 5017,
+    "nativeFrameSize": [
+      45,
+      54
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    5,
+    12
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8333333333333334,
+    "generatedVisibleAspect": 0.7962962962962963,
+    "relativeAspectDeviation": 0.04444444444444451,
+    "generatedCellLTRB": [
+      580,
+      525,
+      950,
+      975
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

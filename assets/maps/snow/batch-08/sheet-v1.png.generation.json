@@ -1,0 +1,87 @@
+{
+  "file": "assets/maps/snow/batch-08/sheet-v1.png",
+  "sha256": "0895851fd5d012d3dfb0983544326d8a9537aa51cef46e23f767f492553d3604",
+  "generatedAt": "2026-10-26T19:51:55.177311+00:00",
+  "generatedAtEvidence": "host output file last-write timestamp; tool call completed before this record was written",
+  "recordedAtUTC": "2026-10-26T19:58:47.143716+00:00",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\qqtang-ui\\assets\\maps\\snow\\batch-08\\structure-reference.png"
+    ],
+    "promptFile": "assets/maps/snow/batch-08/prompt.txt",
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed; tool exposes no model/quality selector and returned image_url plus output_hint only. No verifiable model/quality metadata was returned.",
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1786d-6715-7632-9299-35a204c269a1\\exec-ff212e7b-2317-4201-ba6f-f39ef9fdc499.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1786d-6715-7632-9299-35a204c269a1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1786d-6715-7632-9299-35a204c269a1\\exec-ff212e7b-2317-4201-ba6f-f39ef9fdc499.png by default.",
+    "apiOrCliUsed": false,
+    "officialCheckDate": "2026-10-26",
+    "officialCheckSources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "prompt": "assets/maps/snow/batch-08/prompt.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\qqtang-ui\\assets\\maps\\snow\\batch-08\\structure-reference.png",
+      "sha256": "3c0dfa278b48a56b6ad15a021708b16bf9c3b790f545aefbec31e710b13abd94",
+      "role": "source structure, measured frames, IDs and footprints only",
+      "actuallyAttached": true
+    }
+  ],
+  "sourcePlan": "assets/maps/snow/batch-08/plan.json",
+  "accepted": false,
+  "geometryAccepted": false,
+  "inGameAccepted": false
+}

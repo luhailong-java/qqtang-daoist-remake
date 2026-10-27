@@ -1,0 +1,57 @@
+{
+  "elementId": 3025,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/town/pieces/3025-pool-bank.png",
+  "sha256": "e5ba08759d1e89094ffc2152bf19da6abf86bd1ab2a53e5828a3fbd90dce5a61",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/maps/town/props-b-v3.png",
+      "sha256": "cdc7e3effbf073a224cf257eb2e5bd83850f49b927b70c26040ecefb78242ba3",
+      "generationRecord": "assets/maps/town/props-b-v3.png.generation.json",
+      "purpose": "new painted stone and water RGB"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/town-candidate-3025-frame.png",
+      "sha256": "483fb2ffd7e1c9121cd5f7d731299eb43c52f2a30be71e36dc23733f002ad85c",
+      "purpose": "bank-versus-water classification geometry only, no RGB reused"
+    }
+  ],
+  "operation": {
+    "type": "reference-mask-image-texture-composite",
+    "newModelGeneration": false,
+    "resampled": true,
+    "stoneSourceRect": [
+      92,
+      59,
+      477,
+      444
+    ],
+    "waterSourceRect": [
+      1052,
+      534,
+      1453,
+      935
+    ],
+    "maskClassifier": "B>1.3R and B>0.8G and B>65 identifies source water; complementary bank mask",
+    "logicalMaskSha256": "89f68c52112166dfb3bf952d191e2c857a143d149e3ccc3f571a26109b0c00de",
+    "logicalMaskSize": [
+      40,
+      40
+    ],
+    "waterPixelCount": 1120,
+    "bankPixelCount": 480,
+    "sourcePixelColoursReused": false
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "image-composite-candidate-awaiting-region-and-seam-visual-validation",
+  "seamlessVerified": false
+}

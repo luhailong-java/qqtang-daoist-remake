@@ -1,0 +1,81 @@
+{
+  "elementId": 4004,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4004-mine-v1.png",
+  "sha256": "6aba92eee33e49eaaf565e749558835a3bad378e270a576005d6b055fbe71991",
+  "width": 176,
+  "height": 216,
+  "worldFrameWidth": 44,
+  "worldFrameHeight": 54,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-a-v1.png",
+    "sha256": "6f1fc5cdcebe5f35102b8c2baa7c7e2b41fdda4dcc1cbae8c8c80cd0753b8129",
+    "generationRecord": "assets/maps/mine/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      117,
+      542,
+      389,
+      910
+    ],
+    "uniformScale": 0.5869565217391305,
+    "placementPx": [
+      8,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4004-2bf71be2684f.png",
+    "sha256": "8f2bd43385d722e98371d87bcf7495835448dc3848e1fc67b7ee69872be02187",
+    "representativeElementId": 4004,
+    "nativeFrameSize": [
+      44,
+      54
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    4,
+    11
+  ],
+  "sourceFrameOffsetRaw": [
+    2,
+    3
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8148148148148148,
+    "generatedVisibleAspect": 0.7362637362637363,
+    "relativeAspectDeviation": 0.0964035964035963,
+    "generatedCellLTRB": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

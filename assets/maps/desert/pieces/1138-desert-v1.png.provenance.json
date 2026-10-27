@@ -1,0 +1,81 @@
+{
+  "elementId": 1138,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1138-desert-v1.png",
+  "sha256": "0e517080f0f0f23133bbe752fb5f86265539e1694c89783a16f3d040605dbc39",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-g-v1.png",
+    "sha256": "40c60a6f39c86c6ac740352e5f4247e19b3d42dbf880d307c586e68d903936ab",
+    "generationRecord": "assets/maps/desert/props-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      699,
+      199,
+      951,
+      451
+    ],
+    "uniformScale": 0.6349206349206349,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1138-bf0b76b4591c.png",
+    "sha256": "2505b2f1d86ea7f4438d77d33836576833d30235b8a44a4bd4a15c65bf8e3a03",
+    "representativeElementId": 1138,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0,
+    "relativeAspectDeviation": 0.0,
+    "generatedCellLTRB": [
+      687,
+      187,
+      963,
+      466
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

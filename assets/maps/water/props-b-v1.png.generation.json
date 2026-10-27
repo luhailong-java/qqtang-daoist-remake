@@ -1,0 +1,73 @@
+{
+  "file": "assets/maps/water/props-b-v1.png",
+  "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+  "generatedAt": "2026-10-26T19:09:57+00:00",
+  "timeEvidence": "clock-tool-after-host-result",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "officialRecheckedOn": "2026-10-26",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "assets/maps/water/references/water-batch-b-structure.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露实际模型/质量；无model/quality选择参数。",
+  "evidence": {
+    "toolOutputFile": "C:/Users/luyua/.codex/generated_images/01a17790-aedd-7342-8bf7-ed53c8cb263f/exec-6d23a4c3-30f5-4c15-bd6a-02add42b1c13.png",
+    "resultId": "exec-6d23a4c3-30f5-4c15-bd6a-02add42b1c13",
+    "toolOutputFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "explicitModelOrQualityReturned": false
+  },
+  "prompt": "assets/maps/water/batch-b.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary-user-confirmed-art-style"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary-user-confirmed-art-style"
+    },
+    {
+      "path": "assets/maps/water/references/water-batch-b-structure.png",
+      "sha256": "e30683f7e4eaaf3ef7884c67ff95e6992df9d866db2fd9b57f1cd6f9f568c25a",
+      "purpose": "source-structure-aspect-and-footprint-only"
+    }
+  ],
+  "nativeAlphaExtrema": [
+    0,
+    254
+  ],
+  "nativeDimensionsNotExportDimensions": true
+}

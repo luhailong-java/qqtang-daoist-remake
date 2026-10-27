@@ -1,0 +1,81 @@
+{
+  "elementId": 5019,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5019-water-v1.png",
+  "sha256": "e3f26cbf2bd543faefde25ec741ecba73ceaa0c2109f44a630a6198779593f14",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-d-v1.png",
+    "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+    "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      150,
+      190,
+      390,
+      430
+    ],
+    "uniformScale": 0.6666666666666666,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5019-d37e8b78e42f.png",
+    "sha256": "3683ff9706ada644c3ae39d9b7e836cfc16413f6bffdbb389dffb8d1b35ce591",
+    "representativeElementId": 5019,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0,
+    "relativeAspectDeviation": 0.0,
+    "generatedCellLTRB": [
+      130,
+      170,
+      420,
+      455
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

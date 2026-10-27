@@ -1,0 +1,131 @@
+{
+  "family": "desert",
+  "candidateElementCount": 43,
+  "uniquePaintedSourcePictures": 41,
+  "sourcePictureAliasCount": 2,
+  "generatedSheetCount": 7,
+  "geometryAcceptedCount": 0,
+  "inGameValidation": "not-run-browser-unavailable",
+  "check": {
+    "id": "generated-visible-aspect-deviation",
+    "threshold": 0.1,
+    "unpassed": [
+      {
+        "elementId": 1004,
+        "relativeAspectDeviation": 0.17315664791234808,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1004-cloud-stone-block.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1005,
+        "relativeAspectDeviation": 0.23378932968536237,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1005-gold-fruit-planter.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1008,
+        "relativeAspectDeviation": 0.11748633879781434,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1008-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1009,
+        "relativeAspectDeviation": 0.3608803986710962,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1009-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1010,
+        "relativeAspectDeviation": 0.1181062704608411,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1010-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1114,
+        "relativeAspectDeviation": 0.16013071895424846,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1114-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1115,
+        "relativeAspectDeviation": 0.10588235294117643,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1115-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1119,
+        "relativeAspectDeviation": 0.1352549889135255,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1119-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1123,
+        "relativeAspectDeviation": 0.20512820512820507,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1123-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1127,
+        "relativeAspectDeviation": 0.1777557100297914,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1127-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1132,
+        "relativeAspectDeviation": 0.1777557100297914,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1132-desert-source-alias-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1135,
+        "relativeAspectDeviation": 0.3230958230958232,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1135-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1137,
+        "relativeAspectDeviation": 0.1135531135531136,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1137-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1141,
+        "relativeAspectDeviation": 0.24377533294730735,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1141-desert-v1.png",
+        "status": "unpassed-review-required"
+      },
+      {
+        "elementId": 1143,
+        "relativeAspectDeviation": 0.2605263157894737,
+        "threshold": 0.1,
+        "file": "assets/maps/desert/pieces/1143-desert-v1.png",
+        "status": "unpassed-review-required"
+      }
+    ]
+  },
+  "unpassedGlobal": [
+    "source-id-to-resource-lookup-proof",
+    "render-offset-anchor-proof",
+    "terrain-exact-region-mask-and-join-check",
+    "in-game-source-map-scale-and-occlusion-validation"
+  ],
+  "notes": [
+    "Generated sheets are original host image_gen assets; final pieces are crop+uniform fit into original first-frame canvas multiplied by4, not native4x AI detail.",
+    "Original footprint/GridAttr/map coordinates are not changed.",
+    "Two source-picture aliases reuse their representative painting and are not counted as additional AI work."
+  ]
+}

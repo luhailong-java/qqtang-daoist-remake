@@ -1,0 +1,73 @@
+{
+  "file": "assets/maps/mine/props-h-v1.png",
+  "sha256": "fe87ed0f361de5c548f8d1991244324de6449daaa03f3f322334b4c32e429fb1",
+  "generatedAt": "2026-10-26T17:45:51+00:00",
+  "timeEvidence": "clock-tool-after-host-result",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "officialRecheckedOn": "2026-10-26",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "assets/maps/mine/references/mine-batch-h-structure.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露实际模型/质量；无model/quality选择参数。",
+  "evidence": {
+    "toolOutputFile": "C:/Users/luyua/.codex/generated_images/01a17790-aedd-7342-8bf7-ed53c8cb263f/exec-2251e70b-7bf6-4f69-a970-6178ee9ad5ef.png",
+    "resultId": "exec-2251e70b-7bf6-4f69-a970-6178ee9ad5ef",
+    "toolOutputFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "explicitModelOrQualityReturned": false
+  },
+  "prompt": "assets/maps/mine/batch-h.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary-user-confirmed-art-style"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary-user-confirmed-art-style"
+    },
+    {
+      "path": "assets/maps/mine/references/mine-batch-h-structure.png",
+      "sha256": "6718b6490591ecf49db728b72a93f55d15d2291238cc594eec617217def3efc3",
+      "purpose": "source-structure-aspect-and-footprint-only"
+    }
+  ],
+  "nativeAlphaExtrema": [
+    0,
+    254
+  ],
+  "nativeDimensionsNotExportDimensions": true
+}

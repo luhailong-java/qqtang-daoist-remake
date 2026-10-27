@@ -1,0 +1,82 @@
+{
+  "elementId": 13036,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/machine/pieces/13036-machine-v1.png",
+  "sha256": "0afc7afb150112babb4376f859891ea5a724df6d9b0b2ef04480a607c8b1a7ef",
+  "width": 320,
+  "height": 340,
+  "worldFrameWidth": 80,
+  "worldFrameHeight": 85,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/machine/props-d-v1.png",
+    "sha256": "8dff4ba6829cd23ea335f02a5bb53547057f52e5cf63c4c4aad2c19cc8d93dea",
+    "generationRecord": "assets/maps/machine/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      557,
+      45,
+      989,
+      476
+    ],
+    "uniformScale": 0.7407407407407407,
+    "placementPx": [
+      0,
+      21
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13036-0a1ad5c47ef0.png",
+    "sha256": "a89234ef085e67d8a30488b51b1039050db784a0aa61ded15ba4d9985ef3f290",
+    "representativeElementId": 13036,
+    "nativeFrameSize": [
+      80,
+      85
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    2,
+    1
+  ],
+  "sourceGridAttr": [
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    80
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.9411764705882353,
+    "generatedVisibleAspect": 1.0023419203747073,
+    "relativeAspectDeviation": 0.06498829039812648,
+    "generatedCellLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

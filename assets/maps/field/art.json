@@ -1,0 +1,519 @@
+{
+  "schemaVersion": 1,
+  "tilePixels": 40,
+  "tilePixelEvidence": "community logic constant and native reference ground frames, official specification unverified",
+  "status": "production-candidates",
+  "pieces": [
+    {
+      "elementId": 6001,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/field/pieces/6001-field-v1.png",
+      "sha256": "b354c7578d5092b24b30c089b3301a761c76ab4bf027b077efc9fce0892dc523",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        3855
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6001-251b220acf76.png",
+        "sha256": "a92543bc8627270a1a758dfed1a832a1bfaf786ca8078e106d2fe29618afcd1f",
+        "representativeElementId": 6001,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-inscribed-near-opaque-square-texture-normalize-alpha-uniform-scale",
+        "sourceRectLTRB": [
+          81,
+          86,
+          438,
+          443
+        ],
+        "cropSelection": "largest fully alpha>=250 inscribed square in this manually whitelisted plain ground texture; original RGB preserved",
+        "uniformScale": 0.4481792717086835,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "resampler": "LANCZOS",
+        "newModelGeneration": false,
+        "sourceAlphaPositivePixels": 153998,
+        "croppedAlphaPositivePixels": 127449,
+        "droppedAlphaPositivePixels": 26549,
+        "droppedAlphaPositiveFraction": 0.17239834283562125,
+        "alphaAtLeast8DroppedPixels": 20125,
+        "extractionRegionLTRB": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "nominalGridFollowed": true,
+        "alphaNormalization": "near-opaque texture alpha normalization250..254→255",
+        "alphaBeforeNormalization": [
+          250,
+          254
+        ]
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null,
+      "opaqueSquareTexture": {
+        "requested": true,
+        "applied": true,
+        "whitelist": "plain texture only 6001/6023/6024; manually inspected source",
+        "sourceReferenceAlphaExtrema": [
+          255,
+          255
+        ],
+        "nativeInscribedSquareSide": 357,
+        "operation": "near-opaque texture alpha normalization250..254→255",
+        "threshold": 250,
+        "notSeamAcceptance": true,
+        "originalAlphaExtrema": [
+          250,
+          254
+        ],
+        "rgbPreserved": true,
+        "nativeCropRGBSHA256": "6142a74db50ca9a4228d88d1b54de091b71de08acd657c0e97a32aea1c9f657d"
+      },
+      "terrainOpaqueCanvasVerified": true
+    },
+    {
+      "elementId": 6002,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/field/pieces/6002-field-v1.png",
+      "sha256": "a924ab5533dbd048d8adcfd566b78c56ee97b8d88c9ba01ab13e8fc6fb5d3e71",
+      "width": 176,
+      "height": 228,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 57,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        14
+      ],
+      "selectedFrameOffsetRaw": [
+        2,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6002-2213d1407a3b.png",
+        "sha256": "d00720168d49d11bcdf9a48e5fd72b21675aa31bec4db17f0ce22ef318751998",
+        "representativeElementId": 6002,
+        "nativeFrameSize": [
+          44,
+          57
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          613,
+          44,
+          932,
+          466
+        ],
+        "cropSelection": "alpha>=8 bounds plus four sheet-pixel margin, verified against visible object; alpha values inside crop unchanged",
+        "uniformScale": 0.5402843601895735,
+        "placementPx": [
+          2,
+          0
+        ],
+        "resampled": true,
+        "resampler": "LANCZOS",
+        "newModelGeneration": false,
+        "sourceAlphaPositivePixels": 128480,
+        "croppedAlphaPositivePixels": 127533,
+        "droppedAlphaPositivePixels": 947,
+        "droppedAlphaPositiveFraction": 0.00737079701120797,
+        "alphaAtLeast8DroppedPixels": 0,
+        "extractionRegionLTRB": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "nominalGridFollowed": true
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null
+    },
+    {
+      "elementId": 6003,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/field/pieces/6003-field-v1.png",
+      "sha256": "0fb481236bb66f523932377f9fb94a70a95118dbbf91c3a89da078de321baff1",
+      "width": 176,
+      "height": 208,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 52,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        7967
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        12
+      ],
+      "selectedFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6003-5dc17c626434.png",
+        "sha256": "142be77b6d708e0e643ee9ed350355917e06a709009b2187f4e8b2274fd722de",
+        "representativeElementId": 6003,
+        "nativeFrameSize": [
+          44,
+          52
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1129,
+          41,
+          1471,
+          465
+        ],
+        "cropSelection": "alpha>=8 bounds plus four sheet-pixel margin, verified against visible object; alpha values inside crop unchanged",
+        "uniformScale": 0.49056603773584906,
+        "placementPx": [
+          4,
+          0
+        ],
+        "resampled": true,
+        "resampler": "LANCZOS",
+        "newModelGeneration": false,
+        "sourceAlphaPositivePixels": 122061,
+        "croppedAlphaPositivePixels": 121278,
+        "droppedAlphaPositivePixels": 783,
+        "droppedAlphaPositiveFraction": 0.006414825374198147,
+        "alphaAtLeast8DroppedPixels": 0,
+        "extractionRegionLTRB": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "nominalGridFollowed": true
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null
+    },
+    {
+      "elementId": 6004,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/field/pieces/6004-field-v1.png",
+      "sha256": "d1ca78fa4596f5f4afadb901312323c417d8776bd441997787486f0b88cc5c31",
+      "width": 176,
+      "height": 224,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 56,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        13
+      ],
+      "selectedFrameOffsetRaw": [
+        1,
+        1
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6004-33706bcbe027.png",
+        "sha256": "44efc5ffca7ae56ee95bb801de659f59682a34d8d9a0db84c44980f88fe54427",
+        "representativeElementId": 6004,
+        "nativeFrameSize": [
+          44,
+          56
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          94,
+          552,
+          436,
+          963
+        ],
+        "cropSelection": "alpha>=8 bounds plus four sheet-pixel margin, verified against visible object; alpha values inside crop unchanged",
+        "uniformScale": 0.5146198830409356,
+        "placementPx": [
+          0,
+          12
+        ],
+        "resampled": true,
+        "resampler": "LANCZOS",
+        "newModelGeneration": false,
+        "sourceAlphaPositivePixels": 129113,
+        "croppedAlphaPositivePixels": 128991,
+        "droppedAlphaPositivePixels": 122,
+        "droppedAlphaPositiveFraction": 0.0009449087233663535,
+        "alphaAtLeast8DroppedPixels": 0,
+        "extractionRegionLTRB": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "nominalGridFollowed": true
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null
+    },
+    {
+      "elementId": 6006,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/field/pieces/6006-field-v1.png",
+      "sha256": "0df225972e2f2180350c7c1bc04e2b5d8ecf42f49fcef6214e1d7559759a4075",
+      "width": 156,
+      "height": 208,
+      "worldFrameWidth": 39,
+      "worldFrameHeight": 52,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        -1,
+        11
+      ],
+      "selectedFrameOffsetRaw": [
+        3,
+        5
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6006-65ffa0e0d0c0.png",
+        "sha256": "27aa3c5d5a171d87b14de4f39b29b5579e2503f3393629d19307655bf09f6fec",
+        "representativeElementId": 6006,
+        "nativeFrameSize": [
+          39,
+          52
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          609,
+          548,
+          927,
+          952
+        ],
+        "cropSelection": "alpha>=8 bounds plus four sheet-pixel margin, verified against visible object; alpha values inside crop unchanged",
+        "uniformScale": 0.49056603773584906,
+        "placementPx": [
+          0,
+          10
+        ],
+        "resampled": true,
+        "resampler": "LANCZOS",
+        "newModelGeneration": false,
+        "sourceAlphaPositivePixels": 96260,
+        "croppedAlphaPositivePixels": 94314,
+        "droppedAlphaPositivePixels": 1946,
+        "droppedAlphaPositiveFraction": 0.020216081446083525,
+        "alphaAtLeast8DroppedPixels": 0,
+        "extractionRegionLTRB": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "nominalGridFollowed": true
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null
+    },
+    {
+      "elementId": 6008,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/field/pieces/6008-field-v1.png",
+      "sha256": "9dfdf68896c926ecfff0ab7ba1cca8a6cf22a08da813789d08eb273447634c60",
+      "width": 204,
+      "height": 252,
+      "worldFrameWidth": 51,
+      "worldFrameHeight": 63,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        6,
+        22
+      ],
+      "selectedFrameOffsetRaw": [
+        1,
+        1
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6008-e5a647e2fe1b.png",
+        "sha256": "dfbe7a70c66cf16781d76044826750ce75b24b5903a2539b002a0ac8d5ca15ce",
+        "representativeElementId": 6008,
+        "nativeFrameSize": [
+          51,
+          63
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1094,
+          540,
+          1473,
+          963
+        ],
+        "cropSelection": "alpha>=8 bounds plus four sheet-pixel margin, verified against visible object; alpha values inside crop unchanged",
+        "uniformScale": 0.5382585751978892,
+        "placementPx": [
+          0,
+          24
+        ],
+        "resampled": true,
+        "resampler": "LANCZOS",
+        "newModelGeneration": false,
+        "sourceAlphaPositivePixels": 116082,
+        "croppedAlphaPositivePixels": 114711,
+        "droppedAlphaPositivePixels": 1371,
+        "droppedAlphaPositiveFraction": 0.011810616633069726,
+        "alphaAtLeast8DroppedPixels": 0,
+        "extractionRegionLTRB": [
+          1024,
+          512,
+          1536,
+          1024
+        ],
+        "nominalGridFollowed": true
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+      "seamlessVerified": null
+    }
+  ]
+}

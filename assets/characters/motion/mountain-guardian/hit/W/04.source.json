@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "adoptedAt": "2026-10-26T16:08:00.298443+00:00",
+  "artSource": "existing",
+  "adoptionStatus": "client_candidate",
+  "clientApproved": false,
+  "file": "assets/characters/motion/mountain-guardian/hit/W/04.png",
+  "sha256": "de53e2bf07141c7dbefc1b96a748205e10930099f60d51892ebe0877a06f8bee",
+  "source": {
+    "repository": "image",
+    "path": "qdao_original_roster_v14_hd/action-remake-20261001/characters/04_mountain_guardian_boy/frames/hit/W/frame_04.png",
+    "sha256": "6c70a4462d45abc3bc224ca7040fb956cf37f5fb3a87fb324ff8c877aa128600",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaGt8BBox": [
+      115,
+      110,
+      983,
+      966
+    ]
+  },
+  "generationRecord": {
+    "source": "qdao_original_roster_v14_hd/action-remake-20261001/characters/04_mountain_guardian_boy/frames/hit/W/frame_04.generation.json",
+    "sourceSha256": "3cb1ad271e9331a5534dc7d8ad77b5926e593d9a5e7953426ae8d1090dbc6817",
+    "local": "assets/characters/motion/mountain-guardian/hit/W/04.generation.json",
+    "unchangedByteCopy": true,
+    "configuredTarget": {
+      "schema_version": 1,
+      "model": "gpt-image-2.5-sunburst",
+      "quality": "max",
+      "builtin_product": "ChatGPT Images 2.5",
+      "selection": "latest_verified",
+      "preferred_route": "builtin",
+      "verified_on": "2026-10-01",
+      "sources": {
+        "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+        "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+      }
+    },
+    "actualModel": null,
+    "actualQuality": null,
+    "note": "配置目标和历史提交字段不代表宿主已披露型号/质量；实际不可得值仍为未确认。"
+  },
+  "operation": {
+    "type": "deterministic_full_canvas_downscale",
+    "input": [
+      1024,
+      1024
+    ],
+    "output": [
+      256,
+      256
+    ],
+    "scale": 0.25,
+    "resampler": "LANCZOS",
+    "alphaProcessing": "RGBA -> premultiplied RGBa -> resize -> RGBA",
+    "crop": null,
+    "translation": [
+      0,
+      0
+    ],
+    "mirrored": false,
+    "sourceAnchor": [
+      512,
+      928
+    ],
+    "outputAnchor": [
+      128.0,
+      232.0
+    ],
+    "poseInterpolation": false,
+    "newGeneration": false
+  },
+  "warnings": []
+}

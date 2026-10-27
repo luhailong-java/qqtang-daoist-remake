@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/walk-east-v4.png",
+  "sha256": "c44af3d8a246fd1058e6a9fe19ed62d1ace029f1ab18cbadec360bbc8419f582",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 21:10:47 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 21:12:44 UTC"
+    }
+  },
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: background-extraction / precise alpha repair. EDIT IMAGE4 ONLY. Image4 is the accepted-pose four-frame EAST/right-facing walk strip, but its alpha has BAD brown blocky translucent halos outside the silhouettes. Remove those exterior brown/black blocks and haze completely, restoring truly transparent alpha=0 everywhere outside the four characters.\nCRITICAL INVARIANTS: keep image4's exact 2048x768 canvas, one row of four figures, ALL FOUR EXISTING WALK POSES, their limb overlap, boots, head/face, arm positions, gourd in left hand, outfit, ribbon tips, body size and placement. Do NOT redraw or reset frames3/4 to frames1/2. Do NOT change their legs or expressions. This is ONLY background/alpha cleanup, not a new pose design.\nInputs1/2/3 are the original identity master and Taoist hand-painted style guides, only to protect original character colors/material edges. The character's actual brown hair, cream cloth, gold trim, green boots and red tassel must stay opaque/soft-edged exactly as appropriate; remove ONLY the unwanted exterior haze. Preserve fine hair, ribbon, hand, tassel and shoe outlines with clean natural antialiasing. No shadow, glow, floor or colored matte. Background must be genuinely transparent, not painted black/brown/checkerboard/white. Whole gourd, ribbons and boots intact, no crop. Output one transparent PNG, same four-frame composition.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v3.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具仅返回image_url/output_hint，没有可核实版本、质量或精确生成时刻。",
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/daoist-child/walk-east-v4.receipt.json",
+    "submission": "assets/characters/motion-generated/daoist-child/walk-east-v4.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "prompt": {
+    "path": "assets/characters/motion-generated/daoist-child/walk-east-v4.prompt.txt",
+    "sha256": "60e53bd5b4af38b7f8680b5073768828fe4ad2db6aa175b511dc8ca61e4c0a16"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 4,
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v3.png",
+      "sha256": "63b0f747865e92b107c39705433bf69918e63bc5a1773920702e41ee04db855a",
+      "role": "edit target"
+    }
+  ],
+  "status": "internal_visual_candidate",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "direction": "E",
+    "identity": "original character recognizable; phase/side issues separately listed",
+    "transparency": "actual alpha; ivory/dark composition reviewed; hidden RGB excluded",
+    "gait": "opposing four phases internally confirmed",
+    "failureReasons": [],
+    "note": "Different PNG hashes do not establish different gait phases."
+  },
+  "editTarget": {
+    "file": "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v3.png",
+    "sha256": "63b0f747865e92b107c39705433bf69918e63bc5a1773920702e41ee04db855a",
+    "generationRecord": "assets/characters/motion-generated/daoist-child/walk-east-v3.png.generation.json"
+  }
+}
