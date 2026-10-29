@@ -1,0 +1,65 @@
+{
+  "itemId": 26006,
+  "category": "food",
+  "sourceName": "心情棒棒糖中",
+  "sourceDescription": "增加宠物心情20点，保持宠物心情好可以使宠物成长加快哦！",
+  "file": "assets/items/food/icons/26006-mood-lollipop-medium.png",
+  "sha256": "2d8fdb4b605e738c105747c9fbf9548c95b97102667c64f2ca1da0dcf345dacd",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/food/food-a-v1.png",
+    "sha256": "aace9f6ab2a7a613fe76c716159cbb385e0da952ef69b29a8602bc0c7517d9d3",
+    "generationRecord": "assets/items/food/food-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      65,
+      23,
+      455,
+      456
+    ],
+    "sourceContentRect": [
+      1089,
+      535,
+      1479,
+      968
+    ],
+    "uniformScale": 0.5173210161662818,
+    "placementPx": [
+      27,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-26006.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "21be82811bca152fdb6b0e82330726dcb5f6b4c6caedef123b19ab3aa559961b",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-26006.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

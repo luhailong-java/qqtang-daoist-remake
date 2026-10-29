@@ -1,0 +1,65 @@
+{
+  "itemId": 26010,
+  "category": "food",
+  "sourceName": "榛子仁巧克力",
+  "sourceDescription": "增加宠物成长值450点。",
+  "file": "assets/items/food/icons/26010-hazelnut-chocolate.png",
+  "sha256": "3d6bbb5ac610d23c1c0b5726c15b2f6a55b7d41a70d4201138a1d60ac7ed725d",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/food/food-b-v1.png",
+    "sha256": "5e17e28a545f78946956b2e3652c0e46bfd759579a7e5b78924a6178598a11d0",
+    "generationRecord": "assets/items/food/food-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      540,
+      512,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      49,
+      29,
+      511,
+      431
+    ],
+    "sourceContentRect": [
+      49,
+      569,
+      511,
+      971
+    ],
+    "uniformScale": 0.48484848484848486,
+    "placementPx": [
+      16,
+      30
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-26010.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "839f279942592bc7351c364231b5407a6596aff0560d212ac496454ad9ba3688",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-26010.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

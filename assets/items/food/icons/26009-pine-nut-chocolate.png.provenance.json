@@ -1,0 +1,65 @@
+{
+  "itemId": 26009,
+  "category": "food",
+  "sourceName": "松子仁巧克力",
+  "sourceDescription": "增加宠物成长值180点。",
+  "file": "assets/items/food/icons/26009-pine-nut-chocolate.png",
+  "sha256": "78e5819be29be16178469e58d13cc870ed48f8446bfd31079e2a175b3bbf6e8f",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/food/food-b-v1.png",
+    "sha256": "5e17e28a545f78946956b2e3652c0e46bfd759579a7e5b78924a6178598a11d0",
+    "generationRecord": "assets/items/food/food-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      550
+    ],
+    "contentBoxWithinCell": [
+      27,
+      144,
+      480,
+      520
+    ],
+    "sourceContentRect": [
+      1051,
+      144,
+      1504,
+      520
+    ],
+    "uniformScale": 0.49448123620309054,
+    "placementPx": [
+      16,
+      35
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-26009.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "d104307e7343ac997a0b06ca95c375d5a21325c2a9a751f8dc21c28b1767c16c",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-26009.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

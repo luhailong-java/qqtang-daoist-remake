@@ -1,0 +1,77 @@
+{
+  "file": "assets/items/battlefield/pickups-c-v1.png",
+  "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+  "generatedAt": "2026-10-28T20:03:08.678Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\references\\qqtang-packed-art\\pickups-c-structure.png",
+      "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "D:\\work\\qqtang-ui\\assets\\items\\battlefield\\pickups-a-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "docs/battle-pickups-c-v1.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\qqtang-packed-art\\pickups-c-structure.png",
+      "purpose": "structure and functional content reference only",
+      "sha256": "9f8605f92482bdc25bcc79f5733e9239c3263900697647033868e2dc6e31cdef"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\items\\battlefield\\pickups-a-v1.png",
+      "purpose": "style reference",
+      "sha256": "4b0321037bb9eb098aa4d0d7a3988bd96019ad4597e9da96fdd0bb42e62869c8"
+    }
+  ],
+  "evidence": {
+    "hostSource": "exec-26e67b4e-e7c4-44cb-8b0b-b6a410f2345b",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

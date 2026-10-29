@@ -1,0 +1,65 @@
+{
+  "itemId": 26002,
+  "category": "food",
+  "sourceName": "宠物粮食小",
+  "sourceDescription": "增加宠物体力400点，增加宠物成长值20点。",
+  "file": "assets/items/food/icons/26002-pet-food-small.png",
+  "sha256": "15fe6400d63a8d7ddb60679c087301ebc6e0a201fb648624caa9be2451937901",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/food/food-a-v1.png",
+    "sha256": "aace9f6ab2a7a613fe76c716159cbb385e0da952ef69b29a8602bc0c7517d9d3",
+    "generationRecord": "assets/items/food/food-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "contentBoxWithinCell": [
+      68,
+      77,
+      452,
+      463
+    ],
+    "sourceContentRect": [
+      580,
+      77,
+      964,
+      463
+    ],
+    "uniformScale": 0.5803108808290155,
+    "placementPx": [
+      16,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-26002.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "5d318eca302fe724fed519b8ab0beaa8a5b5e9018f674280636d928a5f1116a0",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-26002.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

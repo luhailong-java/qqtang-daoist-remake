@@ -1,0 +1,85 @@
+{
+  "sceneId": 27,
+  "displayName": "云锋短镖",
+  "projectNameOriginal": true,
+  "semanticCandidate": "scene27 grants battlefield action44 x2; native function independently unverified",
+  "file": "assets/items/battlefield/masters/27-cloud-dagger.png",
+  "sha256": "5fc43156e7a61f41202a4acf94167e269e5a161164bbdbe3f40329e6367e0589",
+  "width": 120,
+  "height": 188,
+  "sourceFirstFrame": {
+    "index": 0,
+    "offset": 40,
+    "rawMarker": 0,
+    "frameOffset": [
+      5,
+      7
+    ],
+    "pixelMode": 3,
+    "width": 30,
+    "height": 47,
+    "unknownImageHeaderWord": 64,
+    "empty": false,
+    "pixelDataOffset": 68,
+    "pixelByteLength": 4230,
+    "encodedPixelSha256": "a9373261aabf041789fecd4fc35f0718abbd869886d3faed9da22474cf9c92dc",
+    "decodedRgbaSha256": "8e9b6beba99691fa2cce507199a6ab5f54726ef3720ba2bc69fcc5e203e7c83f"
+  },
+  "sourceAnimationFrameCount": 7,
+  "sourceRecord": "references/qqtang-packed-art/object--item--item27_stand-first-visible.png.source.json",
+  "semanticsSource": {
+    "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+    "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+    "scope": "community reconstruction constants and handling; native usage not independently verified"
+  },
+  "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+  "derivedFrom": {
+    "file": "assets/items/battlefield/pickups-c-v1.png",
+    "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+    "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      82,
+      53,
+      445,
+      492
+    ],
+    "uniformScale": 0.3305785123966942,
+    "placementPx": [
+      0,
+      43
+    ],
+    "exportDensity": 4,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "masterOnly": true,
+  "fullIdleAnimationComplete": false,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "visibleAspectRatioRelativeError": 0.2954441913439634,
+  "geometryAccepted": false,
+  "warnings": [
+    "visible-proportions-differ-more-than-10-percent"
+  ],
+  "communitySceneToAction": {
+    "sceneId": 27,
+    "actionId": 44,
+    "count": 2,
+    "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+    "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+    "nativeFunctionIndependentlyVerified": false
+  }
+}

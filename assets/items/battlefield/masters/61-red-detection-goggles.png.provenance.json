@@ -1,0 +1,77 @@
+{
+  "sceneId": 61,
+  "displayName": "探灵双目",
+  "projectNameOriginal": true,
+  "semanticCandidate": "hidden pickup reach; community source semantics, native function independently unverified",
+  "file": "assets/items/battlefield/masters/61-red-detection-goggles.png",
+  "sha256": "f4af80d390666ca28f4f71a35b857412c262cfe3e0f16ae47234675543658bf5",
+  "width": 156,
+  "height": 160,
+  "sourceFirstFrame": {
+    "index": 0,
+    "offset": 40,
+    "rawMarker": 0,
+    "frameOffset": [
+      1,
+      15
+    ],
+    "pixelMode": 3,
+    "width": 39,
+    "height": 40,
+    "unknownImageHeaderWord": 80,
+    "empty": false,
+    "pixelDataOffset": 68,
+    "pixelByteLength": 4680,
+    "encodedPixelSha256": "ee396b3c737f956c981129bdfd30e0cadd083a6469f09694c5c24f19ea84b7c4",
+    "decodedRgbaSha256": "0f00e3ab5dfa73f093af461f0879dfb99ea9079e997bea824e86356b2678a12c"
+  },
+  "sourceAnimationFrameCount": 7,
+  "sourceRecord": "references/qqtang-packed-art/object--item--item61_stand-first-visible.png.source.json",
+  "semanticsSource": {
+    "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+    "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+    "scope": "community reconstruction constants and handling; native usage not independently verified"
+  },
+  "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+  "derivedFrom": {
+    "file": "assets/items/battlefield/pickups-c-v1.png",
+    "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+    "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceCellRect": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      40,
+      60,
+      503,
+      446
+    ],
+    "uniformScale": 0.3369330453563715,
+    "placementPx": [
+      0,
+      30
+    ],
+    "exportDensity": 4,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "masterOnly": true,
+  "fullIdleAnimationComplete": false,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "visibleAspectRatioRelativeError": 0.23023781054869152,
+  "geometryAccepted": false,
+  "warnings": [
+    "visible-proportions-differ-more-than-10-percent"
+  ]
+}

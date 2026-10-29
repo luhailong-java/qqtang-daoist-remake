@@ -1,0 +1,65 @@
+{
+  "itemId": 26001,
+  "category": "food",
+  "sourceName": "宠物体力药水",
+  "sourceDescription": "增加宠物体力100点。",
+  "file": "assets/items/food/icons/26001-pet-stamina-potion.png",
+  "sha256": "a71072ccaab42c4017988a5d26868483bae5f9e942b1fd387bf0c7edceb53a25",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/food/food-a-v1.png",
+    "sha256": "aace9f6ab2a7a613fe76c716159cbb385e0da952ef69b29a8602bc0c7517d9d3",
+    "generationRecord": "assets/items/food/food-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      152,
+      43,
+      384,
+      466
+    ],
+    "sourceContentRect": [
+      152,
+      43,
+      384,
+      466
+    ],
+    "uniformScale": 0.5295508274231678,
+    "placementPx": [
+      66,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-26001.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "12a2abe90f39316a9715675998bc2370c415deef2de69a50a9f7f1e5e85c0d46",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-26001.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

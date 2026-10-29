@@ -1,0 +1,1417 @@
+{
+  "schemaVersion": 1,
+  "namespace": "battlefield-scene-factory-ID; not account-inventory-item-ID",
+  "pieces": [
+    {
+      "sceneId": 1,
+      "displayName": "糖泡数量",
+      "projectNameOriginal": true,
+      "semanticCandidate": "small bubble capacity",
+      "file": "assets/items/battlefield/masters/1-small-capacity.png",
+      "sha256": "452a29a18dffb49d1ef705c7b0e409a2f0c1e6f906d4a6b307496fd82ea04b26",
+      "width": 148,
+      "height": 148,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          2,
+          13
+        ],
+        "pixelMode": 3,
+        "width": 37,
+        "height": 37,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4107,
+        "encodedPixelSha256": "314400cb7273285f2045059541daa4e26c3d4c85df4eaa24d5f3a7997bbc1ed6",
+        "decodedRgbaSha256": "6d6cfc1b658561cff6296ca6e52463cdca6d46d9f57992c3c99e0fc6d2304b25"
+      },
+      "sourceAnimationFrameCount": 8,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item1_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-a-v1.png",
+        "sha256": "4b0321037bb9eb098aa4d0d7a3988bd96019ad4597e9da96fdd0bb42e62869c8",
+        "generationRecord": "assets/items/battlefield/pickups-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "contentBoxWithinCell": [
+          43,
+          59,
+          498,
+          482
+        ],
+        "uniformScale": 0.3252747252747253,
+        "placementPx": [
+          0,
+          10
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.0756501182033098,
+      "geometryAccepted": false,
+      "warnings": []
+    },
+    {
+      "sceneId": 2,
+      "displayName": "糖泡威力",
+      "projectNameOriginal": true,
+      "semanticCandidate": "small bubble power",
+      "file": "assets/items/battlefield/masters/2-small-power.png",
+      "sha256": "e4efc13cf9ad8684ed501307dafa99dfe666d53ec9b827d01ad775142ebb073a",
+      "width": 120,
+      "height": 196,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          5,
+          9
+        ],
+        "pixelMode": 3,
+        "width": 30,
+        "height": 49,
+        "unknownImageHeaderWord": 64,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4410,
+        "encodedPixelSha256": "598d8960872a9c927c0c2214c3f288775205e1b5fb279270124fe97b85aa78a1",
+        "decodedRgbaSha256": "5ebc4d6e0aa54c689ddc5a4b7cdfa82a0550b012e2e4552f07ee36d789f962dd"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item2_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-a-v1.png",
+        "sha256": "4b0321037bb9eb098aa4d0d7a3988bd96019ad4597e9da96fdd0bb42e62869c8",
+        "generationRecord": "assets/items/battlefield/pickups-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "contentBoxWithinCell": [
+          119,
+          34,
+          416,
+          481
+        ],
+        "uniformScale": 0.40404040404040403,
+        "placementPx": [
+          0,
+          15
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.08523489932885919,
+      "geometryAccepted": false,
+      "warnings": []
+    },
+    {
+      "sceneId": 3,
+      "displayName": "疾风布履",
+      "projectNameOriginal": true,
+      "semanticCandidate": "small speed rate",
+      "file": "assets/items/battlefield/masters/3-speed-boot.png",
+      "sha256": "71eca149d597018e0b1122958763628d6fa49f5320e859de6a4569a42af291bc",
+      "width": 160,
+      "height": 172,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          0,
+          13
+        ],
+        "pixelMode": 3,
+        "width": 40,
+        "height": 43,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 5160,
+        "encodedPixelSha256": "4f39f9e8ec936745a6dfe95d277df4c4bc3edf21b26579dd0c5d4bea2d11fff9",
+        "decodedRgbaSha256": "fd1c6fb2bf8f5bc1f9194c8cc926a38b7244a4a105a5fd9efdfd4bf0708e2dc7"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item3_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-a-v1.png",
+        "sha256": "4b0321037bb9eb098aa4d0d7a3988bd96019ad4597e9da96fdd0bb42e62869c8",
+        "generationRecord": "assets/items/battlefield/pickups-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "contentBoxWithinCell": [
+          36,
+          74,
+          477,
+          465
+        ],
+        "uniformScale": 0.36281179138321995,
+        "placementPx": [
+          0,
+          30
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.2124680306905371,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ]
+    },
+    {
+      "sceneId": 4,
+      "displayName": "四泡之灵",
+      "projectNameOriginal": true,
+      "semanticCandidate": "four-bubble effect; detailed native effect not independently verified",
+      "file": "assets/items/battlefield/masters/4-four-bubble-spirit.png",
+      "sha256": "e042d1f700a257d43992f0ecde03389cd906e2d5c949cb5eb87f4ceeb0676b6c",
+      "width": 156,
+      "height": 188,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          1,
+          8
+        ],
+        "pixelMode": 3,
+        "width": 39,
+        "height": 47,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 5499,
+        "encodedPixelSha256": "768645d110248b77be618c207039e3fbda38c012e5e1200973dfa318818da685",
+        "decodedRgbaSha256": "31ee0681362f5ec63483e74211b1631c52be86a7d1e10cefe30f90521821a2aa"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item4_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-a-v1.png",
+        "sha256": "4b0321037bb9eb098aa4d0d7a3988bd96019ad4597e9da96fdd0bb42e62869c8",
+        "generationRecord": "assets/items/battlefield/pickups-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          68,
+          17,
+          464,
+          434
+        ],
+        "uniformScale": 0.3939393939393939,
+        "placementPx": [
+          0,
+          24
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.14443829551743215,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ]
+    },
+    {
+      "sceneId": 5,
+      "displayName": "机缘问号",
+      "projectNameOriginal": true,
+      "semanticCandidate": "random attribute",
+      "file": "assets/items/battlefield/masters/5-random-attribute.png",
+      "sha256": "6379a0b05bb6822ccc8f19c6dccdf45bfdc03bb4a95a6d5d8337590b258e2227",
+      "width": 100,
+      "height": 164,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          7,
+          10
+        ],
+        "pixelMode": 3,
+        "width": 25,
+        "height": 41,
+        "unknownImageHeaderWord": 56,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 3075,
+        "encodedPixelSha256": "33080d4b987c8291a22e142fc17ac26341daddfb58948320f817cf011a400ef8",
+        "decodedRgbaSha256": "6adb370c9e64003bfcfaff67d96df16dcd1e0639d7c43cf89347c827b6101786"
+      },
+      "sourceAnimationFrameCount": 6,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item5_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-a-v1.png",
+        "sha256": "4b0321037bb9eb098aa4d0d7a3988bd96019ad4597e9da96fdd0bb42e62869c8",
+        "generationRecord": "assets/items/battlefield/pickups-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          111,
+          0,
+          413,
+          452
+        ],
+        "uniformScale": 0.33112582781456956,
+        "placementPx": [
+          0,
+          14
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.09575221238938059,
+      "geometryAccepted": false,
+      "warnings": []
+    },
+    {
+      "sceneId": 6,
+      "displayName": "丰泡玉盘",
+      "projectNameOriginal": true,
+      "semanticCandidate": "large bubble capacity",
+      "file": "assets/items/battlefield/masters/6-large-capacity.png",
+      "sha256": "11127f3c13ab04f43f5e45455aaa8eedaa989477e65ce5fdcc4562c067f80a1b",
+      "width": 164,
+      "height": 168,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          0,
+          9
+        ],
+        "pixelMode": 3,
+        "width": 41,
+        "height": 42,
+        "unknownImageHeaderWord": 88,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 5166,
+        "encodedPixelSha256": "6dd69ce629b31bdf1a97578749ee04ae9195f0b90f0153b1dffdebbfcaa89d7d",
+        "decodedRgbaSha256": "516b17413e983b2bcf3b843d0b849519b9115e4d1d8f20f1627f4afe20fd5d7f"
+      },
+      "sourceAnimationFrameCount": 8,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item6_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-a-v1.png",
+        "sha256": "4b0321037bb9eb098aa4d0d7a3988bd96019ad4597e9da96fdd0bb42e62869c8",
+        "generationRecord": "assets/items/battlefield/pickups-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          1024,
+          512,
+          1536,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          23,
+          9,
+          471,
+          459
+        ],
+        "uniformScale": 0.36607142857142855,
+        "placementPx": [
+          0,
+          3
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.019837398373983683,
+      "geometryAccepted": false,
+      "warnings": []
+    },
+    {
+      "sceneId": 7,
+      "displayName": "云焰宝瓶",
+      "projectNameOriginal": true,
+      "semanticCandidate": "large bubble power; community source +8",
+      "file": "assets/items/battlefield/masters/7-large-power.png",
+      "sha256": "c44bef6bd43983554260794a0327538a8bdc81dd6805e001e0e4f4907c61dffc",
+      "width": 144,
+      "height": 164,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          2,
+          14
+        ],
+        "pixelMode": 3,
+        "width": 36,
+        "height": 41,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4428,
+        "encodedPixelSha256": "63a6ac6e783cc5f7af55fa583d7d2950a71200a25d7b4a6077320dccb0849ef3",
+        "decodedRgbaSha256": "fafa5ce8d800d3e39af9f94a22c38a963c045e8e9a8204948378b6be87bc4a19"
+      },
+      "sourceAnimationFrameCount": 8,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item7_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-b-v1.png",
+        "sha256": "c3bb7cd6ade7183628198445f48d8971e85de0aaf1ba501bd6e26bf66ca235d2",
+        "generationRecord": "assets/items/battlefield/pickups-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          0,
+          0,
+          546,
+          512
+        ],
+        "contentBoxWithinCell": [
+          84,
+          51,
+          527,
+          499
+        ],
+        "uniformScale": 0.32505643340857787,
+        "placementPx": [
+          0,
+          18
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.12617807539682535,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ]
+    },
+    {
+      "sceneId": 8,
+      "displayName": "双翎疾履",
+      "projectNameOriginal": true,
+      "semanticCandidate": "large speed rate; community source +8",
+      "file": "assets/items/battlefield/masters/8-large-speed.png",
+      "sha256": "c5fc3f715fd6ab16ac45985056cecd9619913073a6dd79c0a57257d5d044c88c",
+      "width": 160,
+      "height": 164,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          0,
+          9
+        ],
+        "pixelMode": 3,
+        "width": 40,
+        "height": 41,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4920,
+        "encodedPixelSha256": "11be9a08a8d016dce505d8ccea3f2029bce02f5fd5d74631a76e8d1f38a87a4e",
+        "decodedRgbaSha256": "9c49e68e9219d9fba1e65db2e18819f756ea6ca17ea6607a68f86a58f8fc00d7"
+      },
+      "sourceAnimationFrameCount": 8,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item8_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-b-v1.png",
+        "sha256": "c3bb7cd6ade7183628198445f48d8971e85de0aaf1ba501bd6e26bf66ca235d2",
+        "generationRecord": "assets/items/battlefield/pickups-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          546,
+          0,
+          1024,
+          512
+        ],
+        "contentBoxWithinCell": [
+          11,
+          58,
+          443,
+          483
+        ],
+        "uniformScale": 0.37037037037037035,
+        "placementPx": [
+          0,
+          7
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.04188235294117648,
+      "geometryAccepted": false,
+      "warnings": []
+    },
+    {
+      "sceneId": 21,
+      "displayName": "望云双镜",
+      "projectNameOriginal": true,
+      "semanticCandidate": "scene21 grants battlefield action41 x1; native function independently unverified",
+      "file": "assets/items/battlefield/masters/21-jade-binoculars.png",
+      "sha256": "d425964265b2adadec948e247e362fd6d78c69e8fa7a777907b6302341dfaf6a",
+      "width": 136,
+      "height": 164,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          3,
+          14
+        ],
+        "pixelMode": 3,
+        "width": 34,
+        "height": 41,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4182,
+        "encodedPixelSha256": "f6ba6899b11acb42b80c2977e635d5fa842b91ec37f2f559a1d491de60c5da2b",
+        "decodedRgbaSha256": "1f566ea0628dedf65f8c35172f443155c8850575be288d6814c23ebfb3a21b9e"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item21_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-b-v1.png",
+        "sha256": "c3bb7cd6ade7183628198445f48d8971e85de0aaf1ba501bd6e26bf66ca235d2",
+        "generationRecord": "assets/items/battlefield/pickups-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "contentBoxWithinCell": [
+          53,
+          92,
+          457,
+          477
+        ],
+        "uniformScale": 0.33663366336633666,
+        "placementPx": [
+          0,
+          34
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.2653934300993124,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ],
+      "communitySceneToAction": {
+        "sceneId": 21,
+        "actionId": 41,
+        "count": 1,
+        "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+        "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+        "nativeFunctionIndependentlyVerified": false
+      }
+    },
+    {
+      "sceneId": 23,
+      "displayName": "金云拳套",
+      "projectNameOriginal": true,
+      "semanticCandidate": "scene23 grants battlefield action42 x1; native function independently unverified",
+      "file": "assets/items/battlefield/masters/23-cloud-boxing-glove.png",
+      "sha256": "116f68ff8db96aaabc4676c066e06a5ece6b8c8a4e3c4a24b4166ff4a40a17ee",
+      "width": 160,
+      "height": 168,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          0,
+          9
+        ],
+        "pixelMode": 3,
+        "width": 40,
+        "height": 42,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 5040,
+        "encodedPixelSha256": "13120dc2e8015dde0dc1b69567f0303c59c30d7a24dbfc1cdd1b5dfda10a1f2c",
+        "decodedRgbaSha256": "19b727817077f24f8e3bbf7d642d221538a5b6730acb6bf24d68bc2d7ba49a79"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item23_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-b-v1.png",
+        "sha256": "c3bb7cd6ade7183628198445f48d8971e85de0aaf1ba501bd6e26bf66ca235d2",
+        "generationRecord": "assets/items/battlefield/pickups-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          57,
+          46,
+          505,
+          441
+        ],
+        "uniformScale": 0.35714285714285715,
+        "placementPx": [
+          0,
+          27
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.19088607594936713,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ],
+      "communitySceneToAction": {
+        "sceneId": 23,
+        "actionId": 42,
+        "count": 1,
+        "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+        "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+        "nativeFunctionIndependentlyVerified": false
+      }
+    },
+    {
+      "sceneId": 24,
+      "displayName": "玉嵌银扳",
+      "projectNameOriginal": true,
+      "semanticCandidate": "scene24 grants battlefield action63 x1; native function independently unverified",
+      "file": "assets/items/battlefield/masters/24-jade-spanner.png",
+      "sha256": "082ac873d2a4a8308676c2b0870f8d97505fc255c4b3d4f591a76ab875c71e52",
+      "width": 108,
+      "height": 184,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          8,
+          9
+        ],
+        "pixelMode": 3,
+        "width": 27,
+        "height": 46,
+        "unknownImageHeaderWord": 56,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 3726,
+        "encodedPixelSha256": "44992a3039c1b0176522162a2af82ce8bec6029f046cd47ae3d11a7015a12f36",
+        "decodedRgbaSha256": "e779f5bc3fec9d9c2d8d944f0673e79021b1975ce927a3d84e6a36e694d5bd93"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item24_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-b-v1.png",
+        "sha256": "c3bb7cd6ade7183628198445f48d8971e85de0aaf1ba501bd6e26bf66ca235d2",
+        "generationRecord": "assets/items/battlefield/pickups-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          512,
+          512,
+          982,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          112,
+          16,
+          441,
+          457
+        ],
+        "uniformScale": 0.3282674772036474,
+        "placementPx": [
+          0,
+          39
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.27101704879482647,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ],
+      "communitySceneToAction": {
+        "sceneId": 24,
+        "actionId": 63,
+        "count": 1,
+        "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+        "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+        "nativeFunctionIndependentlyVerified": false
+      }
+    },
+    {
+      "sceneId": 25,
+      "displayName": "含笑桃灵",
+      "projectNameOriginal": true,
+      "semanticCandidate": "scene25 grants battlefield action43 x3; native function independently unverified",
+      "file": "assets/items/battlefield/masters/25-peach-spirit.png",
+      "sha256": "03db62c230be10a17c95b0c14a2da738fbbe52691048d527e1bcdfeb4dd0aaf3",
+      "width": 160,
+      "height": 152,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          0,
+          16
+        ],
+        "pixelMode": 3,
+        "width": 40,
+        "height": 38,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4560,
+        "encodedPixelSha256": "6c34ea40f644c8fe28741e527262e5491fd28aa1ac574272e283f74fefdbf845",
+        "decodedRgbaSha256": "0f0a0301b20961db595a7e076f038d1f4b7c37bf5913d6164afa78f14303907f"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item25_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-b-v1.png",
+        "sha256": "c3bb7cd6ade7183628198445f48d8971e85de0aaf1ba501bd6e26bf66ca235d2",
+        "generationRecord": "assets/items/battlefield/pickups-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          982,
+          512,
+          1536,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          25,
+          49,
+          522,
+          433
+        ],
+        "uniformScale": 0.32193158953722334,
+        "placementPx": [
+          0,
+          28
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.2295572916666666,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ],
+      "communitySceneToAction": {
+        "sceneId": 25,
+        "actionId": 43,
+        "count": 3,
+        "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+        "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+        "nativeFunctionIndependentlyVerified": false
+      }
+    },
+    {
+      "sceneId": 27,
+      "displayName": "云锋短镖",
+      "projectNameOriginal": true,
+      "semanticCandidate": "scene27 grants battlefield action44 x2; native function independently unverified",
+      "file": "assets/items/battlefield/masters/27-cloud-dagger.png",
+      "sha256": "5fc43156e7a61f41202a4acf94167e269e5a161164bbdbe3f40329e6367e0589",
+      "width": 120,
+      "height": 188,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          5,
+          7
+        ],
+        "pixelMode": 3,
+        "width": 30,
+        "height": 47,
+        "unknownImageHeaderWord": 64,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4230,
+        "encodedPixelSha256": "a9373261aabf041789fecd4fc35f0718abbd869886d3faed9da22474cf9c92dc",
+        "decodedRgbaSha256": "8e9b6beba99691fa2cce507199a6ab5f54726ef3720ba2bc69fcc5e203e7c83f"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item27_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-c-v1.png",
+        "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+        "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "contentBoxWithinCell": [
+          82,
+          53,
+          445,
+          492
+        ],
+        "uniformScale": 0.3305785123966942,
+        "placementPx": [
+          0,
+          43
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.2954441913439634,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ],
+      "communitySceneToAction": {
+        "sceneId": 27,
+        "actionId": 44,
+        "count": 2,
+        "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+        "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+        "nativeFunctionIndependentlyVerified": false
+      }
+    },
+    {
+      "sceneId": 28,
+      "displayName": "引雷方器",
+      "projectNameOriginal": true,
+      "semanticCandidate": "scene28 grants battlefield action64 x1; native function independently unverified",
+      "file": "assets/items/battlefield/masters/28-copper-crossbar-device.png",
+      "sha256": "65b811011750fe84db9a16e2644877fc28b0dfd7b5b05d01c175ef210c710f53",
+      "width": 140,
+      "height": 188,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          3,
+          7
+        ],
+        "pixelMode": 3,
+        "width": 35,
+        "height": 47,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4935,
+        "encodedPixelSha256": "ee375f2b67dad022ce8feacb693b3bcff2fabd6c2e1d10c9b8188bdf51cfa654",
+        "decodedRgbaSha256": "eb158bbc0b1ea4a8e86f63f0d9d8d7acf974d94ac0a51c6dd25c3891e4f6dfa6"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item28_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-c-v1.png",
+        "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+        "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "contentBoxWithinCell": [
+          79,
+          52,
+          479,
+          505
+        ],
+        "uniformScale": 0.35,
+        "placementPx": [
+          0,
+          29
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.1857458215074108,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ],
+      "communitySceneToAction": {
+        "sceneId": 28,
+        "actionId": 64,
+        "count": 1,
+        "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+        "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+        "nativeFunctionIndependentlyVerified": false
+      }
+    },
+    {
+      "sceneId": 26,
+      "displayName": "碧息气瓶",
+      "projectNameOriginal": true,
+      "semanticCandidate": "oxygen bottle; community source oxygen increment, native function independently unverified",
+      "file": "assets/items/battlefield/masters/26-oxygen-bottle.png",
+      "sha256": "3edbcf5b6f8a43c37fd1e9bd1564c68de625b1331e4cfd99c9d322a8fece64a1",
+      "width": 116,
+      "height": 192,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          5,
+          7
+        ],
+        "pixelMode": 3,
+        "width": 29,
+        "height": 48,
+        "unknownImageHeaderWord": 64,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4176,
+        "encodedPixelSha256": "590779abba1f7d6aa77e94c5eab8a5176f2c68c09d3e35f0dcc790c629e8bc3d",
+        "decodedRgbaSha256": "df5708776f3b106cd414b7a60511f9c44df03031482337339f7c23f8396665f3"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item26_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-c-v1.png",
+        "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+        "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "contentBoxWithinCell": [
+          132,
+          51,
+          409,
+          503
+        ],
+        "uniformScale": 0.4187725631768953,
+        "placementPx": [
+          0,
+          3
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.014342386328959567,
+      "geometryAccepted": false,
+      "warnings": []
+    },
+    {
+      "sceneId": 47,
+      "displayName": "疾行云履",
+      "projectNameOriginal": true,
+      "semanticCandidate": "fast movement; separate scene ID and source rule from small/large speed upgrades",
+      "file": "assets/items/battlefield/masters/47-fast-movement-boot.png",
+      "sha256": "fb476de64ae826fa3ced792b577f6be3da21d16b9942f6656d4274650b9d0050",
+      "width": 160,
+      "height": 196,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          0,
+          5
+        ],
+        "pixelMode": 3,
+        "width": 40,
+        "height": 49,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 5880,
+        "encodedPixelSha256": "6e8f10bd65961774c690cc8b6aa062ccd5d0e1c109dad65c45120c417c77e939",
+        "decodedRgbaSha256": "ee3a20ec03edc9df599393918177f39c3a3be82aa3c2ae586d49e0da55fe30dc"
+      },
+      "sourceAnimationFrameCount": 6,
+      "sourceRecord": "references/qqtang-packed-art/object--item--Item47_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-c-v1.png",
+        "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+        "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          54,
+          36,
+          478,
+          440
+        ],
+        "uniformScale": 0.37735849056603776,
+        "placementPx": [
+          0,
+          44
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.2856435643564357,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ]
+    },
+    {
+      "sceneId": 61,
+      "displayName": "探灵双目",
+      "projectNameOriginal": true,
+      "semanticCandidate": "hidden pickup reach; community source semantics, native function independently unverified",
+      "file": "assets/items/battlefield/masters/61-red-detection-goggles.png",
+      "sha256": "f4af80d390666ca28f4f71a35b857412c262cfe3e0f16ae47234675543658bf5",
+      "width": 156,
+      "height": 160,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          1,
+          15
+        ],
+        "pixelMode": 3,
+        "width": 39,
+        "height": 40,
+        "unknownImageHeaderWord": 80,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4680,
+        "encodedPixelSha256": "ee396b3c737f956c981129bdfd30e0cadd083a6469f09694c5c24f19ea84b7c4",
+        "decodedRgbaSha256": "0f00e3ab5dfa73f093af461f0879dfb99ea9079e997bea824e86356b2678a12c"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item61_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-c-v1.png",
+        "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+        "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceCellRect": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "contentBoxWithinCell": [
+          40,
+          60,
+          503,
+          446
+        ],
+        "uniformScale": 0.3369330453563715,
+        "placementPx": [
+          0,
+          30
+        ],
+        "exportDensity": 4,
+        "resampler": "premultiplied-alpha LANCZOS",
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.23023781054869152,
+      "geometryAccepted": false,
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ]
+    },
+    {
+      "sceneId": 62,
+      "displayName": "碧息补给",
+      "projectNameOriginal": true,
+      "semanticCandidate": "oxygen-value increment; separate scene ID retained",
+      "file": "assets/items/battlefield/masters/26-oxygen-bottle.png",
+      "sha256": "3edbcf5b6f8a43c37fd1e9bd1564c68de625b1331e4cfd99c9d322a8fece64a1",
+      "width": 116,
+      "height": 192,
+      "sourceFirstFrame": {
+        "index": 0,
+        "offset": 40,
+        "rawMarker": 0,
+        "frameOffset": [
+          5,
+          7
+        ],
+        "pixelMode": 3,
+        "width": 29,
+        "height": 48,
+        "unknownImageHeaderWord": 64,
+        "empty": false,
+        "pixelDataOffset": 68,
+        "pixelByteLength": 4176,
+        "encodedPixelSha256": "590779abba1f7d6aa77e94c5eab8a5176f2c68c09d3e35f0dcc790c629e8bc3d",
+        "decodedRgbaSha256": "df5708776f3b106cd414b7a60511f9c44df03031482337339f7c23f8396665f3"
+      },
+      "sourceAnimationFrameCount": 7,
+      "sourceRecord": "references/qqtang-packed-art/object--item--item62_stand-first-visible.png.source.json",
+      "semanticsSource": {
+        "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+        "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+        "scope": "community reconstruction constants and handling; native usage not independently verified"
+      },
+      "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+      "derivedFrom": {
+        "file": "assets/items/battlefield/pickups-c-v1.png",
+        "sha256": "bbf4511f5849f71eee6b906069bf2b29c5cffc83caa28d10b6d0baf48a6cae7d",
+        "generationRecord": "assets/items/battlefield/pickups-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "explicit-byte-identical-full-source-resource-visible-reuse",
+        "sourceSceneId": 26,
+        "sourceDimgSha256": "6edeeb3ff2441834b95bc5e867f8d6efd4cf75e2e389f7f6f536a69d9a7e3f35",
+        "sourceMasterRecord": "assets/items/battlefield/masters/26-oxygen-bottle.png.provenance.json",
+        "newModelGeneration": false,
+        "resampled": false,
+        "pixelFileDuplicated": false,
+        "targetSceneRulesRetained": true
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "masterOnly": true,
+      "fullIdleAnimationComplete": false,
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "visibleAspectRatioRelativeError": 0.014342386328959567,
+      "geometryAccepted": false,
+      "warnings": [],
+      "sourceResourceEqualityVerified": true,
+      "provenanceRecord": "assets/items/battlefield/reuse/62-from-26.json"
+    }
+  ],
+  "accepted": false,
+  "runtimeAdopted": false
+}
