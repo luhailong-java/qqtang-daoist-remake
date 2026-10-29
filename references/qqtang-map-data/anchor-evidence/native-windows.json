@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "archive": "D:\\work\\qqtang-ui\\.artifacts\\reference-inputs\\QQTang-Local-v1.3.4.zip",
+  "expectedArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "archiveHashEvidence": "Previously verified fixed ZIP; no whole288MB rehash in resource freeze",
+  "archiveEntry": "QQTang-Local/runtime/client-patched/Client.exe",
+  "entryBytes": 13860864,
+  "entryCRC32": "04f986c5",
+  "machine": "0x14c",
+  "imageBase": "0x400000",
+  "logicalHeaderReadBytes": 16384,
+  "logicalCodeReadBytes": 6549,
+  "latestRunNewCodeReadBytes": 256,
+  "readMode": "ZipExtFile bounded PE header and explicit source-cited code windows; forward seek may decompress preceding bytes internally",
+  "inputExecuted": false,
+  "clientExtracted": false,
+  "testsRun": false,
+  "compilationPerformed": false,
+  "pngDecoded": false,
+  "disassembler": "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\Llvm\\x64\\bin\\llvm-objdump.exe",
+  "wrapper": "Tiny temporary COFF data wrapper, no linker/compiler; deleted after disassembly",
+  "windows": [
+    {
+      "va": "0x5d80e1",
+      "rva": "0x1d80e1",
+      "fileOffset": 1933537,
+      "byteLength": 699,
+      "sha256": "2811d9d87c94e3825c53701c5e19e469fca68d955a82ed90a0bc4f0d5dc1bb15",
+      "bytesHex": "558bec83ec0c53565733ff397d088bf10f84a10200008b46188d5e188945f48d45f450578bcbe8b85afeff8b45f4c1e00250e8367f040089462c8b038945f4598d45f48bcb5057e8975afeff8b45f4c1e00250e8157f04008946308b038945fc598d45fc8bcb5057897df8e8735afeff397dfc0f8ef80000008d5e04eb0233ff8b038bcb8945f48d45f45057e8525afeff8b45f4c1e00250e8d07e0400598b4df88bf98b4e2cc1e70289040f8b038945f48d45f4506a008bcbe8255afeff8b45f4c1e00250e8a37e0400598b4e308904398b038945f48d45f4506a008bcbe8005afeffff75f48b462c6a00ff3407e8987e04008b0383c40c8945f48d45f4506a008bcbe8db59feff8b45f4c1e002508b46306a00ff3438e86f7e04008b0383c40c8945f48d45f4506a008bcbe8b259feff8b45f4c1e002508b4508ff34078b462cff3407e8867e04008b46188d4e1883c40cff45f88945fc8d45fc506a00e88059feff8b45f83b45fc0f8c0fffffff33ff8b46188d4e188945088d45085057897dfce85c59feff397d080f8e1e010000897df4897df88b46048d4e048945088d4508505733dbe83859feff397d080f8ed00000008b462c8b4df403c18b08393c990f8ea00000008b4e343bcf744d8b89f83700008b89a44e000083790808753b8b4df88b0003cb51ff3498e8b62dffff8bc8e88632ffff8bc83bcf894d080f84b300000056e85d6b01008b4d0853ff75fc8b01ff5020ff7508eb458b008b04983d491f000074403d4a1f000074393d4e1f0000743250e86b2dffff8bc8e89431ffff8bc83bcf894d08746c56e8166b01008b4d0853ff75fc8b01ff5020ff75088bcee8540000008b46048d4e048945088d4508505743e86858feff3b5d080f8c30ffffff8b46188d4e18ff45fc8345f8108345f4048945088d45085057e84158feff8b45fc3b45080f8ce8feffffb0015f5e5bc9c2080032c0ebf5",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go#L227-L232",
+      "disassembly": "window-005d80e1.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5d839c",
+      "rva": "0x1d839c",
+      "fileOffset": 1934236,
+      "byteLength": 512,
+      "sha256": "b6fc2ce527b00f2107e479040fdaaf1d33e504a2991bebaa627f3a68e45052c1",
+      "bytesHex": "558bec83ec105356578b7d0885ff8bf10f8442010000668b5f08668b470a6685db668945f80f8c2d0100008b46188d4e188945088d4508506a00e8e957feff0fbfdb3b5d080f8d0d01000066837df8000f8c020100008b46048d4e048945088d4508506a00e8be57feff0fbf45f83b45088945f00f8dde000000568bcfe82a6a01008b4e308b45f0c1e302c1e0028b0c0b8945f08b0c0185c9741d8b016a01ff108b4e308b45f08b0c0b832401008b4e2c8b0c19832401008b4e308b0c0b893c018b4e2c8b57048b0c0b8914018b4f14668b51046683fa018955087f0766837906017e688365f80066837906007e5d8b4d08895dfc836508006685c97e3b8945f48b56308b4dfc8b1411893c028b462c8b57048b0c018b45f4f7da8914018b4f14ff450883c004668b49048945f40fbfd13955087ccb8b45f08b5714ff45f88345fc040fbf52063955f87ca98b4e2c8b57048b0c0b8914015f5e5bc9c20400837c2404007409ff742404e891feffffc20400837c2404007409ff742404e87efeffffc20400837c2404007409ff742404e86bfeffffc20400837c2404007409ff742404e858feffffc20400837c2404007409ff742404e845feffffc20400558bec83ec0c5333db66395d0856578bf10f8ce40000008b46188d4e188945fc8d45fc5053e84056feff0fbf7d083b7dfc0f8dc400000066395d0c0f8cba0000008b",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go#L260-L264",
+      "disassembly": "window-005d839c.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x60c518",
+      "rva": "0x20c518",
+      "fileOffset": 2147608,
+      "byteLength": 256,
+      "sha256": "18f0d81570042886073f32a63474e55a663b5cf5f6c0723213cdaccbd7d42d1a",
+      "bytesHex": "558bec83ec1453568b7104578b7d08894dfc81c610130000d9873c030000d98738030000e88d3b01006a289959f7f950e8813b01006a289959f7f98d8e203b000050e8f5f7fcff8bd885db747d8b4b3c8b01ff500483f8047470668b8728030000d98738030000668945ec8b43588945eee8403b0100d9873c030000668945f6e8313b0100668945f88b43048945f28d45ecbfac0f00005057e82b58f9ff8bc8e88f69f9ff8b86243800003b863038000075178d45ec508b45fc578b4804e8b9c1fbff8bc8e829d026005f5e5bc9c20400e900000000d9e8d83564457a00d91d8cde8500c3568bf1e8488cfeffc70668457a008bc65ec36a0358c3568bf1e814",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go#L164-L167",
+      "disassembly": "window-0060c518.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5cb4b7",
+      "rva": "0x1cb4b7",
+      "fileOffset": 1881271,
+      "byteLength": 167,
+      "sha256": "c09f5e7d26c1b20b0159c91a4109cab652b3b2f8643aec2e1a3ad7aaa3e7265b",
+      "bytesHex": "558bec51518b550833c0c745fc0ad7a33c8d8a1fbdffff83f90c7729ff248d2ab55c00c745f801000000eb16c745f803000000eb0d8365f800eb07c745f8020000008d45f8565052e8299e02008bf05985f65974138b068bceff500484c0750c8b066a018bceff1033c0eb028bc65ec9c20400dab45c00dab45c00e3b45c00e3b45c00ecb45c00ecb45c00f2b45c00f2b45c00fcb45c00e3b45c00dab45c00ecb45c00f2b45c00",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005d80e1.txt VA0x5d831e direct-call target; no guessed xref",
+      "disassembly": "window-005cb4b7.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5eee48",
+      "rva": "0x1eee48",
+      "fileOffset": 2027080,
+      "byteLength": 41,
+      "sha256": "4d6a12019672dc6eaa4ed3a3545e1ddade29d1c36ff5db4a2e555e3354251324",
+      "bytesHex": "8b54240489511c8b423485c07418568db0780e00003bd65e0f94c2052c0e0000885134894130c20400",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005d80e1.txt VA0x5d82e6 and0x5d832d direct-call target; no guessed xref",
+      "disassembly": "window-005eee48.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5f532d",
+      "rva": "0x1f532d",
+      "fileOffset": 2052909,
+      "byteLength": 512,
+      "sha256": "a0ec1b2284d756a6fbf546dca7a31c98a05d7bfd9ac8c5ccc88f8fdb3c08d08b",
+      "bytesHex": "558beca148387a00b948387a0085c074183b450874088b410883c108ebefff750cff7508ff7104eb0bff750cff750868506a7f00e884ffffff83c40c5dc3e900000000d9e8d835a4397a00d91d18dd8500c35333db5653ff7424108bf1e8d198ffff8b442410834e48ff834e54ff894660895e38895e3c895e40895e44895e4c895e50895e58885e5c895e64895e68895e6cc706a8397a00895e708bc65e5bc20800568bf1e814000000f644240801740756e824f2fcff598bc65ec20400b808c36500e80fb1020051568bf18975f0c706a8397a008b4e6c8365fc0085c9740a8b016a01ff1083666c00834dfcff8bcee8d698ffff8b4df45e64890d00000000c9c3558bec83ec1083790c03740432c0eb3a8b41408b49448b5508568b750c578d78ec83c014897df08945f88d79ec568d45f083c1145250897df4894dfcff159c248600f7d81bc05ff7d85ec9c20800668b44240856668b7424086689410a0fbfc0668971088d04808d14c5140000000fbfc68951408d04808d04c5140000005052894144e8130000005ec208008b496c85c974076a00e824f3fcffc3538b5c240c568bf1578b7c24108b46408b4e6c8946388b464485c989463c897e40895e4474075357e887f2fcff8b766485f6740953578bcee8ad78fdff5f5e5bc2080053568bf1578b4e1885c974168b46406a018946388b464489463c8b01ff108366",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005cb4b7.txt VA0x5cb4ff direct-call target; no guessed xref",
+      "disassembly": "window-005f532d.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5f52ea",
+      "rva": "0x1f52ea",
+      "fileOffset": 2052842,
+      "byteLength": 67,
+      "sha256": "f3bd52e2d4d73402b609c7c6ee2d291f0cdbd57369f860e2c46beb0b58e6e4d8",
+      "bytesHex": "5733ff397c2408750433c05fc3568b3514dd85003bf77426ff7604ff742410e8aead02005985c05974058b7614ebe5ff742414ff742414ff560c598bf8598bc75e5fc3",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005f532d.txt VA0x5f5361 direct-call target; no guessed xref",
+      "disassembly": "window-005f52ea.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5eec60",
+      "rva": "0x1eec60",
+      "fileOffset": 2026592,
+      "byteLength": 152,
+      "sha256": "6eb0f420a48dc0fb008324a7b9f373ec9e29ea26a824a31583d67ee1da932499",
+      "bytesHex": "568bf1e84659fdff8b442408c7069c367a0089460433c089461489461889461c89462089462489462c8946308846348bc65ec20800ff742408ff742408e80d00000085c074048b00eb0233c0c208000fbf51088b4114560fbf7424082bf20fbf50040fbf490a0faff28b40182bf10fbf4c240c03f18d04b05ec20800568bf1e814000000f644240801740756e81759fdff598bc65ec20400",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005f532d.txt VA0x5f538a constructor direct-call target; no guessed xref",
+      "disassembly": "window-005eec60.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5ef073",
+      "rva": "0x1ef073",
+      "fileOffset": 2027635,
+      "byteLength": 75,
+      "sha256": "39d6c135bcaeda2a65a9893d5b58d31e7ffc9c031a86a6a0472f8bddb36158c7",
+      "bytesHex": "53668b5c240856576685db8bf17c2ce80e47fdff0fbfcb3bc87d20668b7c24146685ff7c16e8f246fdff0fbfcf3bc87d0a66895e0866897e0aeb0a6683660a0066836608005f5e5bc20800",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:native-data.json VA0x7a369c+0x20 contains0x5ef073; exact slot called at0x5d82f4/0x5d833b",
+      "disassembly": "window-005ef073.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5ef003",
+      "rva": "0x1ef003",
+      "fileOffset": 2027523,
+      "byteLength": 112,
+      "sha256": "ad9465f38329bfd8b7519338e6bbd2dbaf5feb606b3f64221e70405d7f4699bd",
+      "bytesHex": "568bf1807e34007424837e1c00741e8b4e3085c97417668b460a50668b460850e83496feff85c074043bc675188b460c48740648741148750c8b4e2085c97405e86063e1ff5ec38b4e24ebf08b51146a0a58817a10000001007e046a1458c38b490c83f904740583f90275036a3358c3",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:native-data.json VA0x7a369c slots+0xc/+0x10 contain0x5ef003/0x5ef04f; two bounded slots, meanings unknown before decode",
+      "disassembly": "window-005ef003.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5eee22",
+      "rva": "0x1eee22",
+      "fileOffset": 2027042,
+      "byteLength": 38,
+      "sha256": "c7f7455ef79503aed5c82d756e59dd6bae2c993d2021a5989f15f9b1160ed245",
+      "bytesHex": "568bf1e88549fdffff76048bc8e8104dfdff8946148b400c8946108b068bceff503cb0015ec3",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:native-data.json VA0x7a369c slot+0x4 contains0x5eee22; slot called at0x5cb510",
+      "disassembly": "window-005eee22.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5eedb1",
+      "rva": "0x1eedb1",
+      "fileOffset": 2026929,
+      "byteLength": 113,
+      "sha256": "3e95b4afce1daf20da60f3cfc87605262f20c2636089f92df0a45828d40b2a08",
+      "bytesHex": "b8c0dc8500c3568b3514dd8500578bf985f67417ff74240cff7604e8eb1203005985c05974058b7614ebe5568bcfe8050000005f5ec204005356578b7c241033db85ff74248b01ff50148bf085f67419ff7704ff7604e8b01203005985c0597405ff5610ebe46a015b5f8bc35e5bc20400",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:native-data.json VA0x7a369c slot+0x14 contains0x5eedb1; exact bounded slot, meaning unknown before decode",
+      "disassembly": "window-005eedb1.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5ef283",
+      "rva": "0x1ef283",
+      "fileOffset": 2028163,
+      "byteLength": 76,
+      "sha256": "bfea23b444179211fb90abb38357768302175cc97a85acd0e82303a8ccefba51",
+      "bytesHex": "568bf1837e2000c7460c01000000753a8b4e0453578bc1bfe80300006a00998bdff7fb33db8af88bc199f7ff8adac1e30881cb0100000553685c6a7f00e8c461e1ff83c40c8946205f5b5ec3",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:native-data.json VA0x7a369c slot+0x3c contains0x5ef283; called by0x5eee41 initialization",
+      "disassembly": "window-005ef283.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5ef340",
+      "rva": "0x1ef340",
+      "fileOffset": 2028352,
+      "byteLength": 138,
+      "sha256": "245b69b675b17d87f8df1abb0ed22ccf751b795dfb6d9016f8ace6ab2240dc2a",
+      "bytesHex": "837c24040675128b41148b401483e0102c10f6d81bc040eb0232c0c20400e900000000d9e8d835e8367a00d91ddcdc8500c35333db56538bf168d8320000e8ddf8ffff8a44240cc706ec367a0088463b8a44241088463cc74604d8320000885e3a885e38885e39895e1c895e50895e54895e58895e5c895e60895e64895e6c8bc65e5bc208006a1e58c3",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:native-data.json VA0x7a369c slot+0x24 contains0x5ef340; exact bounded slot, meaning unknown before decode",
+      "disassembly": "window-005ef340.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5ef0be",
+      "rva": "0x1ef0be",
+      "fileOffset": 2027710,
+      "byteLength": 236,
+      "sha256": "9cc3d05fffe74ab02c923e048a71dea551483dd20e4b8786a98efa887616de1f",
+      "bytesHex": "b856be6500e83c1403005156578bf133ff397e18c7460c0300000075286a2ce86c0f0300598bc8894df03bcf897dfc7407e8a654fbffeb0233c0834dfcff3bc789461874585357668b7d08ff75100fbfc7668b5d0c8b4e188d04808b118d04c514000000500fbfc38d04808d04c514000000500fbf46088d04808d04c514000000500fbf460a8d04808d04c51400000050ff520466895e0a66897e085b8b4df45f5e64890d00000000c9c20c0083790c0175368b411c83412c028b512c566a0c85c05e74188b40348b80f83700008b80a44e00008378080875036a1e5e3bd65e7e0783612c00b001c332c0c3",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:native-data.json VA0x7a369c slot+0x44 contains0x5ef0be; exact bounded slot, meaning unknown before decode",
+      "disassembly": "window-005ef0be.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5eee71",
+      "rva": "0x1eee71",
+      "fileOffset": 2027121,
+      "byteLength": 402,
+      "sha256": "be9b1c8bc782f4e2a073f35901171b85e5df5925e7758e14706784803a7daf99",
+      "bytesHex": "558bec51568bf1578b460c480f842d010000480f848d000000480f856c0100008b4e2085c97408ff7508e8d604e2ff8b4e1885c90f84520100008b01ff7508ff50088b4e188d5508528d55fc8b0152ff500c8b4e2085c974208b46148b7d080fbf500a0fbf40082bfa8b55fc2bd04783ea0c5752e816dae1ff8b4e188b01ff501484c00f84030100008b4e1885c974068b016a01ff108b06836618008bceff503ce9e60000008b4e24538b5d0885c974560fbf56088b46148d14920fbf780ac1e2032bd783c2150fbf4008520fbf560a8d1492c1e2032bd083c20852e8aed9e1ff8b4e2453e81b04e2ff85c075198b7e2485ff74128bcfe8f1c1e1ff57e80c0f03008366240059295e28837e28005b7f7b8b4e1c85c97474668b460a50668b460850e8c496feff3bc67561668b460a8b4e1c50668b460850e8ac95feffeb4d8b4e2085c9743b0fbf56088b46148d14920fbf780ac1e2032bd783c2150fbf4008520fbf560a8d1492c1e2032bd083c20852e819d9e1ffff75088b4e20e88403e2ff8b462c85c07e044889462c5f5ec9c20400",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/native_scene_lifecycle.go#L5-L7; bounded retirement-to-known-slot0x5ef003 window, no guessed xref",
+      "disassembly": "window-005eee71.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x40c900",
+      "rva": "0xc900",
+      "fileOffset": 51456,
+      "byteLength": 96,
+      "sha256": "2b562d36b3053a44ff97afb88c4303dd1f81922eb8dd8536e1b2573793e00b53",
+      "bytesHex": "e96b621700e996870e00e9014a0b00e95c8b0f00e9875f0800e9d2450800e91dbc0600e978f10400e9336c1300e9bec61200e9b9a91800e934891600e9df860b00e97a800700e9a58e0800e980e01600e95b070500e9f67e0e00e9b1e31000e9",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005eee71.txt VA0x5eefe2/0x5eef4d direct-call target for two computed arguments",
+      "disassembly": "window-0040c900.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x4053a8",
+      "rva": "0x53a8",
+      "fileOffset": 21416,
+      "byteLength": 64,
+      "sha256": "d6587bcd3885513e00365705f8c4189fd65337398d68bee61944ce3cab304b7c",
+      "bytesHex": "e913e71700e9ce510c00e9e9020c00e994e90900e9ef3d0700e99ab71300e915ff0b00e9d0b21000e94b061200e986540e00e941a90c00e9ac620700e997d805",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005ef003.txt VA0x5ef043 direct-call target on object+0x20; meaning unknown before decode",
+      "disassembly": "window-004053a8.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5c3b44",
+      "rva": "0x1c3b44",
+      "fileOffset": 1850180,
+      "byteLength": 128,
+      "sha256": "2e9c3113ecd5f7ccf6da636d561207ee64da5ae567aaa020b469e6b4df3cbabf",
+      "bytesHex": "568bf1ff742408e8c7ffffff8b46205e8b4010c20400558bec51568bf18b4604508b088d45fc51508bcee833010000ff7604e804c305008366040083660c00598d4dfcff153c208600ff0d04db85005e7513ff3500db8500e8dec20500832500db850000598d4dfcff1538208600c9c3558bec83ec105356578bf98d4df4c645",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005eee22.txt VA0x5eee2f direct-call target whose result becomes object+0x14",
+      "disassembly": "window-005c3b44.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x582b70",
+      "rva": "0x182b70",
+      "fileOffset": 1583984,
+      "byteLength": 48,
+      "sha256": "9aa9b862602cd119c47eff4222db5678fc2bdf76bbe23fdbfd40f2466dfd813d",
+      "bytesHex": "558bec83ec44535657894dfc8b45fc8b4d088948088b55fc8b450c89420c8b4d082b0db03780008b55fc894a108b450c",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-0040c900.txt VA0x40c900 direct-jump target",
+      "disassembly": "window-00582b70.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x583ac0",
+      "rva": "0x183ac0",
+      "fileOffset": 1587904,
+      "byteLength": 384,
+      "sha256": "06bc11c7ebcefff4e1f5171556a307cc3b562afc2872d60eac1bb1b5d91130f5",
+      "bytesHex": "558bec83ec48535657894dfcc745f800000000eb098b45f883c0018945f88b4dfc8b0983c138e8e9a0e8ff3945f8730e8b55f8528b4dfce8b901e8ffebd75f5e5b8be55dc3cccccccccccccccccccccccccccccccccccccccccccccccccccccc558bec83ec48535657894dfcc745f800000000eb098b45f883c0018945f88b4dfc8b0983c138e889a0e8ff3945f8733d8b55f8528b45fc8b0883c138e8f43de8ff8b4804518b55fc8b0a83c128e81e9ee8ff8bc8e8b046e8ff85c07f02eb0e8b45f8508b4dfce82a01e8ffeba85f5e5b8be55dc3cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc558bec83ec48535657894dfcc745f800000000eb098b45f883c0018945f88b4dfc8b0983c138e8e99fe8ff3945f8733d8b55f8528b45fc8b0883c138e8543de8ff8b4804518b55fc8b0a83c128e87e9de8ff8bc8e81046e8ff85c07e02ebb68b45f8508b4dfce88a00e8ffeba85f5e5b8be55dc3cccccccccccccccccccccccc",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-004053a8.txt VA0x4053a8 direct-jump target",
+      "disassembly": "window-00583ac0.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x582ba0",
+      "rva": "0x182ba0",
+      "fileOffset": 1584032,
+      "byteLength": 288,
+      "sha256": "1780d7bb5d69ed8d986c27606b82c49c7ced129ca902a43c57c6bb0b916951e0",
+      "bytesHex": "2b05b43780008b4dfc8941145f5e5b8be55dc20800cccccccccccccccccccccccccccccccccccccccccccccccccccccc558bec83ec44535657894dfc8b45fc8b4d088948088b55fc8b450c89420c8b4dfc8b55088951108b45fc8b4d0c8948145f5e5b8be55dc20800cccccccccccccccccccccccccccccccccccccccccccccc558bec83ec48535657894dfcc745f800000000eb098b45f883c0018945f88b4dfc8b0983c128e80c0ae8ff3945f873198b55f8528b45fc8b0883c128e82fade8ff8a4d08884837ebcc5f5e5b8be55dc20400cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc558bec83ec44535657894dfc8b4508508b4dfc8b0983c128e8e3ace8ff8b550c89502c8b4508508b4dfc8b0983c128e8",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-00582b70.txt continuation at its decoded instruction boundary0x582ba0; no address search",
+      "disassembly": "window-00582ba0.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x403cb5",
+      "rva": "0x3cb5",
+      "fileOffset": 15541,
+      "byteLength": 5,
+      "sha256": "2deea3896bd35a74e3789f310c9f82be8d11fe896a503852c0aec15d64a7a46b",
+      "bytesHex": "e986f61700",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-00583ac0.txt VA0x583af7 exact layer-draw call target",
+      "disassembly": "window-00403cb5.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x583340",
+      "rva": "0x183340",
+      "fileOffset": 1585984,
+      "byteLength": 384,
+      "sha256": "b1fb3c249bc36d5aa28638be592772e5c01de996f81df2ffbb2ce98f6be7509a",
+      "bytesHex": "558bec81ec84050000535657894dfc8b45088945f88b4dfc8b0983c138e872a8e8ff3945f872320fbf1540117f0083c20252689c107a006810107a008d85f8fbffff50ff159c21860083c4108d8df8fbffff51ff15701f86008b55f8528b45fc8b0883c138e8ab45e8ff8b4804518b4dfc83c120e8057de8ff8985f4fbffff8b55f8528b45fc8b0883c138e88545e8ff8b4804518b55fc8b0a83c128e8afa5e8ff8985f0fbffff8b85f4fbffff83c0088985ecfbffff8b8df4fbffff8b51048995e8fbffff8b85f4fbffff8b08898de4fbffff83bde8fbffff007505e9d30400008b8de8fbffffe8b3c9e8ff25ff00000085c0741b6a008b8de8fbffffe8d2a3e8ff25ff00000085c07505e9a40400008b95f0fbffff33c08a42378985e0fbffff8b8de8fbffffe84228e8ff3985e0fbffff7c0ac785e0fbffff000000008b8de4fbffff518b95e0fbffff528b8de8fbffffe84e46e8ff8985dcfbffff83bddcfbffff007505e9490400008b85dcfbffff8b4804518b95dcfbffff8b02508d8d",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-00403cb5.txt exact direct-jump target for layer drawing",
+      "disassembly": "window-00583340.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x5834be",
+      "rva": "0x1834be",
+      "fileOffset": 1586366,
+      "byteLength": 1088,
+      "sha256": "fd020a39a734958be0b72d4c95763ab54ab29a8be36e1e4478c63f41dde1c159",
+      "bytesHex": "8d8d10fbffffe8d636e8ff508d8d08fbffff518b95f0fbffff8b4230508b8df0fbffff8b512c528d8d18fbffffe8af36e8ff8bc8e82af0e8ff508d8dd4fbffffe82b02e8ff8b85dcfbffffdb4008d99dd0fbffff8b8ddcfbffffdb410cd99dccfbffffd985ccfbffffd9e0dc2590727900d995d4faffff51d91c2468000000bf8d8d00fbffffe80442e8ff8b108b40048995acfbffff8985b0fbffff680000003f68000000bf8d8df8faffffe8de41e8ff8b088b5004898db4fbffff8995b8fbffff680000003fd985d0fbffffdc0590727900d995d0faffff51d91c248d8df0faffffe8a741e8ff8b088b5004898dbcfbffff8995c0fbffffd985ccfbffffd9e0dc2590727900d995ccfaffff51d91c24d985d0fbffffdc0590727900d995c8faffff51d91c248d8de8faffffe85d41e8ff8b088b5004898dc4fbffff8995c8fbffffdb85d8fbffff51d91c248b85d4fbfffff7d88985c4faffffdb85c4faffff51d91c248d8da4fbffffe81f41e8ff8d8dacfbffff518d95acfbffff528d85a4fbffff50e882ebe8ff83c40c8b8df4fbffff8b5120528d8d94fbffffe877f2e8ff8b85f4fbffff8b481c518b95f4fbffff8b4218508d8d8cfbffffe8ce40e8ff8d8d8cfbffff518d95d8faffff528d8d94fbffffe8f5f0e8ff8b08898d7cfbffff8b5004899580fbffff8b4808898d84fbffff8b500c899588fbffff8b45fc8b70148b8df0fbffff0371308b95ecfbffffd94208e8f6c9090003f0b82c0100002bc68985c0faffffdb85c0faffff51d91c248b4dfc8b71108b95f0fbffff03722c8b85ecfbffffd94004e8c0c909008d8c0670feffff898dbcfaffffdb85bcfaffff51d91c248d8d74fbffffe81d40e8ff8d95acfbffff528d85acfbffff508d8d74fbffff518d957cfbffff52e820f3e8ff83c4108b85acfbffff898524fbffff8b8db0fbffff898d28fbffffc7852cfbffff0000803fc78530fbffff00000000d985ccfbffffdc0590727900d99d34fbffff8b95b4fbffff899538fbffff8b85b8fbffff89853cfbffffc78540fbffff0000803fc78544fbffff00000000c78548fbffff000000008b8dbcfbffff898d4cfbffff8b95c0fbffff899550fbffffc78554fbffff0000803fd985d0fbffffdc0590727900d99d58fbffffc7855cfbffff000000008b85c4fbffff898560fbffff8b8dc8fbffff898d64fbffffc78568fbffff0000803fd985d0fbffffdc0590727900d99d6cfbffffd985ccfbffffdc0590727900d99d70fbffff8b95ecfbffffd9421cd80d98107a00e86ec809008ad881e3ff000000c1e3188b85ecfbffffd94020e855c8090025ff000000c1e0100bd88b8decfbffffd94124e83dc8090025ff000000c1e0080bd88b95ecfbffffd94228e825c8090025ff0000000bd8899d20fbffff8b85f0fbffff8a483651e81bfaffff83c404508b9520fbffff528b85dcfbffff8b4814518d9524fbffff52a1c0a37f008b108b0dc0a37f00ff92180100005f5e5b8be55dc20400cc",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-00583340.txt continuation at decoded instruction boundary0x5834be; terminal branch already targets0x5838f4",
+      "disassembly": "window-005834be.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x407ae5",
+      "rva": "0x7ae5",
+      "fileOffset": 31461,
+      "byteLength": 5,
+      "sha256": "0f43064758948121a3626a7f16cdd0980582c31ae42a003aba65c44d4ab0ebc7",
+      "bytesHex": "e9868e0700",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-00583340.txt VA0x583492 exact call target returning selected frame-like pointer; type not inferred before decode",
+      "disassembly": "window-00407ae5.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x480970",
+      "rva": "0x80970",
+      "fileOffset": 526704,
+      "byteLength": 192,
+      "sha256": "3b8c048c585d709c4c68bc40ea57d95d138ae9ffcf103930e5b4355d76b9a4c3",
+      "bytesHex": "558bec83ec44535657894dfc837d08007c398b45fc8b4d083b88840000007d2b837d0c007c258b4dfce86012f8ff39450c7d188b550c528b4508c1e0048b4dfc8d4c0144e8886af8ffeb0233c05f5e5b8be55dc20800cccccccccccccccccccccccccccccccccccccccccccccccccccc558bec83ec48535657894dfc8b450c508b4d08518b4dfce8e970f8ff8945f88b55108b45f88b08890a8b55148b45f88b4804890a5f5e5b8be55dc21000cccccccccccccccccccccccccccccccccccccc",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-00407ae5.txt direct-jump target of selected frame-like accessor",
+      "disassembly": "window-00480970.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x406b9f",
+      "rva": "0x6b9f",
+      "fileOffset": 27551,
+      "byteLength": 5,
+      "sha256": "46d9bcbe3f0fd1a893373b2a03934f22a86cb531f376d5a5aa7c8fbb7acea078",
+      "bytesHex": "e9fce81700",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005834be.txt VA0x5834c4/0x5834eb exact point construction call",
+      "disassembly": "window-00406b9f.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x412521",
+      "rva": "0x12521",
+      "fileOffset": 75041,
+      "byteLength": 5,
+      "sha256": "016f62f162248e0461b1f6eb2958107a8eb7b647e8cc59ad0a270e1c2a194350",
+      "bytesHex": "e9ba2f1700",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005834be.txt VA0x5834f2 exact point operation call; semantics not guessed",
+      "disassembly": "window-00412521.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x40372e",
+      "rva": "0x372e",
+      "fileOffset": 14126,
+      "byteLength": 5,
+      "sha256": "d7fc22877b37f3086599c84597bd47b7d21342fd40ed9fa7d2b4c519713592ba",
+      "bytesHex": "e92d1d1800",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:window-005834be.txt VA0x5834fe exact point result copy call",
+      "disassembly": "window-0040372e.txt",
+      "functionEndKnown": false
+    },
+    {
+      "va": "0x585460",
+      "rva": "0x185460",
+      "fileOffset": 1594464,
+      "byteLength": 256,
+      "sha256": "823913e1715768b6ec88db18f6a6e55280950ac8cbd9c8315160d489c3d0f8e4",
+      "bytesHex": "558bec83ec44535657894dfc8b45fc8b4d088b1189108b45fc8b4d088b51048950048b45fc5f5e5b8be55dc20400cccccccccccccccccccccccccccccccccccc558bec83ec44535657894dfc8b45fc8b4d0889088b55fc8b450c8942048b45fc5f5e5b8be55dc20800cccccccccccccccccccccccccccccccccccccccccccccc558bec83ec4c535657894dfc8b45fc8b4d0c8b50042b5104528b45fc8b4d0c8b102b11528d4df4e89316e8ff508b4d08e819e2e7ff8b45085f5e5b8be55dc20800cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc558bec83ec40535657e8120000005f5e5b8be55dc3cccccccccccccccccccccc",
+      "containingSection": {
+        "name": ".tp3",
+        "rva": 4096,
+        "virtualSize": 3757104,
+        "rawSize": 3760128,
+        "rawOffset": 4096
+      },
+      "sourceAddressCitation": "local:three known direct-jump targets0x585460/0x5854a0/0x5854e0 from window-0040372e/00406b9f/00412521.txt; bounded helper window",
+      "disassembly": "window-00585460.txt",
+      "functionEndKnown": false
+    }
+  ],
+  "limitations": [
+    "Community-patched client; Tencent authenticity and target historical version remain unverified.",
+    "Address labels originate in fixed community source. Instruction bytes confirm only what is visibly decoded here.",
+    "No full-binary scan, guessed xrefs, guessed function ends, client execution, or render comparison."
+  ]
+}

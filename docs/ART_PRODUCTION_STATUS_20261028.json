@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-29T04:27:09.092854+00:00",
+  "scope": "current lightweight production snapshot; not a replacement for verified production-index or runtime manifests",
+  "sourceIdentity": "community-patched-client; Tencent target historical version unverified",
+  "baselinePythonMapDefinitionCount": 721,
+  "additionalBinaryMapDefinitionCount": 52,
+  "binaryPropertyEvidence": "references/qqtang-map-data/binary-properties-inspection.json",
+  "binarySupplementRuntimeImported": false,
+  "binarySupplementUnserializedFields": [
+    "canDoSpecial",
+    "canHide"
+  ],
+  "mapDefinitionCount": 773,
+  "mapCandidateFilesPresent": 773,
+  "mapPendingFirstPass": 0,
+  "mapAcceptedCount": 0,
+  "families": [
+    {
+      "family": "desert",
+      "definitionCount": 43,
+      "candidateFilesPresent": 43,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/desert/art.json",
+      "manifestSha256": "95fecb34c06c4b24f7f11b12cf7d888e8b747ed7c1f41934b2180735c360a0b2",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "snow",
+      "definitionCount": 47,
+      "candidateFilesPresent": 47,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/snow/art.json",
+      "manifestSha256": "73f309c9ed07313e0e4e1f341cd52aa6d7cf3a6e6b829538b9299230ccf6d83f",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "town",
+      "definitionCount": 38,
+      "candidateFilesPresent": 38,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/town/art.json",
+      "manifestSha256": "8064ce23acf15af545d0047050435c23c02acc50629caea296ec24c9b0c21fa4",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "mine",
+      "definitionCount": 70,
+      "candidateFilesPresent": 70,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/mine/art.json",
+      "manifestSha256": "61819f3290d77e3eb40a3529b54b290dd7d1c92575e7a5668cac1fac8df54544",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "water",
+      "definitionCount": 32,
+      "candidateFilesPresent": 32,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/water/art.json",
+      "manifestSha256": "79355acd8609f9fdd61bc882761e99c1d3f19bea81c201f85f61286a4fe5d2d6",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "field",
+      "definitionCount": 24,
+      "candidateFilesPresent": 24,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/field/art.json",
+      "manifestSha256": "2707af7094fb595dc1526e5cc0a73b6e87bace2a6f032fa4da9bede76edde8ee",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "bomb",
+      "definitionCount": 13,
+      "candidateFilesPresent": 13,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/bomb/art.json",
+      "manifestSha256": "4777d9bfdbfde1db4181fe5ef9b3884ad649bf2e1d218e0cbcce12f05d585890",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "bun",
+      "definitionCount": 27,
+      "candidateFilesPresent": 27,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/bun/art.json",
+      "manifestSha256": "e2577dde0e8f73c11456919b21fa8eb57c978bbb59edb1f771415c2257f4d616",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "pig",
+      "definitionCount": 14,
+      "candidateFilesPresent": 14,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/pig/art.json",
+      "manifestSha256": "a4f21d5167ddf87b7cb79454ef169403b986f25264b2ac96899a8e38b363614f",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "treasure",
+      "definitionCount": 17,
+      "candidateFilesPresent": 17,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/treasure/art.json",
+      "manifestSha256": "43b76c8c3b1308991b80713df0394bfc80b09f47c87a0185b41ab9a422f48eed",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "match",
+      "definitionCount": 9,
+      "candidateFilesPresent": 9,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/match/art.json",
+      "manifestSha256": "10aacc4d86d4748722537080560200a876c9f65a2f50fe3094da0b73e50dcf5e",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "sculpture",
+      "definitionCount": 15,
+      "candidateFilesPresent": 15,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/sculpture/art.json",
+      "manifestSha256": "b64e1063efc636b20213baacd44e65c33ddfe613e60a2729bde3ab8333e1808e",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "machine",
+      "definitionCount": 66,
+      "candidateFilesPresent": 66,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/machine/art.json",
+      "manifestSha256": "cf4a1da1a308fe0d30a12cc317ec0793190a8a0dcb96b1bb4bc620e469e4f87e",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "box",
+      "definitionCount": 66,
+      "candidateFilesPresent": 66,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/box/art.json",
+      "manifestSha256": "f7bd24487f43420305eb00decef85957d3138ed74d273b3bb37934a65b341454",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "practice",
+      "definitionCount": 22,
+      "candidateFilesPresent": 22,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/practice/art.json",
+      "manifestSha256": "15ab686f83aa6f1e9f827d4442a4a31b19be2552a4a0bf67a33372f626613109",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "exploration",
+      "definitionCount": 87,
+      "candidateFilesPresent": 87,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/exploration/art.json",
+      "manifestSha256": "0a0e3679c46340f62e789e873da8760c3deeef8c6e716d3fa76cc4d28dae86d8",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "common",
+      "definitionCount": 88,
+      "candidateFilesPresent": 88,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/common/art.json",
+      "manifestSha256": "b234efd425134307d1685deb1dbd0f1420150caf366388b9b12e1ac8ba6f484f",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "pve",
+      "definitionCount": 70,
+      "candidateFilesPresent": 70,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/pve/art.json",
+      "manifestSha256": "63eed1a8cae5a1308a8f4240c6632aed28c973077977d931cc4cfeaedddc0f05",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    },
+    {
+      "family": "tank",
+      "definitionCount": 25,
+      "candidateFilesPresent": 25,
+      "pendingCount": 0,
+      "acceptedCount": 0,
+      "manifest": "assets/maps/tank/art.json",
+      "manifestSha256": "6cffcb2704b264c94a0b0e6fa10125dba2fa1565f97df989e6d244fb6cf12457",
+      "validation": "JSON membership and file existence only; no image decoding, geometry or visual acceptance"
+    }
+  ],
+  "foreignOrUnknownManifestIds": [],
+  "sourceItemRecordCount": 2945,
+  "sourceItemCategoryCounts": {
+    "bg": 395,
+    "enter": 71,
+    "cap": 447,
+    "fpack": 146,
+    "frame": 160,
+    "thadorn": 35,
+    "npack": 197,
+    "item": 32,
+    "platform": 29,
+    "mouth": 145,
+    "bomb": 295,
+    "huanying": 103,
+    "card": 20,
+    "eye": 72,
+    "cladorn": 365,
+    "ear": 62,
+    "kubi": 2,
+    "footprint": 74,
+    "petcard": 48,
+    "namecard": 145,
+    "namecardbound": 5,
+    "forge": 7,
+    "food": 10,
+    "skill": 80
+  },
+  "paintedConsumableIconCandidates": 32,
+  "otherItemCategoryCandidates": {
+    "skills": {
+      "candidateFilesPresent": 80,
+      "sourceCategories": {
+        "skill": 80
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/skills/art.json"
+    },
+    "food": {
+      "candidateFilesPresent": 10,
+      "sourceCategories": {
+        "food": 10
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/food/art.json"
+    },
+    "forge": {
+      "candidateFilesPresent": 7,
+      "sourceCategories": {
+        "forge": 7
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/forge/art.json"
+    },
+    "petcards": {
+      "candidateFilesPresent": 48,
+      "sourceCategories": {
+        "petcard": 48
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/petcards/art.json"
+    },
+    "cards-currency": {
+      "candidateFilesPresent": 22,
+      "sourceCategories": {
+        "card": 20,
+        "kubi": 2
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/cards-currency/art.json"
+    },
+    "platform": {
+      "candidateFilesPresent": 29,
+      "sourceCategories": {
+        "platform": 29
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/platform/art.json"
+    },
+    "head-adornments": {
+      "candidateFilesPresent": 35,
+      "sourceCategories": {
+        "thadorn": 35
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/head-adornments/art.json"
+    },
+    "surroundings": {
+      "candidateFilesPresent": 36,
+      "sourceCategories": {
+        "ear": 36
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/surroundings/art.json"
+    },
+    "namecard-borders": {
+      "candidateFilesPresent": 5,
+      "sourceCategories": {
+        "namecardbound": 5
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/namecard-borders/art.json"
+    },
+    "namecard-borders/inventory": {
+      "candidateFilesPresent": 5,
+      "sourceCategories": {
+        "namecardbound": 5
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/namecard-borders/inventory/art.json"
+    },
+    "namecard-borders/walk": {
+      "candidateFilesPresent": 5,
+      "sourceCategories": {
+        "namecardbound": 5
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/namecard-borders/walk/art.json"
+    }
+  },
+  "sourceItemIdsWithAnyCandidate": 304,
+  "itemRepresentationCountCaution": "Inventory icon and nameplate bitmap may represent the same item ID; group counts are not additive.",
+  "accountRoleStaticIdentityCandidates": 20,
+  "temporaryTransformationStaticCandidates": 8,
+  "derivedRolePortraitCandidates": 20,
+  "additionalDerivedSemanticUIIcons": 16,
+  "headAdornmentWorldItemCandidates": 11,
+  "headAdornmentWorldFullyRecordedResources": 11,
+  "headAdornmentWorldPartiallyRecordedResources": 0,
+  "headAdornmentWorldDeclaredFramePositionsForStartedResources": 222,
+  "headAdornmentWorldSourceFramePositions": 222,
+  "headAdornmentWorldUniqueReferencedPngFiles": 101,
+  "battlefieldAnimationResources": 1,
+  "battlefieldAnimationSourceFramePositions": 7,
+  "battlefieldAnimationUniqueReferencedPngFiles": 5,
+  "mapAnimationCandidateSequenceCount": 12,
+  "mapAnimationSourceFramePositionsRecorded": 53,
+  "newRepresentationAcceptedCount": 0,
+  "battlefieldSceneMasterCandidates": 18,
+  "effectResourceCandidates": 16,
+  "effectSourceFrameEntries": 99,
+  "effectEmptySourceFrameEntries": 3,
+  "effectUniqueReferencedPngFiles": 84,
+  "creatureStaticMasterCandidates": 97,
+  "consumableIconAcceptedCount": 0,
+  "allGameArtComplete": false,
+  "localHeavyVerification": "paused by authorized resource coordination; docs/LOCAL_RESOURCE_WINDOW_20261028.md",
+  "limitations": [
+    "No complete-game percentage: 773 map definitions and 2945 source item records are separate inventories.",
+    "721 Python definitions match shared binary fields exactly; 52 additional binary rows have no serialized canDoSpecial or canHide values. Native lookup and target-version authenticity remain unverified.",
+    "Candidates may contain known proportion, seam, anchor, alpha, state and animation defects.",
+    "Source creature identities, all character actions, costumes, UI states, effects and runtime acceptance remain in production.",
+    "assets/maps/production-index.json and runtime-manifests.json remain at their last verified snapshot until coordinated verification resumes."
+  ]
+}

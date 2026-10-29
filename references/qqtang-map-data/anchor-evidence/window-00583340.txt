@@ -1,0 +1,108 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-00583340.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+00583340 <.text>:
+  583340: 55                           	push	ebp
+  583341: 8b ec                        	mov	ebp, esp
+  583343: 81 ec 84 05 00 00            	sub	esp, 0x584
+  583349: 53                           	push	ebx
+  58334a: 56                           	push	esi
+  58334b: 57                           	push	edi
+  58334c: 89 4d fc                     	mov	dword ptr [ebp - 0x4], ecx
+  58334f: 8b 45 08                     	mov	eax, dword ptr [ebp + 0x8]
+  583352: 89 45 f8                     	mov	dword ptr [ebp - 0x8], eax
+  583355: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  583358: 8b 09                        	mov	ecx, dword ptr [ecx]
+  58335a: 83 c1 38                     	add	ecx, 0x38
+  58335d: e8 72 a8 e8 ff               	call	0x40dbd4
+  583362: 39 45 f8                     	cmp	dword ptr [ebp - 0x8], eax
+  583365: 72 32                        	jb	0x583399 <.text+0x59>
+  583367: 0f bf 15 40 11 7f 00         	movsx	edx, word ptr [0x7f1140]
+  58336e: 83 c2 02                     	add	edx, 0x2
+  583371: 52                           	push	edx
+  583372: 68 9c 10 7a 00               	push	0x7a109c
+  583377: 68 10 10 7a 00               	push	0x7a1010
+  58337c: 8d 85 f8 fb ff ff            	lea	eax, [ebp - 0x408]
+  583382: 50                           	push	eax
+  583383: ff 15 9c 21 86 00            	call	dword ptr [0x86219c]
+  583389: 83 c4 10                     	add	esp, 0x10
+  58338c: 8d 8d f8 fb ff ff            	lea	ecx, [ebp - 0x408]
+  583392: 51                           	push	ecx
+  583393: ff 15 70 1f 86 00            	call	dword ptr [0x861f70]
+  583399: 8b 55 f8                     	mov	edx, dword ptr [ebp - 0x8]
+  58339c: 52                           	push	edx
+  58339d: 8b 45 fc                     	mov	eax, dword ptr [ebp - 0x4]
+  5833a0: 8b 08                        	mov	ecx, dword ptr [eax]
+  5833a2: 83 c1 38                     	add	ecx, 0x38
+  5833a5: e8 ab 45 e8 ff               	call	0x407955
+  5833aa: 8b 48 04                     	mov	ecx, dword ptr [eax + 0x4]
+  5833ad: 51                           	push	ecx
+  5833ae: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  5833b1: 83 c1 20                     	add	ecx, 0x20
+  5833b4: e8 05 7d e8 ff               	call	0x40b0be
+  5833b9: 89 85 f4 fb ff ff            	mov	dword ptr [ebp - 0x40c], eax
+  5833bf: 8b 55 f8                     	mov	edx, dword ptr [ebp - 0x8]
+  5833c2: 52                           	push	edx
+  5833c3: 8b 45 fc                     	mov	eax, dword ptr [ebp - 0x4]
+  5833c6: 8b 08                        	mov	ecx, dword ptr [eax]
+  5833c8: 83 c1 38                     	add	ecx, 0x38
+  5833cb: e8 85 45 e8 ff               	call	0x407955
+  5833d0: 8b 48 04                     	mov	ecx, dword ptr [eax + 0x4]
+  5833d3: 51                           	push	ecx
+  5833d4: 8b 55 fc                     	mov	edx, dword ptr [ebp - 0x4]
+  5833d7: 8b 0a                        	mov	ecx, dword ptr [edx]
+  5833d9: 83 c1 28                     	add	ecx, 0x28
+  5833dc: e8 af a5 e8 ff               	call	0x40d990
+  5833e1: 89 85 f0 fb ff ff            	mov	dword ptr [ebp - 0x410], eax
+  5833e7: 8b 85 f4 fb ff ff            	mov	eax, dword ptr [ebp - 0x40c]
+  5833ed: 83 c0 08                     	add	eax, 0x8
+  5833f0: 89 85 ec fb ff ff            	mov	dword ptr [ebp - 0x414], eax
+  5833f6: 8b 8d f4 fb ff ff            	mov	ecx, dword ptr [ebp - 0x40c]
+  5833fc: 8b 51 04                     	mov	edx, dword ptr [ecx + 0x4]
+  5833ff: 89 95 e8 fb ff ff            	mov	dword ptr [ebp - 0x418], edx
+  583405: 8b 85 f4 fb ff ff            	mov	eax, dword ptr [ebp - 0x40c]
+  58340b: 8b 08                        	mov	ecx, dword ptr [eax]
+  58340d: 89 8d e4 fb ff ff            	mov	dword ptr [ebp - 0x41c], ecx
+  583413: 83 bd e8 fb ff ff 00         	cmp	dword ptr [ebp - 0x418], 0x0
+  58341a: 75 05                        	jne	0x583421 <.text+0xe1>
+  58341c: e9 d3 04 00 00               	jmp	0x5838f4 <.text+0x5b4>
+  583421: 8b 8d e8 fb ff ff            	mov	ecx, dword ptr [ebp - 0x418]
+  583427: e8 b3 c9 e8 ff               	call	0x40fddf
+  58342c: 25 ff 00 00 00               	and	eax, 0xff
+  583431: 85 c0                        	test	eax, eax
+  583433: 74 1b                        	je	0x583450 <.text+0x110>
+  583435: 6a 00                        	push	0x0
+  583437: 8b 8d e8 fb ff ff            	mov	ecx, dword ptr [ebp - 0x418]
+  58343d: e8 d2 a3 e8 ff               	call	0x40d814
+  583442: 25 ff 00 00 00               	and	eax, 0xff
+  583447: 85 c0                        	test	eax, eax
+  583449: 75 05                        	jne	0x583450 <.text+0x110>
+  58344b: e9 a4 04 00 00               	jmp	0x5838f4 <.text+0x5b4>
+  583450: 8b 95 f0 fb ff ff            	mov	edx, dword ptr [ebp - 0x410]
+  583456: 33 c0                        	xor	eax, eax
+  583458: 8a 42 37                     	mov	al, byte ptr [edx + 0x37]
+  58345b: 89 85 e0 fb ff ff            	mov	dword ptr [ebp - 0x420], eax
+  583461: 8b 8d e8 fb ff ff            	mov	ecx, dword ptr [ebp - 0x418]
+  583467: e8 42 28 e8 ff               	call	0x405cae
+  58346c: 39 85 e0 fb ff ff            	cmp	dword ptr [ebp - 0x420], eax
+  583472: 7c 0a                        	jl	0x58347e <.text+0x13e>
+  583474: c7 85 e0 fb ff ff 00 00 00 00	mov	dword ptr [ebp - 0x420], 0x0
+  58347e: 8b 8d e4 fb ff ff            	mov	ecx, dword ptr [ebp - 0x41c]
+  583484: 51                           	push	ecx
+  583485: 8b 95 e0 fb ff ff            	mov	edx, dword ptr [ebp - 0x420]
+  58348b: 52                           	push	edx
+  58348c: 8b 8d e8 fb ff ff            	mov	ecx, dword ptr [ebp - 0x418]
+  583492: e8 4e 46 e8 ff               	call	0x407ae5
+  583497: 89 85 dc fb ff ff            	mov	dword ptr [ebp - 0x424], eax
+  58349d: 83 bd dc fb ff ff 00         	cmp	dword ptr [ebp - 0x424], 0x0
+  5834a4: 75 05                        	jne	0x5834ab <.text+0x16b>
+  5834a6: e9 49 04 00 00               	jmp	0x5838f4 <.text+0x5b4>
+  5834ab: 8b 85 dc fb ff ff            	mov	eax, dword ptr [ebp - 0x424]
+  5834b1: 8b 48 04                     	mov	ecx, dword ptr [eax + 0x4]
+  5834b4: 51                           	push	ecx
+  5834b5: 8b 95 dc fb ff ff            	mov	edx, dword ptr [ebp - 0x424]
+  5834bb: 8b 02                        	mov	eax, dword ptr [edx]
+  5834bd: 50                           	push	eax
+  5834be: 8d 8d                        	<unknown>

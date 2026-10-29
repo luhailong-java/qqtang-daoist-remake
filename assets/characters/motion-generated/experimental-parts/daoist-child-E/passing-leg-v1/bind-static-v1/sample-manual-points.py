@@ -1,13 +1,14 @@
 """Read only chosen landmark pixels of these four current native crops."""
 from pathlib import Path
 from PIL import Image
-import json
+import json,sys
 BASE=Path(__file__).resolve().parent
 ROOT=next(p for p in BASE.parents if (p/'package.json').is_file() and (p/'src').is_dir())
 crops=json.loads((BASE/'native-crops.json').read_text(encoding='utf-8'))
 points=json.loads((BASE/'manual-landmarks.proposal.json').read_text(encoding='utf-8'))['pointsSourceNative']
 rows=[]
 for part in crops['parts']:
+    if len(sys.argv)>1 and part['partId']!=sys.argv[1]:continue
     im=Image.open(ROOT/part['file']).convert('RGBA');roi=part['sourceROI']
     samples={}
     for name,xy in points[part['partId']].items():

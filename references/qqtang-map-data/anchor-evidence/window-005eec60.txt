@@ -1,0 +1,59 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-005eec60.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+005eec60 <.text>:
+  5eec60: 56                           	push	esi
+  5eec61: 8b f1                        	mov	esi, ecx
+  5eec63: e8 46 59 fd ff               	call	0x5c45ae
+  5eec68: 8b 44 24 08                  	mov	eax, dword ptr [esp + 0x8]
+  5eec6c: c7 06 9c 36 7a 00            	mov	dword ptr [esi], 0x7a369c
+  5eec72: 89 46 04                     	mov	dword ptr [esi + 0x4], eax
+  5eec75: 33 c0                        	xor	eax, eax
+  5eec77: 89 46 14                     	mov	dword ptr [esi + 0x14], eax
+  5eec7a: 89 46 18                     	mov	dword ptr [esi + 0x18], eax
+  5eec7d: 89 46 1c                     	mov	dword ptr [esi + 0x1c], eax
+  5eec80: 89 46 20                     	mov	dword ptr [esi + 0x20], eax
+  5eec83: 89 46 24                     	mov	dword ptr [esi + 0x24], eax
+  5eec86: 89 46 2c                     	mov	dword ptr [esi + 0x2c], eax
+  5eec89: 89 46 30                     	mov	dword ptr [esi + 0x30], eax
+  5eec8c: 88 46 34                     	mov	byte ptr [esi + 0x34], al
+  5eec8f: 8b c6                        	mov	eax, esi
+  5eec91: 5e                           	pop	esi
+  5eec92: c2 08 00                     	ret	0x8
+  5eec95: ff 74 24 08                  	push	dword ptr [esp + 0x8]
+  5eec99: ff 74 24 08                  	push	dword ptr [esp + 0x8]
+  5eec9d: e8 0d 00 00 00               	call	0x5eecaf <.text+0x4f>
+  5eeca2: 85 c0                        	test	eax, eax
+  5eeca4: 74 04                        	je	0x5eecaa <.text+0x4a>
+  5eeca6: 8b 00                        	mov	eax, dword ptr [eax]
+  5eeca8: eb 02                        	jmp	0x5eecac <.text+0x4c>
+  5eecaa: 33 c0                        	xor	eax, eax
+  5eecac: c2 08 00                     	ret	0x8
+  5eecaf: 0f bf 51 08                  	movsx	edx, word ptr [ecx + 0x8]
+  5eecb3: 8b 41 14                     	mov	eax, dword ptr [ecx + 0x14]
+  5eecb6: 56                           	push	esi
+  5eecb7: 0f bf 74 24 08               	movsx	esi, word ptr [esp + 0x8]
+  5eecbc: 2b f2                        	sub	esi, edx
+  5eecbe: 0f bf 50 04                  	movsx	edx, word ptr [eax + 0x4]
+  5eecc2: 0f bf 49 0a                  	movsx	ecx, word ptr [ecx + 0xa]
+  5eecc6: 0f af f2                     	imul	esi, edx
+  5eecc9: 8b 40 18                     	mov	eax, dword ptr [eax + 0x18]
+  5eeccc: 2b f1                        	sub	esi, ecx
+  5eecce: 0f bf 4c 24 0c               	movsx	ecx, word ptr [esp + 0xc]
+  5eecd3: 03 f1                        	add	esi, ecx
+  5eecd5: 8d 04 b0                     	lea	eax, [eax + 4*esi]
+  5eecd8: 5e                           	pop	esi
+  5eecd9: c2 08 00                     	ret	0x8
+  5eecdc: 56                           	push	esi
+  5eecdd: 8b f1                        	mov	esi, ecx
+  5eecdf: e8 14 00 00 00               	call	0x5eecf8 <.text+0x98>
+  5eece4: f6 44 24 08 01               	test	byte ptr [esp + 0x8], 0x1
+  5eece9: 74 07                        	je	0x5eecf2 <.text+0x92>
+  5eeceb: 56                           	push	esi
+  5eecec: e8 17 59 fd ff               	call	0x5c4608
+  5eecf1: 59                           	pop	ecx
+  5eecf2: 8b c6                        	mov	eax, esi
+  5eecf4: 5e                           	pop	esi
+  5eecf5: c2 04 00                     	ret	0x4

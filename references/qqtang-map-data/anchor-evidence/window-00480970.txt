@@ -1,0 +1,113 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-00480970.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+00480970 <.text>:
+  480970: 55                           	push	ebp
+  480971: 8b ec                        	mov	ebp, esp
+  480973: 83 ec 44                     	sub	esp, 0x44
+  480976: 53                           	push	ebx
+  480977: 56                           	push	esi
+  480978: 57                           	push	edi
+  480979: 89 4d fc                     	mov	dword ptr [ebp - 0x4], ecx
+  48097c: 83 7d 08 00                  	cmp	dword ptr [ebp + 0x8], 0x0
+  480980: 7c 39                        	jl	0x4809bb <.text+0x4b>
+  480982: 8b 45 fc                     	mov	eax, dword ptr [ebp - 0x4]
+  480985: 8b 4d 08                     	mov	ecx, dword ptr [ebp + 0x8]
+  480988: 3b 88 84 00 00 00            	cmp	ecx, dword ptr [eax + 0x84]
+  48098e: 7d 2b                        	jge	0x4809bb <.text+0x4b>
+  480990: 83 7d 0c 00                  	cmp	dword ptr [ebp + 0xc], 0x0
+  480994: 7c 25                        	jl	0x4809bb <.text+0x4b>
+  480996: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  480999: e8 60 12 f8 ff               	call	0x401bfe
+  48099e: 39 45 0c                     	cmp	dword ptr [ebp + 0xc], eax
+  4809a1: 7d 18                        	jge	0x4809bb <.text+0x4b>
+  4809a3: 8b 55 0c                     	mov	edx, dword ptr [ebp + 0xc]
+  4809a6: 52                           	push	edx
+  4809a7: 8b 45 08                     	mov	eax, dword ptr [ebp + 0x8]
+  4809aa: c1 e0 04                     	shl	eax, 0x4
+  4809ad: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  4809b0: 8d 4c 01 44                  	lea	ecx, [ecx + eax + 0x44]
+  4809b4: e8 88 6a f8 ff               	call	0x407441
+  4809b9: eb 02                        	jmp	0x4809bd <.text+0x4d>
+  4809bb: 33 c0                        	xor	eax, eax
+  4809bd: 5f                           	pop	edi
+  4809be: 5e                           	pop	esi
+  4809bf: 5b                           	pop	ebx
+  4809c0: 8b e5                        	mov	esp, ebp
+  4809c2: 5d                           	pop	ebp
+  4809c3: c2 08 00                     	ret	0x8
+  4809c6: cc                           	int3
+  4809c7: cc                           	int3
+  4809c8: cc                           	int3
+  4809c9: cc                           	int3
+  4809ca: cc                           	int3
+  4809cb: cc                           	int3
+  4809cc: cc                           	int3
+  4809cd: cc                           	int3
+  4809ce: cc                           	int3
+  4809cf: cc                           	int3
+  4809d0: cc                           	int3
+  4809d1: cc                           	int3
+  4809d2: cc                           	int3
+  4809d3: cc                           	int3
+  4809d4: cc                           	int3
+  4809d5: cc                           	int3
+  4809d6: cc                           	int3
+  4809d7: cc                           	int3
+  4809d8: cc                           	int3
+  4809d9: cc                           	int3
+  4809da: cc                           	int3
+  4809db: cc                           	int3
+  4809dc: cc                           	int3
+  4809dd: cc                           	int3
+  4809de: cc                           	int3
+  4809df: cc                           	int3
+  4809e0: 55                           	push	ebp
+  4809e1: 8b ec                        	mov	ebp, esp
+  4809e3: 83 ec 48                     	sub	esp, 0x48
+  4809e6: 53                           	push	ebx
+  4809e7: 56                           	push	esi
+  4809e8: 57                           	push	edi
+  4809e9: 89 4d fc                     	mov	dword ptr [ebp - 0x4], ecx
+  4809ec: 8b 45 0c                     	mov	eax, dword ptr [ebp + 0xc]
+  4809ef: 50                           	push	eax
+  4809f0: 8b 4d 08                     	mov	ecx, dword ptr [ebp + 0x8]
+  4809f3: 51                           	push	ecx
+  4809f4: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  4809f7: e8 e9 70 f8 ff               	call	0x407ae5
+  4809fc: 89 45 f8                     	mov	dword ptr [ebp - 0x8], eax
+  4809ff: 8b 55 10                     	mov	edx, dword ptr [ebp + 0x10]
+  480a02: 8b 45 f8                     	mov	eax, dword ptr [ebp - 0x8]
+  480a05: 8b 08                        	mov	ecx, dword ptr [eax]
+  480a07: 89 0a                        	mov	dword ptr [edx], ecx
+  480a09: 8b 55 14                     	mov	edx, dword ptr [ebp + 0x14]
+  480a0c: 8b 45 f8                     	mov	eax, dword ptr [ebp - 0x8]
+  480a0f: 8b 48 04                     	mov	ecx, dword ptr [eax + 0x4]
+  480a12: 89 0a                        	mov	dword ptr [edx], ecx
+  480a14: 5f                           	pop	edi
+  480a15: 5e                           	pop	esi
+  480a16: 5b                           	pop	ebx
+  480a17: 8b e5                        	mov	esp, ebp
+  480a19: 5d                           	pop	ebp
+  480a1a: c2 10 00                     	ret	0x10
+  480a1d: cc                           	int3
+  480a1e: cc                           	int3
+  480a1f: cc                           	int3
+  480a20: cc                           	int3
+  480a21: cc                           	int3
+  480a22: cc                           	int3
+  480a23: cc                           	int3
+  480a24: cc                           	int3
+  480a25: cc                           	int3
+  480a26: cc                           	int3
+  480a27: cc                           	int3
+  480a28: cc                           	int3
+  480a29: cc                           	int3
+  480a2a: cc                           	int3
+  480a2b: cc                           	int3
+  480a2c: cc                           	int3
+  480a2d: cc                           	int3
+  480a2e: cc                           	int3
+  480a2f: cc                           	int3

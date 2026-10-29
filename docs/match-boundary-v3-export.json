@@ -1,0 +1,11 @@
+{
+  "source":"assets/maps/match/boundary-strip-v3.png",
+  "family":"match",
+  "items":[{
+    "elementId":11007,
+    "name":"boundary-strip-v3",
+    "rect":[290,332,1759,445],
+    "opaqueRectangularTexture":true,
+    "mappingNotes":"Original is a fully opaque520x40 continuous boundary texture, not a tall transparent fence. New native2048x768 painting contains a straight repeated-material strip. Crop1469x113 selects its fully opaque interior at exact13:1; alpha250–254 normalized to255, uniform1.416x compatibility export2080x160. This is a material crop/resample, not2080px native detail or proof of original rendering. Ornamental hedge repeat density is newly painted; full rectangular footprint and raw source offsets stay unchanged. Top/bottom material split, adjacent joins and actual map placement remain unaccepted."
+  }]
+}

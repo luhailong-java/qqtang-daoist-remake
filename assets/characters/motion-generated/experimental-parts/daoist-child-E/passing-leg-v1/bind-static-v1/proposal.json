@@ -1,0 +1,1897 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "createdAtUTC": "2026-10-29T06:05:50.558707+00:00",
+  "sourceAtlas": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/passing-leg-v1.png",
+  "sourceAtlasSha256": "f35ce07c273f96d048344c1f1b55e71caf5ebc90eb1e16be1d12fd79ed5fc11e",
+  "sourceNativeCrops": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/native-crops.json",
+  "sourceLandmarkProposal": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/manual-landmarks.proposal.json",
+  "sourceLandmarkProposalSha256": "daeeb5268e3c335425df198750d3dfcc745b5716f93c330e7cdf03f4e5e5e37d",
+  "sourceUpperProposal": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/proposal.json",
+  "sourceUpperProposalSha256": "aef7131e30f79b4d13850d71d7852db26862b767a530d3c3b00d12b0da383149",
+  "unregisteredManualPlantedSoleY": {
+    "near_R_planted": 541.72,
+    "far_L_planted": 540.96
+  },
+  "familyArtImageOffset": [
+    0,
+    -12.84
+  ],
+  "familyOffsetDerivation": "528.5 minus average of two existing manual planted soleY values at fixed bone hips and0.24, rounded once to0.01designpx. Same offset all4 parts/two poses; not from bbox.",
+  "commonNewLegScale": 0.24,
+  "boneHips": {
+    "near_R": [
+      307,
+      439
+    ],
+    "far_L": [
+      319,
+      438
+    ]
+  },
+  "candidateArtGroundY": 528.5,
+  "sourceCapPointsPreserved": true,
+  "sourceCapIsNotEffectiveImagePivot": true,
+  "fixedUpperAndArmAndRingMatricesUnchanged": true,
+  "twoPoses": [
+    {
+      "pose": "P1",
+      "nearPart": "near_R_planted",
+      "farPart": "far_L_raised",
+      "nodes": [
+        {
+          "id": "far_L_whole_gourd",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v1/far_L_whole_gourd.png",
+          "sha256": "861db069dcc33da1ccc8e7f85349bb85f0613ba43c768b0ed87611491e1e56b0",
+          "pivot": [
+            107,
+            100
+          ],
+          "position": [
+            334,
+            360
+          ],
+          "scale": 0.18,
+          "layer": 5,
+          "imageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            314.74,
+            342
+          ],
+          "anatomicalSide": "LEFT",
+          "holdingIdentity": "LEFT hand fixed to complete own Taiji gourd",
+          "sourceCropRect": [
+            777,
+            230,
+            1534,
+            824
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/whole-arm-v1.png.generation.json",
+          "manualLocalLandmarks": {
+            "shoulder": [
+              107,
+              100
+            ],
+            "elbow": [
+              150,
+              301
+            ],
+            "wrist": [
+              385,
+              353
+            ],
+            "fingers": [
+              587,
+              364
+            ]
+          },
+          "sourceCropSize": [
+            757,
+            594
+          ],
+          "transformedManualLandmarks": {
+            "shoulder": [
+              334,
+              360
+            ],
+            "elbow": [
+              341.74,
+              396.18
+            ],
+            "wrist": [
+              384.04,
+              405.54
+            ],
+            "fingers": [
+              420.4,
+              407.52
+            ]
+          },
+          "previousV1ImageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            320.74,
+            337
+          ],
+          "previousV1Position": [
+            340,
+            355
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            -6,
+            5
+          ],
+          "previousV1TransformedManualLandmarks": {
+            "shoulder": [
+              340,
+              355
+            ],
+            "elbow": [
+              347.74,
+              391.18
+            ],
+            "wrist": [
+              390.04,
+              400.54
+            ],
+            "fingers": [
+              426.4,
+              402.52
+            ]
+          }
+        },
+        {
+          "id": "far_L_raised",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/far_L_raised.png",
+          "sha256": "fe33d866acd61f7685ce00a12a495b8475fc11fb21c4c4d3bbcd50bc20ac9b92",
+          "sourceROI": [
+            1002,
+            518,
+            1284,
+            929
+          ],
+          "sourceNativeCropSize": [
+            282,
+            411
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/passing-leg-v1.png.generation.json",
+          "manualSourceNativeLandmarks": {
+            "cap": [
+              1058,
+              561
+            ],
+            "knee": [
+              1235,
+              659
+            ],
+            "ankle": [
+              1075,
+              817
+            ],
+            "heel": [
+              1022,
+              846
+            ],
+            "toe": [
+              1184,
+              904
+            ],
+            "sole": [
+              1140,
+              913
+            ]
+          },
+          "manualCropLocalLandmarks": {
+            "cap": [
+              56,
+              43
+            ],
+            "knee": [
+              233,
+              141
+            ],
+            "ankle": [
+              73,
+              299
+            ],
+            "heel": [
+              20,
+              328
+            ],
+            "toe": [
+              182,
+              386
+            ],
+            "sole": [
+              138,
+              395
+            ]
+          },
+          "sourceCapPivot": [
+            56,
+            43
+          ],
+          "boneBindPosition": [
+            319,
+            438
+          ],
+          "familyArtImageOffset": [
+            0,
+            -12.84
+          ],
+          "effectiveImagePivotForEquivalentMatrix": [
+            56,
+            96.5
+          ],
+          "effectivePivotWarning": "Source cap remains the actual white-cap point. Effective pivot includes an explicitly authorized family art placement offset and is not a measured cap/anatomical hip/native anchor.",
+          "sourceCapAfterImageRegistrationWorld": [
+            319,
+            425.16
+          ],
+          "scale": 0.24,
+          "layer": 10,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            305.56,
+            414.84000000000003
+          ],
+          "anatomicalSide": "LEFT",
+          "state": "raised",
+          "transformedManualLandmarks": {
+            "cap": [
+              319.0,
+              425.16
+            ],
+            "knee": [
+              361.48,
+              448.68
+            ],
+            "ankle": [
+              323.08,
+              486.6
+            ],
+            "heel": [
+              310.36,
+              493.56000000000006
+            ],
+            "toe": [
+              349.24,
+              507.48
+            ],
+            "sole": [
+              338.68,
+              509.64000000000004
+            ]
+          },
+          "manualLandmarksApproved": false,
+          "manualLandmarkPixelSamplesRGBA": {
+            "cap": [
+              254,
+              252,
+              247,
+              253
+            ],
+            "knee": [
+              238,
+              224,
+              210,
+              253
+            ],
+            "ankle": [
+              80,
+              139,
+              111,
+              253
+            ],
+            "heel": [
+              196,
+              128,
+              32,
+              251
+            ],
+            "toe": [
+              186,
+              127,
+              36,
+              252
+            ],
+            "sole": [
+              248,
+              193,
+              82,
+              253
+            ]
+          },
+          "renderedLegAlpha8BBoxExclusive": [
+            308,
+            417,
+            371,
+            511
+          ],
+          "actualLowestVisiblePixelRow": 510,
+          "clearanceToArtGroundPixelCenter": 18.5,
+          "clearanceToArtGroundPixelBottom": 17.5,
+          "manualSoleResidualFromArtGround": -18.859999999999957
+        },
+        {
+          "id": "near_R_planted",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/near_R_planted.png",
+          "sha256": "e8e20ee1a2abbb8053be219db6d146a640bb4357ba91a07ba7e8845f09b72467",
+          "sourceROI": [
+            355,
+            14,
+            617,
+            498
+          ],
+          "sourceNativeCropSize": [
+            262,
+            484
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/passing-leg-v1.png.generation.json",
+          "manualSourceNativeLandmarks": {
+            "cap": [
+              416,
+              60
+            ],
+            "knee": [
+              459,
+              245
+            ],
+            "ankle": [
+              465,
+              395
+            ],
+            "heel": [
+              417,
+              471
+            ],
+            "toe": [
+              605,
+              468
+            ],
+            "sole": [
+              530,
+              488
+            ]
+          },
+          "manualCropLocalLandmarks": {
+            "cap": [
+              61,
+              46
+            ],
+            "knee": [
+              104,
+              231
+            ],
+            "ankle": [
+              110,
+              381
+            ],
+            "heel": [
+              62,
+              457
+            ],
+            "toe": [
+              250,
+              454
+            ],
+            "sole": [
+              175,
+              474
+            ]
+          },
+          "sourceCapPivot": [
+            61,
+            46
+          ],
+          "boneBindPosition": [
+            307,
+            439
+          ],
+          "familyArtImageOffset": [
+            0,
+            -12.84
+          ],
+          "effectiveImagePivotForEquivalentMatrix": [
+            61,
+            99.5
+          ],
+          "effectivePivotWarning": "Source cap remains the actual white-cap point. Effective pivot includes an explicitly authorized family art placement offset and is not a measured cap/anatomical hip/native anchor.",
+          "sourceCapAfterImageRegistrationWorld": [
+            307,
+            426.16
+          ],
+          "scale": 0.24,
+          "layer": 20,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            292.36,
+            415.12
+          ],
+          "anatomicalSide": "RIGHT",
+          "state": "planted",
+          "transformedManualLandmarks": {
+            "cap": [
+              307.0,
+              426.16
+            ],
+            "knee": [
+              317.32,
+              470.56
+            ],
+            "ankle": [
+              318.76,
+              506.56
+            ],
+            "heel": [
+              307.24,
+              524.8
+            ],
+            "toe": [
+              352.36,
+              524.08
+            ],
+            "sole": [
+              334.36,
+              528.88
+            ]
+          },
+          "manualLandmarksApproved": false,
+          "manualLandmarkPixelSamplesRGBA": {
+            "cap": [
+              252,
+              246,
+              238,
+              253
+            ],
+            "knee": [
+              241,
+              228,
+              216,
+              253
+            ],
+            "ankle": [
+              10,
+              26,
+              12,
+              253
+            ],
+            "heel": [
+              242,
+              182,
+              93,
+              252
+            ],
+            "toe": [
+              238,
+              181,
+              80,
+              253
+            ],
+            "sole": [
+              89,
+              58,
+              14,
+              234
+            ]
+          },
+          "renderedLegAlpha8BBoxExclusive": [
+            294,
+            417,
+            353,
+            529
+          ],
+          "actualLowestVisiblePixelRow": 528,
+          "clearanceToArtGroundPixelCenter": 0.5,
+          "clearanceToArtGroundPixelBottom": -0.5,
+          "manualSoleResidualFromArtGround": 0.37999999999999545
+        },
+        {
+          "id": "head",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/head.png",
+          "sha256": "88430e2313ee893d7b37d3888650cd5b0edfcb24fce45b5373eca8ff4059ac29",
+          "pivot": [
+            280,
+            335
+          ],
+          "scale": 0.72,
+          "position": [
+            307,
+            324
+          ],
+          "layer": 35,
+          "imageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            82.80000000000001
+          ],
+          "originalPosition": [
+            307,
+            321
+          ],
+          "originalImageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            79.80000000000001
+          ],
+          "artisticRegistrationTranslation": [
+            0,
+            3
+          ],
+          "sourceCropSize": [
+            378,
+            363
+          ],
+          "paintedSourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png.generation.json",
+          "previousV1ImageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            82.80000000000001
+          ],
+          "previousV1Position": [
+            307,
+            324
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "torso_pelvis",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+          "sha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+          "pivot": [
+            184,
+            188
+          ],
+          "scale": 0.48,
+          "position": [
+            313.5,
+            401
+          ],
+          "layer": 40,
+          "imageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            310.76
+          ],
+          "originalPosition": [
+            313.5,
+            398
+          ],
+          "originalImageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            307.76
+          ],
+          "artisticRegistrationTranslation": [
+            0,
+            3
+          ],
+          "sourceCropSize": [
+            310,
+            314
+          ],
+          "paintedSourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png.generation.json",
+          "previousV1ImageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            310.76
+          ],
+          "previousV1Position": [
+            313.5,
+            401
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "near_R_whole",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v1/near_R_whole.png",
+          "sha256": "df48a57f4ee9c98044a9c8155c53c987768ba8d0becdc44d812abf8450cddbf2",
+          "pivot": [
+            108,
+            99
+          ],
+          "position": [
+            262.5,
+            359.5
+          ],
+          "scale": 0.18,
+          "layer": 70,
+          "imageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            243.06,
+            341.68
+          ],
+          "anatomicalSide": "RIGHT",
+          "holdingIdentity": "empty RIGHT fist",
+          "sourceCropRect": [
+            57,
+            230,
+            733,
+            787
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/whole-arm-v1.png.generation.json",
+          "manualLocalLandmarks": {
+            "shoulder": [
+              108,
+              99
+            ],
+            "elbow": [
+              173,
+              320
+            ],
+            "wrist": [
+              478,
+              420
+            ],
+            "fingers": [
+              585,
+              433
+            ]
+          },
+          "sourceCropSize": [
+            676,
+            557
+          ],
+          "transformedManualLandmarks": {
+            "shoulder": [
+              262.5,
+              359.5
+            ],
+            "elbow": [
+              274.2,
+              399.28
+            ],
+            "wrist": [
+              329.1,
+              417.28
+            ],
+            "fingers": [
+              348.36,
+              419.62
+            ]
+          },
+          "previousV1ImageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            243.06,
+            341.68
+          ],
+          "previousV1Position": [
+            262.5,
+            359.5
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            0,
+            0
+          ],
+          "previousV1TransformedManualLandmarks": {
+            "shoulder": [
+              262.5,
+              359.5
+            ],
+            "elbow": [
+              274.2,
+              399.28
+            ],
+            "wrist": [
+              329.1,
+              417.28
+            ],
+            "fingers": [
+              348.36,
+              419.62
+            ]
+          }
+        }
+      ],
+      "fixedTorsoRing": {
+        "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/torso-shoulder-ring-native.png",
+        "sha256": "33323dd70fac4a10d58aa9f1c0c0673b295639a904ca44bf5a522b3c66df999d",
+        "sourceRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/torso-shoulder-ring-native.png.source.json",
+        "sourceTorso": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+        "sourceTorsoSha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+        "sourceROI": [
+          22,
+          35,
+          130,
+          174
+        ],
+        "outerPolygonSource": [
+          [
+            79,
+            43
+          ],
+          [
+            93,
+            46
+          ],
+          [
+            106,
+            57
+          ],
+          [
+            116,
+            74
+          ],
+          [
+            121,
+            94
+          ],
+          [
+            121,
+            113
+          ],
+          [
+            115,
+            132
+          ],
+          [
+            105,
+            148
+          ],
+          [
+            92,
+            160
+          ],
+          [
+            76,
+            166
+          ],
+          [
+            62,
+            158
+          ],
+          [
+            49,
+            150
+          ],
+          [
+            39,
+            136
+          ],
+          [
+            32,
+            116
+          ],
+          [
+            30,
+            96
+          ],
+          [
+            33,
+            77
+          ],
+          [
+            42,
+            62
+          ],
+          [
+            56,
+            49
+          ],
+          [
+            68,
+            44
+          ]
+        ],
+        "excludedInnerHoleSource": [
+          [
+            69,
+            55
+          ],
+          [
+            80,
+            56
+          ],
+          [
+            91,
+            63
+          ],
+          [
+            100,
+            75
+          ],
+          [
+            107,
+            91
+          ],
+          [
+            110,
+            108
+          ],
+          [
+            108,
+            125
+          ],
+          [
+            101,
+            140
+          ],
+          [
+            91,
+            151
+          ],
+          [
+            79,
+            158
+          ],
+          [
+            69,
+            159
+          ],
+          [
+            60,
+            151
+          ],
+          [
+            55,
+            140
+          ],
+          [
+            51,
+            129
+          ],
+          [
+            47,
+            115
+          ],
+          [
+            46,
+            100
+          ],
+          [
+            46,
+            85
+          ],
+          [
+            51,
+            71
+          ],
+          [
+            59,
+            61
+          ]
+        ],
+        "torsoOriginalMatrix": [
+          0.48,
+          0,
+          0,
+          0.48,
+          225.18,
+          310.76
+        ],
+        "cutoutImageMatrix": [
+          0.48,
+          0,
+          0,
+          0.48,
+          235.74,
+          327.56
+        ],
+        "layer": 80,
+        "previousRectPassRemoved": true,
+        "originalTorsoAndArmAlphaUnmodified": true,
+        "operation": "Same-source hand-authored green/gold shoulder-ring ownership cutout only. Old white sleeve inner patch and lower draped cloth excluded, no color extraction or repaint."
+      },
+      "legMeasurements": {
+        "far_L_raised": {
+          "state": "raised",
+          "manualSoleY": 509.64000000000004,
+          "manualSoleResidual": -18.859999999999957,
+          "renderedLegAlpha8BBoxExclusive": [
+            308,
+            417,
+            371,
+            511
+          ],
+          "lowestVisiblePixelRow": 510,
+          "clearanceToPixelCenter": 18.5,
+          "clearanceToPixelBottom": 17.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        },
+        "near_R_planted": {
+          "state": "planted",
+          "manualSoleY": 528.88,
+          "manualSoleResidual": 0.37999999999999545,
+          "renderedLegAlpha8BBoxExclusive": [
+            294,
+            417,
+            353,
+            529
+          ],
+          "lowestVisiblePixelRow": 528,
+          "clearanceToPixelCenter": 0.5,
+          "clearanceToPixelBottom": -0.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        }
+      },
+      "actorAlpha8BBoxExclusive": [
+        111,
+        88,
+        449,
+        529
+      ],
+      "output": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/passing-P1-rgba.png",
+      "sha256": "d5b7d557ef9d9abeb9e0d343bc4fa2b843b15c430519c37a1ef04ac7b41fb743",
+      "smallOutput": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/passing-P1-96.png",
+      "smallSha256": "b56636bd9541bc62585a8d114cdd1396aef9f1fd608a50ec4a36dec45001d71d"
+    },
+    {
+      "pose": "P2",
+      "nearPart": "near_R_raised",
+      "farPart": "far_L_planted",
+      "nodes": [
+        {
+          "id": "far_L_whole_gourd",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v1/far_L_whole_gourd.png",
+          "sha256": "861db069dcc33da1ccc8e7f85349bb85f0613ba43c768b0ed87611491e1e56b0",
+          "pivot": [
+            107,
+            100
+          ],
+          "position": [
+            334,
+            360
+          ],
+          "scale": 0.18,
+          "layer": 5,
+          "imageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            314.74,
+            342
+          ],
+          "anatomicalSide": "LEFT",
+          "holdingIdentity": "LEFT hand fixed to complete own Taiji gourd",
+          "sourceCropRect": [
+            777,
+            230,
+            1534,
+            824
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/whole-arm-v1.png.generation.json",
+          "manualLocalLandmarks": {
+            "shoulder": [
+              107,
+              100
+            ],
+            "elbow": [
+              150,
+              301
+            ],
+            "wrist": [
+              385,
+              353
+            ],
+            "fingers": [
+              587,
+              364
+            ]
+          },
+          "sourceCropSize": [
+            757,
+            594
+          ],
+          "transformedManualLandmarks": {
+            "shoulder": [
+              334,
+              360
+            ],
+            "elbow": [
+              341.74,
+              396.18
+            ],
+            "wrist": [
+              384.04,
+              405.54
+            ],
+            "fingers": [
+              420.4,
+              407.52
+            ]
+          },
+          "previousV1ImageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            320.74,
+            337
+          ],
+          "previousV1Position": [
+            340,
+            355
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            -6,
+            5
+          ],
+          "previousV1TransformedManualLandmarks": {
+            "shoulder": [
+              340,
+              355
+            ],
+            "elbow": [
+              347.74,
+              391.18
+            ],
+            "wrist": [
+              390.04,
+              400.54
+            ],
+            "fingers": [
+              426.4,
+              402.52
+            ]
+          }
+        },
+        {
+          "id": "far_L_planted",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/far_L_planted.png",
+          "sha256": "3e477766c293cc9cf12145f0d349ad273d22d9d86736e926c8f28dd3c9a7b681",
+          "sourceROI": [
+            350,
+            512,
+            568,
+            991
+          ],
+          "sourceNativeCropSize": [
+            218,
+            479
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/passing-leg-v1.png.generation.json",
+          "manualSourceNativeLandmarks": {
+            "cap": [
+              476,
+              551
+            ],
+            "knee": [
+              420,
+              746
+            ],
+            "ankle": [
+              422,
+              891
+            ],
+            "heel": [
+              367,
+              964
+            ],
+            "toe": [
+              555,
+              961
+            ],
+            "sole": [
+              468,
+              980
+            ]
+          },
+          "manualCropLocalLandmarks": {
+            "cap": [
+              126,
+              39
+            ],
+            "knee": [
+              70,
+              234
+            ],
+            "ankle": [
+              72,
+              379
+            ],
+            "heel": [
+              17,
+              452
+            ],
+            "toe": [
+              205,
+              449
+            ],
+            "sole": [
+              118,
+              468
+            ]
+          },
+          "sourceCapPivot": [
+            126,
+            39
+          ],
+          "boneBindPosition": [
+            319,
+            438
+          ],
+          "familyArtImageOffset": [
+            0,
+            -12.84
+          ],
+          "effectiveImagePivotForEquivalentMatrix": [
+            126,
+            92.5
+          ],
+          "effectivePivotWarning": "Source cap remains the actual white-cap point. Effective pivot includes an explicitly authorized family art placement offset and is not a measured cap/anatomical hip/native anchor.",
+          "sourceCapAfterImageRegistrationWorld": [
+            319,
+            425.16
+          ],
+          "scale": 0.24,
+          "layer": 10,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            288.76,
+            415.8
+          ],
+          "anatomicalSide": "LEFT",
+          "state": "planted",
+          "transformedManualLandmarks": {
+            "cap": [
+              319.0,
+              425.16
+            ],
+            "knee": [
+              305.56,
+              471.96000000000004
+            ],
+            "ankle": [
+              306.03999999999996,
+              506.76
+            ],
+            "heel": [
+              292.84,
+              524.28
+            ],
+            "toe": [
+              337.96,
+              523.56
+            ],
+            "sole": [
+              317.08,
+              528.12
+            ]
+          },
+          "manualLandmarksApproved": false,
+          "manualLandmarkPixelSamplesRGBA": {
+            "cap": [
+              254,
+              252,
+              250,
+              253
+            ],
+            "knee": [
+              243,
+              231,
+              220,
+              253
+            ],
+            "ankle": [
+              55,
+              114,
+              90,
+              253
+            ],
+            "heel": [
+              209,
+              151,
+              59,
+              251
+            ],
+            "toe": [
+              233,
+              174,
+              71,
+              251
+            ],
+            "sole": [
+              151,
+              114,
+              44,
+              8
+            ]
+          },
+          "renderedLegAlpha8BBoxExclusive": [
+            291,
+            418,
+            339,
+            529
+          ],
+          "actualLowestVisiblePixelRow": 528,
+          "clearanceToArtGroundPixelCenter": 0.5,
+          "clearanceToArtGroundPixelBottom": -0.5,
+          "manualSoleResidualFromArtGround": -0.37999999999999545
+        },
+        {
+          "id": "near_R_raised",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/near_R_raised.png",
+          "sha256": "15fdbd8944a790f6363c5d7676169c65efe3a00aec8ab2dd020cb2230aceaf86",
+          "sourceROI": [
+            952,
+            19,
+            1234,
+            436
+          ],
+          "sourceNativeCropSize": [
+            282,
+            417
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/passing-leg-v1.png.generation.json",
+          "manualSourceNativeLandmarks": {
+            "cap": [
+              1006,
+              66
+            ],
+            "knee": [
+              1185,
+              169
+            ],
+            "ankle": [
+              1024,
+              327
+            ],
+            "heel": [
+              966,
+              363
+            ],
+            "toe": [
+              1134,
+              408
+            ],
+            "sole": [
+              1085,
+              421
+            ]
+          },
+          "manualCropLocalLandmarks": {
+            "cap": [
+              54,
+              47
+            ],
+            "knee": [
+              233,
+              150
+            ],
+            "ankle": [
+              72,
+              308
+            ],
+            "heel": [
+              14,
+              344
+            ],
+            "toe": [
+              182,
+              389
+            ],
+            "sole": [
+              133,
+              402
+            ]
+          },
+          "sourceCapPivot": [
+            54,
+            47
+          ],
+          "boneBindPosition": [
+            307,
+            439
+          ],
+          "familyArtImageOffset": [
+            0,
+            -12.84
+          ],
+          "effectiveImagePivotForEquivalentMatrix": [
+            54,
+            100.5
+          ],
+          "effectivePivotWarning": "Source cap remains the actual white-cap point. Effective pivot includes an explicitly authorized family art placement offset and is not a measured cap/anatomical hip/native anchor.",
+          "sourceCapAfterImageRegistrationWorld": [
+            307,
+            426.16
+          ],
+          "scale": 0.24,
+          "layer": 20,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            294.04,
+            414.88000000000005
+          ],
+          "anatomicalSide": "RIGHT",
+          "state": "raised",
+          "transformedManualLandmarks": {
+            "cap": [
+              307.0,
+              426.16
+            ],
+            "knee": [
+              349.96000000000004,
+              450.88000000000005
+            ],
+            "ankle": [
+              311.32000000000005,
+              488.80000000000007
+            ],
+            "heel": [
+              297.40000000000003,
+              497.44000000000005
+            ],
+            "toe": [
+              337.72,
+              508.24000000000007
+            ],
+            "sole": [
+              325.96000000000004,
+              511.36
+            ]
+          },
+          "manualLandmarksApproved": false,
+          "manualLandmarkPixelSamplesRGBA": {
+            "cap": [
+              252,
+              247,
+              239,
+              252
+            ],
+            "knee": [
+              244,
+              231,
+              218,
+              253
+            ],
+            "ankle": [
+              37,
+              82,
+              61,
+              253
+            ],
+            "heel": [
+              221,
+              157,
+              65,
+              248
+            ],
+            "toe": [
+              136,
+              94,
+              35,
+              252
+            ],
+            "sole": [
+              248,
+              205,
+              100,
+              252
+            ]
+          },
+          "renderedLegAlpha8BBoxExclusive": [
+            296,
+            417,
+            360,
+            513
+          ],
+          "actualLowestVisiblePixelRow": 512,
+          "clearanceToArtGroundPixelCenter": 16.5,
+          "clearanceToArtGroundPixelBottom": 15.5,
+          "manualSoleResidualFromArtGround": -17.139999999999986
+        },
+        {
+          "id": "head",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/head.png",
+          "sha256": "88430e2313ee893d7b37d3888650cd5b0edfcb24fce45b5373eca8ff4059ac29",
+          "pivot": [
+            280,
+            335
+          ],
+          "scale": 0.72,
+          "position": [
+            307,
+            324
+          ],
+          "layer": 35,
+          "imageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            82.80000000000001
+          ],
+          "originalPosition": [
+            307,
+            321
+          ],
+          "originalImageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            79.80000000000001
+          ],
+          "artisticRegistrationTranslation": [
+            0,
+            3
+          ],
+          "sourceCropSize": [
+            378,
+            363
+          ],
+          "paintedSourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png.generation.json",
+          "previousV1ImageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            82.80000000000001
+          ],
+          "previousV1Position": [
+            307,
+            324
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "torso_pelvis",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+          "sha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+          "pivot": [
+            184,
+            188
+          ],
+          "scale": 0.48,
+          "position": [
+            313.5,
+            401
+          ],
+          "layer": 40,
+          "imageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            310.76
+          ],
+          "originalPosition": [
+            313.5,
+            398
+          ],
+          "originalImageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            307.76
+          ],
+          "artisticRegistrationTranslation": [
+            0,
+            3
+          ],
+          "sourceCropSize": [
+            310,
+            314
+          ],
+          "paintedSourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png.generation.json",
+          "previousV1ImageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            310.76
+          ],
+          "previousV1Position": [
+            313.5,
+            401
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "near_R_whole",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v1/near_R_whole.png",
+          "sha256": "df48a57f4ee9c98044a9c8155c53c987768ba8d0becdc44d812abf8450cddbf2",
+          "pivot": [
+            108,
+            99
+          ],
+          "position": [
+            262.5,
+            359.5
+          ],
+          "scale": 0.18,
+          "layer": 70,
+          "imageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            243.06,
+            341.68
+          ],
+          "anatomicalSide": "RIGHT",
+          "holdingIdentity": "empty RIGHT fist",
+          "sourceCropRect": [
+            57,
+            230,
+            733,
+            787
+          ],
+          "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/whole-arm-v1.png.generation.json",
+          "manualLocalLandmarks": {
+            "shoulder": [
+              108,
+              99
+            ],
+            "elbow": [
+              173,
+              320
+            ],
+            "wrist": [
+              478,
+              420
+            ],
+            "fingers": [
+              585,
+              433
+            ]
+          },
+          "sourceCropSize": [
+            676,
+            557
+          ],
+          "transformedManualLandmarks": {
+            "shoulder": [
+              262.5,
+              359.5
+            ],
+            "elbow": [
+              274.2,
+              399.28
+            ],
+            "wrist": [
+              329.1,
+              417.28
+            ],
+            "fingers": [
+              348.36,
+              419.62
+            ]
+          },
+          "previousV1ImageMatrix": [
+            0.18,
+            0,
+            0,
+            0.18,
+            243.06,
+            341.68
+          ],
+          "previousV1Position": [
+            262.5,
+            359.5
+          ],
+          "artisticAttachmentDeltaFromV1": [
+            0,
+            0
+          ],
+          "previousV1TransformedManualLandmarks": {
+            "shoulder": [
+              262.5,
+              359.5
+            ],
+            "elbow": [
+              274.2,
+              399.28
+            ],
+            "wrist": [
+              329.1,
+              417.28
+            ],
+            "fingers": [
+              348.36,
+              419.62
+            ]
+          }
+        }
+      ],
+      "fixedTorsoRing": {
+        "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/torso-shoulder-ring-native.png",
+        "sha256": "33323dd70fac4a10d58aa9f1c0c0673b295639a904ca44bf5a522b3c66df999d",
+        "sourceRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/torso-shoulder-ring-native.png.source.json",
+        "sourceTorso": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+        "sourceTorsoSha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+        "sourceROI": [
+          22,
+          35,
+          130,
+          174
+        ],
+        "outerPolygonSource": [
+          [
+            79,
+            43
+          ],
+          [
+            93,
+            46
+          ],
+          [
+            106,
+            57
+          ],
+          [
+            116,
+            74
+          ],
+          [
+            121,
+            94
+          ],
+          [
+            121,
+            113
+          ],
+          [
+            115,
+            132
+          ],
+          [
+            105,
+            148
+          ],
+          [
+            92,
+            160
+          ],
+          [
+            76,
+            166
+          ],
+          [
+            62,
+            158
+          ],
+          [
+            49,
+            150
+          ],
+          [
+            39,
+            136
+          ],
+          [
+            32,
+            116
+          ],
+          [
+            30,
+            96
+          ],
+          [
+            33,
+            77
+          ],
+          [
+            42,
+            62
+          ],
+          [
+            56,
+            49
+          ],
+          [
+            68,
+            44
+          ]
+        ],
+        "excludedInnerHoleSource": [
+          [
+            69,
+            55
+          ],
+          [
+            80,
+            56
+          ],
+          [
+            91,
+            63
+          ],
+          [
+            100,
+            75
+          ],
+          [
+            107,
+            91
+          ],
+          [
+            110,
+            108
+          ],
+          [
+            108,
+            125
+          ],
+          [
+            101,
+            140
+          ],
+          [
+            91,
+            151
+          ],
+          [
+            79,
+            158
+          ],
+          [
+            69,
+            159
+          ],
+          [
+            60,
+            151
+          ],
+          [
+            55,
+            140
+          ],
+          [
+            51,
+            129
+          ],
+          [
+            47,
+            115
+          ],
+          [
+            46,
+            100
+          ],
+          [
+            46,
+            85
+          ],
+          [
+            51,
+            71
+          ],
+          [
+            59,
+            61
+          ]
+        ],
+        "torsoOriginalMatrix": [
+          0.48,
+          0,
+          0,
+          0.48,
+          225.18,
+          310.76
+        ],
+        "cutoutImageMatrix": [
+          0.48,
+          0,
+          0,
+          0.48,
+          235.74,
+          327.56
+        ],
+        "layer": 80,
+        "previousRectPassRemoved": true,
+        "originalTorsoAndArmAlphaUnmodified": true,
+        "operation": "Same-source hand-authored green/gold shoulder-ring ownership cutout only. Old white sleeve inner patch and lower draped cloth excluded, no color extraction or repaint."
+      },
+      "legMeasurements": {
+        "far_L_planted": {
+          "state": "planted",
+          "manualSoleY": 528.12,
+          "manualSoleResidual": -0.37999999999999545,
+          "renderedLegAlpha8BBoxExclusive": [
+            291,
+            418,
+            339,
+            529
+          ],
+          "lowestVisiblePixelRow": 528,
+          "clearanceToPixelCenter": 0.5,
+          "clearanceToPixelBottom": -0.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        },
+        "near_R_raised": {
+          "state": "raised",
+          "manualSoleY": 511.36,
+          "manualSoleResidual": -17.139999999999986,
+          "renderedLegAlpha8BBoxExclusive": [
+            296,
+            417,
+            360,
+            513
+          ],
+          "lowestVisiblePixelRow": 512,
+          "clearanceToPixelCenter": 16.5,
+          "clearanceToPixelBottom": 15.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        }
+      },
+      "actorAlpha8BBoxExclusive": [
+        111,
+        88,
+        449,
+        529
+      ],
+      "output": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/passing-P2-rgba.png",
+      "sha256": "ef617fd4e7d1283d6d0ebaf2e585f3288af586814d3380849207cec85825cc81",
+      "smallOutput": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/passing-P2-96.png",
+      "smallSha256": "84a111ee69f91186ff5686453e97608710a2e2f5567cefe0e9bb5c52eaf1016f"
+    }
+  ],
+  "sourceAlpha8OwnedOnce": 237849,
+  "mirroring": false,
+  "componentWarping": false,
+  "perPoseBboxFit": false,
+  "oneRenderBatch": true,
+  "newAiImageCount": 0,
+  "sourcePngsOrAlphaModified": false,
+  "sourcePoseIdentityMappingApproved": false,
+  "sixPhaseComplete": false,
+  "worldRoot": null,
+  "nativeTimingMs": null,
+  "actuallyViewed": false,
+  "staticAccepted": false,
+  "runtimeEnabled": false,
+  "fullAnimationAccepted": false
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "archive": "D:\\work\\qqtang-ui\\.artifacts\\reference-inputs\\QQTang-Local-v1.3.4.zip",
+  "archiveEntry": "QQTang-Local/runtime/client-patched/Client.exe",
+  "entryBytes": 13860864,
+  "entryCRC32": "04f986c5",
+  "expectedArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "logicalHeaderReadBytes": 16384,
+  "logicalDataReadBytes": 112,
+  "inputExecuted": false,
+  "clientExtracted": false,
+  "readMode": "ZIP bounded PE header and two exact static references; no scan; seek may internally stream-decompress preceding bytes",
+  "slices": [
+    {
+      "va": "0x7a369c",
+      "rva": "0x3a369c",
+      "fileOffset": 3815068,
+      "byteLength": 96,
+      "sha256": "95816ee1888e3d1a7e4bb446922086ed96310301f8bb16d30527199068b79fc9",
+      "bytesHex": "dcec5e0022ee5e00dd455c0003f05e004ff05e00b1ed5e00abed5e0071ee5e0073f05e0040f35e0095ec5e00aaf15e000ff25e0064f25e0072f25e0083f25e00cff25e00bef05e0022f35e000ad7233ccaf35e007af45e00dd455c001ff95e00",
+      "dwords": [
+        {
+          "byteOffset": "0x0",
+          "value": "0x5eecdc"
+        },
+        {
+          "byteOffset": "0x4",
+          "value": "0x5eee22"
+        },
+        {
+          "byteOffset": "0x8",
+          "value": "0x5c45dd"
+        },
+        {
+          "byteOffset": "0xc",
+          "value": "0x5ef003"
+        },
+        {
+          "byteOffset": "0x10",
+          "value": "0x5ef04f"
+        },
+        {
+          "byteOffset": "0x14",
+          "value": "0x5eedb1"
+        },
+        {
+          "byteOffset": "0x18",
+          "value": "0x5eedab"
+        },
+        {
+          "byteOffset": "0x1c",
+          "value": "0x5eee71"
+        },
+        {
+          "byteOffset": "0x20",
+          "value": "0x5ef073"
+        },
+        {
+          "byteOffset": "0x24",
+          "value": "0x5ef340"
+        },
+        {
+          "byteOffset": "0x28",
+          "value": "0x5eec95"
+        },
+        {
+          "byteOffset": "0x2c",
+          "value": "0x5ef1aa"
+        },
+        {
+          "byteOffset": "0x30",
+          "value": "0x5ef20f"
+        },
+        {
+          "byteOffset": "0x34",
+          "value": "0x5ef264"
+        },
+        {
+          "byteOffset": "0x38",
+          "value": "0x5ef272"
+        },
+        {
+          "byteOffset": "0x3c",
+          "value": "0x5ef283"
+        },
+        {
+          "byteOffset": "0x40",
+          "value": "0x5ef2cf"
+        },
+        {
+          "byteOffset": "0x44",
+          "value": "0x5ef0be"
+        },
+        {
+          "byteOffset": "0x48",
+          "value": "0x5ef322"
+        },
+        {
+          "byteOffset": "0x4c",
+          "value": "0x3c23d70a"
+        },
+        {
+          "byteOffset": "0x50",
+          "value": "0x5ef3ca"
+        },
+        {
+          "byteOffset": "0x54",
+          "value": "0x5ef47a"
+        },
+        {
+          "byteOffset": "0x58",
+          "value": "0x5c45dd"
+        },
+        {
+          "byteOffset": "0x5c",
+          "value": "0x5ef91f"
+        }
+      ],
+      "source": "window-005eec60.txt:0x5eec6c writes this immediate to object[0]"
+    },
+    {
+      "va": "0x7f6a50",
+      "rva": "0x3f6a50",
+      "fileOffset": 4155984,
+      "byteLength": 16,
+      "sha256": "0fcbb804b4967ff2f825424e68a3f2a1e240ab9f59da1bab01f5ee167f3bfc44",
+      "bytesHex": "434d6170456c656d0000000065666665",
+      "dwords": [
+        {
+          "byteOffset": "0x0",
+          "value": "0x70614d43"
+        },
+        {
+          "byteOffset": "0x4",
+          "value": "0x6d656c45"
+        },
+        {
+          "byteOffset": "0x8",
+          "value": "0x0"
+        },
+        {
+          "byteOffset": "0xc",
+          "value": "0x65666665"
+        }
+      ],
+      "source": "window-005f532d.txt:0x5f535c passes this exact static argument to0x5f52ea"
+    }
+  ]
+}

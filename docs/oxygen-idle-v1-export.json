@@ -1,0 +1,14 @@
+{
+  "source":"assets/items/battlefield/animation/oxygen-idle-v1.png",
+  "actualNativeSheetSize":[1536,1024],
+  "sourceRecord":"references/qqtang-packed-art/object--item--item26_stand-first-visible.png.source.json",
+  "assetDirectory":"assets/items/battlefield/animation",
+  "name":"oxygen-idle",
+  "sourceResource":"scene26-oxygen-stand",
+  "displayName":"碧息气瓶待机",
+  "columns":3,
+  "rows":2,
+  "frameOrder":[0,1,2,3,4,5,6],
+  "cellSlots":[0,1,2,3,4,3,2],
+  "mappingNotes":"Seven original frame positions, five unique encoded pixel+size+offset keys;5 exactly reuses3,6 exactly reuses2. New bottle identity references native crop from pickups-c-v1, never old client RGB/alpha. Native1536x1024 has5 painted cells; requested75px margins not achieved but alpha>=8 boundaries clear. Original29x48–50 extents/raw offsets retained. New visible proportions differ and remain warned, all geometry/timing/mixing/runtime unaccepted. Scene62 has byte-identical entire original DIMG; alias proof attached separately without merging gameplay IDs."
+}

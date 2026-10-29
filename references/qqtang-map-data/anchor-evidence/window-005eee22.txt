@@ -1,0 +1,21 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-005eee22.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+005eee22 <.text>:
+  5eee22: 56                           	push	esi
+  5eee23: 8b f1                        	mov	esi, ecx
+  5eee25: e8 85 49 fd ff               	call	0x5c37af
+  5eee2a: ff 76 04                     	push	dword ptr [esi + 0x4]
+  5eee2d: 8b c8                        	mov	ecx, eax
+  5eee2f: e8 10 4d fd ff               	call	0x5c3b44
+  5eee34: 89 46 14                     	mov	dword ptr [esi + 0x14], eax
+  5eee37: 8b 40 0c                     	mov	eax, dword ptr [eax + 0xc]
+  5eee3a: 89 46 10                     	mov	dword ptr [esi + 0x10], eax
+  5eee3d: 8b 06                        	mov	eax, dword ptr [esi]
+  5eee3f: 8b ce                        	mov	ecx, esi
+  5eee41: ff 50 3c                     	call	dword ptr [eax + 0x3c]
+  5eee44: b0 01                        	mov	al, 0x1
+  5eee46: 5e                           	pop	esi
+  5eee47: c3                           	ret
