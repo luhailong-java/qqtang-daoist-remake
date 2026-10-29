@@ -1,0 +1,165 @@
+{
+  "itemId": 4134,
+  "category": "thadorn",
+  "sourceName": "莲叶荷田田",
+  "sourceDescription": "雨后池塘边，一竖装成伞，天然去雕饰，出淤而不染。",
+  "file": "assets/items/head-adornments/icons/4134-jade-lotus-leaf-umbrella.png",
+  "sha256": "4a260ff4e28b94996238b96914312df454c53957ca054c060df9523bbfd82ca3",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-f-v1.png",
+    "sha256": "75f17e6ac84982030f2df869d5cde8cc5522d16760893544b92a373bc73bd320",
+    "generationRecord": "assets/items/head-adornments/head-adornments-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      560
+    ],
+    "contentBoxWithinCell": [
+      0,
+      131,
+      483,
+      530
+    ],
+    "sourceContentRect": [
+      1024,
+      131,
+      1507,
+      530
+    ],
+    "uniformScale": 0.463768115942029,
+    "placementPx": [
+      16,
+      35
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-4134-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "left"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "49520d740c03ef7253caa30c849b5d77cedfd17b7c7faf64436e6f2065f6f103",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-4134-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    52
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    1
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn74_stand.img",
+      "sourceSha256": "4c9276931777dee4b5c41a73fcef0d749078780a4eb770ea4d3b3d817682d6df",
+      "byteLength": 360292,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          15,
+          3
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          62,
+          80
+        ],
+        "unknownImageHeaderWord": 128
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn74_walk.img",
+      "sourceSha256": "4c9276931777dee4b5c41a73fcef0d749078780a4eb770ea4d3b3d817682d6df",
+      "byteLength": 360292,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          15,
+          3
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          62,
+          80
+        ],
+        "unknownImageHeaderWord": 128
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "荷露玉伞",
+  "appearanceChoice": "original Daoist Q inventory icon; source role retained, wearer master and animation remain unproduced"
+}

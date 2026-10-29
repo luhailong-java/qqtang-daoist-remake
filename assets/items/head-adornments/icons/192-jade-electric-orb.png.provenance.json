@@ -1,0 +1,161 @@
+{
+  "itemId": 192,
+  "category": "thadorn",
+  "sourceName": "电光球",
+  "sourceDescription": "能不断放出闪电的小球哦，很有威力的！可以装饰自己的头饰。",
+  "file": "assets/items/head-adornments/icons/192-jade-electric-orb.png",
+  "sha256": "50c4252add396c04f4ce374d493e15ae328a3177b6136795e93b1bda1a51ff47",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-b-v1.png",
+    "sha256": "8ffe2d4ebd736613e60d7405163a372a10b63e4a3cd0e100a1c49e8671a91a43",
+    "generationRecord": "assets/items/head-adornments/head-adornments-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      515,
+      450
+    ],
+    "contentBoxWithinCell": [
+      14,
+      144,
+      509,
+      421
+    ],
+    "sourceContentRect": [
+      14,
+      144,
+      509,
+      421
+    ],
+    "uniformScale": 0.45252525252525255,
+    "placementPx": [
+      16,
+      65
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-192-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "066e07cc7aea03adef60533c38faee414c5431b80b73a76ceb16f5287b63f565",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-192-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    37,
+    42
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    15,
+    20
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn37_stand.img",
+      "sourceSha256": "923bc8651f6f2abf300c793d6e502ed381038de98cd4a597671fe4c7e23d93d8",
+      "byteLength": 35638,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          41,
+          3
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          17,
+          17
+        ],
+        "unknownImageHeaderWord": 40
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn37_walk.img",
+      "sourceSha256": "923bc8651f6f2abf300c793d6e502ed381038de98cd4a597671fe4c7e23d93d8",
+      "byteLength": 35638,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          41,
+          3
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          17,
+          17
+        ],
+        "unknownImageHeaderWord": 40
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "玄电玉珠",
+  "appearanceChoice": "own Daoist Q inventory icon, original source role only; world wearable master and animation remain unproduced"
+}

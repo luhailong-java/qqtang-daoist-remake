@@ -1,0 +1,164 @@
+{
+  "itemId": 236,
+  "category": "thadorn",
+  "sourceName": "竹蜻蜓",
+  "sourceDescription": "登录新版本即可获取该道具！小小的竹蜻蜓，飘在头上哦！可以装饰自己的头饰。",
+  "file": "assets/items/head-adornments/icons/236-jade-bamboo-propeller-v2.png",
+  "sha256": "52b1cbea375f03191b627a4124ec298129734d86d65eff75f8dd8fc34bfc3ad4",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-g-v1.png",
+    "sha256": "7dac203279015859a3aedc158bc0d33052ec7e2dfb4d1c78eeb03a2cbdc3d12d",
+    "generationRecord": "assets/items/head-adornments/head-adornments-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      1933,
+      814
+    ],
+    "contentBoxWithinCell": [
+      97,
+      160,
+      1840,
+      712
+    ],
+    "sourceContentRect": [
+      97,
+      160,
+      1840,
+      712
+    ],
+    "uniformScale": 0.1285140562248996,
+    "placementPx": [
+      16,
+      92
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-236-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "7104112095360bc73fe36c87ab10b6a98d653a8f432707a0d39456e9544a9328",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-236-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    58,
+    45
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    4,
+    15
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn38_stand.img",
+      "sourceSha256": "aa520e671d7ff16420f2e4ef29c716f8b782a9159e556ffb755d9ad8546ffedc",
+      "byteLength": 174664,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          12,
+          6
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          77,
+          32
+        ],
+        "unknownImageHeaderWord": 160
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn38_walk.img",
+      "sourceSha256": "aa520e671d7ff16420f2e4ef29c716f8b782a9159e556ffb755d9ad8546ffedc",
+      "byteLength": 174664,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          12,
+          6
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          77,
+          32
+        ],
+        "unknownImageHeaderWord": 160
+      }
+    }
+  ],
+  "worldStaticMasterProduced": true,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "竹风蜻蜓",
+  "appearanceChoice": "AI edit removing unintended electric arc from own bamboo propeller; source non-electric cosmetic role retained",
+  "worldFrameCandidatesProduced": 24,
+  "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
+  "worldStatus": "declared frame candidates present; timing, geometry and runtime not accepted"
+}

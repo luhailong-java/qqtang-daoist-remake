@@ -1,0 +1,165 @@
+{
+  "itemId": 114,
+  "category": "thadorn",
+  "sourceName": "玫瑰花环",
+  "sourceDescription": "天生浪漫主义的最爱，玫瑰做的花环有轻纱。可以装饰自己游戏的角色。",
+  "file": "assets/items/head-adornments/icons/114-rose-silk-garland.png",
+  "sha256": "80ea5c540ed6c060905b1df38234a9f40fde3143cda720ab2ce75c59ac16bd27",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-a-v1.png",
+    "sha256": "c38e9d089657a695a4f301fa798795340b2f03e5676fa5e536de661575570155",
+    "generationRecord": "assets/items/head-adornments/head-adornments-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      488,
+      512,
+      1048,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      0,
+      66,
+      546,
+      430
+    ],
+    "sourceContentRect": [
+      488,
+      578,
+      1034,
+      942
+    ],
+    "uniformScale": 0.41025641025641024,
+    "placementPx": [
+      16,
+      53
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-114-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "left"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "305d7023c9e239c17077ad581a8674d0912d087f7907a2b7a8abaf5022d30be6",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-114-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    55,
+    43
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    7,
+    17
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn34_stand.img",
+      "sourceSha256": "c316c658545480300c850e68d589b45713abcd76a85e8e276284e151a5d8c3c6",
+      "byteLength": 200317,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        7,
+        26
+      ],
+      "declaredCanvas": [
+        84,
+        38
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          10,
+          12
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          78,
+          35
+        ],
+        "unknownImageHeaderWord": 160
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn34_walk.img",
+      "sourceSha256": "c316c658545480300c850e68d589b45713abcd76a85e8e276284e151a5d8c3c6",
+      "byteLength": 200317,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        7,
+        26
+      ],
+      "declaredCanvas": [
+        84,
+        38
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          10,
+          12
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          78,
+          35
+        ],
+        "unknownImageHeaderWord": 160
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "绯霞纱花环",
+  "appearanceChoice": "original Daoist Q inventory artwork, source role retained; no world wearable animation claim"
+}

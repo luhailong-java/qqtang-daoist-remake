@@ -1,0 +1,161 @@
+{
+  "itemId": 2886,
+  "category": "thadorn",
+  "sourceName": "紫色水晶公主冠",
+  "sourceDescription": "纯美皇冠上镶嵌紫色宝石水晶，华丽优美。",
+  "file": "assets/items/head-adornments/icons/2886-amethyst-heart-princess-coronet.png",
+  "sha256": "b0c79edc2c004b22a5012abfeb100d80b0ee027a3909ca6b012ec7b7b9433f03",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-e-v1.png",
+    "sha256": "1d9477a795bd4fea9188675ad52288f5d8881fe3772a23b270caaa941a5c2939",
+    "generationRecord": "assets/items/head-adornments/head-adornments-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      520,
+      0,
+      1024,
+      512
+    ],
+    "contentBoxWithinCell": [
+      5,
+      141,
+      492,
+      453
+    ],
+    "sourceContentRect": [
+      525,
+      141,
+      1012,
+      453
+    ],
+    "uniformScale": 0.459958932238193,
+    "placementPx": [
+      16,
+      56
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-2886-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "0e7320f5a075a8c8a893736a4b0d5fac418909b57cc3d136eda48ecd9ca6fa63",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-2886-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn94_stand.img",
+      "sourceSha256": "8dbef16ac2449265efa599bf13d8a9c891980961315c47be5c951863ac8667aa",
+      "byteLength": 83782,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          33,
+          3
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          33,
+          31
+        ],
+        "unknownImageHeaderWord": 72
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn94_walk.img",
+      "sourceSha256": "8dbef16ac2449265efa599bf13d8a9c891980961315c47be5c951863ac8667aa",
+      "byteLength": 83782,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          33,
+          3
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          33,
+          31
+        ],
+        "unknownImageHeaderWord": 72
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "紫玉心冠",
+  "appearanceChoice": "new original Daoist Q inventory design; source team/character/commemoration appearance not copied, source role and attributes preserved"
+}

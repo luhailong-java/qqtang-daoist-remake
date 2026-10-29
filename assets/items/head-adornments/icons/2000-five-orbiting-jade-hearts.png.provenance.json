@@ -1,0 +1,161 @@
+{
+  "itemId": 2000,
+  "category": "thadorn",
+  "sourceName": "心愿",
+  "sourceDescription": "不断在头上转动的心，让内心的情感能更好的传达。",
+  "file": "assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+  "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-d-v1.png",
+    "sha256": "2e6c3ed681ab6ed4adc927dc29b1583b98ee1788a5d388bd19d09ae1a25cfe29",
+    "generationRecord": "assets/items/head-adornments/head-adornments-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      47,
+      136,
+      485,
+      483
+    ],
+    "sourceContentRect": [
+      1071,
+      136,
+      1509,
+      483
+    ],
+    "uniformScale": 0.5114155251141552,
+    "placementPx": [
+      16,
+      39
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-2000-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "74c8c43806cc29e0b28793052900db2e8e8eecf79bbd8540c20d560b02dce019",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-2000-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    54,
+    48
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    1,
+    5
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn65_stand.img",
+      "sourceSha256": "17817b99d0b1ff95c3ff5dfab6880ba8d941a36a86120ae7d2cbd38f99ef64d2",
+      "byteLength": 109336,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          18,
+          9
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          54,
+          27
+        ],
+        "unknownImageHeaderWord": 112
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn65_walk.img",
+      "sourceSha256": "17817b99d0b1ff95c3ff5dfab6880ba8d941a36a86120ae7d2cbd38f99ef64d2",
+      "byteLength": 109336,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          18,
+          9
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          54,
+          27
+        ],
+        "unknownImageHeaderWord": 112
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "五心祈愿",
+  "appearanceChoice": "own Daoist Q design replacing source brand/character appearance, source cosmetic function retained, world master/animation not produced"
+}

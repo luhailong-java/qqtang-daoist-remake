@@ -1,0 +1,168 @@
+{
+  "itemId": 44,
+  "category": "thadorn",
+  "sourceName": "鸟巢帽",
+  "sourceDescription": "一个鸟巢，上面快乐地生活着一窝小鸟。可以装饰自己游戏的角色。",
+  "file": "assets/items/head-adornments/icons/44-three-chick-nest.png",
+  "sha256": "7db5a817fdd5bbb8a8ff47e5ddda4a39726fe293a5452c4fd823fbdec1aa7f4d",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-a-v1.png",
+    "sha256": "c38e9d089657a695a4f301fa798795340b2f03e5676fa5e536de661575570155",
+    "generationRecord": "assets/items/head-adornments/head-adornments-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      0,
+      123,
+      500,
+      475
+    ],
+    "sourceContentRect": [
+      1024,
+      123,
+      1524,
+      475
+    ],
+    "uniformScale": 0.448,
+    "placementPx": [
+      16,
+      49
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-44-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "left"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "8bddf2798071f3004330c0c8d9b5fc6f5deadba677c1dd9c70aee88975c34a48",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-44-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    52,
+    51
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    6,
+    8
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn16_stand.img",
+      "sourceSha256": "f4ee733ecf9762836b5138bae4c77fabe61814a1aa023e483286739a1b62ff9c",
+      "byteLength": 151018,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        21,
+        7
+      ],
+      "declaredCanvas": [
+        59,
+        60
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          23,
+          -7
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          52,
+          38
+        ],
+        "unknownImageHeaderWord": 104
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn16_walk.img",
+      "sourceSha256": "f4ee733ecf9762836b5138bae4c77fabe61814a1aa023e483286739a1b62ff9c",
+      "byteLength": 151018,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        21,
+        7
+      ],
+      "declaredCanvas": [
+        59,
+        60
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          23,
+          -7
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          52,
+          38
+        ],
+        "unknownImageHeaderWord": 104
+      }
+    }
+  ],
+  "worldStaticMasterProduced": true,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "竹云雏巢",
+  "appearanceChoice": "original Daoist Q inventory artwork, source role retained; no world wearable animation claim",
+  "worldFrameCandidatesProduced": 24,
+  "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
+  "worldStatus": "declared frame candidates present; timing, geometry and runtime not accepted"
+}

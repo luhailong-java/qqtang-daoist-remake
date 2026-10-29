@@ -1,0 +1,164 @@
+{
+  "itemId": 407,
+  "category": "thadorn",
+  "sourceName": "麋鹿酷比精灵",
+  "sourceDescription": "非常可爱的麋鹿酷比精灵，似乎刚刚出生，还不懂事。",
+  "file": "assets/items/head-adornments/icons/407-xiajiaolu-spirit-head.png",
+  "sha256": "2c720f76d5f6de8ab22b4640f3c5510636a62055c93b52707fb7086d667e61f6",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-b-v1.png",
+    "sha256": "8ffe2d4ebd736613e60d7405163a372a10b63e4a3cd0e100a1c49e8671a91a43",
+    "generationRecord": "assets/items/head-adornments/head-adornments-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1048,
+      0,
+      1536,
+      530
+    ],
+    "contentBoxWithinCell": [
+      17,
+      34,
+      474,
+      501
+    ],
+    "sourceContentRect": [
+      1065,
+      34,
+      1522,
+      501
+    ],
+    "uniformScale": 0.4796573875802998,
+    "placementPx": [
+      18,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-407-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "a8ca85ab927bb257a93e3f059bc75c1ac38f723656abc37b3c2d5b09d7bde763",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-407-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    26,
+    45
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    19,
+    17
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn41_stand.img",
+      "sourceSha256": "901af3d29f255384860669c573c9e7513c4593ef03fb94b8ee9fdfc7b02f5920",
+      "byteLength": 37756,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          39,
+          1
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          21,
+          23
+        ],
+        "unknownImageHeaderWord": 48
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn41_walk.img",
+      "sourceSha256": "901af3d29f255384860669c573c9e7513c4593ef03fb94b8ee9fdfc7b02f5920",
+      "byteLength": 37756,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          39,
+          1
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          21,
+          23
+        ],
+        "unknownImageHeaderWord": 48
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "霞角鹿灵",
+  "appearanceChoice": "own Daoist Q inventory icon, original source role only; world wearable master and animation remain unproduced",
+  "projectIdentity": "霞角鹿",
+  "identityReference": "assets/items/petcards/references/canon/11-xiajiaolu.png",
+  "identityReferenceSha256": "a549a64fbf7fc6b472085a605b6861a3e29a3baaf7f7c62febeea9bca2f1ceb6"
+}

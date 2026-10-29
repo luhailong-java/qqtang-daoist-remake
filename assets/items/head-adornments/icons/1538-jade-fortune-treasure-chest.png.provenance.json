@@ -1,0 +1,161 @@
+{
+  "itemId": 1538,
+  "category": "thadorn",
+  "sourceName": "神秘宝箱",
+  "sourceDescription": "头顶大宝箱,使你拥有猪年财运亨通,新年过节可以获得更多的压岁钱.",
+  "file": "assets/items/head-adornments/icons/1538-jade-fortune-treasure-chest.png",
+  "sha256": "2600800ffb2071d85f942ace000ce2ddce05ef10b3243c109bd0477cd7f4c245",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-d-v1.png",
+    "sha256": "2e6c3ed681ab6ed4adc927dc29b1583b98ee1788a5d388bd19d09ae1a25cfe29",
+    "generationRecord": "assets/items/head-adornments/head-adornments-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      525
+    ],
+    "contentBoxWithinCell": [
+      30,
+      80,
+      467,
+      509
+    ],
+    "sourceContentRect": [
+      30,
+      80,
+      467,
+      509
+    ],
+    "uniformScale": 0.5125858123569794,
+    "placementPx": [
+      16,
+      18
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-1538-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "52964b5bd668653faf0ece724186594265ba8524abc1cf59c6468343e650d365",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-1538-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn63_stand.img",
+      "sourceSha256": "c2a3cc784afac09af2392ddfbaa76f231999e5d344df44648f293e689f74e215",
+      "byteLength": 127432,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          30,
+          0
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          40,
+          44
+        ],
+        "unknownImageHeaderWord": 80
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn63_walk.img",
+      "sourceSha256": "c2a3cc784afac09af2392ddfbaa76f231999e5d344df44648f293e689f74e215",
+      "byteLength": 127432,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          30,
+          0
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          40,
+          44
+        ],
+        "unknownImageHeaderWord": 80
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "云玉聚宝箱",
+  "appearanceChoice": "own Daoist Q design replacing source brand/character appearance, source cosmetic function retained, world master/animation not produced"
+}

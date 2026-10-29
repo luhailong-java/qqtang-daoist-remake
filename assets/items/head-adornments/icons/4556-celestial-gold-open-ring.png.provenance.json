@@ -1,0 +1,162 @@
+{
+  "itemId": 4556,
+  "category": "thadorn",
+  "sourceName": "天国之环",
+  "sourceDescription": "耀目的光圈，如天使的头环般闪闪发亮。",
+  "file": "assets/items/head-adornments/icons/4556-celestial-gold-open-ring.png",
+  "sha256": "b692fe9100d3f3a989cc0031831297675ec7865d7a27555dc5bc92e3c5d5f5f5",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-f-v1.png",
+    "sha256": "75f17e6ac84982030f2df869d5cde8cc5522d16760893544b92a373bc73bd320",
+    "generationRecord": "assets/items/head-adornments/head-adornments-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      545,
+      512,
+      1030,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      13,
+      62,
+      464,
+      401
+    ],
+    "sourceContentRect": [
+      558,
+      574,
+      1009,
+      913
+    ],
+    "uniformScale": 0.49667405764966743,
+    "placementPx": [
+      16,
+      44
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-4556-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "1654a8be8c18fb7e48deaba4dd8e08755f0d46b1f8e60004c8a1b027e0a0be9e",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-4556-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    42,
+    27
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    7,
+    10
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn97_stand.img",
+      "sourceSha256": "8b979392907eedeace750aa517dbf30cb4d21e6f931734a3a0c63ab1d4ffae7e",
+      "byteLength": 107848,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65537,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          30,
+          15
+        ],
+        "pixelMode": 8,
+        "empty": false,
+        "size": [
+          42,
+          27
+        ],
+        "unknownImageHeaderWord": 168
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn97_walk.img",
+      "sourceSha256": "8b979392907eedeace750aa517dbf30cb4d21e6f931734a3a0c63ab1d4ffae7e",
+      "byteLength": 107848,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65537,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          30,
+          15
+        ],
+        "pixelMode": 8,
+        "empty": false,
+        "size": [
+          42,
+          27
+        ],
+        "unknownImageHeaderWord": 168
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "天阙玉金环",
+  "appearanceChoice": "original Daoist Q inventory icon; source role retained, wearer master and animation remain unproduced",
+  "sourceVisualLimitation": "true inventory frame RGB all255 with luminous alpha silhouette, no readable internal ring detail; native blend and world geometry unverified, own ring interpretation based on source description"
+}

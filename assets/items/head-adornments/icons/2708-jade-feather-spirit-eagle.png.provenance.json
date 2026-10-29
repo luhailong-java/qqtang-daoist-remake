@@ -1,0 +1,161 @@
+{
+  "itemId": 2708,
+  "category": "thadorn",
+  "sourceName": "亚特兰大老鹰队",
+  "sourceDescription": "1949年入盟的鹰队，是NBA资格最老的17支球队之一，队徽雄鹰能带你迅捷和机敏。",
+  "file": "assets/items/head-adornments/icons/2708-jade-feather-spirit-eagle.png",
+  "sha256": "b2de46fdcc5f00ed42c9686a4763616dac81ac0808885a53bce7e53594d0d533",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-e-v1.png",
+    "sha256": "1d9477a795bd4fea9188675ad52288f5d8881fe3772a23b270caaa941a5c2939",
+    "generationRecord": "assets/items/head-adornments/head-adornments-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      520,
+      512
+    ],
+    "contentBoxWithinCell": [
+      33,
+      75,
+      512,
+      489
+    ],
+    "sourceContentRect": [
+      33,
+      75,
+      512,
+      489
+    ],
+    "uniformScale": 0.46764091858037576,
+    "placementPx": [
+      16,
+      31
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-2708-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "823a686fa2809d56506244b205bc6e844d4680b19924f70d4664201b80d875df",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-2708-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn95_stand.img",
+      "sourceSha256": "baafff6b583e48e049ed08f29a51f8e3b764e6b09e5284870db19079aa9985a7",
+      "byteLength": 109288,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          24,
+          4
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          40,
+          26
+        ],
+        "unknownImageHeaderWord": 80
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn95_walk.img",
+      "sourceSha256": "baafff6b583e48e049ed08f29a51f8e3b764e6b09e5284870db19079aa9985a7",
+      "byteLength": 109288,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          24,
+          4
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          40,
+          26
+        ],
+        "unknownImageHeaderWord": 80
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "玉羽灵鹰",
+  "appearanceChoice": "new original Daoist Q inventory design; source team/character/commemoration appearance not copied, source role and attributes preserved"
+}

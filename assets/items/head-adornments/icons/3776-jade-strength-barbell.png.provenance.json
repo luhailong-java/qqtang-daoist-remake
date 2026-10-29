@@ -1,0 +1,165 @@
+{
+  "itemId": 3776,
+  "category": "thadorn",
+  "sourceName": "08纪念·举重",
+  "sourceDescription": "头顶杠铃，这也行？铁头功也没这么夸张吧。世界之大，无奇不有。",
+  "file": "assets/items/head-adornments/icons/3776-jade-strength-barbell.png",
+  "sha256": "d81e63775ed4c868daf0fcf824b36dbcb48e5f14dbc9095ca34cb3e90c62ba48",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-e-v1.png",
+    "sha256": "1d9477a795bd4fea9188675ad52288f5d8881fe3772a23b270caaa941a5c2939",
+    "generationRecord": "assets/items/head-adornments/head-adornments-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      0,
+      138,
+      501,
+      358
+    ],
+    "sourceContentRect": [
+      1024,
+      650,
+      1525,
+      870
+    ],
+    "uniformScale": 0.4471057884231537,
+    "placementPx": [
+      16,
+      79
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-3776-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "left"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "cd9e9940a16b54d97ed0b1653c4980c2317ff26a6b55507e9c3fa558f03d9848",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-3776-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn88_stand.img",
+      "sourceSha256": "61b3d14604918f25542df585eadbaa5c4310b739e90c25e84c5cfefd682b78ab",
+      "byteLength": 136492,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          36,
+          9
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          30,
+          31
+        ],
+        "unknownImageHeaderWord": 64
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn88_walk.img",
+      "sourceSha256": "61b3d14604918f25542df585eadbaa5c4310b739e90c25e84c5cfefd682b78ab",
+      "byteLength": 136492,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          36,
+          9
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          30,
+          31
+        ],
+        "unknownImageHeaderWord": 64
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "云玉举重冠",
+  "appearanceChoice": "new original Daoist Q inventory design; source team/character/commemoration appearance not copied, source role and attributes preserved"
+}

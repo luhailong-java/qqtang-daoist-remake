@@ -1,0 +1,161 @@
+{
+  "itemId": 1369,
+  "category": "thadorn",
+  "sourceName": "周冠军头冠",
+  "sourceDescription": "公开赛周冠军奖励道具，非卖。",
+  "file": "assets/items/head-adornments/icons/1369-weekly-champion-cloud-crown.png",
+  "sha256": "8c16f11363c9f1a2dd050830cefa72e662ca80ba6b9729921b008901f63b80f4",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-c-v1.png",
+    "sha256": "e24c8cb34e797848aad15eb43cba59ebcfba3d35bc61376b44e4d7b5f1d3b239",
+    "generationRecord": "assets/items/head-adornments/head-adornments-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      510,
+      1536,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      18,
+      4,
+      488,
+      446
+    ],
+    "sourceContentRect": [
+      1042,
+      514,
+      1512,
+      956
+    ],
+    "uniformScale": 0.4765957446808511,
+    "placementPx": [
+      16,
+      22
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-1369-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "48c79e4ec7ceee3a1892ac337ab9f346d1fa639d3280d3a1be8cde78ea6f07d7",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-1369-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn58_stand.img",
+      "sourceSha256": "b9e6f15c376bb559d7fa927cae1ba8c8f083de8f723bcc79b453879fbd2bcf30",
+      "byteLength": 184936,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          17,
+          0
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          66,
+          38
+        ],
+        "unknownImageHeaderWord": 136
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn58_walk.img",
+      "sourceSha256": "b9e6f15c376bb559d7fa927cae1ba8c8f083de8f723bcc79b453879fbd2bcf30",
+      "byteLength": 184936,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          17,
+          0
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          66,
+          38
+        ],
+        "unknownImageHeaderWord": 136
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "周冠军云冠",
+  "appearanceChoice": "new Daoist Q inventory appearance; source function retained, source literal TOP/title presentation replaced by numbered crown for weekly award icons"
+}
