@@ -6,8 +6,11 @@ const cache=new Map(),images=new Map();let requestVersion=0,entries=[],clips=[],
 const paths={items:'assets/items/art.json',battlefield:'assets/items/battlefield/art.json',skills:'assets/items/skills/art.json',food:'assets/items/food/art.json',forge:'assets/items/forge/art.json',petcards:'assets/items/petcards/art.json',transformations:'assets/characters/motion-generated/transformations/manifest.json',roster:'assets/characters/motion-generated/roster-skin-mapping-20261028.json',characters:'assets/characters/motion-generated/source-candidates-20261028.manifest.json',creatures:'assets/maps/exploration/creatures/art.json'};
 Object.assign(paths,{cards:'assets/items/cards-currency/art.json',platform:'assets/items/platform/art.json',nameplates:'assets/items/namecard-borders/art.json',shortNameplates:'assets/items/namecard-borders/walk/art.json',nameplateIcons:'assets/items/namecard-borders/inventory/art.json'});
 Object.assign(paths,{headAdornments:'assets/items/head-adornments/art.json'});
+Object.assign(paths,{surroundings:'assets/items/surroundings/art.json'});
 Object.assign(paths,{portraits:'assets/characters/portraits-candidates/manifest.json',uiExtra:'assets/ui/semantic-extra/manifest.json'});
 const uiNames={friends:'好友','add-friend':'添加好友','remove-friend':'删除好友','private-chat':'私聊',guild:'仙盟',task:'任务',backpack:'背包',warehouse:'仓库',forge:'锻造',compose:'合成','save-replay':'保存回放','cancel-replay':'取消回放','pet-card':'仙灵卡',fullscreen:'全屏',mute:'静音',reconnect:'重连'};
+const requestedKind=new URLSearchParams(location.search).get('kind');
+if([...kind.options].some(option=>option.value===requestedKind))kind.value=requestedKind;
 const safeAssetPath=file=>typeof file==='string'&&file.startsWith('assets/')&&!file.includes('..')&&!file.includes('\\')&&!/[?#:\u0000-\u001f]/.test(file);
 function element(tag,text,className){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(className)e.className=className;return e;}
 async function readJson(file){if(!cache.has(file))cache.set(file,fetch(file,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`${file}：${r.status}`);return r.json();}).catch(e=>{cache.delete(file);throw e;}));return cache.get(file);}

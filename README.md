@@ -2,6 +2,8 @@
 
 正式游戏名采用 **《灵葫大作战》**，口号“灵葫聚友 · 泡泡争锋”。“灵葫”承接原创道家Q版角色与法器，“大作战”体现泡泡、走位、道具和多人竞技；命名记录见 [GAME_IDENTITY_20261028.md](docs/GAME_IDENTITY_20261028.md)。现有工程目录和GitHub仓库地址沿用，历史QQ堂研究、原始数据名与来源记录保持可追溯。
 
+命名和新字标已保存至独立公开开发分支`codex/linghu-brand-20261028`，该固定小批71项远端测试及语法/基线构建通过，范围见 [BRAND_PUBLICATION_20261028.md](docs/BRAND_PUBLICATION_20261028.md)。其余新美术仍在本地生产，不能把此分支当作全部美术已上传。当前库存候选见 [护罩与仙驾](assets/items/surroundings/README.md)，角色新整腿/整臂仅静态候选与六相位缺件分析，完整动作未完成。
+
 公开仓库：[luhailong-java/qqtang-daoist-remake](https://github.com/luhailong-java/qqtang-daoist-remake)。当前为开发中的完整工程与美术制作资料，尚未达到完整游戏全部美术完成及终验标准。
 
 目标是承接腾讯《QQ堂》的玩法、规则、操作、流程及逐张地图几何，UI和人物改用我们自己的原创道家Q版设计。最新合同为 [USER_REQUIREMENTS_LOCK_20261026.md](docs/USER_REQUIREMENTS_LOCK_20261026.md)：原版地图尺寸、行列、格子、建筑占位、道路、障碍、出生点、碰撞和角色相对尺度不能自行更改。

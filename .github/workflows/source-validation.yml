@@ -46,5 +46,8 @@ jobs:
           python tests/legacy-ui-constants.test.py
       - name: Python source syntax
         run: python -m compileall -q scripts tests references/qqtang-map-data/motion-contract/inspect-packed-metadata.py
+      - name: Selected inventory PNG specifications
+        if: ${{ hashFiles('assets/items/surroundings/art.json') != '' }}
+        run: python scripts/verify-inventory-candidates.py --manifest assets/items/surroundings/art.json --catalog references/qqtang-item-data/catalog.json --category ear --expected 62
       - name: Package with baseline published assets
         run: npm run build

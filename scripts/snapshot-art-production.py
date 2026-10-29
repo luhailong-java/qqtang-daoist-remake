@@ -28,7 +28,7 @@ for name in family_names:
 items=json.loads((root/'assets/items/art.json').read_text(encoding='utf-8'))['items']
 catalog=json.loads((root/'references/qqtang-item-data/catalog.json').read_text(encoding='utf-8'))
 item_candidates={};painted_item_ids={i['itemId']for i in items if(root/i['file']).is_file()}
-for category in ['skills','food','forge','petcards','cards-currency','platform','head-adornments','namecard-borders','namecard-borders/inventory','namecard-borders/walk']:
+for category in ['skills','food','forge','petcards','cards-currency','platform','head-adornments','surroundings','namecard-borders','namecard-borders/inventory','namecard-borders/walk']:
     path=root/f'assets/items/{category}/art.json'
     if path.exists():
         entries=json.loads(path.read_text(encoding='utf-8')).get('items',[])
