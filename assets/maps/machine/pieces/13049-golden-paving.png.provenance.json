@@ -1,0 +1,98 @@
+{
+  "elementId": 13049,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/machine/pieces/13049-golden-paving.png",
+  "sha256": "b5b14894cf62ebf961654dbb828c0d748e2e8c132508fbb14518c69a172a13e3",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/machine/props-j-v1.png",
+    "sha256": "3adc0b1b3806c08ff413f63b234749fe2e30a37bdda67884ab763586a1d926cf",
+    "generationRecord": "assets/maps/machine/props-j-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-opaque-square-texture-uniform-resize",
+    "sourceRectLTRB": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "uniformScale": 0.3125,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied",
+    "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used",
+    "originalCropAlphaExtrema": [
+      255,
+      255
+    ],
+    "referenceAlphaExtrema": [
+      255,
+      255
+    ]
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.0,
+  "geometryAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-id-lookup-and-render-anchor-unverified",
+    "original-map-geometry-and-in-game-validation-pending"
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13049-cf3150478690.png",
+    "sha256": "142b26415708a843ca05c24199ad7cf2097152b2a8c4f4fa74b60f5288c6dcdc",
+    "representativeElementId": 13049,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "accepted": false,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0,
+    "relativeAspectDeviation": 0.0,
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

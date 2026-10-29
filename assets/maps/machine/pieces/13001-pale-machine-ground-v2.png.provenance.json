@@ -1,0 +1,98 @@
+{
+  "elementId": 13001,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/machine/pieces/13001-pale-machine-ground-v2.png",
+  "sha256": "30ec27e4d6c52b8edfc82aa21bb90eac0e99c9635f38fd340f6f87e1fe4f23b8",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/machine/props-j-v1.png",
+    "sha256": "3adc0b1b3806c08ff413f63b234749fe2e30a37bdda67884ab763586a1d926cf",
+    "generationRecord": "assets/maps/machine/props-j-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-opaque-square-texture-uniform-resize",
+    "sourceRectLTRB": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "uniformScale": 0.3125,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied",
+    "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used",
+    "originalCropAlphaExtrema": [
+      255,
+      255
+    ],
+    "referenceAlphaExtrema": [
+      255,
+      255
+    ]
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.0,
+  "geometryAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-id-lookup-and-render-anchor-unverified",
+    "original-map-geometry-and-in-game-validation-pending"
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13001-48b37b43b2f1.png",
+    "sha256": "7411a98abbbb11f496af29e905ea497e95b8a6b2342f2cfa45dd8f710f0ca52f",
+    "representativeElementId": 13001,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "accepted": false,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0,
+    "relativeAspectDeviation": 0.0,
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}
