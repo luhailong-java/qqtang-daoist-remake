@@ -1,0 +1,82 @@
+{
+  "itemId": 42,
+  "sourceFrameIndex": 1,
+  "directionIndex": 0,
+  "directionSemantic": null,
+  "file": "assets/items/head-adornments/world/42/frame-001-42-54-a-v1.png",
+  "sha256": "622023368782d67d5659c085100af73ba7d8233e9062e5147ea1b3b6df593220",
+  "width": 128,
+  "height": 104,
+  "logicalFrameSize": [
+    32,
+    26
+  ],
+  "exportDensity": 4,
+  "frameOffsetRaw": [
+    32,
+    4
+  ],
+  "frameOffsetPxAtDensity4": [
+    128,
+    16
+  ],
+  "sourceReference": {
+    "file": "assets/items/head-adornments/references/world/42/frame-001.png",
+    "sha256": "e419fe94bdca372bb5c9f85c8054c236f73f0ea9acf6cf6eaa6957e69d640532",
+    "record": "assets/items/head-adornments/references/world/42/frame-001.png.source.json"
+  },
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/world/world-42-54-a-v1.png",
+    "sha256": "19b3e94804e422e6b1c5a1904e77198f49a6a5adf2df44a7bf27afb73a19b500",
+    "generationRecord": "assets/items/head-adornments/world/world-42-54-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-original-world-alpha-envelope",
+    "newModelGeneration": false,
+    "sourceCellRectLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "generatedContentBBoxAt16": [
+      69,
+      136,
+      442,
+      435
+    ],
+    "sourceLogicalAlphaBBoxAt16": [
+      0,
+      0,
+      32,
+      26
+    ],
+    "uniformScale": 0.34316353887399464,
+    "placementPx": [
+      0,
+      1
+    ],
+    "resampler": "premultiplied-alpha LANCZOS",
+    "registration": "source alpha envelope centred X and bottom aligned Y; raw frame offset untouched"
+  },
+  "frameDurationMs": null,
+  "loop": null,
+  "geometryAccepted": false,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false,
+  "qa": {
+    "sourceVisibleAspect": 1.2307692307692308,
+    "generatedVisibleAspect": 1.2474916387959867,
+    "relativeAspectDeviation": 0.013586956521739024
+  },
+  "warnings": [
+    "native head-layer origin, sign and actor attachment unverified",
+    "source timing not supplied; do not invent frame duration",
+    "per-frame source phase, silhouette and alpha edges await review"
+  ],
+  "positionWithinRawEnvelope": [
+    4,
+    0
+  ]
+}
