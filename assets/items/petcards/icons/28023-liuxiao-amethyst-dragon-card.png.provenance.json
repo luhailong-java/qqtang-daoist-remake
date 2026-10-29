@@ -1,0 +1,71 @@
+{
+  "itemId": 28023,
+  "category": "petcard",
+  "sourceName": "紫光龙",
+  "sourceDescription": "精灵龙族兵种之一，流光龙进化而成。具有天赋：声望之光7%，积分之光7%，勇气之光7%。",
+  "file": "assets/items/petcards/icons/28023-liuxiao-amethyst-dragon-card.png",
+  "sha256": "e8867f4a65cb8d8f85aba32b20dd2addcd25706ac4f0226016835df3a4edfcd6",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-d-v1.png",
+    "sha256": "5c0f5d8f04d4bf989fde2fb0071f26365848f010b0b4719c9c79669fba5c6e42",
+    "generationRecord": "assets/items/petcards/petcards-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      490,
+      1024,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      14,
+      9,
+      506,
+      482
+    ],
+    "sourceContentRect": [
+      526,
+      499,
+      1018,
+      972
+    ],
+    "uniformScale": 0.45528455284552843,
+    "placementPx": [
+      16,
+      20
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28023.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "e1c287fca8c26c2678a3b37f9564178293c89c2798840ba61cdac616d6e5c632",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28023.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "紫辉流霄龙",
+  "projectIdentity": "流霄龙",
+  "appearanceChoice": "new own Daoist Q pet appearance; original Tencent face omitted",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

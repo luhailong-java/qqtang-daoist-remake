@@ -1,0 +1,77 @@
+{
+  "file": "assets/items/namecard-borders/namecard-walk-a-v1.png",
+  "sha256": "bc76ed51b89770b0d65e580d75e2b3e8e6428bae1f576886e1bc2290713514f5",
+  "generatedAt": "2026-10-28T21:09:55.168Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\references\\qqtang-item-data\\namecard-walk-structure.png",
+      "D:\\work\\qqtang-ui\\assets\\items\\namecard-borders\\namecard-borders-a-v2.png",
+      "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "docs/namecard-walk-a-v1.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\qqtang-item-data\\namecard-walk-structure.png",
+      "purpose": "structure and functional content reference only",
+      "sha256": "e760c7536c726589f771a1680647d54e030a5816c3e3de0ce0fd0b9e1a1ef362"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\items\\namecard-borders\\namecard-borders-a-v2.png",
+      "purpose": "style reference",
+      "sha256": "4f2b29605913edfd5476b34db12a1262380573b74cbb7e9e87fbf318264c7ea0"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "exec-d3ef1a49-29e3-4d1a-a18e-588bd997f3f0",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

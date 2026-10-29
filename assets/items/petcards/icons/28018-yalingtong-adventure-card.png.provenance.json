@@ -1,0 +1,73 @@
+{
+  "itemId": 28018,
+  "category": "petcard",
+  "sourceName": "小菜娃",
+  "sourceDescription": "貌不惊人的小菜娃，探险宠物NO.1。具有天赋：菜根之力，菜芯之光，菜花之芬。",
+  "file": "assets/items/petcards/icons/28018-yalingtong-adventure-card.png",
+  "sha256": "f9ed70729a97b6040e5ab3a96aecc9b4a05ee4e1a3f68f038ce94a8456fe8c4d",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-c-v1.png",
+    "sha256": "770fa66f3f1574a75ddc260b15dbaa38c24757bc07d9422db85011915d144ff1",
+    "generationRecord": "assets/items/petcards/petcards-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      490,
+      1536,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      21,
+      12,
+      474,
+      485
+    ],
+    "sourceContentRect": [
+      1045,
+      502,
+      1498,
+      975
+    ],
+    "uniformScale": 0.47357293868921774,
+    "placementPx": [
+      20,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28018.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "78999fb26e36d2325e805e6bc07c2ffe0a3656f019a9dd626967cbcc04f5c75c",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28018.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "探险芽铃童",
+  "projectIdentity": "芽铃童",
+  "identityReference": "assets/items/petcards/references/canon/13-yalingtong.png",
+  "appearanceChoice": "explicit original Daoist Q identity, no Tencent pet face retained",
+  "identityReferenceSha256": "6ec3b1d9433c626262a1580bbc5e12939cf1785e1ac38c8a5079b90fde067419",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

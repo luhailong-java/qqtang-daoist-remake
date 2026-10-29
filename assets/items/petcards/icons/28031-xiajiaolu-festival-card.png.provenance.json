@@ -1,0 +1,77 @@
+{
+  "itemId": 28031,
+  "category": "petcard",
+  "sourceName": "圣诞麋鹿",
+  "sourceDescription": "圣诞老人给了它与众不同的能力，让节日的温馨快乐无处不在。具有天赋：积分之光7%，勇气之光7%，材料闪耀7%。",
+  "file": "assets/items/petcards/icons/28031-xiajiaolu-festival-card.png",
+  "sha256": "9b553cf31c196281b3288bda476465452bd0c9234deefb216b28d89fa86b79e0",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-f-v1.png",
+    "sha256": "27d959504939d0862712bc84a359dfaf22651b3aec1b1e9915474c6e03532a63",
+    "generationRecord": "assets/items/petcards/petcards-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      23,
+      6,
+      512,
+      496
+    ],
+    "sourceContentRect": [
+      23,
+      6,
+      512,
+      496
+    ],
+    "uniformScale": 0.45714285714285713,
+    "placementPx": [
+      16,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28031.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "right"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "sourceReferenceSha256": "eca90d58aa0aa06ecdc09285af6daf5917040b6dce0080d2fcdb5a5ed38151df",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28031.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "岁暖霞角鹿",
+  "projectIdentity": "霞角鹿",
+  "identityReference": "assets/items/petcards/references/canon/11-xiajiaolu.png",
+  "appearanceChoice": "new project identity choice, no Tencent face or MMO attribute mapping",
+  "identityReferenceSha256": "a549a64fbf7fc6b472085a605b6861a3e29a3baaf7f7c62febeea9bca2f1ceb6",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

@@ -1,0 +1,73 @@
+{
+  "itemId": 28042,
+  "category": "petcard",
+  "sourceName": "至尊火麒麟",
+  "sourceDescription": "上古神兽之一，能力超凡性格孤傲，只愿效命于他自己挑选的主人。",
+  "file": "assets/items/petcards/icons/28042-cangzhanglin-card.png",
+  "sha256": "988c746622ce549a2ec8253be0ccd27e9c8c5e0d8c6f8580b52e9997cf542e11",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-g-v1.png",
+    "sha256": "455687154bfb38aebdb6b1d7c477df1cd28ea2ab7e27ad4c9a62c21335d5c854",
+    "generationRecord": "assets/items/petcards/petcards-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      490,
+      1536,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      32,
+      15,
+      479,
+      504
+    ],
+    "sourceContentRect": [
+      1056,
+      505,
+      1503,
+      994
+    ],
+    "uniformScale": 0.45807770961145194,
+    "placementPx": [
+      25,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28042.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "ba03a1b6ed5d81c93b9b2333d9b7a982952a3bdc5cd683c8cfa06187a80cc48d",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28042.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "苍嶂麟",
+  "projectIdentity": "苍嶂麟",
+  "identityReference": "assets/items/petcards/references/canon/07-cangzhanglin.png",
+  "appearanceChoice": "explicit own Daoist Q appearance replacing source identity, no historical ID link or MMO attributes",
+  "identityReferenceSha256": "ef31b0af054511642e70d2725138033a9202843dd6d4276cd7b1cff96a41cb30",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

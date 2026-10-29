@@ -1,0 +1,70 @@
+{
+  "itemId": 28003,
+  "category": "petcard",
+  "sourceName": "尊崇的酷比",
+  "sourceDescription": "具有天赋：声望之光5%。",
+  "file": "assets/items/petcards/icons/28003-guideng-prestige-card.png",
+  "sha256": "143faec35d6c24f6b242f413850aa323859064597e9072262518f10ecec46358",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-a-v1.png",
+    "sha256": "1875dcd81ac48e3005c14dd06f4dbc11946271f2ef25233909f23a23ab7846bb",
+    "generationRecord": "assets/items/petcards/petcards-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      43,
+      66,
+      477,
+      477
+    ],
+    "sourceContentRect": [
+      1067,
+      66,
+      1501,
+      477
+    ],
+    "uniformScale": 0.5161290322580645,
+    "placementPx": [
+      16,
+      22
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28003.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "efe145a7c04d687a8ae89bbdc56aa82206cc46bad8700268191795d71854f205",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28003.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "雅望桂灯童",
+  "projectIdentity": "桂灯童",
+  "identityReference": "assets/items/petcards/references/canon/04-guideng.png",
+  "identityReferenceSha256": "5162ad6c61ab228dc7d0be1beefc7c6f9ed940d880b7d23648fae941559df309",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

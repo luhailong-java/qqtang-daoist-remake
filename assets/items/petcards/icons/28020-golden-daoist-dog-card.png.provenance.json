@@ -1,0 +1,71 @@
+{
+  "itemId": 28020,
+  "category": "petcard",
+  "sourceName": "hello dog",
+  "sourceDescription": "具有天赋：勇气之光6%，材料闪耀6%。",
+  "file": "assets/items/petcards/icons/28020-golden-daoist-dog-card.png",
+  "sha256": "d40cff74602f1573534ee07a8b058f7e2d877ca2e60687793cad5337ad553ea8",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-d-v1.png",
+    "sha256": "5c0f5d8f04d4bf989fde2fb0071f26365848f010b0b4719c9c79669fba5c6e42",
+    "generationRecord": "assets/items/petcards/petcards-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      0,
+      1024,
+      490
+    ],
+    "contentBoxWithinCell": [
+      16,
+      36,
+      481,
+      485
+    ],
+    "sourceContentRect": [
+      528,
+      36,
+      993,
+      485
+    ],
+    "uniformScale": 0.4817204301075269,
+    "placementPx": [
+      16,
+      20
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28020.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "8b055c33029d5b097b51f305d3be9bbde224831f416b1c8f885a68df0a207da3",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28020.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "玉铃犬",
+  "projectIdentity": "玉铃犬",
+  "appearanceChoice": "new own Daoist Q pet appearance; original Tencent face omitted",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

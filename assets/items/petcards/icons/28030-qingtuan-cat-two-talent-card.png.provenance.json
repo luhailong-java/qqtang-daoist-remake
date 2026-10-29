@@ -1,0 +1,71 @@
+{
+  "itemId": 28030,
+  "category": "petcard",
+  "sourceName": "咪咪猫",
+  "sourceDescription": "具有天赋：声望之光6%，积分之光6%。",
+  "file": "assets/items/petcards/icons/28030-qingtuan-cat-two-talent-card.png",
+  "sha256": "ff579a27dd26fc47ed2e00ed2fd665131ce604bed5660351e67d0a26dd9c4e67",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-e-v1.png",
+    "sha256": "e148d531004059c46b1a5abc67eb26c1e1804e20d614d29f892549a3624f8719",
+    "generationRecord": "assets/items/petcards/petcards-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      14,
+      14,
+      486,
+      485
+    ],
+    "sourceContentRect": [
+      1038,
+      526,
+      1510,
+      997
+    ],
+    "uniformScale": 0.4745762711864407,
+    "placementPx": [
+      16,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28030.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "40d13940254284f59ccb3b94df317c92ee5dc61e05a4bb0f6e09acc966d2cd7e",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28030.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "灵誉青团猫",
+  "projectIdentity": "青团猫",
+  "appearanceChoice": "new original Daoist Q identity; no matching current canon species, source game face not retained",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

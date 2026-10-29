@@ -1,0 +1,71 @@
+{
+  "itemId": 28032,
+  "category": "petcard",
+  "sourceName": "机甲蝎",
+  "sourceDescription": "威武刚猛的机甲宠物。具有天赋：糖币之光12%，声望之光6%，材料闪耀6%。",
+  "file": "assets/items/petcards/icons/28032-jade-mechanical-scorpion-card.png",
+  "sha256": "baf51907795f0c9722ad719d533165a514ae699f82007d3751fdd57a5d0a64d3",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-f-v1.png",
+    "sha256": "27d959504939d0862712bc84a359dfaf22651b3aec1b1e9915474c6e03532a63",
+    "generationRecord": "assets/items/petcards/petcards-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "contentBoxWithinCell": [
+      17,
+      47,
+      495,
+      496
+    ],
+    "sourceContentRect": [
+      529,
+      47,
+      1007,
+      496
+    ],
+    "uniformScale": 0.4686192468619247,
+    "placementPx": [
+      16,
+      23
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28032.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "359a3ddb7c39ce47fde13d8330642a37cfdd9ed8a0f5b45d3510ddce23656462",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28032.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "玄枢蝎",
+  "projectIdentity": "玄枢蝎",
+  "appearanceChoice": "new project identity choice, no Tencent face or MMO attribute mapping",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

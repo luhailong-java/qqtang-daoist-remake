@@ -1,0 +1,71 @@
+{
+  "itemId": 28040,
+  "category": "petcard",
+  "sourceName": "NO.1神兽",
+  "sourceDescription": "传说中的四大神兽之首。具有天赋：糖币之光12%，材料闪耀6%，亲密闪耀6%。",
+  "file": "assets/items/petcards/icons/28040-cloud-alpaca-card.png",
+  "sha256": "fb2c9f158ea36853ce99a133f0ce3d102a27e158a505c7795ef1c8215f928446",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-g-v1.png",
+    "sha256": "455687154bfb38aebdb6b1d7c477df1cd28ea2ab7e27ad4c9a62c21335d5c854",
+    "generationRecord": "assets/items/petcards/petcards-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      490,
+      512,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      33,
+      16,
+      476,
+      504
+    ],
+    "sourceContentRect": [
+      33,
+      506,
+      476,
+      994
+    ],
+    "uniformScale": 0.45901639344262296,
+    "placementPx": [
+      26,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28040.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "d19f122dfcb84125db17c31ef8077fe5ec59ae9b2f92e5ab60332b7b2e74417b",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28040.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "绒云驼",
+  "projectIdentity": "绒云驼",
+  "appearanceChoice": "explicit own Daoist Q appearance replacing source identity, no historical ID link or MMO attributes",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}
