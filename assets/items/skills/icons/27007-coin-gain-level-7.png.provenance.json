@@ -1,0 +1,65 @@
+{
+  "itemId": 27007,
+  "category": "skill",
+  "sourceName": "糖币加加7级",
+  "sourceDescription": "宠物七级技能之一，增加所获得的糖币6%，同类型技能效果叠加，学习此技能以后不能学习其他七级技能。",
+  "file": "assets/items/skills/icons/27007-coin-gain-level-7.png",
+  "sha256": "006bea8c11f631b61c93bd4ee5a42ab3025dfb60f8e0c3d4b4749ec6a9d7d7aa",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-b-v1.png",
+    "sha256": "48c015a2d807cb498c19dfc6a5764d082bc480edbdd0c92d91814ab5777623fd",
+    "generationRecord": "assets/items/skills/skills-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      100,
+      52,
+      465,
+      480
+    ],
+    "sourceContentRect": [
+      100,
+      52,
+      465,
+      480
+    ],
+    "uniformScale": 0.5233644859813084,
+    "placementPx": [
+      32,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27007.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "31c4e21e83379fed8a3d8591a7a08a6900d793659dfab956c84d8c44889e4107",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27007.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

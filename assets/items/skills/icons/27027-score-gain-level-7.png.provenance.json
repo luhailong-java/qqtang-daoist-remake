@@ -1,0 +1,65 @@
+{
+  "itemId": 27027,
+  "category": "skill",
+  "sourceName": "积分加加7级",
+  "sourceDescription": "宠物七级技能之一，增加所获得的积分3%，同类型技能效果叠加，学习此技能以后不能学习其他七级技能。",
+  "file": "assets/items/skills/icons/27027-score-gain-level-7.png",
+  "sha256": "253e605b70fcda7e842b26c615018350287c2b8990c69afd610ce5a5f8f82647",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-e-v1.png",
+    "sha256": "efad3cacb08b5da5a11d5ff55ca0be4810f7602d8e058d9c093ade40b7f6edd7",
+    "generationRecord": "assets/items/skills/skills-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      68,
+      60,
+      442,
+      488
+    ],
+    "sourceContentRect": [
+      1092,
+      60,
+      1466,
+      488
+    ],
+    "uniformScale": 0.5233644859813084,
+    "placementPx": [
+      30,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27027.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "5e775306f660bce44bc1486a41f58b9e9e877983cf6ee8af84a62ab2a1286c22",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27027.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

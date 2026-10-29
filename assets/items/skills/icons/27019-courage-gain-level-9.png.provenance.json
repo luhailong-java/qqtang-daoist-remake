@@ -1,0 +1,65 @@
+{
+  "itemId": 27019,
+  "category": "skill",
+  "sourceName": "勇气加加9级",
+  "sourceDescription": "宠物九级技能之一，增加所获得的勇气3%，同类型技能效果叠加，学习此技能以后不能学习其他九级技能。",
+  "file": "assets/items/skills/icons/27019-courage-gain-level-9.png",
+  "sha256": "d367b71d1de50b57aefa1746b5c728bfa125efd770925a764523e6ea33bcad56",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-d-v1.png",
+    "sha256": "e950ff4e489034111656cc0c18ace98546aa2b2340b5342b25bddbcfe31aceb5",
+    "generationRecord": "assets/items/skills/skills-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      74,
+      53,
+      477,
+      493
+    ],
+    "sourceContentRect": [
+      74,
+      53,
+      477,
+      493
+    ],
+    "uniformScale": 0.509090909090909,
+    "placementPx": [
+      25,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27019.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "a1e80d56addae93509f575b33735342830182a0697d26602ecd01aa308c4e5bc",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27019.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

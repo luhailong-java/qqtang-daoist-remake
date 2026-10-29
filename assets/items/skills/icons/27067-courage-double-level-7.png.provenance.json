@@ -1,0 +1,65 @@
+{
+  "itemId": 27067,
+  "category": "skill",
+  "sourceName": "勇气多多7级",
+  "sourceDescription": "宠物七级技能之一，有3%的概率使得获得的勇气翻倍，同类型技能效果叠加，学习此技能以后不能学习其他七级技能。",
+  "file": "assets/items/skills/icons/27067-courage-double-level-7.png",
+  "sha256": "aa2f74403480b5b76eb25a00a65cb56078ea6d14dd0ece5a83a9893924924e43",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-l-v1.png",
+    "sha256": "2ffe20dfea3ddd3a05308619f3bfd37d39e8a2ea945e58cfd7a50c937181d510",
+    "generationRecord": "assets/items/skills/skills-l-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      79,
+      55,
+      459,
+      487
+    ],
+    "sourceContentRect": [
+      79,
+      55,
+      459,
+      487
+    ],
+    "uniformScale": 0.5185185185185185,
+    "placementPx": [
+      29,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27067.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "ea40efa6a1fb26cb667d5b58caefa7709e102e5862d14b7c2abce38e2b3f0683",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27067.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

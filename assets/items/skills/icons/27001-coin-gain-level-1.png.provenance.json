@@ -1,0 +1,65 @@
+{
+  "itemId": 27001,
+  "category": "skill",
+  "sourceName": "糖币加加1级",
+  "sourceDescription": "宠物一级技能之一，增加所获得的糖币6%，同类型技能效果叠加，学习此技能以后不能学习其他一级技能。",
+  "file": "assets/items/skills/icons/27001-coin-gain-level-1.png",
+  "sha256": "acce49e3ebffa1854d5884da997a85cd41b4b8a1d124fa94f7a86c768c727a01",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-a-v1.png",
+    "sha256": "d5f4d690d4763b6e8aaee05138bba79888d32489fd6bfa8a81fa498f11db36cd",
+    "generationRecord": "assets/items/skills/skills-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      81,
+      55,
+      455,
+      482
+    ],
+    "sourceContentRect": [
+      81,
+      55,
+      455,
+      482
+    ],
+    "uniformScale": 0.5245901639344263,
+    "placementPx": [
+      30,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27001.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "98b997046bc80045baf0bbe801d824f75f251db5ab9852745a83061deaf88a7f",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27001.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}
