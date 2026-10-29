@@ -1,0 +1,102 @@
+{
+  "elementId": 18024,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/pve/pieces/18024-painted-region-v1.png",
+  "sha256": "6201e2dbb8ad70cded26ed97f2c570ab54811cf5e1c64b3cfaa30a1375c510e6",
+  "width": 1120,
+  "height": 320,
+  "worldFrameWidth": 280,
+  "worldFrameHeight": 80,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    7,
+    2
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/maps/pve/cliff-textures-v1.png",
+      "sha256": "f80d42ae647aaf9d7106ab0b45d06198464f0c6a00106422567885661a62c356",
+      "generationRecord": "assets/maps/pve/cliff-textures-v1.png.generation.json",
+      "purpose": "newly painted texture RGB"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/pve/frames/candidate-18024-655a7851d1ea.png",
+      "sha256": "8ffb8f989d27d1e98842f8fa16e4e8d9c70a22b6d6a7ee4a22ffffb5b32a06cf",
+      "purpose": "source alpha and classified region geometry only; no reference RGB exported"
+    }
+  ],
+  "operation": {
+    "type": "AI-painted-textures-through-reference-region-and-alpha-masks",
+    "newModelGeneration": false,
+    "resampled": true,
+    "textureSourceRects": {
+      "shadow": [
+        570,
+        65,
+        970,
+        465
+      ],
+      "face": [
+        75,
+        65,
+        475,
+        465
+      ],
+      "floor": [
+        75,
+        550,
+        475,
+        950
+      ],
+      "jade": [
+        1055,
+        65,
+        1455,
+        465
+      ]
+    },
+    "textureSourceAlpha": {
+      "shadow": [
+        249,
+        253
+      ],
+      "face": [
+        249,
+        253
+      ],
+      "floor": [
+        249,
+        253
+      ],
+      "jade": [
+        248,
+        253
+      ]
+    },
+    "textureAlphaNormalization": "interior opaque material alpha>=245 normalized to255; measured source ranges retained; original source-mask alpha unchanged",
+    "classifier": "shadow G<90; face90<=G<128; floorG>=128; jadeG>=167,R>=65,B>=150",
+    "logicalRegionSha256": "2026304e8a2c009fcd9b290da475d2ecbe8cd80752d1e3031f2f3d87f317c8bb",
+    "logicalAlphaSha256": "e5b79b9033a1fc43e61ebebb894e6ac7d5b0e7057a1f924fcea8f1dda792208b",
+    "maskResize": "NEARESTx4",
+    "textureResize": "uniform premultiplied-alpha LANCZOS to160px per40logicalpx",
+    "referencePixelColoursReused": false,
+    "mapCellFootprintCollisionChanged": false
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "geometryAccepted": false,
+  "accepted": false,
+  "seamlessVerified": false,
+  "status": "painted-region-composite-awaiting-classification-seam-and-in-game-review",
+  "warnings": [
+    "source-region-classification-not-visually-accepted",
+    "original-alpha-resolution-resampled-not-native-HD-contour",
+    "texture-joins-not-yet-verified"
+  ]
+}

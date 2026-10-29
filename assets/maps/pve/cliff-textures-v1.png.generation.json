@@ -1,0 +1,73 @@
+{
+  "file": "assets/maps/pve/cliff-textures-v1.png",
+  "sha256": "f80d42ae647aaf9d7106ab0b45d06198464f0c6a00106422567885661a62c356",
+  "generatedAt": "2026-10-28T10:58:26.017Z",
+  "timeEvidence": "registration immediately after tool return; UTC",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/families/pve/contact-sheet.png",
+      "D:/work/qqtang-ui/assets/maps/pve/ground-a-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "docs/pve-cliff-textures-v1.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/families/pve/contact-sheet.png",
+      "purpose": "structure and geometry reference only",
+      "sha256": "81c5bb52e2d09b1af33e2dc3fac758da3bb0d55ab292bee2f78e19d8d2d7e62c"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/maps/pve/ground-a-v1.png",
+      "purpose": "style reference",
+      "sha256": "0a251a6e2fccb46dca6fc271407d9ce21c7f20f63f44cdf8b27340dffd8e603f"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a17789-9eaa-7ed3-b597-50d6259dbf2c/exec-8bec6b0d-3645-4f81-a9c4-258b513a8fb2.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

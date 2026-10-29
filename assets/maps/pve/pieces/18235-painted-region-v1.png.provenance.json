@@ -1,0 +1,82 @@
+{
+  "elementId": 18235,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/pve/pieces/18235-painted-region-v1.png",
+  "sha256": "9d5d8cb6b52c3265015b6ccf867861a19dde2db6f21037f193eef7c77d14b060",
+  "width": 200,
+  "height": 196,
+  "worldFrameWidth": 50,
+  "worldFrameHeight": 49,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    9
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/maps/pve/cliff-textures-v1.png",
+      "sha256": "f80d42ae647aaf9d7106ab0b45d06198464f0c6a00106422567885661a62c356",
+      "generationRecord": "assets/maps/pve/cliff-textures-v1.png.generation.json",
+      "purpose": "newly painted texture RGB"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/pve/frames/candidate-18235-a63dc509219e.png",
+      "sha256": "8645c0d4173d3d8afd74b441fe9c09618ba19654f09df9995a93cfe5ef335f17",
+      "purpose": "source alpha and classified region geometry only; no reference RGB exported"
+    }
+  ],
+  "operation": {
+    "type": "AI-painted-textures-through-reference-region-and-alpha-masks",
+    "newModelGeneration": false,
+    "resampled": true,
+    "textureSourceRects": {
+      "water": [
+        570,
+        550,
+        970,
+        950
+      ],
+      "bank": [
+        1055,
+        550,
+        1455,
+        950
+      ]
+    },
+    "textureSourceAlpha": {
+      "water": [
+        248,
+        253
+      ],
+      "bank": [
+        248,
+        253
+      ]
+    },
+    "textureAlphaNormalization": "interior opaque material alpha>=245 normalized to255; measured source ranges retained; original source-mask alpha unchanged",
+    "classifier": "water default; pale shore highlight R>90 and G>140; source alpha retained",
+    "logicalRegionSha256": "30180d1a6f027eb3ea551ee4c2c030e324456f5f60100b64c8d5b21424f6c4e3",
+    "logicalAlphaSha256": "40e008124a400e22936448fb132a09516f5054c5114eea97310266d9c9e25d9b",
+    "maskResize": "NEARESTx4",
+    "textureResize": "uniform premultiplied-alpha LANCZOS to160px per40logicalpx",
+    "referencePixelColoursReused": false,
+    "mapCellFootprintCollisionChanged": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "accepted": false,
+  "seamlessVerified": false,
+  "status": "painted-region-composite-awaiting-classification-seam-and-in-game-review",
+  "warnings": [
+    "source-region-classification-not-visually-accepted",
+    "original-alpha-resolution-resampled-not-native-HD-contour",
+    "texture-joins-not-yet-verified"
+  ]
+}
