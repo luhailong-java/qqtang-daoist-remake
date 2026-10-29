@@ -1,0 +1,77 @@
+{
+  "file": "assets/maps/tank/binary/props-d-v1.png",
+  "sha256": "8de177570e3aef4f13efae89c4ad11c8aee75fc7f1eac3964a15ce6714a8ef47",
+  "generatedAt": "2026-10-28T20:55:51.009Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\assets\\maps\\tank\\binary\\references\\structure-d.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/maps/tank/binary/props-c-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets\\maps\\tank\\binary\\prompts\\batch-d.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\maps\\tank\\binary\\references\\structure-d.png",
+      "purpose": "exact decoded source-frame structure and geometry reference only; no runtime source pixels",
+      "sha256": "548952274725d1f5f98c2c9217cd1aa1bb6943691754734797cc16298e893b73"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/maps/tank/binary/props-c-v1.png",
+      "purpose": "previous original-painted world finish reference",
+      "sha256": "5b45785a92f2bff71ba4ba191b9ead02395d00b0f2b832849036ed8ce09f032c"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-80867604-d4da-4310-b9c9-919ee8d7f2db.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

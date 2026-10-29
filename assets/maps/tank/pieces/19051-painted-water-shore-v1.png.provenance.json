@@ -1,0 +1,258 @@
+{
+  "elementId": 19051,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/tank/pieces/19051-painted-water-shore-v1.png",
+  "sha256": "1cd0b4af6e128756a4d79ddb73b45ebfd94612a5922d2b6d4ff3ccf25af9cccb",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-19051.png",
+    "sha256": "ba389ecfa262595700f9d8aebc85560fe5b9f39fe9ac7a6dd54535667b323a1b"
+  },
+  "canHide": null,
+  "canDoSpecial": null,
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 19051,
+      "recordOffset": 1576,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        0,
+        0
+      ],
+      "lifeTimeRaw": -1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        0
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "derivedFrom": [
+    {
+      "material": "water",
+      "file": "assets/maps/tank/binary/props-e-v1.png",
+      "sha256": "1f21141679cbb057d7ce324a3b46bfebb2b1be889434236b981d634a33b19711",
+      "generationRecord": "assets/maps/tank/binary/props-e-v1.png.generation.json",
+      "sourceRectLTRB": [
+        10,
+        10,
+        877,
+        877
+      ],
+      "nativeCropSize": [
+        867,
+        867
+      ],
+      "sourceAlphaExtrema": [
+        255,
+        255
+      ],
+      "alphaNormalization": null,
+      "uniformScale": 0.1845444059976932,
+      "resampler": "LANCZOS",
+      "purpose": "new original-painted RGB texture only"
+    },
+    {
+      "material": "earth",
+      "file": "assets/maps/tank/binary/props-e-v1.png",
+      "sha256": "1f21141679cbb057d7ce324a3b46bfebb2b1be889434236b981d634a33b19711",
+      "generationRecord": "assets/maps/tank/binary/props-e-v1.png.generation.json",
+      "sourceRectLTRB": [
+        897,
+        10,
+        1764,
+        877
+      ],
+      "nativeCropSize": [
+        867,
+        867
+      ],
+      "sourceAlphaExtrema": [
+        255,
+        255
+      ],
+      "alphaNormalization": null,
+      "uniformScale": 0.1845444059976932,
+      "resampler": "LANCZOS",
+      "purpose": "new original-painted RGB texture only"
+    },
+    {
+      "material": "grass",
+      "file": "assets/maps/tank/binary/props-d-v1.png",
+      "sha256": "8de177570e3aef4f13efae89c4ad11c8aee75fc7f1eac3964a15ce6714a8ef47",
+      "generationRecord": "assets/maps/tank/binary/props-d-v1.png.generation.json",
+      "sourceRectLTRB": [
+        10,
+        10,
+        877,
+        877
+      ],
+      "nativeCropSize": [
+        867,
+        867
+      ],
+      "sourceAlphaExtrema": [
+        255,
+        255
+      ],
+      "alphaNormalization": null,
+      "uniformScale": 0.1845444059976932,
+      "resampler": "LANCZOS",
+      "purpose": "new original-painted RGB texture only"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-19051.png",
+      "sha256": "ba389ecfa262595700f9d8aebc85560fe5b9f39fe9ac7a6dd54535667b323a1b",
+      "purpose": "material-region geometry and alpha only; original RGB never copied"
+    }
+  ],
+  "operation": {
+    "type": "source-region-mask-new-texture-image-assembly",
+    "newModelGeneration": false,
+    "resampled": true,
+    "sourcePixelColoursReused": false,
+    "materialSources": [
+      {
+        "material": "water",
+        "file": "assets/maps/tank/binary/props-e-v1.png",
+        "sha256": "1f21141679cbb057d7ce324a3b46bfebb2b1be889434236b981d634a33b19711",
+        "generationRecord": "assets/maps/tank/binary/props-e-v1.png.generation.json",
+        "sourceRectLTRB": [
+          10,
+          10,
+          877,
+          877
+        ],
+        "nativeCropSize": [
+          867,
+          867
+        ],
+        "sourceAlphaExtrema": [
+          255,
+          255
+        ],
+        "alphaNormalization": null,
+        "uniformScale": 0.1845444059976932,
+        "resampler": "LANCZOS",
+        "purpose": "new original-painted RGB texture only"
+      },
+      {
+        "material": "earth",
+        "file": "assets/maps/tank/binary/props-e-v1.png",
+        "sha256": "1f21141679cbb057d7ce324a3b46bfebb2b1be889434236b981d634a33b19711",
+        "generationRecord": "assets/maps/tank/binary/props-e-v1.png.generation.json",
+        "sourceRectLTRB": [
+          897,
+          10,
+          1764,
+          877
+        ],
+        "nativeCropSize": [
+          867,
+          867
+        ],
+        "sourceAlphaExtrema": [
+          255,
+          255
+        ],
+        "alphaNormalization": null,
+        "uniformScale": 0.1845444059976932,
+        "resampler": "LANCZOS",
+        "purpose": "new original-painted RGB texture only"
+      },
+      {
+        "material": "grass",
+        "file": "assets/maps/tank/binary/props-d-v1.png",
+        "sha256": "8de177570e3aef4f13efae89c4ad11c8aee75fc7f1eac3964a15ce6714a8ef47",
+        "generationRecord": "assets/maps/tank/binary/props-d-v1.png.generation.json",
+        "sourceRectLTRB": [
+          10,
+          10,
+          877,
+          877
+        ],
+        "nativeCropSize": [
+          867,
+          867
+        ],
+        "sourceAlphaExtrema": [
+          255,
+          255
+        ],
+        "alphaNormalization": null,
+        "uniformScale": 0.1845444059976932,
+        "resampler": "LANCZOS",
+        "purpose": "new original-painted RGB texture only"
+      }
+    ],
+    "sourceLogicalMaskSize": [
+      40,
+      40
+    ],
+    "sourceMaskResampler": "NEAREST4x",
+    "maskClassifier": "water B>R and B>=G; grass G>R and G>B; earth complement",
+    "logicalMaskSha256": "8dee515ea6cef58f523124e3b6c3e57d575ec9a0a4382f84e1e6902d33f08965",
+    "regionPixels": {
+      "water": 1177,
+      "grass": 203,
+      "earth": 220
+    },
+    "sourceAlphaExtrema": [
+      255,
+      255
+    ]
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "terrainOpaqueCanvasVerified": true,
+  "geometryAccepted": false,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-terrain-composite-awaiting-region-edge-and-runtime-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "source stepped region boundaries preserved, no artistic smoothing",
+    "water-caustic and ground texture joins await validation",
+    "soil master warm ochre tone versus source brown requires visual review"
+  ]
+}

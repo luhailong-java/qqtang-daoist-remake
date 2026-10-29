@@ -1,0 +1,109 @@
+{
+  "elementId": 19042,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/tank/pieces/19042-lilac-grey-stone-block.png",
+  "sha256": "2c96a7af4f35b871e8b9f32527d649a934a71942e991ca2b7c9796e2ae80f651",
+  "width": 168,
+  "height": 208,
+  "worldFrameWidth": 42,
+  "worldFrameHeight": 52,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    1,
+    11
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/tank/binary/props-c-v1.png",
+    "sha256": "5b45785a92f2bff71ba4ba191b9ead02395d00b0f2b832849036ed8ce09f032c",
+    "generationRecord": "assets/maps/tank/binary/props-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      94,
+      44,
+      436,
+      480
+    ],
+    "uniformScale": 0.47706422018348627,
+    "placementPx": [
+      2,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.028833551769331667,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "internal-silhouette-and-original-map-render-unverified"
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 19042,
+      "recordOffset": 1436,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        1,
+        11
+      ],
+      "lifeTimeRaw": 1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        0
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "accepted": false,
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-19042.png",
+    "sha256": "bb9561d20354e73e303e3d0fb81e58cbac1c5937387ae6394ee4c29b19e220af"
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffsetRaw": [
+    1,
+    11
+  ],
+  "sourceFrameOffsetRaw": [
+    4,
+    9
+  ],
+  "canHide": null,
+  "canDoSpecial": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8076923076923077,
+    "generatedVisibleAspect": 0.7821100917431193,
+    "relativeAspectDeviation": 0.03167321974661419,
+    "warnings": [
+      "source-image-id-and-client-anchor-unverified",
+      "internal-silhouette-and-original-map-render-unverified"
+    ]
+  }
+}
