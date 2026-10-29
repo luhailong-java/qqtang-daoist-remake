@@ -45,6 +45,13 @@ for group in ['bubbles','flames','states']:
     manifest=json.loads((root/f'assets/effects/{group}/manifest.json').read_text(encoding='utf-8'))
     effect_clips+=manifest.get('resources',manifest.get('clips',[]))
 effect_frames=[f for clip in effect_clips for f in clip['frames']]
+portraits=json.loads((root/'assets/characters/portraits-candidates/manifest.json').read_text(encoding='utf-8'))
+semantic=json.loads((root/'assets/ui/semantic-extra/manifest.json').read_text(encoding='utf-8'))
+head_world=json.loads((root/'assets/items/head-adornments/world-art.json').read_text(encoding='utf-8'))
+head_frames=[f for item in head_world['items'] for f in item['frames']]
+pickup=json.loads((root/'assets/items/battlefield/animation/manifest.json').read_text(encoding='utf-8'))
+pickup_frames=[f for clip in pickup['resources'] for f in clip['frames']]
+map_sequences=json.loads((root/'assets/maps/animation-candidates-index.json').read_text(encoding='utf-8'))
 record={'schemaVersion':1,'capturedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),
     'scope':'current lightweight production snapshot; not a replacement for verified production-index or runtime manifests',
     'sourceIdentity':'community-patched-client; Tencent target historical version unverified',
@@ -60,6 +67,20 @@ record={'schemaVersion':1,'capturedAt':datetime.datetime.now(datetime.timezone.u
     'itemRepresentationCountCaution':'Inventory icon and nameplate bitmap may represent the same item ID; group counts are not additive.',
     'accountRoleStaticIdentityCandidates':sum((root/s['appearance']['master']).is_file()for s in roster['slots']),
     'temporaryTransformationStaticCandidates':sum((root/s['ownIdentity']['master']).is_file()for s in transforms['entries']),
+    'derivedRolePortraitCandidates':sum((root/e['file']).is_file()for e in portraits['entries']),
+    'additionalDerivedSemanticUIIcons':sum((root/e['file']).is_file()for e in semantic['entries']),
+    'headAdornmentWorldItemCandidates':len(head_world['items']),
+    'headAdornmentWorldFullyRecordedResources':sum(len(i['frames'])==i['sourceFrameCount']for i in head_world['items']),
+    'headAdornmentWorldPartiallyRecordedResources':sum(len(i['frames'])!=i['sourceFrameCount']for i in head_world['items']),
+    'headAdornmentWorldDeclaredFramePositionsForStartedResources':sum(i['sourceFrameCount']for i in head_world['items']),
+    'headAdornmentWorldSourceFramePositions':len(head_frames),
+    'headAdornmentWorldUniqueReferencedPngFiles':len({f['file']for f in head_frames if(root/f['file']).is_file()}),
+    'battlefieldAnimationResources':len(pickup['resources']),
+    'battlefieldAnimationSourceFramePositions':len(pickup_frames),
+    'battlefieldAnimationUniqueReferencedPngFiles':len({f['file']for f in pickup_frames if f.get('file')and(root/f['file']).is_file()}),
+    'mapAnimationCandidateSequenceCount':map_sequences['sequenceCount'],
+    'mapAnimationSourceFramePositionsRecorded':map_sequences['sourceFramePositionsRecorded'],
+    'newRepresentationAcceptedCount':0,
     'battlefieldSceneMasterCandidates':len({p['sceneId']for p in battlefield['pieces']if(root/p['file']).is_file()}),
     'effectResourceCandidates':len(effect_clips),'effectSourceFrameEntries':len(effect_frames),
     'effectEmptySourceFrameEntries':sum(bool(f.get('empty'))for f in effect_frames),

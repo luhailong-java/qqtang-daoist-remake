@@ -1,4 +1,6 @@
-# QQ堂·道家Q版重制
+# 灵葫大作战
+
+正式游戏名采用 **《灵葫大作战》**，口号“灵葫聚友 · 泡泡争锋”。“灵葫”承接原创道家Q版角色与法器，“大作战”体现泡泡、走位、道具和多人竞技；命名记录见 [GAME_IDENTITY_20261028.md](docs/GAME_IDENTITY_20261028.md)。现有工程目录和GitHub仓库地址沿用，历史QQ堂研究、原始数据名与来源记录保持可追溯。
 
 公开仓库：[luhailong-java/qqtang-daoist-remake](https://github.com/luhailong-java/qqtang-daoist-remake)。当前为开发中的完整工程与美术制作资料，尚未达到完整游戏全部美术完成及终验标准。
 
@@ -30,7 +32,11 @@ node scripts/serve.mjs
 
 人物采用image现有的金发带Q道童、月影少女、山岳守卫、莲花医者，显示名为道童、月影、山岳、莲花。四张身份原图保留，运行时使用可追溯的1024像素等比导出，解码内存由256MiB降为16MiB。山岳、莲花已有候选方向跑步／受击帧接入；道童、月影的新动作仍在逐方向制作。缺失动作使用明确的静态回退。外观与玩法属性分开，不因外观新增技能或改变碰撞；全部动作、脚底和地图相对尺度仍需终验。见 [OWN_CHARACTER_ADOPTION.md](docs/OWN_CHARACTER_ADOPTION.md)、[CHARACTER_MOTION_ADOPTION.md](docs/CHARACTER_MOTION_ADOPTION.md)。
 
-地图生产账为 [assets/maps/production-index.json](assets/maps/production-index.json)，区分源参考、原创候选、待制作和验收状态。中国城01的17类候选已覆盖其339个场景对象；画布使用600×520逻辑尺寸、1200×1040物理像素，绘制密度不改变地图坐标。地图美术按当前地图按需解码。见 [SOURCE_MAP_ART_RENDERING.md](docs/SOURCE_MAP_ART_RENDERING.md)。UI已有窗框、按钮、16个语义图标及16种控件素材接入CSS；切片和状态不等于全部页面已验收。
+地图已核验生产账为 [assets/maps/production-index.json](assets/maps/production-index.json)，区分源参考、原创候选、待制作和验收状态。2026-10-28新增在制稿的轻量快照另见 [ART_PRODUCTION_STATUS_20261028.json](docs/ART_PRODUCTION_STATUS_20261028.json)，在全量核验恢复前不冒充已验证运行清单。中国城01的17类候选已覆盖其339个场景对象；画布使用600×520逻辑尺寸、1200×1040物理像素，绘制密度不改变地图坐标。地图美术按当前地图按需解码。见 [SOURCE_MAP_ART_RENDERING.md](docs/SOURCE_MAP_ART_RENDERING.md)。UI已有窗框、按钮、16个语义图标及16种控件素材接入CSS；切片和状态不等于全部页面已验收。
+
+二进制地图属性表另找到52项，合计773项；旧721项共享字段逐项零差异，先前27个未知编号的核心定义均找到。773项均已有首轮候选，比例／接缝／透明／锚点与运行验收继续，accepted仍为0；未直接覆盖旧运行数据，两项非序列化字段保持未知。见 [二进制补充证据](docs/BINARY_MAP_PROPERTY_SUPPLEMENT_20261028.md)。
+
+物品来源目录现有2,945条记录；其中32个消耗道具、80个技能书已有首轮自有风格图标，见 [assets/items/README.md](assets/items/README.md)及`assets/items/skills/`。20个源角色槽位已有20个自有静态身份映射，运行层仍为四位；角色动作、变身、怪物、特效、其余装扮与完整UI继续制作。当前按人类授权暂停本机重型验收，远端生图继续；状态见 [LOCAL_RESOURCE_WINDOW_20261028.md](docs/LOCAL_RESOURCE_WINDOW_20261028.md)。
 
 四人物、六模式技术分支和已有流程不等于原版全角色、全模式、全部地图／关卡或机制精确一致。旧“道趣泡泡”单人稿、v0.2原版四角色重绘和自定义地图试稿均不能作为最新要求已完成的证据。
 
@@ -63,4 +69,4 @@ image的历史GitHub／素材来源为 [luhailong-cpp/image](https://github.com/
 
 image要求的 `qdao_ui_redesign_v5/UI_SPEC.md` 当前缺失，未从旧Git恢复；已读现存根规则、邮件与组队专项说明。每次新生图前重读适用规则和配置，透明处理、裁显、缩放与模型生成分别记录。
 
-`node --test tests/*.test.mjs` 执行规则、联网、源文件解析、源地图运行接口、地图美术和来源清单检查。测试仅确认其断言范围，不能替代原版认证和实机终验。本轮浏览器入口返回`Local browser use is disabled in Work settings`，素材生产和静态检查继续。最新测试结果见 [VALIDATION.md](docs/VALIDATION.md)，完整美术缺口见制作账。历史v0.2截图和压缩包不代表当前版本。
+`node --test tests/*.test.mjs` 执行规则、联网、源文件解析、源地图运行接口、地图美术和来源清单检查。测试仅确认其断言范围，不能替代原版认证和实机终验。2026-10-28已实际打开当前登录页，旧浏览器禁用已解除；此后本机重型验收按人类授权暂停，尚未取得时段交还。最新测试结果见 [VALIDATION.md](docs/VALIDATION.md)，完整美术缺口见制作账。历史v0.2截图和压缩包不代表当前版本。
