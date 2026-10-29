@@ -1,0 +1,2937 @@
+{
+  "module": "uiTemplate",
+  "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+  "sourceBytes": 12924,
+  "sourceSha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+  "operation": "independent bounded data-only constant-tree parsing and static literal-store recognition; no bytecode execution/import/CodeType",
+  "magicHex": "3bf20d0a",
+  "formatCompatibility": "CPython62011 magic/2.3-family grammar; exact vendor interpreter build unknown",
+  "grammarSources": [
+    {
+      "url": "https://github.com/python/cpython/blob/v2.3.7/Python/import.c",
+      "gitBlob": "3ca10beabaf74320f5e9ff340a880413802a787a"
+    },
+    {
+      "url": "https://github.com/python/cpython/blob/v2.3.7/Python/marshal.c",
+      "gitBlob": "5aaa3821b42cf7a01f737bdc47d47ee87f2c6393"
+    },
+    {
+      "url": "https://github.com/python/cpython/blob/v2.3.7/Lib/opcode.py",
+      "gitBlob": "cfde5f803bf7c14472e6f15cf391a8c8ec2ac7b7"
+    }
+  ],
+  "parsedObjects": 753,
+  "completeByteConsumption": true,
+  "scopes": [
+    {
+      "scope": "?",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 1,
+      "bytecodeLength": 640,
+      "bytecodeSha256": "a28e916a48eb7b561be27d4f055e72e45715bf4ed26562c113c0fff909d19a68",
+      "bytecodeExecuted": false,
+      "names": [
+        "Static",
+        "TWidget",
+        "TStatic",
+        "TCheck",
+        "TStdCheck",
+        "TDlg",
+        "TEdit",
+        "TStaticEdit",
+        "TEditBox",
+        "TEditPoint",
+        "TEditNum",
+        "TEditCharNum",
+        "TEditPassword",
+        "TEditID",
+        "TKeyEdit",
+        "TLabel",
+        "TPicLabel",
+        "TRadio",
+        "TRichEdit",
+        "TSpinUp",
+        "TSpinDown",
+        "TSpinInc",
+        "TSpinDec",
+        "TSpinUpScroll",
+        "TSpinDownScroll",
+        "TString",
+        "TPoser",
+        "TButton",
+        "THyperLink",
+        "TVScroll",
+        "TScrollBtn",
+        "TTabWin",
+        "TStaticCheck"
+      ],
+      "constants": [
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "1d2c73dc01f2359b03a9ff2a2cf7e7b4069dfdb66d78dc791173d38471ebee47",
+          "text": "Static",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "Static",
+          "firstLine": 1
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "90c0c75101183fdd004d330a8979712324e81b1e6931dd6fdf81491151227d7e",
+          "text": "TWidget",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TWidget",
+          "firstLine": 4
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "185945df3e76f1f32dc187eb3177493aa6dbf650c03542d0dda7b5a025d44bf3",
+          "text": "TStatic",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TStatic",
+          "firstLine": 7
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "62e7161332955e09e8d163eca45f1d2eacf980295082a266d7ff9ae7618aee5d",
+          "text": "TCheck",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TCheck",
+          "firstLine": 10
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "7f048594c2201daf948c8a69ac47349807d79ed8b369d0fd6b3ad4609a7aa658",
+          "text": "TStdCheck",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TStdCheck",
+          "firstLine": 12
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "e908d576fdf6ffe3a935d793699d29c4f5184b6defa78c65ebc02e3a1dcfd3d9",
+          "text": "TDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TDlg",
+          "firstLine": 18
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "29263614c78f03cce8c7ba7db1086bfde7ee32ba95473e1c4f454c25837c4543",
+          "text": "TEdit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TEdit",
+          "firstLine": 21
+        },
+        {
+          "type": "bytes",
+          "length": 11,
+          "sha256": "b295f09d004f1237f79f583729879634c2f853db8cf24ee12ef8448879078523",
+          "text": "TStaticEdit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TStaticEdit",
+          "firstLine": 28
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "d64d601f164b986f977ca6423821d77cb41d7e73b21fcb41605bb26a0a2b6fab",
+          "text": "TEditBox",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TEditBox",
+          "firstLine": 31
+        },
+        {
+          "type": "bytes",
+          "length": 10,
+          "sha256": "b5bdde142f819706625306eb27d96c6fb426802bdb33b08d0b6b93cad8efbf26",
+          "text": "TEditPoint",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TEditPoint",
+          "firstLine": 37
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "6adcd64d5659bc0c8d41b0a5346bb688d883be76c0bfd3a96c866d9bb77cd9ac",
+          "text": "TEditNum",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TEditNum",
+          "firstLine": 48
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "bde631e2c5dc32088450130384401864666321da6387df2940d682572256268c",
+          "text": "TEditCharNum",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TEditCharNum",
+          "firstLine": 57
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "5971c5685ba29489aa6b5bb80db397bb80b062c617893ebf186dccd77cf44bdb",
+          "text": "TEditPassword",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TEditPassword",
+          "firstLine": 67
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "8f1ca546760643c179dec581c63e63ef5cab18f5cc6134b58af086757d7e068e",
+          "text": "TEditID",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TEditID",
+          "firstLine": 76
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "102638077ce8af21e75340452b6831b339df383b0f522bcddf5388259104fecf",
+          "text": "TKeyEdit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TKeyEdit",
+          "firstLine": 85
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "7258f19deb0ccf0842ae2e973fe8671208fec31e3d381f4f6a07627c02d179d1",
+          "text": "TLabel",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TLabel",
+          "firstLine": 88
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "8735558772d2b21672185062debf83b6f888458ad8b31c9064d446303ba162d0",
+          "text": "TPicLabel",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TPicLabel",
+          "firstLine": 95
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "03c8574f8b42727b8b06d9fabc4f88785f5c94e5badd5af93f3d71eb26fdf738",
+          "text": "TRadio",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TRadio",
+          "firstLine": 98
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "c8a85d287f64f631890c069f3f295f1bb808fbad947de0d9d3a9cdd0a405ef26",
+          "text": "TRichEdit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TRichEdit",
+          "firstLine": 104
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "77f825eb312b42f125658af289f58bb81772a56b4a93045c083186ed0baf542f",
+          "text": "TSpinUp",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TSpinUp",
+          "firstLine": 112
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "4bdc9deca598af2d7f0d61e4e62e5225cd4522a9e6170b6f7195b0b0b4331a43",
+          "text": "TSpinDown",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TSpinDown",
+          "firstLine": 116
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "e448479f5c455399e9e6427260bd11d229fb6c5ee3413a8f37e03f60ba85f78f",
+          "text": "TSpinInc",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TSpinInc",
+          "firstLine": 119
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "1521f76dc6f28dd1c31aa3de538ac072e6439f5b6a3346284e2205022b2e2c97",
+          "text": "TSpinDec",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TSpinDec",
+          "firstLine": 123
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "d7fc490d80491dce12e78d744471865a195ab83c95ea91f56a57d2cfa309eb61",
+          "text": "TSpinUpScroll",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TSpinUpScroll",
+          "firstLine": 126
+        },
+        {
+          "type": "bytes",
+          "length": 15,
+          "sha256": "720231144d70c70c4f7dd1401ba97894f492f6456f68a54bb9e34a69f86053ed",
+          "text": "TSpinDownScroll",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TSpinDownScroll",
+          "firstLine": 134
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "09c81c7adc3d859c45adb0edd5b5710e8aa7f2b1ba167e92f9047e407b406ef1",
+          "text": "TString",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TString",
+          "firstLine": 141
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "93ab2dc28f1f5975abe46c216a0b14c413778bd5c1dd99ef7ac1383cd28b319d",
+          "text": "TPoser",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TPoser",
+          "firstLine": 145
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "d5de738a7bbc5d04e900dd279ea1bb710bf180463a38b53d3f8c6bb2f04446d4",
+          "text": "TButton",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TButton",
+          "firstLine": 150
+        },
+        {
+          "type": "bytes",
+          "length": 10,
+          "sha256": "c87888dbfcccab029adb9f72ebc7f8e707be1040304650a7eeedcaad670648b9",
+          "text": "THyperLink",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "THyperLink",
+          "firstLine": 153
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "27866647e588d5017f3a08b55bbede9762e2a417a7136a3be9362cfcc305bdd7",
+          "text": "TVScroll",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TVScroll",
+          "firstLine": 156
+        },
+        {
+          "type": "bytes",
+          "length": 10,
+          "sha256": "32c07662948151c824e9f1d10572f0c8fcb1cf010da16c3761a24268ca092d9e",
+          "text": "TScrollBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TScrollBtn",
+          "firstLine": 162
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "f700264bee0c9ae5a3dd2d603dcfeb3431b2bcf4b9013dc0f9479c02758ff5c1",
+          "text": "TTabWin",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TTabWin",
+          "firstLine": 165
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "176ce6277ee4659f0f1af00a4b81e7f886e20a78bff509dbbda5a51f4bef67a2",
+          "text": "TStaticCheck",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TStaticCheck",
+          "firstLine": 171
+        },
+        {
+          "type": "NoneType",
+          "value": null
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.Static",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 1,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "cc81cfe710fe26eb02d3769fc55d6c9bd3f499e96780480238a7c5f5a3613d97",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "wgtstyle_static",
+        "style"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.TWidget",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 4,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "ef3d9b003d75779c42e3304b135eb13c100f4ab9fb6d4b7f5c9bd3db03604930",
+          "text": "WIDGET",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "ef3d9b003d75779c42e3304b135eb13c100f4ab9fb6d4b7f5c9bd3db03604930",
+            "text": "WIDGET",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TStatic",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 7,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "761af38eeb5be01905c199bc035c0a3800b5632a415fff4785d7b911d7e67e23",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "wgtstyle_static",
+        "style"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "ef3d9b003d75779c42e3304b135eb13c100f4ab9fb6d4b7f5c9bd3db03604930",
+          "text": "WIDGET",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "ef3d9b003d75779c42e3304b135eb13c100f4ab9fb6d4b7f5c9bd3db03604930",
+            "text": "WIDGET",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TCheck",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 10,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+          "text": "CHECK",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+            "text": "CHECK",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TStdCheck",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 12,
+      "bytecodeLength": 98,
+      "bytecodeSha256": "3bf8e1d2d1560f4c4a0c17c76ee35f3b2fb6eb0db5169aac8763cffa9ce91efb",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "framescheme",
+        "rect",
+        "bkimage"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+          "text": "CHECK",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": -1
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 40
+        },
+        {
+          "type": "int",
+          "value": 16
+        },
+        {
+          "type": "bytes",
+          "length": 30,
+          "sha256": "239fe16f681428891bb2b8880cd317238441ae2f9ec1edae9c78aa38bcd92bc6",
+          "text": "object/ui/common/btn_check.img",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+            "text": "CHECK",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 69,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": -1
+                  },
+                  {
+                    "type": "int",
+                    "value": -1
+                  },
+                  {
+                    "type": "int",
+                    "value": -1
+                  },
+                  {
+                    "type": "int",
+                    "value": -1
+                  },
+                  {
+                    "type": "int",
+                    "value": -1
+                  },
+                  {
+                    "type": "int",
+                    "value": -1
+                  },
+                  {
+                    "type": "int",
+                    "value": -1
+                  },
+                  {
+                    "type": "int",
+                    "value": -1
+                  }
+                ]
+              },
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 87,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 40
+              },
+              {
+                "type": "int",
+                "value": 16
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 93,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 30,
+            "sha256": "239fe16f681428891bb2b8880cd317238441ae2f9ec1edae9c78aa38bcd92bc6",
+            "text": "object/ui/common/btn_check.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TDlg",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 18,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "2364732f1e0116c5233efeecb85bbda4a6e9e6305b7d798209d1e9ed90bcee6e",
+          "text": "DIALOG",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "2364732f1e0116c5233efeecb85bbda4a6e9e6305b7d798209d1e9ed90bcee6e",
+            "text": "DIALOG",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TEdit",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 21,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "2ead36156a22425f746a20cc116444484926c4eb70acc29913e46a213c116ea0",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "edit_normal",
+        "editmethod",
+        "drawcolor",
+        "bkcolor",
+        "focuscolor"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+          "text": "EDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "bkcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 69,
+          "name": "focuscolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TStaticEdit",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 28,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "cc81cfe710fe26eb02d3769fc55d6c9bd3f499e96780480238a7c5f5a3613d97",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "wgtstyle_static",
+        "style"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.TEditBox",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 31,
+      "bytecodeLength": 48,
+      "bytecodeSha256": "a0e01c3e66ff79795fdee9866259723e9442d727a7c750153849327092a60575",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "editable",
+        "dt_left",
+        "dt_center",
+        "textstyle",
+        "drawcolor"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+          "text": "EDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "editable",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 43,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TEditPoint",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 37,
+      "bytecodeLength": 86,
+      "bytecodeSha256": "45bc024cbb7bdf9457e9fda1753380c9ecf6ecc9754e34eb402f2a3755e78049",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "edit_number",
+        "editmethod",
+        "editable",
+        "bkcolor",
+        "drawcolor",
+        "step",
+        "textstyle",
+        "minvalue",
+        "ui_initmaxpoint",
+        "maxvalue"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+          "text": "EDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 5
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 21,
+          "name": "editable",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "bkcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 57,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 63,
+          "name": "step",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 69,
+          "name": "textstyle",
+          "literalValue": {
+            "type": "int",
+            "value": 5
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 75,
+          "name": "minvalue",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TEditNum",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 48,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "ca0923ceb7f42d956559144d51b838e114fc57ac3b0167f1d56d1accf9ca5f12",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "edit_number",
+        "editmethod",
+        "editable",
+        "bkcolor",
+        "drawcolor",
+        "step",
+        "textstyle"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+          "text": "EDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 5
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 21,
+          "name": "editable",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "bkcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 57,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 63,
+          "name": "step",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 69,
+          "name": "textstyle",
+          "literalValue": {
+            "type": "int",
+            "value": 5
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TEditCharNum",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 57,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "ca0923ceb7f42d956559144d51b838e114fc57ac3b0167f1d56d1accf9ca5f12",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "edit_charNumber",
+        "editmethod",
+        "editable",
+        "bkcolor",
+        "drawcolor",
+        "step",
+        "textstyle"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+          "text": "EDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 5
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 21,
+          "name": "editable",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "bkcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 57,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 63,
+          "name": "step",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 69,
+          "name": "textstyle",
+          "literalValue": {
+            "type": "int",
+            "value": 5
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TEditPassword",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 67,
+      "bytecodeLength": 68,
+      "bytecodeSha256": "102d7a97db3fb77eaa38cae7f41494bdd448d22c85f5db27283fc3e4a03c5f42",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "edit_coder",
+        "editmethod",
+        "drawcolor",
+        "focuscolor",
+        "maxchar",
+        "textsize"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+          "text": "EDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 16
+        },
+        {
+          "type": "int",
+          "value": 12
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "focuscolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 57,
+          "name": "maxchar",
+          "literalValue": {
+            "type": "int",
+            "value": 16
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 63,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 12
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TEditID",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 76,
+      "bytecodeLength": 68,
+      "bytecodeSha256": "102d7a97db3fb77eaa38cae7f41494bdd448d22c85f5db27283fc3e4a03c5f42",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "edit_number",
+        "editmethod",
+        "drawcolor",
+        "focuscolor",
+        "maxchar",
+        "textsize"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+          "text": "EDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 10
+        },
+        {
+          "type": "int",
+          "value": 12
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "focuscolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 57,
+          "name": "maxchar",
+          "literalValue": {
+            "type": "int",
+            "value": 10
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 63,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 12
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TKeyEdit",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 85,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "43dbe05c56732d9973cc4212a6e92ead657365d1f80660874369ebde2bc65f2c",
+          "text": "KEYEDIT",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 7,
+            "sha256": "43dbe05c56732d9973cc4212a6e92ead657365d1f80660874369ebde2bc65f2c",
+            "text": "KEYEDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TLabel",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 88,
+      "bytecodeLength": 48,
+      "bytecodeSha256": "6a2306652f59abf579a9beeefd49e4c9860c67a5e6931bc156f542190de2d6e6",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "textsize",
+        "dt_left",
+        "dt_top",
+        "textstyle",
+        "drawcolor"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "0d6fda019c2504de9240206f3a7936e49a1190354fb65f8e1c171683b476d2cf",
+          "text": "LABEL",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 12
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "0d6fda019c2504de9240206f3a7936e49a1190354fb65f8e1c171683b476d2cf",
+            "text": "LABEL",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 12
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 43,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TPicLabel",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 95,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "b113d5af2f5a5153b457968d7772d0d2d1d9f834180bbb68abc260d58f68c722",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "textsize"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "36d39eb0514517899dc6620225081713bdcc214c993ebec7426ac988646f9b0c",
+          "text": "PICLABEL",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "36d39eb0514517899dc6620225081713bdcc214c993ebec7426ac988646f9b0c",
+            "text": "PICLABEL",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TRadio",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 98,
+      "bytecodeLength": 26,
+      "bytecodeSha256": "78d5ff7e8ceaf8ef725a8327ec99eb18336eb989fd0a087e188152f98446493d",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "groupid",
+        "ui_btn_style_radio",
+        "extendstyle"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+          "text": "CHECK",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 8
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+            "text": "CHECK",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "groupid",
+          "literalValue": {
+            "type": "int",
+            "value": 8
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TRichEdit",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 104,
+      "bytecodeLength": 56,
+      "bytecodeSha256": "5ffa746e68ce2f42e88c08232944a453eeefc0ff98d2df5bbf4f8e14010f91e8",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "maxchar",
+        "drawcolor",
+        "textsize",
+        "textfont",
+        "edit_talk",
+        "editmethod"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "e6ea4cf98255efc2d166793d5430ec579d3a1e3e41fb8a07caff7f5fcd9fd3e6",
+          "text": "RICHEDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 800
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 12
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "e6ea4cf98255efc2d166793d5430ec579d3a1e3e41fb8a07caff7f5fcd9fd3e6",
+            "text": "RICHEDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "maxchar",
+          "literalValue": {
+            "type": "int",
+            "value": 800
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 12
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "textfont",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TSpinUp",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 112,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "761af38eeb5be01905c199bc035c0a3800b5632a415fff4785d7b911d7e67e23",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "wgtstyle_primary",
+        "style"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+          "text": "SPIN",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+            "text": "SPIN",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TSpinDown",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 116,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+          "text": "SPIN",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+            "text": "SPIN",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TSpinInc",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 119,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "761af38eeb5be01905c199bc035c0a3800b5632a415fff4785d7b911d7e67e23",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "wgtstyle_primary",
+        "style"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+          "text": "SPIN",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+            "text": "SPIN",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TSpinDec",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 123,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+          "text": "SPIN",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "97f1efa5fb61a688f5396ac108dc1718d45c4c27109dbde96870fd0d6d29bef9",
+            "text": "SPIN",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TSpinUpScroll",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 126,
+      "bytecodeLength": 64,
+      "bytecodeSha256": "768ff72295aa4e86a7f86dc8aa4c81f9a857ce5f47d249c3f78f08f987164da7",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "textstyle",
+        "aligntype_father",
+        "aligntype_winrect",
+        "aligntype",
+        "alignstyle_top_out",
+        "alignstyle_hcenter",
+        "alignstyle",
+        "marginh",
+        "marginv"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 16
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 16
+              },
+              {
+                "type": "int",
+                "value": 16
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "textstyle",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 53,
+          "name": "marginh",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 59,
+          "name": "marginv",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TSpinDownScroll",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 134,
+      "bytecodeLength": 58,
+      "bytecodeSha256": "22d55e9fc98fc5db2382ea321fa5cd034dd7886460c7fee21f44361481208502",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "aligntype_father",
+        "aligntype_winrect",
+        "aligntype",
+        "alignstyle_bottom_out",
+        "alignstyle_hcenter",
+        "alignstyle",
+        "marginh",
+        "marginv"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 16
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 16
+              },
+              {
+                "type": "int",
+                "value": 16
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 47,
+          "name": "marginh",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 53,
+          "name": "marginv",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TString",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 141,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "b113d5af2f5a5153b457968d7772d0d2d1d9f834180bbb68abc260d58f68c722",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "visible"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "0d6fda019c2504de9240206f3a7936e49a1190354fb65f8e1c171683b476d2cf",
+          "text": "LABEL",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "0d6fda019c2504de9240206f3a7936e49a1190354fb65f8e1c171683b476d2cf",
+            "text": "LABEL",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "visible",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TPoser",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 145,
+      "bytecodeLength": 38,
+      "bytecodeSha256": "6430bcb6c6f31a42a7ec8e13eef5da02c9ee4197dd4285e1a2c6758375ec5f1a",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "wgtstyle_static",
+        "style",
+        "rect"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "649660b9f5c8c3c2dbb33332d471f612871d07b782a3845455cba5fa41476103",
+          "text": "POSER",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 800
+        },
+        {
+          "type": "int",
+          "value": 600
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "649660b9f5c8c3c2dbb33332d471f612871d07b782a3845455cba5fa41476103",
+            "text": "POSER",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 800
+              },
+              {
+                "type": "int",
+                "value": 600
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TButton",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 150,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "9e9f23ca031cab55d8f6a736ee0cd6df9d5220abc3e2c85b8235bb50cb1bce33",
+          "text": "BUTTON",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "9e9f23ca031cab55d8f6a736ee0cd6df9d5220abc3e2c85b8235bb50cb1bce33",
+            "text": "BUTTON",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.THyperLink",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 153,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "f50df932917f5983e521cc905d8c91ebe20af8f28079c6bf00723ab7b941ebee",
+          "text": "HYPERLINK",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 9,
+            "sha256": "f50df932917f5983e521cc905d8c91ebe20af8f28079c6bf00723ab7b941ebee",
+            "text": "HYPERLINK",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TVScroll",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 156,
+      "bytecodeLength": 26,
+      "bytecodeSha256": "555c4d68a5651988df2e1d0863e5e462f82544177e1757e64a838a89a0d8f5a9",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "wgtstyle_vertical",
+        "style",
+        "extendstyle"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "da0303e96ed012db99452c8eba097f188c4eebdefc1bc4cb3ddea29303e97677",
+          "text": "SCROLLBAR",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 2
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 9,
+            "sha256": "da0303e96ed012db99452c8eba097f188c4eebdefc1bc4cb3ddea29303e97677",
+            "text": "SCROLLBAR",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 21,
+          "name": "extendstyle",
+          "literalValue": {
+            "type": "int",
+            "value": 2
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TScrollBtn",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 162,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "b113d5af2f5a5153b457968d7772d0d2d1d9f834180bbb68abc260d58f68c722",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "moveable"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "9e9f23ca031cab55d8f6a736ee0cd6df9d5220abc3e2c85b8235bb50cb1bce33",
+          "text": "BUTTON",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "9e9f23ca031cab55d8f6a736ee0cd6df9d5220abc3e2c85b8235bb50cb1bce33",
+            "text": "BUTTON",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "moveable",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TTabWin",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 165,
+      "bytecodeLength": 38,
+      "bytecodeSha256": "ff7aedfd0b318788362afc87cbeb19fc0c7fa06711f7a19111891e76eef6d0f4",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "type",
+        "groupid"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "7340d34ff00f5ce168ec3a39f36c0db0279cea05c18848fbcd5b6e1f9c953688",
+          "text": "TABWIN",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "7340d34ff00f5ce168ec3a39f36c0db0279cea05c18848fbcd5b6e1f9c953688",
+            "text": "TABWIN",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "groupid",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TStaticCheck",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 171,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "761af38eeb5be01905c199bc035c0a3800b5632a415fff4785d7b911d7e67e23",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "wgtstyle_static",
+        "style"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+          "text": "CHECK",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "2c12824b5f626268a103868c5645801df3b406ef91af87b6b51df1e6e7a622b2",
+            "text": "CHECK",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    }
+  ],
+  "runtimeImported": false,
+  "interpretation": "Literal occurrence and code scope only; not executed UI behavior, active-page existence, control-coordinate semantics or visual acceptance."
+}
