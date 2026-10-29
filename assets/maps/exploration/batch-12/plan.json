@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-12",
+  "family": "exploration",
+  "createdAtUTC": "2026-10-28T15:00:17.264021+00:00",
+  "sourceProductionIndexSHA256": "229c0d0c58da128fe13d4887c5791d266fcc83c6ef72e88f3892a68a78ab1bb7",
+  "contact": {
+    "file": "assets/maps/exploration/batch-12/structure-reference.png",
+    "sha256": "b34e0c8b88a03df9f81cc3891d4941570ea405e8b4b3bddeed67eb5690ad71f5",
+    "width": 1536,
+    "height": 1024,
+    "source": "mechanical placement of existing reference pixels, text and frame outlines only; not generated art; source pixels not runtime art"
+  },
+  "pieces": [
+    {
+      "elementId": 16024,
+      "family": "exploration",
+      "candidatePath": "object\\mapElem\\exploration\\elem24_stand.img",
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "footprintCells": [
+        1,
+        4
+      ],
+      "gridAttr": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mapElemOffsetRaw": [
+        11,
+        0
+      ],
+      "selectedFrameSize": [
+        51,
+        177
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "referencePng": {
+        "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16024-b4b0a885166f.png",
+        "sha256": "473605e3bd697bcff63e8ca4ed36fd301f2b2ed4d2f3a00e9120e172cde169ad",
+        "representativeElementId": 16024,
+        "nativeFrameSize": [
+          51,
+          177
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "visualGroupId": "visual-b4b0a885166f680a",
+      "contactCellLTRB": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "contactSourceFrameLTRB": [
+        208,
+        123,
+        303,
+        452
+      ],
+      "inspectionUniformScale": 1.86,
+      "inspectionResample": "NEAREST",
+      "anchorStatus": "unverified-not-applied",
+      "accepted": false
+    }
+  ],
+  "invariants": [
+    "Do not modify map data, footprint, gridAttr, element offset or selected frame offset.",
+    "Source package authenticity, ID lookup and anchors remain unverified.",
+    "Generate own surface art with same structure, orientation and proportions; no UI/person/text in artwork.",
+    "Export canvas is selected native reference frame multiplied uniformly by four; scaling is not native generation."
+  ]
+}

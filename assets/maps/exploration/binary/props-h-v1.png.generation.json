@@ -1,0 +1,85 @@
+{
+  "file": "assets/maps/exploration/binary/props-h-v1.png",
+  "sha256": "0d2253bbe1a5853c387b1638686059bb8741dcad5b2231bf32fa2100c5792841",
+  "generatedAt": "2026-10-28T20:43:18.014Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 2087,
+  "height": 754,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/maps/exploration/binary/props-f-v1.png",
+      "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-16215.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets\\maps\\exploration\\binary\\prompts\\batch-h.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/maps/exploration/binary/props-f-v1.png",
+      "purpose": "actual AI edit target; increase strip body height",
+      "sha256": "7057d1895c0cb037cba5804ca9a557464313571ed7bd795c63f08660810f5067"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-16215.png",
+      "purpose": "original decoded structure and band proportions only",
+      "sha256": "f286d46829aee0d7b750bc8d7272f25269d52f37a6ec3ba0d6f67461541a6d93"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "primary approved Daoist chibi handpaint style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "primary approved Daoist chibi handpaint style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-6b07e2ce-522d-41f5-82e2-ad25c72275a5.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in AI image edit conditioned on the actual target reference; no program pixel editing",
+  "nativeDimensions": true,
+  "editOf": {
+    "file": "assets/maps/exploration/binary/props-f-v1.png",
+    "sha256": "7057d1895c0cb037cba5804ca9a557464313571ed7bd795c63f08660810f5067",
+    "generationRecord": "assets/maps/exploration/binary/props-f-v1.png.generation.json"
+  },
+  "annotationNote": "Edit relationship clarified from the actual submitted target reference and prompt; original model, quality, timestamp and submission fields unchanged.",
+  "nativeResolutionClaim": false,
+  "resolutionNote": "Returned2087x754; adopted2013x412 interior rectangle uniformly resized to2384x488. Detail improved over423px first draft, but not native2384px."
+}

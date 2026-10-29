@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUTC": "2026-10-28T13:16:14.278364+00:00",
+  "generatedSheet": "assets/maps/exploration/batch-06/sheet-v1.png",
+  "nativeSheetSize": [
+    1536,
+    1024
+  ],
+  "generatedSheetSHA256": "0ca88817babac467f04863cd1fa6ef6e9896709c37cb475d15115e36ea7acf65",
+  "exportCount": 6,
+  "fixedFrameCanvas4xPassed": 6,
+  "footprintAndOffsetCopiedWithoutMutation": 6,
+  "warnings": [
+    {
+      "id": "crop.dropped_alpha_positive_fraction",
+      "elementId": 16101,
+      "value": 0.18287093843062086,
+      "threshold": 0.01,
+      "file": "assets/maps/exploration/pieces/16101-exploration-v1.png",
+      "sourceFile": "assets/maps/exploration/batch-06/sheet-v1.png",
+      "note": "Deliberate plain-texture inscribed crop; outside-window artwork is not retained, source crop and original alpha documented."
+    },
+    {
+      "id": "crop.dropped_alpha_at_least_8",
+      "elementId": 16101,
+      "value": 18842,
+      "threshold": 0,
+      "file": "assets/maps/exploration/pieces/16101-exploration-v1.png"
+    },
+    {
+      "id": "crop.dropped_alpha_positive_fraction",
+      "elementId": 16104,
+      "value": 0.01771732342721727,
+      "threshold": 0.01,
+      "file": "assets/maps/exploration/pieces/16104-exploration-v1.png",
+      "sourceFile": "assets/maps/exploration/batch-06/sheet-v1.png",
+      "note": "Discarded pixels are faint outside-object generated halos (alpha 1-7 when strong dropped count is zero); not silently treated as no loss."
+    }
+  ],
+  "failures": [],
+  "accepted": false,
+  "geometryAccepted": false,
+  "inGameAccepted": false,
+  "limitations": [
+    "Fixed export dimensions do not prove pixel geometry, silhouette, perspective, anchor or original client lookup.",
+    "Browser use disabled by Work settings; no current in-game screenshots or acceptance.",
+    "No alpha correction or background removal; native alpha inside crops preserved.",
+    "Generation may change art silhouette or doorway shape; these candidates require source-overlay and in-game visual review."
+  ]
+}
