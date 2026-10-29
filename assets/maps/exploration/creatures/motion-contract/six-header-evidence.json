@@ -1,0 +1,330 @@
+{
+  "checkedAtUTC": "2026-10-28T22:49:36.361933+00:00",
+  "archive": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+  "archiveSHA256PriorPinned": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "archiveRehashedThisPass": false,
+  "packageFile": ".artifacts/reference-inputs/object.pkg",
+  "packageZIPMember": "QQTang-Local/runtime/client-patched/data/object.pkg",
+  "packageRehashedThisPass": false,
+  "indexFile": ".artifacts/reference-inputs/object.idx",
+  "indexZIPMember": "QQTang-Local/runtime/client-patched/data/object.idx",
+  "indexBytes": 176711,
+  "indexSHA256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e",
+  "selectedResourceCount": 6,
+  "pixelPlanesDecoded": 0,
+  "sourceAuthenticity": "community-patched-client; Tencent original official authenticity unverified",
+  "iniSamples": [
+    {
+      "nativePlayerNumber": 67,
+      "member": "QQTang-Local/runtime/client-patched/object/player/player67.ini",
+      "bytes": 169,
+      "sha256": "0a0283597222558f473caa8798a72610356d7dd35054621ec68106b0b4f38aa8",
+      "textUnmodified": "[walk]\r\ncloth=16701\r\n[stand]\r\ncloth=16701\r\n[trigger]\r\ncloth=16701\r\n[die]\r\ncloth=16701\r\n[win]\r\ncloth=16701\r\n[cry]\r\ncloth=16701\r\n[lose]\r\ncloth=16701\r\n[wait]\r\ncloth=16701\r\n",
+      "sections": {
+        "walk": {
+          "cloth": "16701"
+        },
+        "stand": {
+          "cloth": "16701"
+        },
+        "trigger": {
+          "cloth": "16701"
+        },
+        "die": {
+          "cloth": "16701"
+        },
+        "win": {
+          "cloth": "16701"
+        },
+        "cry": {
+          "cloth": "16701"
+        },
+        "lose": {
+          "cloth": "16701"
+        },
+        "wait": {
+          "cloth": "16701"
+        }
+      },
+      "adventureEntityBinding": null,
+      "note": "player73 cry=173701 is kept exactly; no arithmetic correction or inferred replacement"
+    },
+    {
+      "nativePlayerNumber": 73,
+      "member": "QQTang-Local/runtime/client-patched/object/player/player73.ini",
+      "bytes": 170,
+      "sha256": "1f33af200ebf852ee94ec932423a071fcce2aaf188e73bcee456eb2dbdc9588d",
+      "textUnmodified": "[walk]\r\ncloth=17301\r\n[stand]\r\ncloth=17301\r\n[trigger]\r\ncloth=17301\r\n[die]\r\ncloth=17301\r\n[win]\r\ncloth=17301\r\n[cry]\r\ncloth=173701\r\n[lose]\r\ncloth=17301\r\n[wait]\r\ncloth=17301\r\n",
+      "sections": {
+        "walk": {
+          "cloth": "17301"
+        },
+        "stand": {
+          "cloth": "17301"
+        },
+        "trigger": {
+          "cloth": "17301"
+        },
+        "die": {
+          "cloth": "17301"
+        },
+        "win": {
+          "cloth": "17301"
+        },
+        "cry": {
+          "cloth": "173701"
+        },
+        "lose": {
+          "cloth": "17301"
+        },
+        "wait": {
+          "cloth": "17301"
+        }
+      },
+      "adventureEntityBinding": null,
+      "note": "player73 cry=173701 is kept exactly; no arithmetic correction or inferred replacement"
+    }
+  ],
+  "resourceSamples": [
+    {
+      "resourcePath": "object\\cloth\\cloth16701_stand.img",
+      "indexEntry": {
+        "ordinal": 576,
+        "offset": 5067793,
+        "rawByteLength": 178624,
+        "compressedByteLength": 9294,
+        "reservedWord": 0
+      },
+      "indexSHA256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e",
+      "compressedChunkSHA256": "68f0687788d3ca455078691424d752cc743b892cf3f104e447501d74d0f813c9",
+      "rawResourceSHA256": "d61e96dd92f37ec638faacdc8f9b8896db7c90d333ff430f5b79695e7ccb1942",
+      "header40SHA256": "93ce68ab7942d70510e0ba2c52686958e63ffe0401475fafaedebc735b1aa347",
+      "headerHex": "5151461a44494d470000010018000000060000000100000000000000000000007800000082000000",
+      "version": 65536,
+      "declaredFrameInfoSize": 24,
+      "declaredFrameCount": 6,
+      "declaredDirections": 1,
+      "declaredFramesPerDirection": 6,
+      "declaredCanvas": [
+        120,
+        130
+      ],
+      "unknownHeaderWordsAt24And28": [
+        0,
+        0
+      ],
+      "directionOrder": null,
+      "frameDurationMs": null,
+      "loopPolicy": null,
+      "footAnchor": null,
+      "entityIdBinding": null,
+      "nativePlayerBindingType": "INI layer link only; not bound to any97 adventure boss_id",
+      "pixelPlanesDecoded": 0,
+      "frameBodiesInspected": false,
+      "wholeContainerAccepted": false,
+      "scope": "header declarations and bounded zlib stream only; does not establish actual direction order, frames, motion or client playback"
+    },
+    {
+      "resourcePath": "object\\cloth\\cloth16701_walk.img",
+      "indexEntry": {
+        "ordinal": 577,
+        "offset": 5077087,
+        "rawByteLength": 768304,
+        "compressedByteLength": 48179,
+        "reservedWord": 0
+      },
+      "indexSHA256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e",
+      "compressedChunkSHA256": "7fb11fde0e63a89160935fe6a615dfda622707dd13d630eab86ad5bc22dd9f31",
+      "rawResourceSHA256": "ab3f4b65cc55eee3deb5f2de1d554150cff4bae62516801341a3014fdafd4e10",
+      "header40SHA256": "87b43e50ff58752ae3d3b973d503c6a803525bf69703a926375ed4b192bc9021",
+      "headerHex": "5151461a44494d470000010018000000180000000400000000000000000000007800000082000000",
+      "version": 65536,
+      "declaredFrameInfoSize": 24,
+      "declaredFrameCount": 24,
+      "declaredDirections": 4,
+      "declaredFramesPerDirection": 6,
+      "declaredCanvas": [
+        120,
+        130
+      ],
+      "unknownHeaderWordsAt24And28": [
+        0,
+        0
+      ],
+      "directionOrder": null,
+      "frameDurationMs": null,
+      "loopPolicy": null,
+      "footAnchor": null,
+      "entityIdBinding": null,
+      "nativePlayerBindingType": "INI layer link only; not bound to any97 adventure boss_id",
+      "pixelPlanesDecoded": 0,
+      "frameBodiesInspected": false,
+      "wholeContainerAccepted": false,
+      "scope": "header declarations and bounded zlib stream only; does not establish actual direction order, frames, motion or client playback"
+    },
+    {
+      "resourcePath": "object\\cloth\\cloth16701_die.img",
+      "indexEntry": {
+        "ordinal": 575,
+        "offset": 5050691,
+        "rawByteLength": 180223,
+        "compressedByteLength": 17102,
+        "reservedWord": 0
+      },
+      "indexSHA256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e",
+      "compressedChunkSHA256": "04c1ceaf3e2f78599c4483cf34f268b7475c8bd6ea73c9a582776a7f93ab5968",
+      "rawResourceSHA256": "ec30ba1cfa67328657e56bf9b200bc0b35c2f707ba3bf3d684e57a2bab902547",
+      "header40SHA256": "43d29bb515786630b6b663189856d7367de054da7a2697295f0b2dbea34aa3b1",
+      "headerHex": "5151461a44494d4700000100180000000900000001000000000000000000000078000000c0000000",
+      "version": 65536,
+      "declaredFrameInfoSize": 24,
+      "declaredFrameCount": 9,
+      "declaredDirections": 1,
+      "declaredFramesPerDirection": 9,
+      "declaredCanvas": [
+        120,
+        192
+      ],
+      "unknownHeaderWordsAt24And28": [
+        0,
+        0
+      ],
+      "directionOrder": null,
+      "frameDurationMs": null,
+      "loopPolicy": null,
+      "footAnchor": null,
+      "entityIdBinding": null,
+      "nativePlayerBindingType": "INI layer link only; not bound to any97 adventure boss_id",
+      "pixelPlanesDecoded": 0,
+      "frameBodiesInspected": false,
+      "wholeContainerAccepted": false,
+      "scope": "header declarations and bounded zlib stream only; does not establish actual direction order, frames, motion or client playback"
+    },
+    {
+      "resourcePath": "object\\cloth\\cloth17301_stand.img",
+      "indexEntry": {
+        "ordinal": 593,
+        "offset": 5266039,
+        "rawByteLength": 73828,
+        "compressedByteLength": 6321,
+        "reservedWord": 0
+      },
+      "indexSHA256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e",
+      "compressedChunkSHA256": "14129dbb5d0cb9ba2d66c92d807e40f17a59d1127847a96e9713fcb4f06771eb",
+      "rawResourceSHA256": "304cdaa4e67772ec4caa282a3075dc5fb35aba80223fdd0be7cfde7f113dee66",
+      "header40SHA256": "8ac76b4698a7fc7e0454e3e6d4a411085b64683936fbe311c02d46638c38dece",
+      "headerHex": "5151461a44494d470000010018000000060000000100000000000000000000006400000064000000",
+      "version": 65536,
+      "declaredFrameInfoSize": 24,
+      "declaredFrameCount": 6,
+      "declaredDirections": 1,
+      "declaredFramesPerDirection": 6,
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "unknownHeaderWordsAt24And28": [
+        0,
+        0
+      ],
+      "directionOrder": null,
+      "frameDurationMs": null,
+      "loopPolicy": null,
+      "footAnchor": null,
+      "entityIdBinding": null,
+      "nativePlayerBindingType": "INI layer link only; not bound to any97 adventure boss_id",
+      "pixelPlanesDecoded": 0,
+      "frameBodiesInspected": false,
+      "wholeContainerAccepted": false,
+      "scope": "header declarations and bounded zlib stream only; does not establish actual direction order, frames, motion or client playback"
+    },
+    {
+      "resourcePath": "object\\cloth\\cloth17301_walk.img",
+      "indexEntry": {
+        "ordinal": 594,
+        "offset": 5272360,
+        "rawByteLength": 295006,
+        "compressedByteLength": 22317,
+        "reservedWord": 0
+      },
+      "indexSHA256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e",
+      "compressedChunkSHA256": "05b9bfcaa0df6f9352f30dc641508271cad950cb0ad71d5bce16a0ec48a4fab3",
+      "rawResourceSHA256": "5fbaab0819917a7975e2e0ef901520e624af1aa749c09d9a2185ab06ef0494c3",
+      "header40SHA256": "67259342b1211b88aec2dfbd0618f8ed0d755162c31627da7025f292ae6b87d8",
+      "headerHex": "5151461a44494d470000010018000000180000000400000000000000000000006400000064000000",
+      "version": 65536,
+      "declaredFrameInfoSize": 24,
+      "declaredFrameCount": 24,
+      "declaredDirections": 4,
+      "declaredFramesPerDirection": 6,
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "unknownHeaderWordsAt24And28": [
+        0,
+        0
+      ],
+      "directionOrder": null,
+      "frameDurationMs": null,
+      "loopPolicy": null,
+      "footAnchor": null,
+      "entityIdBinding": null,
+      "nativePlayerBindingType": "INI layer link only; not bound to any97 adventure boss_id",
+      "pixelPlanesDecoded": 0,
+      "frameBodiesInspected": false,
+      "wholeContainerAccepted": false,
+      "scope": "header declarations and bounded zlib stream only; does not establish actual direction order, frames, motion or client playback"
+    },
+    {
+      "resourcePath": "object\\cloth\\cloth17301_die.img",
+      "indexEntry": {
+        "ordinal": 592,
+        "offset": 5255564,
+        "rawByteLength": 126624,
+        "compressedByteLength": 10475,
+        "reservedWord": 0
+      },
+      "indexSHA256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e",
+      "compressedChunkSHA256": "fef5e4238b983ab1f983adcc0abb77af257d889c3342c7550e6c19e03db4884c",
+      "rawResourceSHA256": "caa1ef4c130bec30c0e32ba94f8f4b2cb0b2baf0cf5390c3ca8f5b7f6edd72aa",
+      "header40SHA256": "4b2490ccf1373b653d41a5f810d0bf91b6373dfb928d60f2813d0ae4ad10a476",
+      "headerHex": "5151461a44494d470000010018000000080000000100000000000000000000006400000064000000",
+      "version": 65536,
+      "declaredFrameInfoSize": 24,
+      "declaredFrameCount": 8,
+      "declaredDirections": 1,
+      "declaredFramesPerDirection": 8,
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "unknownHeaderWordsAt24And28": [
+        0,
+        0
+      ],
+      "directionOrder": null,
+      "frameDurationMs": null,
+      "loopPolicy": null,
+      "footAnchor": null,
+      "entityIdBinding": null,
+      "nativePlayerBindingType": "INI layer link only; not bound to any97 adventure boss_id",
+      "pixelPlanesDecoded": 0,
+      "frameBodiesInspected": false,
+      "wholeContainerAccepted": false,
+      "scope": "header declarations and bounded zlib stream only; does not establish actual direction order, frames, motion or client playback"
+    }
+  ],
+  "mappedAdventureEntities": 0,
+  "formatEvidence": {
+    "localFile": ".artifacts/reference-inputs/community-dimg-format.go",
+    "readOnly": true,
+    "executed": false,
+    "scope": "40-byte header layout only; no use of default100ms GM preview as native timing"
+  },
+  "limitations": [
+    "INI status names and DIMG counts do not prove NPC mapping.",
+    "No direction names/order or timing inferred.",
+    "No DIMG frame/pixel decode or full-package validation performed."
+  ]
+}

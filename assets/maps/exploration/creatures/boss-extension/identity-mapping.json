@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "createdAtUTC": "2026-10-28T18:09:35.269241+00:00",
+  "entityIdNamespace": "adventure-rules.maps.npc_drop_groups.boss_id; distinct from inventory item_id",
+  "authorization": "project coordinator relayed human authorization for own creature appearance identities; source gameplay values retained",
+  "source": {
+    "member": "QQTang-Local/configs/adventure-rules.json",
+    "sha256": "c24a1fd5f09d5a949e69eb706fafc87205daadc763b1d42c832a0797926b28b5",
+    "type": "community-curated-config",
+    "officialOriginalAuthenticity": "unverified",
+    "archiveRehashedThisPass": false
+  },
+  "mappedIdentities": [
+    {
+      "entityId": 30006,
+      "entityClass": "boss",
+      "originalChineseName": null,
+      "originalAppearanceMapping": "unverified",
+      "originalActionIndexMapping": "unverified",
+      "projectOriginalChineseIdentityName": "灵芝盘翁",
+      "projectOriginalIdentityEnglish": "wide amber-jade lingzhi cap elder with wooden ruyi",
+      "identityMappingType": "project-original-appearance-for-source-confirmed-gameplay-ID",
+      "scope": "static-master-only; no phases/actions or runtime implementation claimed",
+      "sourceClassification": "Boss in all inspected map combat profiles; no conflict",
+      "occurrenceMapCount": 1,
+      "sourceMapGroups": [
+        {
+          "mapId": 1603,
+          "sourceCatalogMapName": "魔法王国1",
+          "sourceMapFile": "pve03_8.map",
+          "sourceGroupUnmodified": {
+            "boss_id": 30006,
+            "boss_count": 1,
+            "combat_profiles": [
+              {
+                "count": 1,
+                "health": 15400,
+                "damage": 85,
+                "defense": 0,
+                "speed": 4,
+                "is_boss": true
+              }
+            ],
+            "drop_pool": "route-1-boss"
+          }
+        }
+      ],
+      "preserveAllSourceGameplayValues": true,
+      "artAddsNoRules": true,
+      "heldObjectPolicy": "visual anticipation/readability only; does not add skill, range, projectile, phase or attribute",
+      "accepted": false
+    },
+    {
+      "entityId": 30009,
+      "entityClass": "boss",
+      "originalChineseName": null,
+      "originalAppearanceMapping": "unverified",
+      "originalActionIndexMapping": "unverified",
+      "projectOriginalChineseIdentityName": "玉芽藤皇",
+      "projectOriginalIdentityEnglish": "round layered jade sprout sovereign with curved twig hook",
+      "identityMappingType": "project-original-appearance-for-source-confirmed-gameplay-ID",
+      "scope": "static-master-only; no phases/actions or runtime implementation claimed",
+      "sourceClassification": "Boss in all inspected map combat profiles; no conflict",
+      "occurrenceMapCount": 1,
+      "sourceMapGroups": [
+        {
+          "mapId": 1604,
+          "sourceCatalogMapName": "魔法王国1",
+          "sourceMapFile": "pve04_8.map",
+          "sourceGroupUnmodified": {
+            "boss_id": 30009,
+            "boss_count": 1,
+            "combat_profiles": [
+              {
+                "count": 1,
+                "health": 8100,
+                "damage": 120,
+                "defense": 0,
+                "speed": 3,
+                "is_boss": true
+              }
+            ],
+            "drop_pool": "route-1-boss"
+          }
+        }
+      ],
+      "preserveAllSourceGameplayValues": true,
+      "artAddsNoRules": true,
+      "heldObjectPolicy": "visual anticipation/readability only; does not add skill, range, projectile, phase or attribute",
+      "accepted": false
+    },
+    {
+      "entityId": 30012,
+      "entityClass": "boss",
+      "originalChineseName": null,
+      "originalAppearanceMapping": "unverified",
+      "originalActionIndexMapping": "unverified",
+      "projectOriginalChineseIdentityName": "玉简匣君",
+      "projectOriginalIdentityEnglish": "broad ivory-and-jade bamboo-scroll box sovereign with ceremonial whisk",
+      "identityMappingType": "project-original-appearance-for-source-confirmed-gameplay-ID",
+      "scope": "static-master-only; no phases/actions or runtime implementation claimed",
+      "sourceClassification": "Boss in all inspected map combat profiles; no conflict",
+      "occurrenceMapCount": 1,
+      "sourceMapGroups": [
+        {
+          "mapId": 1605,
+          "sourceCatalogMapName": "魔法王国1",
+          "sourceMapFile": "pve05_8.map",
+          "sourceGroupUnmodified": {
+            "boss_id": 30012,
+            "boss_count": 1,
+            "combat_profiles": [
+              {
+                "count": 1,
+                "health": 14800,
+                "damage": 200,
+                "defense": 0,
+                "speed": 3,
+                "is_boss": true
+              }
+            ],
+            "drop_pool": "route-1-boss"
+          }
+        }
+      ],
+      "preserveAllSourceGameplayValues": true,
+      "artAddsNoRules": true,
+      "heldObjectPolicy": "visual anticipation/readability only; does not add skill, range, projectile, phase or attribute",
+      "accepted": false
+    },
+    {
+      "entityId": 30014,
+      "entityClass": "boss",
+      "originalChineseName": null,
+      "originalAppearanceMapping": "unverified",
+      "originalActionIndexMapping": "unverified",
+      "projectOriginalChineseIdentityName": "云角玉犀",
+      "projectOriginalIdentityEnglish": "huge-headed pale-jade rhino guardian with rounded stone mallet",
+      "identityMappingType": "project-original-appearance-for-source-confirmed-gameplay-ID",
+      "scope": "static-master-only; no phases/actions or runtime implementation claimed",
+      "sourceClassification": "Boss in all inspected map combat profiles; no conflict",
+      "occurrenceMapCount": 1,
+      "sourceMapGroups": [
+        {
+          "mapId": 1606,
+          "sourceCatalogMapName": "魔法王国1",
+          "sourceMapFile": "pve06_8.map",
+          "sourceGroupUnmodified": {
+            "boss_id": 30014,
+            "boss_count": 1,
+            "combat_profiles": [
+              {
+                "count": 1,
+                "health": 20000,
+                "damage": 190,
+                "defense": 0,
+                "speed": 4,
+                "is_boss": true
+              }
+            ],
+            "drop_pool": "route-1-boss"
+          }
+        }
+      ],
+      "preserveAllSourceGameplayValues": true,
+      "artAddsNoRules": true,
+      "heldObjectPolicy": "visual anticipation/readability only; does not add skill, range, projectile, phase or attribute",
+      "accepted": false
+    }
+  ],
+  "fullSetStaticComplete": false,
+  "fullSetActionsComplete": false,
+  "accepted": false
+}
