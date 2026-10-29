@@ -1,0 +1,48 @@
+{
+  "file": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v2.png",
+  "prompt": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v2.prompt.txt",
+  "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-cf2329f3-ac53-4e17-bc9e-320e695c5c1f.png",
+  "editTarget": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v1.png",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v1.png",
+      "role": "AI reframe target, v1 center row crosses alpha"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png",
+      "role": "own identity master"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style"
+    }
+  ],
+  "status": "four_direction_static_candidate_pending_single_source_qa",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "orderMatchesRequest": true,
+    "runtimeEnabled": false,
+    "pending": [
+      "single-source alpha/seams",
+      "shared root/layout contract not pixel locked",
+      "actual map/client"
+    ],
+    "editReason": "v1 crossed nominal middle row; AI redrew all four at smaller common apparent scale, not programmed bbox fitting"
+  }
+}

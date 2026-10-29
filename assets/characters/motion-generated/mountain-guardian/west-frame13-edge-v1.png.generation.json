@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/mountain-guardian/west-frame13-edge-v1.png",
+  "sha256": "1d45725403cb367b3cd46d7592a625a6efac8ba3eb0d95c35364c749dd04a06d",
+  "generatedAt": "2026-10-28T20:40:26.539Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/qdao_original_roster_v14_hd/action-remake-20261001/characters/04_mountain_guardian_boy/frames/run/W/frame_13.png",
+      "D:/work/qqtang-ui/assets/characters/runtime/mountain-guardian.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/mountain-guardian/west-frame13-edge-v1.prompt.txt",
+  "promptSha256": "9ebae3b81a65f3947b77339f1f3c7cb6c1734cdc3c60d8d882ea812b1c143181",
+  "references": [
+    {
+      "path": "D:/work/image/qdao_original_roster_v14_hd/action-remake-20261001/characters/04_mountain_guardian_boy/frames/run/W/frame_13.png",
+      "role": "existing W13 alignment/edit target",
+      "sha256": "5633cccd50ec4f2f9a971cb54531258b52e17480ed6061e43d2e165857a57d36"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/mountain-guardian.png",
+      "role": "own identity master",
+      "sha256": "e1086a27c6340f6ef50aba5006b222247c0c4b717bd2eb48b071807edd20089a"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-0d8fd6e1-8baf-4842-b6db-1391f807b656.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "D:/work/image/qdao_original_roster_v14_hd/action-remake-20261001/characters/04_mountain_guardian_boy/frames/run/W/frame_13.png",
+  "review": {
+    "identity": "West face/left shield/right staff/pose/own clothes visually preserved; staff/tassel contour redrawn, needs exact alpha and actual canvas normalized comparison",
+    "runtimeEnabled": false,
+    "pending": [
+      "right margin8px vs requested30px",
+      "root and adjacent-frame/client validation"
+    ],
+    "editOnly": "staff right edge; source and runtime untouched",
+    "singleSourceEvidence": "assets/characters/motion-generated/mountain-guardian/qa/west-frame13-edge-v1.edge-review.json",
+    "actualVisualReview": "assets/characters/motion-generated/mountain-guardian/west-frame13-edge-v1.review.md"
+  },
+  "status": "candidate_edge_contact_removed_margin_short_root_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}

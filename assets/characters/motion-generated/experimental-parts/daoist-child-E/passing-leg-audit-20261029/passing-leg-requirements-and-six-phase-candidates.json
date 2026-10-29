@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "createdAtUTC": "2026-10-29T04:10:57.579Z",
+  "sourceFacts": "native-phase-facts.json",
+  "currentStaticProposal": {
+    "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/proposal.json",
+    "sha256": "aef7131e30f79b4d13850d71d7852db26862b767a530d3c3b00d12b0da383149"
+  },
+  "scope": "Minimum new passing-leg source requirements and provisional six-slot correspondence only; not a generated set, animation or native phase recovery.",
+  "minimumIndependentPassingParts": 4,
+  "parts": [
+    {
+      "id": "near_R_passing_planted",
+      "side": "RIGHT",
+      "depth": "near",
+      "state": "planted-under-hip",
+      "bootSurface": "Own near outer boot/cloud detail, not a mirrored far boot",
+      "completeSinglePart": "Plain hidden ivory hip cap -> uninterrupted trouser leg -> one ankle gold cuff -> entire jade boot, no segmented knee cuff",
+      "status": "missing_not_generated",
+      "commonScaleIntent": "Same native boot/cloth pixel scale as existing whole-leg-v1, future source-to627 bind0.24 retained only after actual art proportion check; no per-item fit.",
+      "plannedAcceptance": [
+        "Ankle/sole center near beneath own hip instead of a wide-stride planted pair; complete flat sole and screen-right toe",
+        "Artistic contact sole near the existing diagnostic art-ground528.5 within1 designpx; this is not native/world ground",
+        "Hidden cap attachment follows unchanged torso art contract; actual source pivot/ankle/toe/sole must be measured after a future image"
+      ],
+      "futureRuntimeOrLoopApproved": false
+    },
+    {
+      "id": "near_R_passing_raised",
+      "side": "RIGHT",
+      "depth": "near",
+      "state": "bent-knee-raised-passing",
+      "bootSurface": "Same RIGHT boot/cloth identity; independently painted bend/sole orientation",
+      "completeSinglePart": "Plain hidden ivory hip cap -> uninterrupted trouser leg -> one ankle gold cuff -> entire jade boot, no segmented knee cuff",
+      "status": "missing_not_generated",
+      "commonScaleIntent": "Same native boot/cloth pixel scale as existing whole-leg-v1, future source-to627 bind0.24 retained only after actual art proportion check; no per-item fit.",
+      "plannedAcceptance": [
+        "Genuine bent-knee silhouette, heel/ankle tucked and foot passing under/near hip; not translating a straight contact leg upward",
+        "Visible sole clearance provisional12–20 designpx above diagnostic art-ground, boot toe remains screen-right",
+        "New paint must show knee bend/boot pitch coherently; no code move of source leg or mirrored other side"
+      ],
+      "futureRuntimeOrLoopApproved": false
+    },
+    {
+      "id": "far_L_passing_planted",
+      "side": "LEFT",
+      "depth": "far",
+      "state": "planted-under-hip",
+      "bootSurface": "Own far inner boot view; preserve left identity independently",
+      "completeSinglePart": "Plain hidden ivory hip cap -> uninterrupted trouser leg -> one ankle gold cuff -> entire jade boot, no segmented knee cuff",
+      "status": "missing_not_generated",
+      "commonScaleIntent": "Same native boot/cloth pixel scale as existing whole-leg-v1, future source-to627 bind0.24 retained only after actual art proportion check; no per-item fit.",
+      "plannedAcceptance": [
+        "Ankle/sole center near beneath own hip instead of a wide-stride planted pair; complete flat sole and screen-right toe",
+        "Artistic contact sole near the existing diagnostic art-ground528.5 within1 designpx; this is not native/world ground",
+        "Hidden cap attachment follows unchanged torso art contract; actual source pivot/ankle/toe/sole must be measured after a future image"
+      ],
+      "futureRuntimeOrLoopApproved": false
+    },
+    {
+      "id": "far_L_passing_raised",
+      "side": "LEFT",
+      "depth": "far",
+      "state": "bent-knee-raised-passing",
+      "bootSurface": "Same LEFT identity, independently painted bend; never mirror nearRIGHT",
+      "completeSinglePart": "Plain hidden ivory hip cap -> uninterrupted trouser leg -> one ankle gold cuff -> entire jade boot, no segmented knee cuff",
+      "status": "missing_not_generated",
+      "commonScaleIntent": "Same native boot/cloth pixel scale as existing whole-leg-v1, future source-to627 bind0.24 retained only after actual art proportion check; no per-item fit.",
+      "plannedAcceptance": [
+        "Genuine bent-knee silhouette, heel/ankle tucked and foot passing under/near hip; not translating a straight contact leg upward",
+        "Visible sole clearance provisional12–20 designpx above diagnostic art-ground, boot toe remains screen-right",
+        "New paint must show knee bend/boot pitch coherently; no code move of source leg or mirrored other side"
+      ],
+      "futureRuntimeOrLoopApproved": false
+    }
+  ],
+  "whyNotTwoPartsOrRotation": "Existing front/back whole-leg pieces bind hip-to-ankle diagonal and entire boot together. Rotating a wide stride ankle under hip also tilts the sole; shifting it keeps a straight wide leg and floating cap. Neither supplies a natural flat-sole under-hip support plus a genuine bent-knee passing silhouette. Need both support and swing for each anatomical side.",
+  "conditionalAdditionalParts": "If future fixed-scale registration cannot use the bent passing sources for early toe-off at source2/5, an additional near/far toe-off pair may be needed. Four is a minimum independent passing experiment, not proof that a full six-phase loop needs exactly four new images.",
+  "sixPhaseCandidates": [
+    {
+      "nativeIndex": 0,
+      "ownCandidateRole": "narrow passing before A",
+      "near": "near_R_passing_raised",
+      "far": "far_L_passing_planted",
+      "sourceToOwnEvidence": "Source narrow silhouette only; assignment near swing/far support is an explicit own art choice, not source anatomical recovery.",
+      "confidence": "artistic_proposal_only",
+      "sourceObservation": "Narrow/overlapping lower silhouette, foot and leg each11x6 at45,75. No independently labelled anatomical leg chain.",
+      "nativeFrameTimingMs": null,
+      "worldRoot": null,
+      "currentCandidateAlreadyAvailable": [],
+      "missingParts": [
+        "near_R_passing_raised",
+        "far_L_passing_planted"
+      ],
+      "registration": null,
+      "approved": false
+    },
+    {
+      "nativeIndex": 1,
+      "ownCandidateRole": "wide contact A reference",
+      "near": "near_R_forward",
+      "far": "far_L_backward",
+      "sourceToOwnEvidence": "Existing A supplies the wide opposite reach. Native screen-left bottom79/right81 does not prove the current two planted art soles are exact native contacts.",
+      "confidence": "outline_reference_candidate_not_native_contact_proof",
+      "sourceObservation": "Wide left/right shoe separation; screen-left leg-component bottom79, screen-right81. Screen-left outline is shallower. This is a visible level difference, not a proved ground-contact label.",
+      "nativeFrameTimingMs": null,
+      "worldRoot": null,
+      "currentCandidateAlreadyAvailable": [
+        "near_R_forward",
+        "far_L_backward"
+      ],
+      "missingParts": [],
+      "registration": null,
+      "approved": false
+    },
+    {
+      "nativeIndex": 2,
+      "ownCandidateRole": "A-side lift / transition",
+      "near": "near_R_forward",
+      "far": "far_L_passing_raised",
+      "sourceToOwnEvidence": "Source screen-left foot lifts while screen-right stays lower. Assigning rear swing to own farLEFT is provisional; use future art/chain review, not X-sort.",
+      "confidence": "support_side_unconfirmed",
+      "sourceObservation": "Screen-left component moves up to72..78, right remains76..81. Left shoe is raised relative to right by the lower-boundary evidence.",
+      "nativeFrameTimingMs": null,
+      "worldRoot": null,
+      "currentCandidateAlreadyAvailable": [
+        "near_R_forward"
+      ],
+      "missingParts": [
+        "far_L_passing_raised"
+      ],
+      "registration": null,
+      "approved": false
+    },
+    {
+      "nativeIndex": 3,
+      "ownCandidateRole": "opposite narrow passing before B",
+      "near": "near_R_passing_planted",
+      "far": "far_L_passing_raised",
+      "sourceToOwnEvidence": "Source lower layers repeat0 but do not expose persistent identity. Own inverse support/swing must remain distinct; do not alias own0/3.",
+      "confidence": "artistic_proposal_only",
+      "sourceObservation": "Same recorded body/foot/leg/cloth/hair signature,size,offset as0, but face bytes differ. Whole pose must not be aliased.",
+      "nativeFrameTimingMs": null,
+      "worldRoot": null,
+      "currentCandidateAlreadyAvailable": [],
+      "missingParts": [
+        "near_R_passing_planted",
+        "far_L_passing_raised"
+      ],
+      "registration": null,
+      "approved": false
+    },
+    {
+      "nativeIndex": 4,
+      "ownCandidateRole": "wide B silhouette placeholder, physical contact conflict pending",
+      "near": "near_R_backward",
+      "far": "far_L_forward",
+      "sourceToOwnEvidence": "Native screen-right is higher(bottom78) while left reaches81. Treating B front/farLEFT as planted would conflict with that visible envelope; do not call native contactB matched. A different timing/phase-role interpretation may be necessary.",
+      "confidence": "explicit_contact_mapping_conflict",
+      "sourceObservation": "Opposite visible lift envelope: screen-left76..81, screen-right72..78. Screen-right component is higher; anatomical side unknown.",
+      "nativeFrameTimingMs": null,
+      "worldRoot": null,
+      "currentCandidateAlreadyAvailable": [
+        "near_R_backward",
+        "far_L_forward"
+      ],
+      "missingParts": [],
+      "registration": null,
+      "approved": false
+    },
+    {
+      "nativeIndex": 5,
+      "ownCandidateRole": "B-side recovery / transition placeholder",
+      "near": "near_R_passing_raised",
+      "far": "far_L_forward",
+      "sourceToOwnEvidence": "Equal bottom80 with differing shoe forms; not enough to prove which side is physically planted. Own near swing/far support remains unconfirmed.",
+      "confidence": "contact_state_unconfirmed",
+      "sourceObservation": "Both leg-component lower bounds80, but left starts73 and right75 with different shoe forms. Equal lower bounds do not prove both planted or prove phase equivalence.",
+      "nativeFrameTimingMs": null,
+      "worldRoot": null,
+      "currentCandidateAlreadyAvailable": [
+        "far_L_forward"
+      ],
+      "missingParts": [
+        "near_R_passing_raised"
+      ],
+      "registration": null,
+      "approved": false
+    }
+  ],
+  "phaseRolesRecoveredFromNative": false,
+  "sourceAnatomicalNearFarConfirmed": false,
+  "nativeTimingMs": null,
+  "worldRoot": null,
+  "drawScaleRecommendation": "current-static-alpha-scale.json",
+  "sourceIdentityPolicy": "Original source shape only informs functional pose/camera. New art keeps own Daoist material/character; no original QQ hair/clothing/face copied.",
+  "noNewGuideOrArtworkProduced": true,
+  "noRigOrAnimationAuthored": true,
+  "runtimeEnabled": false,
+  "staticAccepted": false,
+  "fullAnimationAccepted": false,
+  "nextStep": "Coordinator reviews phase4 conflict and minimum source-piece plan before any new art. No generation/render/runtime work begun by this task."
+}

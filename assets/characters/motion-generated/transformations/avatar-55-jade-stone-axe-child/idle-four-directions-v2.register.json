@@ -1,0 +1,25 @@
+{
+  "file":"assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/idle-four-directions-v2.png",
+  "prompt":"assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/idle-four-directions-v2.prompt.txt",
+  "hostSource":"C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-7d3582fc-428a-416c-81f4-265b3545f849.png",
+  "editTarget":"assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/idle-four-directions-v1.png",
+  "references":[
+    {"path":"D:/work/qqtang-ui/assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/idle-four-directions-v1.png","role":"exact four-direction edit target; remove extra rear blade in E/W only"},
+    {"path":"D:/work/qqtang-ui/assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/master.png","role":"selected own identity; exactly two single-headed axes"},
+    {"path":"D:/work/qqtang-ui/references/image/01-mail-event.png","role":"primary Daoist Q style"},
+    {"path":"D:/work/qqtang-ui/references/image/team-ui-v2.png","role":"primary Daoist Q style"}
+  ],
+  "status":"corrected_four_direction_static_candidate_pending_single_source_qa",
+  "review":{
+    "kind":"temporary_form_four_direction_idle_stills_not_animation",
+    "avatarRoleId":55,
+    "requestedOrder":["N","E","S","W"],
+    "actualVisualOrder":["N","E","S","W"],
+    "missingDirections":[],
+    "sourceDirectionEvidence":"assets/characters/motion-generated/transformations/native-body-direction-evidence.json",
+    "sourceDirectionCount":4,
+    "sourceDirectionIndexOrder":null,
+    "runtimeEnabled":false,
+    "pending":["single-source alpha/ownership","two axes/hand chains after edit","shared scale/root and client"]
+  }
+}

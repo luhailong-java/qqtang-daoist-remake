@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "createdAtUTC": "2026-10-29T04:10:57.581Z",
+  "scope": "Existing sixPNG maximum plus text/metadata and arithmetic, no new visual outputs.",
+  "sourceFacts": "native-phase-facts.json",
+  "requirements": "passing-leg-requirements-and-six-phase-candidates.json",
+  "scale": "current-static-alpha-scale.json",
+  "exactPngBudget": {
+    "actuallyViewedBoards": 4,
+    "alphaOnlyDecodedStaticRgba": 2,
+    "totalUnique": 6,
+    "additionalClientPackageDecodes": 0,
+    "newPngOutputs": 0
+  },
+  "codeEvidence": {
+    "app": {
+      "file": "src/app.js",
+      "sha256": "9c95953c1a4f4f3ad27edacfa624b92570fed1b1b42b15a71cccceae311591fe",
+      "sourceMapCell": 40,
+      "legacyDrawSpaceCell": 64,
+      "unit": 0.625,
+      "actorFallbackDrawBox": [
+        82,
+        90
+      ],
+      "actorFallbackLogicalVisibleHeight": 56.25,
+      "sourceLines": [
+        "  const ctx=canvas.getContext('2d'),cell=g.sourceMap?40:64,unit=cell/64,now=performance.now(),density=2;",
+        "  const drawScaled=draw=>{ctx.save();ctx.scale(unit,unit);draw();ctx.restore();};",
+        "      if(!animated)drawSprite(ctx,char(p.character).sprite,p.x*64-9,p.y*64-27,82,90);"
+      ]
+    },
+    "art": {
+      "file": "assets/art.json",
+      "sha256": "db77e38b3d4c273cfa5b9e3f98ad52662fa224bd8ecd282444ab836365516827",
+      "daoistFallbackSource": {
+        "file": "./assets/characters/runtime/daoist-child.png",
+        "width": 1024,
+        "height": 1024,
+        "rect": [
+          195,
+          59,
+          633,
+          907
+        ]
+      }
+    },
+    "fallbackScaleMath": "drawSprite min(82/633,90/907) is height-limited, then sourceMap unit40/64 =>56.25logical px; renderer source read only."
+  },
+  "drawScaleRecommendation": {
+    "fixedReferenceSpanH": 444,
+    "oneSharedScale": 0.1266891891891892,
+    "full627CanvasLogicalSize": 79.43412162162163,
+    "full627CanvasSizeInExisting64DrawSpace": 127.09459459459461,
+    "mapCellChanged": false,
+    "nativeOneToOneClaim": false
+  },
+  "preservedUnknowns": [
+    "Native time unit/duration; old[4,300] remains uninterpreted",
+    "Original complete render order/head1 contribution",
+    "Original actor world root/collision anchor",
+    "Persistent source nearRIGHT/farLEFT leg identities",
+    "Exact physical heel/toe ground contacts"
+  ],
+  "runtimeEnabled": false,
+  "newImagegenCalls": 0,
+  "rendererOrTestsOrBrowserExecuted": false
+}

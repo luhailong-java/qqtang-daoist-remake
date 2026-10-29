@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "archive": "D:\\work\\qqtang-ui\\.artifacts\\reference-inputs\\QQTang-Local-v1.3.4.zip",
+  "expectedArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "archiveHashEvidence": "Fixed ZIP previously verified; no whole288MB rehash during heavy-resource freeze",
+  "archiveEntry": "QQTang-Local/runtime/client-patched/Client.exe",
+  "entryBytes": 13860864,
+  "entryCRC32": "04f986c5",
+  "readMode": "zipfile read-only PE32 header and one bounded data slice; ZipExtFile.seek can stream-decompress preceding bytes internally; no input execution or extraction",
+  "logicalReadsBytes": 16960,
+  "executedInput": false,
+  "disassemblyPerformed": false,
+  "machine": "0x14c",
+  "imageBase": "0x400000",
+  "peOffset": 272,
+  "dataVA": "0x7f2680",
+  "dataRVA": "0x3f2680",
+  "fileOffset": 4138624,
+  "dataBytes": 576,
+  "dataSha256": "e509c932687b37dad63b6e3cc3926a3e267617215a75a54bb151c9815106eda9",
+  "containingSection": {
+    "name": ".tp3",
+    "virtualSize": 553212,
+    "rva": 4034560,
+    "rawSize": 557056,
+    "rawOffset": 4034560
+  },
+  "source": {
+    "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+    "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/rolecatalog/combat.go",
+    "gitBlobSha": "766a1fc16538714b400f526c3f5094d375b93113"
+  },
+  "semanticsEvidence": "Names/order of six attributes are from combat.go declarations/comments; raw PE comparison independently confirms numeric bytes, not original function usage, gameplay timing or official authenticity",
+  "comparedPlayableRows": 20,
+  "matchedPlayableRows": 20,
+  "rows": [
+    {
+      "sourceRoleId": 0,
+      "va": "0x7f2680",
+      "rawDwords": [
+        4660,
+        4660,
+        4660,
+        4660,
+        4660,
+        4660
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expectedFromCombatGo": null,
+      "matchesCombatGo": null
+    },
+    {
+      "sourceRoleId": 1,
+      "va": "0x7f2698",
+      "rawDwords": [
+        4662,
+        4658,
+        4662,
+        4668,
+        4656,
+        4659
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        6,
+        2,
+        8,
+        4,
+        7
+      ],
+      "expectedFromCombatGo": [
+        2,
+        6,
+        2,
+        8,
+        4,
+        7
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 2,
+      "va": "0x7f26b0",
+      "rawDwords": [
+        4662,
+        4658,
+        4663,
+        4669,
+        4656,
+        4658
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        6,
+        3,
+        9,
+        4,
+        6
+      ],
+      "expectedFromCombatGo": [
+        2,
+        6,
+        3,
+        9,
+        4,
+        6
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 3,
+      "va": "0x7f26c8",
+      "rawDwords": [
+        4661,
+        4657,
+        4662,
+        4669,
+        4657,
+        4659
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        5,
+        2,
+        9,
+        5,
+        7
+      ],
+      "expectedFromCombatGo": [
+        1,
+        5,
+        2,
+        9,
+        5,
+        7
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 4,
+      "va": "0x7f26e0",
+      "rawDwords": [
+        4661,
+        4659,
+        4663,
+        4669,
+        4656,
+        4659
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        7,
+        3,
+        9,
+        4,
+        7
+      ],
+      "expectedFromCombatGo": [
+        1,
+        7,
+        3,
+        9,
+        4,
+        7
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 5,
+      "va": "0x7f26f8",
+      "rawDwords": [
+        4662,
+        4659,
+        4663,
+        4668,
+        4663,
+        4659
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        7,
+        3,
+        8,
+        3,
+        7
+      ],
+      "expectedFromCombatGo": [
+        2,
+        7,
+        3,
+        8,
+        3,
+        7
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 6,
+      "va": "0x7f2710",
+      "rawDwords": [
+        4661,
+        4658,
+        4662,
+        4659,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        6,
+        2,
+        7,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        1,
+        6,
+        2,
+        7,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 7,
+      "va": "0x7f2728",
+      "rawDwords": [
+        4661,
+        4668,
+        4663,
+        4669,
+        4663,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        8,
+        3,
+        9,
+        3,
+        8
+      ],
+      "expectedFromCombatGo": [
+        1,
+        8,
+        3,
+        9,
+        3,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 8,
+      "va": "0x7f2740",
+      "rawDwords": [
+        4661,
+        4659,
+        4662,
+        4658,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        7,
+        2,
+        6,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        1,
+        7,
+        2,
+        6,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 9,
+      "va": "0x7f2758",
+      "rawDwords": [
+        4662,
+        4658,
+        4663,
+        4659,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        6,
+        3,
+        7,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        2,
+        6,
+        3,
+        7,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 10,
+      "va": "0x7f2770",
+      "rawDwords": [
+        4663,
+        4668,
+        4656,
+        4669,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        3,
+        8,
+        4,
+        9,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        3,
+        8,
+        4,
+        9,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 11,
+      "va": "0x7f2788",
+      "rawDwords": [
+        4663,
+        4668,
+        4656,
+        4669,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        3,
+        8,
+        4,
+        9,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        3,
+        8,
+        4,
+        9,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 12,
+      "va": "0x7f27a0",
+      "rawDwords": [
+        4661,
+        4668,
+        4662,
+        4669,
+        4656,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        8,
+        2,
+        9,
+        4,
+        8
+      ],
+      "expectedFromCombatGo": null,
+      "matchesCombatGo": null
+    },
+    {
+      "sourceRoleId": 13,
+      "va": "0x7f27b8",
+      "rawDwords": [
+        4662,
+        4668,
+        4663,
+        4659,
+        4656,
+        4658
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        8,
+        3,
+        7,
+        4,
+        6
+      ],
+      "expectedFromCombatGo": [
+        2,
+        8,
+        3,
+        7,
+        4,
+        6
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 14,
+      "va": "0x7f27d0",
+      "rawDwords": [
+        4661,
+        4659,
+        4662,
+        4658,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        7,
+        2,
+        6,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        1,
+        7,
+        2,
+        6,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 15,
+      "va": "0x7f27e8",
+      "rawDwords": [
+        4662,
+        4659,
+        4663,
+        4669,
+        4656,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        7,
+        3,
+        9,
+        4,
+        8
+      ],
+      "expectedFromCombatGo": [
+        2,
+        7,
+        3,
+        9,
+        4,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 16,
+      "va": "0x7f2800",
+      "rawDwords": [
+        4661,
+        4668,
+        4663,
+        4669,
+        4656,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        8,
+        3,
+        9,
+        4,
+        8
+      ],
+      "expectedFromCombatGo": [
+        1,
+        8,
+        3,
+        9,
+        4,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 17,
+      "va": "0x7f2818",
+      "rawDwords": [
+        4660,
+        4660,
+        4660,
+        4660,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        0,
+        0,
+        0,
+        0,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": null,
+      "matchesCombatGo": null
+    },
+    {
+      "sourceRoleId": 18,
+      "va": "0x7f2830",
+      "rawDwords": [
+        4661,
+        4658,
+        4661,
+        4658,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        1,
+        6,
+        1,
+        6,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        1,
+        6,
+        1,
+        6,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 19,
+      "va": "0x7f2848",
+      "rawDwords": [
+        4662,
+        4668,
+        4661,
+        4658,
+        4656,
+        4659
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        8,
+        1,
+        6,
+        4,
+        7
+      ],
+      "expectedFromCombatGo": [
+        2,
+        8,
+        1,
+        6,
+        4,
+        7
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 20,
+      "va": "0x7f2860",
+      "rawDwords": [
+        4662,
+        4658,
+        4661,
+        4657,
+        4656,
+        4658
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        6,
+        1,
+        5,
+        4,
+        6
+      ],
+      "expectedFromCombatGo": [
+        2,
+        6,
+        1,
+        5,
+        4,
+        6
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 21,
+      "va": "0x7f2878",
+      "rawDwords": [
+        4662,
+        4668,
+        4661,
+        4657,
+        4663,
+        4658
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        8,
+        1,
+        5,
+        3,
+        6
+      ],
+      "expectedFromCombatGo": [
+        2,
+        8,
+        1,
+        5,
+        3,
+        6
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 22,
+      "va": "0x7f2890",
+      "rawDwords": [
+        4662,
+        4658,
+        4663,
+        4659,
+        4657,
+        4668
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        2,
+        6,
+        3,
+        7,
+        5,
+        8
+      ],
+      "expectedFromCombatGo": [
+        2,
+        6,
+        3,
+        7,
+        5,
+        8
+      ],
+      "matchesCombatGo": true
+    },
+    {
+      "sourceRoleId": 23,
+      "va": "0x7f28a8",
+      "rawDwords": [
+        4660,
+        4660,
+        4660,
+        4660,
+        4660,
+        4660
+      ],
+      "xorKey": "0x1234",
+      "decodedSixValues": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expectedFromCombatGo": null,
+      "matchesCombatGo": null
+    }
+  ],
+  "mismatches": []
+}

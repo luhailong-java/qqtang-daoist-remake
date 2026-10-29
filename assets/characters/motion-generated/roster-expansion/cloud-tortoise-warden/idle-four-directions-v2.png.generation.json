@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v2.png",
+  "sha256": "c3afcf4cf9a5c48bd9978f7f7bcd935c2a41995537cced36fa6f99581ea28cfc",
+  "generatedAt": "2026-10-28T21:02:20.272Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v1.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v2.prompt.txt",
+  "promptSha256": "ad805a7789a463bfd598e691fda30edd898eb3816c17897a581831522c9f5f59",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v1.png",
+      "role": "AI reframe target, v1 center row crosses alpha",
+      "sha256": "b65c09ef44aed2f0e47e3338cae6790ec8b6bbaecb540f10a2a975ec374a25a9"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png",
+      "role": "own identity master",
+      "sha256": "8813c588ffdd453088efba6b050331c1487872af75a33fa68cd69b0535978588"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-cf2329f3-ac53-4e17-bc9e-320e695c5c1f.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/idle-four-directions-v1.png",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "orderMatchesRequest": true,
+    "runtimeEnabled": false,
+    "pending": [
+      "requested per-cell margins/450px height/shared foot-root not strictly achieved",
+      "asymmetric hair-clip/equipment near-far occlusion and cross-direction scale",
+      "source ownership/registration and actual client"
+    ],
+    "editReason": "v1 crossed nominal middle row; AI redrew all four at smaller common apparent scale, not programmed bbox fitting",
+    "qa": "cloud-tortoise-warden/qa/idle-four-directions-v2.alpha-review.json",
+    "actualAlphaEvidence": {
+      "extrema": [
+        0,
+        255
+      ],
+      "outerEdges": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "seams": {
+        "leftOfVertical": 0,
+        "rightOfVertical": 0,
+        "aboveHorizontal": 0,
+        "belowHorizontal": 0
+      }
+    },
+    "ivoryViewed": true,
+    "sharedRootApproved": false
+  },
+  "status": "direction_still_candidate_shared_root_margin_identity_details_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}

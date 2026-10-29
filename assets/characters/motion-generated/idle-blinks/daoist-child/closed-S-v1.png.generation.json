@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/idle-blinks/daoist-child/closed-S-v1.png",
+  "sha256": "1997c27c1cbb0671f464a1247f3f1fe7fcee1bf225a7efe51efd9758b60cf3bc",
+  "generatedAt": "2026-10-28T23:14:37.395Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/daoist-child/open-S.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/idle-blinks/daoist-child/closed-S-v1.prompt.txt",
+  "promptSha256": "e83287bf303b42f546cd6c0bf496ff3970c8241474258c1d4cd4c4fd6fac3b50",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/daoist-child/open-S.png",
+      "role": "exact own SOUTH/front open-eye edit target; same whole canvas/body/hands/props/boots; source record assets/characters/motion-generated/idle-blinks/daoist-child/open-S.png.source.json",
+      "sha256": "d125a9c78b6d9fc7d47a90ccf7f44f94e5e325e13ee2e05e97e9bd1e761e09f2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist Q style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist Q style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-14df8f6d-41bc-49f9-830a-4eb8a8032801.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/idle-blinks/daoist-child/open-S.png",
+  "review": {
+    "kind": "one_S_closed_eye_idle_key_not_walk_or_full_animation",
+    "character": "daoist-child",
+    "direction": "S",
+    "sourceCanvas": [
+      768,
+      768
+    ],
+    "sourceOpen": "assets/characters/motion-generated/idle-blinks/daoist-child/open-S.png",
+    "sourceOpenSha256": "d125a9c78b6d9fc7d47a90ccf7f44f94e5e325e13ee2e05e97e9bd1e761e09f2",
+    "editOfSourceRecord": "assets/characters/motion-generated/idle-blinks/daoist-child/open-S.png.source.json",
+    "wholeCanvasOnly": true,
+    "borrowedRoot": false,
+    "root": null,
+    "runtimeEnabled": false,
+    "clientApproved": false,
+    "oneEditOnly": true,
+    "actualVisualViewed": true,
+    "comparison": "assets/characters/motion-generated/idle-blinks/daoist-child/closed-S-v1.review.json",
+    "localStaticCandidate": true,
+    "visualObservation": "Both eyes gently closed. Hair/headband, smile, body, hands, golden gourd, boots and S camera visually preserved; sole boundary maximum1px difference after entire-canvas restoration.",
+    "handChain": "LEFT holds the original whole golden Taiji gourd screen-right; RIGHT empty screen-left.",
+    "maxAbsSoleBBoxDelta": 1
+  },
+  "status": "closed_eye_idle_key_candidate_local_static_review_passed_client_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}

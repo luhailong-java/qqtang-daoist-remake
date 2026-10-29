@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/walk-east-v3.png",
+  "sha256": "e3325d94c7b307c4a63865f20ef9974c1822db781b89fd8ff413942066f3bf65",
+  "generatedAt": "2026-10-28T09:38:34.013927+00:00",
+  "timeEvidence": "UTC registration after builtin tool return, not provider creation metadata",
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/walk-east-v2.png",
+      "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具没有model/quality选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets/characters/motion-generated/moon-shadow/walk-east-v3.prompt.txt",
+  "promptSha256": "cf8bae2c1b66d98f29981df3813ad96737a146d317a3f00cb176944f5e7e029b",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/walk-east-v2.png",
+      "role": "edit target",
+      "sha256": "f1ab9f9ab0ef0e40ffc4694e888d84b1b04e23a76d83fecd3746986cbe064fe6"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "role": "original identity master",
+      "sha256": "c459e26a3ef58c02a46ca8b14655d377527630994b8dfe61b58a41e970b7ae3b"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-6ebf7c7b-c01c-4027-8fd7-ad71fd48aa79.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/moon-shadow/walk-east-v2.png",
+  "review": {
+    "identity": "hair ornament now consistently visible in all four frames",
+    "gait": "1/3 and2/4 silhouette remains too similar to establish opposite near/far limb phases",
+    "failureReasons": [
+      "opposite_leg_phase_not_established"
+    ]
+  },
+  "status": "not_passed",
+  "clientApproved": false,
+  "userAccepted": false
+}

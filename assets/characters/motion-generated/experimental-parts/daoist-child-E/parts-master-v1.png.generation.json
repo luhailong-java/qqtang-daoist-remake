@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png",
+  "sha256": "ff9422e3bd0ed64373131da5f6da9a27de63459fee25dcc7a6592c09937663da",
+  "generatedAt": "2026-10-28T22:04:02.281Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/runtime/daoist-child.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v4.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.prompt.txt",
+  "promptSha256": "30da4aa3900de6298fd141c7d2839975c5afba415258116001a857714b2f15c7",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/daoist-child.png",
+      "role": "selected original own identity",
+      "sha256": "fec0ecc7881d65daf5cc9ee095ae6964ac7b76ec243df665e48b90b89758de63"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v4.png",
+      "role": "actual East camera/props; gait not approved",
+      "sha256": "c44af3d8a246fd1058e6a9fe19ed62d1ace029f1ab18cbadec360bbc8419f582"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-5661b471-16fe-4afb-85a7-76823e7bf74d.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/runtime/daoist-child.png",
+  "review": {
+    "kind": "new_imagegen_painted_parts_not_finished_animation",
+    "requestedPartCount": 16,
+    "visualPartCount": 16,
+    "mainParts": 14,
+    "hemCovers": 2,
+    "direction": "E",
+    "anatomicalNear": "RIGHT",
+    "anatomicalFar": "LEFT",
+    "holdingHand": "LEFT hand and complete gourd one part",
+    "actualCommonPhysicalScale": "not established; model visually enlarged individual sleeve/boot pieces relative to head",
+    "hiddenCaps": "oval sleeve/boot mouths visible; requested20–30px full hidden coverage not yet established",
+    "pivotsAccurate": false,
+    "bindApproved": false,
+    "runtimeEnabled": false,
+    "pending": [
+      "exact alpha/ownership boundaries",
+      "common bind scale/hidden joint coverage",
+      "rig trial and96px seam test after machine return"
+    ],
+    "ivoryActuallyViewed": true,
+    "alphaEvidence": "assets/characters/motion-generated/experimental-parts/daoist-child-E/qa/parts-master-v1.alpha-review.json",
+    "nominalEqualGridApproved": false,
+    "sourceScaleApproved": false
+  },
+  "status": "experimental_parts_atlas_not_rig_ready",
+  "clientApproved": false,
+  "userAccepted": false
+}

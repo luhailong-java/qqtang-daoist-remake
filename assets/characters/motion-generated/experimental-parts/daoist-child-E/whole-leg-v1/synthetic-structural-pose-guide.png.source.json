@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "file": "synthetic-structural-pose-guide.png",
+  "sha256": "f2d4923a1d4d233b270a0fddee5dee64c464d4d1a4e5d94324055e7f07f199f8",
+  "createdAt": "2026-10-29T01:00:03.376332+00:00",
+  "canvasSize": [
+    1536,
+    1024
+  ],
+  "cellSize": [
+    768,
+    512
+  ],
+  "artSource": "code_engineering_reference_only",
+  "operation": "Pillow bone-point and line schematic from parent supplied project intent",
+  "isAiGenerated": false,
+  "isOfficialGameArt": false,
+  "isOriginalQQEvidence": false,
+  "physicalSource": "Synthetic project-local human pose intent. Coordinates are examples, not recovered native bones.",
+  "pixelScale": "one shared atlas pixel scale; no per-cell bbox normalization",
+  "near": "anatomical RIGHT",
+  "far": "anatomical LEFT",
+  "screenFacing": "E / RIGHT",
+  "poses": [
+    {
+      "id": "near_RIGHT_forward",
+      "cell": [
+        0,
+        0
+      ],
+      "cellOrigin": [
+        0,
+        0
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          300,
+          60
+        ],
+        "knee": [
+          345,
+          203
+        ],
+        "ankle": [
+          400,
+          343
+        ],
+        "toe": [
+          458,
+          363
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          300,
+          60
+        ],
+        "knee": [
+          345,
+          203
+        ],
+        "ankle": [
+          400,
+          343
+        ],
+        "toe": [
+          458,
+          363
+        ]
+      },
+      "toeMinusHipX": 158,
+      "toeMinusAnkleX": 58,
+      "segmentLengths": {
+        "hipToKnee": 149.91330828182,
+        "kneeToAnkle": 150.41608956491322,
+        "ankleToToe": 61.35144660071187
+      },
+      "anatomicalIdentityAssignedByProject": true
+    },
+    {
+      "id": "near_RIGHT_backward",
+      "cell": [
+        1,
+        0
+      ],
+      "cellOrigin": [
+        768,
+        0
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          420,
+          60
+        ],
+        "knee": [
+          370,
+          201
+        ],
+        "ankle": [
+          310,
+          339
+        ],
+        "toe": [
+          368,
+          359
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          1188,
+          60
+        ],
+        "knee": [
+          1138,
+          201
+        ],
+        "ankle": [
+          1078,
+          339
+        ],
+        "toe": [
+          1136,
+          359
+        ]
+      },
+      "toeMinusHipX": -52,
+      "toeMinusAnkleX": 58,
+      "segmentLengths": {
+        "hipToKnee": 149.60280746028798,
+        "kneeToAnkle": 150.47923444781344,
+        "ankleToToe": 61.35144660071187
+      },
+      "anatomicalIdentityAssignedByProject": true
+    },
+    {
+      "id": "far_LEFT_forward",
+      "cell": [
+        0,
+        1
+      ],
+      "cellOrigin": [
+        0,
+        512
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          300,
+          60
+        ],
+        "knee": [
+          345,
+          203
+        ],
+        "ankle": [
+          400,
+          343
+        ],
+        "toe": [
+          458,
+          363
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          300,
+          572
+        ],
+        "knee": [
+          345,
+          715
+        ],
+        "ankle": [
+          400,
+          855
+        ],
+        "toe": [
+          458,
+          875
+        ]
+      },
+      "toeMinusHipX": 158,
+      "toeMinusAnkleX": 58,
+      "segmentLengths": {
+        "hipToKnee": 149.91330828182,
+        "kneeToAnkle": 150.41608956491322,
+        "ankleToToe": 61.35144660071187
+      },
+      "anatomicalIdentityAssignedByProject": true
+    },
+    {
+      "id": "far_LEFT_backward",
+      "cell": [
+        1,
+        1
+      ],
+      "cellOrigin": [
+        768,
+        512
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          420,
+          60
+        ],
+        "knee": [
+          370,
+          201
+        ],
+        "ankle": [
+          310,
+          339
+        ],
+        "toe": [
+          368,
+          359
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          1188,
+          572
+        ],
+        "knee": [
+          1138,
+          713
+        ],
+        "ankle": [
+          1078,
+          851
+        ],
+        "toe": [
+          1136,
+          871
+        ]
+      },
+      "toeMinusHipX": -52,
+      "toeMinusAnkleX": 58,
+      "segmentLengths": {
+        "hipToKnee": 149.60280746028798,
+        "kneeToAnkle": 150.47923444781344,
+        "ankleToToe": 61.35144660071187
+      },
+      "anatomicalIdentityAssignedByProject": true
+    }
+  ],
+  "worldRoot": null,
+  "timing": null,
+  "runtimeAdopted": false
+}

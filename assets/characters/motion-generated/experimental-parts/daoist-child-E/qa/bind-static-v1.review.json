@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "status": "not_passed_static_bind_visible_joint_and_clothing_layer_conflicts",
+  "reviewedAt": "2026-10-28",
+  "scope": "Exactly one parent-authorized627px static composition, actual ivory image viewed. No animation, browser, tests or additional renders.",
+  "render": "assets/characters/motion-generated/experimental-parts/daoist-child-E/qa/bind-static-v1-ivory.png",
+  "renderSha256": "4b089e17817e7621a1be3456e7166223ad026b946fe89e228d2600580537f96a",
+  "provenance": "assets/characters/motion-generated/experimental-parts/daoist-child-E/qa/bind-static-v1-ivory.png.source.json",
+  "proposal": "assets/characters/motion-generated/experimental-parts/daoist-child-E/bind-static-v1.proposal.json",
+  "actualVisualViewed": true,
+  "identityObservations": [
+    "Head/one visible eye/nose clearly face screen-right; own short spiky brown hair/yellow headband and warm face remain recognizable.",
+    "Original golden Taiji gourd is held by anatomical LEFT part, nearRIGHT hand is empty. No source mirroring was used.",
+    "Head/torso neck does not show a large open gap, but collar overlap is still not approved."
+  ],
+  "visibleFailures": [
+    {
+      "region": "nearRIGHT shoulder",
+      "observation": "Torso armhole gold/jade ring plus independently finished upper-arm cap produce a second obvious oval tube/rim above the upper arm; joint looks layered rather than a continuous sleeve.",
+      "blocking": true
+    },
+    {
+      "region": "farLEFT shoulder/forearm",
+      "observation": "A short open-looking finished sleeve cap protrudes behind the gourd; its elliptical mouth and connector are visually ambiguous.",
+      "blocking": true
+    },
+    {
+      "region": "both thighs/shins/ankles",
+      "observation": "Each source segment already carries complete cloud-pattern trouser bulges and gold hems. Together they form multiple tiny cuffed puffs and a thin segmented leg instead of the own master's round short trousers.",
+      "blocking": true
+    },
+    {
+      "region": "pelvis and robe",
+      "observation": "Torso's already complete hanging robe plus two separate hem covers produce an extra lower skirt layer and duplicated gold edges/loose flap near hips and fist.",
+      "blocking": true
+    },
+    {
+      "region": "overall physical scale",
+      "observation": "Static framing fits within the proposed plane, but manually shrunk body and limb pieces remain materially less natural than the identity master. Fitting within627 is not a common-scale/style approval.",
+      "blocking": true
+    }
+  ],
+  "notPerformed": [
+    "No walk action or contact phase keyframes",
+    "No second static composition or extra parts generation",
+    "No96px/dark/animation/browser/client check",
+    "No source atlas/parts PNG repaint, runtime manifest, src or Git change"
+  ],
+  "nextIndependentDecision": "Keep this first proposal/render as unapproved evidence. A later authorized revision should simplify duplicated painted clothing joints or choose new properly capped anatomical pieces; moving roots or forcing a walk must not hide the static defects.",
+  "staticBindApproved": false,
+  "commonPhysicalScaleApproved": false,
+  "runtimeEnabled": false,
+  "fullAnimationComplete": false
+}

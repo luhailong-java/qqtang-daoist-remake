@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "reviewedAt": "2026-10-29T03:20:03.847Z",
+  "reviewScope": "Read existing coordinator contact images and proposal/code only. No second crop/render, pixel decode sweep, AI generation, browser, build or test.",
+  "sourceProposal": "../root-contact-diagnostic/proposal.json",
+  "sourceProposalSha256": "2390da7e55d4fc943c522ebde08e3795da24b7469bbc91d5b15c555833dbf94d",
+  "actuallyViewed": [
+    "../root-contact-diagnostic/two-contacts-ivory.png",
+    "../root-contact-diagnostic/contact-A-ivory.png",
+    "../root-contact-diagnostic/contact-B-ivory.png"
+  ],
+  "viewedFilesEvidence": [
+    {
+      "file": "../root-contact-diagnostic/two-contacts-ivory.png",
+      "sha256": "27626f52a4192e652f7b6222a2e444b4a1f272585efd9a7d847ba452893aabbf"
+    },
+    {
+      "file": "../root-contact-diagnostic/contact-A-ivory.png",
+      "sha256": "0501b37a14aaee2f1ce66c56d41f600fa1ed5cbdf27ff73f75ac2200cabc7c77"
+    },
+    {
+      "file": "../root-contact-diagnostic/contact-B-ivory.png",
+      "sha256": "eb7e73b1f9ac53a547cbf1d69bb612f1dcfb774507a9216fd08f33dbfa472b31"
+    }
+  ],
+  "nearFarAssignmentAndLayerOrderCoherent": true,
+  "trueScreenRightFacingVisible": true,
+  "segmentedKneeCuffProblemRemoved": true,
+  "oldAdditionalHemAbsent": true,
+  "hipCapsMostlyOccluded": true,
+  "allHipFinishedGoldEdgesFullyOccludedApproved": false,
+  "soleLandmarkEvidence": "Root manual unapproved soleCandidate points, transformed numerically from existing recorded matrices. No independent anatomical/pixel-ground approval.",
+  "transformedSolePoints": [
+    {
+      "contact": "A",
+      "solePoints": {
+        "near_R_forward": [
+          367.96000000000004,
+          528.52
+        ],
+        "far_L_backward": [
+          286.6,
+          528.48
+        ]
+      }
+    },
+    {
+      "contact": "B",
+      "solePoints": {
+        "near_R_backward": [
+          272.68,
+          526.12
+        ],
+        "far_L_forward": [
+          379.24,
+          526.0799999999999
+        ]
+      }
+    }
+  ],
+  "withinPoseSoleYDifference": 0.04,
+  "betweenPoseSoleYShift": 2.4,
+  "diagnosticGroundY": 529,
+  "rootMoved": false,
+  "commonWholeLegScale": 0.24,
+  "status": "leg_foundation_viable_static_registration_and_caps_pending",
+  "minimalUnexecutedRegistrationProposal": {
+    "near_R_forward": {
+      "currentVisualHipCandidate": [
+        93,
+        66
+      ],
+      "proposedAuthoredAttachment": [
+        93,
+        64
+      ],
+      "purpose": "Unexecuted artistic attachment inside hidden cap to register the existing manual sole landmark to one diagnostic line; not a corrected anatomical measurement",
+      "fixedHipPosition": [
+        307,
+        439
+      ],
+      "scale": 0.24,
+      "approved": false
+    },
+    "near_R_backward": {
+      "currentVisualHipCandidate": [
+        252,
+        65
+      ],
+      "proposedAuthoredAttachment": [
+        252,
+        53
+      ],
+      "purpose": "Unexecuted artistic attachment inside hidden cap to register the existing manual sole landmark to one diagnostic line; not a corrected anatomical measurement",
+      "fixedHipPosition": [
+        307,
+        439
+      ],
+      "scale": 0.24,
+      "approved": false
+    },
+    "far_L_forward": {
+      "currentVisualHipCandidate": [
+        91,
+        58
+      ],
+      "proposedAuthoredAttachment": [
+        91,
+        45.833333333333314
+      ],
+      "purpose": "Unexecuted artistic attachment inside hidden cap to register the existing manual sole landmark to one diagnostic line; not a corrected anatomical measurement",
+      "fixedHipPosition": [
+        319,
+        438
+      ],
+      "scale": 0.24,
+      "approved": false
+    },
+    "far_L_backward": {
+      "currentVisualHipCandidate": [
+        254,
+        60
+      ],
+      "proposedAuthoredAttachment": [
+        254,
+        57.833333333333314
+      ],
+      "purpose": "Unexecuted artistic attachment inside hidden cap to register the existing manual sole landmark to one diagnostic line; not a corrected anatomical measurement",
+      "fixedHipPosition": [
+        319,
+        438
+      ],
+      "scale": 0.24,
+      "approved": false
+    }
+  },
+  "upperBodyOffsetProposal": null,
+  "arms": "absent; old shoulder/arm issues remain pending, no claim of complete character",
+  "newImagegenCalls": 0,
+  "newPngOutputs": 0,
+  "newAssemblies": 0,
+  "completeAnimation": false,
+  "sourceNativeTimingMs": null,
+  "worldRoot": null,
+  "staticBindAccepted": false,
+  "runtimeAdopted": false,
+  "document": "INDEPENDENT_REVIEW_20261028.md"
+}

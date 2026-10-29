@@ -1,0 +1,85 @@
+{
+  "status": "not_passed",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "identity": "silver bob, hair ornament and twin daggers consistent across all four frames",
+    "gait": "Root visual review: near-side toe remains forward in both1and3, rear-leg angle changed without true support reversal",
+    "phaseInference": "near/far inferred from trouser cuff overlap; final dynamic/client review pending",
+    "failureReasons": [
+      "near_leg_toe_relative_to_hip_does_not_reverse_between_frames1and3"
+    ]
+  },
+  "sourceSeparators": [
+    {
+      "nominal": 512,
+      "ownershipCut": 532,
+      "safe": true,
+      "maxAlpha": 3,
+      "visiblePixelsAlphaGt8": 0
+    },
+    {
+      "nominal": 1024,
+      "ownershipCut": 1024,
+      "safe": true,
+      "maxAlpha": 4,
+      "visiblePixelsAlphaGt8": 0
+    },
+    {
+      "nominal": 1536,
+      "ownershipCut": 1536,
+      "safe": true,
+      "maxAlpha": 1,
+      "visiblePixelsAlphaGt8": 0
+    }
+  ],
+  "frameChecks": [
+    {
+      "frame": 1,
+      "alphaGt8BBox": [
+        68,
+        45,
+        200,
+        214
+      ],
+      "boundaryPixelsAlphaGt8": 0
+    },
+    {
+      "frame": 2,
+      "alphaGt8BBox": [
+        69,
+        44,
+        195,
+        215
+      ],
+      "boundaryPixelsAlphaGt8": 0
+    },
+    {
+      "frame": 3,
+      "alphaGt8BBox": [
+        67,
+        44,
+        193,
+        215
+      ],
+      "boundaryPixelsAlphaGt8": 0
+    },
+    {
+      "frame": 4,
+      "alphaGt8BBox": [
+        66,
+        44,
+        191,
+        215
+      ],
+      "boundaryPixelsAlphaGt8": 0
+    }
+  ],
+  "anchor": [
+    128,
+    217.75609756097563
+  ],
+  "sameScaleAcrossSelectedDirections": true,
+  "wholeCanvasScale": 0.2601626016260163
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "reviewedAtUTC": "2026-10-29T03:42:54.684Z",
+  "sourceProposalSha256": "17be26b9791829a211e1a1cd7b3d7f8e9079559fcd0a40170b0603b09625fa7c",
+  "actuallyViewed": [
+    {
+      "file": "two-contacts-627-ivory.png",
+      "sha256": "106e314e1f02125d39878bfae56ac9d15d58a5d32654e182da32ffb4e77fb244"
+    },
+    {
+      "file": "two-contacts-96-ivory.png",
+      "sha256": "d7699bfb3f9ad33e4efe26d0196e6e511232ae07902bdc489ee13174a21e8471"
+    }
+  ],
+  "status": "static_bind_candidate_shoulder_transition_pending",
+  "fullStaticAccepted": false,
+  "runtimeAdopted": false,
+  "completeAnimation": false,
+  "commonArmScale": 0.18,
+  "sameArmBindBothContacts": true,
+  "headTorsoLegV3MatricesPreserved": true,
+  "sourceAlpha8OwnedOnce": 319473,
+  "unassignedVisiblePixels": 0,
+  "duplicateOwnership": 0,
+  "observations": {
+    "identity": "Own Daoist child hair/band, jade-ivory-gold costume, nearRIGHT empty fist and farLEFT assigned Taiji gourd retained. No old standalone hand/gourd added.",
+    "continuousArms": "Both sleeves remain continuous shoulder/elbow/wrist; old repeated finished elbow ring is absent. Each wrist has one natural embroidered cuff.",
+    "scale": "Uniform0.18 arm transform looks broadly compatible with unchanged old head/torso and whole legs; hands/gourd are not grossly enlarged. This is a single manual bind-scale choice, not native anatomy proof.",
+    "nearShoulder": "Existing torso port still reads as a closed white sleeve stub. The new sleeve emerges under the vest with a short straight occlusion transition around designY393. Current shoulder joint is not naturally seamless enough for full-static approval.",
+    "farShoulder": "Part of the rounded far white cap peeks outside the front/chest shoulder edge. This may be sleeve volume, but attachment coverage is not yet approved.",
+    "gourdOcclusion": "Far arm is behind torso in the body area; forearm/hand/complete gourd extend into open area in front of the face direction, rather than being lost behind torso. Near fist crosses lower-front torso. No gourd/tassel edge clipping observed in the627 composition.",
+    "handedness": "FarLEFT anatomical assignment and chain are fixed in metadata; thumb largely occluded in painted grip, so isolated anatomical left-hand proof remains unconfirmed.",
+    "feet": "Copied v3 art registration intact; no new hip/leg motion or caller/root adjustment. Existing small crotch gold tip remains unresolved.",
+    "small": "Whole627 square scaled uniformly to96square. Identity/fist/gourd can be recognized at this size, but shoulder joint detail is too small to approve from this view. Visible person is about68px high, not a96px-high body."
+  },
+  "nearShoulderOcclusionPass": {
+    "sourceROI": [
+      20,
+      25,
+      132,
+      172
+    ],
+    "sameTorsoMatrix": [
+      0.48,
+      0,
+      0,
+      0.48,
+      225.18,
+      310.76
+    ],
+    "localLowerBoundaryDesignY": 393.32,
+    "sourcePixelEdit": false,
+    "armAlphaRepair": false
+  },
+  "nativeSourceLandmarks": "proposal.json armParts, visual estimates only; pivots not claimed anatomical/native recovered",
+  "holdingHandAnatomicallyConfirmed": false,
+  "sourceNativeTimingMs": null,
+  "worldRoot": null,
+  "newAiImageCount": 0,
+  "oneAssemblyBatch": true,
+  "additionalAdjustments": 0,
+  "nextAction": "Keep this one result and source records; coordinator decides whether a future occlusion/attachment change is warranted. Do not auto-repeat assembly or AI repair."
+}

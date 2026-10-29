@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v1.png",
+  "sha256": "0e908e8baf142292dc1db33fc7f1d779f62656ab4ef0690d659c89cbf4bb74f9",
+  "generatedAt": "2026-10-28T21:08:39.921Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v1.prompt.txt",
+  "promptSha256": "5b483f1bee47c70f2937d5357c3334c7edd621f737e188d5898e7b04829528a5",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+      "role": "own approved identity candidate master; exact face/hair/props",
+      "sha256": "7f3fd753d50e84e9085f9332a90f03f99583efe2396cd0579c15e0e84977eb44"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist chibi style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist chibi style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-3d0afb57-4501-413d-a7f3-2b0aad0e0370.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "W"
+    ],
+    "orderMatchesRequest": false,
+    "runtimeEnabled": false,
+    "pending": [
+      "TrueE absent; duplicateW must not be relabeled or mirrored",
+      "requested per-cell margins/450px height/shared foot-root not strictly achieved",
+      "asymmetric hair-clip/equipment near-far occlusion and cross-direction scale",
+      "source ownership/registration and actual client"
+    ],
+    "ownership": "No equal cell crop approved until alpha boundary checked.",
+    "missingDirections": [
+      "E"
+    ],
+    "qa": "jade-craft-artisan/qa/idle-four-directions-v1.alpha-review.json",
+    "actualAlphaEvidence": {
+      "extrema": [
+        0,
+        255
+      ],
+      "outerEdges": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "seams": {
+        "leftOfVertical": 0,
+        "rightOfVertical": 0,
+        "aboveHorizontal": 290,
+        "belowHorizontal": 292
+      }
+    },
+    "ivoryViewed": false,
+    "sharedRootApproved": false
+  },
+  "status": "not_passed_missing_east_after_two_attempts",
+  "clientApproved": false,
+  "userAccepted": false
+}

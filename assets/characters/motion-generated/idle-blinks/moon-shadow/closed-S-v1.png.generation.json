@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/idle-blinks/moon-shadow/closed-S-v1.png",
+  "sha256": "3bd3f8c49793575143e394cd0c5f6f777717e7f420aa11349c54a4d25c624d29",
+  "generatedAt": "2026-10-28T23:17:11.359Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/moon-shadow/open-S.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/idle-blinks/moon-shadow/closed-S-v1.prompt.txt",
+  "promptSha256": "68f046b20ba18b6b017d88deebb1abe31337387c348b56f33409371f67a9de00",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/moon-shadow/open-S.png",
+      "role": "exact own SOUTH/front open-eye edit target; same whole canvas/body/hands/props/boots; source record assets/characters/motion-generated/idle-blinks/moon-shadow/open-S.png.source.json",
+      "sha256": "53559adcf54810c7bd404b03b8888d3f1eeefaf95d262628a61c4cb178d22b86"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist Q style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist Q style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-72589c91-2de8-4cfc-97c8-ac54211d4483.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/idle-blinks/moon-shadow/open-S.png",
+  "review": {
+    "kind": "one_S_closed_eye_idle_key_not_walk_or_full_animation",
+    "character": "moon-shadow",
+    "direction": "S",
+    "sourceCanvas": [
+      768,
+      768
+    ],
+    "sourceOpen": "assets/characters/motion-generated/idle-blinks/moon-shadow/open-S.png",
+    "sourceOpenSha256": "53559adcf54810c7bd404b03b8888d3f1eeefaf95d262628a61c4cb178d22b86",
+    "editOfSourceRecord": "assets/characters/motion-generated/idle-blinks/moon-shadow/open-S.png.source.json",
+    "wholeCanvasOnly": true,
+    "borrowedRoot": false,
+    "root": null,
+    "runtimeEnabled": false,
+    "clientApproved": false,
+    "oneEditOnly": true,
+    "actualVisualViewed": true,
+    "comparison": "assets/characters/motion-generated/idle-blinks/moon-shadow/closed-S-v1.review.json",
+    "localStaticCandidate": true,
+    "visualObservation": "Both eyes gently closed. Silver bob/forelock, moon flower/beads, scarf tail, two crescent blades and full standing S silhouette preserved; sole boundary maximum1px difference.",
+    "handChain": "Both original crescent blades remain in their same hands; LEFT moon flower screen-right and OPEN C-shaped belt crescent preserved.",
+    "maxAbsSoleBBoxDelta": 1
+  },
+  "status": "closed_eye_idle_key_candidate_local_static_review_passed_client_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}

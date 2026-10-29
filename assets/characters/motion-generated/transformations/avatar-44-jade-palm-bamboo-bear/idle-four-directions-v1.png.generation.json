@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/idle-four-directions-v1.png",
+  "sha256": "6ac2d1bd3af307efb964393cd374eaeb4673c00ea4519eb716391c383d646c6c",
+  "generatedAt": "2026-10-28T22:11:29.113Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/master.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/idle-four-directions-v1.prompt.txt",
+  "promptSha256": "4aa908c2097e511a57491e8b74022ddb225a482beb934b532ba9391f8014b0cf",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/master.png",
+      "role": "selected own form identity master",
+      "sha256": "c4c6f91056e7481b2d3b06d20b61eb1715658eca434bebda20fb0ccb1a35d884"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist Q style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist Q style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-6226f972-88e1-4f76-982b-1749d7cd6680.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/master.png",
+  "review": {
+    "kind": "temporary_form_four_direction_idle_stills_not_animation",
+    "avatarRoleId": 44,
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "missingDirections": [],
+    "runtimeEnabled": false,
+    "pending": [
+      "single-source alpha/ownership",
+      "identity asymmetric attachments/true directions",
+      "shared scale/root and client"
+    ],
+    "sourceDirectionEvidence": "assets/characters/motion-generated/transformations/native-body-direction-evidence.json",
+    "sourceDirectionCount": 4,
+    "sourceDirectionIndexOrder": null,
+    "actualVisualViewed": true,
+    "issues": [
+      "Actual order differs from requested N/E/S/W: N/W/S/E",
+      "Alpha>=8 crosses nominal row cut",
+      "Physical LEFT ear leaf occlusion and common scale/root pending"
+    ],
+    "sharedPhysicalRoot": null,
+    "sharedPhysicalScale": null,
+    "clientApproved": false,
+    "fullAnimationComplete": false
+  },
+  "status": "not_passed_nominal_row_crossing",
+  "clientApproved": false,
+  "userAccepted": false
+}

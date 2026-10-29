@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v2.png",
+  "sha256": "7cb2de6035d3a9714d93a48b792cced5c9e8e1a998a9effb11ac4f9a148b45d9",
+  "generatedAt": "2026-10-28T21:21:25.012Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v1.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/master.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v2.prompt.txt",
+  "promptSha256": "b4fa6c926165fc9f87d9a27e0e3a788de1dcc5d54368041e3615442df4c33d09",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v1.png",
+      "role": "AI reframe target with ribbon/feet across nominal cell boundaries",
+      "sha256": "d21deafc62e7d9d04a8574a59561593e6226b4b97541685648c7cc11ac946c90"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/master.png",
+      "role": "own identity master",
+      "sha256": "c948ea39a2d3aff75157046e298b963a318bbfddc47366aa0742b86d1edb84ff"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-cb0d4426-7ea9-485b-97fa-f13c6513df18.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v1.png",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "runtimeEnabled": false,
+    "pending": [
+      "requested per-cell margins/450px height/shared foot-root not strictly achieved",
+      "asymmetric hair-clip/equipment near-far occlusion and cross-direction scale",
+      "source ownership/registration and actual client"
+    ],
+    "editReason": "AI redrew all4 at smaller common apparent scale to clear cell boundaries; not programmed bbox fit",
+    "qa": "paper-kite-wanderer/qa/idle-four-directions-v2.alpha-review.json",
+    "actualAlphaEvidence": {
+      "extrema": [
+        0,
+        255
+      ],
+      "outerEdges": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "seams": {
+        "leftOfVertical": 0,
+        "rightOfVertical": 0,
+        "aboveHorizontal": 0,
+        "belowHorizontal": 0
+      }
+    },
+    "ivoryViewed": true,
+    "sharedRootApproved": false
+  },
+  "status": "direction_still_candidate_shared_root_margin_identity_details_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}

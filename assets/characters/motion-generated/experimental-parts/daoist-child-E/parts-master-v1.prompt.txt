@@ -1,0 +1,33 @@
+Create ONE transparent sprite PARTS MASTER ATLAS for an experimental Canvas2D skeletal animation of our OWN 道童, TRUE EAST view, facing SCREEN-RIGHT. This is NEW independently painted component art, not cutout fragments from old frames, not a new finished animation. Reference1 exact own identity; reference2 actual East pose/camera/props; refs3/4 primary Daoist Q HD hand-painted style. The old E animation's gait is NOT approved; use it only for identity and camera.
+
+Return ONE1536x1536 transparent RGBA image, EXACT4x4 evenly spaced atlas =16 SEPARATE COMPLETE PARTS, one per cell. No assembly figure, duplicates, labels, letters, arrows, grid lines or background. Each component fully inside its cell with generous transparent separation. All parts must be drawn at ONE COMMON PHYSICAL PIXEL SCALE: intended assembled actor on627x627 bind plane is about480px tall, head about220–240px tall, torso core about120–140px, limb segments about55–85px, boots about60px long. Head is naturally much larger than arm segments; DO NOT independently enlarge tiny hands/boots to fill cells. Each part oriented in the neutral EAST bind pose, same camera/light/ink weight. Every boot/toe points RIGHT, not left.
+
+Physical anatomy: EAST camera sees anatomicalRIGHT side nearer, LEFT side farther. Keep side IDs; DO NOT mirror one set of limbs to create the other. Brown spiky short hair/yellow silk headband and knot/tails, amber eyes/cheerful own face, ivory/gold cloud sleeves and trousers, jade-green/gold short vest, green sash/front Taiji buckle and small bells, jade/ivory/gold boots. AnatomicalLEFT hand holds our ONE gold Taiji gourd with green neck band and red bead/tassel; anatomicalRIGHT hand empty relaxed small fist. The holding LEFT hand and the ENTIRE gourd are ONE combined part; no separate loose gourd and no duplicated hand.
+
+ROW1 left→right:
+1 ENTIRE E-profile head/hair/headband/tails plus short complete neck, nose pointsRIGHT; no torso.
+2 COMPLETE torso+pelvis core with ivory collar/chest, green vest upper body, sash/Taiji/bells, clothing surface newly painted UNDER where arms/legs/hem will overlap; NO head/arms/legs or long hem.
+3 NEAR anatomicalRIGHT upper arm/sleeve, shoulder→elbow.
+4 NEAR RIGHT forearm/cuff, elbow→wrist, NO hand.
+
+ROW2:
+5 NEAR RIGHT empty hand/fist with short wrist extension, NO arm.
+6 FAR anatomicalLEFT upper arm/sleeve, shoulder→elbow.
+7 FAR LEFT forearm/cuff, elbow→wrist, NO hand.
+8 FAR LEFT holding hand+ENTIRE gold Taiji gourd together, small wrist extension. No forearm/second hand; preserve gourd and tassel fully.
+
+ROW3:
+9 NEAR RIGHT trouser thigh, hip→knee.
+10 NEAR RIGHT trouser shin, knee→ankle.
+11 NEAR RIGHT boot, ankle socket/shaft→toe, outer right-side pattern, toeRIGHT.
+12 FAR LEFT trouser thigh, hip→knee.
+
+ROW4:
+13 FAR LEFT trouser shin, knee→ankle.
+14 FAR LEFT boot, ankle shaft→toe, inward side appropriate forE, toeRIGHT.
+15 NEAR FRONT jade-green/gold robe hem cover flap, from belt attachment to rounded lower edge.
+16 FAR BACK jade-green/gold robe hem cover flap, separately painted with inside cloth/hem, not mirrored copy.
+
+JOINT-COMPLETENESS CONTRACT: each shoulder/elbow/wrist/hip/knee/ankle end must have NEW FULL HIDDEN UNDERLAP SURFACE extending20–30px beyond its nominal joint (continuous cloth/flesh/boot upper) so rotation cannot open a hole. Do not make sliced flat visible cut edges, hollow tubes, transparent joint holes, missing behind-torso half, preconnected elbow/knee or duplicate whole legs. Forearms and hands are distinct; thigh/shin/boot each distinct. Paint unseen reverse-overlap cloth as needed from identity, keep matte lighting and gold cloud lines consistent. Torso must be complete behind arm roots, two hems cover hip seams. Do not bake joint circles/rigs/shadows into art.
+
+Every part isolated on true alpha0, complete silhouette, no floor/cast shadow/halo/brown-gray haze. Refined rounded crisp HD Daoist chibi hand painting, not mechanical toy or plastic3D. Exactly16 original painted parts in specified order. It is a provisional art atlas: pivots/bind positions will be reviewed separately, no claim of accurate automatic segmentation or finished animation.

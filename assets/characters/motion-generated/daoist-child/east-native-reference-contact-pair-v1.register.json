@@ -1,0 +1,27 @@
+{
+  "file":"assets/characters/motion-generated/daoist-child/east-native-reference-contact-pair-v1.png",
+  "prompt":"assets/characters/motion-generated/daoist-child/east-native-reference-contact-pair-v1.prompt.txt",
+  "hostSource":"C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-980a05fa-1818-4a97-bef4-a16b797717bb.png",
+  "editTarget":"assets/characters/runtime/daoist-child.png",
+  "references":[
+    {"path":"D:/work/qqtang-ui/assets/characters/runtime/daoist-child.png","role":"ONLY own character identity; original runtime master"},
+    {"path":"D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-six-phase-board-5x.png","role":"actual sourceRole9 EAST six phases for camera/stride/arm rhythm only; original appearance forbidden, source timing unknown"},
+    {"path":"D:/work/qqtang-ui/references/image/01-mail-event.png","role":"primary Daoist Q style"},
+    {"path":"D:/work/qqtang-ui/references/image/team-ui-v2.png","role":"primary Daoist Q style"}
+  ],
+  "status":"not_passed_same_near_leg_forward_both_keys",
+  "review":{
+    "kind":"two_new_E_contact_key_stills_from_actual_native_motion_reference_not_complete_walk",
+    "sourceRoleId":9,
+    "requestedCanvas":[2048,768],
+    "requestedOrder":["nearRIGHT_front_contact_A","nearRIGHT_back_contact_B"],
+    "actualObservedOrder":["front_near_boot_and_back_far_boot_A","front_near_boot_and_back_far_boot_B"],
+    "nearLegHalfCycleReversalPassed":false,
+    "emptyRightArmHalfCycleReversalPassed":false,
+    "reason":"Both figures keep the foreground thigh/knee/boot toward screen-right and the rear leg toward screen-left; the empty near arm stays swung backward. Only fist/knee bends change, not a true half-cycle reversal.",
+    "runtimeEnabled":false,
+    "clientApproved":false,
+    "fullAnimationComplete":false,
+    "attemptScope":"One explicitly authorized retry with genuinely new source motion board. No old failed E art or parts atlas attached. Stop this same-point attempt after this result."
+  }
+}

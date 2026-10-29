@@ -1,0 +1,49 @@
+{
+  "status": "not_passed",
+  "review": {
+    "identity": "rear identity retained",
+    "rearGarment": "plain rear sash and plain boot backs maintained",
+    "gait": "frame4 now opposite support to2; frame3 regressed to frame1 leading leg",
+    "failureReasons": [
+      "frame1/3_opposite_stride_regressed",
+      "source_visible_halo_or_clipping_prevents_safe_ownership_export",
+      "source_scarf_margin_not_reduced"
+    ],
+    "sourceEdgePixelsAlphaGt8": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 7
+    }
+  },
+  "sourceSeparators": [
+    {
+      "nominal": 512,
+      "ownershipCut": 512,
+      "safe": false,
+      "maxAlpha": 254,
+      "visiblePixelsAlphaGt8": 96
+    },
+    {
+      "nominal": 1024,
+      "ownershipCut": 1036,
+      "safe": true,
+      "maxAlpha": 8,
+      "visiblePixelsAlphaGt8": 0
+    },
+    {
+      "nominal": 1536,
+      "ownershipCut": 1546,
+      "safe": true,
+      "maxAlpha": 8,
+      "visiblePixelsAlphaGt8": 0
+    }
+  ],
+  "sourceEdgePixelsAlphaGt8": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 7
+  },
+  "runtimeEnabled": false
+}

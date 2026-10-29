@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/idle-blinks/lotus-healer/closed-S-v1.png",
+  "sha256": "c04efac91422932fb9a2b8e146be6aa9f709709bbcb1be71e151e6917e2510e6",
+  "generatedAt": "2026-10-28T23:20:57.928Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/lotus-healer/open-S.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/idle-blinks/lotus-healer/closed-S-v1.prompt.txt",
+  "promptSha256": "5d7caeb4cdd91a4ad45cd58a16c91f7c41b1932700a5cdd22b83ec5a4b60ab3f",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/lotus-healer/open-S.png",
+      "role": "exact own SOUTH/front open-eye edit target; same whole canvas/body/hands/props/boots; source record assets/characters/motion-generated/idle-blinks/lotus-healer/open-S.png.source.json",
+      "sha256": "03d45f7f83830fb4db2abab08b895817ad207284129498d80f072c03d0bfa165"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist Q style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist Q style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-3de241fa-a55e-473a-8355-41fd21c73f62.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/idle-blinks/lotus-healer/open-S.png",
+  "review": {
+    "kind": "one_S_closed_eye_idle_key_not_walk_or_full_animation",
+    "character": "lotus-healer",
+    "direction": "S",
+    "sourceCanvas": [
+      768,
+      768
+    ],
+    "sourceOpen": "assets/characters/motion-generated/idle-blinks/lotus-healer/open-S.png",
+    "sourceOpenSha256": "03d45f7f83830fb4db2abab08b895817ad207284129498d80f072c03d0bfa165",
+    "editOfSourceRecord": "assets/characters/motion-generated/idle-blinks/lotus-healer/open-S.png.source.json",
+    "wholeCanvasOnly": true,
+    "borrowedRoot": false,
+    "root": null,
+    "runtimeEnabled": false,
+    "clientApproved": false,
+    "oneEditOnly": true,
+    "actualVisualViewed": true,
+    "comparison": "assets/characters/motion-generated/idle-blinks/lotus-healer/closed-S-v1.review.json",
+    "localStaticCandidate": true,
+    "visualObservation": "Both eyes closed. Own S master clothing, long hair/crown, lantern, bottle, hands and pink shoes preserved; sole boundary maximum2px difference. Existing runtime source chosen to avoid unsafe S lantern crop in direction strip.",
+    "handChain": "RIGHT lotus lantern screen-left, LEFT jade medicine bottle screen-right, forehead chain/LEFT lotus crown preserved.",
+    "maxAbsSoleBBoxDelta": 2
+  },
+  "status": "closed_eye_idle_key_candidate_local_static_review_passed_client_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}
