@@ -1,0 +1,56 @@
+{
+  "itemId": 20050,
+  "category": "item",
+  "sourceName": "医疗包",
+  "sourceDescription": "（探险模式专用）复活玩家所站格内已死亡的同伴，并恢复10%的hp。",
+  "file": "assets/items/icons/20050-medical-kit.png",
+  "sha256": "595947b150ef43f54cd84a6fcd687140106415b34f1e8647763755dc03cd20ae",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/items-d-v1.png",
+    "sha256": "af24ad09d24d54defb5e1f0d075a7e793d1065d8057b7ee18ea364f59b2ae522",
+    "generationRecord": "assets/items/items-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      53,
+      108,
+      469,
+      435
+    ],
+    "sourceContentRect": [
+      565,
+      620,
+      981,
+      947
+    ],
+    "uniformScale": 0.5384615384615384,
+    "placementPx": [
+      16,
+      40
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-20050.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review"
+}
