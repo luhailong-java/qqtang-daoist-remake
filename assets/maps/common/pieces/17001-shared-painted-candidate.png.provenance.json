@@ -1,0 +1,79 @@
+{
+  "elementId": 17001,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/common/pieces/17001-shared-painted-candidate.png",
+  "sha256": "3fb30b5d7eea59c4d03dddd324c1f6f13c697d92c1d1a5b1d02149221e7eb9af",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-a-v1.png",
+    "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+    "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+    "sourcePaintedFile": "assets/maps/water/pieces/5001-water-v1.png",
+    "sourcePaintedSha256": "3fb30b5d7eea59c4d03dddd324c1f6f13c697d92c1d1a5b1d02149221e7eb9af",
+    "sourcePaintedProvenance": "assets/maps/water/pieces/5001-water-v1.png.provenance.json",
+    "referenceImageSha256": "daff2ea859274e698f13376e5b683ab78029a49d8259c283ce9588630ab71fda",
+    "resampled": false,
+    "newModelGeneration": false
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5001-1424d16a2b69.png",
+    "sha256": "daff2ea859274e698f13376e5b683ab78029a49d8259c283ce9588630ab71fda",
+    "representativeElementId": 5001,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.003076923076923,
+    "relativeAspectDeviation": 0.003076923076922977,
+    "generatedCellLTRB": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  },
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "crossFamilyPaintedReuseOfElementId": 5001,
+  "accepted": false
+}
