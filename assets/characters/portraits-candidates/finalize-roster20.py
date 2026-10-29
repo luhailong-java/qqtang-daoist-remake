@@ -1,0 +1,45 @@
+"""20 small provenance JSONs/256 PNGs only. Never reopen original masters for final contact/index."""
+from PIL import Image,ImageDraw,ImageFont
+import pathlib,json,hashlib,datetime
+base=pathlib.Path(__file__).resolve().parent;root=base.parents[2]
+mapping_rel='assets/characters/motion-generated/roster-skin-mapping-20261028.json';mapping=json.loads((root/mapping_rel).read_text(encoding='utf-8'));assert len(mapping['slots'])==20
+observations={
+ 'daoist-child':'Own spiky brown hair/yellow tied headband and tails, amber eyes/round smile and upper jade collar retained; natural V-hand/golden-gourd edges stay in source positions.',
+ 'moon-shadow':'Complete silver bob/forelock, LEFT moon flower/bead tassel, purple eyes and navy scarf retained. Blade/scarf crop edges are original, no component moved.',
+ 'mountain-guardian':'Original open-eye master only, complete brown knot/jade clasp/green ribbons, warm face/prayer beads and shoulder armor retained. Staff edge at left is natural. No failed closed-eye/body art used.',
+ 'lotus-healer':'Complete high bun/lotus crown/tassels and long brown hair retained; lantern/bottle edges remain naturally near face. Whole-hair ROI reduces face occupancy.',
+ '01_ice_sword_girl':'Complete blue-gem high bun/crown/beads and long dark hair retained; original blue-grey eyes, paper/sword edges and shoulders unchanged. Face smaller to retain hair.',
+ '02_fire_talisman_boy':'Complete short brown knot/red crown/ribbon, warm eyes and own red/black collar retained. Fan/bell edges preserved where they enter the single ROI.',
+ '05_celestial_musician_girl':'Purple bun/lotus crown and full long hair/ribbons retained with purple eyes; qin remains at original lower-face/shoulder position. Face smaller for complete long hair.',
+ '06_thunder_caster_boy':'Complete short knot/yellow ribbons and Taiji forehead ornament, warm eyes and yellow/white/navy collar retained; talisman/weapon edges stay in place.',
+ '08_alchemy_prodigy_boy':'Complete brown short knot/jade clasp/yellow ribbons, warm face and orange/jade collar retained; original furnace/scroll-pack edges remain at lower crop.',
+ '09_bamboo_archer_girl':'Full high ponytail/leaf crown/ribbons and green eyes retained. Exact roster master used, not separate LEFT-bow adaptation; original arrow/string/quiver edges stay in place.',
+ '10_crimson_spear_girl':'Both buns/full long twin tails/red bows preserved as a broad ROI, amber eyes/forehead chain intact. Face is distinctly smaller; no separate face enlargement or tail clipping.',
+ '14_short_hair_snow_summoner_girl':'Full pointed fox ears/white bob/forelock/snowflower ornaments, violet eyes and fur collar retained; pet fox head and ice edges remain natural near-face details.',
+ '15_water_dragon_scholar_boy':'Complete navy knot/hair/crown and long blue bead tassel, blue eyes and ivory/blue collar retained; fan/hand edges unchanged.',
+ '17_ghost_script_calligrapher_boy':'Complete brown short knot/Taiji hair clasp/teal ribbon and diamond forehead mark retained; original brush/scroll edges stay in place, no isolated ghost repositioning.',
+ '20_star_formation_master_girl':'Complete red-star high crown/forehead chain and full long hair retained with amber eyes; astrolabe/cards stay at their original near-face position, face smaller for hair.'
+}
+entries=[];columns=5;cell_h=284;contact=Image.new('RGB',(1280,1136),(246,240,222));draw=ImageDraw.Draw(contact)
+font_path=pathlib.Path('C:/Windows/Fonts/msyh.ttc');font=ImageFont.truetype(str(font_path),17)if font_path.exists()else ImageFont.load_default(size=17)
+for index,slot in enumerate(mapping['slots']):
+ id=slot['appearance']['identityId'];file=id+'-256.png';rp=base/(file+'.source.json');r=json.loads(rp.read_text(encoding='utf-8'))
+ assert r['sourceRoleId']==slot['sourceRoleId']and r['identityId']==id and r['source']['file']==slot['appearance']['master']
+ r['source']['sourceCanvasSize']=r['source'].get('sourceCanvasSize',r['source'].get('actualSourceCanvas'))
+ if r['source']['sourceCanvasSize']==[1254,1254]:
+  r['source']['nativeGenerationSize']=r['source'].get('nativeGenerationSizeFromRecord');r['source']['nativeGenerationSizeEvidence']='Original own master generation record actually reports1254x1254; portrait downscale is not new generation.'
+ else:assert r['source']['sourceCanvasSize']==[4096,4096]and r['source']['nativeGenerationSize']is None
+ r['output']['actual256Viewed']=True;r['output']['visualObservation']=observations.get(id,r['output'].get('visualObservation'));r['output']['smallUIReadabilityBelow256Verified']=False;r['output']['fullHeadHairHeadwearFacePreserved']=True;r['status']='portrait_candidate_actual256_viewed_pending_ui_adoption';r['runtimeAdopted']=False;r['clientApproved']=False
+ rp.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ # Only exported256 PNG reopened; verify bytes then composite unscaled. Large masters not read here.
+ png=base/file;raw=png.read_bytes();assert hashlib.sha256(raw).hexdigest()==r['sha256'];im=Image.open(png).convert('RGBA');assert im.size==(256,256)
+ ivory=Image.new('RGBA',(256,256),(246,240,222,255));ivory.alpha_composite(im);x=(index%columns)*256;y=(index//columns)*cell_h;contact.paste(ivory.convert('RGB'),(x,y))
+ label=f"{slot['sourceRoleId']}  {slot['appearance']['displayName']}";draw.text((x+10,y+258),label,font=font,fill=(45,66,53))
+ entries.append({'sourceRoleId':r['sourceRoleId'],'identityId':id,'name':r['name'],'file':r['file'],'sha256':r['sha256'],'sourceRecord':r['file']+'.source.json','sourceMaster':r['source']['file'],'sourceMasterSha256':r['source']['sha256'],'sourceCanvasSize':r['source']['sourceCanvasSize'],'nativeGenerationSize':r['source']['nativeGenerationSize'],'sourceGenerationOrProvenanceRecord':r['source']['sourceGenerationRecord'],'sourceActualModel':r['source'].get('actualModel'),'sourceActualQuality':r['source'].get('actualQuality'),'sourceCropLTRB':r['operation']['sourceCropLTRB'],'sourceCropSize':r['operation']['sourceCropSize'],'uniformScale':r['operation']['uniformScale'],'resampledCropSize':r['operation']['resampledCropSize'],'placementXY':r['operation']['placementXY'],'canvas':[256,256],'alphaExtrema':r['output']['alphaExtrema'],'alpha8MarginsLTRB':r['output']['alpha8MarginsLTRB'],'alpha8OuterEdges':r['output']['alpha8OuterEdges'],'preview':r['output']['preview'],'actual256Viewed':True,'visualObservation':r['output']['visualObservation'],'status':r['status'],'runtimeAdopted':False,'clientApproved':False})
+ del im,ivory,raw
+assert len({r['sourceRoleId']for r in entries})==20 and all(min(r['alpha8MarginsLTRB'])>=14 and not any(r['alpha8OuterEdges'].values())for r in entries)
+cp=base/'qa'/'portraits-20-contact-256.png';contact.save(cp)
+cp.with_suffix('.png.source.json').write_text(json.dumps({'derivedFrom':[{'file':r['file'],'sha256':r['sha256'],'sourceRecord':r['sourceRecord']}for r in entries],'operation':'Five columns/four rows, every current exported portrait displayed at actual256px on ivory, ID/name label below; no source master reads or per-cell resize.','size':[1280,1136],'sha256':hashlib.sha256(cp.read_bytes()).hexdigest(),'font':str(font_path)if font_path.exists()else'default','newImageGeneration':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+manifest={'schemaVersion':2,'updatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'scope':'Exactly20 concrete current community-role slots, mapped to20 existing own identities; random23 excluded. Derived256px portrait candidates only, not20 new characters or full-game art completion.','sourceMapping':mapping_rel,'counts':{'existingIdentitiesCovered':20,'portraits':20,'firstBatchPreviouslyCompleted':5,'thisContinuation':15,'newCharacters':0,'newImageGenerations':0,'runtimeAdoptions':0},'sourceCanvasSummary':{'historical4096CompatibilityCanvases':15,'own1254GenerationCanvases':5,'historicalNativeGenerationDimensionsVerified':False},'processing':'One identity at a time, manually selected whole head/hair/headwear/face+collar ROI, uniform premultiplied-alpha LANCZOS downscale and transparent inset>=14. No component/face/limb movement or AI faces. Final contact reads only20 already exported256PNG.','entries':entries,'contactPreview':'assets/characters/portraits-candidates/qa/portraits-20-contact-256.png','contactActuallyViewed':False,'runtimeAdopted':False,'clientApproved':False,'pending':['Actual small UI sizes/contrast and masking acceptance, especially wide twin tails/long hair/full-hat portraits with smaller faces','Root runtime/UI adoption'],'machineScope':'No concurrent4K decode or rescan of first five source masters. Each large source released/process exited before next. No tests/browser/src/UI-semantic/Git changes.'}
+(base/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'manifest':'assets/characters/portraits-candidates/manifest.json','portraits':20,'sourceRoleIds':[r['sourceRoleId']for r in entries],'contact':str(cp),'sourceMastersReopenedForContact':0,'runtimeAdopted':False},ensure_ascii=False))

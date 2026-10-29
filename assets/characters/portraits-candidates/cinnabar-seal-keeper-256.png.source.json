@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/cinnabar-seal-keeper-256.png",
+  "sha256": "a1503f0ac3fdd415345ffcbca4fa36f1e587d48c87327753b850a160589d4b71",
+  "createdAt": "2026-10-28T23:40:41.056921+00:00",
+  "sourceRoleId": 16,
+  "identityId": "cinnabar-seal-keeper",
+  "name": "赤砂",
+  "type": "derived_ui_portrait_candidate_not_new_character_or_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/master.png",
+    "sha256": "9fe13dad822fb70bbdb891e327b1f7df7e5d09ed09bef59bacbf1d2f70338fba",
+    "actualSourceCanvas": [
+      1254,
+      1254
+    ],
+    "sourceGenerationRecord": "assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/master.png.generation.json",
+    "nativeGenerationSizeFromRecord": [
+      1254,
+      1254
+    ],
+    "actualModel": null,
+    "actualQuality": null,
+    "generationTime": "2026-10-28T17:41:58.379Z",
+    "sourceAlpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "sourceCanvasSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSizeEvidence": "Original own master generation record actually reports1254x1254; portrait downscale is not new generation."
+  },
+  "operation": {
+    "kind": "one manual rectangular whole ROI crop then uniform premultiplied-alpha LANCZOS shrink and centered transparent placement",
+    "sourceCropLTRB": [
+      270,
+      0,
+      954,
+      570
+    ],
+    "sourceCropSize": [
+      684,
+      570
+    ],
+    "uniformScale": 0.3333333333333333,
+    "resampledCropSize": [
+      228,
+      190
+    ],
+    "placementXY": [
+      14,
+      33
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "selectionReason": "Complete short auburn curls/jade headband/seal pin and dangling ornaments, adult almond eyes/freckles and collar. Source top is included from0 because the original hair clearance is tight; no hair reconstruction.",
+    "sourceMasterActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceOrHatSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      14,
+      36,
+      242,
+      223
+    ],
+    "alpha8MarginsLTRB": [
+      14,
+      36,
+      14,
+      33
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/cinnabar-seal-keeper-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "Full auburn curls/jade band/seal pin and adult almond eyes/freckles remain clear. Source stamp edge remains naturally at lower-left; no hair top was reconstructed.",
+    "visibleSolidHaloObserved": false,
+    "fullHeadHairHeadwearFacePreserved": true,
+    "smallUIReadabilityBelow256Verified": false
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

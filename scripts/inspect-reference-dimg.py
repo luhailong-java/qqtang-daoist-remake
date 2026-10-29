@@ -106,7 +106,14 @@ def decode_frame_pixels(data, mode, width, height):
     return bytes(rgba)
 
 
-def inspect_dimg(data):
+def inspect_dimg(data, *, reference_only_version65537_suffix=False, metadata_only=False):
+    """Inspect declared framing, optionally without decoding any pixel plane.
+
+    The default decoding and explicit65537-suffix behavior remain unchanged.
+    metadata_only returns no visible image or decoded RGBA hash. It validates
+    structural markers, supported nonempty modes, dimensions, payload lengths
+    and EOF only; encoded payload identity is not alpha/pixel validation.
+    """
     if len(data) < 40 or data[:8] != b"QQF\x1aDIMG":
         raise ValueError("DIMG signature/header mismatch")
     words = list(struct.unpack_from("<8I", data, 8))
@@ -152,25 +159,45 @@ def inspect_dimg(data):
                     raise ValueError("DIMG pixel plane truncated")
                 frame.update({"empty": False, "pixelDataOffset": cursor, "pixelByteLength": byte_length,
                               "encodedPixelSha256": sha256(data[cursor:cursor + byte_length])})
-                if first_visible is None:
+                if not metadata_only and first_visible is None:
                     pixels = decode_frame_pixels(data[cursor:cursor + byte_length], mode, width, height)
                     first_visible = {"index": index, "width": width, "height": height, "pixels": pixels}
                     frame["decodedRgbaSha256"] = sha256(pixels)
                 cursor += byte_length
         frames.append(frame)
-    # No unrecognized container extension is silently accepted, even for 65537.
-    if cursor != len(data):
+    # Default remains exact-length. A caller may explicitly inspect only the
+    # declared 65537 frames as reference while retaining an opaque suffix hash.
+    suffix_length=len(data)-cursor
+    opaque_suffix=bool(suffix_length and version==65537 and reference_only_version65537_suffix)
+    if suffix_length and not opaque_suffix:
         raise ValueError(f"DIMG has {len(data) - cursor} unrecognized trailing bytes")
-    if first_visible is None:
+    if not metadata_only and first_visible is None:
         raise ValueError("DIMG has no visible frame")
-    return {
+    metadata = {
         "byteLength": len(data), "sha256": sha256(data), "version": version,
         "frameInfoSize": frame_info_size, "frameCount": frame_count, "directions": directions,
         "unknownHeaderWordsAt24And28": [unknown24, unknown28],
         "declaredCanvas": [canvas_width, canvas_height],
         "declaredCanvasWithinBound": 1 <= canvas_width <= 4096 and 1 <= canvas_height <= 4096,
-        "frames": frames, "parsedByteLength": cursor, "trailingByteLength": 0,
-    }, first_visible
+        "frames": frames, "parsedByteLength": cursor, "trailingByteLength": suffix_length,
+        "strictCompleteContainerAccepted":not opaque_suffix,
+        "referenceOnlyOpaqueVersionedSuffix":opaque_suffix,
+        "trailingBytesSha256":sha256(data[cursor:])if opaque_suffix else None,
+        "suffixInterpretation":"uninterpreted; declared frames only, not full-container verification"if opaque_suffix else None,
+    }
+    if metadata_only:
+        metadata.update({
+            "metadataOnly": True,
+            "pixelDecodePerformed": False,
+            "pixelPayloadValidation": "unknown",
+            "visibleAlpha": "unknown",
+            "visibleAlphaValidation": "unknown",
+            "runtimeUsable": False,
+            "strictDeclaredStructureAccepted": not opaque_suffix,
+            "strictCompleteContainerAccepted": False,
+            "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation",
+        })
+    return metadata, first_visible
 
 
 def encode_frame(frame, destination):

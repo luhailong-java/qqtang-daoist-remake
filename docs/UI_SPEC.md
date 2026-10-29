@@ -53,4 +53,4 @@
 
 `assets/art.json` 及采用清单负责当前实际文件、源矩形和比例。图像裁显不是新生成；完整场景气氛图不能当作已符合原版占位的地图。CSS原生UI控件不冒称手绘原图裁片或九宫格。新增或AI修图须实际附参考，逐图记录目标、真实参数、返回、时间、尺寸、哈希与处理链。
 
-启动要求为Node.js22+、无npm依赖，运行 `node scripts/serve.mjs` 后通过HTTP进入。默认仅本机回环地址；不提供file双击离线入口。新项目GitHub未提供，未初始化Git或推送，image仅更新文字关联，不操作共享Git。完整美术按 `ART_COMPLETION_CHECKLIST.md`分complete／pending／blocked。本轮浏览器入口提示`Local browser use is disabled in Work settings`，当前实机终验被阻塞，继续可独立进行的素材生产／静态检查；最终状态由 `docs/VALIDATION.md`记录，不用旧截图回填。
+启动要求为Node.js22+、无npm依赖，运行 `node scripts/serve.mjs` 后通过HTTP进入。默认仅本机回环地址；不提供file双击离线入口。2026-10-27已按用户授权公开上传到 `https://github.com/luhailong-java/qqtang-daoist-remake`，首批6ea487b8为开发现状，全部美术未完成。image仅更新文字关联，不操作共享Git。完整美术按 `ART_COMPLETION_CHECKLIST.md`逐项记录。浏览器上轮入口提示`Local browser use is disabled in Work settings`，本轮重新核实；最终状态由 `docs/VALIDATION.md`记录，不用旧截图回填。

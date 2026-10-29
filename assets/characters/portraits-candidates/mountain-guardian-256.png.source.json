@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/mountain-guardian-256.png",
+  "sha256": "82f8780d9aa90de6d3f06717eca53029c2b5ac5fba5879733e3362bb6f4c7a43",
+  "createdAt": "2026-10-29T00:00:19.750709+00:00",
+  "sourceRoleId": 1,
+  "identityId": "mountain-guardian",
+  "name": "山岳",
+  "type": "derived_ui_portrait_candidate_existing_character_not_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/mountain-guardian.png",
+    "sha256": "371bb4d303cc5bde21e73eb4ddba277aebee06b5ad65d81301ea828804263521",
+    "sourceCanvasSize": [
+      4096,
+      4096
+    ],
+    "sourceProvenanceRecord": "assets/characters/mountain-guardian.png.source.json",
+    "sourceGenerationRecord": "assets/characters/mountain-guardian.png.source.json",
+    "sourceGenerationRecordType": "historical source/provenance including generation evidence if present, not a new model receipt",
+    "nativeGenerationSize": null,
+    "nativeGenerationSizeEvidence": "Historical compatibility/export PNG dimensions only; native model generation dimensions unverified. Do not call4096 canvas native4K.",
+    "actualModel": null,
+    "actualQuality": null,
+    "provenanceSnapshot": {
+      "file": "assets/characters/mountain-guardian.png",
+      "name": "山岳",
+      "identity": "山岳守卫",
+      "legacyGameplaySlot": "wukong",
+      "adoptedOn": "2026-10-26",
+      "operation": "byte-for-byte copy; runtime SVG/Canvas source-rectangle display only; no new generation, editing, resize or resampling",
+      "sha256": "371bb4d303cc5bde21e73eb4ddba277aebee06b5ad65d81301ea828804263521",
+      "width": 4096,
+      "height": 4096,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundingBoxLTRB": [
+        649,
+        240,
+        3444,
+        3859
+      ],
+      "runtimeSourceRectXYWH": [
+        649,
+        240,
+        2795,
+        3619
+      ],
+      "derivedFrom": {
+        "repository": "image",
+        "path": "q_daoist_character_pack_4096/04_mountain_guardian_boy_transparent_4096.png",
+        "sha256": "371bb4d303cc5bde21e73eb4ddba277aebee06b5ad65d81301ea828804263521",
+        "manifest": "q_daoist_character_pack_4096/manifest.json"
+      },
+      "generation": {
+        "isNewGeneration": false,
+        "actualModel": null,
+        "actualQuality": null,
+        "nativeGenerationDimensions": null,
+        "unverifiedReason": "历史逐图模型/质量/原生尺寸回执当前缺失。4096为兼容导出画布，不能视作原生4K细节。"
+      },
+      "scope": "静态角色/头像/选角；未导入动作帧；不改变地图、碰撞、速度、容量、威力或角色相对显示槽位",
+      "visualNote": "透明轮廓细微洋红边沿沿用源图；未修色或AI重绘"
+    }
+  },
+  "operation": {
+    "kind": "one manually selected complete head/hair/headwear/face and upper collar ROI; whole ROI uniform premultiplied-alpha LANCZOS downscale and centered transparent256 canvas",
+    "sourceCropLTRB": [
+      1180,
+      150,
+      3460,
+      2150
+    ],
+    "sourceCropSize": [
+      2280,
+      2000
+    ],
+    "uniformScale": 0.1,
+    "resampledCropSize": [
+      228,
+      200
+    ],
+    "placementXY": [
+      14,
+      28
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "sourceMasterAndRecordActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      14,
+      37,
+      222,
+      228
+    ],
+    "alpha8MarginsLTRB": [
+      14,
+      37,
+      34,
+      28
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/mountain-guardian-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "Original open-eye master only, complete brown knot/jade clasp/green ribbons, warm face/prayer beads and shoulder armor retained. Staff edge at left is natural. No failed closed-eye/body art used.",
+    "smallUIReadabilityBelow256Verified": false,
+    "fullHeadHairHeadwearFacePreserved": true
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

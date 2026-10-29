@@ -1,0 +1,67 @@
+{
+  "frameIndex": 1,
+  "empty": false,
+  "file": "assets/effects/flames/flame5/01.png",
+  "sha256": "9b8de49d6265bf0b19f09d16504439883eaf7be1abf622939cc94a51572f1551",
+  "width": 160,
+  "height": 160,
+  "exportDensity": 4,
+  "sourceFrame": {
+    "index": 1,
+    "offset": 4868,
+    "rawMarker": 0,
+    "frameOffset": [
+      0,
+      0
+    ],
+    "pixelMode": 3,
+    "width": 40,
+    "height": 40,
+    "unknownImageHeaderWord": 80,
+    "empty": false,
+    "pixelDataOffset": 4896,
+    "pixelByteLength": 4800,
+    "encodedPixelSha256": "ed114e2fb11cec67e34630d83a5c129e316b4ca337a0b19a4900db68ff1832e2"
+  },
+  "derivedFrom": {
+    "file": "assets/effects/flame-pairs-c-v1.png",
+    "sha256": "39d046f6c22ccf1c1d15887cdb777d22a04fe7184753ef2fc507026aed9a6dd7",
+    "generationRecord": "assets/effects/flame-pairs-c-v1.png.generation.json"
+  },
+  "geometryMaskSource": {
+    "file": "references/qqtang-packed-art/object--flame--flame5_stand-frame-001.png",
+    "sha256": "5f493f0806546185e0e94d29742fa945c66b163d7f1e0564fb3fba503e9b762f",
+    "sourceRecord": "references/qqtang-packed-art/object--flame--flame5_stand-first-visible.png.source.json",
+    "use": "original alpha only; no original RGB in final"
+  },
+  "operation": {
+    "type": "generated-material-interior-RGB-resample-plus-original-frame-alpha",
+    "materialRect": [
+      1090,
+      560,
+      1450,
+      920
+    ],
+    "materialAlphaBeforeReplacement": [
+      252,
+      254
+    ],
+    "rgbResampler": "LANCZOS",
+    "alphaResampler": "NEAREST 4x",
+    "outputAlpha": "original frame alpha, not generated-material alpha",
+    "newModelGeneration": false
+  },
+  "materialReuse": true,
+  "materialReuseReason": "shared original-painted gold-sugar-flame material; every resource retains its own original alpha, native dimensions, raw offsets, repeats and empties; not a visual-group alias or new generation",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "limitations": [
+    "texture edges and neighboring-cell seams unverified",
+    "original low-resolution alpha enlarged; not native HD contour",
+    "actual client layer, timing, blend mode and end-state not yet verified"
+  ]
+}

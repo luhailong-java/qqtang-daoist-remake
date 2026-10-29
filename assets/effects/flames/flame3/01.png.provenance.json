@@ -1,0 +1,65 @@
+{
+  "frameIndex": 1,
+  "empty": false,
+  "file": "assets/effects/flames/flame3/01.png",
+  "sha256": "4dd046e47033ae246d0488d96f03f373dfc5d2659f55f38d35816525d33e2d50",
+  "width": 160,
+  "height": 160,
+  "exportDensity": 4,
+  "sourceFrame": {
+    "index": 1,
+    "offset": 4868,
+    "rawMarker": 0,
+    "frameOffset": [
+      0,
+      0
+    ],
+    "pixelMode": 3,
+    "width": 40,
+    "height": 40,
+    "unknownImageHeaderWord": 80,
+    "empty": false,
+    "pixelDataOffset": 4896,
+    "pixelByteLength": 4800,
+    "encodedPixelSha256": "635789cd26b9c6656e6a7b859eaf29c166f775f82c8c400609aee990f8019d96"
+  },
+  "derivedFrom": {
+    "file": "assets/effects/flame-pairs-b-v1.png",
+    "sha256": "97ab532fd34232cfbfe0254c7f3281586cb6f3b442072d35cd9e8e70ec6bfb59",
+    "generationRecord": "assets/effects/flame-pairs-b-v1.png.generation.json"
+  },
+  "geometryMaskSource": {
+    "file": "references/qqtang-packed-art/object--flame--flame3_stand-frame-001.png",
+    "sha256": "195c016a7e4c614efbb23a4bc891451243f7d615f057b606e19653a7877b9f34",
+    "sourceRecord": "references/qqtang-packed-art/object--flame--flame3_stand-first-visible.png.source.json",
+    "use": "original alpha only; no original RGB in final"
+  },
+  "operation": {
+    "type": "generated-material-interior-RGB-resample-plus-original-frame-alpha",
+    "materialRect": [
+      1090,
+      560,
+      1450,
+      920
+    ],
+    "materialAlphaBeforeReplacement": [
+      248,
+      253
+    ],
+    "rgbResampler": "LANCZOS",
+    "alphaResampler": "NEAREST 4x",
+    "outputAlpha": "original frame alpha, not generated-material alpha",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "limitations": [
+    "texture edges and neighboring-cell seams unverified",
+    "original low-resolution alpha enlarged; not native HD contour",
+    "actual client layer, timing, blend mode and end-state not yet verified"
+  ]
+}

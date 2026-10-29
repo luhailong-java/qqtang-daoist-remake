@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/cloud-tortoise-warden-256.png",
+  "sha256": "0bcd0b55bc8753e2426a0dc8169b25a5e43dc1d35ac536f1bef9b6aec5027fef",
+  "createdAt": "2026-10-28T23:39:59.411127+00:00",
+  "sourceRoleId": 11,
+  "identityId": "cloud-tortoise-warden",
+  "name": "玄龟",
+  "type": "derived_ui_portrait_candidate_not_new_character_or_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png",
+    "sha256": "8813c588ffdd453088efba6b050331c1487872af75a33fa68cd69b0535978588",
+    "actualSourceCanvas": [
+      1254,
+      1254
+    ],
+    "sourceGenerationRecord": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png.generation.json",
+    "nativeGenerationSizeFromRecord": [
+      1254,
+      1254
+    ],
+    "actualModel": null,
+    "actualQuality": null,
+    "generationTime": "2026-10-28T17:14:01.312Z",
+    "sourceAlpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "sourceCanvasSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSizeEvidence": "Original own master generation record actually reports1254x1254; portrait downscale is not new generation."
+  },
+  "operation": {
+    "kind": "one manual rectangular whole ROI crop then uniform premultiplied-alpha LANCZOS shrink and centered transparent placement",
+    "sourceCropLTRB": [
+      380,
+      60,
+      980,
+      560
+    ],
+    "sourceCropSize": [
+      600,
+      500
+    ],
+    "uniformScale": 0.38,
+    "resampledCropSize": [
+      228,
+      190
+    ],
+    "placementXY": [
+      14,
+      33
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "selectionReason": "Complete charcoal hair/turtle clasp and ribbons, warm broad face and short collar. Upper-head alpha8 extent startsx386, so left380 preserves hair and excludes the bamboo clapper edge; original raised tally remains naturally at lower-right crop edge, never moved.",
+    "sourceMasterActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceOrHatSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      16,
+      44,
+      242,
+      223
+    ],
+    "alpha8MarginsLTRB": [
+      16,
+      44,
+      14,
+      33
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/cloud-tortoise-warden-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "Broad warm-tan face/thick dark brows, charcoal short hair and turtle clasp/ribbons remain clear. Lower-right original turtle tally edge remains in the single crop.",
+    "visibleSolidHaloObserved": false,
+    "fullHeadHairHeadwearFacePreserved": true,
+    "smallUIReadabilityBelow256Verified": false
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

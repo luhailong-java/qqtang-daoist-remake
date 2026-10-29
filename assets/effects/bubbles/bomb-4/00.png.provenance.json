@@ -1,0 +1,66 @@
+{
+  "frameIndex": 0,
+  "file": "assets/effects/bubbles/bomb-4/00.png",
+  "sha256": "b11d8c47102d7a40adec1826843b8ad0a591735c2ba49e1eb36503bcfdb28efc",
+  "width": 160,
+  "height": 152,
+  "exportDensity": 4,
+  "sourceFrame": {
+    "index": 0,
+    "offset": 40,
+    "rawMarker": 0,
+    "frameOffset": [
+      2,
+      17
+    ],
+    "pixelMode": 3,
+    "width": 40,
+    "height": 38,
+    "unknownImageHeaderWord": 80,
+    "empty": false,
+    "pixelDataOffset": 68,
+    "pixelByteLength": 4560,
+    "encodedPixelSha256": "23b80c671465f4a3fc6e057683640937fe1eb1eef1b0a8357136f9bdaf47d270",
+    "decodedRgbaSha256": "52619b8fda60d262fff8df86c29c18fba8dac50d5b4d921477b9ec615f5e8e9f"
+  },
+  "sourcePackagePath": "object/bomb/bomb4_stand.img",
+  "sourceReferenceRecord": "references/qqtang-packed-art/object--bomb--bomb4_stand-first-visible.png.source.json",
+  "derivedFrom": {
+    "file": "assets/effects/bubble-pulses-a-v1.png",
+    "sha256": "51a94be96768787671011a948cd1ffc896a320b5a3eea507fe2ca8baf0d4a3dd",
+    "generationRecord": "assets/effects/bubble-pulses-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "cell-crop-uniform-fit-bottom-align",
+    "sourceCellRect": [
+      0,
+      512,
+      384,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      52,
+      117,
+      344,
+      406
+    ],
+    "placementPx": [
+      3,
+      0
+    ],
+    "uniformScale": 0.5259515570934256,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "limitations": [
+    "alpha halo and source-relative scale not accepted",
+    "source frame offsets retained verbatim; renderer origin/sign not verified",
+    "breathing loop requires real playback and target-background review"
+  ]
+}

@@ -1,8 +1,8 @@
-# QQ堂·道家Q版重制 · 参考来源与采用核查
+# 灵葫大作战 · 参考来源与采用核查
 
-核实日期：2026-10-26。新项目本地目录：`D:\work\qqtang-ui`；美术参考仓库：`D:\work\image`。
+核实日期：2026-10-28（原始取证开始于10月26日）。新项目本地目录：`D:\work\qqtang-ui`；美术参考仓库：`D:\work\image`。
 
-用户最新要求是腾讯已停运《QQ堂》原版玩法、机制、操作、流程与逐图几何保持一致，UI和人物采用我们自己的原创道家Q版设计，见 `docs/USER_REQUIREMENTS_LOCK_20261026.md`。用户没有现成客户端、源码或GitHub，已选择从零编写自己的客户端与本地服务端，不接腾讯原协议。当前名为“QQ堂·道家Q版重制”，没有克隆第三方工程、初始化Git或设置远端。旧“道趣泡泡”方案、原版四角色重绘、自定15×13随机图和旧验证均不能作为最新合同已完成的证据。社区发布ZIP已经协调者核对摘要并静态导出地图数据，身份仍为社区修改后客户端，不能冒称腾讯原始安装包或已完成原版地图接入／美术验收。
+用户最新要求是腾讯已停运《QQ堂》原版玩法、机制、操作、流程与逐图几何保持一致，UI和人物采用我们自己的原创道家Q版设计，见 `docs/USER_REQUIREMENTS_LOCK_20261026.md`。用户没有现成客户端、源码或GitHub，已选择从零编写自己的客户端与本地服务端，不接腾讯原协议。2026-10-28按用户命名委托拟定采用《灵葫大作战》（原工程名QQ堂·道家Q版重制），没有克隆第三方工程；10月27日已按用户授权初始化独立Git并首次公开上传，见 `GITHUB_PUBLICATION.md`。旧“道趣泡泡”方案、原版四角色重绘、自定15×13随机图和旧验证均不能作为最新合同已完成的证据。社区发布ZIP已经协调者核对摘要并静态导出地图数据，身份仍为社区修改后客户端，不能冒称腾讯原始安装包或已完成原版地图接入／美术验收。
 
 ## 实际读取的文件
 
@@ -91,7 +91,7 @@
 
 | 对象 | 地址／状态 | 本次证据 |
 |---|---|---|
-| QQ堂·道家Q版重制 GitHub | 未提供，待确认 | 用户明确表示没有 GitHub 地址；本次未克隆第三方工程、未初始化 Git |
+| 灵葫大作战 GitHub | <https://github.com/luhailong-java/qqtang-daoist-remake> | 用户10月27日授权新建公开库，owner/public和首批完整文件树已核验；10月28日制作增量尚未新批上传 |
 | image 历史 GitHub／素材来源 | <https://github.com/luhailong-cpp/image> | image 根 `README.md` 的“仓库对应关系”；本次未对该远端在线核验 |
 | image 当前本地 origin | <https://luyuacpp.visualstudio.com/image/_git/image> | 本次只读 `git remote -v`，fetch 与 push 相同；未核验远端最新提交和同步状态 |
 
@@ -118,8 +118,19 @@ image的地址不能当作QQ堂重制项目远端。原版研究提及的社区�
 
 历史试稿哈希保留：旧原版四角色图集 `cdaa2e278b285e99db0f284e2c060e592a33e29fe6df38a78ab4ef29b517c36a`；气氛图 `df713082592761fab54e0ff29c55094dda780064857b9a5bdc3bb5b8fee2c41f`；物件图集 `8fcae7cf975436184c59e9b7fa184b1f4495c78e9c19382b01be10c916336bf6`。哈希证明当时字节身份，不代表旧稿获得最新采用或终验。新图实际生成入口、提交参数、返回证据及处理按逐图记录，未披露的型号／质量保持未确认。
 
-历史12项引擎、8项服务端及旧浏览器结果仅证明当时试稿技术流程，不能作为最新原版几何、机制或自有人物终验。本轮浏览器入口返回`Local browser use is disabled in Work settings`，当前无法做实机终验；可继续素材和静态核查。最终状态统一读取 `docs/VALIDATION.md`；完整美术缺口见 `docs/ART_COMPLETION_CHECKLIST.md`。默认本机回环地址、内存状态重启清空、每标签身份用sessionStorage；没有腾讯协议兼容、持久账号或互联网发布的验收证据。
+历史12项引擎、8项服务端及旧浏览器结果仅证明当时试稿技术流程，不能作为最新原版几何、机制或自有人物终验。10月28日浏览器禁用已实际解除并打开当前登录页；随后按人类授权暂停本机重型验收，当前服务已停，待时段交还。最终状态统一读取 `docs/VALIDATION.md`；完整美术缺口见 `docs/ART_COMPLETION_CHECKLIST.md`。默认本机回环地址、内存状态重启清空、每标签身份用sessionStorage；没有腾讯协议兼容、持久账号或互联网发布的验收证据。
 
 旧 `hero-panorama.png`、旧预览与旧压缩包不再作为当前交付依赖，其清理或保留由最终采用清单决定。本版需要 `node scripts/serve.mjs` 启动HTTP服务，不能再按旧 `file://` 双击离线入口交付。
 
-image关联登记为 `designs/qqtang-ui-20261026/README.md`（风格和总体关联）及 `q_daoist_character_pack_4096/README.md` 的本项目关联（四人物直接复用）。仅更新文字，不改其他项目或共享Git。
+image关联登记为 `designs/qqtang-ui-20261026/README.md`（风格和总体关联）、`q_daoist_character_pack_4096/README.md`（15静态人物直接复用）及 `designs/pets-xianling-20260924/README.md`（仙灵卡面改造使用）。仅更新文字，不操作image共享Git。
+
+## 2026-10-28实际扩展
+
+15个现存自有静态人物已复制，四个运行入口和11个 `assets/characters/roster-candidates/<stem>/master.png`分别保留来源JSON。20个具体源角色槽位由这15位和5个新生成身份组成映射，见 `assets/characters/motion-generated/roster-skin-mapping-20261028.json`，其中appearance保存每件实际master和sourceRecord。新5位位于 `roster-expansion/`，不是image旧图或已完成动作；运行层尚未扩为20位。旧缺失9张不恢复，历史型号／质量证据不回填。
+
+实际读取仙灵包README、HANDOFF_NEW_WINDOW及已采用身份视觉记录，并查看9张现存512头像。新包image `designs/pets-xianling-20260924/ui/`采用04-guideng、02-jiangling、14-feierling、16-luhualing、07-cangzhanglin、06-xiluo、12-yuexianshi；新包不含芽铃童／霞角鹿，另从 `designs/pets-original-20260924/ui/`采用13-yalingtong、11-xiajiaolu，没有用旧包覆盖新包同身份。每项源文件均为对应目录下的 `portrait_512.png`。新项目参考副本在 `assets/items/petcards/references/canon/`，原样副本哈希、历史证据、useState、usedByItemIds与实际成图精确路径见 `adoption-index.json`。48项卡面首稿及逐图链见 `assets/items/petcards/art.json`；14绯耳灵已实际生成采用。关联类型改造使用／新项目外观选择，不当作腾讯旧宠物身份或运行模型，不采用MMO属性。28044原物品明确无效，保留锁定标记，不启用或补造功能。本包其他图、E/W动画和整体美观状态不据旧README推定；本轮卡面仍未终验或接入。
+
+固定源二进制属性新增52条，旧721共享项字段零差异，27个先前缺失编号的核心定义全部找到；当前源定义773，非序列化canHide／CanDoSpecial未知。补充数据和新候选未覆盖旧已验证运行清单，证据见 `BINARY_MAP_PROPERTY_SUPPLEMENT_20261028.md`。当前新图和导出链逐件记录，不把静态来源比较算成运行或原版认证通过。
+
+
+头饰背包图标继续改造使用同批三张已看头像：桂灯童04-guideng→1539、绯耳灵14-feierling→408、霞角鹿11-xiajiaolu→407。源与目标精确路径及历史证据仍从 `assets/items/head-adornments/adoption-index.json`读取，世界挂件／动画不由图标完成推定；image两个宠物目录README均已追加对应使用位置。

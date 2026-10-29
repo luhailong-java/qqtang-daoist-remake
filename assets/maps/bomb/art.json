@@ -408,110 +408,6 @@
       ]
     },
     {
-      "elementId": 7007,
-      "idMapping": "candidate-filename-inference",
-      "file": "assets/maps/bomb/pieces/7007-goal-left.png",
-      "sha256": "506cbc5792b58a67794d3e4a31dfab3a466cbe0dc502c2f37650ac91379daea2",
-      "width": 164,
-      "height": 472,
-      "worldFrameWidth": 41,
-      "worldFrameHeight": 118,
-      "exportDensity": 4,
-      "sourceFootprintCells": [
-        1,
-        3
-      ],
-      "sourceMapElemOffset": [
-        0,
-        4
-      ],
-      "derivedFrom": {
-        "file": "assets/maps/bomb/props-b-v1.png",
-        "sha256": "64e5976d7612ea27a7a05ae0c3cd5dfadef2015719fe4df11fed44f917457e18",
-        "generationRecord": "assets/maps/bomb/props-b-v1.png.generation.json"
-      },
-      "operation": {
-        "type": "crop-uniform-fit-bottom-align",
-        "sourceRectLTRB": [
-          249,
-          402,
-          521,
-          951
-        ],
-        "uniformScale": 0.6029411764705882,
-        "placementPx": [
-          0,
-          141
-        ],
-        "resampled": true,
-        "newModelGeneration": false,
-        "resizeAlpha": "premultiplied"
-      },
-      "alphaExtrema": [
-        0,
-        255
-      ],
-      "visibleAspectRatioRelativeError": 0.42591852148029674,
-      "geometryAccepted": false,
-      "seamlessVerified": null,
-      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
-      "warnings": [
-        "visible-proportions-differ-more-than-10-percent"
-      ]
-    },
-    {
-      "elementId": 7008,
-      "idMapping": "candidate-filename-inference",
-      "file": "assets/maps/bomb/pieces/7008-goal-right.png",
-      "sha256": "c9fa9d5b70d015fa64c65bba76f97d29ab75f244ccf0d43266bcc85f6c4ab4b3",
-      "width": 208,
-      "height": 472,
-      "worldFrameWidth": 52,
-      "worldFrameHeight": 118,
-      "exportDensity": 4,
-      "sourceFootprintCells": [
-        1,
-        3
-      ],
-      "sourceMapElemOffset": [
-        8,
-        3
-      ],
-      "derivedFrom": {
-        "file": "assets/maps/bomb/props-b-v1.png",
-        "sha256": "64e5976d7612ea27a7a05ae0c3cd5dfadef2015719fe4df11fed44f917457e18",
-        "generationRecord": "assets/maps/bomb/props-b-v1.png.generation.json"
-      },
-      "operation": {
-        "type": "crop-uniform-fit-bottom-align",
-        "sourceRectLTRB": [
-          1025,
-          402,
-          1312,
-          953
-        ],
-        "uniformScale": 0.7247386759581882,
-        "placementPx": [
-          0,
-          73
-        ],
-        "resampled": true,
-        "newModelGeneration": false,
-        "resizeAlpha": "premultiplied"
-      },
-      "alphaExtrema": [
-        0,
-        255
-      ],
-      "visibleAspectRatioRelativeError": 0.18197682535250603,
-      "geometryAccepted": false,
-      "seamlessVerified": null,
-      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
-      "warnings": [
-        "visible-proportions-differ-more-than-10-percent"
-      ]
-    },
-    {
       "elementId": 7012,
       "idMapping": "candidate-filename-inference",
       "file": "assets/maps/bomb/pieces/7012-football-field.png",
@@ -684,6 +580,106 @@
         "line-classification-and-turf-joins-await-visual-validation",
         "source-advertisement-removed-from-surface-paint-not-map-geometry"
       ]
+    },
+    {
+      "elementId": 7008,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/bomb/pieces/7008-goal-right-v4.png",
+      "sha256": "95edf0dfc4b0a4c1914b35f7e154ab45b64053e65f2b1c108138d2fd37828e3c",
+      "width": 208,
+      "height": 472,
+      "worldFrameWidth": 52,
+      "worldFrameHeight": 118,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        3
+      ],
+      "sourceMapElemOffset": [
+        8,
+        3
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bomb/goals-v4.png",
+        "sha256": "62264b1f595b85344a952ca01bfcfd6f5baed1d674ae4c746eb9a734e7187f3a",
+        "generationRecord": "assets/maps/bomb/goals-v4.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          985,
+          80,
+          1368,
+          938
+        ],
+        "uniformScale": 0.5430809399477807,
+        "placementPx": [
+          0,
+          6
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.012954993724224373,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": []
+    },
+    {
+      "elementId": 7007,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/bomb/pieces/7007-goal-left-v3.png",
+      "sha256": "123fc6945ca4a200219d17cdd68c549064bc5b881bbad3b8f03f417bda5e0fe5",
+      "width": 164,
+      "height": 472,
+      "worldFrameWidth": 41,
+      "worldFrameHeight": 118,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        3
+      ],
+      "sourceMapElemOffset": [
+        0,
+        4
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bomb/goals-v3.png",
+        "sha256": "fc9fd213ff72bfc6a76d0fe5f51082aba01e1cb5d1c131ae644e53a62bc21f5d",
+        "generationRecord": "assets/maps/bomb/goals-v3.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          159,
+          80,
+          476,
+          939
+        ],
+        "uniformScale": 0.5173501577287066,
+        "placementPx": [
+          0,
+          28
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.062097163462903504,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": []
     }
   ]
 }
