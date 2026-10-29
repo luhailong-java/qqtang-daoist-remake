@@ -1,0 +1,5546 @@
+{
+  "schemaVersion": 1,
+  "tilePixels": 40,
+  "status": "production-candidates",
+  "pieces": [
+    {
+      "elementId": 14001,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14001-woven-floor.png",
+      "sha256": "b8c41a509d3be14b05405ed4160779e96aebfff4d11080070fca53be7693b821",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        0,
+        0
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-e-v1.png",
+        "sha256": "af809b266176088e0c42b45709d9ddf2c62bc65a13a4696cc3b3670d783f091c",
+        "generationRecord": "assets/maps/box/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-opaque-square-texture-uniform-resize",
+        "sourceRectLTRB": [
+          0,
+          0,
+          627,
+          627
+        ],
+        "uniformScale": 0.2551834130781499,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied",
+        "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used",
+        "originalCropAlphaExtrema": [
+          255,
+          255
+        ],
+        "referenceAlphaExtrema": [
+          255,
+          255
+        ]
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14001-d06fb887b2bd.png",
+        "sha256": "d41d04c1586ad95c093290110a449ea8ffd7ba92ba0bf7d486e32e36137b3b6e",
+        "representativeElementId": 14001,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 1.0,
+        "generatedVisibleAspect": 1.0,
+        "relativeAspectDeviation": 0.0,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14002,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14002-shared-painted-candidate.png",
+      "sha256": "188f07cd52a0f103ee051624067406b273f581422d015341eea86db4b861ae56",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10002-988e3a0c8ad0.png",
+        "sha256": "151c44e1cd78672377cbaa2adc9ce7f976c96e3b44bb10c75a793edf8464360b",
+        "representativeElementId": 10002,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": [
+        {
+          "file": "assets/maps/treasure/batch-03/sheet-v1.png",
+          "sha256": "9f4eabc2a9fa3567587e5ac9512b659bee3b5af113dec17c245c6e149a812b24",
+          "generationRecord": "assets/maps/treasure/batch-03/sheet-v1.png.generation.json",
+          "purpose": "new painted lava RGB"
+        },
+        {
+          "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+          "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+          "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json",
+          "purpose": "new painted volcanic-stone RGB, no mushrooms in selected crop"
+        },
+        {
+          "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10002-988e3a0c8ad0.png",
+          "sha256": "151c44e1cd78672377cbaa2adc9ce7f976c96e3b44bb10c75a793edf8464360b",
+          "purpose": "bank-versus-lava region mask only; no source RGB reused"
+        }
+      ],
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10002-treasure-mask-v2.png",
+        "sourcePaintedSha256": "188f07cd52a0f103ee051624067406b273f581422d015341eea86db4b861ae56",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10002-treasure-mask-v2.png.source.json",
+        "referenceImageSha256": "151c44e1cd78672377cbaa2adc9ce7f976c96e3b44bb10c75a793edf8464360b",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "terrainOpaqueCanvasVerified": true,
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "seamlessVerified": false,
+      "anchorStatus": "source render offset remains unverified",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [
+        "bank-mask-classification-needs-visual-comparison",
+        "tile-seams-not-yet-accepted"
+      ],
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10002
+    },
+    {
+      "elementId": 14003,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14003-shared-painted-candidate.png",
+      "sha256": "81e407a38f656c984cff5149fb24f040e8b7714a87e4b9c9364beb1d7e2e7500",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10003-78d567197122.png",
+        "sha256": "561f7be6c74909b1721f1ff3b72f36a231dd53d8c3d288942c6d940b3c3aa1b7",
+        "representativeElementId": 10003,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": [
+        {
+          "file": "assets/maps/treasure/batch-03/sheet-v1.png",
+          "sha256": "9f4eabc2a9fa3567587e5ac9512b659bee3b5af113dec17c245c6e149a812b24",
+          "generationRecord": "assets/maps/treasure/batch-03/sheet-v1.png.generation.json",
+          "purpose": "new painted lava RGB"
+        },
+        {
+          "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+          "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+          "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json",
+          "purpose": "new painted volcanic-stone RGB, no mushrooms in selected crop"
+        },
+        {
+          "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10003-78d567197122.png",
+          "sha256": "561f7be6c74909b1721f1ff3b72f36a231dd53d8c3d288942c6d940b3c3aa1b7",
+          "purpose": "bank-versus-lava region mask only; no source RGB reused"
+        }
+      ],
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10003-treasure-mask-v2.png",
+        "sourcePaintedSha256": "81e407a38f656c984cff5149fb24f040e8b7714a87e4b9c9364beb1d7e2e7500",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10003-treasure-mask-v2.png.source.json",
+        "referenceImageSha256": "561f7be6c74909b1721f1ff3b72f36a231dd53d8c3d288942c6d940b3c3aa1b7",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "terrainOpaqueCanvasVerified": true,
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "seamlessVerified": false,
+      "anchorStatus": "source render offset remains unverified",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [
+        "bank-mask-classification-needs-visual-comparison",
+        "tile-seams-not-yet-accepted"
+      ],
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10003
+    },
+    {
+      "elementId": 14004,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14004-shared-painted-candidate.png",
+      "sha256": "f58a239181f81cb3baa7e75e42b9033e3b08a78ae985ab5337fc3fe6f93c35ad",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10004-28b4ee67baa9.png",
+        "sha256": "1e2c562af21c82bb619beae2c67b7619e607b324ec4d798a6dd840977f531d3a",
+        "representativeElementId": 10004,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": [
+        {
+          "file": "assets/maps/treasure/batch-03/sheet-v1.png",
+          "sha256": "9f4eabc2a9fa3567587e5ac9512b659bee3b5af113dec17c245c6e149a812b24",
+          "generationRecord": "assets/maps/treasure/batch-03/sheet-v1.png.generation.json",
+          "purpose": "new painted lava RGB"
+        },
+        {
+          "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+          "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+          "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json",
+          "purpose": "new painted volcanic-stone RGB, no mushrooms in selected crop"
+        },
+        {
+          "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10004-28b4ee67baa9.png",
+          "sha256": "1e2c562af21c82bb619beae2c67b7619e607b324ec4d798a6dd840977f531d3a",
+          "purpose": "bank-versus-lava region mask only; no source RGB reused"
+        }
+      ],
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10004-treasure-mask-v2.png",
+        "sourcePaintedSha256": "f58a239181f81cb3baa7e75e42b9033e3b08a78ae985ab5337fc3fe6f93c35ad",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10004-treasure-mask-v2.png.source.json",
+        "referenceImageSha256": "1e2c562af21c82bb619beae2c67b7619e607b324ec4d798a6dd840977f531d3a",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "terrainOpaqueCanvasVerified": true,
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "seamlessVerified": false,
+      "anchorStatus": "source render offset remains unverified",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [
+        "bank-mask-classification-needs-visual-comparison",
+        "tile-seams-not-yet-accepted"
+      ],
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10004
+    },
+    {
+      "elementId": 14007,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14007-shared-painted-candidate.png",
+      "sha256": "dcd38f1e87b044b5d9cd568354013df7a982d5aaa25190524b82c141e695393b",
+      "width": 156,
+      "height": 252,
+      "worldFrameWidth": 39,
+      "worldFrameHeight": 63,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/mine/props-b-v1.png",
+        "sha256": "31d6d0c425775f433971d36c24019cbdf9b4d55d84b483018204d954bf08c217",
+        "generationRecord": "assets/maps/mine/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/mine/pieces/4007-mine-v1.png",
+        "sourcePaintedSha256": "dcd38f1e87b044b5d9cd568354013df7a982d5aaa25190524b82c141e695393b",
+        "sourcePaintedProvenance": "assets/maps/mine/pieces/4007-mine-v1.png.provenance.json",
+        "referenceImageSha256": "47e3117133b6f6845f38752613323d5ffee1f02caf431e425aa2932bb462bdc9",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4007-fee1be2f63cb.png",
+        "sha256": "47e3117133b6f6845f38752613323d5ffee1f02caf431e425aa2932bb462bdc9",
+        "representativeElementId": 4007,
+        "nativeFrameSize": [
+          39,
+          63
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        -1,
+        23
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.6190476190476191,
+        "generatedVisibleAspect": 0.6921296296296297,
+        "relativeAspectDeviation": 0.11805555555555558,
+        "generatedCellLTRB": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.118-exceeds-0.100-review-required"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 4007,
+      "accepted": false
+    },
+    {
+      "elementId": 14010,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14010-shared-painted-candidate.png",
+      "sha256": "67ffe9c11c67541c50d5a4eee1231ca0ed33f2192e0bd7724b7e86f53f40b406",
+      "width": 132,
+      "height": 196,
+      "worldFrameWidth": 33,
+      "worldFrameHeight": 49,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        -6,
+        16
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bomb/props-a-v1.png",
+        "sha256": "05c448bc5b547b7acce63a13e118e58cbb439f74654e96151a113ef6c92d8591",
+        "generationRecord": "assets/maps/bomb/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/bomb/pieces/7010-corner-flag-red.png",
+        "sourcePaintedSha256": "67ffe9c11c67541c50d5a4eee1231ca0ed33f2192e0bd7724b7e86f53f40b406",
+        "sourcePaintedProvenance": "assets/maps/bomb/pieces/7010-corner-flag-red.png.provenance.json",
+        "referenceImageSha256": "091f071fef3f562365390d835f30e4a6ed014df53dbb2dc0ff190d0bc734a5df",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.06615574348132491,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/bomb/frames/candidate-7010-8bb4dea8fc96.png",
+        "sha256": "091f071fef3f562365390d835f30e4a6ed014df53dbb2dc0ff190d0bc734a5df",
+        "representativeElementId": 7010,
+        "nativeFrameSize": [
+          33,
+          49
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        -5,
+        9
+      ],
+      "sourceFrameOffsetRaw": [
+        6,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 7010,
+      "accepted": false
+    },
+    {
+      "elementId": 14012,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14012-shared-painted-candidate.png",
+      "sha256": "3fb974c647df3a86115504edbc1e6d8bbb0eab98c4f325e871098a5c3776dac2",
+      "width": 172,
+      "height": 332,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 83,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        -1,
+        45
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10012-72fc1a7f8939.png",
+        "sha256": "6ec644542becb8e489b6c6673760977c34b074d41bb22c4c93f81faa2bc9d09a",
+        "representativeElementId": 10012,
+        "nativeFrameSize": [
+          43,
+          83
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/treasure/batch-01/sheet-v1.png",
+        "sha256": "8883291611119b914b1bc3189a7f3827751771008e20d517b4de927e548bb4ad",
+        "generationRecord": "assets/maps/treasure/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10012-treasure-v1.png",
+        "sourcePaintedSha256": "3fb974c647df3a86115504edbc1e6d8bbb0eab98c4f325e871098a5c3776dac2",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10012-treasure-v1.png.source.json",
+        "referenceImageSha256": "6ec644542becb8e489b6c6673760977c34b074d41bb22c4c93f81faa2bc9d09a",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        42
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10012
+    },
+    {
+      "elementId": 14015,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14015-shared-painted-candidate.png",
+      "sha256": "6317e93fd5fa328ccbd6e7c19036a5de43e6eeddf59cc558e95fb87740b99bb3",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10015-77b3175e2dc5.png",
+        "sha256": "cdc7112b0ceff376631939e0a64bd214a84d15bb99af76346469ce95e6866767",
+        "representativeElementId": 10015,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": [
+        {
+          "file": "assets/maps/treasure/batch-03/sheet-v1.png",
+          "sha256": "9f4eabc2a9fa3567587e5ac9512b659bee3b5af113dec17c245c6e149a812b24",
+          "generationRecord": "assets/maps/treasure/batch-03/sheet-v1.png.generation.json",
+          "purpose": "new painted lava RGB"
+        },
+        {
+          "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+          "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+          "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json",
+          "purpose": "new painted volcanic-stone RGB, no mushrooms in selected crop"
+        },
+        {
+          "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10015-77b3175e2dc5.png",
+          "sha256": "cdc7112b0ceff376631939e0a64bd214a84d15bb99af76346469ce95e6866767",
+          "purpose": "bank-versus-lava region mask only; no source RGB reused"
+        }
+      ],
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10015-treasure-mask-v2.png",
+        "sourcePaintedSha256": "6317e93fd5fa328ccbd6e7c19036a5de43e6eeddf59cc558e95fb87740b99bb3",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10015-treasure-mask-v2.png.source.json",
+        "referenceImageSha256": "cdc7112b0ceff376631939e0a64bd214a84d15bb99af76346469ce95e6866767",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "terrainOpaqueCanvasVerified": true,
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "seamlessVerified": false,
+      "anchorStatus": "source render offset remains unverified",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [
+        "bank-mask-classification-needs-visual-comparison",
+        "tile-seams-not-yet-accepted"
+      ],
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10015
+    },
+    {
+      "elementId": 14016,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14016-shared-painted-candidate.png",
+      "sha256": "7dab5d112cb3eeb991a78cb006ee1c4ef9c71aeb502eca6ea88057cc88e2b4e6",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10016-fd7bde9db8c7.png",
+        "sha256": "01a7c8f1c6bf2ddf7db9d3ec96a280aaaa9965be8c1649528cb0aeee3ceae2e3",
+        "representativeElementId": 10016,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": [
+        {
+          "file": "assets/maps/treasure/batch-03/sheet-v1.png",
+          "sha256": "9f4eabc2a9fa3567587e5ac9512b659bee3b5af113dec17c245c6e149a812b24",
+          "generationRecord": "assets/maps/treasure/batch-03/sheet-v1.png.generation.json",
+          "purpose": "new painted lava RGB"
+        },
+        {
+          "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+          "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+          "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json",
+          "purpose": "new painted volcanic-stone RGB, no mushrooms in selected crop"
+        },
+        {
+          "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10016-fd7bde9db8c7.png",
+          "sha256": "01a7c8f1c6bf2ddf7db9d3ec96a280aaaa9965be8c1649528cb0aeee3ceae2e3",
+          "purpose": "bank-versus-lava region mask only; no source RGB reused"
+        }
+      ],
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10016-treasure-mask-v2.png",
+        "sourcePaintedSha256": "7dab5d112cb3eeb991a78cb006ee1c4ef9c71aeb502eca6ea88057cc88e2b4e6",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10016-treasure-mask-v2.png.source.json",
+        "referenceImageSha256": "01a7c8f1c6bf2ddf7db9d3ec96a280aaaa9965be8c1649528cb0aeee3ceae2e3",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "terrainOpaqueCanvasVerified": true,
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "seamlessVerified": false,
+      "anchorStatus": "source render offset remains unverified",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [
+        "bank-mask-classification-needs-visual-comparison",
+        "tile-seams-not-yet-accepted"
+      ],
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10016
+    },
+    {
+      "elementId": 14017,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14017-shared-painted-candidate.png",
+      "sha256": "9487cdcae5ce52afc724130f4f85eade575ca743338a5873def50b0b75ccbdb5",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10017-c7330d172397.png",
+        "sha256": "98d4599d3f627b900dc920b2d77d68ce27e1fb74cf6fe21d045222b47a6a0e0f",
+        "representativeElementId": 10017,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": [
+        {
+          "file": "assets/maps/treasure/batch-03/sheet-v1.png",
+          "sha256": "9f4eabc2a9fa3567587e5ac9512b659bee3b5af113dec17c245c6e149a812b24",
+          "generationRecord": "assets/maps/treasure/batch-03/sheet-v1.png.generation.json",
+          "purpose": "new painted lava RGB"
+        },
+        {
+          "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+          "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+          "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json",
+          "purpose": "new painted volcanic-stone RGB, no mushrooms in selected crop"
+        },
+        {
+          "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10017-c7330d172397.png",
+          "sha256": "98d4599d3f627b900dc920b2d77d68ce27e1fb74cf6fe21d045222b47a6a0e0f",
+          "purpose": "bank-versus-lava region mask only; no source RGB reused"
+        }
+      ],
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10017-treasure-mask-v2.png",
+        "sourcePaintedSha256": "9487cdcae5ce52afc724130f4f85eade575ca743338a5873def50b0b75ccbdb5",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10017-treasure-mask-v2.png.source.json",
+        "referenceImageSha256": "98d4599d3f627b900dc920b2d77d68ce27e1fb74cf6fe21d045222b47a6a0e0f",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "terrainOpaqueCanvasVerified": true,
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "seamlessVerified": false,
+      "anchorStatus": "source render offset remains unverified",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [
+        "bank-mask-classification-needs-visual-comparison",
+        "tile-seams-not-yet-accepted"
+      ],
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10017
+    },
+    {
+      "elementId": 14022,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14022-shared-painted-candidate.png",
+      "sha256": "cf4456617d0e7fbb509e06c11912ba77d289bb68d2e473a561df89233a28a0f2",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/machine/props-b-v1.png",
+        "sha256": "9e25864d26dd729b2a6a7384b50a3c9ba66aa4f6766a38bd81036a430e08e649",
+        "generationRecord": "assets/maps/machine/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/machine/pieces/13010-machine-v1.png",
+        "sourcePaintedSha256": "cf4456617d0e7fbb509e06c11912ba77d289bb68d2e473a561df89233a28a0f2",
+        "sourcePaintedProvenance": "assets/maps/machine/pieces/13010-machine-v1.png.provenance.json",
+        "referenceImageSha256": "30405ac35a21f7f8a7966ba26b212514580fd1ee6056c268820e110be37adb8c",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13010-1607a096b3b5.png",
+        "sha256": "30405ac35a21f7f8a7966ba26b212514580fd1ee6056c268820e110be37adb8c",
+        "representativeElementId": 13010,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8981481481481481,
+        "relativeAspectDeviation": 0.10227272727272729,
+        "generatedCellLTRB": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.102-exceeds-0.100-review-required"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 13010,
+      "accepted": false
+    },
+    {
+      "elementId": 14023,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14023-shared-painted-candidate.png",
+      "sha256": "4dbd7ce4d5d23e5251d406299258a623d42104bd592fc76a51a66f71406ac4b3",
+      "width": 172,
+      "height": 184,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 46,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        2,
+        5
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/snow/frames/candidate-2003-1a80af8acfcd.png",
+        "sha256": "c0557f4aa888994d5567379a9339a7a933a9e19ea5ee8ae767d37d3676d23d37",
+        "representativeElementId": 2003,
+        "nativeFrameSize": [
+          43,
+          46
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/snow/batch-01/sheet-v1.png",
+        "sha256": "685fe016ed69de3a103aa5bfa5ada11c66410137f6c55d8f30d8955926d99681",
+        "generationRecord": "assets/maps/snow/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/snow/pieces/2003-snow-v1.png",
+        "sourcePaintedSha256": "4dbd7ce4d5d23e5251d406299258a623d42104bd592fc76a51a66f71406ac4b3",
+        "sourcePaintedProvenance": "assets/maps/snow/pieces/2003-snow-v1.png.source.json",
+        "referenceImageSha256": "c0557f4aa888994d5567379a9339a7a933a9e19ea5ee8ae767d37d3676d23d37",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        5
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 2003
+    },
+    {
+      "elementId": 14024,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14024-shared-painted-candidate.png",
+      "sha256": "f2772a62b13f3156e80b6dbcc8f6986b137b1d706a07c7c27767b8fe21817ee6",
+      "width": 172,
+      "height": 332,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 83,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/machine/props-c-v1.png",
+        "sha256": "3a733fe4e315fd752ff4b93ebecb310f042fdabf1512625d836f23ac654abbb4",
+        "generationRecord": "assets/maps/machine/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/machine/pieces/13024-machine-v1.png",
+        "sourcePaintedSha256": "f2772a62b13f3156e80b6dbcc8f6986b137b1d706a07c7c27767b8fe21817ee6",
+        "sourcePaintedProvenance": "assets/maps/machine/pieces/13024-machine-v1.png.provenance.json",
+        "referenceImageSha256": "d2a0864ef37a1f4ef5698e60b5b0897e4ebfe3c598539dbacdeff4d87f5b50be",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10013-8f05f29393ab.png",
+        "sha256": "d2a0864ef37a1f4ef5698e60b5b0897e4ebfe3c598539dbacdeff4d87f5b50be",
+        "representativeElementId": 10013,
+        "nativeFrameSize": [
+          43,
+          83
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        42
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.5180722891566265,
+        "generatedVisibleAspect": 0.4821852731591449,
+        "relativeAspectDeviation": 0.06927028669281332,
+        "generatedCellLTRB": [
+          630,
+          510,
+          940,
+          1005
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 13024,
+      "accepted": false
+    },
+    {
+      "elementId": 14025,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14025-shared-painted-candidate.png",
+      "sha256": "86537fd121ecc219f168c61d25f312f6f8345d262f2032809d26d3f7f669cb36",
+      "width": 176,
+      "height": 272,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 68,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        26
+      ],
+      "selectedFrameOffsetRaw": [
+        3,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6014-12b69391b73b.png",
+        "sha256": "fae78108a29d9e99b2a84bfa5f5224e24160ae32c1726ec04e7dc428eeadcbd4",
+        "representativeElementId": 6014,
+        "nativeFrameSize": [
+          44,
+          68
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-03/sheet-v1.png",
+        "sha256": "e09d23f5ab3ce0147ada90fd0da45101c23c797a46174681bbc4caa23c2a5757",
+        "generationRecord": "assets/maps/field/batch-03/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/field/pieces/6014-field-v1.png",
+        "sourcePaintedSha256": "86537fd121ecc219f168c61d25f312f6f8345d262f2032809d26d3f7f669cb36",
+        "sourcePaintedProvenance": "assets/maps/field/pieces/6014-field-v1.png.source.json",
+        "referenceImageSha256": "fae78108a29d9e99b2a84bfa5f5224e24160ae32c1726ec04e7dc428eeadcbd4",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        27
+      ],
+      "sourceFrameOffsetRaw": [
+        3,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 6014
+    },
+    {
+      "elementId": 14026,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14026-shared-painted-candidate.png",
+      "sha256": "427390450a725e82a662bf356476e6aedde547f628951c54f64bc2caf60f2922",
+      "width": 176,
+      "height": 272,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 68,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        26
+      ],
+      "selectedFrameOffsetRaw": [
+        3,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6015-fda962f79191.png",
+        "sha256": "2f2adc8d0bbb55c3a4ad3fd91c0d0a67f5a62200b139ba4bbda5e769549238c0",
+        "representativeElementId": 6015,
+        "nativeFrameSize": [
+          44,
+          68
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-03/sheet-v1.png",
+        "sha256": "e09d23f5ab3ce0147ada90fd0da45101c23c797a46174681bbc4caa23c2a5757",
+        "generationRecord": "assets/maps/field/batch-03/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/field/pieces/6015-field-v1.png",
+        "sourcePaintedSha256": "427390450a725e82a662bf356476e6aedde547f628951c54f64bc2caf60f2922",
+        "sourcePaintedProvenance": "assets/maps/field/pieces/6015-field-v1.png.source.json",
+        "referenceImageSha256": "2f2adc8d0bbb55c3a4ad3fd91c0d0a67f5a62200b139ba4bbda5e769549238c0",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        26
+      ],
+      "sourceFrameOffsetRaw": [
+        3,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 6015
+    },
+    {
+      "elementId": 14027,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14027-shared-painted-candidate.png",
+      "sha256": "a5822fc44da616d69d232015189bda8bddb6abdfe0cbeb7f392002e55971e44d",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/desert/props-a-v1.png",
+        "sha256": "c9037b8e1e0ca408c4875d7350380761672941a6cadc11c021896ecb46692ee8",
+        "generationRecord": "assets/maps/desert/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/desert/pieces/1002-gold-brick.png",
+        "sourcePaintedSha256": "a5822fc44da616d69d232015189bda8bddb6abdfe0cbeb7f392002e55971e44d",
+        "sourcePaintedProvenance": "assets/maps/desert/pieces/1002-gold-brick.png.provenance.json",
+        "referenceImageSha256": "77889077726c5c34f128ec0389df901149bd1e5b4db86e74ada3810bc4fb35c8",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1002-92a97f84737d.png",
+        "sha256": "77889077726c5c34f128ec0389df901149bd1e5b4db86e74ada3810bc4fb35c8",
+        "representativeElementId": 1002,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8392282958199357,
+        "relativeAspectDeviation": 0.029961999415375695,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 1002,
+      "accepted": false
+    },
+    {
+      "elementId": 14028,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14028-shared-painted-candidate.png",
+      "sha256": "cd4de21a1fbd69b140c1da235a33deed4173661c054e1bf639772af43776acd5",
+      "width": 160,
+      "height": 200,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 50,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/water/props-d-v1.png",
+        "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+        "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/water/pieces/5020-water-v1.png",
+        "sourcePaintedSha256": "cd4de21a1fbd69b140c1da235a33deed4173661c054e1bf639772af43776acd5",
+        "sourcePaintedProvenance": "assets/maps/water/pieces/5020-water-v1.png.provenance.json",
+        "referenceImageSha256": "e11242d675801b470d31200fa6fe8c76d9d9700da5f473a25f040959611c11ea",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5020-e8d761a5d1f4.png",
+        "sha256": "e11242d675801b470d31200fa6fe8c76d9d9700da5f473a25f040959611c11ea",
+        "representativeElementId": 5020,
+        "nativeFrameSize": [
+          40,
+          50
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        10
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8,
+        "generatedVisibleAspect": 0.7138157894736842,
+        "relativeAspectDeviation": 0.1077302631578948,
+        "generatedCellLTRB": [
+          630,
+          105,
+          920,
+          465
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending",
+          "generated-visible-aspect-deviation-0.108-exceeds-0.100-review-required"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 5020,
+      "accepted": false
+    },
+    {
+      "elementId": 14029,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14029-shared-painted-candidate.png",
+      "sha256": "0b4ea458eedfa5f3d2bb3a94cf9a4be5f53e22b7ef3c04998f743ddd22d82e4c",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/desert/props-a-v1.png",
+        "sha256": "c9037b8e1e0ca408c4875d7350380761672941a6cadc11c021896ecb46692ee8",
+        "generationRecord": "assets/maps/desert/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/desert/pieces/1003-cinnabar-brick.png",
+        "sourcePaintedSha256": "0b4ea458eedfa5f3d2bb3a94cf9a4be5f53e22b7ef3c04998f743ddd22d82e4c",
+        "sourcePaintedProvenance": "assets/maps/desert/pieces/1003-cinnabar-brick.png.provenance.json",
+        "referenceImageSha256": "1577f165883d38c7a6f82742f8abcaaa37d465e1d54f8296255d3c4644d117df",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1003-ceb997bf3580.png",
+        "sha256": "1577f165883d38c7a6f82742f8abcaaa37d465e1d54f8296255d3c4644d117df",
+        "representativeElementId": 1003,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8538961038961039,
+        "relativeAspectDeviation": 0.04796340023612755,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 1003,
+      "accepted": false
+    },
+    {
+      "elementId": 14030,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14030-shared-painted-candidate.png",
+      "sha256": "6a5fe351a64f76504c46d07048f98363e849891e2505fecdc36462374f9bfe4e",
+      "width": 176,
+      "height": 228,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 57,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        3,
+        12
+      ],
+      "selectedFrameOffsetRaw": [
+        2,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6005-b7779e4d5840.png",
+        "sha256": "c753507ff8649e5946cb0a8e94f32c55c172df6a60512eb7ebcf8764e5ec21f9",
+        "representativeElementId": 6005,
+        "nativeFrameSize": [
+          44,
+          57
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-02/sheet-v1.png",
+        "sha256": "82dcf19683068e5bcdc3141461e8b700502e2b12e4afa82a99a9d956bc37e0ce",
+        "generationRecord": "assets/maps/field/batch-02/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/field/pieces/6005-field-v1.png",
+        "sourcePaintedSha256": "6a5fe351a64f76504c46d07048f98363e849891e2505fecdc36462374f9bfe4e",
+        "sourcePaintedProvenance": "assets/maps/field/pieces/6005-field-v1.png.source.json",
+        "referenceImageSha256": "c753507ff8649e5946cb0a8e94f32c55c172df6a60512eb7ebcf8764e5ec21f9",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        16
+      ],
+      "sourceFrameOffsetRaw": [
+        2,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 6005
+    },
+    {
+      "elementId": 14031,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14031-shared-painted-candidate.png",
+      "sha256": "fdc7c52ca47f8da9a2debd645a69262eb285b9b50baa4b38dd2a17855ae53d3e",
+      "width": 160,
+      "height": 236,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 59,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        19
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        2
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10006-2ec303ae2d13.png",
+        "sha256": "d71fc4f473f585a57d7473a9d20d924cdfdf7cc3029888c96cc113adcd6b338d",
+        "representativeElementId": 10006,
+        "nativeFrameSize": [
+          40,
+          59
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/treasure/batch-01/sheet-v1.png",
+        "sha256": "8883291611119b914b1bc3189a7f3827751771008e20d517b4de927e548bb4ad",
+        "generationRecord": "assets/maps/treasure/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10006-treasure-v1.png",
+        "sourcePaintedSha256": "fdc7c52ca47f8da9a2debd645a69262eb285b9b50baa4b38dd2a17855ae53d3e",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10006-treasure-v1.png.source.json",
+        "referenceImageSha256": "d71fc4f473f585a57d7473a9d20d924cdfdf7cc3029888c96cc113adcd6b338d",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        20
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        19
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10006
+    },
+    {
+      "elementId": 14032,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14032-shared-painted-candidate.png",
+      "sha256": "d3819411f18c2dee4d9b59c358357ada6d8a507d6f17749dddc33d4bd14c54b2",
+      "width": 176,
+      "height": 272,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 68,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        25
+      ],
+      "selectedFrameOffsetRaw": [
+        3,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6013-0368494d2e97.png",
+        "sha256": "c2f501aa9b659798b49c5ac868211e4273944d00c5f25c9592225357a4cec15b",
+        "representativeElementId": 6013,
+        "nativeFrameSize": [
+          44,
+          68
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-03/sheet-v1.png",
+        "sha256": "e09d23f5ab3ce0147ada90fd0da45101c23c797a46174681bbc4caa23c2a5757",
+        "generationRecord": "assets/maps/field/batch-03/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/field/pieces/6013-field-v1.png",
+        "sourcePaintedSha256": "d3819411f18c2dee4d9b59c358357ada6d8a507d6f17749dddc33d4bd14c54b2",
+        "sourcePaintedProvenance": "assets/maps/field/pieces/6013-field-v1.png.source.json",
+        "referenceImageSha256": "c2f501aa9b659798b49c5ac868211e4273944d00c5f25c9592225357a4cec15b",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        26
+      ],
+      "sourceFrameOffsetRaw": [
+        3,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 6013
+    },
+    {
+      "elementId": 14033,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14033-shared-painted-candidate.png",
+      "sha256": "a924ab5533dbd048d8adcfd566b78c56ee97b8d88c9ba01ab13e8fc6fb5d3e71",
+      "width": 176,
+      "height": 228,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 57,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        14
+      ],
+      "selectedFrameOffsetRaw": [
+        2,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6002-2213d1407a3b.png",
+        "sha256": "d00720168d49d11bcdf9a48e5fd72b21675aa31bec4db17f0ce22ef318751998",
+        "representativeElementId": 6002,
+        "nativeFrameSize": [
+          44,
+          57
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/field/pieces/6002-field-v1.png",
+        "sourcePaintedSha256": "a924ab5533dbd048d8adcfd566b78c56ee97b8d88c9ba01ab13e8fc6fb5d3e71",
+        "sourcePaintedProvenance": "assets/maps/field/pieces/6002-field-v1.png.source.json",
+        "referenceImageSha256": "d00720168d49d11bcdf9a48e5fd72b21675aa31bec4db17f0ce22ef318751998",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        16
+      ],
+      "sourceFrameOffsetRaw": [
+        2,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 6002
+    },
+    {
+      "elementId": 14034,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14034-shared-painted-candidate.png",
+      "sha256": "b354c7578d5092b24b30c089b3301a761c76ab4bf027b077efc9fce0892dc523",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        3855
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6001-251b220acf76.png",
+        "sha256": "a92543bc8627270a1a758dfed1a832a1bfaf786ca8078e106d2fe29618afcd1f",
+        "representativeElementId": 6001,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-01/sheet-v1.png",
+        "sha256": "8ebb07ab6f2acc60605eb6aca1ca0600554b0a05857f2bccf85f68cd1bdf8f1e",
+        "generationRecord": "assets/maps/field/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/field/pieces/6001-field-v1.png",
+        "sourcePaintedSha256": "b354c7578d5092b24b30c089b3301a761c76ab4bf027b077efc9fce0892dc523",
+        "sourcePaintedProvenance": "assets/maps/field/pieces/6001-field-v1.png.source.json",
+        "referenceImageSha256": "a92543bc8627270a1a758dfed1a832a1bfaf786ca8078e106d2fe29618afcd1f",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "opaqueSquareTexture": {
+        "requested": true,
+        "applied": true,
+        "whitelist": "plain texture only 6001/6023/6024; manually inspected source",
+        "sourceReferenceAlphaExtrema": [
+          255,
+          255
+        ],
+        "nativeInscribedSquareSide": 357,
+        "operation": "near-opaque texture alpha normalization250..254→255",
+        "threshold": 250,
+        "notSeamAcceptance": true,
+        "originalAlphaExtrema": [
+          250,
+          254
+        ],
+        "rgbPreserved": true,
+        "nativeCropRGBSHA256": "6142a74db50ca9a4228d88d1b54de091b71de08acd657c0e97a32aea1c9f657d"
+      },
+      "terrainOpaqueCanvasVerified": true,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 6001
+    },
+    {
+      "elementId": 14035,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14035-shared-painted-candidate.png",
+      "sha256": "f67084eb8822fbfe332d93b963542ab2b079664e8038aaeb27f37bfc50c5276f",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        3855
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6024-0c8f56df87fc.png",
+        "sha256": "12cd70cca75985c3f77d4bc8a560023822467554e50713e9239094cd02bc51bd",
+        "representativeElementId": 6024,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/field/batch-03/sheet-v1.png",
+        "sha256": "e09d23f5ab3ce0147ada90fd0da45101c23c797a46174681bbc4caa23c2a5757",
+        "generationRecord": "assets/maps/field/batch-03/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/field/pieces/6024-field-v1.png",
+        "sourcePaintedSha256": "f67084eb8822fbfe332d93b963542ab2b079664e8038aaeb27f37bfc50c5276f",
+        "sourcePaintedProvenance": "assets/maps/field/pieces/6024-field-v1.png.source.json",
+        "referenceImageSha256": "12cd70cca75985c3f77d4bc8a560023822467554e50713e9239094cd02bc51bd",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "opaqueSquareTexture": {
+        "requested": true,
+        "applied": true,
+        "whitelist": "plain texture only 6001/6023/6024; manually inspected source",
+        "sourceReferenceAlphaExtrema": [
+          255,
+          255
+        ],
+        "nativeInscribedSquareSide": 365,
+        "operation": "near-opaque texture alpha normalization250..254→255",
+        "threshold": 250,
+        "notSeamAcceptance": true,
+        "originalAlphaExtrema": [
+          250,
+          254
+        ],
+        "rgbPreserved": true,
+        "nativeCropRGBSHA256": "42333747abab267a6be17b554954f815a8d230a3c64475687f29b1989597234e"
+      },
+      "terrainOpaqueCanvasVerified": true,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 6024
+    },
+    {
+      "elementId": 14036,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14036-shared-painted-candidate.png",
+      "sha256": "482845124043fdd8b0eb65925006c3e6423e247024477916ac3056b0af686c77",
+      "width": 172,
+      "height": 212,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        10
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bun/props-a-v1.png",
+        "sha256": "0ab486e765dca22ad125cc1cb8bf223b856abf46500381ebe4b515535b7ea780",
+        "generationRecord": "assets/maps/bun/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/bun/pieces/8001-green-block.png",
+        "sourcePaintedSha256": "482845124043fdd8b0eb65925006c3e6423e247024477916ac3056b0af686c77",
+        "sourcePaintedProvenance": "assets/maps/bun/pieces/8001-green-block.png.provenance.json",
+        "referenceImageSha256": "3a989f2cfa17c36c3c53184551cc2b335f38962048508a51122af2bf9efbe2bd",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.027649229687774612,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/bun/frames/candidate-8001-91cb1b5a0d7c.png",
+        "sha256": "3a989f2cfa17c36c3c53184551cc2b335f38962048508a51122af2bf9efbe2bd",
+        "representativeElementId": 8001,
+        "nativeFrameSize": [
+          43,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 8001,
+      "accepted": false
+    },
+    {
+      "elementId": 14037,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14037-shared-painted-candidate.png",
+      "sha256": "e3f3ab434db43de32657820e67e024c780edf1ada0f395a52569f84823d39fb7",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        0,
+        0
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bun/ground-gate-v1.png",
+        "sha256": "57d2214bba5bd233e7856f17938d0df72a1eb27c883f250e40ffefcc3dc5b5d0",
+        "generationRecord": "assets/maps/bun/ground-gate-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/bun/pieces/8011-moss-floor.png",
+        "sourcePaintedSha256": "e3f3ab434db43de32657820e67e024c780edf1ada0f395a52569f84823d39fb7",
+        "sourcePaintedProvenance": "assets/maps/bun/pieces/8011-moss-floor.png.provenance.json",
+        "referenceImageSha256": "49ef48960b4214afea4dd3d5a35bf8278ce274c53c0d22e611531945e4832c9e",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0,
+      "geometryAccepted": false,
+      "seamlessVerified": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/bun/frames/candidate-8011-34c93e7a3849.png",
+        "sha256": "49ef48960b4214afea4dd3d5a35bf8278ce274c53c0d22e611531945e4832c9e",
+        "representativeElementId": 8011,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 8011,
+      "accepted": false
+    },
+    {
+      "elementId": 14038,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14038-shared-painted-candidate.png",
+      "sha256": "333b0f7444958867fcbe4f7d843e034960c4f184ccd0c770c0938a52dc2ded14",
+      "width": 172,
+      "height": 212,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        10
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bun/props-a-v1.png",
+        "sha256": "0ab486e765dca22ad125cc1cb8bf223b856abf46500381ebe4b515535b7ea780",
+        "generationRecord": "assets/maps/bun/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/bun/pieces/8002-green-block-leaf.png",
+        "sourcePaintedSha256": "333b0f7444958867fcbe4f7d843e034960c4f184ccd0c770c0938a52dc2ded14",
+        "sourcePaintedProvenance": "assets/maps/bun/pieces/8002-green-block-leaf.png.provenance.json",
+        "referenceImageSha256": "2151602ffe17a1cadc95b3963221116bd70a4331a8e482e8118730b7d331eb20",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.025067196447353002,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/bun/frames/candidate-8002-39b3816d18fa.png",
+        "sha256": "2151602ffe17a1cadc95b3963221116bd70a4331a8e482e8118730b7d331eb20",
+        "representativeElementId": 8002,
+        "nativeFrameSize": [
+          43,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 8002,
+      "accepted": false
+    },
+    {
+      "elementId": 14039,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14039-shared-painted-candidate.png",
+      "sha256": "b2951d6351fd4412ad4b03d203444c092a2d245f2f8136ba56722deb4ebbc36b",
+      "width": 172,
+      "height": 212,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        10
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bun/props-a-v1.png",
+        "sha256": "0ab486e765dca22ad125cc1cb8bf223b856abf46500381ebe4b515535b7ea780",
+        "generationRecord": "assets/maps/bun/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/bun/pieces/8003-yellow-block.png",
+        "sourcePaintedSha256": "b2951d6351fd4412ad4b03d203444c092a2d245f2f8136ba56722deb4ebbc36b",
+        "sourcePaintedProvenance": "assets/maps/bun/pieces/8003-yellow-block.png.provenance.json",
+        "referenceImageSha256": "79227277f470fe3083258466899cd871c448e1db2ed95d60085fc42e0eb27f43",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.047211050883021466,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/bun/frames/candidate-8003-1a2c2d27af1a.png",
+        "sha256": "79227277f470fe3083258466899cd871c448e1db2ed95d60085fc42e0eb27f43",
+        "representativeElementId": 8003,
+        "nativeFrameSize": [
+          43,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 8003,
+      "accepted": false
+    },
+    {
+      "elementId": 14040,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14040-shared-painted-candidate.png",
+      "sha256": "10b860bbdf77df98f118019b202d3903807d2c21eec9a2d115cc7e7700655c18",
+      "width": 172,
+      "height": 212,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        10
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bun/props-a-v1.png",
+        "sha256": "0ab486e765dca22ad125cc1cb8bf223b856abf46500381ebe4b515535b7ea780",
+        "generationRecord": "assets/maps/bun/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/bun/pieces/8004-yellow-block-peel.png",
+        "sourcePaintedSha256": "10b860bbdf77df98f118019b202d3903807d2c21eec9a2d115cc7e7700655c18",
+        "sourcePaintedProvenance": "assets/maps/bun/pieces/8004-yellow-block-peel.png.provenance.json",
+        "referenceImageSha256": "46d85027745cb46ec47c3143723e3e3723401e04cdb45aca0df3755ede37669e",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.04390128144280969,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/bun/frames/candidate-8004-11d3c166baca.png",
+        "sha256": "46d85027745cb46ec47c3143723e3e3723401e04cdb45aca0df3755ede37669e",
+        "representativeElementId": 8004,
+        "nativeFrameSize": [
+          43,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 8004,
+      "accepted": false
+    },
+    {
+      "elementId": 14041,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14041-shared-painted-candidate.png",
+      "sha256": "c44104cf64c68142f311789de8dc72bbcd87d76d57993294f1d71b1999003c78",
+      "width": 172,
+      "height": 236,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 59,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        17
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/bun/props-c-v1.png",
+        "sha256": "a92363320d1ba764810b3d6813d63f257dbed311ffa24982ca1c3792b636834f",
+        "generationRecord": "assets/maps/bun/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/bun/pieces/8007-blue-cloud-stone.png",
+        "sourcePaintedSha256": "c44104cf64c68142f311789de8dc72bbcd87d76d57993294f1d71b1999003c78",
+        "sourcePaintedProvenance": "assets/maps/bun/pieces/8007-blue-cloud-stone.png.provenance.json",
+        "referenceImageSha256": "e5c3c9207e47031d9ae30eaa63a4582675b215b34ab503c2c7f48e9ad573d728",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.005396684099254423,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/bun/frames/candidate-8007-1473deb9c7c1.png",
+        "sha256": "e5c3c9207e47031d9ae30eaa63a4582675b215b34ab503c2c7f48e9ad573d728",
+        "representativeElementId": 8007,
+        "nativeFrameSize": [
+          43,
+          59
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        18
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 8007,
+      "accepted": false
+    },
+    {
+      "elementId": 14042,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14042-shared-painted-candidate.png",
+      "sha256": "34c8ea2beef8589b24730eacaca7997b21fe276a7a5dc26a202b4e9d0fd942e7",
+      "width": 168,
+      "height": 208,
+      "worldFrameWidth": 42,
+      "worldFrameHeight": 52,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        1,
+        11
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/pig/props-repair-v2.png",
+        "sha256": "e19068403bfaffa5ca9a798faa805d4c85c4f6c3e952946d1e0bac27d984cf5a",
+        "generationRecord": "assets/maps/pig/props-repair-v2.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/pig/pieces/9012-wooden-crate-v2.png",
+        "sourcePaintedSha256": "34c8ea2beef8589b24730eacaca7997b21fe276a7a5dc26a202b4e9d0fd942e7",
+        "sourcePaintedProvenance": "assets/maps/pig/pieces/9012-wooden-crate-v2.png.provenance.json",
+        "referenceImageSha256": "f577a118f7afc536d26129f54bc7cf7ddba30abf47682c9d1dbb3a1e5ad019eb",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.17169684775318583,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [
+        "visible-proportions-differ-more-than-10-percent"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/pig/frames/candidate-9012-550958d74a46.png",
+        "sha256": "f577a118f7afc536d26129f54bc7cf7ddba30abf47682c9d1dbb3a1e5ad019eb",
+        "representativeElementId": 9012,
+        "nativeFrameSize": [
+          42,
+          52
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        11
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 9012,
+      "accepted": false
+    },
+    {
+      "elementId": 14043,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14043-shared-painted-candidate.png",
+      "sha256": "d82aa305452ae11720c56eaf08af2dd068f118fddbf2d4791a623de5a18cf8ee",
+      "width": 172,
+      "height": 212,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10007-8df92dcc5036.png",
+        "sha256": "80001f35008d490b61a2d35823c5f356fe4ddedc8d9be54f458f8c995cc1a84a",
+        "representativeElementId": 10007,
+        "nativeFrameSize": [
+          43,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/treasure/batch-01/sheet-v1.png",
+        "sha256": "8883291611119b914b1bc3189a7f3827751771008e20d517b4de927e548bb4ad",
+        "generationRecord": "assets/maps/treasure/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10007-treasure-v1.png",
+        "sourcePaintedSha256": "d82aa305452ae11720c56eaf08af2dd068f118fddbf2d4791a623de5a18cf8ee",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10007-treasure-v1.png.source.json",
+        "referenceImageSha256": "80001f35008d490b61a2d35823c5f356fe4ddedc8d9be54f458f8c995cc1a84a",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10007
+    },
+    {
+      "elementId": 14044,
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "file": "assets/maps/box/pieces/14044-shared-painted-candidate.png",
+      "sha256": "634ca8750b137f25cd0b88e4783654185ec2fdec65829e5fd3e5c0ccf1afec22",
+      "width": 172,
+      "height": 212,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        0
+      ],
+      "mapElemOffsetRaw": [
+        1,
+        13
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10008-36fd2430cd50.png",
+        "sha256": "d62b005d354830038fd29245c27da63871f44c1ab98570c78c0c2b739d58fdba",
+        "representativeElementId": 10008,
+        "nativeFrameSize": [
+          43,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "derivedFrom": {
+        "file": "assets/maps/treasure/batch-01/sheet-v1.png",
+        "sha256": "8883291611119b914b1bc3189a7f3827751771008e20d517b4de927e548bb4ad",
+        "generationRecord": "assets/maps/treasure/batch-01/sheet-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/treasure/pieces/10008-treasure-v1.png",
+        "sourcePaintedSha256": "634ca8750b137f25cd0b88e4783654185ec2fdec65829e5fd3e5c0ccf1afec22",
+        "sourcePaintedProvenance": "assets/maps/treasure/pieces/10008-treasure-v1.png.source.json",
+        "referenceImageSha256": "d62b005d354830038fd29245c27da63871f44c1ab98570c78c0c2b739d58fdba",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "accepted": false,
+      "inGameAccepted": false,
+      "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 10008
+    },
+    {
+      "elementId": 14045,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14045-shared-painted-candidate.png",
+      "sha256": "beb70dd0b63ecc8f7b95f61359101c9d736a93d3f8f066fb24d8a58cca8b7224",
+      "width": 172,
+      "height": 216,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        13
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/sculpture/props-b-v1.png",
+        "sha256": "f4d009b89067170a3b6758c54bdabd1595f07f7cce6a00523daebec3f3acfcc2",
+        "generationRecord": "assets/maps/sculpture/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/sculpture/pieces/12020-green-block-left.png",
+        "sourcePaintedSha256": "beb70dd0b63ecc8f7b95f61359101c9d736a93d3f8f066fb24d8a58cca8b7224",
+        "sourcePaintedProvenance": "assets/maps/sculpture/pieces/12020-green-block-left.png.provenance.json",
+        "referenceImageSha256": "a45d5a36d7c22a4921267c2b7f3b49c836ed14da4c25604516e4a2dfdda1fc01",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.07221542227662181,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/sculpture/frames/candidate-12020-cb5580b419c5.png",
+        "sha256": "a45d5a36d7c22a4921267c2b7f3b49c836ed14da4c25604516e4a2dfdda1fc01",
+        "representativeElementId": 12020,
+        "nativeFrameSize": [
+          43,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 12020,
+      "accepted": false
+    },
+    {
+      "elementId": 14046,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14046-shared-painted-candidate.png",
+      "sha256": "1bb8cd0d660b77361f41ee2e41d258d260e61df8cb295d44e433bad2c930e4d0",
+      "width": 172,
+      "height": 216,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        13
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/sculpture/props-b-v1.png",
+        "sha256": "f4d009b89067170a3b6758c54bdabd1595f07f7cce6a00523daebec3f3acfcc2",
+        "generationRecord": "assets/maps/sculpture/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/sculpture/pieces/12021-green-block-right.png",
+        "sourcePaintedSha256": "1bb8cd0d660b77361f41ee2e41d258d260e61df8cb295d44e433bad2c930e4d0",
+        "sourcePaintedProvenance": "assets/maps/sculpture/pieces/12021-green-block-right.png.provenance.json",
+        "referenceImageSha256": "6d08f399ea6f81bc1ff760e349ba39fbbe223e71235e4f5da7a85f499f9fd8a9",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.09657529656189268,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "warnings": [],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/sculpture/frames/candidate-12021-d48e6134b4f3.png",
+        "sha256": "6d08f399ea6f81bc1ff760e349ba39fbbe223e71235e4f5da7a85f499f9fd8a9",
+        "representativeElementId": 12021,
+        "nativeFrameSize": [
+          43,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "crossFamilyPaintedReuseOfElementId": 12021,
+      "accepted": false
+    },
+    {
+      "elementId": 14047,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14047-shared-painted-candidate.png",
+      "sha256": "30f91a525a1fff40840c73c46d14e9684e18109f2512788cecb6378550ecd556",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/machine/props-b-v1.png",
+        "sha256": "9e25864d26dd729b2a6a7384b50a3c9ba66aa4f6766a38bd81036a430e08e649",
+        "generationRecord": "assets/maps/machine/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/machine/pieces/13007-machine-v1.png",
+        "sourcePaintedSha256": "30f91a525a1fff40840c73c46d14e9684e18109f2512788cecb6378550ecd556",
+        "sourcePaintedProvenance": "assets/maps/machine/pieces/13007-machine-v1.png.provenance.json",
+        "referenceImageSha256": "b88d5690f6e90a2a9d93b527ee3240abddb5f67002b561920f666e4d3084591f",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13007-a50d372649d3.png",
+        "sha256": "b88d5690f6e90a2a9d93b527ee3240abddb5f67002b561920f666e4d3084591f",
+        "representativeElementId": 13007,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8262195121951219,
+        "relativeAspectDeviation": 0.013996674057649594,
+        "generatedCellLTRB": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 13007,
+      "accepted": false
+    },
+    {
+      "elementId": 14048,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14048-shared-painted-candidate.png",
+      "sha256": "91cf49479d76532e32e0ce17bbc992389cda10294cdf3b5739252b9287006be1",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/machine/props-b-v1.png",
+        "sha256": "9e25864d26dd729b2a6a7384b50a3c9ba66aa4f6766a38bd81036a430e08e649",
+        "generationRecord": "assets/maps/machine/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/machine/pieces/13008-machine-v1.png",
+        "sourcePaintedSha256": "91cf49479d76532e32e0ce17bbc992389cda10294cdf3b5739252b9287006be1",
+        "sourcePaintedProvenance": "assets/maps/machine/pieces/13008-machine-v1.png.provenance.json",
+        "referenceImageSha256": "8d61ea2f514c4e4412081f68b98077ccf38b74eb3ce0797d94401a02e8d2206d",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13008-06662545558b.png",
+        "sha256": "8d61ea2f514c4e4412081f68b98077ccf38b74eb3ce0797d94401a02e8d2206d",
+        "representativeElementId": 13008,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8731117824773413,
+        "relativeAspectDeviation": 0.07154627849491901,
+        "generatedCellLTRB": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 13008,
+      "accepted": false
+    },
+    {
+      "elementId": 14049,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14049-shared-painted-candidate.png",
+      "sha256": "39ccbdab5892215be1c8334550b49fae0d6bb8f7e30a39ac7e2783250d8ba281",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "derivedFrom": {
+        "file": "assets/maps/machine/props-b-v1.png",
+        "sha256": "9e25864d26dd729b2a6a7384b50a3c9ba66aa4f6766a38bd81036a430e08e649",
+        "generationRecord": "assets/maps/machine/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+        "sourcePaintedFile": "assets/maps/machine/pieces/13009-machine-v1.png",
+        "sourcePaintedSha256": "39ccbdab5892215be1c8334550b49fae0d6bb8f7e30a39ac7e2783250d8ba281",
+        "sourcePaintedProvenance": "assets/maps/machine/pieces/13009-machine-v1.png.provenance.json",
+        "referenceImageSha256": "3db4c319c2ef2dbc247a74b619f916d60adc7b0cb268509985507af81498380e",
+        "resampled": false,
+        "newModelGeneration": false
+      },
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13009-c08d97c6e269.png",
+        "sha256": "3db4c319c2ef2dbc247a74b619f916d60adc7b0cb268509985507af81498380e",
+        "representativeElementId": 13009,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "geometryAccepted": false,
+      "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+      "seamlessVerified": null,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8630952380952381,
+        "relativeAspectDeviation": 0.059253246753246946,
+        "generatedCellLTRB": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      },
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "crossFamilyPaintedReuseOfElementId": 13009,
+      "accepted": false
+    },
+    {
+      "elementId": 14100,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14100-ice-face-block.png",
+      "sha256": "b59c59a9e01220375cfe512025252dc580960e924f4ad78f1f736eb12ad3e585",
+      "width": 172,
+      "height": 208,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 52,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        12
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-a-v1.png",
+        "sha256": "af1747c7d663dd938999b0e08beeee20d7a73444abfb205d26a0b00b2ff065d6",
+        "generationRecord": "assets/maps/box/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          95,
+          55,
+          447,
+          453
+        ],
+        "uniformScale": 0.48863636363636365,
+        "placementPx": [
+          0,
+          14
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0664952670328387,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14100-0f4b3581b301.png",
+        "sha256": "b8555ddca0e8f93e8fdc12087b7b1857971380bb63c54d2ee7f316afb8c66155",
+        "representativeElementId": 14100,
+        "nativeFrameSize": [
+          43,
+          52
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        -2,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8269230769230769,
+        "generatedVisibleAspect": 0.8819095477386935,
+        "relativeAspectDeviation": 0.0664952670328387,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14101,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14101-rose-dot-floor.png",
+      "sha256": "33e97a9110f125dfe4012c39405df3ea3080c666c73c2417d77c953c9f7d25b5",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        0,
+        0
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-e-v1.png",
+        "sha256": "af809b266176088e0c42b45709d9ddf2c62bc65a13a4696cc3b3670d783f091c",
+        "generationRecord": "assets/maps/box/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-opaque-square-texture-uniform-resize",
+        "sourceRectLTRB": [
+          627,
+          0,
+          1254,
+          627
+        ],
+        "uniformScale": 0.2551834130781499,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied",
+        "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used",
+        "originalCropAlphaExtrema": [
+          255,
+          255
+        ],
+        "referenceAlphaExtrema": [
+          255,
+          255
+        ]
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14101-e2bef586e8dc.png",
+        "sha256": "469cec91d34585111fc59525f32e98ce8f0e00ad6a1835d0e859fc9d9372e23c",
+        "representativeElementId": 14101,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 1.0,
+        "generatedVisibleAspect": 1.0,
+        "relativeAspectDeviation": 0.0,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14102,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14102-peach-dot-floor.png",
+      "sha256": "16ea9ed44503f0a789621fbcd0177e88c14e4ce45f5a69c8fd0629deb177fd5e",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        0,
+        0
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-e-v1.png",
+        "sha256": "af809b266176088e0c42b45709d9ddf2c62bc65a13a4696cc3b3670d783f091c",
+        "generationRecord": "assets/maps/box/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-opaque-square-texture-uniform-resize",
+        "sourceRectLTRB": [
+          0,
+          627,
+          627,
+          1254
+        ],
+        "uniformScale": 0.2551834130781499,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied",
+        "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used",
+        "originalCropAlphaExtrema": [
+          255,
+          255
+        ],
+        "referenceAlphaExtrema": [
+          255,
+          255
+        ]
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14102-757a12ddfff5.png",
+        "sha256": "5fd98f0615557543699120dcc1d5042b49fa6204996d5ba2a147381ba9dcc17f",
+        "representativeElementId": 14102,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3855
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 1.0,
+        "generatedVisibleAspect": 1.0,
+        "relativeAspectDeviation": 0.0,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14103,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14103-ice-stall.png",
+      "sha256": "12d6b691aa5ca26338e7b02d72d3611e25a3390bee05ff615a4842d66a18a05a",
+      "width": 172,
+      "height": 220,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 55,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        1,
+        14
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-a-v1.png",
+        "sha256": "af1747c7d663dd938999b0e08beeee20d7a73444abfb205d26a0b00b2ff065d6",
+        "generationRecord": "assets/maps/box/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          610,
+          53,
+          928,
+          452
+        ],
+        "uniformScale": 0.5408805031446541,
+        "placementPx": [
+          0,
+          4
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.02454454923554561,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14103-e0259dcfb0b3.png",
+        "sha256": "a32114251cb56b1107540479dd8886cea64ed856881edd8b07195c2714e480a5",
+        "representativeElementId": 14103,
+        "nativeFrameSize": [
+          43,
+          55
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        14
+      ],
+      "sourceFrameOffsetRaw": [
+        -2,
+        1
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7818181818181819,
+        "generatedVisibleAspect": 0.801007556675063,
+        "relativeAspectDeviation": 0.02454454923554561,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14104,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14104-cool-stall.png",
+      "sha256": "18da103ba633484e7dd85de8c0d1e15da6f52a09f9fbf29529a3ddb4f9597e67",
+      "width": 172,
+      "height": 220,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 55,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        1,
+        13
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-a-v1.png",
+        "sha256": "af1747c7d663dd938999b0e08beeee20d7a73444abfb205d26a0b00b2ff065d6",
+        "generationRecord": "assets/maps/box/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1111,
+          54,
+          1450,
+          453
+        ],
+        "uniformScale": 0.5073746312684366,
+        "placementPx": [
+          0,
+          18
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0830314362510225,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14104-9ac04a3ed1f1.png",
+        "sha256": "0098a9f91b035f99f16f3efa371ed2764be595ea3543b783b8614ca45c04d156",
+        "representativeElementId": 14104,
+        "nativeFrameSize": [
+          43,
+          55
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        -2,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7818181818181819,
+        "generatedVisibleAspect": 0.8467336683417085,
+        "relativeAspectDeviation": 0.0830314362510225,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14105,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14105-red-furnace-crate.png",
+      "sha256": "e618ff9ad0cb5d8673cc0d0eaeba6744d43ed3ba79e0ba340d6733f3c20e77f5",
+      "width": 172,
+      "height": 184,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 46,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        5
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-a-v1.png",
+        "sha256": "af1747c7d663dd938999b0e08beeee20d7a73444abfb205d26a0b00b2ff065d6",
+        "generationRecord": "assets/maps/box/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          73,
+          545,
+          447,
+          929
+        ],
+        "uniformScale": 0.45989304812834225,
+        "placementPx": [
+          0,
+          7
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.04190891472868219,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14105-bf317f817591.png",
+        "sha256": "7e4fbe78e7050c4d0015c551668c15f2bff8d744f22098bec0b4fdf669096446",
+        "representativeElementId": 14105,
+        "nativeFrameSize": [
+          43,
+          46
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        5
+      ],
+      "sourceFrameOffsetRaw": [
+        -3,
+        1
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.9347826086956522,
+        "generatedVisibleAspect": 0.9739583333333334,
+        "relativeAspectDeviation": 0.04190891472868219,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14106,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14106-red-roof-house-block-v2.png",
+      "sha256": "7a441ecfc724f373fe626088512a1a6951836239a7a28aad41df20d4c2d1c0ca",
+      "width": 172,
+      "height": 252,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 63,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        3,
+        22
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-g-v1.png",
+        "sha256": "cd63357ae547ea273412f6595a70db154c904fcf3e25f5eeef24115b74c5a4d0",
+        "generationRecord": "assets/maps/box/props-g-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          86,
+          49,
+          449,
+          574
+        ],
+        "uniformScale": 0.4738292011019284,
+        "placementPx": [
+          0,
+          3
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.01302325581395336,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14106-4256669a2a18.png",
+        "sha256": "1281acbb10f72195df83969f521778808f9b34f6df7c33a927ee1c4eab08071c",
+        "representativeElementId": 14106,
+        "nativeFrameSize": [
+          43,
+          63
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        6682
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        22
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.6825396825396826,
+        "generatedVisibleAspect": 0.6914285714285714,
+        "relativeAspectDeviation": 0.01302325581395336,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14107,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14107-five-pod-daoist-ride.png",
+      "sha256": "4fc9288dc3e531146bad78921e5c042cae431ea65e766c5a15fffb3adaffe0ee",
+      "width": 504,
+      "height": 628,
+      "worldFrameWidth": 126,
+      "worldFrameHeight": 157,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        3,
+        3
+      ],
+      "sourceMapElemOffset": [
+        4,
+        38
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-f-v1.png",
+        "sha256": "c5e380c2823f1cbf3ea47afe3bf67d706f66ec424ceaadba418a56ade19456b0",
+        "generationRecord": "assets/maps/box/props-f-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          234,
+          105,
+          1031,
+          1132
+        ],
+        "uniformScale": 0.611489776046738,
+        "placementPx": [
+          8,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.034507565209319635,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14107-ee89dbee5a89.png",
+        "sha256": "6098b6670b06f02ae80980fac1e31c85f503b0eb54c73d245e86ac20b915b2e4",
+        "representativeElementId": 14107,
+        "nativeFrameSize": [
+          126,
+          157
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        3,
+        3
+      ],
+      "sourceGridAttr": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        4,
+        38
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        -1
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.802547770700637,
+        "generatedVisibleAspect": 0.7748538011695907,
+        "relativeAspectDeviation": 0.034507565209319635,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14108,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14108-bear-topiary.png",
+      "sha256": "c5a8d25129c265b1d664fd797f6d7d3cfc47bf0ab34d3c863fc8f9de470b7a54",
+      "width": 196,
+      "height": 232,
+      "worldFrameWidth": 49,
+      "worldFrameHeight": 58,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        5,
+        15
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-a-v1.png",
+        "sha256": "af1747c7d663dd938999b0e08beeee20d7a73444abfb205d26a0b00b2ff065d6",
+        "generationRecord": "assets/maps/box/props-a-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1104,
+          538,
+          1454,
+          947
+        ],
+        "uniformScale": 0.56,
+        "placementPx": [
+          0,
+          3
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.012923506811037377,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14108-16fec3a1de75.png",
+        "sha256": "6888e1df6c33b558602af8a224a28760785dc70f04ae03efed74b7467f7de8d8",
+        "representativeElementId": 14108,
+        "nativeFrameSize": [
+          49,
+          58
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        5,
+        15
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8448275862068966,
+        "generatedVisibleAspect": 0.8557457212713936,
+        "relativeAspectDeviation": 0.012923506811037377,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14109,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14109-bear-topiary-turquoise.png",
+      "sha256": "3e1487133e384787ec24f08a5a425df12d02426bd11f127f733755b03231cbd0",
+      "width": 196,
+      "height": 232,
+      "worldFrameWidth": 49,
+      "worldFrameHeight": 58,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        5,
+        15
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-b-v1.png",
+        "sha256": "ed1d780da0c93ac35ecdfd9c1c9fc036dbbb883d4bb0d98a94abd553281362df",
+        "generationRecord": "assets/maps/box/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          83,
+          43,
+          449,
+          472
+        ],
+        "uniformScale": 0.5355191256830601,
+        "placementPx": [
+          0,
+          2
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.014577259475218485,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14109-23198d1808eb.png",
+        "sha256": "29a75b581adc453832e08d78bdd0847c6f4b5674ffb4baac982a3f5eb27beb55",
+        "representativeElementId": 14109,
+        "nativeFrameSize": [
+          49,
+          58
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        5,
+        15
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8448275862068966,
+        "generatedVisibleAspect": 0.8571428571428571,
+        "relativeAspectDeviation": 0.014577259475218485,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14110,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14110-cargo-cart-engine.png",
+      "sha256": "6692819afb5a5392c07b553b5922ecc3c5b7136cb1462c69c7db08df4e7102cb",
+      "width": 172,
+      "height": 224,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 56,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        1,
+        15
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-b-v1.png",
+        "sha256": "ed1d780da0c93ac35ecdfd9c1c9fc036dbbb883d4bb0d98a94abd553281362df",
+        "generationRecord": "assets/maps/box/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          608,
+          48,
+          941,
+          447
+        ],
+        "uniformScale": 0.5165165165165165,
+        "placementPx": [
+          0,
+          18
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.08037535699714393,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14110-516b225510ad.png",
+        "sha256": "8f667de0142a9b4e9e2e4181d512094f29f2ae70346247c07407bd691b7ddb94",
+        "representativeElementId": 14110,
+        "nativeFrameSize": [
+          43,
+          56
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        15
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7678571428571429,
+        "generatedVisibleAspect": 0.8295739348370927,
+        "relativeAspectDeviation": 0.08037535699714393,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14111,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14111-cargo-green.png",
+      "sha256": "c377c8554d4cbf690b99a4c4c9363ca12f839dcc606437ba089680ee7c580ad5",
+      "width": 172,
+      "height": 224,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 56,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        16
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-b-v1.png",
+        "sha256": "ed1d780da0c93ac35ecdfd9c1c9fc036dbbb883d4bb0d98a94abd553281362df",
+        "generationRecord": "assets/maps/box/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1125,
+          48,
+          1453,
+          448
+        ],
+        "uniformScale": 0.524390243902439,
+        "placementPx": [
+          0,
+          14
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.06139534883720921,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14111-557a38cfee91.png",
+        "sha256": "bf486fd45b315ee11c07df496e0b60ac3d8ba9278c031069477a3fbf1467ddd9",
+        "representativeElementId": 14111,
+        "nativeFrameSize": [
+          43,
+          56
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        16
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7678571428571429,
+        "generatedVisibleAspect": 0.815,
+        "relativeAspectDeviation": 0.06139534883720921,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14112,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14112-cargo-blue.png",
+      "sha256": "d8dc748aec57aa9720eddbc2280dac590d28cf777b26478754f1d4f8cb48af74",
+      "width": 172,
+      "height": 224,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 56,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        3,
+        15
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-b-v1.png",
+        "sha256": "ed1d780da0c93ac35ecdfd9c1c9fc036dbbb883d4bb0d98a94abd553281362df",
+        "generationRecord": "assets/maps/box/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          101,
+          554,
+          429,
+          959
+        ],
+        "uniformScale": 0.524390243902439,
+        "placementPx": [
+          0,
+          12
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.05088648399723694,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14112-9a53976c4b69.png",
+        "sha256": "690659ea29b5903b24ead5af24f3b581b0948633f0ec05117fd49745e8847755",
+        "representativeElementId": 14112,
+        "nativeFrameSize": [
+          43,
+          56
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        15
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7678571428571429,
+        "generatedVisibleAspect": 0.806930693069307,
+        "relativeAspectDeviation": 0.05088648399723694,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14113,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14113-blue-two-socket-block.png",
+      "sha256": "7b1213d299c134f7a1dc6267ee733994f91279e455bcb82c1998db60f057f1a4",
+      "width": 172,
+      "height": 224,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 56,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        15
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-b-v1.png",
+        "sha256": "ed1d780da0c93ac35ecdfd9c1c9fc036dbbb883d4bb0d98a94abd553281362df",
+        "generationRecord": "assets/maps/box/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          610,
+          553,
+          945,
+          960
+        ],
+        "uniformScale": 0.5134328358208955,
+        "placementPx": [
+          0,
+          15
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0713712910986366,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14113-6f8e0022021e.png",
+        "sha256": "87c1a8d85f23c1f094066f4276c93512774eddedc14f027ff5048600c6405d63",
+        "representativeElementId": 14113,
+        "nativeFrameSize": [
+          43,
+          56
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        15
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7678571428571429,
+        "generatedVisibleAspect": 0.8226600985221675,
+        "relativeAspectDeviation": 0.0713712910986366,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14114,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14114-red-one-socket-block.png",
+      "sha256": "c76ab754849f8628c29169a37f46f6a0854087eed4319279e4cb6f7ad58e2157",
+      "width": 172,
+      "height": 224,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 56,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        15
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-b-v1.png",
+        "sha256": "ed1d780da0c93ac35ecdfd9c1c9fc036dbbb883d4bb0d98a94abd553281362df",
+        "generationRecord": "assets/maps/box/props-b-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1122,
+          553,
+          1456,
+          961
+        ],
+        "uniformScale": 0.5149700598802395,
+        "placementPx": [
+          0,
+          14
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.06816359262229343,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14114-1cd879c6ed31.png",
+        "sha256": "43ad9287abd00d372f5834d41cd02c057bb3ad27a256d9fa5273bb27a8451fd7",
+        "representativeElementId": 14114,
+        "nativeFrameSize": [
+          43,
+          56
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        15
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7678571428571429,
+        "generatedVisibleAspect": 0.8201970443349754,
+        "relativeAspectDeviation": 0.06816359262229343,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14115,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14115-red-pushbutton.png",
+      "sha256": "ab16f495cf18ffa8571ef9ad3661750b2f7722da21cfa6efb05c46bc5378f43d",
+      "width": 172,
+      "height": 212,
+      "worldFrameWidth": 43,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        13
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-c-v1.png",
+        "sha256": "50f2a5119a69c672f874fdbcafc23efac0a2784775b6a297437a2d5a3dd16f0f",
+        "generationRecord": "assets/maps/box/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          91,
+          51,
+          431,
+          457
+        ],
+        "uniformScale": 0.5058823529411764,
+        "placementPx": [
+          0,
+          7
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.03474016652311218,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14115-eaf5cacf06d4.png",
+        "sha256": "f25b1c4600f5568e2d15e79d55e20af1ee208d68514c048fc7ed8b79a4a8c075",
+        "representativeElementId": 14115,
+        "nativeFrameSize": [
+          43,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        3
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8113207547169812,
+        "generatedVisibleAspect": 0.8395061728395061,
+        "relativeAspectDeviation": 0.03474016652311218,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14116,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14116-blue-pod-front.png",
+      "sha256": "3dfcb2fecb39d550b24fa13fec5161c575e397f7aff198f7a10174d55ead96e4",
+      "width": 224,
+      "height": 228,
+      "worldFrameWidth": 56,
+      "worldFrameHeight": 57,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        0,
+        0
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-c-v1.png",
+        "sha256": "50f2a5119a69c672f874fdbcafc23efac0a2784775b6a297437a2d5a3dd16f0f",
+        "generationRecord": "assets/maps/box/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          563,
+          64,
+          975,
+          461
+        ],
+        "uniformScale": 0.5436893203883495,
+        "placementPx": [
+          0,
+          12
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.058982683982684136,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14116-2fba7f7f9492.png",
+        "sha256": "e98aad4322dc474bcd1659cc732ae17b3fc9c676a6fff3948ab2d60629c4529f",
+        "representativeElementId": 14116,
+        "nativeFrameSize": [
+          56,
+          57
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3840
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        1
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.9824561403508771,
+        "generatedVisibleAspect": 1.0404040404040404,
+        "relativeAspectDeviation": 0.058982683982684136,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14117,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14117-blue-pod-back.png",
+      "sha256": "143ca2573c867fb85b7a3c79b60e244dd617e7acf2f8566fcb6816900c6d5cea",
+      "width": 224,
+      "height": 212,
+      "worldFrameWidth": 56,
+      "worldFrameHeight": 53,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        16,
+        13
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-c-v1.png",
+        "sha256": "50f2a5119a69c672f874fdbcafc23efac0a2784775b6a297437a2d5a3dd16f0f",
+        "generationRecord": "assets/maps/box/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1070,
+          97,
+          1490,
+          461
+        ],
+        "uniformScale": 0.5333333333333333,
+        "placementPx": [
+          0,
+          18
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.09203296703296693,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14117-38432744c212.png",
+        "sha256": "a13caeab4f40d7e1417f4fb3687799232fcfa2f1d9c8119363ecd1cdea9a41d5",
+        "representativeElementId": 14117,
+        "nativeFrameSize": [
+          56,
+          53
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3840
+      ],
+      "sourceMapElemOffsetRaw": [
+        16,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        1
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 1.0566037735849056,
+        "generatedVisibleAspect": 1.1538461538461537,
+        "relativeAspectDeviation": 0.09203296703296693,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14118,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14118-blue-pod-left.png",
+      "sha256": "bd8359a5e8412d567eefd986c89f4cb54948693274900c9ea130e342aba19e92",
+      "width": 196,
+      "height": 240,
+      "worldFrameWidth": 49,
+      "worldFrameHeight": 60,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        10,
+        0
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-c-v1.png",
+        "sha256": "50f2a5119a69c672f874fdbcafc23efac0a2784775b6a297437a2d5a3dd16f0f",
+        "generationRecord": "assets/maps/box/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          84,
+          528,
+          438,
+          949
+        ],
+        "uniformScale": 0.5536723163841808,
+        "placementPx": [
+          0,
+          7
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.029618498230646217,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14118-d8d662eaa357.png",
+        "sha256": "5365138be0c9d4e366334950b0c52d192cb5be25d1101b7f3aac1bf64b6c486c",
+        "representativeElementId": 14118,
+        "nativeFrameSize": [
+          49,
+          60
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3840
+      ],
+      "sourceMapElemOffsetRaw": [
+        10,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        1
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8166666666666667,
+        "generatedVisibleAspect": 0.8408551068883611,
+        "relativeAspectDeviation": 0.029618498230646217,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14119,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14119-blue-pod-right.png",
+      "sha256": "44006eea1e9cfc93f74330f9b7bc484aa8359691dab10dae73e83e69f38b2a09",
+      "width": 196,
+      "height": 240,
+      "worldFrameWidth": 49,
+      "worldFrameHeight": 60,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        0,
+        19
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-c-v1.png",
+        "sha256": "50f2a5119a69c672f874fdbcafc23efac0a2784775b6a297437a2d5a3dd16f0f",
+        "generationRecord": "assets/maps/box/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          586,
+          528,
+          942,
+          948
+        ],
+        "uniformScale": 0.550561797752809,
+        "placementPx": [
+          0,
+          9
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.03790087463556846,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14119-9c08db4ba344.png",
+        "sha256": "5458cb58a40396d4711f0857ea9eaaca7f57c2f4f4e7a7d2bf44d5d893540473",
+        "representativeElementId": 14119,
+        "nativeFrameSize": [
+          49,
+          60
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        3840
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        19
+      ],
+      "sourceFrameOffsetRaw": [
+        1,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8166666666666667,
+        "generatedVisibleAspect": 0.8476190476190476,
+        "relativeAspectDeviation": 0.03790087463556846,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14120,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14120-gold-shield-block.png",
+      "sha256": "f679d68d4ef242555de47313cee74a89db45be2187751c1a1dbe43319b1ce3ec",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        12
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-c-v1.png",
+        "sha256": "50f2a5119a69c672f874fdbcafc23efac0a2784775b6a297437a2d5a3dd16f0f",
+        "generationRecord": "assets/maps/box/props-c-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1126,
+          556,
+          1460,
+          957
+        ],
+        "uniformScale": 0.5269461077844312,
+        "placementPx": [
+          0,
+          5
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.01915665381999565,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14120-d48181431c51.png",
+        "sha256": "79db8737f0e05bcd61485e52a5159be0e856b1ca136969020a1edaf0f6d763a8",
+        "representativeElementId": 14120,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        12
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.830423940149626,
+        "relativeAspectDeviation": 0.01915665381999565,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14121,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14121-red-shield-block-v2.png",
+      "sha256": "21eea6f388ed0dc871c450687c281285868f9b49463bc0c66bcb03f11c3b61cd",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        3,
+        13
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-d-v1.png",
+        "sha256": "a81dca04dd2bde776eb954a113001ac7b4fbc6c08d0855aaa072851cc0c7171c",
+        "generationRecord": "assets/maps/box/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          103,
+          48,
+          437,
+          438
+        ],
+        "uniformScale": 0.5269461077844312,
+        "placementPx": [
+          0,
+          10
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.05375087637298437,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14121-bd579585226a.png",
+        "sha256": "56f12f193db95c773710c8a57dd161ec27ecc04d1f5becacdfdfa08cb48ab84e",
+        "representativeElementId": 14121,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8586118251928021,
+        "relativeAspectDeviation": 0.05375087637298437,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14122,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14122-ribbon-gift-block.png",
+      "sha256": "571acc653713131e6e6fda04e40c80feb4cc8204b8e46ef221aee360df4134ad",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        10
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-d-v1.png",
+        "sha256": "a81dca04dd2bde776eb954a113001ac7b4fbc6c08d0855aaa072851cc0c7171c",
+        "generationRecord": "assets/maps/box/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          616,
+          45,
+          957,
+          438
+        ],
+        "uniformScale": 0.5161290322580645,
+        "placementPx": [
+          0,
+          13
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.06447124304267171,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14122-fdacaf39c1ee.png",
+        "sha256": "6f672d6039dd8980d5d27e95f27568e69aa1deb0b8edf2b81a36514d042429ee",
+        "representativeElementId": 14122,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        10
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8673469387755102,
+        "relativeAspectDeviation": 0.06447124304267171,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14123,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14123-deer-garden-ornament-v2.png",
+      "sha256": "8615584ca3b54a77f2f1a04e9c62631ed493f01375aa6d42cadfd928dab2c76d",
+      "width": 168,
+      "height": 228,
+      "worldFrameWidth": 42,
+      "worldFrameHeight": 57,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        1,
+        16
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-g-v1.png",
+        "sha256": "cd63357ae547ea273412f6595a70db154c904fcf3e25f5eeef24115b74c5a4d0",
+        "generationRecord": "assets/maps/box/props-g-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          597,
+          80,
+          943,
+          563
+        ],
+        "uniformScale": 0.4720496894409938,
+        "placementPx": [
+          2,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.027802425317953294,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14123-d54f660c0e76.png",
+        "sha256": "7e9b4a3dd38efdbd2a4da3ca87909f428edf78c30692dca3c353014143100d4c",
+        "representativeElementId": 14123,
+        "nativeFrameSize": [
+          42,
+          57
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        16
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        10
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.7368421052631579,
+        "generatedVisibleAspect": 0.7163561076604554,
+        "relativeAspectDeviation": 0.027802425317953294,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14124,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14124-festival-tree-v2.png",
+      "sha256": "1438db91deeee3167d85679739ce3eeeb9280a0fc34484a3500dbb597ba00e3b",
+      "width": 168,
+      "height": 268,
+      "worldFrameWidth": 42,
+      "worldFrameHeight": 67,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        1,
+        26
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-d-v1.png",
+        "sha256": "a81dca04dd2bde776eb954a113001ac7b4fbc6c08d0855aaa072851cc0c7171c",
+        "generationRecord": "assets/maps/box/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          100,
+          492,
+          424,
+          976
+        ],
+        "uniformScale": 0.5185185185185185,
+        "placementPx": [
+          0,
+          17
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.06459071231798497,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14124-42c468e05fec.png",
+        "sha256": "9b673b00a739ea4f1088d15e3202c9bdc838a667040be6a0d9e62e242ce89c01",
+        "representativeElementId": 14124,
+        "nativeFrameSize": [
+          42,
+          67
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        1,
+        26
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.6268656716417911,
+        "generatedVisibleAspect": 0.6673553719008265,
+        "relativeAspectDeviation": 0.06459071231798497,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14125,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14125-festival-snowman-v2.png",
+      "sha256": "09553bff06a596d3bb5f30ba777a32bddddac7eaba56a7f20082af5e54a9d203",
+      "width": 176,
+      "height": 264,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 66,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        2,
+        25
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-g-v1.png",
+        "sha256": "cd63357ae547ea273412f6595a70db154c904fcf3e25f5eeef24115b74c5a4d0",
+        "generationRecord": "assets/maps/box/props-g-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1091,
+          47,
+          1472,
+          584
+        ],
+        "uniformScale": 0.46194225721784776,
+        "placementPx": [
+          0,
+          16
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.06424581005586605,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14125-c5a5a33a710d.png",
+        "sha256": "df2bbac301c672b625ecff61134cbd94b005bf81157151a6dcb8652f070d276e",
+        "representativeElementId": 14125,
+        "nativeFrameSize": [
+          44,
+          66
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        2,
+        25
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.6666666666666666,
+        "generatedVisibleAspect": 0.7094972067039106,
+        "relativeAspectDeviation": 0.06424581005586605,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14126,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14126-snow-cap-block.png",
+      "sha256": "f64967d7922ba713a3b3a787b07aca5ec101371de58f79adf1a7f8e9f8399952",
+      "width": 176,
+      "height": 216,
+      "worldFrameWidth": 44,
+      "worldFrameHeight": 54,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        3,
+        13
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-d-v1.png",
+        "sha256": "a81dca04dd2bde776eb954a113001ac7b4fbc6c08d0855aaa072851cc0c7171c",
+        "generationRecord": "assets/maps/box/props-d-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-uniform-fit-bottom-align",
+        "sourceRectLTRB": [
+          1126,
+          557,
+          1477,
+          962
+        ],
+        "uniformScale": 0.5014245014245015,
+        "placementPx": [
+          0,
+          13
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.06363636363636371,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14126-516a4415c2d2.png",
+        "sha256": "43bc57883e56c4896ef12b88908d640267944488484bc80a02aad766abff8968",
+        "representativeElementId": 14126,
+        "nativeFrameSize": [
+          44,
+          54
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        3,
+        13
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 0.8148148148148148,
+        "generatedVisibleAspect": 0.8666666666666667,
+        "relativeAspectDeviation": 0.06363636363636371,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    },
+    {
+      "elementId": 14127,
+      "idMapping": "candidate-filename-inference",
+      "file": "assets/maps/box/pieces/14127-triple-groove-floor.png",
+      "sha256": "1e07030bc3763c7d64150747bc77d21403f0533e501eb7645892b70af8d27b54",
+      "width": 160,
+      "height": 160,
+      "worldFrameWidth": 40,
+      "worldFrameHeight": 40,
+      "exportDensity": 4,
+      "sourceFootprintCells": [
+        1,
+        1
+      ],
+      "sourceMapElemOffset": [
+        0,
+        0
+      ],
+      "derivedFrom": {
+        "file": "assets/maps/box/props-e-v1.png",
+        "sha256": "af809b266176088e0c42b45709d9ddf2c62bc65a13a4696cc3b3670d783f091c",
+        "generationRecord": "assets/maps/box/props-e-v1.png.generation.json"
+      },
+      "operation": {
+        "type": "crop-opaque-square-texture-uniform-resize",
+        "sourceRectLTRB": [
+          627,
+          627,
+          1254,
+          1254
+        ],
+        "uniformScale": 0.2551834130781499,
+        "placementPx": [
+          0,
+          0
+        ],
+        "resampled": true,
+        "newModelGeneration": false,
+        "resizeAlpha": "premultiplied",
+        "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used",
+        "originalCropAlphaExtrema": [
+          255,
+          255
+        ],
+        "referenceAlphaExtrema": [
+          255,
+          255
+        ]
+      },
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "visibleAspectRatioRelativeError": 0.0,
+      "geometryAccepted": false,
+      "seamlessVerified": null,
+      "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+      "warnings": [
+        "source-id-lookup-and-render-anchor-unverified",
+        "original-map-geometry-and-in-game-validation-pending"
+      ],
+      "sourceReference": {
+        "file": "references/qqtang-map-data/visual-reference/families/box/frames/candidate-14127-e444a351bb36.png",
+        "sha256": "6e6e1360eeb7bfa9591cb72548ffaddfbbddfc936a33340e0ed993886381767e",
+        "representativeElementId": 14127,
+        "nativeFrameSize": [
+          40,
+          40
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "footprintCells": [
+        1,
+        1
+      ],
+      "sourceGridAttr": [
+        0
+      ],
+      "sourceMapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "sourceFrameOffsetRaw": [
+        0,
+        0
+      ],
+      "accepted": false,
+      "qa": {
+        "sourceVisibleAspect": 1.0,
+        "generatedVisibleAspect": 1.0,
+        "relativeAspectDeviation": 0.0,
+        "coreTouchesCellEdge": false,
+        "warnings": [
+          "source-id-lookup-and-render-anchor-unverified",
+          "original-map-geometry-and-in-game-validation-pending"
+        ]
+      }
+    }
+  ]
+}
