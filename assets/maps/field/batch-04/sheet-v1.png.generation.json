@@ -1,0 +1,69 @@
+{
+  "file": "assets/maps/field/batch-04/sheet-v1.png",
+  "sha256": "6f19fb12683c83a607488fde5c950ae6975f7af430f73ab363d9c1e4dfd95c3c",
+  "generatedAt": "2026-10-28T09:35:01.036Z",
+  "timeEvidence": "registration immediately after tool return; UTC",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/maps/field/batch-04/structure-board.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets/maps/field/batch-04/prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/maps/field/batch-04/structure-board.png",
+      "purpose": "source structure only",
+      "sha256": "595dccb28f4c9da07ea11530552837f9bef3bcc9a8c57f6a7904c33c236e0a98"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817f-7ee7-7a41-90d1-5c5dabc5c654/exec-b47791cf-6867-4718-bb77-5faf274ba0d1.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false,
+    "officialCheckDate": "2026-10-28",
+    "officialCheckRecord": "docs/IMAGE_CONFIG_VERIFICATION_20261028.md"
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

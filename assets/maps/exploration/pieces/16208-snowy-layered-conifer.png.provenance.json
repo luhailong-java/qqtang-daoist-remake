@@ -1,0 +1,109 @@
+{
+  "elementId": 16208,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/exploration/pieces/16208-snowy-layered-conifer.png",
+  "sha256": "45f311c02d6eb73e3f87a6045c02e5e9d0d609724d1835c46715691cc62faae9",
+  "width": 224,
+  "height": 220,
+  "worldFrameWidth": 56,
+  "worldFrameHeight": 55,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    10,
+    15
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/exploration/binary/props-b-v1.png",
+    "sha256": "1efbbb2c013399fe4073155c470053aa532b35a54942e5728878abf46e52e554",
+    "generationRecord": "assets/maps/exploration/binary/props-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      572,
+      72,
+      982,
+      479
+    ],
+    "uniformScale": 0.5405405405405406,
+    "placementPx": [
+      1,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.010617760617760541,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "internal-silhouette-and-original-map-render-unverified"
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 16208,
+      "recordOffset": 17464,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        10,
+        15
+      ],
+      "lifeTimeRaw": -1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        0
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "accepted": false,
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-16208.png",
+    "sha256": "be21e0079bce569f2cee3099f5faa29f375faaa220d63ca2a53beb97edb2cd93"
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffsetRaw": [
+    10,
+    15
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "canHide": null,
+  "canDoSpecial": null,
+  "qa": {
+    "sourceVisibleAspect": 1.018181818181818,
+    "generatedVisibleAspect": 1.0098522167487685,
+    "relativeAspectDeviation": 0.008180858550316583,
+    "warnings": [
+      "source-image-id-and-client-anchor-unverified",
+      "internal-silhouette-and-original-map-render-unverified"
+    ]
+  }
+}

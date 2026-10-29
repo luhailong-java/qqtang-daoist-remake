@@ -1,0 +1,109 @@
+{
+  "elementId": 16212,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/exploration/pieces/16212-thin-ice-spire-proportion-v2.png",
+  "sha256": "d659d8727bbde9735e40f25df28b17d50e9b93e81cf618f03100b4d39f6a60eb",
+  "width": 160,
+  "height": 284,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 71,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    31
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/exploration/binary/props-i-v1.png",
+    "sha256": "b3fb79ed4ce0314b53a98f60352734f95b0b1ba15660636aa3d96fd583301a08",
+    "generationRecord": "assets/maps/exploration/binary/props-i-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      135,
+      497,
+      407,
+      986
+    ],
+    "uniformScale": 0.5807770961145194,
+    "placementPx": [
+      1,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.012678936605316937,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "internal-silhouette-and-original-map-render-unverified"
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 16212,
+      "recordOffset": 17576,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        0,
+        31
+      ],
+      "lifeTimeRaw": -1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        0
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "accepted": false,
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-16212.png",
+    "sha256": "bbb134ea3a146a0265b75436166b34ba92d8be579cbd745c2015db8c01439625"
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    31
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "canHide": null,
+  "canDoSpecial": null,
+  "qa": {
+    "sourceVisibleAspect": 0.5633802816901409,
+    "generatedVisibleAspect": 0.5541922290388548,
+    "relativeAspectDeviation": 0.016308793456032755,
+    "warnings": [
+      "source-image-id-and-client-anchor-unverified",
+      "internal-silhouette-and-original-map-render-unverified"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "elementId": 16119,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/exploration/pieces/16119-exploration-path-v2.png",
+  "sha256": "034028e84c98e30ed1e498a2cc351048f8648c5e53725ee0e04b6eb3f70641a3",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    3855
+  ],
+  "mapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16119-2bac3966fbce.png",
+    "sha256": "3c820ad59eab2d2c5db179b4689bc08faaacd3805c0a0d903269317253bfec35",
+    "representativeElementId": 16119,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/maps/exploration/batch-09/sheet-v1.png",
+      "sha256": "6f880432e252c16f694ec63e81686f534440a6fa72903afe62f9814adced659b",
+      "generationRecord": "assets/maps/exploration/batch-09/sheet-v1.png.generation.json",
+      "purpose": "new painted sand/grass RGB material masters only"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16119-2bac3966fbce.png",
+      "sha256": "3c820ad59eab2d2c5db179b4689bc08faaacd3805c0a0d903269317253bfec35",
+      "purpose": "exact grass/sand region mask and alpha, original RGB not copied"
+    }
+  ],
+  "operation": {
+    "type": "source-region-mask-new-texture-image-assembly",
+    "newModelGeneration": false,
+    "resampled": true,
+    "sourcePixelColoursReused": false,
+    "materialSources": [
+      {
+        "material": "sand",
+        "sheetRectLTRB": [
+          100,
+          590,
+          420,
+          910
+        ],
+        "nativeCropSize": [
+          320,
+          320
+        ],
+        "sourceAlphaExtrema": [
+          250,
+          254
+        ],
+        "alphaNormalization": "250..254 to255 only within inspected plain material crop",
+        "nativeCropRGBSHA256": "cc2176bede5950df61c5d5973b03b674ce8f0c51eefed530d358241f6a403b81",
+        "rgbPreservedBeforeResize": true,
+        "uniformScale": 0.5,
+        "resampler": "LANCZOS"
+      },
+      {
+        "material": "grass",
+        "sheetRectLTRB": [
+          610,
+          590,
+          930,
+          910
+        ],
+        "nativeCropSize": [
+          320,
+          320
+        ],
+        "sourceAlphaExtrema": [
+          251,
+          254
+        ],
+        "alphaNormalization": "250..254 to255 only within inspected plain material crop",
+        "nativeCropRGBSHA256": "6fc6c9952a03f38fcfb91f02453ee570908a8ebd1e65a4b801cbab8b1d6cc46b",
+        "rgbPreservedBeforeResize": true,
+        "uniformScale": 0.5,
+        "resampler": "LANCZOS"
+      }
+    ],
+    "maskClassifier": "grass G>R; complement golden sand",
+    "sourceLogicalMaskSize": [
+      40,
+      40
+    ],
+    "logicalMaskSha256": "5e7de812d8e3d7075ba42ae92f18a6a155b09b9829c35d66477dfd9166e8e872",
+    "sourceMaskResampler": "NEAREST4x",
+    "sourceAlphaExtrema": [
+      255,
+      255
+    ],
+    "grassPixels": 436
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "terrainOpaqueCanvasVerified": true,
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "seamlessVerified": false,
+  "anchorStatus": "source render offset unverified",
+  "status": "painted-garden-path-composite-awaiting-mask-seam-and-in-game-validation",
+  "warnings": [
+    "source pixel-stepped material boundary intentionally preserved; artistic smoothing not performed",
+    "all-tile-joins-await-validation",
+    "new grass master has small warm-yellow botanical accents; style/identity acceptance pending"
+  ]
+}

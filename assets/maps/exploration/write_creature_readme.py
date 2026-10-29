@@ -1,0 +1,11 @@
+"""Write the current static-only delivery index from small JSON, no image scan."""
+from pathlib import Path
+import json
+ROOT=Path(__file__).resolve().parents[3];OUT=Path(__file__).resolve().parent/'creatures'
+art=json.loads((OUT/'art.json').read_text(encoding='utf-8'));mapping=json.loads((OUT/'identity-mapping.json').read_text(encoding='utf-8'));byid={p['entityId']:p for p in mapping['mappedIdentities']};masters=sorted(art['masters'],key=lambda p:p['entityId'])
+lines=['# 探险实体原创静态主图','','2026-10-28。已落盘'+str(len(masters))+'/97个源玩法实体ID的独立原创静态master；尚有'+str(97-len(masters))+'个ID无本轮主图。全部为候选accepted=false，静态主图不算Boss阶段、动作或实机接入。','', '| 源ID | 本项目原创外观名 | 分类 | 出现地图数 | 原生PNG |','|---|---|---|---:|---|']
+for p in masters:
+ m=byid[p['entityId']];klass={'boss':'Boss','mixed-context':'随地图变化（全局未定）'}.get(m.get('entityClass'),'普通实体');rel=Path(p['file']).relative_to(OUT.relative_to(ROOT)).as_posix();lines.append(f'| {p["entityId"]} | {p["projectOriginalChineseIdentityName"]} | {klass} | {p["sourceMapCount"]} | [{p["width"]}×{p["height"]}]({rel}) |')
+lines+=['','每个master独立调用内置image_gen，实际附上image邮件/组队两张主风格图与本项目自有道童比例参考。PNG无缩放；逐图`.generation.json`保存实际返回尺寸、哈希、时间、配置快照、提交参数和参考来源。目标为Sunburst/max，入口实际型号/质量未披露，均为null，不能把配置当作返回证据。','', '`identity-mapping.json`登记本项目原创中文身份名，不声称腾讯原怪名字或原长相复刻。逐地图完整保留源npc_drop_groups、数量、生命、伤害、防御、速度与掉落池，包括不一致值；美术持物只作外观识别/读招线索，不新增武器范围、技能、阶段或数值。','', '源调查`../adventure-source-survey/static-survey.json`覆盖49张探险图、97个实体ID。27个ID至少一处is_boss=true，其中30087在不同地图有普通/Boss冲突，保持未确认；无冲突类按出现次数优先生产。社区修订资料的腾讯原始官方真实性未确认，未取得原动作索引，7个npcIcon序号也未猜作实体ID。','', '所有主图仍需在目标游戏尺寸及浅/深背景核对alpha、轮廓、姿势、持物、脚底锚点与可读性。部分边缘可见暖色细边，尚未完成检查。按照本机重型作业独占要求，未做全量解码扫描、构建或实机验收；当前只有逐件必要落盘与目视检查。','', '本项目GitHub：https://github.com/luhailong-java/qqtang-daoist-remake 。image本机origin：https://luyuacpp.visualstudio.com/image/_git/image ，其GitHub地址待确认。风格参考路径为`designs/mail-ui-v1/01-mail-event.png`与`designs/team-ui-v2/team-ui-v2.png`。本轮资源未提交/上传。','']
+lines+=['动作/方向取证与完整97实体缺项合同见[motion-contract/README.md](motion-contract/README.md)。六份未绑定DIMG头样本不能替代实体动作映射；全部动作字段未知值保留为null。','']
+(OUT/'README.md').write_text('\n'.join(lines),encoding='utf-8');print(json.dumps({'staticMasters':len(masters),'unproducedIds':97-len(masters),'actionsProduced':0,'accepted':False}))

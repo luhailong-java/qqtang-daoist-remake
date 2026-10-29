@@ -1,0 +1,97 @@
+{
+  "elementId": 6020,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/field/pieces/6020-field-mask-v2.png",
+  "sha256": "c8ae62674f6ca4896c137622d4212b8d0641677bb62cfad9fbf5e2a2d515839b",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    3855
+  ],
+  "mapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6020-72c09a93581a.png",
+    "sha256": "be75145c7cd4aebd0ad6741d04b2157ebe1ff06ea383f111eeef8db53e46a5d2",
+    "representativeElementId": 6020,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/maps/field/batch-04/sheet-v1.png",
+      "sha256": "6f19fb12683c83a607488fde5c950ae6975f7af430f73ab363d9c1e4dfd95c3c",
+      "generationRecord": "assets/maps/field/batch-04/sheet-v1.png.generation.json",
+      "purpose": "new hand-painted sand RGB"
+    },
+    {
+      "file": "assets/maps/field/pieces/6023-field-v1.png",
+      "sha256": "7e0c39c53e8c8e09a11ed1dc5b889142c703904c14b40ccfaa7a0b4e1308a21c",
+      "generationRecord": "assets/maps/field/batch-03/sheet-v1.png.generation.json",
+      "sourceRecord": "assets/maps/field/pieces/6023-field-v1.png.source.json",
+      "purpose": "new hand-painted grass RGB"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/field/frames/candidate-6020-72c09a93581a.png",
+      "sha256": "be75145c7cd4aebd0ad6741d04b2157ebe1ff06ea383f111eeef8db53e46a5d2",
+      "purpose": "source path-versus-grass classification geometry only; source RGB never reused"
+    }
+  ],
+  "operation": {
+    "type": "reference-region-mask-new-image-texture-composite",
+    "newModelGeneration": false,
+    "resampled": true,
+    "soilSourceRectLTRB": [
+      190,
+      120,
+      350,
+      280
+    ],
+    "soilOriginalAlphaExtrema": [
+      251,
+      253
+    ],
+    "soilAlphaNormalization": "interior alpha>=250 to255; RGB unchanged",
+    "sourcePixelColoursReused": false,
+    "maskClassifier": "path region: R > G + 8; complementary pixels are grass",
+    "logicalMaskSize": [
+      40,
+      40
+    ],
+    "logicalMaskSha256": "9b3677f97a5e6ce7713a2024577e83a23b0ae37003c6b74d9eed840af233be52",
+    "maskResampler": "NEAREST",
+    "pathPixels": 1157,
+    "grassPixels": 443
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "terrainOpaqueCanvasVerified": true,
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "anchorStatus": "source render offset remains unverified",
+  "seamlessVerified": false,
+  "status": "painted-ground-composite-awaiting-region-seam-and-in-game-validation",
+  "warnings": [
+    "classification-mask-visual-comparison-pending",
+    "tiled-seams-not-yet-accepted"
+  ]
+}
