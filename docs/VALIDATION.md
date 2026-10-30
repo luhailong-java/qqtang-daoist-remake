@@ -39,3 +39,7 @@ UI三张新母图分别提供窗框／按钮、16个语义图标、16种控件�
 这些结果来自远端固定源码及旧公开资源。本机资源暂停继续；新美术未上传至该分支，未取得浏览器、新资源、接缝、角色动作、穿戴及全游戏终验。源数据、候选存在、几何夹具通过和美术最终接受分别记录。
 
 后续命名/字标固定提交`16ab7b07`在[Actions40808812061](https://github.com/luhailong-java/qqtang-daoist-remake/actions/runs/40808812061)仍为71项通过，新增JavaScript语法检查通过，详见`BRAND_PUBLICATION_20261028.md`。只纳入新字标，不覆盖其余新美术及之后改动；本机暂停与完整美术未完成结论保持。
+
+## 2026-10-29 远端背包图标规格检查
+
+固定提交 `f5001270965fbd2159183b25e94d5b66844430df` 的 Actions40869795039 / job123433631862 完成success。Node52+Python7+7+5共71项、源码语法及基线构建通过；Selected inventory PNG specifications实际执行，62个ear来源/候选ID、真实像素解码 errors=[]。来源链、256画布、透明边和留白检查仅限该批62图标，视觉与运行采用仍为false；不覆盖后续 eye/footprints 类与其余新美术。原始日志及批次范围见 [SURROUNDING_PUBLICATION_20261029.md](SURROUNDING_PUBLICATION_20261029.md)。没有本机测试、构建或浏览器启动，资源独占暂停继续。
