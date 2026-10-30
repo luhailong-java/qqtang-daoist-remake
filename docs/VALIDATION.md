@@ -43,3 +43,7 @@ UI三张新母图分别提供窗框／按钮、16个语义图标、16种控件�
 ## 2026-10-29 远端背包图标规格检查
 
 固定提交 `f5001270965fbd2159183b25e94d5b66844430df` 的 Actions40869795039 / job123433631862 完成success。Node52+Python7+7+5共71项、源码语法及基线构建通过；Selected inventory PNG specifications实际执行，62个ear来源/候选ID、真实像素解码 errors=[]。来源链、256画布、透明边和留白检查仅限该批62图标，视觉与运行采用仍为false；不覆盖后续 eye/footprints 类与其余新美术。原始日志及批次范围见 [SURROUNDING_PUBLICATION_20261029.md](SURROUNDING_PUBLICATION_20261029.md)。没有本机测试、构建或浏览器启动，资源独占暂停继续。
+
+## 2026-10-30 本机释放后验证
+
+收到全球同服任务明确释放后，运行Node52/52、Python7+7+5共19/19，均通过；修改的review/recorder JS语法通过，`node scripts/build.mjs`完成，构建位置dist。74个footprint来源ID/74唯一候选PNG真实解码规格检查 errors=[]，覆盖尺寸、alpha留白、SHA与母图链。未运行全界面浏览器、全人物动作或全地图视觉验收，完整游戏美术仍未完成。复验范围与残留视觉问题见 `FOOTPRINT_INVENTORY_DELIVERY_20261030.md`。

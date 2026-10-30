@@ -134,3 +134,7 @@ image关联登记为 `designs/qqtang-ui-20261026/README.md`（风格和总体关
 
 
 头饰背包图标继续改造使用同批三张已看头像：桂灯童04-guideng→1539、绯耳灵14-feierling→408、霞角鹿11-xiajiaolu→407。源与目标精确路径及历史证据仍从 `assets/items/head-adornments/adoption-index.json`读取，世界挂件／动画不由图标完成推定；image两个宠物目录README均已追加对应使用位置。
+
+2026-10-29增量：桂灯童04-guideng同源SHA`5162ad6c61ab228dc7d0be1beefc7c6f9ed940d880b7d23648fae941559df309`已实际用于1539世界浮动头候选，24原位置/12新PNG。C左6+E右6位于`assets/items/head-adornments/world/1539/`，精确文件及母图在adoption-index的worldCandidateFiles/worldCandidateMothers；image新仙灵包README已补此改造使用。无身体/保留光环与弓箭用途，不据此新增账号角色或搬入MMO属性，所有接受/挂点/时序/运行仍待验。
+
+2026-10-30足迹增量：image两张主参考均实际查看并实际附到本批内置生成/编辑调用；仅为风格参考。新项目实际位置 `assets/items/footprints/`，74商品背包候选及逐图链见art.json。source footprint内容来自固定社区样本，已实际查看对应inventory图；商业图标、旧人物和像素皮肤未作为本项目运行图。世界动作与挂点/时序未完成。

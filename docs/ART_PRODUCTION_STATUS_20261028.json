@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-10-29T04:27:09.092854+00:00",
+  "capturedAt": "2026-10-30T08:09:31.542172+00:00",
   "scope": "current lightweight production snapshot; not a replacement for verified production-index or runtime manifests",
   "sourceIdentity": "community-patched-client; Tencent target historical version unverified",
   "baselinePythonMapDefinitionCount": 721,
@@ -295,12 +295,28 @@
       "manifest": "assets/items/head-adornments/art.json"
     },
     "surroundings": {
-      "candidateFilesPresent": 36,
+      "candidateFilesPresent": 62,
       "sourceCategories": {
-        "ear": 36
+        "ear": 62
       },
       "acceptedCount": 0,
       "manifest": "assets/items/surroundings/art.json"
+    },
+    "eye-adornments": {
+      "candidateFilesPresent": 30,
+      "sourceCategories": {
+        "eye": 30
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/eye-adornments/art.json"
+    },
+    "footprints": {
+      "candidateFilesPresent": 74,
+      "sourceCategories": {
+        "footprint": 74
+      },
+      "acceptedCount": 0,
+      "manifest": "assets/items/footprints/art.json"
     },
     "namecard-borders": {
       "candidateFilesPresent": 5,
@@ -327,23 +343,23 @@
       "manifest": "assets/items/namecard-borders/walk/art.json"
     }
   },
-  "sourceItemIdsWithAnyCandidate": 304,
+  "sourceItemIdsWithAnyCandidate": 434,
   "itemRepresentationCountCaution": "Inventory icon and nameplate bitmap may represent the same item ID; group counts are not additive.",
   "accountRoleStaticIdentityCandidates": 20,
   "temporaryTransformationStaticCandidates": 8,
   "derivedRolePortraitCandidates": 20,
   "additionalDerivedSemanticUIIcons": 16,
-  "headAdornmentWorldItemCandidates": 11,
-  "headAdornmentWorldFullyRecordedResources": 11,
+  "headAdornmentWorldItemCandidates": 15,
+  "headAdornmentWorldFullyRecordedResources": 15,
   "headAdornmentWorldPartiallyRecordedResources": 0,
-  "headAdornmentWorldDeclaredFramePositionsForStartedResources": 222,
-  "headAdornmentWorldSourceFramePositions": 222,
-  "headAdornmentWorldUniqueReferencedPngFiles": 101,
+  "headAdornmentWorldDeclaredFramePositionsForStartedResources": 318,
+  "headAdornmentWorldSourceFramePositions": 318,
+  "headAdornmentWorldUniqueReferencedPngFiles": 149,
   "battlefieldAnimationResources": 1,
   "battlefieldAnimationSourceFramePositions": 7,
   "battlefieldAnimationUniqueReferencedPngFiles": 5,
-  "mapAnimationCandidateSequenceCount": 12,
-  "mapAnimationSourceFramePositionsRecorded": 53,
+  "mapAnimationCandidateSequenceCount": 20,
+  "mapAnimationSourceFramePositionsRecorded": 90,
   "newRepresentationAcceptedCount": 0,
   "battlefieldSceneMasterCandidates": 18,
   "effectResourceCandidates": 16,
