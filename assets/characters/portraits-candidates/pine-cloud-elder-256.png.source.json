@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/pine-cloud-elder-256.png",
+  "sha256": "5afb9de19239d1cb81cc838d11030adf30f5c8bb4706791f63a6c6f2143c5de0",
+  "createdAt": "2026-10-28T23:39:59.539604+00:00",
+  "sourceRoleId": 13,
+  "identityId": "pine-cloud-elder",
+  "name": "松翁",
+  "type": "derived_ui_portrait_candidate_not_new_character_or_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/motion-generated/roster-expansion/pine-cloud-elder/master.png",
+    "sha256": "63e816fbf4bf4a058aee04fb09b4f2f22a590ba94a0d1ba2eb3eb0bb05489bb1",
+    "actualSourceCanvas": [
+      1254,
+      1254
+    ],
+    "sourceGenerationRecord": "assets/characters/motion-generated/roster-expansion/pine-cloud-elder/master.png.generation.json",
+    "nativeGenerationSizeFromRecord": [
+      1254,
+      1254
+    ],
+    "actualModel": null,
+    "actualQuality": null,
+    "generationTime": "2026-10-28T17:21:02.221Z",
+    "sourceAlpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "sourceCanvasSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSizeEvidence": "Original own master generation record actually reports1254x1254; portrait downscale is not new generation."
+  },
+  "operation": {
+    "kind": "one manual rectangular whole ROI crop then uniform premultiplied-alpha LANCZOS shrink and centered transparent placement",
+    "sourceCropLTRB": [
+      380,
+      65,
+      920,
+      749
+    ],
+    "sourceCropSize": [
+      540,
+      684
+    ],
+    "uniformScale": 0.3333333333333333,
+    "resampledCropSize": [
+      180,
+      228
+    ],
+    "placementXY": [
+      38,
+      14
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "selectionReason": "Complete white bun/pine pin, eyebrows/face/side hair and long beard with a little collar; left380 excludes most cane, narrow portrait preserves full beard rather than crop it to enlarge eyes. Any natural hand/whisk edge remaining is not relocated.",
+    "sourceMasterActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceOrHatSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      38,
+      24,
+      218,
+      242
+    ],
+    "alpha8MarginsLTRB": [
+      38,
+      24,
+      38,
+      14
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/pine-cloud-elder-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "White bun/pine pin/brows, elder face and full long beard remain clear. Tiny original hand/whisk edges remain at the lower shoulder crop; no part moved.",
+    "visibleSolidHaloObserved": false,
+    "fullHeadHairHeadwearFacePreserved": true,
+    "smallUIReadabilityBelow256Verified": false
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

@@ -1,0 +1,81 @@
+{
+  "elementId": 4024,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4024-mine-v1.png",
+  "sha256": "1d887b476b87d586fe2f4a36caa6ceb59c71276572772bd19aa6099b8a58e05a",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-d-v1.png",
+    "sha256": "8a104215732b77e0e643405e4ff9f2816336bbd166e84bf100d904ec1a046c2c",
+    "generationRecord": "assets/maps/mine/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      86,
+      82,
+      371,
+      369
+    ],
+    "uniformScale": 0.5574912891986062,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4024-bb552025ab6b.png",
+    "sha256": "ffce200ac9a4dec805991e9be9db440a67b9248e5630d3b2137f062ab757ed19",
+    "representativeElementId": 4024,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3840
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 0.9929328621908127,
+    "relativeAspectDeviation": 0.007067137809187329,
+    "generatedCellLTRB": [
+      0,
+      0,
+      418,
+      418
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

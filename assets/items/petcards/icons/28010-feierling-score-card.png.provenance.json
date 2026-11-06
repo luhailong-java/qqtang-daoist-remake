@@ -1,0 +1,73 @@
+{
+  "itemId": 28010,
+  "category": "petcard",
+  "sourceName": "善战的恶魔",
+  "sourceDescription": "具有天赋：积分之光5%。",
+  "file": "assets/items/petcards/icons/28010-feierling-score-card.png",
+  "sha256": "55ce59e0af982ce7f1c92ba4454d5a977292f46e82df5d3212e1eb75885126df",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-b-v1.png",
+    "sha256": "f7198ba02dc0480c865b234b71a222de77e7efe10f861f5ed0c0f5142b763113",
+    "generationRecord": "assets/items/petcards/petcards-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      69,
+      31,
+      463,
+      434
+    ],
+    "sourceContentRect": [
+      69,
+      543,
+      463,
+      946
+    ],
+    "uniformScale": 0.5558312655086849,
+    "placementPx": [
+      18,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28010.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "78761440d8a100c62bb06a2f80b2ac1d6cd80662a6746dd3bc6858d046496cf7",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28010.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "善战绯耳灵",
+  "projectIdentity": "绯耳灵",
+  "identityReference": "assets/items/petcards/references/canon/14-feierling.png",
+  "appearanceChoice": "our own Daoist chibi appearance; source pet identity is not retained",
+  "identityReferenceSha256": "c0e4141ae433177e0861209ea7affb0db266611ed53a398d8bf71b6dd9d9dc01",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

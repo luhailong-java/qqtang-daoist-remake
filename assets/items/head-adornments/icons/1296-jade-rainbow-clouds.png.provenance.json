@@ -1,0 +1,164 @@
+{
+  "itemId": 1296,
+  "category": "thadorn",
+  "sourceName": "彩虹相随",
+  "sourceDescription": "看得见彩虹的日子，每天都有好心情。可以装饰你的头顶。",
+  "file": "assets/items/head-adornments/icons/1296-jade-rainbow-clouds.png",
+  "sha256": "07d7134e4fe03e8a195774c2eef07cebe03b3c0dd1a82f3356c9e2f7d679bb34",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-c-v1.png",
+    "sha256": "e24c8cb34e797848aad15eb43cba59ebcfba3d35bc61376b44e4d7b5f1d3b239",
+    "generationRecord": "assets/items/head-adornments/head-adornments-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      540,
+      512
+    ],
+    "contentBoxWithinCell": [
+      21,
+      141,
+      528,
+      426
+    ],
+    "sourceContentRect": [
+      21,
+      141,
+      528,
+      426
+    ],
+    "uniformScale": 0.4418145956607495,
+    "placementPx": [
+      16,
+      65
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-1296-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "0bb3d996e27e82c51843fa13c249b11bd3598de288871da17a23cc78ff51117b",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-1296-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn51_stand.img",
+      "sourceSha256": "a7afd84e1c3418dd0ffe0d5b15bbdf8daa438c53df65f8b582075febd28d6f88",
+      "byteLength": 114976,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          22,
+          2
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          58,
+          29
+        ],
+        "unknownImageHeaderWord": 120
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn51_walk.img",
+      "sourceSha256": "a7afd84e1c3418dd0ffe0d5b15bbdf8daa438c53df65f8b582075febd28d6f88",
+      "byteLength": 114976,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          22,
+          2
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          58,
+          29
+        ],
+        "unknownImageHeaderWord": 120
+      }
+    }
+  ],
+  "worldStaticMasterProduced": true,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "虹桥相随",
+  "appearanceChoice": "new Daoist Q inventory appearance; source function retained, source literal TOP/title presentation replaced by numbered crown for weekly award icons",
+  "worldFrameCandidatesProduced": 24,
+  "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
+  "worldStatus": "declared frame candidates present; timing, geometry and runtime not accepted"
+}

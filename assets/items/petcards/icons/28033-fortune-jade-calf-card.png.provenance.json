@@ -1,0 +1,71 @@
+{
+  "itemId": 28033,
+  "category": "petcard",
+  "sourceName": "幸运牛娃娃",
+  "sourceDescription": "喜欢撒娇装嫩，带给人们幸运。具有天赋：糖币之光12%，声望之光6%，勇气之光6%。",
+  "file": "assets/items/petcards/icons/28033-fortune-jade-calf-card.png",
+  "sha256": "4ad72643cd230f45d60d8c92a8cc98b172b33f55bbe4b452e1a803ce39caa416",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-f-v1.png",
+    "sha256": "27d959504939d0862712bc84a359dfaf22651b3aec1b1e9915474c6e03532a63",
+    "generationRecord": "assets/items/petcards/petcards-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      11,
+      47,
+      491,
+      497
+    ],
+    "sourceContentRect": [
+      1035,
+      47,
+      1515,
+      497
+    ],
+    "uniformScale": 0.4666666666666667,
+    "placementPx": [
+      16,
+      23
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28033.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "801d621ded732d9ebf244299f1998eec817cac9bd10fd3d12c6aebfb4e9ef4c8",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28033.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "福玉牛",
+  "projectIdentity": "福玉牛",
+  "appearanceChoice": "new project identity choice, no Tencent face or MMO attribute mapping",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

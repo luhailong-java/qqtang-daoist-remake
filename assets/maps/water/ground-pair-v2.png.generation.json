@@ -1,0 +1,85 @@
+{
+  "file": "assets/maps/water/ground-pair-v2.png",
+  "sha256": "00dab7a4c5ffba953d98f7506b362b77eeb082f37a20b380dbb8a103e39a0642",
+  "generatedAt": "2026-11-04T16:43:41.523Z",
+  "timeEvidence": "UTC registration after return; tool did not expose creation timestamp",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:/work/image/config/image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Create ONE fully opaque bitmap texture atlas, landscape EXACT 1536×1024 preferred, for the original Daoist chibi game Linghu Battle. This is flat top-down game background water art, NOT a prop illustration. Two equally sized square water material samples side by side, their square painting regions centered left/right, each overfills its entire square. Same tranquil turquoise to mid blue palette, value, opacity and painted caustic scale in both. Reference 1 and 2 are tiny samples of source material and placement character: cool deep blue clean open flat water, shallow faint curved light ripples, no prominent waves. Reference 3 and 4 establish refined hand-painted Daoist chibi material style only; no UI/characters. Reference 5 is the game's current map crop: only color/material harmony, do not copy objects, borders, high-contrast lines or the grid seams. Left sample softly irregular broad thin aqua caustics; right same material, more softly broken caustics. Dim and desaturate ripple lines at tile margins; make outer margin of both the same medium teal-blue with very low contrast. Each square is an edge-to-edge water surface on flat orthographic XY plane, no horizon or perspective. Repeatable on all four sides; compatible edge color/luminance in X and Y and between both squares. Absolutely no visible framing, transparent pixels, shiny rim, bright border, white gaps, lines along square edges, vignette, water drops, foam objects, characters, text or icons. Fill the entire landscape canvas with this water in the two halves; no backgrounds beyond water. The output is an unlabelled hand-painted bitmap, and later we'll crop square water samples and fit to 160×160 over the exact source 40×40 logical tile, without altering placement or collisions.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/families/water/frames/candidate-5001-1424d16a2b69.png",
+      "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/families/water/frames/candidate-5019-d37e8b78e42f.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/maps/previews/source-1-painted-candidate.png"
+    ],
+    "transparent_background": false
+  },
+  "submittedPromptSha256": "90e407931e53f61bd6310d4dfd2dd2ceca651eb4d91affec30bc0411ea0f2de7",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Tool had no selectors and did not disclose model or quality.",
+  "prompt": "assets/maps/water/ground-pair-v2.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/families/water/frames/candidate-5001-1424d16a2b69.png",
+      "sha256": "daff2ea859274e698f13376e5b683ab78029a49d8259c283ce9588630ab71fda",
+      "purpose": "source material sample"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/qqtang-map-data/visual-reference/families/water/frames/candidate-5019-d37e8b78e42f.png",
+      "sha256": "3683ff9706ada644c3ae39d9b7e836cfc16413f6bffdbb389dffb8d1b35ce591",
+      "purpose": "source material sample"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "Daoist Q style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "Daoist Q style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/maps/previews/source-1-painted-candidate.png",
+      "sha256": "dec3b43a4b651b1cdbd22cabf8d1476360fe9db60d0908f26839878631ba68ad",
+      "purpose": "current water visual material and color context"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a17789-9eaa-7ed3-b597-50d6259dbf2c/exec-2f7d44ed-58ac-4d61-9ab4-8301217ae5b2.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

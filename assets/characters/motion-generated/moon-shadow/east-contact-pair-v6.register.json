@@ -1,0 +1,36 @@
+{
+  "file": "assets/characters/motion-generated/moon-shadow/east-contact-pair-v6.png",
+  "prompt": "assets/characters/motion-generated/moon-shadow/east-contact-pair-v6.prompt.txt",
+  "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-3c7f36af-acc7-4acb-b8dc-7e969030a299.png",
+  "editTarget": "assets/characters/motion-generated/moon-shadow/walk-east-v4.png",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/walk-east-v4.png",
+      "role": "current East strip; same camera and contact A edit target"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/east-frame3-v5.png",
+      "role": "alternate contact candidate, unresolved near/far leg identity"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "role": "own original identity master"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist chibi style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist chibi style"
+    }
+  ],
+  "status": "not_passed_near_far_support_reversal",
+  "review": {
+    "identity": "Own silver bob/violet eyes/crescent buckle/navy-gold clothes/two daggers remain visually consistent.",
+    "gait": "NOT PASSED. Both cells retain near front-right extended leg with outer boot ornament and far rear-left bent leg; near/far support does not reverse. Small limb-angle changes are not alternating support.",
+    "alpha": "not_checked; colored hidden RGB/black preview alone not classified as alpha failure",
+    "runtimeEnabled": false,
+    "next": "Stop repeated same-point repairs after v5 uncertain/v6 no improvement; keep last best and specific gap, do another independent task."
+  }
+}

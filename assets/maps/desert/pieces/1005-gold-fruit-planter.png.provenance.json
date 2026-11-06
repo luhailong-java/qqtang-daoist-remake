@@ -1,0 +1,74 @@
+{
+  "elementId": 1005,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1005-gold-fruit-planter.png",
+  "sha256": "691c9b814492c6e7e47f880e6bd8bbd5aef02cd55fa21153cca2e1105dd16bef",
+  "width": 172,
+  "height": 232,
+  "worldFrameWidth": 43,
+  "worldFrameHeight": 58,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-a-v1.png",
+    "sha256": "c9037b8e1e0ca408c4875d7350380761672941a6cadc11c021896ecb46692ee8",
+    "generationRecord": "assets/maps/desert/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      627,
+      590,
+      942,
+      934
+    ],
+    "uniformScale": 0.546031746031746,
+    "placementPx": [
+      0,
+      44
+    ],
+    "resampled": true,
+    "newModelGeneration": false
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1005-1c4b82d8ed09.png",
+    "sha256": "95a4608e2aa02c77aa1af6c42042f55f34682c4ee8670a5d100c8ee6934bf20e",
+    "representativeElementId": 1005,
+    "nativeFrameSize": [
+      43,
+      58
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    2,
+    20
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.7413793103448276,
+    "generatedVisibleAspect": 0.9147058823529411,
+    "relativeAspectDeviation": 0.23378932968536237,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.234-exceeds-0.100-review-required"
+    ]
+  }
+}

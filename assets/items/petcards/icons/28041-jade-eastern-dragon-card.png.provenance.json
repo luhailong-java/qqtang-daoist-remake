@@ -1,0 +1,71 @@
+{
+  "itemId": 28041,
+  "category": "petcard",
+  "sourceName": "神龙",
+  "sourceDescription": "收集所有龙珠，便可召唤神龙。具有天赋：糖币之光14%，勇气闪耀7%，亲密闪耀7%。",
+  "file": "assets/items/petcards/icons/28041-jade-eastern-dragon-card.png",
+  "sha256": "40da94db5086f2dad7bbca237e84a64855ffdb746b15075859714144cec6d65b",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-g-v1.png",
+    "sha256": "455687154bfb38aebdb6b1d7c477df1cd28ea2ab7e27ad4c9a62c21335d5c854",
+    "generationRecord": "assets/items/petcards/petcards-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      490,
+      1024,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      25,
+      29,
+      486,
+      505
+    ],
+    "sourceContentRect": [
+      537,
+      519,
+      998,
+      995
+    ],
+    "uniformScale": 0.47058823529411764,
+    "placementPx": [
+      19,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28041.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "ac771da5b06c162e87b3bc500d54dfa270c2a18e9024ada8c325e3dd47dca21c",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28041.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "碧霄龙君",
+  "projectIdentity": "碧霄龙君",
+  "appearanceChoice": "explicit own Daoist Q appearance replacing source identity, no historical ID link or MMO attributes",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

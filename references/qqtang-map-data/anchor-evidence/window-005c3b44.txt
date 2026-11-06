@@ -1,0 +1,54 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-005c3b44.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+005c3b44 <.text>:
+  5c3b44: 56                           	push	esi
+  5c3b45: 8b f1                        	mov	esi, ecx
+  5c3b47: ff 74 24 08                  	push	dword ptr [esp + 0x8]
+  5c3b4b: e8 c7 ff ff ff               	call	0x5c3b17
+  5c3b50: 8b 46 20                     	mov	eax, dword ptr [esi + 0x20]
+  5c3b53: 5e                           	pop	esi
+  5c3b54: 8b 40 10                     	mov	eax, dword ptr [eax + 0x10]
+  5c3b57: c2 04 00                     	ret	0x4
+  5c3b5a: 55                           	push	ebp
+  5c3b5b: 8b ec                        	mov	ebp, esp
+  5c3b5d: 51                           	push	ecx
+  5c3b5e: 56                           	push	esi
+  5c3b5f: 8b f1                        	mov	esi, ecx
+  5c3b61: 8b 46 04                     	mov	eax, dword ptr [esi + 0x4]
+  5c3b64: 50                           	push	eax
+  5c3b65: 8b 08                        	mov	ecx, dword ptr [eax]
+  5c3b67: 8d 45 fc                     	lea	eax, [ebp - 0x4]
+  5c3b6a: 51                           	push	ecx
+  5c3b6b: 50                           	push	eax
+  5c3b6c: 8b ce                        	mov	ecx, esi
+  5c3b6e: e8 33 01 00 00               	call	0x5c3ca6 <.text+0x162>
+  5c3b73: ff 76 04                     	push	dword ptr [esi + 0x4]
+  5c3b76: e8 04 c3 05 00               	call	0x61fe7f <.text+0x5c33b>
+  5c3b7b: 83 66 04 00                  	and	dword ptr [esi + 0x4], 0x0
+  5c3b7f: 83 66 0c 00                  	and	dword ptr [esi + 0xc], 0x0
+  5c3b83: 59                           	pop	ecx
+  5c3b84: 8d 4d fc                     	lea	ecx, [ebp - 0x4]
+  5c3b87: ff 15 3c 20 86 00            	call	dword ptr [0x86203c]
+  5c3b8d: ff 0d 04 db 85 00            	dec	dword ptr [0x85db04]
+  5c3b93: 5e                           	pop	esi
+  5c3b94: 75 13                        	jne	0x5c3ba9 <.text+0x65>
+  5c3b96: ff 35 00 db 85 00            	push	dword ptr [0x85db00]
+  5c3b9c: e8 de c2 05 00               	call	0x61fe7f <.text+0x5c33b>
+  5c3ba1: 83 25 00 db 85 00 00         	and	dword ptr [0x85db00], 0x0
+  5c3ba8: 59                           	pop	ecx
+  5c3ba9: 8d 4d fc                     	lea	ecx, [ebp - 0x4]
+  5c3bac: ff 15 38 20 86 00            	call	dword ptr [0x862038]
+  5c3bb2: c9                           	leave
+  5c3bb3: c3                           	ret
+  5c3bb4: 55                           	push	ebp
+  5c3bb5: 8b ec                        	mov	ebp, esp
+  5c3bb7: 83 ec 10                     	sub	esp, 0x10
+  5c3bba: 53                           	push	ebx
+  5c3bbb: 56                           	push	esi
+  5c3bbc: 57                           	push	edi
+  5c3bbd: 8b f9                        	mov	edi, ecx
+  5c3bbf: 8d 4d f4                     	lea	ecx, [ebp - 0xc]
+  5c3bc2: c6 45                        	<unknown>

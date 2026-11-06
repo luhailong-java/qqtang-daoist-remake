@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/head-adornments/world/world-42-54-a-v1.png",
+  "sha256": "19b3e94804e422e6b1c5a1904e77198f49a6a5adf2df44a7bf27afb73a19b500",
+  "generatedAt": "2026-10-28T23:09:35.774Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world-action-42-54.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/icons/42-three-peach-jade-hearts.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/icons/54-jade-football-trophy.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets\\items\\head-adornments\\prompts\\world-42-54-a.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world-action-42-54.png",
+      "purpose": "actual decoded source world-frame action board; exact per-frame structure and phase, not runtime source pixels",
+      "sha256": "ef5c34cd37afb4a1965d8e0b5a7c646cb10af48961a13f411762728d9aa2e254"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/icons/42-three-peach-jade-hearts.png",
+      "purpose": "own same-item inventory appearance/material reference only; not world canvas or timing",
+      "sha256": "3cbd1135a5ca2cf1ec8e8a1fb615d6c5455e4e1c202f6d8a3fa68d93a3295d44"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/icons/54-jade-football-trophy.png",
+      "purpose": "own same-item inventory appearance/material reference only; not world canvas or timing",
+      "sha256": "e7845cabc070f5ccd74d4c1cf021d20c096babce04fc8036433d65e639349fc5"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-0b49681a-6a65-4031-8397-7a7c7757c4d8.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

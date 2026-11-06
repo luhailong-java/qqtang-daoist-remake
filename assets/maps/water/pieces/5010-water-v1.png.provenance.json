@@ -1,0 +1,81 @@
+{
+  "elementId": 5010,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5010-water-v1.png",
+  "sha256": "8dc9f17e97eb537bf19d9c546d9176d09699a11f4691f0757695d522fb2ba119",
+  "width": 160,
+  "height": 228,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 57,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-b-v1.png",
+    "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+    "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      119,
+      606,
+      350,
+      929
+    ],
+    "uniformScale": 0.6926406926406926,
+    "placementPx": [
+      0,
+      4
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5010-a99762f03a59.png",
+    "sha256": "2b91810aeb19058df5ba6678666e5ab15121f1387fa53d9c3bace8003fd0009b",
+    "representativeElementId": 5010,
+    "nativeFrameSize": [
+      40,
+      57
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    5397
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    18
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.7017543859649122,
+    "generatedVisibleAspect": 0.7115987460815048,
+    "relativeAspectDeviation": 0.014028213166144221,
+    "generatedCellLTRB": [
+      90,
+      570,
+      385,
+      970
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

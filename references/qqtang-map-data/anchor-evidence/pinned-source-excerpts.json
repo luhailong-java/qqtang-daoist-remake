@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "createdOn": "2026-10-28",
+  "purpose": "read-only evidence excerpts; community primary source, not Tencent source",
+  "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+  "sources": [
+    {
+      "path": "internal/game/mapdata/competitive_battlefield.go",
+      "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+      "gitBlobSha": "29a214edfb9d34018e2e1a826c3eb45be8165408",
+      "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go",
+      "transport": "GitHub connector fetch_file",
+      "excerpts": [
+        {
+          "startLine": 24,
+          "endLine": 29,
+          "lines": [
+            "// original client uses 40-pixel cells; keeping geometry in cells avoids",
+            "// leaking rendering coordinates into the deterministic battle core.",
+            "type CompetitiveBattlefield struct {",
+            "\tWidth  uint16",
+            "\tHeight uint16",
+            "\tCells  []CompetitiveBattleCell"
+          ]
+        },
+        {
+          "startLine": 43,
+          "endLine": 55,
+          "lines": [
+            "\t// FUN_005cfc10 queries only scene+0xe2c (serialized layer zero) at",
+            "\t// the actor's origin. Destination collision still checks both layers.",
+            "\tNativePlayerExitAttr    uint32",
+            "\tNativePlayerExitAttrSet bool",
+            "\t// MapElementOccupied is independent of actor traversal. Client.exe first",
+            "\t// uses GridAttr bits 0..3 for directional actor traversal, but",
+            "\t// its local bubble producer separately rejects every cell for which the",
+            "\t// static map-element lookup returns an object.",
+            "\tMapElementOccupied bool",
+            "\tDurability         byte",
+            "\tMapElementID       uint32",
+            "\tNormalPushable     bool",
+            "\tPandaPushable      bool"
+          ]
+        },
+        {
+          "startLine": 88,
+          "endLine": 99,
+          "lines": [
+            "\tmapElementClassLine = regexp.MustCompile(`^class\\s+QQTMapElem([0-9]+)\\(QQTMapElem\\):`)",
+            "\tmapElementIntLine   = regexp.MustCompile(`^(LifeTime|imageID|canMove)\\s*=\\s*(-?[0-9]+)\\s*$`)",
+            "\tmapElementSizeLine  = regexp.MustCompile(`^size\\s*=\\s*\\(\\s*([0-9]+)\\s*,\\s*([0-9]+)\\s*\\)\\s*$`)",
+            "\tmapElementAttrsLine = regexp.MustCompile(`^GridAttr\\s*=\\s*\\(([^)]*)\\)\\s*$`)",
+            ")",
+            "",
+            "func loadCompetitiveMapElements(path string) (map[uint32]competitiveMapElement, error) {",
+            "\tfile, err := os.Open(path)",
+            "\tif err != nil {",
+            "\t\treturn nil, fmt.Errorf(\"open map-element catalog: %w\", err)",
+            "\t}",
+            "\tdefer file.Close()"
+          ]
+        },
+        {
+          "startLine": 134,
+          "endLine": 184,
+          "lines": [
+            "\t\tif fields := mapElementClassLine.FindStringSubmatch(line); fields != nil {",
+            "\t\t\tif err := commit(); err != nil {",
+            "\t\t\t\treturn nil, err",
+            "\t\t\t}",
+            "\t\t\tid, _ := strconv.ParseUint(fields[1], 10, 32)",
+            "\t\t\tcurrent = &competitiveMapElement{id: uint32(id), lifeTime: -1, width: 1, height: 1, gridAttrs: []uint32{0}}",
+            "\t\t\tcontinue",
+            "\t\t}",
+            "\t\tif current == nil {",
+            "\t\t\tcontinue",
+            "\t\t}",
+            "\t\tif fields := mapElementIntLine.FindStringSubmatch(line); fields != nil {",
+            "\t\t\tvalue, parseErr := strconv.ParseInt(fields[2], 10, 32)",
+            "\t\t\tif parseErr != nil {",
+            "\t\t\t\treturn nil, fmt.Errorf(\"parse map element %d %s: %w\", current.id, fields[1], parseErr)",
+            "\t\t\t}",
+            "\t\t\tswitch fields[1] {",
+            "\t\t\tcase \"LifeTime\":",
+            "\t\t\t\tcurrent.lifeTime = int(value)",
+            "\t\t\tcase \"imageID\":",
+            "\t\t\t\tcurrent.id = uint32(value)",
+            "\t\t\tcase \"canMove\":",
+            "\t\t\t\tif value < 0 {",
+            "\t\t\t\t\treturn nil, fmt.Errorf(\"map element %d has negative canMove %d\", current.id, value)",
+            "\t\t\t\t}",
+            "\t\t\t\tcurrent.canMove = uint32(value)",
+            "\t\t\t}",
+            "\t\t\tcontinue",
+            "\t\t}",
+            "\t\tif fields := mapElementSizeLine.FindStringSubmatch(line); fields != nil {",
+            "\t\t\twidth, _ := strconv.Atoi(fields[1])",
+            "\t\t\theight, _ := strconv.Atoi(fields[2])",
+            "\t\t\tcurrent.width, current.height = width, height",
+            "\t\t\tcontinue",
+            "\t\t}",
+            "\t\tif fields := mapElementAttrsLine.FindStringSubmatch(line); fields != nil {",
+            "\t\t\tparts := strings.Split(fields[1], \",\")",
+            "\t\t\tattrs := make([]uint32, 0, len(parts))",
+            "\t\t\tfor _, part := range parts {",
+            "\t\t\t\tpart = strings.TrimSpace(part)",
+            "\t\t\t\tif part == \"\" {",
+            "\t\t\t\t\tcontinue",
+            "\t\t\t\t}",
+            "\t\t\t\tvalue, parseErr := strconv.ParseUint(part, 0, 32)",
+            "\t\t\t\tif parseErr != nil {",
+            "\t\t\t\t\treturn nil, fmt.Errorf(\"parse map element %d GridAttr %q: %w\", current.id, part, parseErr)",
+            "\t\t\t\t}",
+            "\t\t\t\tattrs = append(attrs, uint32(value))",
+            "\t\t\t}",
+            "\t\t\tif len(attrs) == 0 {",
+            "\t\t\t\treturn nil, fmt.Errorf(\"map element %d has empty GridAttr\", current.id)"
+          ]
+        },
+        {
+          "startLine": 223,
+          "endLine": 264,
+          "lines": [
+            "\t\tbase := headerSize + layer*layerBytes",
+            "\t\tfor row := 0; row < int(height); row++ {",
+            "\t\t\tfor col := 0; col < int(width); col++ {",
+            "\t\t\t\traw := int32(binary.LittleEndian.Uint32(mapBytes[base+(row*int(width)+col)*4:]))",
+            "\t\t\t\t// FUN_005d80e1 copies the serialized layer, but creates a",
+            "\t\t\t\t// CMapElem only for positive entries. Negative entries are editor",
+            "\t\t\t\t// continuation markers; they never create an object on their own.",
+            "\t\t\t\t// FUN_005d839c then projects the positive anchor over the configured",
+            "\t\t\t\t// mapElem.py footprint. Treating an orphan negative marker as an",
+            "\t\t\t\t// occupied cell invents a wall that does not exist in Client.exe.",
+            "\t\t\t\tif raw <= 0 {",
+            "\t\t\t\t\tcontinue",
+            "\t\t\t\t}",
+            "\t\t\t\telement, ok := elements[uint32(raw)]",
+            "\t\t\t\tif !ok {",
+            "\t\t\t\t\t// A few special-rule maps reference server-era elements that",
+            "\t\t\t\t\t// are absent from the shipped Python catalog. Preserve safety",
+            "\t\t\t\t\t// by treating the positive anchor cell as solid. Its unknown",
+            "\t\t\t\t\t// footprint cannot be inferred from negative editor markers. The",
+            "\t\t\t\t\t// restricted rule-1 engine never assigns behaviour to it.",
+            "\t\t\t\t\tprevious := field.Cells[row*int(width)+col]",
+            "\t\t\t\t\tif layer == 0 {",
+            "\t\t\t\t\t\tprevious.NativePlayerExitAttr = 0",
+            "\t\t\t\t\t}",
+            "\t\t\t\t\tfield.Cells[row*int(width)+col] = CompetitiveBattleCell{Collision: CompetitiveCellSolid, MapElementOccupied: true,",
+            "\t\t\t\t\t\tNativePlayerExitAttr: previous.NativePlayerExitAttr, NativePlayerExitAttrSet: true}",
+            "\t\t\t\t\tcontinue",
+            "\t\t\t\t}",
+            "\t\t\t\tfor localRow := 0; localRow < element.height; localRow++ {",
+            "\t\t\t\t\tfor localCol := 0; localCol < element.width; localCol++ {",
+            "\t\t\t\t\t\ttargetRow, targetCol := row+localRow, col+localCol",
+            "\t\t\t\t\t\tif targetRow >= int(height) || targetCol >= int(width) {",
+            "\t\t\t\t\t\t\treturn CompetitiveBattlefield{}, fmt.Errorf(\"map element %d at %d,%d exceeds %dx%d\", raw, row, col, width, height)",
+            "\t\t\t\t\t\t}",
+            "\t\t\t\t\t\t// The Python comment names four groups, not four individual",
+            "\t\t\t\t\t\t// bits. Native movement/flame methods select a direction bit.",
+            "\t\t\t\t\t\tattr := element.gridAttrs[localRow*element.width+localCol]",
+            "\t\t\t\t\t\t// FUN_005d839c writes the object pointer and attributes into",
+            "\t\t\t\t\t\t// every footprint cell. A later positive anchor replaces the",
+            "\t\t\t\t\t\t// earlier pointer at overlapping cells, so native row-major",
+            "\t\t\t\t\t\t// installation is last-writer-wins rather than a union of",
+            "\t\t\t\t\t\t// collision flags."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "internal/game/itemcatalog/dimg.go",
+      "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+      "gitBlobSha": "c8e5e7a22c12ec18e63068b18f224497b5157f01",
+      "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/itemcatalog/dimg.go",
+      "transport": "GitHub connector fetch_file",
+      "excerpts": [
+        {
+          "startLine": 72,
+          "endLine": 103,
+          "lines": [
+            "// DecodeDIMG converts the first visible frame into the resource's declared",
+            "// canvas. It is intentionally strict and is used for standalone UI icons.",
+            "func DecodeDIMG(data []byte) (*image.RGBA, error) {",
+            "\tsprite, err := parseDIMG(data)",
+            "\tif err != nil {",
+            "\t\treturn nil, err",
+            "\t}",
+            "\tframe, err := firstVisibleFrame(sprite.frames)",
+            "\tif err != nil {",
+            "\t\treturn nil, err",
+            "\t}",
+            "\tif frame.x < 0 || frame.y < 0 || frame.x+frame.image.Bounds().Dx() > sprite.width || frame.y+frame.image.Bounds().Dy() > sprite.height {",
+            "\t\treturn nil, fmt.Errorf(\"invalid QQF/DIMG canvas %dx%d frame %d,%d %dx%d\", sprite.width, sprite.height, frame.x, frame.y, frame.image.Bounds().Dx(), frame.image.Bounds().Dy())",
+            "\t}",
+            "\tresult := image.NewRGBA(image.Rect(0, 0, sprite.width, sprite.height))",
+            "\tdraw.Draw(result, frame.image.Bounds().Add(image.Pt(frame.x, frame.y)), frame.image, frame.image.Bounds().Min, draw.Over)",
+            "\treturn result, nil",
+            "}",
+            "",
+            "// DecodeDIMGFrame returns the first visible frame without applying the client",
+            "// composition origin. Avatar layers often have negative origins.",
+            "func DecodeDIMGFrame(data []byte) (*image.RGBA, error) {",
+            "\tsprite, err := parseDIMG(data)",
+            "\tif err != nil {",
+            "\t\treturn nil, err",
+            "\t}",
+            "\tframe, err := firstVisibleFrame(sprite.frames)",
+            "\tif err != nil {",
+            "\t\treturn nil, err",
+            "\t}",
+            "\treturn frame.image, nil",
+            "}"
+          ]
+        },
+        {
+          "startLine": 105,
+          "endLine": 113,
+          "lines": [
+            "// DIMGToPreview renders only the first direction. Cycling all four character",
+            "// directions would look like an animation but would actually rotate the item.",
+            "// DIMG has no per-frame duration, so the GM preview uses a documented 100 ms",
+            "// display interval.",
+            "func DIMGToPreview(data []byte) (DIMGPreview, error) {",
+            "\tsprite, err := parseDIMG(data)",
+            "\tif err != nil {",
+            "\t\treturn DIMGPreview{}, err",
+            "\t}"
+          ]
+        },
+        {
+          "startLine": 155,
+          "endLine": 205,
+          "lines": [
+            "\tif len(data) < dimgSpriteHeaderSize || !bytes.Equal(data[:len(dimgMagic)], dimgMagic) {",
+            "\t\treturn dimgSprite{}, fmt.Errorf(\"item icon is not a QQF/DIMG resource\")",
+            "\t}",
+            "\tversion := binary.LittleEndian.Uint32(data[8:12])",
+            "\tframeInfoSize := binary.LittleEndian.Uint32(data[12:16])",
+            "\tframeCount := int(binary.LittleEndian.Uint32(data[16:20]))",
+            "\tdirections := int(binary.LittleEndian.Uint32(data[20:24]))",
+            "\twidth := int(binary.LittleEndian.Uint32(data[32:36]))",
+            "\theight := int(binary.LittleEndian.Uint32(data[36:40]))",
+            "\tif version != 65536 && version != 65537 {",
+            "\t\treturn dimgSprite{}, fmt.Errorf(\"QQF/DIMG version %d is unsupported\", version)",
+            "\t}",
+            "\tif frameInfoSize != 24 {",
+            "\t\treturn dimgSprite{}, fmt.Errorf(\"QQF/DIMG frame-info size %d is unsupported\", frameInfoSize)",
+            "\t}",
+            "\tif frameCount < 1 || frameCount > dimgMaxFrames || directions < 1 || directions > 32 || frameCount%directions != 0 {",
+            "\t\treturn dimgSprite{}, fmt.Errorf(\"invalid QQF/DIMG frame/direction count %d/%d\", frameCount, directions)",
+            "\t}",
+            "\tif width < 1 || height < 1 || width > dimgMaxDimension || height > dimgMaxDimension {",
+            "\t\treturn dimgSprite{}, fmt.Errorf(\"invalid QQF/DIMG canvas %dx%d\", width, height)",
+            "\t}",
+            "",
+            "\toffset := dimgSpriteHeaderSize",
+            "\tframes := make([]dimgFrame, 0, frameCount)",
+            "\tfor index := 0; index < frameCount; index++ {",
+            "\t\tif len(data)-offset < dimgFrameHeaderSize {",
+            "\t\t\treturn dimgSprite{}, fmt.Errorf(\"QQF/DIMG frame %d header is truncated\", index)",
+            "\t\t}",
+            "\t\tif magic := binary.LittleEndian.Uint32(data[offset : offset+4]); magic != 0 {",
+            "\t\t\treturn dimgSprite{}, fmt.Errorf(\"QQF/DIMG frame %d magic %#x is unsupported\", index, magic)",
+            "\t\t}",
+            "\t\tx := int(int32(binary.LittleEndian.Uint32(data[offset+4 : offset+8])))",
+            "\t\ty := int(int32(binary.LittleEndian.Uint32(data[offset+8 : offset+12])))",
+            "\t\tmode := binary.LittleEndian.Uint32(data[offset+12 : offset+16])",
+            "\t\toffset += dimgFrameHeaderSize",
+            "\t\tif mode == 0 {",
+            "\t\t\tframes = append(frames, dimgFrame{x: x, y: y})",
+            "\t\t\tcontinue",
+            "\t\t}",
+            "\t\tif len(data)-offset < dimgImageHeaderSize {",
+            "\t\t\treturn dimgSprite{}, fmt.Errorf(\"QQF/DIMG frame %d image header is truncated\", index)",
+            "\t\t}",
+            "\t\tframeWidth := int(binary.LittleEndian.Uint32(data[offset : offset+4]))",
+            "\t\tframeHeight := int(binary.LittleEndian.Uint32(data[offset+4 : offset+8]))",
+            "\t\toffset += dimgImageHeaderSize",
+            "\t\t// Some official four-direction layers encode an absent direction as a",
+            "\t\t// non-zero pixel mode followed by a 0x0 image header. The client treats",
+            "\t\t// that direction as empty; it is distinct from a partially-zero or",
+            "\t\t// truncated image, which remains invalid below.",
+            "\t\tif frameWidth == 0 && frameHeight == 0 {",
+            "\t\t\tframes = append(frames, dimgFrame{x: x, y: y})"
+          ]
+        },
+        {
+          "startLine": 276,
+          "endLine": 300,
+          "lines": [
+            "func unionFrameBounds(frames []dimgFrame) (image.Rectangle, int) {",
+            "\tvar result image.Rectangle",
+            "\tvisible := 0",
+            "\tfor _, frame := range frames {",
+            "\t\tif frame.image == nil {",
+            "\t\t\tcontinue",
+            "\t\t}",
+            "\t\tbounds := frame.image.Bounds().Add(image.Pt(frame.x, frame.y))",
+            "\t\tif visible == 0 {",
+            "\t\t\tresult = bounds",
+            "\t\t} else {",
+            "\t\t\tresult = result.Union(bounds)",
+            "\t\t}",
+            "\t\tvisible++",
+            "\t}",
+            "\treturn result, visible",
+            "}",
+            "",
+            "func composeDIMGFrame(frame dimgFrame, bounds image.Rectangle) *image.RGBA {",
+            "\tresult := image.NewRGBA(image.Rect(0, 0, bounds.Dx(), bounds.Dy()))",
+            "\tif frame.image != nil {",
+            "\t\ttarget := frame.image.Bounds().Add(image.Pt(frame.x-bounds.Min.X, frame.y-bounds.Min.Y))",
+            "\t\tdraw.Draw(result, target, frame.image, frame.image.Bounds().Min, draw.Over)",
+            "\t}",
+            "\treturn result"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "internal/game/battleengine/types.go",
+      "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+      "gitBlobSha": "1c0a7d33853687cc5533bcb25e8f12265c118b91",
+      "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/types.go",
+      "transport": "GitHub connector fetch_file",
+      "excerpts": [
+        {
+          "startLine": 14,
+          "endLine": 20,
+          "lines": [
+            "\tMaxParticipants                 = 8",
+            "\tObservationSchemaVersion uint16 = 7",
+            "\tActionSpaceVersion       uint16 = 2",
+            "\tMaxNativeSpeedRate              = 10",
+            "\tCellSizePixels                  = 40",
+            "\tProtocolGameTimeMS       uint32 = 240_000",
+            "\tStandardRoundTimeMS      uint32 = 240_000"
+          ]
+        },
+        {
+          "startLine": 197,
+          "endLine": 211,
+          "lines": [
+            "type Position struct {",
+            "\tX int32",
+            "\tY int32",
+            "}",
+            "",
+            "func PositionAtCellCenter(cell Cell) Position {",
+            "\treturn Position{",
+            "\t\tX: int32(cell.Col)*CellSizePixels + CellSizePixels/2,",
+            "\t\tY: int32(cell.Row)*CellSizePixels + CellSizePixels/2,",
+            "\t}",
+            "}",
+            "",
+            "func (position Position) Cell() Cell {",
+            "\treturn Cell{Row: int16(position.Y / CellSizePixels), Col: int16(position.X / CellSizePixels)}",
+            "}"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "internal/game/battleengine/pickup.go",
+      "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+      "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+      "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+      "transport": "GitHub connector fetch_file",
+      "excerpts": [
+        {
+          "startLine": 160,
+          "endLine": 170,
+          "lines": [
+            "\t\t\t\t})",
+            "\t\t\t}",
+            "\t\t\tcontinue",
+            "\t\t}",
+            "\t\t// FUN_0060c518 divides the actor's current world coordinate by 40 and",
+            "\t\t// resolves the scene object at that exact Row/Col. The +/-19 movement",
+            "\t\t// footprint is not pickup reach; using overlap here made training collect",
+            "\t\t// an adjacent item before a real client could author 0x0FAC.",
+            "\t\tactorCell := actor.Position.Cell()",
+            "\t\tfor pickupIndex := range engine.pickups {",
+            "\t\t\tpickup := &engine.pickups[pickupIndex]"
+          ]
+        },
+        {
+          "startLine": 290,
+          "endLine": 298,
+          "lines": [
+            "// ApplyVerifiedPickupAt mirrors the native 0x0FAC/0x0FAD coordinates in",
+            "// addition to the item effect. Those coordinates are the actor's world",
+            "// position at contact time (confirmed by QBV movement checkpoints), so they",
+            "// identify the exact native grid cell at floor(Y/40),floor(X/40). SceneID 61 reveals hidden",
+            "// contents but never authenticates collection through a wall. Consuming the matching map entry prevents the",
+            "// live engine from offering an item to an AI after a human client already",
+            "// removed it. A missing entry still accepts the authenticated effect because",
+            "// old recordings and partial map projections may not contain the source item.",
+            "func (engine *Engine) ApplyVerifiedPickupAt(playerID uint16, sceneID uint32, position Position) (Event, error) {"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "internal/game/battleengine/native_scene_lifecycle.go",
+      "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+      "gitBlobSha": "0534b33ad1f5a59d3af7aae134c4d10a6de37db9",
+      "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/native_scene_lifecycle.go",
+      "transport": "GitHub connector fetch_file",
+      "excerpts": [
+        {
+          "startLine": 1,
+          "endLine": 8,
+          "lines": [
+            "package battleengine",
+            "",
+            "import \"sort\"",
+            "",
+            "// NativeMapDestructionMS is CMapElem's state-2 countdown (005ef2cf).",
+            "// The object remains in both movement and flame queries until 005eee71 retires it.",
+            "const NativeMapDestructionMS uint32 = 500",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "path": "internal/server/gm/item_images.go",
+      "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+      "gitBlobSha": "6976ea9b58f821860c5e84068cf93b887e485bc6",
+      "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/server/gm/item_images.go",
+      "transport": "GitHub connector fetch_file",
+      "excerpts": [
+        {
+          "startLine": 181,
+          "endLine": 192,
+          "lines": [
+            "\t// RegistryCategory is empty even though the client inventory deliberately",
+            "\t// addresses their icons as item<ID>.img.",
+            "\tif usesAccountItemIcon(item) {",
+            "\t\titemIcon := filepath.Join(server.clientRoot, \"res\", \"uiRes\", \"icon\", \"item\", fmt.Sprintf(\"item%d.img\", item.ID))",
+            "\t\tif regularFile(itemIcon) {",
+            "\t\t\t// Win_SetImg renders the actual DIMG frames. The sprite header's",
+            "\t\t\t// declared canvas and frame_info_cx/cy are not reliable UI bounds;",
+            "\t\t\t// some original icons extend beyond them. Use the same frame-based",
+            "\t\t\t// preview path as the client instead of rejecting or shrinking them.",
+            "\t\t\treturn itemImageRef{path: itemIcon, source: \"item-icon\", tightFrame: true}, true",
+            "\t\t}",
+            "\t}"
+          ]
+        }
+      ]
+    }
+  ],
+  "searchReceipts": [
+    {
+      "query": "mapElem_offset",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": []
+    },
+    {
+      "query": "mapElem offset",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/protocol/game/native_rule_event.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/protocol/game/native_rule_event.go"
+        },
+        {
+          "path": "internal/protocol/game/bomb_event.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/protocol/game/bomb_event.go"
+        },
+        {
+          "path": "internal/game/mapdata/catalog.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/catalog.go"
+        },
+        {
+          "path": "internal/game/battleengine/types.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/types.go"
+        },
+        {
+          "path": "internal/game/battleenv/encoding.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleenv/encoding.go"
+        },
+        {
+          "path": "internal/game/battleengine/observation.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/observation.go"
+        },
+        {
+          "path": "internal/game/battleengine/movement.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/movement.go"
+        },
+        {
+          "path": "internal/game/mapdata/catalog_test.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/catalog_test.go"
+        }
+      ]
+    },
+    {
+      "query": "CMapElem",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/battleengine/types.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/types.go"
+        },
+        {
+          "path": "internal/game/mapdata/catalog.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/catalog.go"
+        },
+        {
+          "path": "internal/game/battleengine/movement.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/movement.go"
+        },
+        {
+          "path": "internal/game/battleengine/active_item.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/active_item.go"
+        },
+        {
+          "path": "internal/game/battleengine/native_scene_lifecycle.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/native_scene_lifecycle.go"
+        },
+        {
+          "path": "internal/game/mapdata/competitive_battlefield.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go"
+        }
+      ]
+    },
+    {
+      "query": "005d839c",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/mapdata/competitive_battlefield.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go"
+        }
+      ]
+    },
+    {
+      "query": "DIMG client",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/itemcatalog/dimg.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/itemcatalog/dimg.go"
+        },
+        {
+          "path": "scripts/ensure-client-resource-aliases.ps1",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/scripts/ensure-client-resource-aliases.ps1"
+        },
+        {
+          "path": "internal/server/gm/item_images.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/server/gm/item_images.go"
+        },
+        {
+          "path": "internal/server/gm/server.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/server/gm/server.go"
+        },
+        {
+          "path": "internal/server/gm/item_images_test.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/server/gm/item_images_test.go"
+        },
+        {
+          "path": "internal/server/gm/server_test.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/server/gm/server_test.go"
+        }
+      ]
+    },
+    {
+      "query": "40 pixel",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/battleengine/types.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/types.go"
+        },
+        {
+          "path": "internal/game/match/competitive_sculpture.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/match/competitive_sculpture.go"
+        },
+        {
+          "path": "internal/game/battleengine/pickup_dispatch.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup_dispatch.go"
+        },
+        {
+          "path": "internal/game/mapdata/competitive_battlefield.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go"
+        },
+        {
+          "path": "internal/game/itemcatalog/dimg.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/itemcatalog/dimg.go"
+        },
+        {
+          "path": "internal/game/battleoracle/static_trace.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleoracle/static_trace.go"
+        },
+        {
+          "path": "internal/game/battleengine/movement_probe.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/movement_probe.go"
+        },
+        {
+          "path": "internal/game/battleengine/pickup.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go"
+        }
+      ]
+    },
+    {
+      "query": "map element draw",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/mapdata/adventure_generation.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/adventure_generation.go"
+        },
+        {
+          "path": "internal/game/battleengine/types.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/types.go"
+        },
+        {
+          "path": "internal/game/battleengine/policy.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/policy.go"
+        },
+        {
+          "path": "internal/game/mapdata/competitive_objective_items.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_objective_items.go"
+        },
+        {
+          "path": "internal/game/mapdata/catalog.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/catalog.go"
+        },
+        {
+          "path": "internal/server/probe/competitive_battles.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/server/probe/competitive_battles.go"
+        }
+      ]
+    },
+    {
+      "query": "mapElem imageID",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/mapdata/competitive_battlefield.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go"
+        },
+        {
+          "path": "internal/game/mapdata/catalog_test.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/catalog_test.go"
+        },
+        {
+          "path": "internal/game/mapdata/competitive_walkable_element_test.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_walkable_element_test.go"
+        }
+      ]
+    },
+    {
+      "query": "005eee",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/battleengine/native_scene_lifecycle.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/native_scene_lifecycle.go"
+        }
+      ]
+    },
+    {
+      "query": "offset image",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "cmd/qqt-tp-compat-dll/main.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/cmd/qqt-tp-compat-dll/main.go"
+        },
+        {
+          "path": "internal/game/itemcatalog/dimg.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/itemcatalog/dimg.go"
+        },
+        {
+          "path": "internal/tooling/clientpatch/frame_rate.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/tooling/clientpatch/frame_rate.go"
+        },
+        {
+          "path": "internal/tooling/clientpatch/shop_server.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/tooling/clientpatch/shop_server.go"
+        },
+        {
+          "path": "internal/tooling/clientpatch/multi_client.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/tooling/clientpatch/multi_client.go"
+        },
+        {
+          "path": "internal/tooling/clientpatch/forge_boundary.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/tooling/clientpatch/forge_boundary.go"
+        }
+      ]
+    },
+    {
+      "query": "frame_info",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/server/gm/item_images.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/server/gm/item_images.go"
+        },
+        {
+          "path": "internal/game/itemcatalog/dimg_test.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/itemcatalog/dimg_test.go"
+        }
+      ]
+    },
+    {
+      "query": "FUN_005d80e1",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/mapdata/competitive_battlefield.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/mapdata/competitive_battlefield.go"
+        }
+      ]
+    },
+    {
+      "query": "FUN_0060c518",
+      "scope": "kuuhaku1314/qqtang default-branch indexed search; returned fixed commit links checked via fixed-ref fetch",
+      "paths": [
+        {
+          "path": "internal/game/battleengine/pickup.go",
+          "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go"
+        }
+      ]
+    }
+  ],
+  "treeEvidence": {
+    "queriedUrl": "https://api.github.com/repos/kuuhaku1314/qqtang/git/trees/4b3a245fd985cabd4abd68ade6c282cc163d9edb?recursive=1",
+    "treeSha": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+    "truncated": false,
+    "retainedPaths": [
+      {
+        "path": "internal/game/itemcatalog/dimg.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8e5e7a22c12ec18e63068b18f224497b5157f01",
+        "size": 11797,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/c8e5e7a22c12ec18e63068b18f224497b5157f01"
+      },
+      {
+        "path": "internal/game/mapdata/adventure_generation.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebf6a7c53e63a73bcbd9e4f7ae60152549e46516",
+        "size": 4026,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/ebf6a7c53e63a73bcbd9e4f7ae60152549e46516"
+      },
+      {
+        "path": "internal/game/mapdata/adventure_rules.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c365a5572e516fab37da41b4d7689ad33b7215c8",
+        "size": 14545,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/c365a5572e516fab37da41b4d7689ad33b7215c8"
+      },
+      {
+        "path": "internal/game/mapdata/catalog.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78e927269de34fbd1097daea1c91148889b09f79",
+        "size": 47869,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/78e927269de34fbd1097daea1c91148889b09f79"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_battlefield.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29a214edfb9d34018e2e1a826c3eb45be8165408",
+        "size": 11962,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/29a214edfb9d34018e2e1a826c3eb45be8165408"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_boss_wall_items.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37374ed98f3aa05bd504325ec8608305da569b08",
+        "size": 7614,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/37374ed98f3aa05bd504325ec8608305da569b08"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_box_wall_items.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2874080ece960fd3f3761224261e958e44df399c",
+        "size": 3038,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/2874080ece960fd3f3761224261e958e44df399c"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_item_availability.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebef1376da98e0d18133404ad1d992037305d62b",
+        "size": 543,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/ebef1376da98e0d18133404ad1d992037305d62b"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_map_rules.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0f28fafc9bbe0e5978d613a0320e9deb52929c8",
+        "size": 2774,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/f0f28fafc9bbe0e5978d613a0320e9deb52929c8"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_objective_items.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8dc5acfa318f7d0aee4203a0e1a4ba1a4bf10d45",
+        "size": 2760,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/8dc5acfa318f7d0aee4203a0e1a4ba1a4bf10d45"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_overlay.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4b72f22a67e50b1400dd95f8e0135ba8f6b0db7",
+        "size": 25900,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/e4b72f22a67e50b1400dd95f8e0135ba8f6b0db7"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_server_items.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7793d7f48656ecdb0290ad5b10361d99cbf39f44",
+        "size": 5182,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/7793d7f48656ecdb0290ad5b10361d99cbf39f44"
+      },
+      {
+        "path": "internal/game/mapdata/competitive_supply.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79fc6deb3b524f8128ef0687af75c46ddf8ebdba",
+        "size": 5905,
+        "url": "https://api.github.com/repos/kuuhaku1314/qqtang/git/blobs/79fc6deb3b524f8128ef0687af75c46ddf8ebdba"
+      }
+    ]
+  },
+  "limitations": [
+    "Search did not find an explicit mapElem_offset renderer; negative search results do not prove no such source exists.",
+    "GM DIMG preview composition is a distinct path from CMapElem native map rendering.",
+    "The fixed repository is a community restoration and supplies no Tencent official-source authenticity certificate."
+  ]
+}

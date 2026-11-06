@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/head-adornments/head-adornments-a-v1.png",
+  "sha256": "c38e9d089657a695a4f301fa798795340b2f03e5676fa5e536de661575570155",
+  "generatedAt": "2026-10-28T22:15:54.101Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/structure-a.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/items/items-a-v1.png",
+      "D:/work/qqtang-ui/references/own-four-characters-contact.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets\\items\\head-adornments\\prompts\\batch-a.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/structure-a.png",
+      "purpose": "true inventory icon functional reference only, not object stand/walk or runtime pixels",
+      "sha256": "43b2bee08c8d7c034941b0ffe83ff62c0c1c94077795a73f9a3eb7e1b385651e"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/items-a-v1.png",
+      "purpose": "own original inventory art paint finish reference",
+      "sha256": "2d63ef0b9571368e4d5716837abf80d14cea1e5a0060bf283fb6f6f5f4529840"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/own-four-characters-contact.png",
+      "purpose": "own project identity or appearance reference; no historical source identity mapping",
+      "sha256": "a885e378dd697d4f688f283e283116b701f9dd4279b5257eb0f7e638bf647273"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-0256beda-d55b-4ea2-b62b-1a836c3272fa.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

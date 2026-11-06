@@ -1,0 +1,71 @@
+{
+  "itemId": 28016,
+  "category": "petcard",
+  "sourceName": "黑暗火焰精灵",
+  "sourceDescription": "恶魔的使者，拥有邪恶的力量。具有天赋：积分之光6%，勇气之光6%，积分闪耀6%。",
+  "file": "assets/items/petcards/icons/28016-dark-flame-spirit-card.png",
+  "sha256": "893a6fa09222b5e7515acd1923d0dcd16cd3c3c93d857a353cb082f5889a826d",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-c-v1.png",
+    "sha256": "770fa66f3f1574a75ddc260b15dbaa38c24757bc07d9422db85011915d144ff1",
+    "generationRecord": "assets/items/petcards/petcards-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      490,
+      512,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      39,
+      9,
+      492,
+      485
+    ],
+    "sourceContentRect": [
+      39,
+      499,
+      492,
+      975
+    ],
+    "uniformScale": 0.47058823529411764,
+    "placementPx": [
+      21,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28016.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "7392961b5ddab2ac3cbe51ed141ae9d290236a4bfdc224d53ec06422c10daa6a",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28016.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "玄焰灵",
+  "projectIdentity": "玄焰灵",
+  "appearanceChoice": "new original elemental Daoist chibi child; frame is UI presentation only, no new rarity or abilities",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/passing-leg-v1.png",
+  "sha256": "f35ce07c273f96d048344c1f1b55e71caf5ebc90eb1e16be1d12fd79ed5fc11e",
+  "reviewedAtUTC": "2026-10-29T04:57:17.498Z",
+  "nativeAndIvoryActuallyViewed": true,
+  "actualNativeSize": [
+    1536,
+    1024
+  ],
+  "status": "four_passing_leg_parts_candidate_hip_scale_and_lift_unconfirmed",
+  "gridOrder": [
+    "near_R_planted",
+    "near_R_raised",
+    "far_L_planted",
+    "far_L_raised"
+  ],
+  "observations": {
+    "visibleWholeParts": 4,
+    "allBootToesScreenRight": true,
+    "continuousTrouserBoot": true,
+    "plainClosedWhiteHipCaps": true,
+    "oldGoldHipRimAbsent": true,
+    "repeatedKneeGoldCuffAbsent": true,
+    "planted": "Left-column legs are substantially narrower/more vertical than old wide-stride legs. Boots look level; ankle-under-hip exact coordinate contract has not been measured/approved.",
+    "raised": "Right-column knees visibly bend forward and shins fold back toward ankles. Entire raised boot has a coherent pitched sole; this is not a wide-stride source translated or rotated by code.",
+    "material": "Own ivory cloth, lower warm-gold clouds, single ankle cuff, jade-green boot, ivory toe and thin gold sole retained.",
+    "sideIdentity": "Near/far cells assigned from guide; independent boot surface differences are visible but anatomical side continuity is not yet approved from isolated parts.",
+    "transparency": "Actual ivory view has no brown outer glow; raw viewer coloredRGB at alpha0 is hidden and not an alpha defect."
+  },
+  "cellCoordinateContract": {
+    "commonRequestedHipCellPoint": [
+      330,
+      86
+    ],
+    "actualHipPoints": null,
+    "approved": false,
+    "issue": "Model moved the cap positions independently relative to nominal cells. Source mother must not be treated as a registered fixed-root animation grid."
+  },
+  "lift": {
+    "requestedNativeSoleDifference": 75,
+    "requestedRange": [
+      70,
+      80
+    ],
+    "actualRegisteredSoleDifference": null,
+    "nominalCellLowestVisiblePixelDifference": {
+      "nearR": 62,
+      "farL": 62
+    },
+    "proxyScope": "Both62px are raw alpha lower-bound differences before hip alignment, not anatomical sole measurements or an accepted70–80px lift.",
+    "requestedLiftPassed": false
+  },
+  "clearance": {
+    "requestedOuterPx": 30,
+    "actualAlpha8OuterMargins": {
+      "left": 358,
+      "top": 22,
+      "right": 260,
+      "bottom": 41
+    },
+    "outerEdgesAllAlpha8Zero": true,
+    "requestedMarginPassed": false,
+    "nominalCellTopMargins": [
+      22,
+      27,
+      8,
+      14
+    ],
+    "nominalCellBoundarySafetyIsNotSlicingApproval": true
+  },
+  "alphaEvidence": "passing-leg-v1.alpha-review.json",
+  "actualCommonPhysicalScaleApproved": false,
+  "sourceAnatomicalNearFarConfirmed": false,
+  "nativeSourcePhase4MappingConflictUnresolved": true,
+  "sourceNativeTimingMs": null,
+  "worldRoot": null,
+  "localPivots": null,
+  "bindScale": null,
+  "newImagegenCalls": 1,
+  "retries": 0,
+  "sliced": false,
+  "bound": false,
+  "animationProduced": false,
+  "runtimeEnabled": false,
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "fullAnimationAccepted": false,
+  "pending": [
+    "Hip registration and actual shared source scale",
+    "Registered sole lift versus70–80px intent",
+    "Top22px versus30px clearance",
+    "Source phase4 support-side interpretation",
+    "Independent fixed nearRIGHT/farLEFT boot continuity and full static assembly"
+  ],
+  "nextAction": "Stop at source candidate after this single call. No cropping, binding, retry or runtime adoption; coordinator reviews first."
+}

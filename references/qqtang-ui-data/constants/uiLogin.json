@@ -1,0 +1,5346 @@
+{
+  "module": "uiLogin",
+  "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiLogin.pyc",
+  "sourceBytes": 21335,
+  "sourceSha256": "9a794fc53610a401f3c09bfd4c2e3ea44755534263577d6b7f1af18f0c6a4474",
+  "operation": "independent bounded data-only constant-tree parsing and static literal-store recognition; no bytecode execution/import/CodeType",
+  "magicHex": "3bf20d0a",
+  "formatCompatibility": "CPython62011 magic/2.3-family grammar; exact vendor interpreter build unknown",
+  "grammarSources": [
+    {
+      "url": "https://github.com/python/cpython/blob/v2.3.7/Python/import.c",
+      "gitBlob": "3ca10beabaf74320f5e9ff340a880413802a787a"
+    },
+    {
+      "url": "https://github.com/python/cpython/blob/v2.3.7/Python/marshal.c",
+      "gitBlob": "5aaa3821b42cf7a01f737bdc47d47ee87f2c6393"
+    },
+    {
+      "url": "https://github.com/python/cpython/blob/v2.3.7/Lib/opcode.py",
+      "gitBlob": "cfde5f803bf7c14472e6f15cf391a8c8ec2ac7b7"
+    }
+  ],
+  "parsedObjects": 1507,
+  "completeByteConsumption": true,
+  "scopes": [
+    {
+      "scope": "?",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 3,
+      "bytecodeLength": 150,
+      "bytecodeSha256": "7f4b143a4f697557b6c92894e88ff345f45a359eb10a2dedd7652f75123fe924",
+      "bytecodeExecuted": false,
+      "names": [
+        "False",
+        "isPreLoadRes",
+        "uin",
+        "isLeague",
+        "screenAlphaDir",
+        "screenAlpha",
+        "screenStartIn",
+        "screenStartOut",
+        "TStatic",
+        "TScreenMask",
+        "LoginOK",
+        "LoginFailed",
+        "NotifyVNetAuthorizationResult",
+        "NotifyLoginSuccessType",
+        "ShowVerifyDlg",
+        "UI_children_login",
+        "UI",
+        "children",
+        "login"
+      ],
+      "constants": [
+        {
+          "type": "int",
+          "value": -1
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "float",
+          "value": 1.0
+        },
+        {
+          "type": "code-reference",
+          "name": "screenStartIn",
+          "firstLine": 11
+        },
+        {
+          "type": "code-reference",
+          "name": "screenStartOut",
+          "firstLine": 16
+        },
+        {
+          "type": "bytes",
+          "length": 11,
+          "sha256": "572cf5876da6af6c30e3d5ca80d6a7971e3d8ca4aec7493656fa9eb04ab9c737",
+          "text": "TScreenMask",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "TScreenMask",
+          "firstLine": 23
+        },
+        {
+          "type": "code-reference",
+          "name": "LoginOK",
+          "firstLine": 48
+        },
+        {
+          "type": "code-reference",
+          "name": "LoginFailed",
+          "firstLine": 52
+        },
+        {
+          "type": "code-reference",
+          "name": "NotifyVNetAuthorizationResult",
+          "firstLine": 57
+        },
+        {
+          "type": "code-reference",
+          "name": "NotifyLoginSuccessType",
+          "firstLine": 69
+        },
+        {
+          "type": "code-reference",
+          "name": "ShowVerifyDlg",
+          "firstLine": 76
+        },
+        {
+          "type": "bytes",
+          "length": 17,
+          "sha256": "3a5a40b4d1190638536dcd5fa3695d62886f638f2d3e0ce83e4db572ca5384f8",
+          "text": "UI_children_login",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "UI_children_login",
+          "firstLine": 84
+        },
+        {
+          "type": "NoneType",
+          "value": null
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 15,
+          "name": "isLeague",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.screenStartIn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 11,
+      "bytecodeLength": 16,
+      "bytecodeSha256": "4a9708a7a561352823f0477e13eb905048d20515dc5c3dcf85693e901eb136c6",
+      "bytecodeExecuted": false,
+      "names": [
+        "screenAlphaDir",
+        "screenAlpha"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "float",
+          "value": 0.5
+        },
+        {
+          "type": "float",
+          "value": 0.0
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.screenStartOut",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 16,
+      "bytecodeLength": 20,
+      "bytecodeSha256": "212a5a57694296fcb259c82d2940c1d081213ab4bd22ced3f45c7b24aea87571",
+      "bytecodeExecuted": false,
+      "names": [
+        "screenAlphaDir",
+        "screenAlpha"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": -4
+        },
+        {
+          "type": "float",
+          "value": 1.0
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.TScreenMask",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 23,
+      "bytecodeLength": 41,
+      "bytecodeSha256": "b215d5371b4b03cd3d82bb1171239d1385e000bcae988e4231e504bc333b04f7",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "rect",
+        "OnDraw"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 9999999
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "code-reference",
+          "name": "OnDraw",
+          "firstLine": 27
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": 9999999
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.TScreenMask.OnDraw",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 27,
+      "bytecodeLength": 178,
+      "bytecodeSha256": "7fad521c6127258dbed0a745f7952c6349c913d982146a654e3f90cf52d7704a",
+      "bytecodeExecuted": false,
+      "names": [
+        "sc_isWindow",
+        "screenAlphaDir",
+        "screenAlpha",
+        "sc_getDeltaTick",
+        "screenAlhpaDir",
+        "maskAlpha",
+        "int",
+        "color",
+        "sc_drawBar"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "float",
+          "value": 1.0
+        },
+        {
+          "type": "float",
+          "value": 500.0
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 24
+        },
+        {
+          "type": "int",
+          "value": 800
+        },
+        {
+          "type": "int",
+          "value": 600
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.LoginOK",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 48,
+      "bytecodeLength": 44,
+      "bytecodeSha256": "9d15000bfa3e1726b60348a6cc7de9e627b45e4c9aee0b794f44ed338fb423d0",
+      "bytecodeExecuted": false,
+      "names": [
+        "do",
+        "UI",
+        "children",
+        "login",
+        "wait",
+        "GotoUIScreen"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da",
+          "text": "finish",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "6795e7142224c8d096a573cede12266e4bca3a27c26f98999c24262bf84316c0",
+          "text": "login ok",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "f14e05412e5a900fcb023c946e0e7d5df8d2cd0a13bb6f2308292935281218bb",
+          "text": "selSect",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.LoginFailed",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 52,
+      "bytecodeLength": 47,
+      "bytecodeSha256": "ed81c33bc745c2f8b590b579e7f7370c185cdc77f1f9082e712ee88af492adf9",
+      "bytecodeExecuted": false,
+      "names": [
+        "do",
+        "UI",
+        "children",
+        "login",
+        "wait",
+        "Win_ShowWidget",
+        "True"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "bb8655822004ca8b0fc0ad0fff1bd984baa97688c7d31730bfdd34982dfcfb84",
+          "text": "login failed",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da",
+          "text": "finish",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 17,
+          "sha256": "a221be1942d5a943e7431866e5432db02758d6a1be50ec56c1b27cb28b2ad44f",
+          "text": "UI.login.loginDlg",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.NotifyVNetAuthorizationResult",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 57,
+      "bytecodeLength": 133,
+      "bytecodeSha256": "7024c501c7834e57a1b71614b22048d38486457ca72ea6f227d1ce581d9763b8",
+      "bytecodeExecuted": false,
+      "names": [
+        "bSuccess",
+        "Win_IsVisible",
+        "doUI",
+        "PlaySound",
+        "soundMain",
+        "ui_msgBox",
+        "Win_ShowMsgBox"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 16,
+          "sha256": "f71d9c576acbb3af80e5eca72fe69bd9451bd6689f8346295bff9024e20004a2",
+          "text": "UI.login.vnetDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 25,
+          "sha256": "14d35f5a9d92e5787cdc275293bcf93b2341249973462540ea11649215646cd5",
+          "text": "UI.login.vnetDlg.crossBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "a620ac8cbdf3c6abe12753ff7dda4648af8e81e18bc42915b64970cdfdb204ca",
+          "text": "OnClick",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "92279c61494aba5b6144c64548611fa0882bd02f6dd3d8c7a3e0d2d6c13c81fb",
+          "text": "UI.login.wait",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "cced28c6dc3f99c2396a5eaad732bf6b28142335892b1cd0e6af6cdb53f5ccfa",
+          "text": "start",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "bytes",
+          "length": 33,
+          "sha256": "23d34c45dbda73172d30c7ea25027cee8a54f58b7da3b104bc20abbfd796ec9d",
+          "text": "VNet登陆失败,请使用QQ号码进行登陆",
+          "textEncodingCandidate": "gb18030"
+        },
+        {
+          "type": "bytes",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "text": "",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "071d5b6d1682ea78d37585844198363a2ec471b8d35405726ba954dcc801dd7d",
+          "text": "UI.SysMsgbox",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": -1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.NotifyLoginSuccessType",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 69,
+      "bytecodeLength": 46,
+      "bytecodeSha256": "3298b3802cca77321a4297ccffbbf0feeedca146317d3a2dcae8af415f430a28",
+      "bytecodeExecuted": false,
+      "names": [
+        "result",
+        "loginType"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 0
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.ShowVerifyDlg",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 76,
+      "bytecodeLength": 91,
+      "bytecodeSha256": "14b70348c7b17cacfc002c2b8d9537930fc1fbc760bdacd8e338d135c0cb3c19",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_SetText",
+        "Win_SetImg",
+        "do",
+        "UI",
+        "children",
+        "login",
+        "wait",
+        "ui_setCapture",
+        "PlaySound",
+        "soundMain"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "035a0f2fbe60410264f33f0003f4fadfd3c9c467797165b7e833b1aec633115c",
+          "text": "UI.login.verifyDlg.verifyEdit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "text": "",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "c6e7ffdb4c232fdefc842a1c9fb45775d19cad630211ccc7a4bbc733d77b38a0",
+          "text": "UI.login.verifyDlg.verifyPic",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 14,
+          "sha256": "60dd18477cf5c83a4d2f5ea9ae6b26f607cc2fd8f22b997ad16e14b2f46df407",
+          "text": "res/verify.bmp",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da",
+          "text": "finish",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 18,
+          "sha256": "72f6aead5bd5e2d451c0c814bec3091e6920aaeda7b38d0fc6d57fe8a341e556",
+          "text": "UI.login.verifyDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 84,
+      "bytecodeLength": 90,
+      "bytecodeSha256": "7b6e6b57bf82b4856d0826ce59160762791891185f4351166dc5014db8934826",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "rect",
+        "bkimage",
+        "accel",
+        "OnEnter",
+        "OnEscape",
+        "OnInit",
+        "children"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "52b18ba881309e7cf893cbe44e35b74ef31cb9839d9feffcb01656f33a827fd5",
+          "text": "SCREEN",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 800
+        },
+        {
+          "type": "int",
+          "value": 331
+        },
+        {
+          "type": "bytes",
+          "length": 23,
+          "sha256": "4664c213bf94f003805049bddf84d62378bbaa0d8b49f36cc38261009e2cbdd1",
+          "text": "ui/selSect/bg_login.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnEnter",
+          "firstLine": 94
+        },
+        {
+          "type": "code-reference",
+          "name": "OnEscape",
+          "firstLine": 103
+        },
+        {
+          "type": "code-reference",
+          "name": "OnInit",
+          "firstLine": 111
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+          "text": "children",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "children",
+          "firstLine": 140
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "52b18ba881309e7cf893cbe44e35b74ef31cb9839d9feffcb01656f33a827fd5",
+            "text": "SCREEN",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 800
+              },
+              {
+                "type": "int",
+                "value": 331
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 23,
+            "sha256": "4664c213bf94f003805049bddf84d62378bbaa0d8b49f36cc38261009e2cbdd1",
+            "text": "ui/selSect/bg_login.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "accel",
+          "literalValue": {
+            "type": "tuple",
+            "values": []
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.OnEnter",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 94,
+      "bytecodeLength": 102,
+      "bytecodeSha256": "e021746654bfed41d906c08a1442c809a4572c3dcf7bc2313c5a1d673805df82",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_IsVisible",
+        "doUI",
+        "Win_IsChecked"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "92279c61494aba5b6144c64548611fa0882bd02f6dd3d8c7a3e0d2d6c13c81fb",
+          "text": "UI.login.wait",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 16,
+          "sha256": "f71d9c576acbb3af80e5eca72fe69bd9451bd6689f8346295bff9024e20004a2",
+          "text": "UI.login.vnetDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 18,
+          "sha256": "72f6aead5bd5e2d451c0c814bec3091e6920aaeda7b38d0fc6d57fe8a341e556",
+          "text": "UI.login.verifyDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 26,
+          "sha256": "c37d87e97bf7cfbf6f0cdab911278428314d5ea89a7825aa8fe4bb03bc8ca072",
+          "text": "UI.login.verifyDlg.confirm",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "a620ac8cbdf3c6abe12753ff7dda4648af8e81e18bc42915b64970cdfdb204ca",
+          "text": "OnClick",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 32,
+          "sha256": "8e3653d3f2c40b54b70da9fee649eb41409e503310622e81aaf131ee1aeb9a29",
+          "text": "UI.login.loginDlg.userProtocolCk",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "ef2a0ee572185702d54d43ce4a1d4c7a28fc3db398d867909c922a18dd7af9c9",
+          "text": "UI.login.loginDlg.confirmBtn",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.OnEscape",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 103,
+      "bytecodeLength": 73,
+      "bytecodeSha256": "d1c6c9188c9161aa2e8cd9b2e2dcd73d88d191f94f0e3ede0c2e1648c1976a49",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_IsVisible",
+        "do",
+        "UI",
+        "children",
+        "login",
+        "wait",
+        "LoginTimeout",
+        "doUI"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "92279c61494aba5b6144c64548611fa0882bd02f6dd3d8c7a3e0d2d6c13c81fb",
+          "text": "UI.login.wait",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da",
+          "text": "finish",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "bytes",
+          "length": 22,
+          "sha256": "94b9ef8f9fcc4febfc041b6935c7a9ecff4300f2a2d4729aa7191f49ef925ae7",
+          "text": "UI.login.loginDlg.quit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "a620ac8cbdf3c6abe12753ff7dda4648af8e81e18bc42915b64970cdfdb204ca",
+          "text": "OnClick",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.OnInit",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 111,
+      "bytecodeLength": 277,
+      "bytecodeSha256": "4111ee0c15622cee39b4ede761f85b81c3cadaaa40c61e3c6d1c8d2588bb1f00",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_ShowWidget",
+        "uiGuideBar",
+        "uiSocialityDlg",
+        "uiMenuDlg",
+        "Win_Timer",
+        "CanLoginFromVNet",
+        "Win_SetFocus",
+        "Win_SelectSelf",
+        "True",
+        "GetLoginUinFromCmdLn",
+        "uin",
+        "Win_SetText",
+        "str",
+        "do",
+        "UI",
+        "children",
+        "login",
+        "wait",
+        "LoginFromGetData",
+        "GetLastUin",
+        "PlayMusic",
+        "musicStart",
+        "Win_SetCheck"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "4bd620e7cb671631e85474156ee8d134b0736ecb21c74d8f96af5374df915e56",
+          "text": "OnInit login",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 21,
+          "sha256": "ed65f5939644f8f9f680c465e51665c48d22421ee1d276b32898701abca8afeb",
+          "text": "UI.login.resPreLoader",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1000
+        },
+        {
+          "type": "bytes",
+          "length": 30,
+          "sha256": "9d21ae3e683ff4cf03f9f95a816fa128d458cf9ecf0c1f5734bfe362821d71fd",
+          "text": "UI.login.loginDlg.vnetLoginBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "05fcf31aa4d634b10a001a697b1a3bcf65b8eeb05303f77b6d86aac1d885a0d7",
+          "text": "UI.login.loginDlg.player1.pwd",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 25,
+          "sha256": "bf193a77fd62440fb4d5ba25cbefaa8314b6a900a15777595dab036bac97dbfa",
+          "text": "UI.login.loginDlg.player1",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "bd8543b9b030c2a0d2393b86441ba00f240f623cbf8c740e346ab46f75f95589",
+          "text": "UI.login.loginDlg.player1.id",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "07ab59f4731b0790d0acfded6a52d2c53e7e3c6a1e241f6dfe3a41f3072e07fb",
+          "text": "********",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "cced28c6dc3f99c2396a5eaad732bf6b28142335892b1cd0e6af6cdb53f5ccfa",
+          "text": "start",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 17,
+          "sha256": "a221be1942d5a943e7431866e5432db02758d6a1be50ec56c1b27cb28b2ad44f",
+          "text": "UI.login.loginDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": -1
+        },
+        {
+          "type": "bytes",
+          "length": 32,
+          "sha256": "8e3653d3f2c40b54b70da9fee649eb41409e503310622e81aaf131ee1aeb9a29",
+          "text": "UI.login.loginDlg.userProtocolCk",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 140,
+      "bytecodeLength": 140,
+      "bytecodeSha256": "07b9e1d3100a7fc232941af65f3106d1fca9dccbf99da43808cc156f21190cbc",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "TStatic",
+        "logo",
+        "loginDlg",
+        "TDlg",
+        "vnetDlg",
+        "wait",
+        "verifyDlg",
+        "resPreLoader"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "3598ce6f965b2481fe26316c06b30950c46ac7f8e7229f104aa78f579997668d",
+          "text": "logo",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "logo",
+          "firstLine": 141
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "4b3cd9e760ad2fc96047c9cde60504a37669fd9a23203086dae1c28a0d802a71",
+          "text": "loginDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "loginDlg",
+          "firstLine": 145
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "8764b4a276d757ae2c95a39687c43c00f4afa0d8deaabe442c8ccfeff173100b",
+          "text": "vnetDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "vnetDlg",
+          "firstLine": 243
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a",
+          "text": "wait",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "wait",
+          "firstLine": 258
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "64baf2ce8748fa25a307e6642d71b2d505d53564c9756e145166422f9688a66d",
+          "text": "verifyDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "verifyDlg",
+          "firstLine": 301
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "8ece5c3057bd08706c2d35cfc7c65a8f353136c45a221c3f0c01e809a49fd1f8",
+          "text": "resPreLoader",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "resPreLoader",
+          "firstLine": 341
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.logo",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 141,
+      "bytecodeLength": 38,
+      "bytecodeSha256": "73a89c783009327c408ac0586e576d585c28d7370370d52a5fe8018be0a10465",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "rect",
+        "bkimage"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 100000
+        },
+        {
+          "type": "int",
+          "value": 504
+        },
+        {
+          "type": "int",
+          "value": 18
+        },
+        {
+          "type": "int",
+          "value": 199
+        },
+        {
+          "type": "int",
+          "value": 167
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "21d964e7906c09b1abbcfe06bf2cdf14d9a7c2b0a12d3d072c0a171d0e0ee94d",
+          "text": "object/ui/login/img_logo.img",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": 100000
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 504
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 199
+              },
+              {
+                "type": "int",
+                "value": 167
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "21d964e7906c09b1abbcfe06bf2cdf14d9a7c2b0a12d3d072c0a171d0e0ee94d",
+            "text": "object/ui/login/img_logo.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 145,
+      "bytecodeLength": 57,
+      "bytecodeSha256": "094dc961d4b5e4ac51b65a7a32898e0d8b1c66c5659c9a14ba12c6be79119b38",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "rect",
+        "bkimage",
+        "children"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 10001
+        },
+        {
+          "type": "int",
+          "value": 437
+        },
+        {
+          "type": "int",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "value": 346
+        },
+        {
+          "type": "int",
+          "value": 429
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "0c477bdc6582ad4574fe7695fe178f0458e8dfca14b3983a0d81a86c0c011829",
+          "text": "object/ui/login/dlg_login.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+          "text": "children",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "children",
+          "firstLine": 149
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": 10001
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 437
+              },
+              {
+                "type": "int",
+                "value": 112
+              },
+              {
+                "type": "int",
+                "value": 346
+              },
+              {
+                "type": "int",
+                "value": 429
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 29,
+            "sha256": "0c477bdc6582ad4574fe7695fe178f0458e8dfca14b3983a0d81a86c0c011829",
+            "text": "object/ui/login/dlg_login.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 149,
+      "bytecodeLength": 184,
+      "bytecodeSha256": "09b401c856d03ea82fad56f0b14251d20af97887adb726c76ca98d968cb07339",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "TStatic",
+        "player1",
+        "TButton",
+        "playAnimBtn",
+        "TStdCheck",
+        "userProtocolCk",
+        "THyperLink",
+        "agreeUserProtocal",
+        "helpBtn",
+        "confirmBtn",
+        "quitBtn",
+        "vnetLoginBtn"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "13d65aceb53ab1887e7decba787dcad6d8022a39d63e9949b38edfe051a9e036",
+          "text": "player1",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "player1",
+          "firstLine": 150
+        },
+        {
+          "type": "bytes",
+          "length": 11,
+          "sha256": "be1ee4e9ef3ca776b6d890f77e493936de03b8e1648427b536b80784b7c496ed",
+          "text": "playAnimBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "playAnimBtn",
+          "firstLine": 171
+        },
+        {
+          "type": "bytes",
+          "length": 14,
+          "sha256": "b5c7722c98dcbfbd8be134042fb63fb51682c6cc8bc9c60c2d34f2aa933902d3",
+          "text": "userProtocolCk",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "userProtocolCk",
+          "firstLine": 177
+        },
+        {
+          "type": "bytes",
+          "length": 17,
+          "sha256": "a28205f4bf64d7c66a4bd2bbad3044a6318aa2e24da9cac8b0ef615ec54013dd",
+          "text": "agreeUserProtocal",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "agreeUserProtocal",
+          "firstLine": 189
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "3eafe150060146a4820c043401a4f1ec81a9e378bf59f78cdd580e896c02ab71",
+          "text": "helpBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "helpBtn",
+          "firstLine": 195
+        },
+        {
+          "type": "bytes",
+          "length": 10,
+          "sha256": "ab66938ec07c7c93f7c984151479d547056c64cef5fcce39ddaeaa4bd4769499",
+          "text": "confirmBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "confirmBtn",
+          "firstLine": 201
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "44e191fc8da75932890dbc74caa3f017a493af7ef7bd72502f14bcbdf2f362e5",
+          "text": "quitBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "quitBtn",
+          "firstLine": 224
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "40a832e05b228bd1cc6ca1d16abde08910f03b8dcec7523923743bf7102328b7",
+          "text": "vnetLoginBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "vnetLoginBtn",
+          "firstLine": 233
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 150,
+      "bytecodeLength": 84,
+      "bytecodeSha256": "9682fd2293d434b9e732347beddde25efa3e57786e5eaa964ef6bdcced0e1047",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "framescheme",
+        "rect",
+        "groupstop",
+        "children"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+          "text": "children",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "children",
+          "firstLine": 154
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 36,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 54,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 60,
+          "name": "groupstop",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1.children",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 154,
+      "bytecodeLength": 52,
+      "bytecodeSha256": "669468ba89c7d5c50fe27f78c2f6f2fd9d6ea9fc9db6b34dab8d84983b381f27",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "TEditID",
+        "id",
+        "TEditPassword",
+        "pwd"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 2,
+          "sha256": "a56145270ce6b3bebd1dd012b73948677dd618d496488bc608a3cb43ce3547dd",
+          "text": "id",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "id",
+          "firstLine": 155
+        },
+        {
+          "type": "bytes",
+          "length": 3,
+          "sha256": "a1159e9df3670d549d04524532629f5477ceb7deec9b45e47e8c009506ecb2c8",
+          "text": "pwd",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "pwd",
+          "firstLine": 163
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1.children.id",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 155,
+      "bytecodeLength": 80,
+      "bytecodeSha256": "56c953039f6ac9acf6089fadbc45ff20598470b6f8e8de771c42ea0b723daa1d",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "editable",
+        "rect",
+        "captionrect",
+        "lightColor",
+        "drawcolor",
+        "maskColor",
+        "textEdgeColor",
+        "OnMsgBoxOk",
+        "OnTab"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 139
+        },
+        {
+          "type": "int",
+          "value": 104
+        },
+        {
+          "type": "int",
+          "value": 140
+        },
+        {
+          "type": "int",
+          "value": 24
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 6
+        },
+        {
+          "type": "int",
+          "value": 100
+        },
+        {
+          "type": "int",
+          "value": 12
+        },
+        {
+          "type": "code-reference",
+          "name": "OnMsgBoxOk",
+          "firstLine": 161
+        },
+        {
+          "type": "code-reference",
+          "name": "OnTab",
+          "firstLine": 162
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "editable",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 139
+              },
+              {
+                "type": "int",
+                "value": 104
+              },
+              {
+                "type": "int",
+                "value": 140
+              },
+              {
+                "type": "int",
+                "value": 24
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "captionrect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": 100
+              },
+              {
+                "type": "int",
+                "value": 12
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1.children.id.OnMsgBoxOk",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 161,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "a98de623dd80e80e740e673f13a289f4bda560c5ba814ee022bd6ecf9d90e6f2",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_SetFocus"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "bd8543b9b030c2a0d2393b86441ba00f240f623cbf8c740e346ab46f75f95589",
+          "text": "UI.login.loginDlg.player1.id",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1.children.id.OnTab",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 162,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "a98de623dd80e80e740e673f13a289f4bda560c5ba814ee022bd6ecf9d90e6f2",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_SetFocus"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "05fcf31aa4d634b10a001a697b1a3bcf65b8eeb05303f77b6d86aac1d885a0d7",
+          "text": "UI.login.loginDlg.player1.pwd",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1.children.pwd",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 163,
+      "bytecodeLength": 80,
+      "bytecodeSha256": "56c953039f6ac9acf6089fadbc45ff20598470b6f8e8de771c42ea0b723daa1d",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "editable",
+        "rect",
+        "captionrect",
+        "lightColor",
+        "drawcolor",
+        "maskColor",
+        "textEdgeColor",
+        "OnMsgBoxOk",
+        "OnTab"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 139
+        },
+        {
+          "type": "int",
+          "value": 147
+        },
+        {
+          "type": "int",
+          "value": 140
+        },
+        {
+          "type": "int",
+          "value": 24
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 6
+        },
+        {
+          "type": "int",
+          "value": 100
+        },
+        {
+          "type": "int",
+          "value": 12
+        },
+        {
+          "type": "code-reference",
+          "name": "OnMsgBoxOk",
+          "firstLine": 169
+        },
+        {
+          "type": "code-reference",
+          "name": "OnTab",
+          "firstLine": 170
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "editable",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 139
+              },
+              {
+                "type": "int",
+                "value": 147
+              },
+              {
+                "type": "int",
+                "value": 140
+              },
+              {
+                "type": "int",
+                "value": 24
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "captionrect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": 100
+              },
+              {
+                "type": "int",
+                "value": 12
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1.children.pwd.OnMsgBoxOk",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 169,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "a98de623dd80e80e740e673f13a289f4bda560c5ba814ee022bd6ecf9d90e6f2",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_SetFocus"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "05fcf31aa4d634b10a001a697b1a3bcf65b8eeb05303f77b6d86aac1d885a0d7",
+          "text": "UI.login.loginDlg.player1.pwd",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.player1.children.pwd.OnTab",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 170,
+      "bytecodeLength": 14,
+      "bytecodeSha256": "a98de623dd80e80e740e673f13a289f4bda560c5ba814ee022bd6ecf9d90e6f2",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_SetFocus"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "bd8543b9b030c2a0d2393b86441ba00f240f623cbf8c740e346ab46f75f95589",
+          "text": "UI.login.loginDlg.player1.id",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.playAnimBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 171,
+      "bytecodeLength": 82,
+      "bytecodeSha256": "c0607796a0c1f64cc78ec0d63e4961fb33be067d9adb6dd0ec7a066b5263c466",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "framescheme",
+        "rect",
+        "bkimage",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 475
+        },
+        {
+          "type": "int",
+          "value": 437
+        },
+        {
+          "type": "int",
+          "value": 321
+        },
+        {
+          "type": "int",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "value": 98
+        },
+        {
+          "type": "int",
+          "value": 31
+        },
+        {
+          "type": "bytes",
+          "length": 32,
+          "sha256": "9be01ccf7c215bee241ab3c56e85a03a3e1b7e0ede1565f63ab34bf61f13c283",
+          "text": "object/ui/login/btn_playAnim.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 175
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 36,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 68,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 32,
+            "sha256": "9be01ccf7c215bee241ab3c56e85a03a3e1b7e0ede1565f63ab34bf61f13c283",
+            "text": "object/ui/login/btn_playAnim.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.playAnimBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 175,
+      "bytecodeLength": 11,
+      "bytecodeSha256": "ca13b22a508574360f1069c21d9dafb29c042bb23116665e9a350d954d3c73be",
+      "bytecodeExecuted": false,
+      "names": [
+        "PlayCG"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.userProtocolCk",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 177,
+      "bytecodeLength": 47,
+      "bytecodeSha256": "787c5655d1f87d7ba579be5069b819c74c19453a66fd8a301dbabc9eb114ccc2",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "bkimagepos",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 150
+        },
+        {
+          "type": "int",
+          "value": 185
+        },
+        {
+          "type": "int",
+          "value": 20
+        },
+        {
+          "type": "int",
+          "value": 17
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 5
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 180
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 150
+              },
+              {
+                "type": "int",
+                "value": 185
+              },
+              {
+                "type": "int",
+                "value": 20
+              },
+              {
+                "type": "int",
+                "value": 17
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimagepos",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 5
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.userProtocolCk.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 180,
+      "bytecodeLength": 110,
+      "bytecodeSha256": "e98cbfc40eb17d69bc0bc6bf1db1fe44216d6648a2f4fc96251c548c80e8d0a4",
+      "bytecodeExecuted": false,
+      "names": [
+        "ui",
+        "Win_IsChecked",
+        "Win_EnableWidget",
+        "True",
+        "Win_ShowMsgBox",
+        "ui_msgBox",
+        "False",
+        "PlaySound",
+        "soundUI"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 17,
+          "sha256": "a221be1942d5a943e7431866e5432db02758d6a1be50ec56c1b27cb28b2ad44f",
+          "text": "UI.login.loginDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 15,
+          "sha256": "021ac4bebf5d3e70f28765370448cc0b94c47363193125502f50e5eb90ee2996",
+          "text": ".userProtocolCk",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 11,
+          "sha256": "753191f7e8c58b9158f230a7513727256995a71dc23401b2fb1b2d9fb5a04331",
+          "text": ".confirmBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 77,
+          "sha256": "415e1837e181301bc1cfaed79bd1db68756054e6a39d11d823ccf121eb56b03c",
+          "text": "您去掉了\"已阅读并同意游戏协议\"选项，将不能再登录游戏!若想继续游戏，请重新勾选",
+          "textEncodingCandidate": "gb18030"
+        },
+        {
+          "type": "bytes",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "text": "",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "071d5b6d1682ea78d37585844198363a2ec471b8d35405726ba954dcc801dd7d",
+          "text": "UI.SysMsgbox",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.agreeUserProtocal",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 189,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "db9c6e7043e139bcdf7eb6debd812e3e867dd0ae4d8f8a90c7f6132b483be598",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "drawcolor",
+        "textEdgeColor",
+        "URL",
+        "caption"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 162
+        },
+        {
+          "type": "int",
+          "value": 187
+        },
+        {
+          "type": "int",
+          "value": 130
+        },
+        {
+          "type": "int",
+          "value": 12
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "bytes",
+          "length": 41,
+          "sha256": "1a5ac9bef6d5e89689ada50e670236a24e981f963fd99cd2cfc4123cbe677c9a",
+          "text": "http://qqtang.qq.com/service/license.html",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 20,
+          "sha256": "5063e7adf466da15ddb50e001308c403fee2ae1065b2ee4d7f9f1e585534f698",
+          "text": "已阅读并同意游戏协议",
+          "textEncodingCandidate": "gb18030"
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 162
+              },
+              {
+                "type": "int",
+                "value": 187
+              },
+              {
+                "type": "int",
+                "value": 130
+              },
+              {
+                "type": "int",
+                "value": 12
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 57,
+          "name": "textEdgeColor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 63,
+          "name": "URL",
+          "literalValue": {
+            "type": "bytes",
+            "length": 41,
+            "sha256": "1a5ac9bef6d5e89689ada50e670236a24e981f963fd99cd2cfc4123cbe677c9a",
+            "text": "http://qqtang.qq.com/service/license.html",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 69,
+          "name": "caption",
+          "literalValue": {
+            "type": "bytes",
+            "length": 20,
+            "sha256": "5063e7adf466da15ddb50e001308c403fee2ae1065b2ee4d7f9f1e585534f698",
+            "text": "已阅读并同意游戏协议",
+            "textEncodingCandidate": "gb18030"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.helpBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 195,
+      "bytecodeLength": 82,
+      "bytecodeSha256": "d45cb72f791ff23547144368ef1e9705aab3805381458053fc5e4eb45839df7d",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "framescheme",
+        "rect",
+        "bkimage",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 3
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 466
+        },
+        {
+          "type": "int",
+          "value": 437
+        },
+        {
+          "type": "int",
+          "value": 371
+        },
+        {
+          "type": "int",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "value": 76
+        },
+        {
+          "type": "int",
+          "value": 31
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "a92ca0d9abede8dff1dd63c83b5d20416bb7604b18461fe8732172b2148781dd",
+          "text": "object/ui/login/btn_help.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 199
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 36,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 68,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "a92ca0d9abede8dff1dd63c83b5d20416bb7604b18461fe8732172b2148781dd",
+            "text": "object/ui/login/btn_help.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.helpBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 199,
+      "bytecodeLength": 11,
+      "bytecodeSha256": "ca13b22a508574360f1069c21d9dafb29c042bb23116665e9a350d954d3c73be",
+      "bytecodeExecuted": false,
+      "names": [
+        "ui_jumpHelpWeb"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.confirmBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 201,
+      "bytecodeLength": 88,
+      "bytecodeSha256": "051bb5ca4f9aa51d0acd9383ca7e082df0bcbd574373b02ddc52e8b233eef0cc",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "framescheme",
+        "rect",
+        "bkimage",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 10003
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 624
+        },
+        {
+          "type": "int",
+          "value": 437
+        },
+        {
+          "type": "int",
+          "value": 371
+        },
+        {
+          "type": "int",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "value": 80
+        },
+        {
+          "type": "int",
+          "value": 31
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "a82c7f4044cf9cc12ccfaf3631e6243ec4ef6f78f2cebd0fb08a1afd072855d8",
+          "text": "object/ui/login/btn_login.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 206
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": 10003
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 42,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 74,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 29,
+            "sha256": "a82c7f4044cf9cc12ccfaf3631e6243ec4ef6f78f2cebd0fb08a1afd072855d8",
+            "text": "object/ui/login/btn_login.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.confirmBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 206,
+      "bytecodeLength": 191,
+      "bytecodeSha256": "4fd6aac68b975553c0bb38fe54d5930eb2a6818d855075cf7883f741313b4caf",
+      "bytecodeExecuted": false,
+      "names": [
+        "int",
+        "Win_GetText",
+        "id",
+        "uin",
+        "pw",
+        "Win_ShowMsgBox",
+        "ui_msgBox",
+        "doUI",
+        "Login",
+        "PlaySound",
+        "soundMain"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "bd8543b9b030c2a0d2393b86441ba00f240f623cbf8c740e346ab46f75f95589",
+          "text": "UI.login.loginDlg.player1.id",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "05fcf31aa4d634b10a001a697b1a3bcf65b8eeb05303f77b6d86aac1d885a0d7",
+          "text": "UI.login.loginDlg.player1.pwd",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 10001
+        },
+        {
+          "type": "bytes",
+          "length": 18,
+          "sha256": "37b77fc6f4a4d820f6b3bdba5c8d058e31cdcf72fd84963938b1bd3e1e74c42f",
+          "text": "您输入了无效的QQ号",
+          "textEncodingCandidate": "gb18030"
+        },
+        {
+          "type": "bytes",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "text": "",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "2f9481345ed472d8b8c4d0ad18d0dc19f7da9aeae1221081776cd7e3d7c7608d",
+          "text": "Ui.login.loginDlg.player1.id",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "bytes",
+          "length": 10,
+          "sha256": "a6da5f097d03b92eee7fd51744299aacdf8d5449a81238c74fcc5f5077f17e88",
+          "text": "请输入密码",
+          "textEncodingCandidate": "gb18030"
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "552de8aab3da7600ae4fbea60bd54ffb43574a53ae199a316837788e8285c7aa",
+          "text": "Ui.login.loginDlg.player1.pwd",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "92279c61494aba5b6144c64548611fa0882bd02f6dd3d8c7a3e0d2d6c13c81fb",
+          "text": "UI.login.wait",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 5,
+          "sha256": "cced28c6dc3f99c2396a5eaad732bf6b28142335892b1cd0e6af6cdb53f5ccfa",
+          "text": "start",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.quitBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 224,
+      "bytecodeLength": 88,
+      "bytecodeSha256": "8c88057d0814a3ef5242c5eaf6e316beb3d0679015b60d3f1862e7030cda0580",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "framescheme",
+        "rect",
+        "bkimage",
+        "dt_center",
+        "bkImgFlag",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 709
+        },
+        {
+          "type": "int",
+          "value": 437
+        },
+        {
+          "type": "int",
+          "value": 371
+        },
+        {
+          "type": "int",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "value": 41
+        },
+        {
+          "type": "int",
+          "value": 31
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "2820d0cfd13dedba79250ce0e4fa552e4135d28c5f93d6936b0567dca0f46ef7",
+          "text": "object/ui/login/btn_quit.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 229
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 36,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 68,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "2820d0cfd13dedba79250ce0e4fa552e4135d28c5f93d6936b0567dca0f46ef7",
+            "text": "object/ui/login/btn_quit.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.quitBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 229,
+      "bytecodeLength": 24,
+      "bytecodeSha256": "2f77007bbf49cfff207ce7ec64122034c76abf8762c77d3f28ab638897577393",
+      "bytecodeExecuted": false,
+      "names": [
+        "PlaySound",
+        "soundLeave",
+        "Quit"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.vnetLoginBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 233,
+      "bytecodeLength": 51,
+      "bytecodeSha256": "1e0e8ef5fa4d17dab76d4a653f52285e61ea9c761c3bbf98a0f05a20cc505012",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "visible",
+        "rect",
+        "bkimage",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 150
+        },
+        {
+          "type": "int",
+          "value": 321
+        },
+        {
+          "type": "int",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "value": 76
+        },
+        {
+          "type": "int",
+          "value": 31
+        },
+        {
+          "type": "bytes",
+          "length": 33,
+          "sha256": "0971ca1b15e40aeb09ee08d75100cc3e1d0af6996568de1f77819a70e33db1c8",
+          "text": "object/ui/login/btn_vnetLogin.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 237
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "visible",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 37,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 33,
+            "sha256": "0971ca1b15e40aeb09ee08d75100cc3e1d0af6996568de1f77819a70e33db1c8",
+            "text": "object/ui/login/btn_vnetLogin.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.loginDlg.children.vnetLoginBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 237,
+      "bytecodeLength": 62,
+      "bytecodeSha256": "a7739441f58adbad8d13251836303170e7f047f6568f3a3adac1e226fcbdb4c0",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_EnableWidget",
+        "Win_ShowWidget",
+        "sc_ShowLoginVNetWeb",
+        "PlaySound",
+        "soundMain"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 17,
+          "sha256": "a221be1942d5a943e7431866e5432db02758d6a1be50ec56c1b27cb28b2ad44f",
+          "text": "UI.login.loginDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 16,
+          "sha256": "f71d9c576acbb3af80e5eca72fe69bd9451bd6689f8346295bff9024e20004a2",
+          "text": "UI.login.vnetDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 435
+        },
+        {
+          "type": "int",
+          "value": 215
+        },
+        {
+          "type": "int",
+          "value": 312
+        },
+        {
+          "type": "int",
+          "value": 64
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.vnetDlg",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 243,
+      "bytecodeLength": 63,
+      "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "visible",
+        "initlayer",
+        "rect",
+        "bkimage",
+        "children"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 200000
+        },
+        {
+          "type": "int",
+          "value": 420
+        },
+        {
+          "type": "int",
+          "value": 200
+        },
+        {
+          "type": "int",
+          "value": 364
+        },
+        {
+          "type": "int",
+          "value": 104
+        },
+        {
+          "type": "bytes",
+          "length": 33,
+          "sha256": "2b3b9f557a77ee365b245832e3a3d41142af2561d65c61b0f06b6a8d23362dff",
+          "text": "object/ui/login/dlg_vnetLogin.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+          "text": "children",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "children",
+          "firstLine": 248
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "visible",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": 200000
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 420
+              },
+              {
+                "type": "int",
+                "value": 200
+              },
+              {
+                "type": "int",
+                "value": 364
+              },
+              {
+                "type": "int",
+                "value": 104
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 33,
+            "sha256": "2b3b9f557a77ee365b245832e3a3d41142af2561d65c61b0f06b6a8d23362dff",
+            "text": "object/ui/login/dlg_vnetLogin.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.vnetDlg.children",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 248,
+      "bytecodeLength": 30,
+      "bytecodeSha256": "c694bc2e9f7e56ea8314cd6163d13a10f463e96b78492a05e3ddb366af761442",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "TButton",
+        "crossBtn"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "1efc94d09111c0245664c69f1d8891e8583e466dbb4f34ab653b70ea5629fa3d",
+          "text": "crossBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "crossBtn",
+          "firstLine": 249
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.vnetDlg.children.crossBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 249,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "09186d0df85f951aed62f7263e4921a4d4353a4387b987e85a4b15459f8eb223",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "framescheme",
+        "rect",
+        "bkimage",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 3
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 335
+        },
+        {
+          "type": "int",
+          "value": 4
+        },
+        {
+          "type": "int",
+          "value": 22
+        },
+        {
+          "type": "bytes",
+          "length": 30,
+          "sha256": "94a1e8dbfa8ab1b90ad01a46042cfef8b54120dca7c0a432deeef23f8d8b7937",
+          "text": "object/ui/common/btn_cross.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 253
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 36,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 54,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 335
+              },
+              {
+                "type": "int",
+                "value": 4
+              },
+              {
+                "type": "int",
+                "value": 22
+              },
+              {
+                "type": "int",
+                "value": 22
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 60,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 30,
+            "sha256": "94a1e8dbfa8ab1b90ad01a46042cfef8b54120dca7c0a432deeef23f8d8b7937",
+            "text": "object/ui/common/btn_cross.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.vnetDlg.children.crossBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 253,
+      "bytecodeLength": 37,
+      "bytecodeSha256": "5a7f8738a5ed092fd7f45eb00ab0a501cfc86e3b5d3531bba66fe55c388df2e8",
+      "bytecodeExecuted": false,
+      "names": [
+        "sc_DestroyLoginVNetWeb",
+        "Win_ShowWidget",
+        "False",
+        "Win_EnableWidget"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 16,
+          "sha256": "f71d9c576acbb3af80e5eca72fe69bd9451bd6689f8346295bff9024e20004a2",
+          "text": "UI.login.vnetDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 17,
+          "sha256": "a221be1942d5a943e7431866e5432db02758d6a1be50ec56c1b27cb28b2ad44f",
+          "text": "UI.login.loginDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.wait",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 258,
+      "bytecodeLength": 87,
+      "bytecodeSha256": "775bf99d29ebca4ee7abdff82c0c2f311ce0823f19dfabc1126bb33e6e94e282",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "visible",
+        "darkBG",
+        "rect",
+        "bkimage",
+        "start",
+        "finish",
+        "children"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 999999
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 287
+        },
+        {
+          "type": "int",
+          "value": 320
+        },
+        {
+          "type": "int",
+          "value": 226
+        },
+        {
+          "type": "int",
+          "value": 95
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "c91a0ee4b7824cf855bb6071ebc89ce714e87deae666630426090f3c0c9164e9",
+          "text": "object/ui/login/dlg_wait.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "start",
+          "firstLine": 264
+        },
+        {
+          "type": "code-reference",
+          "name": "finish",
+          "firstLine": 270
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+          "text": "children",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "children",
+          "firstLine": 273
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": 999999
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "visible",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 21,
+          "name": "darkBG",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 287
+              },
+              {
+                "type": "int",
+                "value": 320
+              },
+              {
+                "type": "int",
+                "value": 226
+              },
+              {
+                "type": "int",
+                "value": 95
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "c91a0ee4b7824cf855bb6071ebc89ce714e87deae666630426090f3c0c9164e9",
+            "text": "object/ui/login/dlg_wait.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.start",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 264,
+      "bytecodeLength": 50,
+      "bytecodeSha256": "ed631624c3e66660b117c6e301d6f06da82ed0b344803075811712fa3f37b2c4",
+      "bytecodeExecuted": false,
+      "names": [
+        "waitNum",
+        "Win_SetText",
+        "Win_Timer",
+        "ui_setCapture"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 30
+        },
+        {
+          "type": "bytes",
+          "length": 23,
+          "sha256": "16f77aa044b022c4823f22ae016e3d655ebdcb5d158f20afd6be15c3d0ac4614",
+          "text": "UI.login.wait.numberTip",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "b2dd460cc9707138da17170b2d6d67e490c1f3c6217aa2369e73a89931a3f016",
+          "text": "%02d",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1000
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "92279c61494aba5b6144c64548611fa0882bd02f6dd3d8c7a3e0d2d6c13c81fb",
+          "text": "UI.login.wait",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.finish",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 270,
+      "bytecodeLength": 30,
+      "bytecodeSha256": "24b8504dfa3fd3c3f850cbf97d735161876b116277570ab7baef206b7a823460",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_Timer",
+        "Win_ShowWidget",
+        "false"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 23,
+          "sha256": "16f77aa044b022c4823f22ae016e3d655ebdcb5d158f20afd6be15c3d0ac4614",
+          "text": "UI.login.wait.numberTip",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "92279c61494aba5b6144c64548611fa0882bd02f6dd3d8c7a3e0d2d6c13c81fb",
+          "text": "UI.login.wait",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.children",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 273,
+      "bytecodeLength": 71,
+      "bytecodeSha256": "2fa9f11fec9d421e5b1a8e876f0da1c712e433eaae5a18d099fea2dc4620adb9",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "numberTip",
+        "TStatic",
+        "linkAnim",
+        "TButton",
+        "cancelBtn"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "1de5a45571d2c06d64f0cbd2e3de2419930f1ccd1135d33a4acdd1cbe6ec2490",
+          "text": "numberTip",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "numberTip",
+          "firstLine": 274
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "8fc784641dee08eabd9f2fbada869f5d482caee779628d75c9641aa754438f3d",
+          "text": "linkAnim",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "linkAnim",
+          "firstLine": 289
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "924548525af6fe15b986df3e1448905bdf9d376a8be642ad6af27c6af6039d07",
+          "text": "cancelBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "cancelBtn",
+          "firstLine": 293
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.children.numberTip",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 274,
+      "bytecodeLength": 65,
+      "bytecodeSha256": "c24c6657c002c633471ffc081519f90118f12db98cc2ce447786b094d20a5d56",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "rect",
+        "bkimage",
+        "textsize",
+        "textwidth",
+        "textheight",
+        "OnTimer"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "d3d54b5cd0185147200bbf30a2399994e4e0c21293646d4bdb65778d7719b79c",
+          "text": "NUMLABEL",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 5
+        },
+        {
+          "type": "int",
+          "value": -130
+        },
+        {
+          "type": "int",
+          "value": 206
+        },
+        {
+          "type": "int",
+          "value": 130
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "3e3ee4c309c38d054ac11eacafe23d7536c8f50b176c45ef1cb333e32d80d9f3",
+          "text": "object/ui/common/number1.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 103
+        },
+        {
+          "type": "code-reference",
+          "name": "OnTimer",
+          "firstLine": 281
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "d3d54b5cd0185147200bbf30a2399994e4e0c21293646d4bdb65778d7719b79c",
+            "text": "NUMLABEL",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": -130
+              },
+              {
+                "type": "int",
+                "value": 206
+              },
+              {
+                "type": "int",
+                "value": 130
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "3e3ee4c309c38d054ac11eacafe23d7536c8f50b176c45ef1cb333e32d80d9f3",
+            "text": "object/ui/common/number1.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 103
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "textwidth",
+          "literalValue": {
+            "type": "int",
+            "value": 103
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "textheight",
+          "literalValue": {
+            "type": "int",
+            "value": 130
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.children.numberTip.OnTimer",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 281,
+      "bytecodeLength": 87,
+      "bytecodeSha256": "a3c40730d71a80a1c978f11e690d74c434ac89028b6914532189d1356e07fa37",
+      "bytecodeExecuted": false,
+      "names": [
+        "waitNum",
+        "do",
+        "UI",
+        "children",
+        "login",
+        "wait",
+        "LoginTimeout",
+        "Win_SetText",
+        "this"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da",
+          "text": "finish",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 4,
+          "sha256": "b2dd460cc9707138da17170b2d6d67e490c1f3c6217aa2369e73a89931a3f016",
+          "text": "%02d",
+          "textEncodingCandidate": "utf-8"
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.children.linkAnim",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 289,
+      "bytecodeLength": 65,
+      "bytecodeSha256": "415664612f8c293d15276ebe79a410b9bbf3ed3bebc47b42e4d30adeb579874a",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "bkimage",
+        "framescheme"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 17
+        },
+        {
+          "type": "int",
+          "value": 30
+        },
+        {
+          "type": "int",
+          "value": 192
+        },
+        {
+          "type": "int",
+          "value": 21
+        },
+        {
+          "type": "bytes",
+          "length": 28,
+          "sha256": "2769d8187e5e8029f9975fc7140dbd4e6f4e276f76fb85fbe17312c8a6c695b5",
+          "text": "object/ui/login/img_link.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 17
+              },
+              {
+                "type": "int",
+                "value": 30
+              },
+              {
+                "type": "int",
+                "value": 192
+              },
+              {
+                "type": "int",
+                "value": 21
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "2769d8187e5e8029f9975fc7140dbd4e6f4e276f76fb85fbe17312c8a6c695b5",
+            "text": "object/ui/login/img_link.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 60,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.children.cancelBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 293,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "bkimage",
+        "framescheme",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 91
+        },
+        {
+          "type": "int",
+          "value": 55
+        },
+        {
+          "type": "int",
+          "value": 43
+        },
+        {
+          "type": "int",
+          "value": 31
+        },
+        {
+          "type": "bytes",
+          "length": 31,
+          "sha256": "d43b0e1a6db2a28417badb46370a2236428e9759fa8cb8d137ebf343084c0365",
+          "text": "object/ui/common/btn_cancel.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 3
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 297
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 91
+              },
+              {
+                "type": "int",
+                "value": 55
+              },
+              {
+                "type": "int",
+                "value": 43
+              },
+              {
+                "type": "int",
+                "value": 31
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 31,
+            "sha256": "d43b0e1a6db2a28417badb46370a2236428e9759fa8cb8d137ebf343084c0365",
+            "text": "object/ui/common/btn_cancel.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 60,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.wait.children.cancelBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 297,
+      "bytecodeLength": 39,
+      "bytecodeSha256": "66fd495513d2a62f9ac6d2d16a56d8732df49de8ce617f1cacbef741d0f450e5",
+      "bytecodeExecuted": false,
+      "names": [
+        "do",
+        "UI",
+        "children",
+        "login",
+        "wait",
+        "LoginTimeout"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 6,
+          "sha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da",
+          "text": "finish",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 301,
+      "bytecodeLength": 79,
+      "bytecodeSha256": "fa8ef3ae25f8bf26ec0224b498055ec0a5c56f342374c36dbed03ed79510ea8f",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "visible",
+        "rect",
+        "bkimage",
+        "children"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 200000
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 800
+        },
+        {
+          "type": "int",
+          "value": 368
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 600
+        },
+        {
+          "type": "int",
+          "value": 326
+        },
+        {
+          "type": "bytes",
+          "length": 30,
+          "sha256": "6a7f43dd67d8f3c5ac6e6387d0fafff7221fd05aaf5e8cd4d08ece52a30bd1a8",
+          "text": "object/ui/login/dlg_verify.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+          "text": "children",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "children",
+          "firstLine": 306
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": 200000
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "visible",
+          "literalValue": {
+            "type": "int",
+            "value": 0
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 55,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 30,
+            "sha256": "6a7f43dd67d8f3c5ac6e6387d0fafff7221fd05aaf5e8cd4d08ece52a30bd1a8",
+            "text": "object/ui/login/dlg_verify.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 306,
+      "bytecodeLength": 118,
+      "bytecodeSha256": "619c6c2669bb2111222c667fec703faf9cb38d70d36396eb36907da26faffaac",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "TEdit",
+        "verifyEdit",
+        "TStatic",
+        "verifyPic",
+        "TButton",
+        "nextBtn",
+        "confirm",
+        "crossBtn"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 10,
+          "sha256": "9573dc38e1e4fb7d0221c694297ec3e8e3149b8687fba39fd8feb33ddedde88f",
+          "text": "verifyEdit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "verifyEdit",
+          "firstLine": 307
+        },
+        {
+          "type": "bytes",
+          "length": 9,
+          "sha256": "0e6d62b577cc93d43513809fed0e3110a86138696fc6dbd523fd8de8045e14c0",
+          "text": "verifyPic",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "verifyPic",
+          "firstLine": 314
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "bbb03224a414e8dffb4078a186a80df4f7b562c9847e32aa841ffc9ee5e20729",
+          "text": "nextBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "nextBtn",
+          "firstLine": 316
+        },
+        {
+          "type": "bytes",
+          "length": 7,
+          "sha256": "3f267c2ab422e502bad8e60ff9e55666ec59b725e561bf1629c48a1578a08c79",
+          "text": "confirm",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "confirm",
+          "firstLine": 321
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "1efc94d09111c0245664c69f1d8891e8583e466dbb4f34ab653b70ea5629fa3d",
+          "text": "crossBtn",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "crossBtn",
+          "firstLine": 334
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.verifyEdit",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 307,
+      "bytecodeLength": 68,
+      "bytecodeSha256": "56f817e4288d59654c8aaf2245e9e62f1bc601ec3035b8c1ddeabddfcc2b32d3",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "editable",
+        "maxchar",
+        "rect",
+        "captionrect",
+        "darkColor",
+        "drawcolor",
+        "textEdgeType"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 4
+        },
+        {
+          "type": "int",
+          "value": 50
+        },
+        {
+          "type": "int",
+          "value": 120
+        },
+        {
+          "type": "int",
+          "value": 100
+        },
+        {
+          "type": "int",
+          "value": 24
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 6
+        },
+        {
+          "type": "int",
+          "value": 12
+        },
+        {
+          "type": "int",
+          "value": -1
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "editable",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "maxchar",
+          "literalValue": {
+            "type": "int",
+            "value": 4
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 50
+              },
+              {
+                "type": "int",
+                "value": 120
+              },
+              {
+                "type": "int",
+                "value": 100
+              },
+              {
+                "type": "int",
+                "value": 24
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "captionrect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": 100
+              },
+              {
+                "type": "int",
+                "value": 12
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 63,
+          "name": "textEdgeType",
+          "literalValue": {
+            "type": "int",
+            "value": -1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.verifyPic",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 314,
+      "bytecodeLength": 26,
+      "bytecodeSha256": "f242355d4c22ae8ceb8e69f71e7638a09ad6b70f2e4f35e922c5e6c12be2c8e7",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 43
+        },
+        {
+          "type": "int",
+          "value": 154
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 43
+              },
+              {
+                "type": "int",
+                "value": 154
+              },
+              {
+                "type": "int",
+                "value": 1
+              },
+              {
+                "type": "int",
+                "value": 1
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.nextBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 316,
+      "bytecodeLength": 41,
+      "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "bkimage",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 190
+        },
+        {
+          "type": "int",
+          "value": 170
+        },
+        {
+          "type": "int",
+          "value": 129
+        },
+        {
+          "type": "int",
+          "value": 30
+        },
+        {
+          "type": "bytes",
+          "length": 31,
+          "sha256": "27cca10e00937ad3c9aa3295f60e6d6b8f9082ad38076488c2a47275a22f7b7b",
+          "text": "object/ui/login/btn_nextpic.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 319
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 190
+              },
+              {
+                "type": "int",
+                "value": 170
+              },
+              {
+                "type": "int",
+                "value": 129
+              },
+              {
+                "type": "int",
+                "value": 30
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 31,
+            "sha256": "27cca10e00937ad3c9aa3295f60e6d6b8f9082ad38076488c2a47275a22f7b7b",
+            "text": "object/ui/login/btn_nextpic.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.nextBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 319,
+      "bytecodeLength": 11,
+      "bytecodeSha256": "ca13b22a508574360f1069c21d9dafb29c042bb23116665e9a350d954d3c73be",
+      "bytecodeExecuted": false,
+      "names": [
+        "GetVerifyCode"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.confirm",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 321,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "bkimage",
+        "framescheme",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 160
+        },
+        {
+          "type": "int",
+          "value": 280
+        },
+        {
+          "type": "int",
+          "value": 65
+        },
+        {
+          "type": "int",
+          "value": 31
+        },
+        {
+          "type": "bytes",
+          "length": 32,
+          "sha256": "c90c6d9269a9c4f4a54fbaa739024f7e0008a559c880b46c067b868a1991a4b9",
+          "text": "object/ui/common/btn_confirm.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 3
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 325
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 160
+              },
+              {
+                "type": "int",
+                "value": 280
+              },
+              {
+                "type": "int",
+                "value": 65
+              },
+              {
+                "type": "int",
+                "value": 31
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 32,
+            "sha256": "c90c6d9269a9c4f4a54fbaa739024f7e0008a559c880b46c067b868a1991a4b9",
+            "text": "object/ui/common/btn_confirm.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 60,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.confirm.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 325,
+      "bytecodeLength": 105,
+      "bytecodeSha256": "74b1e22f6d05934f7f4f8d9fe80f7554c247c2ca3d73100ac61f9d80263317e3",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_GetText",
+        "verifyCode",
+        "ui_msgBox",
+        "Win_ShowMsgBox",
+        "Win_ShowWidget",
+        "False",
+        "PlaySound",
+        "soundMain",
+        "LoginQQWithVerifyCode"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 29,
+          "sha256": "035a0f2fbe60410264f33f0003f4fadfd3c9c467797165b7e833b1aec633115c",
+          "text": "UI.login.verifyDlg.verifyEdit",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "bytes",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "text": "",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "bytes",
+          "length": 13,
+          "sha256": "4e6b7295ad2d633ad8f8dcb9c2ea5b89fb7de8a7bec93aa70520dfb0d2b1bcee",
+          "text": "请输入验证码!",
+          "textEncodingCandidate": "gb18030"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "071d5b6d1682ea78d37585844198363a2ec471b8d35405726ba954dcc801dd7d",
+          "text": "UI.SysMsgbox",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": -1
+        },
+        {
+          "type": "bytes",
+          "length": 18,
+          "sha256": "72f6aead5bd5e2d451c0c814bec3091e6920aaeda7b38d0fc6d57fe8a341e556",
+          "text": "UI.login.verifyDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.crossBtn",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 334,
+      "bytecodeLength": 74,
+      "bytecodeSha256": "d6c720221845ea69d56d2aecb4f939ee85387182caf9bb1cda1e73c4cf418389",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "bkimage",
+        "framescheme",
+        "OnClick"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 340
+        },
+        {
+          "type": "int",
+          "value": 6
+        },
+        {
+          "type": "int",
+          "value": 22
+        },
+        {
+          "type": "bytes",
+          "length": 30,
+          "sha256": "94a1e8dbfa8ab1b90ad01a46042cfef8b54120dca7c0a432deeef23f8d8b7937",
+          "text": "object/ui/common/btn_cross.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 2
+        },
+        {
+          "type": "int",
+          "value": 3
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "code-reference",
+          "name": "OnClick",
+          "firstLine": 338
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 340
+              },
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": 22
+              },
+              {
+                "type": "int",
+                "value": 22
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 30,
+            "sha256": "94a1e8dbfa8ab1b90ad01a46042cfef8b54120dca7c0a432deeef23f8d8b7937",
+            "text": "object/ui/common/btn_cross.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 60,
+          "name": "framescheme",
+          "literalValue": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.verifyDlg.children.crossBtn.OnClick",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 338,
+      "bytecodeLength": 30,
+      "bytecodeSha256": "c766f5b59b4c2f6c97996f28e2984a15128c0c825d255df31fa1cfc1b59908c1",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_ShowWidget",
+        "False",
+        "PlaySound",
+        "soundMain"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 18,
+          "sha256": "72f6aead5bd5e2d451c0c814bec3091e6920aaeda7b38d0fc6d57fe8a341e556",
+          "text": "UI.login.verifyDlg",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": []
+    },
+    {
+      "scope": "?.UI_children_login.children.resPreLoader",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 341,
+      "bytecodeLength": 35,
+      "bytecodeSha256": "5a72d326094e3c0fbbb6820fd602301cf4947f7488fbbd37ffe63bca479f27a8",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "OnTimer"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "code-reference",
+          "name": "OnTimer",
+          "firstLine": 343
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 1
+              },
+              {
+                "type": "int",
+                "value": 1
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_login.children.resPreLoader.OnTimer",
+      "sourceFilename": "D:\\source\\UI\\uiLogin.py",
+      "firstLine": 343,
+      "bytecodeLength": 42,
+      "bytecodeSha256": "918400a8e62a03ab8f563f4db96447d208a820159126cefd543938493f1e316b",
+      "bytecodeExecuted": false,
+      "names": [
+        "Win_Timer",
+        "isPreLoadRes",
+        "True",
+        "PreLoadRes"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 21,
+          "sha256": "ed65f5939644f8f9f680c465e51665c48d22421ee1d276b32898701abca8afeb",
+          "text": "UI.login.resPreLoader",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 0
+        }
+      ],
+      "literalAssignments": []
+    }
+  ],
+  "runtimeImported": false,
+  "interpretation": "Literal occurrence and code scope only; not executed UI behavior, active-page existence, control-coordinate semantics or visual acceptance."
+}

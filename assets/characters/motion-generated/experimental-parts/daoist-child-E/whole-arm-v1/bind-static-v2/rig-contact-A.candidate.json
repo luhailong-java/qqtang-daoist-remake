@@ -1,0 +1,956 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "identity": "daoist-child",
+  "direction": "E",
+  "contact": "A",
+  "animationSource": "procedural_skeletal_animation",
+  "animationSourceScope": "Required cutout-rig.js renderer/schema classification only. No motion/animation was generated or authored in this file.",
+  "contentMotionKind": "static_painted_parts_assembly",
+  "renderedMotion": false,
+  "designCanvas": [
+    627,
+    627
+  ],
+  "referenceRoot": [
+    313.5,
+    528.8719512195123
+  ],
+  "referenceRootEvidence": {
+    "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/bind-static-v1.proposal.json",
+    "sha256": "d43cce361ae891452b716b8fa18552d950ace1aa29cd91d07af50350ddaa03e3",
+    "field": "referenceRoot",
+    "scope": "Compatibility-only coordinate copied from the earlier own candidate contract. This is not a recovered original-client anchor, measured sole, gameplay position or approved physical ground.",
+    "notNativeOrWorldRoot": true
+  },
+  "worldRoot": null,
+  "nativeTiming": null,
+  "sourceNativeTimingMs": null,
+  "nodes": [
+    {
+      "id": "far_L_whole_gourd",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v1/far_L_whole_gourd.png",
+      "sourceSha256": "861db069dcc33da1ccc8e7f85349bb85f0613ba43c768b0ed87611491e1e56b0",
+      "pivot": [
+        107,
+        100
+      ],
+      "bindPosition": [
+        20.5,
+        -41
+      ],
+      "imageScale": 0.18,
+      "layer": 5,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "anatomicalSide": "LEFT",
+      "holdingIdentity": "LEFT hand fixed to complete own Taiji gourd",
+      "expectedStaticBoneMatrix": [
+        1,
+        0,
+        0,
+        1,
+        334,
+        360
+      ],
+      "expectedStaticImageMatrix": [
+        0.18,
+        0,
+        0,
+        0.18,
+        314.74,
+        342
+      ],
+      "sourceNativeCropSize": [
+        757,
+        594
+      ],
+      "sourceROI": [
+        777,
+        230,
+        1534,
+        824
+      ],
+      "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/whole-arm-v1.png.generation.json",
+      "sourceProposalNodeId": "far_L_whole_gourd",
+      "manualLandmarksApproved": false,
+      "derivation": "With zero rotations: child bone=T(torso position)*T(source absolute position minus torso position). imageScale affects image pixels only, not child bind translations.",
+      "manualCropLocalLandmarks": {
+        "shoulder": [
+          107,
+          100
+        ],
+        "elbow": [
+          150,
+          301
+        ],
+        "wrist": [
+          385,
+          353
+        ],
+        "fingers": [
+          587,
+          364
+        ]
+      },
+      "sourceLandmarkEvidence": "Existing hand-authored candidate landmarks preserved; not recovered native joints/root."
+    },
+    {
+      "id": "far_L_backward",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/far_L_backward.png",
+      "sourceSha256": "98fb3b3dee3da0f3be5e436badb87369c7a2e099e9270c285ce413262cef1988",
+      "pivot": [
+        254,
+        60
+      ],
+      "bindPosition": [
+        5.5,
+        37
+      ],
+      "imageScale": 0.24,
+      "layer": 10,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "anatomicalSide": "LEFT",
+      "holdingIdentity": null,
+      "expectedStaticBoneMatrix": [
+        1,
+        0,
+        0,
+        1,
+        319,
+        438
+      ],
+      "expectedStaticImageMatrix": [
+        0.24,
+        0,
+        0,
+        0.24,
+        258.04,
+        423.6
+      ],
+      "sourceNativeCropSize": [
+        340,
+        453
+      ],
+      "sourceROI": [
+        971,
+        531,
+        1311,
+        984
+      ],
+      "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/whole-leg-v1.png.generation.json",
+      "sourceProposalNodeId": "far_L_backward",
+      "manualLandmarksApproved": false,
+      "derivation": "With zero rotations: child bone=T(torso position)*T(source absolute position minus torso position). imageScale affects image pixels only, not child bind translations.",
+      "manualCropLocalLandmarks": {
+        "hip": [
+          254,
+          60
+        ],
+        "ankle": [
+          77,
+          361
+        ],
+        "toe": [
+          199,
+          419
+        ],
+        "soleCandidate": [
+          119,
+          437
+        ]
+      },
+      "sourceLandmarkEvidence": "Existing hand-authored candidate landmarks preserved; not recovered native joints/root."
+    },
+    {
+      "id": "near_R_forward",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/near_R_forward.png",
+      "sourceSha256": "9adc8ed5310e4dfbfb5e337d3bb4df7b5e4f681a33050bd20ff7f4f9cb5f1666",
+      "pivot": [
+        93,
+        66
+      ],
+      "bindPosition": [
+        -6.5,
+        38
+      ],
+      "imageScale": 0.24,
+      "layer": 20,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "anatomicalSide": "RIGHT",
+      "holdingIdentity": null,
+      "expectedStaticBoneMatrix": [
+        1,
+        0,
+        0,
+        1,
+        307,
+        439
+      ],
+      "expectedStaticImageMatrix": [
+        0.24,
+        0,
+        0,
+        0.24,
+        284.68,
+        423.16
+      ],
+      "sourceNativeCropSize": [
+        449,
+        450
+      ],
+      "sourceROI": [
+        284,
+        27,
+        733,
+        477
+      ],
+      "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/whole-leg-v1.png.generation.json",
+      "sourceProposalNodeId": "near_R_forward",
+      "manualLandmarksApproved": false,
+      "derivation": "With zero rotations: child bone=T(torso position)*T(source absolute position minus torso position). imageScale affects image pixels only, not child bind translations.",
+      "manualCropLocalLandmarks": {
+        "hip": [
+          93,
+          66
+        ],
+        "ankle": [
+          292,
+          351
+        ],
+        "toe": [
+          429,
+          401
+        ],
+        "soleCandidate": [
+          347,
+          439
+        ]
+      },
+      "sourceLandmarkEvidence": "Existing hand-authored candidate landmarks preserved; not recovered native joints/root."
+    },
+    {
+      "id": "head",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/head.png",
+      "sourceSha256": "88430e2313ee893d7b37d3888650cd5b0edfcb24fce45b5373eca8ff4059ac29",
+      "pivot": [
+        280,
+        335
+      ],
+      "bindPosition": [
+        -6.5,
+        -77
+      ],
+      "imageScale": 0.72,
+      "layer": 35,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "anatomicalSide": null,
+      "holdingIdentity": null,
+      "expectedStaticBoneMatrix": [
+        1,
+        0,
+        0,
+        1,
+        307,
+        324
+      ],
+      "expectedStaticImageMatrix": [
+        0.72,
+        0,
+        0,
+        0.72,
+        105.4,
+        82.80000000000001
+      ],
+      "sourceNativeCropSize": [
+        378,
+        363
+      ],
+      "sourceROI": [
+        4,
+        15,
+        382,
+        378
+      ],
+      "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png.generation.json",
+      "sourceProposalNodeId": "head",
+      "manualLandmarksApproved": false,
+      "derivation": "With zero rotations: child bone=T(torso position)*T(source absolute position minus torso position). imageScale affects image pixels only, not child bind translations."
+    },
+    {
+      "id": "torso_pelvis",
+      "parent": null,
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+      "sourceSha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+      "pivot": [
+        184,
+        188
+      ],
+      "bindPosition": [
+        313.5,
+        401
+      ],
+      "imageScale": 0.48,
+      "layer": 40,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "anatomicalSide": null,
+      "holdingIdentity": null,
+      "expectedStaticBoneMatrix": [
+        1,
+        0,
+        0,
+        1,
+        313.5,
+        401
+      ],
+      "expectedStaticImageMatrix": [
+        0.48,
+        0,
+        0,
+        0.48,
+        225.18,
+        310.76
+      ],
+      "sourceNativeCropSize": [
+        310,
+        314
+      ],
+      "sourceROI": [
+        418,
+        64,
+        728,
+        378
+      ],
+      "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png.generation.json",
+      "sourceProposalNodeId": "torso_pelvis",
+      "manualLandmarksApproved": false,
+      "derivation": "With zero rotations: child bone=T(torso position)*T(source absolute position minus torso position). imageScale affects image pixels only, not child bind translations."
+    },
+    {
+      "id": "near_R_whole",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v1/near_R_whole.png",
+      "sourceSha256": "df48a57f4ee9c98044a9c8155c53c987768ba8d0becdc44d812abf8450cddbf2",
+      "pivot": [
+        108,
+        99
+      ],
+      "bindPosition": [
+        -51,
+        -41.5
+      ],
+      "imageScale": 0.18,
+      "layer": 70,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "anatomicalSide": "RIGHT",
+      "holdingIdentity": "empty RIGHT fist",
+      "expectedStaticBoneMatrix": [
+        1,
+        0,
+        0,
+        1,
+        262.5,
+        359.5
+      ],
+      "expectedStaticImageMatrix": [
+        0.18,
+        0,
+        0,
+        0.18,
+        243.06,
+        341.68
+      ],
+      "sourceNativeCropSize": [
+        676,
+        557
+      ],
+      "sourceROI": [
+        57,
+        230,
+        733,
+        787
+      ],
+      "sourceGenerationRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/whole-arm-v1.png.generation.json",
+      "sourceProposalNodeId": "near_R_whole",
+      "manualLandmarksApproved": false,
+      "derivation": "With zero rotations: child bone=T(torso position)*T(source absolute position minus torso position). imageScale affects image pixels only, not child bind translations.",
+      "manualCropLocalLandmarks": {
+        "shoulder": [
+          108,
+          99
+        ],
+        "elbow": [
+          173,
+          320
+        ],
+        "wrist": [
+          478,
+          420
+        ],
+        "fingers": [
+          585,
+          433
+        ]
+      },
+      "sourceLandmarkEvidence": "Existing hand-authored candidate landmarks preserved; not recovered native joints/root."
+    },
+    {
+      "id": "near_shoulder_ring",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/torso-shoulder-ring-native.png",
+      "sourceSha256": "33323dd70fac4a10d58aa9f1c0c0673b295639a904ca44bf5a522b3c66df999d",
+      "pivot": [
+        162,
+        153
+      ],
+      "bindPosition": [
+        0,
+        0
+      ],
+      "imageScale": 0.48,
+      "layer": 80,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "anatomicalSide": "RIGHT",
+      "expectedStaticBoneMatrix": [
+        1,
+        0,
+        0,
+        1,
+        313.5,
+        401
+      ],
+      "expectedStaticImageMatrix": [
+        0.48,
+        0,
+        0,
+        0.48,
+        235.74,
+        327.56
+      ],
+      "sourceNativeCropSize": [
+        108,
+        139
+      ],
+      "sourceROI": [
+        22,
+        35,
+        130,
+        174
+      ],
+      "sourceTorso": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+      "sourceTorsoSha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+      "sourceRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/torso-shoulder-ring-native.png.source.json",
+      "sourceOwnershipRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/shoulder-ring-ownership.json",
+      "sourceOwnership": {
+        "outerPolygonSource": [
+          [
+            79,
+            43
+          ],
+          [
+            93,
+            46
+          ],
+          [
+            106,
+            57
+          ],
+          [
+            116,
+            74
+          ],
+          [
+            121,
+            94
+          ],
+          [
+            121,
+            113
+          ],
+          [
+            115,
+            132
+          ],
+          [
+            105,
+            148
+          ],
+          [
+            92,
+            160
+          ],
+          [
+            76,
+            166
+          ],
+          [
+            62,
+            158
+          ],
+          [
+            49,
+            150
+          ],
+          [
+            39,
+            136
+          ],
+          [
+            32,
+            116
+          ],
+          [
+            30,
+            96
+          ],
+          [
+            33,
+            77
+          ],
+          [
+            42,
+            62
+          ],
+          [
+            56,
+            49
+          ],
+          [
+            68,
+            44
+          ]
+        ],
+        "excludedInnerHoleSource": [
+          [
+            69,
+            55
+          ],
+          [
+            80,
+            56
+          ],
+          [
+            91,
+            63
+          ],
+          [
+            100,
+            75
+          ],
+          [
+            107,
+            91
+          ],
+          [
+            110,
+            108
+          ],
+          [
+            108,
+            125
+          ],
+          [
+            101,
+            140
+          ],
+          [
+            91,
+            151
+          ],
+          [
+            79,
+            158
+          ],
+          [
+            69,
+            159
+          ],
+          [
+            60,
+            151
+          ],
+          [
+            55,
+            140
+          ],
+          [
+            51,
+            129
+          ],
+          [
+            47,
+            115
+          ],
+          [
+            46,
+            100
+          ],
+          [
+            46,
+            85
+          ],
+          [
+            51,
+            71
+          ],
+          [
+            59,
+            61
+          ]
+        ],
+        "operation": "Existing same-source ring-only PNG, white sleeve and lower cloth already excluded by manual ownership cut; ordinary renderer node, no runtime mask feature required."
+      },
+      "contentRole": "same_source_torso_shoulder_occlusion",
+      "derivation": "Shares torso bone. Crop pivot=torso pivot minus sourceROI origin, so image matrix is exactly the torso matrix shifted by scale*ROI origin. Pivot may lie outside this cropped image; schema only requires a finite pair.",
+      "manualLandmarksApproved": false
+    }
+  ],
+  "actions": {
+    "static": {
+      "loop": false,
+      "tracks": {},
+      "contentMotionKind": "static_painted_parts_assembly"
+    }
+  },
+  "defaultAction": "static",
+  "landmarks": {
+    "far_L_whole_gourd_shoulder": {
+      "node": "far_L_whole_gourd",
+      "space": "image",
+      "point": [
+        107,
+        100
+      ],
+      "approved": false
+    },
+    "far_L_whole_gourd_elbow": {
+      "node": "far_L_whole_gourd",
+      "space": "image",
+      "point": [
+        150,
+        301
+      ],
+      "approved": false
+    },
+    "far_L_whole_gourd_wrist": {
+      "node": "far_L_whole_gourd",
+      "space": "image",
+      "point": [
+        385,
+        353
+      ],
+      "approved": false
+    },
+    "far_L_whole_gourd_fingers": {
+      "node": "far_L_whole_gourd",
+      "space": "image",
+      "point": [
+        587,
+        364
+      ],
+      "approved": false
+    },
+    "far_L_backward_hip": {
+      "node": "far_L_backward",
+      "space": "image",
+      "point": [
+        254,
+        60
+      ],
+      "approved": false
+    },
+    "far_L_backward_ankle": {
+      "node": "far_L_backward",
+      "space": "image",
+      "point": [
+        77,
+        361
+      ],
+      "approved": false
+    },
+    "far_L_backward_toe": {
+      "node": "far_L_backward",
+      "space": "image",
+      "point": [
+        199,
+        419
+      ],
+      "approved": false
+    },
+    "far_L_backward_soleCandidate": {
+      "node": "far_L_backward",
+      "space": "image",
+      "point": [
+        119,
+        437
+      ],
+      "approved": false
+    },
+    "near_R_forward_hip": {
+      "node": "near_R_forward",
+      "space": "image",
+      "point": [
+        93,
+        66
+      ],
+      "approved": false
+    },
+    "near_R_forward_ankle": {
+      "node": "near_R_forward",
+      "space": "image",
+      "point": [
+        292,
+        351
+      ],
+      "approved": false
+    },
+    "near_R_forward_toe": {
+      "node": "near_R_forward",
+      "space": "image",
+      "point": [
+        429,
+        401
+      ],
+      "approved": false
+    },
+    "near_R_forward_soleCandidate": {
+      "node": "near_R_forward",
+      "space": "image",
+      "point": [
+        347,
+        439
+      ],
+      "approved": false
+    },
+    "near_R_whole_shoulder": {
+      "node": "near_R_whole",
+      "space": "image",
+      "point": [
+        108,
+        99
+      ],
+      "approved": false
+    },
+    "near_R_whole_elbow": {
+      "node": "near_R_whole",
+      "space": "image",
+      "point": [
+        173,
+        320
+      ],
+      "approved": false
+    },
+    "near_R_whole_wrist": {
+      "node": "near_R_whole",
+      "space": "image",
+      "point": [
+        478,
+        420
+      ],
+      "approved": false
+    },
+    "near_R_whole_fingers": {
+      "node": "near_R_whole",
+      "space": "image",
+      "point": [
+        585,
+        433
+      ],
+      "approved": false
+    }
+  },
+  "landmarksApproved": false,
+  "sourceProposal": {
+    "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/proposal.json",
+    "sha256": "aef7131e30f79b4d13850d71d7852db26862b767a530d3c3b00d12b0da383149",
+    "contact": "A"
+  },
+  "sourceRenderedReference": {
+    "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/contact-A-rgba.png",
+    "sha256": "d3d760a2b731a972ac3eb1a6dce4d7ae55d7eb65c510b54881ff550759bd4dba",
+    "record": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/contact-A-rgba.png.source.json"
+  },
+  "sourceModule": {
+    "file": "src/cutout-rig.js",
+    "sha256": "d55eeb9c9aab685b8db1754ceda07caf68130efb334ed18bc1653bee85483b9e",
+    "readAsTextOnly": true,
+    "moduleImportedOrExecuted": false
+  },
+  "expectedStaticMatrixScope": "Design-plane image matrices before caller/root/size wrapper; copied exactly from the already rendered v2 proposal. No renderer execution during this data delivery.",
+  "futureDesignPlaneComparisonSetup": {
+    "root": [
+      313.5,
+      528.8719512195123
+    ],
+    "size": 627,
+    "action": "static",
+    "pose": {},
+    "scope": "To cancel drawCutoutRig caller placement for a future independent comparison only; not an actual call or new gameplay root."
+  },
+  "serializationAlgebraOnly": [
+    {
+      "node": "far_L_whole_gourd",
+      "derivedOnlyByTranslationScaleAlgebra": [
+        0.18,
+        0,
+        0,
+        0.18,
+        314.74,
+        342
+      ],
+      "expectedFromRenderedProposal": [
+        0.18,
+        0,
+        0,
+        0.18,
+        314.74,
+        342
+      ],
+      "maxAbsoluteDoubleRoundoff": 0
+    },
+    {
+      "node": "far_L_backward",
+      "derivedOnlyByTranslationScaleAlgebra": [
+        0.24,
+        0,
+        0,
+        0.24,
+        258.04,
+        423.6
+      ],
+      "expectedFromRenderedProposal": [
+        0.24,
+        0,
+        0,
+        0.24,
+        258.04,
+        423.6
+      ],
+      "maxAbsoluteDoubleRoundoff": 0
+    },
+    {
+      "node": "near_R_forward",
+      "derivedOnlyByTranslationScaleAlgebra": [
+        0.24,
+        0,
+        0,
+        0.24,
+        284.68,
+        423.16
+      ],
+      "expectedFromRenderedProposal": [
+        0.24,
+        0,
+        0,
+        0.24,
+        284.68,
+        423.16
+      ],
+      "maxAbsoluteDoubleRoundoff": 0
+    },
+    {
+      "node": "head",
+      "derivedOnlyByTranslationScaleAlgebra": [
+        0.72,
+        0,
+        0,
+        0.72,
+        105.4,
+        82.80000000000001
+      ],
+      "expectedFromRenderedProposal": [
+        0.72,
+        0,
+        0,
+        0.72,
+        105.4,
+        82.80000000000001
+      ],
+      "maxAbsoluteDoubleRoundoff": 0
+    },
+    {
+      "node": "torso_pelvis",
+      "derivedOnlyByTranslationScaleAlgebra": [
+        0.48,
+        0,
+        0,
+        0.48,
+        225.18,
+        310.76
+      ],
+      "expectedFromRenderedProposal": [
+        0.48,
+        0,
+        0,
+        0.48,
+        225.18,
+        310.76
+      ],
+      "maxAbsoluteDoubleRoundoff": 0
+    },
+    {
+      "node": "near_R_whole",
+      "derivedOnlyByTranslationScaleAlgebra": [
+        0.18,
+        0,
+        0,
+        0.18,
+        243.06,
+        341.68
+      ],
+      "expectedFromRenderedProposal": [
+        0.18,
+        0,
+        0,
+        0.18,
+        243.06,
+        341.68
+      ],
+      "maxAbsoluteDoubleRoundoff": 0
+    },
+    {
+      "node": "near_shoulder_ring",
+      "derivedOnlyByTranslationScaleAlgebra": [
+        0.48,
+        0,
+        0,
+        0.48,
+        235.74,
+        327.56
+      ],
+      "expectedFromRenderedProposal": [
+        0.48,
+        0,
+        0,
+        0.48,
+        235.74,
+        327.56
+      ],
+      "maxAbsoluteDoubleRoundoff": 0
+    }
+  ],
+  "futureComparisonSuggestedTolerance": 1e-10,
+  "schemaRepresentation": {
+    "ordinaryPaintedNodes": true,
+    "emptyTrackStaticAction": true,
+    "ringAsOrdinaryPng": true,
+    "requiresModuleChange": false,
+    "method": "Read actual cutout-rig.js schema and transform code; no validateCutoutRig/sample/draw/import/test/image decode invoked."
+  },
+  "runtimeEnabled": false,
+  "runtimeAdopted": false,
+  "staticAccepted": false,
+  "fullAnimationAccepted": false,
+  "clientApproved": false,
+  "candidateStatus": "data_prepared_for_future_independent_acceptance"
+}

@@ -1,0 +1,73 @@
+{
+  "itemId": 28045,
+  "category": "petcard",
+  "sourceName": "饲养快女",
+  "sourceDescription": "让你成就明星梦，把时尚流转Q堂。具有天赋：糖币之光12%，勇气闪耀6%，亲密闪耀6%。",
+  "file": "assets/items/petcards/icons/28045-yuexianshi-musician-card.png",
+  "sha256": "0367016caa4fe64aae68f9540d3187cfa91d5dfc3d386ef2c8c321723efbaaa1",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-h-v1.png",
+    "sha256": "cc8546183c8e2eed0baaefd983c194911db957f52ebdd62d5bf76d938f58c922",
+    "generationRecord": "assets/items/petcards/petcards-h-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      520
+    ],
+    "contentBoxWithinCell": [
+      15,
+      25,
+      476,
+      506
+    ],
+    "sourceContentRect": [
+      1039,
+      25,
+      1500,
+      506
+    ],
+    "uniformScale": 0.4656964656964657,
+    "placementPx": [
+      20,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28045.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "1acb5a16f336cfafaebfb69ae8140979e5e87af37d8c2540f917bb3b7b8d7c7e",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28045.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "月弦师",
+  "projectIdentity": "月弦师",
+  "identityReference": "assets/items/petcards/references/canon/12-yuexianshi.png",
+  "appearanceChoice": "explicit new-project appearance, no original Tencent face or MMO attributes",
+  "identityReferenceSha256": "7c38719b59aa452a7a4cfb99cd2776cde2b1f6d557c6af047b5fc2e1cb11ba16",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

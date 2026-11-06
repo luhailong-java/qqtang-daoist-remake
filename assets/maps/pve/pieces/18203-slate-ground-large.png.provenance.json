@@ -1,0 +1,51 @@
+{
+  "elementId": 18203,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/pve/pieces/18203-slate-ground-large.png",
+  "sha256": "7ff68f69de7bae0bc2b2163c895ecb54b313562deb16dba593e029f47af24a4e",
+  "width": 320,
+  "height": 320,
+  "worldFrameWidth": 80,
+  "worldFrameHeight": 80,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    2,
+    2
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/pve/ground-a-v1.png",
+    "sha256": "0a251a6e2fccb46dca6fc271407d9ce21c7f20f63f44cdf8b27340dffd8e603f",
+    "generationRecord": "assets/maps/pve/ground-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-opaque-square-texture-uniform-resize",
+    "sourceRectLTRB": [
+      1080,
+      95,
+      1440,
+      455
+    ],
+    "uniformScale": 0.8888888888888888,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied",
+    "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used"
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.0,
+  "geometryAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": []
+}

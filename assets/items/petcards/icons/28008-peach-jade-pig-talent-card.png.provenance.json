@@ -1,0 +1,71 @@
+{
+  "itemId": 28008,
+  "category": "petcard",
+  "sourceName": "布鲁斯",
+  "sourceDescription": "具有天赋：积分之光5%，勇气之光5%。",
+  "file": "assets/items/petcards/icons/28008-peach-jade-pig-talent-card.png",
+  "sha256": "bffb3c01a11fedf2fd9dd57b4d83745731cd775cf982e8bffa615fe061054ff1",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-b-v1.png",
+    "sha256": "f7198ba02dc0480c865b234b71a222de77e7efe10f861f5ed0c0f5142b763113",
+    "generationRecord": "assets/items/petcards/petcards-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "contentBoxWithinCell": [
+      58,
+      79,
+      455,
+      477
+    ],
+    "sourceContentRect": [
+      570,
+      79,
+      967,
+      477
+    ],
+    "uniformScale": 0.5628140703517588,
+    "placementPx": [
+      16,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28008.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "50087ca684f28662534d414e65fba8ed1d5f329a103408f2dca0bb0b2e77945a",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28008.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "灵巧桃玉豚",
+  "projectIdentity": "桃玉豚",
+  "appearanceChoice": "new original Daoist chibi jade-pink pig, distinct from source Tencent pig; no matching existing canon species",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

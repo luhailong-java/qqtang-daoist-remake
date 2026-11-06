@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/lotus-healer/idle-four-directions-v1.png",
+  "sha256": "d15237809c90bae5cd13646d4589f4370ef8567b38b6d6d4e8d61f3876096bf2",
+  "generatedAt": "2026-10-28T13:20:11.862Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/runtime/lotus-healer.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/lotus-healer/idle-four-directions-v1.prompt.txt",
+  "promptSha256": "36d152ab93b33fd4d08a14c5788208b098786a16b042defabe7675131486e98c",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/lotus-healer.png",
+      "role": "exact original identity master",
+      "sha256": "c0e95de54ab740d2bd33990bfd28a3e547f6d2b060598188b7c9d95118dcf771"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-2e042a57-d75f-416e-8384-a8a27ff18560.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": null,
+  "review": {
+    "type": "four directional idle stills orderN/E/S/W",
+    "identity": "own lotus healer with right lantern, left bottle and left lotus hair ornament retained; rear clothes avoid front face/charm",
+    "pose": "both slippers planted, original hand props and flowing robes",
+    "pending": [
+      "lantern/sleeves cross nominal512px boundaries; safe ownership segmentation required",
+      "alpha/source-edge checks",
+      "shared256canvas/root export and client scale/camera review"
+    ],
+    "runtimeEnabled": false
+  },
+  "status": "source_pending_alpha_anchor_and_runtime_review",
+  "clientApproved": false,
+  "userAccepted": false
+}

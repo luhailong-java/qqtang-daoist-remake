@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/head-adornments/world/world-1354-d-v1.png",
+  "sha256": "50ebf5741331a49191ade357b57a8a0e83346687c1d8ea7a8d06dacc14fa98ed",
+  "generatedAt": "2026-10-29T04:10:32.199Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world/1354/source-phases-c.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/world/world-1354-c-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets\\items\\head-adornments\\prompts\\world-1354-d.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world/1354/source-phases-c.png",
+      "purpose": "actual decoded source world-frame action board; exact per-frame structure and phase, not runtime source pixels",
+      "sha256": "e0c10921c84696e4fb91aa14953ca72675e038a6b974bb72da69855c02cd3155"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/world/world-1354-c-v1.png",
+      "purpose": "actual AI edit target; correct world silhouette while preserving useful own design",
+      "sha256": "8884a55d64b7148f574a34b00e795fa7adbd63cf2c23e39df68029120807de03"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-7d55e7ec-0824-4fb4-952a-f9c6caa56b12.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in AI image edit conditioned on the actual target reference; no program pixel editing",
+  "nativeDimensions": true,
+  "editOf": {
+    "file": "assets/items/head-adornments/world/world-1354-c-v1.png",
+    "sha256": "8884a55d64b7148f574a34b00e795fa7adbd63cf2c23e39df68029120807de03",
+    "generationRecord": "assets/items/head-adornments/world/world-1354-c-v1.png.generation.json"
+  },
+  "annotationNote": "Edit relationship clarified from the actual submitted target reference and prompt; original model, quality, timestamp and submission fields unchanged."
+}

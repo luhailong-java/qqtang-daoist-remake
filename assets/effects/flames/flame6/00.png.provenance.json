@@ -1,0 +1,68 @@
+{
+  "frameIndex": 0,
+  "empty": false,
+  "file": "assets/effects/flames/flame6/00.png",
+  "sha256": "1d84e076890df78e2184c886658d1b39277288e7ded27cb48976fef1cfce1e11",
+  "width": 160,
+  "height": 160,
+  "exportDensity": 4,
+  "sourceFrame": {
+    "index": 0,
+    "offset": 40,
+    "rawMarker": 0,
+    "frameOffset": [
+      0,
+      0
+    ],
+    "pixelMode": 3,
+    "width": 40,
+    "height": 40,
+    "unknownImageHeaderWord": 80,
+    "empty": false,
+    "pixelDataOffset": 68,
+    "pixelByteLength": 4800,
+    "encodedPixelSha256": "261f5f898a9a1d827cb19a6af416a2c9667a5529cd4be6b35478d15c308526f7",
+    "decodedRgbaSha256": "9ee2712033de976e4dc1b5dbcc903a4254c04e3c87d04d84162654247b289b9c"
+  },
+  "derivedFrom": {
+    "file": "assets/effects/flame-pairs-c-v1.png",
+    "sha256": "39d046f6c22ccf1c1d15887cdb777d22a04fe7184753ef2fc507026aed9a6dd7",
+    "generationRecord": "assets/effects/flame-pairs-c-v1.png.generation.json"
+  },
+  "geometryMaskSource": {
+    "file": "references/qqtang-packed-art/object--flame--flame6_stand-first-visible.png",
+    "sha256": "d64d9ab055e238f0253dcda8afe6fab7e49b0092577569fe8d07e0d4345eac2f",
+    "sourceRecord": "references/qqtang-packed-art/object--flame--flame6_stand-first-visible.png.source.json",
+    "use": "original alpha only; no original RGB in final"
+  },
+  "operation": {
+    "type": "generated-material-interior-RGB-resample-plus-original-frame-alpha",
+    "materialRect": [
+      585,
+      560,
+      945,
+      920
+    ],
+    "materialAlphaBeforeReplacement": [
+      252,
+      253
+    ],
+    "rgbResampler": "LANCZOS",
+    "alphaResampler": "NEAREST 4x",
+    "outputAlpha": "original frame alpha, not generated-material alpha",
+    "newModelGeneration": false
+  },
+  "materialReuse": true,
+  "materialReuseReason": "shared original-painted gold-sugar-flame material; every resource retains its own original alpha, native dimensions, raw offsets, repeats and empties; not a visual-group alias or new generation",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "limitations": [
+    "texture edges and neighboring-cell seams unverified",
+    "original low-resolution alpha enlarged; not native HD contour",
+    "actual client layer, timing, blend mode and end-state not yet verified"
+  ]
+}

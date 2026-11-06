@@ -1,0 +1,81 @@
+{
+  "elementId": 2005,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/snow/pieces/2005-snow-v1.png",
+  "sha256": "a6c5ec4a9c02f6be1263e996327c123de7a23e83336dada3855df40f844d0868",
+  "width": 176,
+  "height": 260,
+  "worldFrameWidth": 44,
+  "worldFrameHeight": 65,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    0
+  ],
+  "mapElemOffsetRaw": [
+    4,
+    25
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/snow/frames/candidate-2005-f391fecfd549.png",
+    "sha256": "186849fa6f7983dc91f09dbc0478d8c1767c2efff10291672a17a52f5c3fb752",
+    "representativeElementId": 2005,
+    "nativeFrameSize": [
+      44,
+      65
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": {
+    "file": "assets/maps/snow/batch-03/sheet-v1.png",
+    "sha256": "3080de69f440b31d43bd0c4cffa052670c4d1b3c46cadbba8675fa9c26318e18",
+    "generationRecord": "assets/maps/snow/batch-03/sheet-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      102,
+      83,
+      423,
+      483
+    ],
+    "cropSelection": "alpha>=8 bounds plus four sheet-pixel margin, verified against visible object; alpha values inside crop unchanged",
+    "uniformScale": 0.5482866043613707,
+    "placementPx": [
+      0,
+      41
+    ],
+    "resampled": true,
+    "resampler": "LANCZOS",
+    "newModelGeneration": false,
+    "sourceAlphaPositivePixels": 99565,
+    "croppedAlphaPositivePixels": 99319,
+    "droppedAlphaPositivePixels": 246,
+    "droppedAlphaPositiveFraction": 0.002470747752724351,
+    "alphaAtLeast8DroppedPixels": 0,
+    "extractionRegionLTRB": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "nominalGridFollowed": true
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null
+}

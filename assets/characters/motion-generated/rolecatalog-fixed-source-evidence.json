@@ -1,0 +1,21 @@
+{
+  "retrievedAt": "2026-10-28T17:37:45.792Z",
+  "repository": "kuuhaku1314/qqtang",
+  "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+  "tool": "GitHub.fetch_file",
+  "executed": false,
+  "combat": {
+    "content": "package rolecatalog\n\n// CombatProfile is the immutable six-value row used by the final client's\n// native character-state constructor. The values are current/maximum pairs\n// for simultaneous bubbles, bubble power and movement-rate respectively.\n//\n// The source table is Client.exe DAT_007f2680. FUN_005aa74e indexes it directly\n// by RoleID and decodes every DWORD with XOR key 0x1234 before storing the\n// values in the live character state.\ntype CombatProfile struct {\n\tBombCapacity    byte\n\tMaxBombCapacity byte\n\tBombPower       byte\n\tMaxBombPower    byte\n\tSpeedRate       byte\n\tMaxSpeedRate    byte\n}\n\n// playableCombatProfiles contains only complete player models accepted by the\n// restored role rules. RoleID 12 is an incomplete component model, RoleID 17\n// has no usable bubble profile, and RoleID 23 is the random-selection\n// placeholder; none of them may become an in-battle actor.\nvar playableCombatProfiles = map[uint16]CombatProfile{\n\t1:  {2, 6, 2, 8, 4, 7},\n\t2:  {2, 6, 3, 9, 4, 6},\n\t3:  {1, 5, 2, 9, 5, 7},\n\t4:  {1, 7, 3, 9, 4, 7},\n\t5:  {2, 7, 3, 8, 3, 7},\n\t6:  {1, 6, 2, 7, 5, 8},\n\t7:  {1, 8, 3, 9, 3, 8},\n\t8:  {1, 7, 2, 6, 5, 8},\n\t9:  {2, 6, 3, 7, 5, 8},\n\t10: {3, 8, 4, 9, 5, 8},\n\t11: {3, 8, 4, 9, 5, 8},\n\t13: {2, 8, 3, 7, 4, 6},\n\t14: {1, 7, 2, 6, 5, 8},\n\t15: {2, 7, 3, 9, 4, 8},\n\t16: {1, 8, 3, 9, 4, 8},\n\t18: {1, 6, 1, 6, 5, 8},\n\t19: {2, 8, 1, 6, 4, 7},\n\t20: {2, 6, 1, 5, 4, 6},\n\t21: {2, 8, 1, 5, 3, 6},\n\t22: {2, 6, 3, 7, 5, 8},\n}\n\n// PlayableCombatProfile returns a native profile only for a complete player\n// model that the server is allowed to resolve into a running match.\nfunc PlayableCombatProfile(roleID uint16) (CombatProfile, bool) {\n\tprofile, ok := playableCombatProfiles[roleID]\n\treturn profile, ok\n}\n",
+    "encoding": "utf-8",
+    "sha": "766a1fc16538714b400f526c3f5094d375b93113",
+    "display_url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/rolecatalog/combat.go",
+    "display_title": "combat.go"
+  },
+  "known": {
+    "content": "package rolecatalog\n\n// Named full-model RoleIDs verified against the original QQTang 5.2\n// object/player/player<ID>.ini resources and decoded stand frames. These are\n// entity model identities, not itemCFG canonical item IDs.\nconst (\n\tRoleThiefGriffin     uint16 = 24 // cloth12401\n\tRoleBoxPurpleMonster uint16 = 25 // cloth12501\n\tRoleBoxRedMonster    uint16 = 26 // cloth12601\n\tRoleBoxBlueMonster   uint16 = 27 // cloth12701\n\tRoleChristmasGriffin uint16 = 28 // cloth12801\n\tRoleSmallNianBeast   uint16 = 29 // cloth12901\n\tRoleGhostGriffin     uint16 = 30 // cloth13001\n\tRoleLargeNianBeast   uint16 = 31 // cloth13101\n\tRoleWaterSailor      uint16 = 32 // cloth13201\n\tRoleFirstMate        uint16 = 33 // cloth13301\n\tRoleCaptainHook      uint16 = 34 // cloth13401\n\tRoleCristiano        uint16 = 35 // cloth13501; client item text: 小小罗\n\tRoleRooney           uint16 = 36 // cloth13601\n)\n",
+    "encoding": "utf-8",
+    "sha": "e8457eb2bcf780f2ee8a4fec8de4be11bfa8ef49",
+    "display_url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/rolecatalog/known.go",
+    "display_title": "known.go"
+  }
+}

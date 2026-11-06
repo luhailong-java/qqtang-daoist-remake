@@ -1,0 +1,109 @@
+{
+  "elementId": 19043,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/tank/pieces/19043-open-top-wooden-box.png",
+  "sha256": "71b870edb55e64d5809f277e60861a473c2a617a54dc74df0d327849273eef89",
+  "width": 168,
+  "height": 212,
+  "worldFrameWidth": 42,
+  "worldFrameHeight": 53,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    1,
+    12
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/tank/binary/props-c-v1.png",
+    "sha256": "5b45785a92f2bff71ba4ba191b9ead02395d00b0f2b832849036ed8ce09f032c",
+    "generationRecord": "assets/maps/tank/binary/props-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      600,
+      43,
+      939,
+      482
+    ],
+    "uniformScale": 0.48291571753986334,
+    "placementPx": [
+      2,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.02554506996420436,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "internal-silhouette-and-original-map-render-unverified"
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 19043,
+      "recordOffset": 1464,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        1,
+        12
+      ],
+      "lifeTimeRaw": 1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        0
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "accepted": false,
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-19043.png",
+    "sha256": "7f13d09dac93212247a45ea050825dfac901f1f9c4ae2646caf5463c205172d1"
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffsetRaw": [
+    1,
+    12
+  ],
+  "sourceFrameOffsetRaw": [
+    2,
+    3
+  ],
+  "canHide": null,
+  "canDoSpecial": null,
+  "qa": {
+    "sourceVisibleAspect": 0.7924528301886793,
+    "generatedVisibleAspect": 0.771689497716895,
+    "relativeAspectDeviation": 0.02620134811915642,
+    "warnings": [
+      "source-image-id-and-client-anchor-unverified",
+      "internal-silhouette-and-original-map-render-unverified"
+    ]
+  }
+}

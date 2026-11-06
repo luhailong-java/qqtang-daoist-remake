@@ -1,0 +1,164 @@
+{
+  "itemId": 54,
+  "category": "thadorn",
+  "sourceName": "足球杯",
+  "sourceDescription": "世界足球奖杯。可以装饰自己游戏的角色。",
+  "file": "assets/items/head-adornments/icons/54-jade-football-trophy.png",
+  "sha256": "e7845cabc070f5ccd74d4c1cf021d20c096babce04fc8036433d65e639349fc5",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-a-v1.png",
+    "sha256": "c38e9d089657a695a4f301fa798795340b2f03e5676fa5e536de661575570155",
+    "generationRecord": "assets/items/head-adornments/head-adornments-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      512,
+      487,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      28,
+      37,
+      485,
+      403
+    ],
+    "sourceContentRect": [
+      28,
+      549,
+      485,
+      915
+    ],
+    "uniformScale": 0.49015317286652077,
+    "placementPx": [
+      16,
+      38
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-54-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "9671c4266045455e9437d681352f19e5239d812f4791d4f197284610883ad623",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-54-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    33,
+    37
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    11,
+    10
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn19_stand.img",
+      "sourceSha256": "e7d3cba192feb54c59f11d08b13fbe0c091898c485456708e80a149d49a91682",
+      "byteLength": 8864,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 4,
+      "directions": 1,
+      "unknownHeaderWords24And28": [
+        33,
+        6
+      ],
+      "declaredCanvas": [
+        33,
+        26
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          33,
+          2
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          33,
+          22
+        ],
+        "unknownImageHeaderWord": 72
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn19_walk.img",
+      "sourceSha256": "e7d3cba192feb54c59f11d08b13fbe0c091898c485456708e80a149d49a91682",
+      "byteLength": 8864,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 4,
+      "directions": 1,
+      "unknownHeaderWords24And28": [
+        33,
+        6
+      ],
+      "declaredCanvas": [
+        33,
+        26
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          33,
+          2
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          33,
+          22
+        ],
+        "unknownImageHeaderWord": 72
+      }
+    }
+  ],
+  "worldStaticMasterProduced": true,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "云玉蹴鞠杯",
+  "appearanceChoice": "original Daoist Q inventory artwork, source role retained; no world wearable animation claim",
+  "worldFrameCandidatesProduced": 4,
+  "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
+  "worldStatus": "declared frame candidates present; timing, geometry and runtime not accepted"
+}

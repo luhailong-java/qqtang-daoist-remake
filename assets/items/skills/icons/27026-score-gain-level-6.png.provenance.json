@@ -1,0 +1,65 @@
+{
+  "itemId": 27026,
+  "category": "skill",
+  "sourceName": "积分加加6级",
+  "sourceDescription": "宠物六级技能之一，增加所获得的积分3%，同类型技能效果叠加，学习此技能以后不能学习其他六级技能。",
+  "file": "assets/items/skills/icons/27026-score-gain-level-6.png",
+  "sha256": "3cb2758885b01120ff5fe5499a24b906b1ed4124e29860a90070c7ee37059f62",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-e-v1.png",
+    "sha256": "efad3cacb08b5da5a11d5ff55ca0be4810f7602d8e058d9c093ade40b7f6edd7",
+    "generationRecord": "assets/items/skills/skills-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "contentBoxWithinCell": [
+      77,
+      60,
+      450,
+      488
+    ],
+    "sourceContentRect": [
+      589,
+      60,
+      962,
+      488
+    ],
+    "uniformScale": 0.5233644859813084,
+    "placementPx": [
+      30,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27026.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "22554df3ac9a29b52d67be399046064cf8cd8af9e9ae997c4a8c732817f42c5c",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27026.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

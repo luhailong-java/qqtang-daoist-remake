@@ -1,0 +1,80 @@
+{
+  "itemId": 1368,
+  "sourceFrameIndex": 1,
+  "sourcePhaseIndex": 1,
+  "directionIndex": null,
+  "directionSemantic": null,
+  "file": "assets/items/head-adornments/world/1368/frame-001-1368-a-v1.png",
+  "sha256": "c5eeca712908d7473fbaedaf5819730356de03890e0bb4b6ae5af120cf155c0f",
+  "width": 148,
+  "height": 160,
+  "logicalFrameSize": [
+    37,
+    40
+  ],
+  "exportDensity": 4,
+  "frameOffsetRaw": [
+    31,
+    1
+  ],
+  "frameOffsetPxAtDensity4": [
+    124,
+    4
+  ],
+  "sourceReference": {
+    "file": "assets/items/head-adornments/references/world/1368/frame-001.png",
+    "sha256": "cd3d9625d2325afa38afcd9f150f4caee6bf136b743887dd9c707673b1415511",
+    "record": "assets/items/head-adornments/references/world/1368/frame-001.png.source.json"
+  },
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/world/world-1368-a-v1.png",
+    "sha256": "660fdff9446e67800b331ae6d75c0e673730e79d73656d596edd599077de6a10",
+    "generationRecord": "assets/items/head-adornments/world/world-1368-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-original-world-alpha-envelope",
+    "newModelGeneration": false,
+    "sourceCellRectLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "generatedContentBBoxAt16": [
+      17,
+      43,
+      492,
+      491
+    ],
+    "sourceLogicalAlphaBBoxAt16": [
+      0,
+      0,
+      37,
+      40
+    ],
+    "uniformScale": 0.31157894736842107,
+    "placementPx": [
+      0,
+      20
+    ],
+    "resampler": "premultiplied-alpha LANCZOS",
+    "registration": "source alpha envelope centred X and bottom aligned Y; raw frame offset untouched"
+  },
+  "frameDurationMs": null,
+  "loop": null,
+  "geometryAccepted": false,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false,
+  "qa": {
+    "sourceVisibleAspect": 0.925,
+    "generatedVisibleAspect": 1.0602678571428572,
+    "relativeAspectDeviation": 0.1462355212355213
+  },
+  "warnings": [
+    "native head-layer origin, sign and actor attachment unverified",
+    "source timing not supplied; do not invent frame duration",
+    "per-frame source phase, silhouette and alpha edges await review",
+    "visible aspect differs by more than 10%"
+  ]
+}

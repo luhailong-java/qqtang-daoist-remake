@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/hurt-four-v1.png",
+  "sha256": "7ce66486f3c404a728760d6aa71c6420d75774fc1bbbd81c8c5b25340deee1ec",
+  "generatedAt": "2026-10-28T14:32:05.240Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/references/own-four-characters-contact.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/hurt-four-v1.prompt.txt",
+  "promptSha256": "21496ce1a33f5ed07f0cf3e60c631cad8c3eb5582b41b140b95484706b602dc4",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/references/own-four-characters-contact.png",
+      "role": "four exact original character identities",
+      "sha256": "a885e378dd697d4f688f283e283116b701f9dd4279b5257eb0f7e638bf647273"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-2d1f603a-6c43-4a04-bb13-a4a7e1281f34.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": null,
+  "review": {
+    "type": "four distinct non-graphic hurt-state key stills, not sequential animation",
+    "identity": "four own identities and anatomical equipment hands visually retained; guardian bracing shield, all recoil",
+    "pending": [
+      "actual alpha and outer-glow ownership rather than black-preview RGB",
+      "row boundary, staff/margin, shared-root and display-scale QA",
+      "in-client hit feedback and timing"
+    ],
+    "runtimeEnabled": false
+  },
+  "status": "source_pending_alpha_anchor_and_runtime_review",
+  "clientApproved": false,
+  "userAccepted": false
+}

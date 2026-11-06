@@ -1,0 +1,81 @@
+{
+  "elementId": 4031,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4031-mine-v1.png",
+  "sha256": "58ace7a039af7b05dd82125bdaa9fbd552f2264032e8e3b099ceffaf1b7bd58e",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-d-v1.png",
+    "sha256": "8a104215732b77e0e643405e4ff9f2816336bbd166e84bf100d904ec1a046c2c",
+    "generationRecord": "assets/maps/mine/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      486,
+      466,
+      768,
+      750
+    ],
+    "uniformScale": 0.5633802816901409,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4031-2feb7d3bd16e.png",
+    "sha256": "a50d24920a85545de5fc11e4ba3f53932ba00b042af8724b8542a1429f9fa291",
+    "representativeElementId": 4031,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 0.9928571428571429,
+    "relativeAspectDeviation": 0.0071428571428571175,
+    "generatedCellLTRB": [
+      418,
+      418,
+      836,
+      836
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

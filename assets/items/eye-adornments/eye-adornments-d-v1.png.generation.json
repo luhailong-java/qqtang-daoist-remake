@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "file": "assets/items/eye-adornments/eye-adornments-d-v1.png",
+  "sha256": "9c292eea69f45d5bd894e25ee4c01c7b9f3e04bb15dbfc20fc3e0086d3cfb8e9",
+  "generatedAt": "2026-10-29T12:10:11.257Z",
+  "timeEvidence": "UTC registration after builtin return; provider creation timestamp not disclosed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/eye-adornments/references/eye-adornments-d-structure.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实版本/质量。",
+  "prompt": "docs/eye-adornments-d.prompt.txt",
+  "promptFileSha256": "8d52955d83d8435e3b5af594ea7f99052037b796d0d1de24860a013cfd32408c",
+  "submittedPromptSha256": "6d3204260ec5b41e159fbb0d08230763cbfd71db8f195ad4bd9f75e2a4d3af44",
+  "promptSubmission": "File text trimmed at beginning/end only",
+  "references": [
+    {
+      "file": "assets/items/eye-adornments/references/eye-adornments-d-structure.png",
+      "sha256": "f61288f86e4a7a186ebebcf180ffb116f1bde2c09b5edd5ce5a2f494c67cf996",
+      "role": "Actual source inventory structure, not style/QQ face adoption"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-592976ac-1ce6-4b60-a054-36a704ef4e95.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "requestedCanvasInPrompt": [
+    1536,
+    1024
+  ],
+  "generationCount": 1,
+  "requestedItemCount": 6,
+  "sourceAndOutputScope": "One six-object atlas is one model generation; each later256 icon is a crop/PMA resize, not six model calls.",
+  "accepted": false,
+  "worldAccepted": false,
+  "stateAccepted": false,
+  "runtimeAdopted": false
+}

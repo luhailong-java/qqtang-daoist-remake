@@ -1,0 +1,84 @@
+{
+  "elementId": 1131,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1131-desert-v1.png",
+  "sha256": "f0f298cd5948ecf0f301399028a06a4b7a10a1613755892b87818d4fcac90c1c",
+  "width": 320,
+  "height": 320,
+  "worldFrameWidth": 80,
+  "worldFrameHeight": 80,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-e-v1.png",
+    "sha256": "854ad9a60d87b9c9534fe6addcdbbd2ca67b597b5a0ea5e97224afa272012817",
+    "generationRecord": "assets/maps/desert/props-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1056,
+      546,
+      1459,
+      933
+    ],
+    "uniformScale": 0.794044665012407,
+    "placementPx": [
+      0,
+      13
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1131-0ce6bd521ce1.png",
+    "sha256": "b52957e40893ee6d1d31a9dd057ac077401b70f3befca3146d3838993a4da626",
+    "representativeElementId": 1131,
+    "nativeFrameSize": [
+      80,
+      80
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    2,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.04177545691906,
+    "relativeAspectDeviation": 0.04177545691906004,
+    "generatedCellLTRB": [
+      1044,
+      534,
+      1472,
+      946
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/frames-v1/S/01.png",
+  "sha256": "2a65da43c2e57cdd36293e986b2d7640260d5f630eaf6b4aa38d55255a35b6eb",
+  "artSource": "derived_existing_generated_sheet",
+  "generatedAt": null,
+  "derivedAt": "2026-10-26T16:58:38.175255+00:00",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": {
+    "file": "assets/characters/motion-generated/daoist-child/walk-sheet-v1.png",
+    "sha256": "7bf42e768982e57faa657f0a833f2b5ad9a4892d3734b21e21751fdfb113c5bc",
+    "generationRecord": "assets/characters/motion-generated/daoist-child/walk-sheet-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "integer_equal_grid_crop_then_uniform_downscale",
+    "cropLTRB": [
+      0,
+      627,
+      313,
+      940
+    ],
+    "cropSize": [
+      313,
+      313
+    ],
+    "nativeSheetSize": [
+      1254,
+      1254
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "row": 3,
+    "column": 1,
+    "transparentPadRightBottomTo": [
+      314,
+      314
+    ],
+    "scale": 0.8152866242038217,
+    "resampler": "LANCZOS premultiplied alpha",
+    "output": [
+      256,
+      256
+    ],
+    "perFrameSubjectFit": false,
+    "subjectTranslation": [
+      0,
+      0
+    ],
+    "mirror": false,
+    "newPoseGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaGt8BBox": [
+    53,
+    2,
+    233,
+    256
+  ],
+  "warnings": [
+    "four_phase_opposite_leg_gait_not_established",
+    "visible_alpha_gt_8_on_slice_boundary:1",
+    "requested_10pct_side_7pct_vertical_margin_not_met"
+  ],
+  "status": "not_passed",
+  "runtimeEnabled": false
+}

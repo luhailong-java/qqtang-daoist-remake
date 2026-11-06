@@ -1,0 +1,92 @@
+{
+  "elementId": 16115,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/exploration/pieces/16101-exploration-v1.png",
+  "sha256": "fe817322f93fd22ce9fc0d2421503d824db0b4120d5a5d3565eba6ba8ecb8242",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    3855
+  ],
+  "mapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16101-f73b56231a34.png",
+    "sha256": "22720ecc2cccad03b33dcb90a3aae3097c285a83bd6fae741225ae5f62f4f5fb",
+    "representativeElementId": 16101,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/maps/exploration/batch-06/sheet-v1.png",
+      "sha256": "0ca88817babac467f04863cd1fa6ef6e9896709c37cb475d15115e36ea7acf65",
+      "generationRecord": "assets/maps/exploration/batch-06/sheet-v1.png.generation.json"
+    },
+    {
+      "file": "assets/maps/exploration/pieces/16101-exploration-v1.png",
+      "sha256": "fe817322f93fd22ce9fc0d2421503d824db0b4120d5a5d3565eba6ba8ecb8242",
+      "sourceRecord": "assets/maps/exploration/pieces/16101-exploration-v1.png.source.json",
+      "purpose": "existing own painted exploration sprite; verified exact source-visible alias, no new pixels"
+    }
+  ],
+  "operation": {
+    "type": "reuse-original-painted-png-by-verified-source-visible-alias",
+    "newModelGeneration": false,
+    "resampled": false,
+    "pixelBytesCopied": false,
+    "sourceElementId": 16101,
+    "sameSourceVisualGroupId": "visual-f73b56231a34b6dc",
+    "sourceReferencePngSha256": "22720ecc2cccad03b33dcb90a3aae3097c285a83bd6fae741225ae5f62f4f5fb",
+    "sourceNativeFrameSizeEqual": true,
+    "newDefinitionRulesRetained": true,
+    "imageByteVerification": "deferred during reserved heavy-job window; source SHA retained"
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+  "status": "painted-exact-source-visible-alias-reuse-awaiting-rule-anchor-and-in-game-validation",
+  "seamlessVerified": false,
+  "opaqueSquareTexture": {
+    "requested": true,
+    "applied": true,
+    "whitelist": "plain texture only 16010/16028/16101; manually inspected source",
+    "sourceReferenceAlphaExtrema": [
+      255,
+      255
+    ],
+    "nativeInscribedSquareSide": 351,
+    "operation": "near-opaque texture alpha normalization250..254→255",
+    "threshold": 250,
+    "notSeamAcceptance": true,
+    "originalAlphaExtrema": [
+      250,
+      254
+    ],
+    "rgbPreserved": true,
+    "nativeCropRGBSHA256": "1df5e051ef0d850a8e2a9a0def7df774fe3f4fdc17c63fb67f9c104661f05b63"
+  },
+  "terrainOpaqueCanvasVerified": true,
+  "provenanceRecord": "assets/maps/exploration/records/16115.source.json"
+}

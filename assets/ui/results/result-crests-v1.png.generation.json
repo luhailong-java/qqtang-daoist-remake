@@ -1,0 +1,88 @@
+{
+  "file": "assets/ui/results/result-crests-v1.png",
+  "sha256": "d5499082727cad4e4dd2194a79c4a7942638b8489087a520b344006d5292fc62",
+  "generatedAt": "2026-11-02T07:00:37.336Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 2032,
+  "height": 774,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/ui/qdao-ui-kit-v3.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Create ONE production UI crest atlas with a genuinely transparent RGBA background for our original Daoist chibi party arena game《灵葫大作战》. Three related outcome-state emblems in ONE atlas, not a UI screen. Requested1536x1024, THREE columns in one horizontal row; one complete crest centered in each column, generous empty transparent space and at least60px gap between complete objects. No labels or text, numbers, frames, cards, people, source-game characters, background, floor shadows, aura fog, vignette or painted checkerboard.\n\nActual reference images1/2 are our confirmed mail/team primary art direction. Image3 is the current game's adopted painted UI kit; match these jade/teal, ivory silk and restrained warmgold materials, rounded clouds and fine hand-painted edges. Reference panels, text, nighttime scenery and people must NOT appear in the result. Fine HD hand painting, joyful rounded Q proportions, no toy-plastic rendering.\n\nLEFT / VICTORY: one upright warmgold gourd trophy with jade center medallion and ivory cloud-shaped handles, two short golden laurel sprays, tiny crimson silk knot under its neck and rounded ivory cloud foot. Proud upright broad silhouette with a gold upper flame-like cap. Celebratory but compact, no projecting confetti, lettering or glow beyond the object.\n\nCENTER / DRAW: one balanced circular jade-and-ivory seal containing TWO equally sized intertwined gourds, one jade and one warmgold, arranged in a gentle yin-yang balance. A clear horizontal ivory ribbon under the circle is blank with no lettering. Two symmetric short jade cloud curls at sides, a tiny pearl pendant. Neutral, balanced, clearly distinct from a single trophy, no eyes/faces or background disc beyond the physical seal.\n\nRIGHT / DEFEAT / TRY AGAIN: one calm TEAL jade gourd tilted very gently to the right, small intact gold cap, resting on a compact ivory cloud cushion; two downward-curving jade leaves and one short gold tassel. Lower rounded silhouette and quiet colors, optimistic and intact, no broken object, crack, skull, tears, text or face. Distinct from victory laurels, no fog or outer glow.\n\nAll three crests belong to the same crafted jade/gold family and feel right above live Chinese outcome text in an ivory results dialog. Transparent pixels between crests and in any open holes, all tassels/leaves complete inside the canvas. Keep materials readable at128px display height. Highest host-provided quality target. This atlas is one model generation; exported individual PNGs will be honest crop/resize derivatives.\n",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/ui/qdao-ui-kit-v3.png",
+      "purpose": "style reference",
+      "sha256": "901404583c31444629d4669e3bd6a5069d5d87061c12def27f084d30def46a54"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a17789-9eaa-7ed3-b597-50d6259dbf2c/exec-9e147d97-656c-493b-9fbd-c4f8971ccc65.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "docs/result-crests-v1.prompt.txt",
+  "promptFileSha256": "844180c542ecc49dc29794674db97ab80310e5d5cff1b45a6dfea0dc6f2f2294",
+  "submittedPromptSha256": "ef64af23f3f046ed52a2150ef5d89e8f2422493905984ae3e69b750beb3b33d4",
+  "promptSubmission": "File text trimmed at beginning/end only",
+  "requestedCanvasInPrompt": [
+    1536,
+    1024
+  ],
+  "actualReturnedCanvas": [
+    2032,
+    774
+  ],
+  "dimensionNote": "Native2032x774 returned; original preserved without resampling.512 crops are explicit derivatives.",
+  "generationCount": 1,
+  "requestedRelatedStateCount": 3,
+  "visualAccepted": false,
+  "runtimeVisualAccepted": false
+}

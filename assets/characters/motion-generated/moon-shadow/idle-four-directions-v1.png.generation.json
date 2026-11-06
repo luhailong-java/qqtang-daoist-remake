@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/idle-four-directions-v1.png",
+  "sha256": "3d207f70b5cc181799c50eeeb75466ee0ae35d73f539ffaf43361226f2243e24",
+  "generatedAt": "2026-10-28T12:55:39.627Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/moon-shadow/idle-four-directions-v1.prompt.txt",
+  "promptSha256": "0f063cf086d850eec54c7bd0d17b6588389c6af4be87b76d5e1d6c98ea26dbb9",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "role": "exact original identity master",
+      "sha256": "c459e26a3ef58c02a46ca8b14655d377527630994b8dfe61b58a41e970b7ae3b"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-c4fc34d8-8452-452a-94ce-dedc0dcb2b8b.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": null,
+  "review": {
+    "type": "four independent directional idle stills in orderN/E/S/W, not walk animation",
+    "identity": "same own moon girl; back sash and boot backs correct; near/far ornament visibility differs anatomically",
+    "pose": "both boots planted in each view, down-held dual daggers",
+    "pending": [
+      "alpha source-edge and safe ownership cut check",
+      "shared256canvas/root export",
+      "cross-direction volume/foot-floor client review"
+    ],
+    "runtimeEnabled": false
+  },
+  "status": "source_pending_alpha_anchor_and_runtime_review",
+  "clientApproved": false,
+  "userAccepted": false
+}

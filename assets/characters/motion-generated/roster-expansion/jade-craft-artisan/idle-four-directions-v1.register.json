@@ -1,0 +1,47 @@
+{
+  "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v1.png",
+  "prompt": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v1.prompt.txt",
+  "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-3d0afb57-4501-413d-a7f3-2b0aad0e0370.png",
+  "editTarget": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+      "role": "own approved identity candidate master; exact face/hair/props"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist chibi style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist chibi style"
+    }
+  ],
+  "status": "not_passed_missing_cardinal_direction",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "W"
+    ],
+    "orderMatchesRequest": false,
+    "runtimeEnabled": false,
+    "pending": [
+      "single-sheet alpha/seams",
+      "identity/hand/root/cell continuity",
+      "actual map/client integration"
+    ],
+    "ownership": "No equal cell crop approved until alpha boundary checked.",
+    "missingDirections": [
+      "E"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/bamboo-archer/master-left-bow-adaptation-v1.png",
+  "sha256": "d2643ef84754ccbf0625614f6712df1d2549af6bc860352ff1be60fae08ebbd0",
+  "generatedAt": "2026-10-28T20:46:53.721Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/roster-candidates/09_bamboo_archer_girl/master.png",
+      "D:/work/image/qdao_original_roster_v14_hd/action-remake-20261001/characters/09_bamboo_archer_girl/runtime/run/S/01.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/bamboo-archer/master-left-bow-adaptation-v1.prompt.txt",
+  "promptSha256": "3141cfb19978d11960fa9708e36fa8607dffafb83ef839865b2a41f563bb3d93",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/roster-candidates/09_bamboo_archer_girl/master.png",
+      "role": "original own master editOf, unchanged",
+      "sha256": "c7ba2937630b589f16c0581f76421f20eccb19599aba6b47cca748de450447dd"
+    },
+    {
+      "path": "D:/work/image/qdao_original_roster_v14_hd/action-remake-20261001/characters/09_bamboo_archer_girl/runtime/run/S/01.png",
+      "role": "current left-bow action pose handedness reference",
+      "sha256": "7d7f6b974d4a3e01c71a8b95f11d3968ea1bde5b5161a68af718d2271b424b39"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-4a89f9e6-f6cf-49ec-8d48-aa0823adc63c.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/roster-candidates/09_bamboo_archer_girl/master.png",
+  "review": {
+    "identity": "Own hair/crown/face/costume/bow preserved; front/S pose now LEFT(screen-right) bow, RIGHT(screen-left) free, no arrow/draw",
+    "reason": "14 representative action/direction samples and current source handoff consistently LEFT bow; original master appeared RIGHT bow. Separate local adaptation under parent authorization, no source/master/main mapping replacement.",
+    "scope": "14/196 samples only, remaining182 pending; static compatibility candidate not full-action acceptance",
+    "runtimeEnabled": false,
+    "evidence": "assets/characters/motion-generated/bamboo-archer/HANDEDNESS_EVIDENCE_20261028.md",
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "ivoryViewed": true,
+    "pending": [
+      "90px requested margin not fully achieved",
+      "remaining182 source frames",
+      "root and runtime adoption"
+    ]
+  },
+  "status": "separate_left_bow_static_adaptation_candidate_not_adopted",
+  "clientApproved": false,
+  "userAccepted": false,
+  "editOf": {
+    "file": "assets/characters/roster-candidates/09_bamboo_archer_girl/master.png",
+    "sha256": "c7ba2937630b589f16c0581f76421f20eccb19599aba6b47cca748de450447dd",
+    "generationRecord": null,
+    "reason": "Local LEFT-bow static compatibility candidate after14 representative action/direction samples agree with LEFT-bow source declaration; remaining182 frames pending. Original/master/source/main mapping unchanged.",
+    "sourceRecord": "assets/characters/roster-candidates/09_bamboo_archer_girl/source.json",
+    "sourceRecordScope": "local existing master provenance; no local master.png.generation.json exists"
+  }
+}

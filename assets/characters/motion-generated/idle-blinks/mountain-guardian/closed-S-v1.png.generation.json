@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/idle-blinks/mountain-guardian/closed-S-v1.png",
+  "sha256": "bd92209dcfb7d5ab43f2b35a46b32cecf6e3aab457864ff7513214682f086060",
+  "generatedAt": "2026-10-28T23:18:47.849Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/mountain-guardian/open-S.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/idle-blinks/mountain-guardian/closed-S-v1.prompt.txt",
+  "promptSha256": "002c44c478ee638072d8c75cccff9d3afba3c7f6811e7f34433632ffa674a894",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/idle-blinks/mountain-guardian/open-S.png",
+      "role": "exact own SOUTH/front open-eye edit target; same whole canvas/body/hands/props/boots; source record assets/characters/motion-generated/idle-blinks/mountain-guardian/open-S.png.source.json",
+      "sha256": "ac7b8e8d5f4ee18c734e0d5042b57b3462b6fcbeb4d3dbb1fa5e9aa40faebb49"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist Q style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist Q style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-7a1f0312-7dc8-40b9-aa2e-cb661ebc68a8.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/idle-blinks/mountain-guardian/open-S.png",
+  "review": {
+    "kind": "one_S_closed_eye_idle_key_not_walk_or_full_animation",
+    "character": "mountain-guardian",
+    "direction": "S",
+    "sourceCanvas": [
+      768,
+      768
+    ],
+    "sourceOpen": "assets/characters/motion-generated/idle-blinks/mountain-guardian/open-S.png",
+    "sourceOpenSha256": "ac7b8e8d5f4ee18c734e0d5042b57b3462b6fcbeb4d3dbb1fa5e9aa40faebb49",
+    "editOfSourceRecord": "assets/characters/motion-generated/idle-blinks/mountain-guardian/open-S.png.source.json",
+    "wholeCanvasOnly": true,
+    "borrowedRoot": false,
+    "root": null,
+    "runtimeEnabled": false,
+    "clientApproved": false,
+    "oneEditOnly": true,
+    "actualVisualViewed": true,
+    "comparison": "assets/characters/motion-generated/idle-blinks/mountain-guardian/closed-S-v1.review.json",
+    "localStaticCandidate": false,
+    "visualObservation": "Eyes closed and hands still correct, but model lengthens the body and shifts both feet down. Entire silhouette left edge−18px and bottom+22px; left sole−9px X/+21px down, right sole about−5px X/+22px down. Not an aligned blink key; do not fix by moving root or bbox-fitting.",
+    "handChain": "RIGHT ring-staff screen-left and LEFT round shield screen-right remain correct.",
+    "maxAbsSoleBBoxDelta": 22
+  },
+  "status": "not_passed_body_and_foot_position_changed",
+  "clientApproved": false,
+  "userAccepted": false
+}

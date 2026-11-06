@@ -1,0 +1,750 @@
+{
+  "schemaVersion": 1,
+  "state": "idle",
+  "format": "RGBA PNG",
+  "kind": "directional-static-actor-candidate",
+  "publicSourceCommit": "fd4b93b3a327700d03c1d73085cfe73d4452727d",
+  "directions": [
+    "N",
+    "E",
+    "S",
+    "W"
+  ],
+  "directionEvidence": "Visually checked: rear view, nose toward screen-right, front view, nose toward screen-left.",
+  "sources": [
+    {
+      "identity": "daoist-child",
+      "file": "assets/characters/motion-generated/daoist-child/idle-four-directions-v1.png",
+      "sha256": "9175cac55ff88e2bf0269fa3c75d8234ff7a5f0139ed0590dcb8034577bb05b0",
+      "publicGitBlobSha1": "91547825c91fa005627b7d480d9c9b605b68478a",
+      "size": [
+        2048,
+        768
+      ],
+      "generationRecord": "assets/characters/motion-generated/daoist-child/idle-four-directions-v1.png.generation.json",
+      "generationRecordSha256": "a3682f8a46fd5787ed7b8fe4c50c8ee2c1dd6cd7bbc45d9edcca4055b7bb8140",
+      "publicGenerationRecordGitBlobSha1": "03bb2c6ba2d2da9ffb6bbe350e75b53932a3f650",
+      "nominalCutX": [
+        570,
+        990,
+        1548
+      ],
+      "seamAlphaMax": [
+        1,
+        1,
+        1
+      ],
+      "variableSeams": null
+    },
+    {
+      "identity": "moon-shadow",
+      "file": "assets/characters/motion-generated/moon-shadow/idle-four-directions-v1.png",
+      "sha256": "3d207f70b5cc181799c50eeeb75466ee0ae35d73f539ffaf43361226f2243e24",
+      "publicGitBlobSha1": "7ccc25450abaef843ea01544edf6119fce361545",
+      "size": [
+        2048,
+        768
+      ],
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/idle-four-directions-v1.png.generation.json",
+      "generationRecordSha256": "7fc86edb68fe14d38ff1c0978441894e8e0f0502d0781ed95d7e889138881c58",
+      "publicGenerationRecordGitBlobSha1": "937c38e4b3a0a1e663d7f89e65ca947139476515",
+      "nominalCutX": [
+        550,
+        1013,
+        1581
+      ],
+      "seamAlphaMax": [
+        1,
+        1,
+        1
+      ],
+      "variableSeams": null
+    },
+    {
+      "identity": "mountain-guardian",
+      "file": "assets/characters/motion-generated/mountain-guardian/idle-four-directions-v1.png",
+      "sha256": "a1041953350c8764280849185afb3e526a116e87adad3d3aa421846940cdc2ec",
+      "publicGitBlobSha1": "077fe0f4a87c1ff6790cd897ee57c8ae36a88a62",
+      "size": [
+        2048,
+        768
+      ],
+      "generationRecord": "assets/characters/motion-generated/mountain-guardian/idle-four-directions-v1.png.generation.json",
+      "generationRecordSha256": "fd8694f1857953488b7b5aa3a90a846c83ef7be79befb879525284a2e5b5a744",
+      "publicGenerationRecordGitBlobSha1": "f371e846adacc4a657ca3dfd3a269a8ad6e6df5d",
+      "nominalCutX": [
+        524,
+        1001,
+        1580
+      ],
+      "seamAlphaMax": [
+        2,
+        1,
+        1
+      ],
+      "variableSeams": null
+    },
+    {
+      "identity": "lotus-healer",
+      "file": "assets/characters/motion-generated/lotus-healer/idle-four-directions-v1.png",
+      "sha256": "d15237809c90bae5cd13646d4589f4370ef8567b38b6d6d4e8d61f3876096bf2",
+      "publicGitBlobSha1": "4957fc363de206220fe5fa7afa29447cdb932266",
+      "size": [
+        2048,
+        768
+      ],
+      "generationRecord": "assets/characters/motion-generated/lotus-healer/idle-four-directions-v1.png.generation.json",
+      "generationRecordSha256": "4616d8fb6c36dfc1f498c548c2f25c9d9782e8dd6d315e1a33a8823cf8c4ec5f",
+      "publicGenerationRecordGitBlobSha1": "7f1af5dcaafcb0fa3a9a8c301fecbe9c3e743a83",
+      "nominalCutX": [
+        560,
+        1004,
+        1570
+      ],
+      "seamAlphaMax": [
+        5,
+        9,
+        1
+      ],
+      "variableSeams": "assets/characters/idle/v1/lotus-seams.json"
+    }
+  ],
+  "operation": {
+    "type": "deterministic-source-ownership-crop-sole-registration-uniform-resample",
+    "trimBoundsAlphaThreshold": 2,
+    "soleBoundsAlphaThreshold": 128,
+    "soleBandHeight": 26,
+    "workingCanvas": [
+      896,
+      896
+    ],
+    "workingAnchor": [
+      448,
+      812
+    ],
+    "resampler": "premultiplied-alpha LANCZOS",
+    "scale": 0.2857142857142857,
+    "newModelGeneration": false
+  },
+  "placementCandidate": {
+    "displaySizeIn64UnitActorSpace": [
+      110,
+      110
+    ],
+    "rootWithinActorCellIn64UnitSpace": [
+      32,
+      59
+    ]
+  },
+  "frames": [
+    {
+      "characterId": "maomao",
+      "identity": "daoist-child",
+      "direction": "N",
+      "file": "assets/characters/idle/v1/daoist-child-N.png",
+      "sha256": "fa68b03040af0c253dae8c7fa730f33a6e597b63400eabfdb63e09e1054bf2a7",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        77,
+        23,
+        534,
+        744
+      ],
+      "sourceSoleAnchor": [
+        342,
+        741
+      ],
+      "placementOn896Canvas": [
+        183,
+        94
+      ],
+      "visibleBoundsAlphaAbove8": [
+        52,
+        27,
+        183,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "maomao",
+      "identity": "daoist-child",
+      "direction": "E",
+      "file": "assets/characters/idle/v1/daoist-child-E.png",
+      "sha256": "69d99db855de75ac1c62d453b4c6fd8bbf4420bd729d162fc22e16604d68388c",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        609,
+        23,
+        928,
+        748
+      ],
+      "sourceSoleAnchor": [
+        814,
+        743
+      ],
+      "placementOn896Canvas": [
+        243,
+        92
+      ],
+      "visibleBoundsAlphaAbove8": [
+        69,
+        26,
+        160,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "maomao",
+      "identity": "daoist-child",
+      "direction": "S",
+      "file": "assets/characters/idle/v1/daoist-child-S.png",
+      "sha256": "1a46e3af4180d67ac03efe84e04b1e328d883696d6b5b0d14197d25e2ffc1794",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1052,
+        23,
+        1507,
+        745
+      ],
+      "sourceSoleAnchor": [
+        1246,
+        742
+      ],
+      "placementOn896Canvas": [
+        254,
+        93
+      ],
+      "visibleBoundsAlphaAbove8": [
+        73,
+        26,
+        203,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "maomao",
+      "identity": "daoist-child",
+      "direction": "W",
+      "file": "assets/characters/idle/v1/daoist-child-W.png",
+      "sha256": "4298ee13ad0587ebcb53867cd0d15b7ecb10a1951536f2eb7fd3a55af9c3eca4",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1570,
+        23,
+        1946,
+        748
+      ],
+      "sourceSoleAnchor": [
+        1679,
+        744
+      ],
+      "placementOn896Canvas": [
+        339,
+        91
+      ],
+      "visibleBoundsAlphaAbove8": [
+        97,
+        26,
+        204,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "asha",
+      "identity": "moon-shadow",
+      "direction": "N",
+      "file": "assets/characters/idle/v1/moon-shadow-N.png",
+      "sha256": "3ed4a3fd4f030da694ec2199d9ed18fa7961a6d790f43292fc21ea8421489869",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        24,
+        14,
+        528,
+        738
+      ],
+      "sourceSoleAnchor": [
+        277,
+        737
+      ],
+      "placementOn896Canvas": [
+        195,
+        89
+      ],
+      "visibleBoundsAlphaAbove8": [
+        56,
+        25,
+        200,
+        232
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "asha",
+      "identity": "moon-shadow",
+      "direction": "E",
+      "file": "assets/characters/idle/v1/moon-shadow-E.png",
+      "sha256": "6ef591d348963da705326c9a2c9d7e8acd188ce6e0469dfcdb0be03b7cdbbf48",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        571,
+        9,
+        979,
+        748
+      ],
+      "sourceSoleAnchor": [
+        822,
+        744
+      ],
+      "placementOn896Canvas": [
+        197,
+        77
+      ],
+      "visibleBoundsAlphaAbove8": [
+        56,
+        22,
+        173,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "asha",
+      "identity": "moon-shadow",
+      "direction": "S",
+      "file": "assets/characters/idle/v1/moon-shadow-S.png",
+      "sha256": "1225e7e96697b084d27b6a42c52c5e3bf8057d412035f651e697c23bfbfbf044",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1046,
+        23,
+        1545,
+        747
+      ],
+      "sourceSoleAnchor": [
+        1269,
+        743
+      ],
+      "placementOn896Canvas": [
+        225,
+        92
+      ],
+      "visibleBoundsAlphaAbove8": [
+        65,
+        26,
+        207,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "asha",
+      "identity": "moon-shadow",
+      "direction": "W",
+      "file": "assets/characters/idle/v1/moon-shadow-W.png",
+      "sha256": "92e8062800247789e777f545df2d4c9105fc85dc570147b960047ef2ab2e4d30",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1617,
+        10,
+        2025,
+        748
+      ],
+      "sourceSoleAnchor": [
+        1773,
+        744
+      ],
+      "placementOn896Canvas": [
+        292,
+        78
+      ],
+      "visibleBoundsAlphaAbove8": [
+        84,
+        22,
+        200,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "wukong",
+      "identity": "mountain-guardian",
+      "direction": "N",
+      "file": "assets/characters/idle/v1/mountain-guardian-N.png",
+      "sha256": "9edc302799ed0812a890f3811ff4c7f75fc7f9424b4fc8d59b2ddc1ef3d1b2b9",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        7,
+        0,
+        521,
+        738
+      ],
+      "sourceSoleAnchor": [
+        242,
+        734
+      ],
+      "placementOn896Canvas": [
+        213,
+        78
+      ],
+      "visibleBoundsAlphaAbove8": [
+        63,
+        24,
+        206,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "wukong",
+      "identity": "mountain-guardian",
+      "direction": "E",
+      "file": "assets/characters/idle/v1/mountain-guardian-E.png",
+      "sha256": "2d4fed327be060637e2a33b5632841ec0143e68112ae2f1be9fb7d8ba84a2c53",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        529,
+        9,
+        986,
+        741
+      ],
+      "sourceSoleAnchor": [
+        756,
+        737
+      ],
+      "placementOn896Canvas": [
+        221,
+        84
+      ],
+      "visibleBoundsAlphaAbove8": [
+        64,
+        24,
+        193,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "wukong",
+      "identity": "mountain-guardian",
+      "direction": "S",
+      "file": "assets/characters/idle/v1/mountain-guardian-S.png",
+      "sha256": "819799c0774aa4d5637c4b7438007df37458e79cbcc5554f854b0abcf39af051",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1018,
+        3,
+        1564,
+        739
+      ],
+      "sourceSoleAnchor": [
+        1291,
+        736
+      ],
+      "placementOn896Canvas": [
+        175,
+        79
+      ],
+      "visibleBoundsAlphaAbove8": [
+        51,
+        24,
+        204,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "wukong",
+      "identity": "mountain-guardian",
+      "direction": "W",
+      "file": "assets/characters/idle/v1/mountain-guardian-W.png",
+      "sha256": "eea80454223de6b96e28a315f7c8cac5c1ca64a6e9101f2103a952fb3d0ad332",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1599,
+        9,
+        2042,
+        742
+      ],
+      "sourceSoleAnchor": [
+        1802,
+        738
+      ],
+      "placementOn896Canvas": [
+        245,
+        83
+      ],
+      "visibleBoundsAlphaAbove8": [
+        70,
+        24,
+        195,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "titan",
+      "identity": "lotus-healer",
+      "direction": "N",
+      "file": "assets/characters/idle/v1/lotus-healer-N.png",
+      "sha256": "39e7b1ea618097453e03d77cef3bcde96341b7b0e02bff4ed30a819499ff08a1",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        30,
+        24,
+        593,
+        744
+      ],
+      "sourceSoleAnchor": [
+        284,
+        741
+      ],
+      "placementOn896Canvas": [
+        194,
+        95
+      ],
+      "visibleBoundsAlphaAbove8": [
+        56,
+        27,
+        216,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "titan",
+      "identity": "lotus-healer",
+      "direction": "E",
+      "file": "assets/characters/idle/v1/lotus-healer-E.png",
+      "sha256": "b714c7d8107d23e79f48749086f4b994dd3810db1b068428885a6cbdee953214",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        560,
+        26,
+        1005,
+        743
+      ],
+      "sourceSoleAnchor": [
+        812,
+        741
+      ],
+      "placementOn896Canvas": [
+        196,
+        97
+      ],
+      "visibleBoundsAlphaAbove8": [
+        60,
+        28,
+        183,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "titan",
+      "identity": "lotus-healer",
+      "direction": "S",
+      "file": "assets/characters/idle/v1/lotus-healer-S.png",
+      "sha256": "c0cf53debf937a6f92bd6cef9f8c03d9b988ce0fd76e1206e7bee453349afbed",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1002,
+        23,
+        1525,
+        747
+      ],
+      "sourceSoleAnchor": [
+        1282,
+        743
+      ],
+      "placementOn896Canvas": [
+        168,
+        92
+      ],
+      "visibleBoundsAlphaAbove8": [
+        48,
+        26,
+        198,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "characterId": "titan",
+      "identity": "lotus-healer",
+      "direction": "W",
+      "file": "assets/characters/idle/v1/lotus-healer-W.png",
+      "sha256": "f01b95e93265f670c0b39da02b83b688cbf102b72153aebe988ebe237c2debce",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        232
+      ],
+      "sourceCropRect": [
+        1618,
+        23,
+        2029,
+        743
+      ],
+      "sourceSoleAnchor": [
+        1758,
+        740
+      ],
+      "placementOn896Canvas": [
+        308,
+        95
+      ],
+      "visibleBoundsAlphaAbove8": [
+        88,
+        27,
+        205,
+        233
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "contactSheet": {
+    "file": "assets/characters/idle/v1/contact.png",
+    "sha256": "b25d69b8c3527d63d354a0b12da6277d128f17f7af6022dbaec3382fda6cd4c3",
+    "displayPx": 138,
+    "columnDirections": [
+      "N",
+      "E",
+      "S",
+      "W",
+      "N",
+      "E",
+      "S",
+      "W"
+    ]
+  },
+  "clientApproved": false,
+  "userAccepted": false
+}

@@ -1,0 +1,1123 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-28T23:02:32.348Z",
+  "scope": "2026-10-28 character worker source candidates only",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "userAccepted": false,
+  "notRuntimeManifest": true,
+  "notice": "Original images and key poses are not finished clips. Do not adopt before alpha/identity/anchor/direction/sequence/client gates. Heavy local QA remains explicitly paused by parent until returned.",
+  "nativeSourceCount": 29,
+  "sourceStatePosePositions": 56,
+  "singlePhaseRepairPositions": 1,
+  "idleDirectionPosePositions": 16,
+  "approvedNewRuntimeStates": 0,
+  "entries": [
+    {
+      "name": "moon-shadow/walk-north-v3",
+      "kind": "motion_repair",
+      "gate": "not_passed",
+      "posePositions": 4,
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/moon-shadow/walk-north-v3.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-north-v3.png.generation.json",
+      "sha256": "4a5abd0f5bf1824795b422dddb1d8261b6ee899d970e8157c392bf765bde287d",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T08:55:09.082225+00:00",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "identity": "silver bob, navy/gold scarf and twin daggers retained",
+        "rearGarment": "front buckle and front boot motifs corrected to rear sash and plain boot backs",
+        "gait": "frames1/3 now opposite strides; frames2/4 still repeat left planted/right sole lifted",
+        "failureReasons": [
+          "source_visible_halo_or_clipping_prevents_safe_ownership_export",
+          "frames2/4_support_leg_repeated"
+        ],
+        "sourceEdgePixelsAlphaGt8": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 18
+        }
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/walk-north-v4",
+      "kind": "motion_repair",
+      "gate": "not_passed",
+      "posePositions": 4,
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/moon-shadow/walk-north-v4.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-north-v4.png.generation.json",
+      "sha256": "11cdc33b2b8e97c5baa486f805764c964425d805964c4cd52455b6597ec0382a",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T09:05:13.474002+00:00",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "identity": "rear identity retained",
+        "rearGarment": "plain rear sash and plain boot backs maintained",
+        "gait": "frame4 now opposite support to2; frame3 regressed to frame1 leading leg",
+        "failureReasons": [
+          "frame1/3_opposite_stride_regressed",
+          "source_visible_halo_or_clipping_prevents_safe_ownership_export",
+          "source_scarf_margin_not_reduced"
+        ],
+        "sourceEdgePixelsAlphaGt8": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 7
+        }
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/walk-east-v3",
+      "kind": "motion_repair",
+      "gate": "not_passed",
+      "posePositions": 4,
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/moon-shadow/walk-east-v3.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-east-v3.png.generation.json",
+      "sha256": "e3325d94c7b307c4a63865f20ef9974c1822db781b89fd8ff413942066f3bf65",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T09:38:34.013927+00:00",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "identity": "hair ornament now consistently visible in all four frames",
+        "gait": "1/3 and2/4 silhouette remains too similar to establish opposite near/far limb phases",
+        "failureReasons": [
+          "opposite_leg_phase_not_established"
+        ]
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/walk-east-v4",
+      "kind": "motion_repair",
+      "gate": "not_passed",
+      "posePositions": 4,
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/moon-shadow/walk-east-v4.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-east-v4.png.generation.json",
+      "sha256": "a47012d1304e202372fb76b2911b571ea6469931faafdfaf64053b99bacc3e5d",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T09:46:54.282731+00:00",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "identity": "silver bob, hair ornament and twin daggers consistent across all four frames",
+        "gait": "Root visual review: near-side toe remains forward in both1and3, rear-leg angle changed without true support reversal",
+        "phaseInference": "near/far inferred from trouser cuff overlap; final dynamic/client review pending",
+        "failureReasons": [
+          "near_leg_toe_relative_to_hip_does_not_reverse_between_frames1and3"
+        ]
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/walk-west-v3",
+      "kind": "motion_repair",
+      "gate": "pending_alpha_identity_gait_review",
+      "posePositions": 4,
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/moon-shadow/walk-west-v3.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-west-v3.png.generation.json",
+      "sha256": "e7e8924b3091a9b5e43d5801f55dc2c08fad3866df72ccaa5ce5c9846f7025c9",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T10:47:55.455Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "identity": "consistent own moon identity and left-facing camera",
+        "gait": "3/4 rear-leg knee/boot positions changed; four distinct silhouette phases visible, dynamic foot timing remains candidate",
+        "pending": [
+          "source alpha separators and outer scarf edge",
+          "runtime slicing and shared-anchor QA deferred during exclusive heavy-work window"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/east-frame3-v5",
+      "kind": "single_frame_motion_repair",
+      "gate": "pending_occluded_near_far_chain_review",
+      "posePositions": 1,
+      "adoptable": false,
+      "poseReview": "assets/characters/motion-generated/moon-shadow/east-frame3-v5.pose-review.md",
+      "file": "assets/characters/motion-generated/moon-shadow/east-frame3-v5.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/east-frame3-v5.png.generation.json",
+      "sha256": "c16834c6fcad20ac4e72f6efffaeae86088b4331b897ac0352d38c4b761880ee",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "generatedAt": "2026-10-28T13:46:59.127Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "single AI-redrawn opposite-contact gait frame, not a code moved/mirrored limb",
+        "target": "near toe relative hip negative, far toe positive",
+        "visual": "left trailing leg now extends down/back rather than being lifted; both connected legs and right-facing toes visible",
+        "pending": [
+          "root must confirm foreground/near thigh really reversed, not assume from changed silhouette",
+          "actual returned1024x1536 differs from requested512x768; later whole-image uniform0.5 normalization needed",
+          "source alpha/outer tips and shared root QA"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/east-contact-pair-v6",
+      "kind": "two_key_contact_motion_repair",
+      "gate": "not_passed_near_far_support_reversal",
+      "posePositions": 2,
+      "adoptable": false,
+      "poseReview": "assets/characters/motion-generated/moon-shadow/east-contact-pair-v6.review.md",
+      "file": "assets/characters/motion-generated/moon-shadow/east-contact-pair-v6.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/east-contact-pair-v6.png.generation.json",
+      "sha256": "35e67d9b97c693d97b9b13c08934893f7f6674e8cdab5a1480d3f4c1d8dcad2e",
+      "nativeSize": [
+        1448,
+        1086
+      ],
+      "generatedAt": "2026-10-28T20:36:03.802Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "identity": "Own silver bob/violet eyes/crescent buckle/navy-gold clothes/two daggers remain visually consistent.",
+        "gait": "NOT PASSED. Both cells retain near front-right extended leg with outer boot ornament and far rear-left bent leg; near/far support does not reverse. Small limb-angle changes are not alternating support.",
+        "alpha": "not_checked; colored hidden RGB/black preview alone not classified as alpha failure",
+        "runtimeEnabled": false,
+        "next": "Stop repeated same-point repairs after v5 uncertain/v6 no improvement; keep last best and specific gap, do another independent task."
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "daoist-child/east-native-reference-contact-pair-v1",
+      "kind": "two_key_contact_new_native_reference_attempt",
+      "gate": "not_passed_same_near_leg_forward_both_keys",
+      "posePositions": 2,
+      "adoptable": false,
+      "poseReview": "assets/characters/motion-generated/daoist-child/east-native-reference-contact-pair-v1.review.md",
+      "file": "assets/characters/motion-generated/daoist-child/east-native-reference-contact-pair-v1.png",
+      "generationRecord": "assets/characters/motion-generated/daoist-child/east-native-reference-contact-pair-v1.png.generation.json",
+      "sha256": "bf631e8512a38882c635c12c63ae1824ea1e302398c5ddf4dc3cdca82c33d3fe",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T22:59:56.052Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "kind": "two_new_E_contact_key_stills_from_actual_native_motion_reference_not_complete_walk",
+        "sourceRoleId": 9,
+        "requestedCanvas": [
+          2048,
+          768
+        ],
+        "requestedOrder": [
+          "nearRIGHT_front_contact_A",
+          "nearRIGHT_back_contact_B"
+        ],
+        "actualObservedOrder": [
+          "front_near_boot_and_back_far_boot_A",
+          "front_near_boot_and_back_far_boot_B"
+        ],
+        "nearLegHalfCycleReversalPassed": false,
+        "emptyRightArmHalfCycleReversalPassed": false,
+        "reason": "Both figures keep the foreground thigh/knee/boot toward screen-right and the rear leg toward screen-left; the empty near arm stays swung backward. Only fist/knee bends change, not a true half-cycle reversal.",
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false,
+        "attemptScope": "One explicitly authorized retry with genuinely new source motion board. No old failed E art or parts atlas attached. Stop this same-point attempt after this result."
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "mountain-guardian/west-frame13-edge-v1",
+      "kind": "single_frame_edge_repair",
+      "gate": "candidate_edge_contact_removed_margin_short_root_pending",
+      "posePositions": 1,
+      "adoptable": false,
+      "poseReview": "assets/characters/motion-generated/mountain-guardian/west-frame13-edge-v1.review.md",
+      "file": "assets/characters/motion-generated/mountain-guardian/west-frame13-edge-v1.png",
+      "generationRecord": "assets/characters/motion-generated/mountain-guardian/west-frame13-edge-v1.png.generation.json",
+      "sha256": "1d45725403cb367b3cd46d7592a625a6efac8ba3eb0d95c35364c749dd04a06d",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "generatedAt": "2026-10-28T20:40:26.539Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "identity": "West face/left shield/right staff/pose/own clothes visually preserved; staff/tassel contour redrawn, needs exact alpha and actual canvas normalized comparison",
+        "runtimeEnabled": false,
+        "pending": [
+          "right margin8px vs requested30px",
+          "root and adjacent-frame/client validation"
+        ],
+        "editOnly": "staff right edge; source and runtime untouched",
+        "singleSourceEvidence": "assets/characters/motion-generated/mountain-guardian/qa/west-frame13-edge-v1.edge-review.json",
+        "actualVisualReview": "assets/characters/motion-generated/mountain-guardian/west-frame13-edge-v1.review.md"
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/place-bubble-windup-single-v2",
+      "kind": "single_character_phase_repair",
+      "gate": "crescent_identity_visually_restored_pending_alpha_anchor_sequence",
+      "posePositions": 1,
+      "character": "moon-shadow",
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/moon-shadow/place-bubble-windup-single-v2.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/place-bubble-windup-single-v2.png.generation.json",
+      "sha256": "885f5ce2e8d591f7fb3718f35cbb070ea0af9517e819de19a433995395b00dde",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "generatedAt": "2026-10-28T15:55:53.360Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "single moon-shadow front/S bubble-placement anticipation key still, not completed animation",
+        "identity": "silver open C crescent front clasp restored, own hair/left ornament and two dagger hands visually retained",
+        "pose": "shallow flex and mostly upright torso, downward attentive eyes; distinct from low contact source",
+        "nativeSizeNote": "requested512x768, returned1024x1536; any future0.5 normalization is uniform whole-canvas resize, not native512 render or per-frame bbox fit",
+        "pending": [
+          "actual alpha and dagger/scarf outer margins",
+          "scale/root alignment to four-person contact/recovery without independent bbox fit",
+          "actual three-phase playback and event timing"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "trapped-four-v1",
+      "kind": "superseded_state_candidate",
+      "gate": "superseded_by_v2_pending_qa",
+      "posePositions": 4,
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/trapped-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/trapped-four-v1.png.generation.json",
+      "sha256": "6b792866c2290dec017649a7fe4f2234435468cc48cdc1cc7d46a90eb11473dd",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T10:40:08.602Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct trapped-state stills, not animation",
+        "identity": "all four own identities visible, equipment retained",
+        "pending": [
+          "top bubbles appear near source top edge; alpha and full rim containment need check",
+          "bubble transparency and feet/scale need runtime review"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "daoist-child/idle-four-directions-v1",
+      "kind": "four_direction_idle_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "directions": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "character": "daoist-child",
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/daoist-child/idle-four-directions-v1.png",
+      "generationRecord": "assets/characters/motion-generated/daoist-child/idle-four-directions-v1.png.generation.json",
+      "sha256": "9175cac55ff88e2bf0269fa3c75d8234ff7a5f0139ed0590dcb8034577bb05b0",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T13:04:26.568Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four directional idle stills orderN/E/S/W, not walking animation",
+        "identity": "boy, headband left knot and same gourd in anatomicalLEFT arm retained; far gourd occluded inE",
+        "pose": "both boots planted; back sash without front clasp",
+        "pending": [
+          "alpha/source-edge and ownership QA",
+          "shared256canvas/root export",
+          "client cross-direction body size and facing transitions"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "moon-shadow/idle-four-directions-v1",
+      "kind": "four_direction_idle_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "directions": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "character": "moon-shadow",
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/moon-shadow/idle-four-directions-v1.png",
+      "generationRecord": "assets/characters/motion-generated/moon-shadow/idle-four-directions-v1.png.generation.json",
+      "sha256": "3d207f70b5cc181799c50eeeb75466ee0ae35d73f539ffaf43361226f2243e24",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T12:55:39.627Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four independent directional idle stills in orderN/E/S/W, not walk animation",
+        "identity": "same own moon girl; back sash and boot backs correct; near/far ornament visibility differs anatomically",
+        "pose": "both boots planted in each view, down-held dual daggers",
+        "pending": [
+          "alpha source-edge and safe ownership cut check",
+          "shared256canvas/root export",
+          "cross-direction volume/foot-floor client review"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "mountain-guardian/idle-four-directions-v1",
+      "kind": "four_direction_idle_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "directions": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "character": "mountain-guardian",
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/mountain-guardian/idle-four-directions-v1.png",
+      "generationRecord": "assets/characters/motion-generated/mountain-guardian/idle-four-directions-v1.png.generation.json",
+      "sha256": "a1041953350c8764280849185afb3e526a116e87adad3d3aa421846940cdc2ec",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T13:14:18.251Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four directional idle stills orderN/E/S/W",
+        "identity": "own young guard, right staff and left shield retained; far shield occluded inE, near shield visibleW",
+        "pose": "both boots planted and gear held close; plain back armour/sash",
+        "pending": [
+          "alpha/source-edge and ownership QA",
+          "shared256canvas/root export",
+          "scale relative to existing run/hit and client facing transition"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "lotus-healer/idle-four-directions-v1",
+      "kind": "four_direction_idle_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "directions": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "character": "lotus-healer",
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/lotus-healer/idle-four-directions-v1.png",
+      "generationRecord": "assets/characters/motion-generated/lotus-healer/idle-four-directions-v1.png.generation.json",
+      "sha256": "d15237809c90bae5cd13646d4589f4370ef8567b38b6d6d4e8d61f3876096bf2",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "generatedAt": "2026-10-28T13:20:11.862Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four directional idle stills orderN/E/S/W",
+        "identity": "own lotus healer with right lantern, left bottle and left lotus hair ornament retained; rear clothes avoid front face/charm",
+        "pose": "both slippers planted, original hand props and flowing robes",
+        "pending": [
+          "lantern/sleeves cross nominal512px boundaries; safe ownership segmentation required",
+          "alpha/source-edge checks",
+          "shared256canvas/root export and client scale/camera review"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "trapped-four-v2",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/trapped-four-v2.png",
+      "generationRecord": "assets/characters/motion-generated/trapped-four-v2.png.generation.json",
+      "sha256": "9d788373f7f2dd257a4654ad4cd2b17d7c6326acab7b098e52a8d4abfc0cb326",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T11:13:36.256Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct trapped-state stills, not animation",
+        "identity": "all four own identities retained, no original Tencent character exterior",
+        "framing": "all four full bubble rims visibly contained with new top and bottom margin",
+        "pending": [
+          "alpha and slice separation numerical QA",
+          "feet/scale and bubble interior transparency in client"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "victory-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/victory-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/victory-four-v1.png.generation.json",
+      "sha256": "dcfe8191f6ddfb4da810326533b8c0d304f9372bbc5167bd9fd52dc2940e9c9c",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T11:18:23.217Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct victory-state stills, not sequential animation",
+        "identity": "own boy/moon/guardian/healer identities recognizable; props and costume retained",
+        "pending": [
+          "source alpha separation and edge QA",
+          "slice/root/display-scale and actual result-page review"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "defeat-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/defeat-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/defeat-four-v1.png.generation.json",
+      "sha256": "3ec18b3495a4ac83b41c7a4bcf549825deecf225007d42a91f4077eb62938354",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T11:25:43.380Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct defeat/eliminated-state stills, not sequential animation",
+        "identity": "original faces/costumes and hand-held implements recognizable",
+        "pose": "seated disappointed state, no injury or blood",
+        "pending": [
+          "source alpha separation/edge QA",
+          "shared-root and body scale registration",
+          "in-client eliminated/result-page handling"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "place-bubble-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/place-bubble-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/place-bubble-four-v1.png.generation.json",
+      "sha256": "f54431564f218a5c744a9a0655b53eb2829eb10c2af100b83b094f155ff7ae2d",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T11:50:54.238Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four independent downward bend/release action key stills, not full clips",
+        "identity": "original identities, costume and equipment count retained",
+        "pose": "visible squat/forward lean differs from default standing; no bubble pixels or cast effect baked into actor",
+        "pending": [
+          "alpha/slicing/root/scale numerical QA",
+          "wind-up/recovery and directional action frames",
+          "actual event timing and client review"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "carry-bun-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/carry-bun-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/carry-bun-four-v1.png.generation.json",
+      "sha256": "88ad496e6bc4f5ede9251c09a571133215d35ffa0990396062ebc9c4ec075e82",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T12:00:59.234Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four independent carry-state stills, not carrying animation or capacity display",
+        "identity": "all original characters and weapons/implements kept in stowed positions",
+        "props": "exactly one carried bun; displayed quantity belongs to UI",
+        "pending": [
+          "upper feet approach/cross nominal horizontal cell boundary; ownership segmentation needed, do not naïvely slice512 rows",
+          "alpha/source-edge/root/scale QA",
+          "client carried-quantity and movement handling"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "hurt-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/hurt-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/hurt-four-v1.png.generation.json",
+      "sha256": "7ce66486f3c404a728760d6aa71c6420d75774fc1bbbd81c8c5b25340deee1ec",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T14:32:05.240Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct non-graphic hurt-state key stills, not sequential animation",
+        "identity": "four own identities and anatomical equipment hands visually retained; guardian bracing shield, all recoil",
+        "pending": [
+          "actual alpha and outer-glow ownership rather than black-preview RGB",
+          "row boundary, staff/margin, shared-root and display-scale QA",
+          "in-client hit feedback and timing"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "rescue-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/rescue-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/rescue-four-v1.png.generation.json",
+      "sha256": "e69dc33baeb2a7c8654481039fb520bce2f74be54f68b6041c77c194d51a909e",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T14:35:59.749Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct teammate-rescue key stills, not sequential animation",
+        "identity": "four own faces/outfits visually recognizable; screen-right turn requires explicit anatomical near/far equipment-chain review",
+        "pending": [
+          "confirm equipment handedness after camera yaw, moon second blade/sheath visibility and healer bottle pouch",
+          "actual alpha and cell ownership, row margins, common root/display scale",
+          "in-client rescue feedback and timing"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "self-rescue-needle-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/self-rescue-needle-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/self-rescue-needle-four-v1.png.generation.json",
+      "sha256": "cef8071080d2e0e180b34ecee30bcf0fb4ac9cb9fc1ecf17155daaa596891b62",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T14:40:52.016Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct needle-item self-rescue key stills, character body only; not sequential animation",
+        "identity": "front identities and right-hand needles visually retained; original gear retained or deliberately stowed, healer lantern hangs from right wrist rather than requested belt",
+        "pending": [
+          "needle silhouette at final display size, moon two holstered crescent blades, guardian stowed staff chain",
+          "actual alpha/cell ownership and top/bottom margins, common root/display scale",
+          "combine with separate trap shell and verify inventory consumption/event timing; no free self-rescue"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "revive-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/revive-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/revive-four-v1.png.generation.json",
+      "sha256": "01130a2f3048e5df9df65be10905071d8772ba2de5a674e460d522c01a02b1dc",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T14:48:19.192Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct revival rising/recovery key stills, not sequential animation",
+        "identity": "four own front faces/outfits and original gear visually retained, one knee down/opposite foot planted; boy/moon use free right palm, guardian staff support, healer low lantern",
+        "pending": [
+          "source alpha/cell ownership, staff and lantern margins, common root and volume against idle",
+          "in-client recovery transition and mode-specific revival event/timing"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "kick-bubble-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "direction_inconsistent_pending_repair",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/kick-bubble-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/kick-bubble-four-v1.png.generation.json",
+      "sha256": "8a5260f859f205fc57cccf67856ed48ed02d5b41847d80cd7da0199883c62433",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T14:56:37.918Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct low-kick contact key still candidates, not sequential animation",
+        "identity": "four own costumes/faces/gear recognizable",
+        "issues": [
+          "requested same kicking-side/heading is not visually uniform: boy/guardian soles extend more screen-right, moon/healer more toward camera; not approved as a shared E-facing action",
+          "contact height and leg identity must be checked against cell gameplay footprint"
+        ],
+        "pending": [
+          "actual alpha/cell ownership, outer margins, common root/display scale",
+          "windup/contact/recovery sequence and all directions",
+          "in-client separate bubble contact alignment"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "push-box-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/push-box-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/push-box-four-v1.png.generation.json",
+      "sha256": "801e9c99a4790c256bf8f8f5a91383f73045a2bdced95b6d4d057d64039eca70",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T15:13:23.704Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four distinct front-facing box-push contact key stills, not sequential animation",
+        "identity": "four own faces/outfits, empty forward palms and original gear retained or deliberately stowed",
+        "issues": [
+          "guardian rear staff top extends above nominal y512 row split; cannot naively split 2x2 atlas"
+        ],
+        "pending": [
+          "actual alpha/cell ownership and outer margins; stowed equipment attachments",
+          "common root, figure volume and palms at box contact plane",
+          "windup/contact/recovery sequence, all directions and client box alignment"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "place-bubble-windup-four-v1",
+      "kind": "action_phase_stills",
+      "gate": "moon_identity_failed_other_three_pending",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/place-bubble-windup-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/place-bubble-windup-four-v1.png.generation.json",
+      "sha256": "4ea7fdd04c3f9cea0a0b0e84f6606969589d674b5c1b58cabfa3035d779235c6",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T15:40:35.631Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four front/S bubble-placement anticipation key-phase candidates, not completed animation",
+        "issues": [
+          "moon front belt incorrectly changed from crescent to Taiji: moon pose not passed identity",
+          "moon/guardian flex is still close to contact, phase differentiation not established",
+          "staff and row margins remain pending"
+        ],
+        "pending": [
+          "per-character identity and phase review against contact/idle",
+          "alpha ownership, common roots and source-scale continuity",
+          "client event order and contact timing"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "place-bubble-recovery-four-v1",
+      "kind": "action_phase_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/place-bubble-recovery-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/place-bubble-recovery-four-v1.png.generation.json",
+      "sha256": "251705b87d984a7aeecd319452cd06759ace59e3c744db5e7e306629c27710d1",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T15:44:38.263Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four front/S bubble-placement recovery key-phase candidates, not completed animation",
+        "identity": "four own faces/outfits and gear visually retained, moon crescent front belt correct",
+        "pose": "torso/knees visibly straighter and arms retract/props return; feet/root/scale continuity still must be measured against contact",
+        "pending": [
+          "per-character identity and action-phase differentiation",
+          "actual alpha ownership, common roots and source volume continuity",
+          "three-phase sequence playback, source event order and timing"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    },
+    {
+      "name": "eliminated-four-v1",
+      "kind": "four_character_state_key_stills",
+      "gate": "pending_alpha_identity_anchor_client_review",
+      "posePositions": 4,
+      "characters": [
+        "daoist-child",
+        "moon-shadow",
+        "mountain-guardian",
+        "lotus-healer"
+      ],
+      "atlas": {
+        "columns": 2,
+        "rows": 2,
+        "order": "row-major",
+        "ownership": "not_verified_do_not_naively_equal_split"
+      },
+      "adoptable": false,
+      "file": "assets/characters/motion-generated/eliminated-four-v1.png",
+      "generationRecord": "assets/characters/motion-generated/eliminated-four-v1.png.generation.json",
+      "sha256": "ee4c45478511f2d3e67526b197f6691c2dbd61a99ba0e2c7f62267d9a54ea5ce",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "generatedAt": "2026-10-28T16:09:20.896Z",
+      "actualModel": null,
+      "actualQuality": null,
+      "review": {
+        "type": "four inactive elimination/leave transition key still candidates, not completed animation or a gameplay-mechanism claim",
+        "identity": "four own faces/costumes visually retained, eyes closed/reclined, no graphic injury",
+        "pending": [
+          "moon both stowed crescent blades and original handed gear count",
+          "actual alpha and ownership: top-row feet and bottom-row hair approach/overlap nominal row line",
+          "common roots/scale, original-mode leave event and transition/timing"
+        ],
+        "runtimeEnabled": false
+      },
+      "runtimeEnabled": false,
+      "clientApproved": false,
+      "userAccepted": false
+    }
+  ]
+}

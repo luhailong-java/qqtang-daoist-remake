@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/walk-east-v3.png",
+  "sha256": "63b0f747865e92b107c39705433bf69918e63bc5a1773920702e41ee04db855a",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 20:22:32 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 20:24:41 UTC"
+    }
+  },
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    253
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "EDIT image4, an existing four-pose EAST/right-facing character strip. Images1/2/3 are the exact identity master and two primary Taoist hand-painted style references. Preserve the entire strip dimensions, genuine alpha, head/face/hair/headband, all upper-body clothing, gourd ALWAYS in the anatomical LEFT hand, camera, body size and four-column layout. Keep frames1 and2 unchanged. Do not mirror a whole figure.\nCorrect the LOWER BODY AND FREE RIGHT ARM of frames3 and4 so the near/far legs genuinely reverse instead of copying frames1/2.\nEAST means facing screen RIGHT. Anatomical RIGHT leg is the NEAR foreground leg (its cuff/boot is in the front layer); LEFT leg is FAR background.\nFRAME3: the NEAR RIGHT THIGH must slope BACK toward screen LEFT, its knee and full clear near boot placed BEHIND the hip, at cell x35%,y83%. The FAR LEFT THIGH reaches FORWARD toward screen RIGHT, knee forward and far boot at x66%,y83%; the far boot is smaller/partly occluded in depth, while the near trailing boot is visibly the foreground layer. This must visibly reverse which trouser leg leads compared with frame1. Swing the free RIGHT arm FORWARD toward screen RIGHT with bent elbow to counter the trailing right leg; do not leave this arm swept behind as in frame1.\nFRAME4: the NEAR RIGHT LEG is straight/planted below the hip at x49%,y84%. The FAR LEFT KNEE is bent FORWARD toward screen RIGHT, the far boot raised at x61%,y70%, partly occluded by the near thigh. Its lifted far boot must be clearly BEHIND the planted near leg, not another large foreground lifted boot as in frame2. Free right arm can swing slightly back.\nUse different near/far overlap, knee bends and arm counter-swing, not tiny head/clothing changes. These are actual different walking poses, no jump or attack. Gourd stays in left/far hand, face/clothes and scale stay stable. Do not change frames1/2 or add symbols, labels or opaque background. Maximum clean detailed Taoist chibi paint quality.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具仅返回image_url/output_hint，没有可核实版本、质量或精确生成时刻。",
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/daoist-child/walk-east-v3.receipt.json",
+    "submission": "assets/characters/motion-generated/daoist-child/walk-east-v3.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "prompt": {
+    "path": "assets/characters/motion-generated/daoist-child/walk-east-v3.prompt.txt",
+    "sha256": "64d0d7eb80d3a6c6d4fb946c264dca1c914c9aca6c854cc6a678dfa0d21d2efb"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 4,
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v2.png",
+      "sha256": "6dbe1a5e7c85e3bf7769b70e73e92e90de9676d94c272ad75f55f70b6265a545",
+      "role": "edit target"
+    }
+  ],
+  "status": "not_passed",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "direction": "E",
+    "identity": "original character recognizable; phase/side issues separately listed",
+    "transparency": "actual alpha; ivory/dark composition reviewed; hidden RGB excluded",
+    "gait": "not_passed",
+    "failureReasons": [
+      "visible_brown_blocky_alpha_halo_outside_silhouettes; actual ivory composite not clean",
+      "no_clear_ownership_separator; source pixels or haze cross cell cuts"
+    ],
+    "note": "Different PNG hashes do not establish different gait phases."
+  },
+  "editTarget": {
+    "file": "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v2.png",
+    "sha256": "6dbe1a5e7c85e3bf7769b70e73e92e90de9676d94c272ad75f55f70b6265a545",
+    "generationRecord": "assets/characters/motion-generated/daoist-child/walk-east-v2.png.generation.json"
+  }
+}

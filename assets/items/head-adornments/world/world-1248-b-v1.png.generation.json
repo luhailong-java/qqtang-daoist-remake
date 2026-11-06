@@ -1,0 +1,89 @@
+{
+  "file": "assets/items/head-adornments/world/world-1248-b-v1.png",
+  "sha256": "bbb2ee11678248bbbd063ed73b9e39bd8932793a483881589dec773d64d51072",
+  "generatedAt": "2026-10-29T00:42:25.073Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world/1248/source-phases-b.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world/1248/own-appearance-master-reference.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/world/world-1248-a-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets\\items\\head-adornments\\prompts\\world-1248-b.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world/1248/source-phases-b.png",
+      "purpose": "actual decoded source world-frame action board; exact per-frame structure and phase, not runtime source pixels",
+      "sha256": "ff66d4250416662c2b211858988f6b16809bd441123b8808b7768412ec188288"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world/1248/own-appearance-master-reference.png",
+      "purpose": "own same-item appearance/material reference only; not native world canvas or timing",
+      "sha256": "5fc653cd203aae4c3c15d4fa1109d78c2c8a378fc4ef78f3addb800bdd70d3a4"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/world/world-1248-a-v1.png",
+      "purpose": "actual AI edit target; correct world silhouette while preserving useful own design",
+      "sha256": "c0a85bdc8eeb92ec60d2527faa97c84ea208bbd06deb8858a9798fbace3e810d"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-663b2cd7-525c-48f0-a5f1-c11ff1028051.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in AI image edit conditioned on the actual target reference; no program pixel editing",
+  "nativeDimensions": true,
+  "editOf": {
+    "file": "assets/items/head-adornments/world/world-1248-a-v1.png",
+    "sha256": "c0a85bdc8eeb92ec60d2527faa97c84ea208bbd06deb8858a9798fbace3e810d",
+    "generationRecord": "assets/items/head-adornments/world/world-1248-a-v1.png.generation.json"
+  },
+  "annotationNote": "Edit relationship clarified from the actual submitted target reference and prompt; original model, quality, timestamp and submission fields unchanged."
+}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "file": "synthetic-passing-guide.png",
+  "sha256": "90d2786748e77a136728dd25f6ab341ef54c2d96423f909daadc245a9b125d84",
+  "createdAtUTC": "2026-10-29T04:15:54.731003+00:00",
+  "canvasSize": [
+    1536,
+    1024
+  ],
+  "cellSize": [
+    768,
+    512
+  ],
+  "poses": [
+    {
+      "id": "near_R_planted",
+      "cell": [
+        0,
+        0
+      ],
+      "cellOrigin": [
+        0,
+        0
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          330,
+          86
+        ],
+        "knee": [
+          346,
+          235
+        ],
+        "ankle": [
+          338,
+          395
+        ],
+        "toe": [
+          458,
+          451
+        ],
+        "sole": [
+          395,
+          469
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          330,
+          86
+        ],
+        "knee": [
+          346,
+          235
+        ],
+        "ankle": [
+          338,
+          395
+        ],
+        "toe": [
+          458,
+          451
+        ],
+        "sole": [
+          395,
+          469
+        ]
+      },
+      "hipToKnee": 149.85659811966906,
+      "kneeToAnkle": 160.1998751560063,
+      "footLiftRelativeToPlant": 0
+    },
+    {
+      "id": "near_R_raised",
+      "cell": [
+        1,
+        0
+      ],
+      "cellOrigin": [
+        768,
+        0
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          330,
+          86
+        ],
+        "knee": [
+          435,
+          193
+        ],
+        "ankle": [
+          338,
+          320
+        ],
+        "toe": [
+          458,
+          376
+        ],
+        "sole": [
+          395,
+          394
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          1098,
+          86
+        ],
+        "knee": [
+          1203,
+          193
+        ],
+        "ankle": [
+          1106,
+          320
+        ],
+        "toe": [
+          1226,
+          376
+        ],
+        "sole": [
+          1163,
+          394
+        ]
+      },
+      "hipToKnee": 149.91330828182,
+      "kneeToAnkle": 159.80613254815975,
+      "footLiftRelativeToPlant": 75
+    },
+    {
+      "id": "far_L_planted",
+      "cell": [
+        0,
+        1
+      ],
+      "cellOrigin": [
+        0,
+        512
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          330,
+          86
+        ],
+        "knee": [
+          346,
+          235
+        ],
+        "ankle": [
+          338,
+          395
+        ],
+        "toe": [
+          458,
+          451
+        ],
+        "sole": [
+          395,
+          469
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          330,
+          598
+        ],
+        "knee": [
+          346,
+          747
+        ],
+        "ankle": [
+          338,
+          907
+        ],
+        "toe": [
+          458,
+          963
+        ],
+        "sole": [
+          395,
+          981
+        ]
+      },
+      "hipToKnee": 149.85659811966906,
+      "kneeToAnkle": 160.1998751560063,
+      "footLiftRelativeToPlant": 0
+    },
+    {
+      "id": "far_L_raised",
+      "cell": [
+        1,
+        1
+      ],
+      "cellOrigin": [
+        768,
+        512
+      ],
+      "pointsCellLocal": {
+        "hip": [
+          330,
+          86
+        ],
+        "knee": [
+          435,
+          193
+        ],
+        "ankle": [
+          338,
+          320
+        ],
+        "toe": [
+          458,
+          376
+        ],
+        "sole": [
+          395,
+          394
+        ]
+      },
+      "pointsAtlas": {
+        "hip": [
+          1098,
+          598
+        ],
+        "knee": [
+          1203,
+          705
+        ],
+        "ankle": [
+          1106,
+          832
+        ],
+        "toe": [
+          1226,
+          888
+        ],
+        "sole": [
+          1163,
+          906
+        ]
+      },
+      "hipToKnee": 149.91330828182,
+      "kneeToAnkle": 159.80613254815975,
+      "footLiftRelativeToPlant": 75
+    }
+  ],
+  "operation": "Pillow project-authored bone-point/line engineering guide, not AI game art/nativeQQ anatomical evidence.",
+  "newModelGeneration": false,
+  "samePixelScaleIntent": true,
+  "actualOutputScaleApproved": false,
+  "materialReference": "../whole-leg-v1/whole-leg-v1.png",
+  "parentAuthoredPlantedTargets": "hip330,86/ankle338,395/toe458,451/soleY469. Raised retains approximate physical bone lengths through a true knee bend, ankle/sole75sourcepx higher.",
+  "projectedLiftMath": {
+    "sourceLift": 75,
+    "futureCandidateSourceToDesignScale": 0.24,
+    "fixedDesignToLogicalScale": 0.1266891891891892,
+    "logicalLiftIfThoseScalesAreLaterAccepted": 2.2804054054054057,
+    "notNativeScaleClaim": true
+  },
+  "nativePhase4IdentityConflict": "still unconfirmed, no source time or native support-side recovery claimed",
+  "nativeTimingMs": null,
+  "worldRoot": null,
+  "attachmentPivots": null,
+  "runtimeAdopted": false
+}

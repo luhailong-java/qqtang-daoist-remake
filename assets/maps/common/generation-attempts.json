@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "attempts": [
+    {
+      "prompt": "assets/maps/common/batch-a.prompt.txt",
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "time": "2026-10-28",
+      "result": "failed",
+      "error": "network error: error sending request",
+      "returnedImage": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "retryPending": false,
+      "resolvedBy": "assets/maps/common/props-a-v1.png.generation.json"
+    },
+    {
+      "retryPending": false,
+      "actualModel": null,
+      "returnedImage": false,
+      "tool": "image_gen.imagegen",
+      "error": "network error: error sending request",
+      "time": "2026-10-28T14:15:44.9399114Z",
+      "route": "builtin",
+      "actualQuality": null,
+      "prompt": "assets/maps/common/batch-d.prompt.txt",
+      "result": "failed",
+      "resolvedBy": "assets/maps/common/props-d-v1.png.generation.json"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/daoist-child-256.png",
+  "sha256": "e7c8ad42929d0d15a9d431c185cabbcd1599c49ca2f63db04cf843e918740e20",
+  "createdAt": "2026-10-28T23:58:26.214957+00:00",
+  "sourceRoleId": 9,
+  "identityId": "daoist-child",
+  "name": "道童",
+  "type": "derived_ui_portrait_candidate_existing_character_not_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/daoist-child.png",
+    "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+    "sourceCanvasSize": [
+      4096,
+      4096
+    ],
+    "sourceProvenanceRecord": "assets/characters/daoist-child.png.source.json",
+    "sourceGenerationRecord": "assets/characters/daoist-child.png.source.json",
+    "sourceGenerationRecordType": "historical source/provenance including generation evidence if present, not a new model receipt",
+    "nativeGenerationSize": null,
+    "nativeGenerationSizeEvidence": "Historical compatibility/export PNG dimensions only; native model generation dimensions unverified. Do not call4096 canvas native4K.",
+    "actualModel": null,
+    "actualQuality": null,
+    "provenanceSnapshot": {
+      "file": "assets/characters/daoist-child.png",
+      "name": "道童",
+      "identity": "金发带道童",
+      "legacyGameplaySlot": "maomao",
+      "adoptedOn": "2026-10-26",
+      "operation": "byte-for-byte copy; runtime SVG/Canvas source-rectangle display only; no new generation, editing, resize or resampling",
+      "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+      "width": 4096,
+      "height": 4096,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundingBoxLTRB": [
+        783,
+        239,
+        3309,
+        3861
+      ],
+      "runtimeSourceRectXYWH": [
+        783,
+        239,
+        2526,
+        3622
+      ],
+      "derivedFrom": {
+        "repository": "image",
+        "path": "q_daoist_character_pack_4096/00_reference_topright_boy_transparent_4096.png",
+        "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+        "manifest": "q_daoist_character_pack_4096/manifest.json"
+      },
+      "generation": {
+        "isNewGeneration": false,
+        "actualModel": null,
+        "actualQuality": null,
+        "nativeGenerationDimensions": null,
+        "unverifiedReason": "历史逐图模型/质量/原生尺寸回执当前缺失。4096为兼容导出画布，不能视作原生4K细节。"
+      },
+      "scope": "静态角色/头像/选角；未导入动作帧；不改变地图、碰撞、速度、容量、威力或角色相对显示槽位",
+      "visualNote": "透明轮廓细微洋红边沿沿用源图；未修色或AI重绘"
+    }
+  },
+  "operation": {
+    "kind": "one manually selected complete head/hair/headwear/face and upper collar ROI; whole ROI uniform premultiplied-alpha LANCZOS downscale and centered transparent256 canvas",
+    "sourceCropLTRB": [
+      1000,
+      150,
+      3280,
+      2150
+    ],
+    "sourceCropSize": [
+      2280,
+      2000
+    ],
+    "uniformScale": 0.1,
+    "resampledCropSize": [
+      228,
+      200
+    ],
+    "placementXY": [
+      14,
+      28
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "sourceMasterAndRecordActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      14,
+      37,
+      231,
+      228
+    ],
+    "alpha8MarginsLTRB": [
+      14,
+      37,
+      25,
+      28
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/daoist-child-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "Own spiky brown hair/yellow tied headband and tails, amber eyes/round smile and upper jade collar retained; natural V-hand/golden-gourd edges stay in source positions.",
+    "smallUIReadabilityBelow256Verified": false,
+    "fullHeadHairHeadwearFacePreserved": true
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

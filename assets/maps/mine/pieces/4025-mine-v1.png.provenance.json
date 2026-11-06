@@ -1,0 +1,81 @@
+{
+  "elementId": 4025,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4025-mine-v1.png",
+  "sha256": "34459c88850c224d1baecd8075c766236f9cf51e2444aa594d091d5319a74fd9",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-d-v1.png",
+    "sha256": "8a104215732b77e0e643405e4ff9f2816336bbd166e84bf100d904ec1a046c2c",
+    "generationRecord": "assets/maps/mine/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      485,
+      84,
+      770,
+      368
+    ],
+    "uniformScale": 0.5614035087719298,
+    "placementPx": [
+      0,
+      1
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4025-214372d1c5c7.png",
+    "sha256": "8c7390b7c182664f8ed052062b870666168025cdfd6bad2f5ecc5c8313400b11",
+    "representativeElementId": 4025,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3840
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0035714285714286,
+    "relativeAspectDeviation": 0.0035714285714285587,
+    "generatedCellLTRB": [
+      418,
+      0,
+      836,
+      418
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

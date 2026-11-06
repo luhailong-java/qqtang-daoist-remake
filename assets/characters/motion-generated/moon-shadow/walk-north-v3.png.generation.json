@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/walk-north-v3.png",
+  "sha256": "4a5abd0f5bf1824795b422dddb1d8261b6ee899d970e8157c392bf765bde287d",
+  "generatedAt": "2026-10-28T08:55:09.082225+00:00",
+  "timeEvidence": "UTC registration after builtin tool return, not provider creation metadata",
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/walk-north-v2.png",
+      "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具没有model/quality选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets/characters/motion-generated/moon-shadow/walk-north-v3.prompt.txt",
+  "promptSha256": "3f54a7b34c2e6cbb88b326d1c0b9572be6fe9e3912dc3e130f55fd735b1bb2ee",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/walk-north-v2.png",
+      "role": "edit target",
+      "sha256": "381bf49aaf7799c854fd8520511642f71d49e9e3de458f87925d339a38f7df9b"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "role": "original identity master",
+      "sha256": "c459e26a3ef58c02a46ca8b14655d377527630994b8dfe61b58a41e970b7ae3b"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-bbc7bfb3-7275-4180-a3ea-ab1a890e9682.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/moon-shadow/walk-north-v2.png",
+  "review": {
+    "identity": "silver bob, navy/gold scarf and twin daggers retained",
+    "rearGarment": "front buckle and front boot motifs corrected to rear sash and plain boot backs",
+    "gait": "frames1/3 now opposite strides; frames2/4 still repeat left planted/right sole lifted",
+    "failureReasons": [
+      "source_visible_halo_or_clipping_prevents_safe_ownership_export",
+      "frames2/4_support_leg_repeated"
+    ],
+    "sourceEdgePixelsAlphaGt8": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 18
+    }
+  },
+  "status": "not_passed",
+  "clientApproved": false,
+  "userAccepted": false
+}

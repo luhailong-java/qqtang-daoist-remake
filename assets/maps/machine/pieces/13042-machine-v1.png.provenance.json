@@ -1,0 +1,91 @@
+{
+  "elementId": 13042,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/machine/pieces/13042-machine-v1.png",
+  "sha256": "23370725058a6ec8bb73b46de47cafaf03f4576f0fe1e1dd817a1822c69c3c74",
+  "width": 800,
+  "height": 432,
+  "worldFrameWidth": 200,
+  "worldFrameHeight": 108,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/machine/props-e-v1.png",
+    "sha256": "d9ba7fd6e999a36e11178df05bd1d724f8f27152cdfd0db8b6902d09d79ca20f",
+    "generationRecord": "assets/maps/machine/props-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      41,
+      237,
+      531,
+      478
+    ],
+    "uniformScale": 1.6326530612244898,
+    "placementPx": [
+      0,
+      39
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13042-cc9cac4c54b1.png",
+    "sha256": "ede52aac91183d4b2d4f7b809f6b5c5949a9506d5ba60d76c690d229f30dbfa1",
+    "representativeElementId": 13042,
+    "nativeFrameSize": [
+      200,
+      108
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    5,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    38
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    8
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.8518518518518519,
+    "generatedVisibleAspect": 2.050632911392405,
+    "relativeAspectDeviation": 0.10734177215189855,
+    "generatedCellLTRB": [
+      20,
+      215,
+      540,
+      495
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.107-exceeds-0.100-review-required"
+    ]
+  }
+}

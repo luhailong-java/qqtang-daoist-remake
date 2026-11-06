@@ -1,0 +1,73 @@
+{
+  "itemId": 28021,
+  "category": "petcard",
+  "sourceName": "Q哥哥",
+  "sourceDescription": "具有天赋：声望之光，积分之光，勇气之光。",
+  "file": "assets/items/petcards/icons/28021-own-daoist-child-card.png",
+  "sha256": "db819eb8fb9a0b154dade8ec8beb6f77f03d5b257630596a3e7325bfde61fb0b",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-d-v1.png",
+    "sha256": "5c0f5d8f04d4bf989fde2fb0071f26365848f010b0b4719c9c79669fba5c6e42",
+    "generationRecord": "assets/items/petcards/petcards-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      490
+    ],
+    "contentBoxWithinCell": [
+      17,
+      18,
+      501,
+      485
+    ],
+    "sourceContentRect": [
+      1041,
+      18,
+      1525,
+      485
+    ],
+    "uniformScale": 0.4628099173553719,
+    "placementPx": [
+      16,
+      20
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28021.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "42642c00a63feef100cd74a87d2aff9f89de778c237966171c8bfa34ab124b5f",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28021.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "灵伴道童",
+  "projectIdentity": "道童",
+  "identityReference": "assets/items/petcards/references/canon/project-daoist-child.png",
+  "appearanceChoice": "new own Daoist Q pet appearance; original Tencent face omitted",
+  "identityReferenceSha256": "0bfa5d93142381a2ff43f3a944f3c37522b59219fd8e6f904b5dee584c33aede",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

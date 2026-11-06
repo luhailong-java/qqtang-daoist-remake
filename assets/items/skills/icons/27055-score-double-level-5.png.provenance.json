@@ -1,0 +1,65 @@
+{
+  "itemId": 27055,
+  "category": "skill",
+  "sourceName": "积分多多5级",
+  "sourceDescription": "宠物五级技能之一，有3%的概率使得获得的积分翻倍，同类型技能效果叠加，学习此技能以后不能学习其他五级技能。",
+  "file": "assets/items/skills/icons/27055-score-double-level-5.png",
+  "sha256": "e53d080eab1d2250bc23768e5741280b69851e8557152bd4e225a4b0b1072236",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-j-v1.png",
+    "sha256": "a0eda4921394e2cd302e120f69f6f85a0168a5a03e4780f50d05c7fdb05cdc10",
+    "generationRecord": "assets/items/skills/skills-j-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      83,
+      51,
+      446,
+      487
+    ],
+    "sourceContentRect": [
+      83,
+      51,
+      446,
+      487
+    ],
+    "uniformScale": 0.5137614678899083,
+    "placementPx": [
+      35,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27055.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "8015e129216a2440d02e3e01a35721706b3b4df0fce5051090b31c39a7f3c4ba",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27055.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

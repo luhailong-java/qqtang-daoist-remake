@@ -1,0 +1,7 @@
+/* The five-character title and readable tagline must fit the existing jade titlebar. */
+.game-brand h1,.game-shell.playing .game-brand h1{font-size:clamp(22px,2.5vw,32px);letter-spacing:1px;white-space:nowrap}
+.game-brand small,.game-shell.playing .game-brand small{font-size:12px;letter-spacing:.5px;white-space:nowrap}
+.login-panel h1{white-space:nowrap;font-size:clamp(25px,4vw,36px);letter-spacing:1px}
+.login-game-title{width:100%;margin:0 auto 4px;line-height:0}
+.login-game-title img{display:block;width:min(100%,340px);height:auto;margin:auto}
+@media(max-width:520px){.titlebar{flex-wrap:wrap}.top-status{flex-wrap:wrap;justify-content:flex-end}.game-brand{flex-shrink:0}}

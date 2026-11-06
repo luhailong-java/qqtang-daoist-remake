@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "source": "assets/ui/results/result-crests-v1.png",
+  "sourceSha256": "d5499082727cad4e4dd2194a79c4a7942638b8489087a520b344006d5292fc62",
+  "nativeSize": [
+    2032,
+    774
+  ],
+  "generationRecord": "assets/ui/results/result-crests-v1.png.generation.json",
+  "manualColumnCuts": [
+    675,
+    1360
+  ],
+  "sourceVisiblePixelsCrossingCuts": 0,
+  "entries": [
+    {
+      "id": "victory",
+      "label": "胜利",
+      "file": "assets/ui/results/victory.png",
+      "sha256": "4b0990e7e5645435592d43a316643f32e9b850feb67563a5875767ea1bf86df5",
+      "width": 512,
+      "height": 512,
+      "sourceCellRect": [
+        0,
+        0,
+        675,
+        774
+      ],
+      "contentBoxInCell": [
+        46,
+        64,
+        655,
+        709
+      ],
+      "uniformScale": 0.6945736434108527,
+      "operation": "crop and premultiplied-alpha LANCZOS uniform fit",
+      "newModelGeneration": false,
+      "visualAccepted": false,
+      "runtimeVisualAccepted": false
+    },
+    {
+      "id": "draw",
+      "label": "平局",
+      "file": "assets/ui/results/draw.png",
+      "sha256": "3a1e1f360427cf167303b0611721c18759792a3520cc560a947dd689bda05407",
+      "width": 512,
+      "height": 512,
+      "sourceCellRect": [
+        675,
+        0,
+        1360,
+        774
+      ],
+      "contentBoxInCell": [
+        20,
+        77,
+        649,
+        716
+      ],
+      "uniformScale": 0.701095461658842,
+      "operation": "crop and premultiplied-alpha LANCZOS uniform fit",
+      "newModelGeneration": false,
+      "visualAccepted": false,
+      "runtimeVisualAccepted": false
+    },
+    {
+      "id": "defeat",
+      "label": "再接再厉",
+      "file": "assets/ui/results/defeat.png",
+      "sha256": "20594dce850c36d1b2c3e88e8904666b04045105a5c53acbf534222143679f1f",
+      "width": 512,
+      "height": 512,
+      "sourceCellRect": [
+        1360,
+        0,
+        2032,
+        774
+      ],
+      "contentBoxInCell": [
+        44,
+        213,
+        639,
+        700
+      ],
+      "uniformScale": 0.7529411764705882,
+      "operation": "crop and premultiplied-alpha LANCZOS uniform fit",
+      "newModelGeneration": false,
+      "visualAccepted": false,
+      "runtimeVisualAccepted": false
+    }
+  ],
+  "runtimeUse": "src/result-art.js and showResult in src/app.js; server outcome determines state",
+  "visualAccepted": false,
+  "completeGameArt": false
+}

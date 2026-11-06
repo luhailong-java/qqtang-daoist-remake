@@ -1,0 +1,87 @@
+{
+  "elementId": 4072,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4072-mine-v1.png",
+  "sha256": "46b5dacf7be08730ecb0fd3406800a67349902f95435e601782a5836cf3c2fae",
+  "width": 456,
+  "height": 428,
+  "worldFrameWidth": 114,
+  "worldFrameHeight": 107,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-j-v1.png",
+    "sha256": "175b04adcf79d9d8f83559cfbdf6511892cc78dc0e64ba093b9ecfaf7b4c66ad",
+    "generationRecord": "assets/maps/mine/props-j-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      99,
+      122,
+      612,
+      542
+    ],
+    "uniformScale": 0.8888888888888888,
+    "placementPx": [
+      0,
+      55
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4072-8ea6315641dd.png",
+    "sha256": "5aade76bb48c919f9a01e31fa230342e524574fd28b55c0103626fdab993f139",
+    "representativeElementId": 4072,
+    "nativeFrameSize": [
+      114,
+      107
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    3,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    -5,
+    27
+  ],
+  "sourceFrameOffsetRaw": [
+    3,
+    9
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0654205607476634,
+    "generatedVisibleAspect": 1.2235576923076923,
+    "relativeAspectDeviation": 0.14842695681511486,
+    "generatedCellLTRB": [
+      0,
+      0,
+      627,
+      627
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.148-exceeds-0.100-review-required"
+    ]
+  }
+}

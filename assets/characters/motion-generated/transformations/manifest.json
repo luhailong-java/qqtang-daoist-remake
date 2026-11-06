@@ -1,0 +1,715 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-28T19:54:42.358Z",
+  "source": {
+    "repository": "kuuhaku1314/qqtang",
+    "commit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+    "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+    "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+    "evidenceRecord": "assets/characters/motion-generated/transformations/source-scene-catalog-evidence.json",
+    "semanticsIndependentlyVerified": false
+  },
+  "scope": "Eight scene-to-avatar mappings declared by fixed community NativeTransformation; not20 account-role candidates and not13 additional full models24–36",
+  "runtimeEnabled": false,
+  "fullAnimationComplete": false,
+  "totalMappedAvatars": 8,
+  "staticMasterCandidates": 8,
+  "entries": [
+    {
+      "sourceSceneId": 104,
+      "sourceAvatarRoleId": 41,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": "duck",
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 104,
+        "AvatarRoleID": 41,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": true,
+        "CanCollectItems": false,
+        "RecoverOnlyOnOpenCell": true,
+        "ReverseDirection": false,
+        "CanKickBomb": false,
+        "CanPushBreakable": false,
+        "SpeedRate": 0,
+        "HorizontalSpeedRate": 0,
+        "VerticalSpeedRate": 0,
+        "BombCapacity": 0,
+        "GrantedActionID": 0,
+        "GrantedActionCount": 0
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 41,
+        "sections": {
+          "stand": {
+            "body": "14101",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "14101",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player41.ini",
+          "bytes": 61,
+          "sha256": "5b7e761e640604741dfcb505b319081c668c0049d8a34c5b372aaa0b787f157c",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "qingyu-cloud-duck",
+        "name": "青羽云鸭",
+        "design": "玉绿羽冠、象牙鸭身、青金短道袍、云纹帽与圆短翅，蹼足；自有鸭形，不新增飞行表现",
+        "master": "assets/characters/motion-generated/transformations/avatar-41-qingyu-cloud-duck/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-41-qingyu-cloud-duck/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "b3f23cdec7123646fbf5d639582ea62a820871d1e2145d01914118985d35067a",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-41-qingyu-cloud-duck/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-41-qingyu-cloud-duck/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-41-qingyu-cloud-duck/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            260,
+            66,
+            1026,
+            1184
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 66,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    },
+    {
+      "sourceSceneId": 110,
+      "sourceAvatarRoleId": 42,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": "demon",
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 110,
+        "AvatarRoleID": 42,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": false,
+        "CanCollectItems": true,
+        "RecoverOnlyOnOpenCell": false,
+        "ReverseDirection": true,
+        "CanKickBomb": false,
+        "CanPushBreakable": false,
+        "SpeedRate": 8,
+        "HorizontalSpeedRate": 0,
+        "VerticalSpeedRate": 0,
+        "BombCapacity": 8,
+        "GrantedActionID": 0,
+        "GrantedActionCount": 0
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 42,
+        "sections": {
+          "stand": {
+            "body": "14201",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "14201",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player42.ini",
+          "bytes": 61,
+          "sha256": "816577064fd53c87e1a3539aef6eae0693f9860613450d7f0924acba1299aee5",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "ink-horn-fox",
+        "name": "墨角灵狸",
+        "design": "墨青大头灵狸、玉色小角/尖耳、象牙口鼻、短道袍、云卷单尾；圆润自有兽形",
+        "master": "assets/characters/motion-generated/transformations/avatar-42-ink-horn-fox/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-42-ink-horn-fox/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "2c0808875e4ec44fe414bbf02bcb8a5bfcc6ea8ad6adc9dc64f307a56ada698f",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-42-ink-horn-fox/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-42-ink-horn-fox/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-42-ink-horn-fox/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            111,
+            34,
+            1227,
+            1219
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 27,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    },
+    {
+      "sourceSceneId": 101,
+      "sourceAvatarRoleId": 43,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": null,
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 101,
+        "AvatarRoleID": 43,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": false,
+        "CanCollectItems": true,
+        "RecoverOnlyOnOpenCell": false,
+        "ReverseDirection": false,
+        "CanKickBomb": false,
+        "CanPushBreakable": false,
+        "SpeedRate": 0,
+        "HorizontalSpeedRate": 0,
+        "VerticalSpeedRate": 0,
+        "BombCapacity": 0,
+        "GrantedActionID": 0,
+        "GrantedActionCount": 0
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 43,
+        "sections": {
+          "stand": {
+            "body": "14301",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "14301",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player43.ini",
+          "bytes": 61,
+          "sha256": "5d4c32792c7f7c8c39e59f3237d603fa1d87ef059d1e63acf9fbd5b43d1278b7",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "ruyi-lingzhi-spirit",
+        "name": "如意芝灵",
+        "design": "如意云瓣青玉灵芝冠、象牙圆脸短身、米白玉绿短袍、两手两脚；来源43原名不作猜测",
+        "master": "assets/characters/motion-generated/transformations/avatar-43-ruyi-lingzhi-spirit/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-43-ruyi-lingzhi-spirit/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "7be3796b7e0eb7cf4d1603b793d43d3a74faf52bde23a668c351c7657a15a5bc",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-43-ruyi-lingzhi-spirit/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-43-ruyi-lingzhi-spirit/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-43-ruyi-lingzhi-spirit/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            90,
+            103,
+            1170,
+            1176
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 78,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    },
+    {
+      "sourceSceneId": 109,
+      "sourceAvatarRoleId": 44,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": "panda",
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 109,
+        "AvatarRoleID": 44,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": false,
+        "CanCollectItems": true,
+        "RecoverOnlyOnOpenCell": false,
+        "ReverseDirection": false,
+        "CanKickBomb": true,
+        "CanPushBreakable": true,
+        "SpeedRate": 0,
+        "HorizontalSpeedRate": 0,
+        "VerticalSpeedRate": 0,
+        "BombCapacity": 0,
+        "GrantedActionID": 0,
+        "GrantedActionCount": 0
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 44,
+        "sections": {
+          "stand": {
+            "body": "14401",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "14401",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player44.ini",
+          "bytes": 61,
+          "sha256": "3e7f01ec422dc584d81b0558b6e0ce13ec8a9abdd8e814e33eae5aa6b55ec167",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "jade-palm-bamboo-bear",
+        "name": "玉掌竹熊",
+        "design": "象牙圆大头熊、深玉耳/眼斑、青竹小髻、玉掌套、米白青绿短袍；敦实掌部剪影",
+        "master": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "c4c6f91056e7481b2d3b06d20b61eb1715658eca434bebda20fb0ccb1a35d884",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-44-jade-palm-bamboo-bear/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            231,
+            78,
+            1054,
+            1208
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 46,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    },
+    {
+      "sourceSceneId": 107,
+      "sourceAvatarRoleId": 45,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": "fast ghost",
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 107,
+        "AvatarRoleID": 45,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": false,
+        "CanCollectItems": true,
+        "RecoverOnlyOnOpenCell": false,
+        "ReverseDirection": false,
+        "CanKickBomb": false,
+        "CanPushBreakable": false,
+        "SpeedRate": 8,
+        "HorizontalSpeedRate": 0,
+        "VerticalSpeedRate": 0,
+        "BombCapacity": 0,
+        "GrantedActionID": 0,
+        "GrantedActionCount": 0
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 45,
+        "sections": {
+          "stand": {
+            "body": "14501",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "14501",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player45.ini",
+          "bytes": 61,
+          "sha256": "782308bd989a6af03e4c97c4385a6613a98181c6bfb68b19268d9facafeaf582",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "cloud-lantern-spirit",
+        "name": "轻云灯灵",
+        "design": "圆玉框米白纸灯脸、轻云冠、短玉绿袍/小云足、单流苏尾；光只在灯内，不烘焙外光晕",
+        "master": "assets/characters/motion-generated/transformations/avatar-45-cloud-lantern-spirit/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-45-cloud-lantern-spirit/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "bcc7a8b0d01a0b9713fa5dad5aae207bd8dfda36ad1efc7be0b6da2eff6c8037",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-45-cloud-lantern-spirit/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-45-cloud-lantern-spirit/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-45-cloud-lantern-spirit/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            227,
+            59,
+            1027,
+            1205
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 49,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    },
+    {
+      "sourceSceneId": 108,
+      "sourceAvatarRoleId": 46,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": "candy king",
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 108,
+        "AvatarRoleID": 46,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": false,
+        "CanCollectItems": true,
+        "RecoverOnlyOnOpenCell": false,
+        "ReverseDirection": false,
+        "CanKickBomb": false,
+        "CanPushBreakable": false,
+        "SpeedRate": 0,
+        "HorizontalSpeedRate": 0,
+        "VerticalSpeedRate": 0,
+        "BombCapacity": 8,
+        "GrantedActionID": 0,
+        "GrantedActionCount": 0
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 46,
+        "sections": {
+          "stand": {
+            "body": "14601",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "14601",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player46.ini",
+          "bytes": 61,
+          "sha256": "a000cf2b84a0faf54611c711ce6c4f031a1efa85605d3618fd80277d6e4fb5b9",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "golden-gourd-sage",
+        "name": "金葫胖仙",
+        "design": "金玉葫芦双圆身、上圆憨笑脸、小叶冠、下圆短袍、短手圆足；不复制现存道童",
+        "master": "assets/characters/motion-generated/transformations/avatar-46-golden-gourd-sage/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-46-golden-gourd-sage/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "8f73a2e6e2aba8e0da6864df3fa6c6da0500782aab546191864efa9da245d1da",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-46-golden-gourd-sage/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-46-golden-gourd-sage/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-46-golden-gourd-sage/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            206,
+            53,
+            1039,
+            1198
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 53,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    },
+    {
+      "sourceSceneId": 114,
+      "sourceAvatarRoleId": 54,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": "crab",
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 114,
+        "AvatarRoleID": 54,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": false,
+        "CanCollectItems": true,
+        "RecoverOnlyOnOpenCell": false,
+        "ReverseDirection": false,
+        "CanKickBomb": false,
+        "CanPushBreakable": false,
+        "SpeedRate": 0,
+        "HorizontalSpeedRate": 5,
+        "VerticalSpeedRate": 2,
+        "BombCapacity": 0,
+        "GrantedActionID": 0,
+        "GrantedActionCount": 0
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 54,
+        "sections": {
+          "stand": {
+            "body": "15401",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "15401",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player54.ini",
+          "bytes": 61,
+          "sha256": "5648034b703ce81dffbe142804587e3f92b66b03cf7f7f3fa008d73ada2941ac",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "jade-shell-crab",
+        "name": "碧甲灵蟹",
+        "design": "青玉如意云纹圆甲、象牙面、短眼柄、两大玉钳与紧凑小蟹足、朱砂绳结；自有蟹形",
+        "master": "assets/characters/motion-generated/transformations/avatar-54-jade-shell-crab/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-54-jade-shell-crab/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "8b5cbfc1387159ce93a8df1539d6649331df4a8a5feb2474f863cf69742fabed",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-54-jade-shell-crab/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-54-jade-shell-crab/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-54-jade-shell-crab/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            76,
+            265,
+            1182,
+            1057
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 72,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    },
+    {
+      "sourceSceneId": 115,
+      "sourceAvatarRoleId": 55,
+      "namespace": "temporary battlefield avatar, separate from account role IDs",
+      "communityCommentAlias": "axe gang",
+      "legacyNameVerified": false,
+      "sourceDefinition": {
+        "SceneID": 115,
+        "AvatarRoleID": 55,
+        "DurationMS": 30000,
+        "TraverseStaticTerrain": false,
+        "CanCollectItems": true,
+        "RecoverOnlyOnOpenCell": false,
+        "ReverseDirection": false,
+        "CanKickBomb": false,
+        "CanPushBreakable": false,
+        "SpeedRate": 0,
+        "HorizontalSpeedRate": 0,
+        "VerticalSpeedRate": 0,
+        "BombCapacity": 0,
+        "GrantedActionID": 46,
+        "GrantedActionCount": 9
+      },
+      "sourceDefinitionStatus": "Transcribed literal assignments/default zero values from fixed community NativeTransformation source. Function semantics/callback use/runtime behavior not independently verified.",
+      "zeroValueCaution": "Zero is retained as source default field; do not infer zero movement/capacity or invent fallback semantics.",
+      "nativePlayerIni": {
+        "id": 55,
+        "sections": {
+          "stand": {
+            "body": "15501",
+            "leg": "1"
+          },
+          "walk": {
+            "body": "15501",
+            "leg": "1"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/Player55.ini",
+          "bytes": 61,
+          "sha256": "697367a1bfb0f0315b6298140838fa6ed7a94ee913e3fa33b43e24257bed246d",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "ownIdentity": {
+        "id": "jade-stone-axe-child",
+        "name": "青岩钺童",
+        "design": "青灰玉石方圆大头、平顶石纹短发块、杏眼、米白包布和玉绿短甲、短腿双小钺；自有石偶",
+        "master": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/master.png",
+        "plannedMaster": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/master.png",
+        "staticMasterStatus": "static_source_candidate_single_ivory_alpha_reviewed_pending_anchor_client",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "sha256": "ed428ebda40175fa8eeada670a07026ecbf300db69644fe5ec464fdb9ff9eaca",
+        "generationRecord": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/master.png.generation.json",
+        "actualModel": null,
+        "actualQuality": null,
+        "singleSourceAlpha": {
+          "record": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/qa/alpha-review.json",
+          "ivoryPreview": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/qa/master-ivory.jpg",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBoxLTRB": [
+            33,
+            44,
+            1223,
+            1220
+          ],
+          "outerEdgeAlpha8Counts": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "minimumMarginPixels": 31,
+          "ivoryPreviewActuallyViewed": true,
+          "previewObservation": "No obvious colored aura in the actually viewed900px ivory composite; not pixel-perfect or client approval. Alpha0 hidden RGB not treated as failure."
+        },
+        "runtimeEnabled": false,
+        "clientApproved": false,
+        "fullAnimationComplete": false
+      }
+    }
+  ]
+}

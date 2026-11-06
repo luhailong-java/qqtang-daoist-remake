@@ -1,0 +1,65 @@
+{
+  "itemId": 27077,
+  "category": "skill",
+  "sourceName": "亲密多多7级",
+  "sourceDescription": "宠物七级技能之一，有3%的概率使得获得的亲密翻倍，同类型技能效果叠加，学习此技能以后不能学习其他七级技能。",
+  "file": "assets/items/skills/icons/27077-affinity-double-level-7.png",
+  "sha256": "d52ccd66df93c0bdecbf7672bb2aa8cb2ea31604d52aaeaa67a459c283124fc5",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-m-v1.png",
+    "sha256": "0096560f83b9c38ac696a0abae93031ef41d0880988485066fafa1512d74aadb",
+    "generationRecord": "assets/items/skills/skills-m-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      84,
+      43,
+      459,
+      454
+    ],
+    "sourceContentRect": [
+      596,
+      555,
+      971,
+      966
+    ],
+    "uniformScale": 0.5450121654501217,
+    "placementPx": [
+      26,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27077.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "b35f1b6def6e96350fd77cbd06b2223b77e9a499c9450c9829dab80af9e62d0f",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27077.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

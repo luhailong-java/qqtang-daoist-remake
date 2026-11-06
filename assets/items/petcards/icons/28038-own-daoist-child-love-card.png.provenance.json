@@ -1,0 +1,73 @@
+{
+  "itemId": 28038,
+  "category": "petcard",
+  "sourceName": "爱情Q哥哥",
+  "sourceDescription": "有憨态可掬的外形，渴望美好的爱情。具有天赋：积分闪耀5%，材料闪耀5%，亲密闪耀5%。",
+  "file": "assets/items/petcards/icons/28038-own-daoist-child-love-card.png",
+  "sha256": "2075ec6a51ade1252c97515e77ffa6900320babed365132dce0d346b747164e7",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-g-v1.png",
+    "sha256": "455687154bfb38aebdb6b1d7c477df1cd28ea2ab7e27ad4c9a62c21335d5c854",
+    "generationRecord": "assets/items/petcards/petcards-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      0,
+      1024,
+      490
+    ],
+    "contentBoxWithinCell": [
+      23,
+      16,
+      486,
+      489
+    ],
+    "sourceContentRect": [
+      535,
+      16,
+      998,
+      489
+    ],
+    "uniformScale": 0.47357293868921774,
+    "placementPx": [
+      18,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28038.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "35d807b61b4eb79bf96ad718f8321a28cfa9ccc4be93a2eb53d2dd7221dfdb49",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28038.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "结缘道童",
+  "projectIdentity": "道童",
+  "identityReference": "assets/items/petcards/icons/28021-own-daoist-child-card.png",
+  "appearanceChoice": "explicit own Daoist Q appearance replacing source identity, no historical ID link or MMO attributes",
+  "identityReferenceSha256": "db819eb8fb9a0b154dade8ec8beb6f77f03d5b257630596a3e7325bfde61fb0b",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

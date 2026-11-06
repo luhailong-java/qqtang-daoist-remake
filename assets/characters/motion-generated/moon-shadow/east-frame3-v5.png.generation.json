@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/east-frame3-v5.png",
+  "sha256": "c16834c6fcad20ac4e72f6efffaeae86088b4331b897ac0352d38c4b761880ee",
+  "generatedAt": "2026-10-28T13:46:59.127Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/east-frame3-edit-target-v5.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/east-frame3-pose-guide-v5.png",
+      "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/moon-shadow/east-frame3-v5.prompt.txt",
+  "promptSha256": "9f6883dff7439c0792811aad894724e86c5532ee68e60ae5235f79a5bb615d00",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/east-frame3-edit-target-v5.png",
+      "role": "single frame edit target",
+      "sha256": "c3153d0ca6e0559b2f2bb404dd5ecc59c133aa89b02bbb7488855b7682dc6c5b"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/moon-shadow/east-frame3-pose-guide-v5.png",
+      "role": "reference-only joint/pose diagram; never runtime art",
+      "sha256": "1d66a2a06018f1f3ff0de8b25b95d073f658a13680ea894ac864aa73843272da"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/runtime/moon-shadow.png",
+      "role": "exact original identity master",
+      "sha256": "c459e26a3ef58c02a46ca8b14655d377527630994b8dfe61b58a41e970b7ae3b"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-de34f5be-2763-4584-8a5f-0e3e43276ac7.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/moon-shadow/east-frame3-edit-target-v5.png",
+  "review": {
+    "type": "single AI-redrawn opposite-contact gait frame, not a code moved/mirrored limb",
+    "target": "near toe relative hip negative, far toe positive",
+    "visual": "left trailing leg now extends down/back rather than being lifted; both connected legs and right-facing toes visible",
+    "pending": [
+      "root must confirm foreground/near thigh really reversed, not assume from changed silhouette",
+      "actual returned1024x1536 differs from requested512x768; later whole-image uniform0.5 normalization needed",
+      "source alpha/outer tips and shared root QA"
+    ],
+    "runtimeEnabled": false
+  },
+  "status": "source_pending_alpha_anchor_and_runtime_review",
+  "clientApproved": false,
+  "userAccepted": false
+}

@@ -1,0 +1,73 @@
+{
+  "registeredAfterFailureAtUTC": "2026-11-02T12:42:15.7385616+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "status": "failed_no_image",
+  "promptFile": "assets/items/head-adornments/prompts/world-39-d.prompt.txt",
+  "submittedPromptSha256": "616b6d8ec4c41df6e2997ca78f444feeabbf68e76822721da3db20f9e122640c",
+  "submittedParameters": {
+    "quality": null,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world/39/source-phases-d.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/icons/39-daoist-collector-basket.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/world/world-39-c-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world/39/source-phases-d.png",
+      "sha256": "d831ef120a5a96e1f962242cc4ffc20d99c889ce60fa72e97126b85028dc3a96"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/icons/39-daoist-collector-basket.png",
+      "sha256": "6099a008e88cae30f5288cae998dbc930f8ac2ef322072e85052addbc5a5094f"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/world/world-39-c-v1.png",
+      "sha256": "774be877fa91b3864fd0841111c49a30852aeebb8b122488576feaee5897fbf8"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "returnedArtifact": null,
+  "generationCountReturned": 0,
+  "error": {
+    "httpStatus": 429,
+    "message": "The usage limit has been reached",
+    "resets_at": 1793676896,
+    "type": "usage_limit_reached",
+    "plan_type": "pro",
+    "limit_window_minutes": 1440,
+    "resetAtUTC": "2026-11-03T03:34:56Z",
+    "resetAtAmericaNewYork": "2026-11-02T22:34:56-05:00",
+    "resets_in_seconds": 55797
+  },
+  "resolution": "Continue validation/code/publication of existing work; do not add a paid route or credentials",
+  "completeGameArt": false
+}

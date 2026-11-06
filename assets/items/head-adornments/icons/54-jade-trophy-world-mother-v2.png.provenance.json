@@ -1,0 +1,163 @@
+{
+  "itemId": 54,
+  "category": "thadorn",
+  "sourceName": "足球杯",
+  "sourceDescription": "世界足球奖杯。可以装饰自己游戏的角色。",
+  "file": "assets/items/head-adornments/icons/54-jade-trophy-world-mother-v2.png",
+  "sha256": "c7df94f851cf7382334737338748bd0f71f34c29636fef1d58f87608d71f297b",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/world/world-54-b-v1.png",
+    "sha256": "0d5e383f767997408a15e9b94fea17e8fa0290a5f710efed65a196d2991c7f9d",
+    "generationRecord": "assets/items/head-adornments/world/world-54-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      768,
+      512
+    ],
+    "contentBoxWithinCell": [
+      84,
+      53,
+      707,
+      479
+    ],
+    "sourceContentRect": [
+      84,
+      53,
+      707,
+      479
+    ],
+    "uniformScale": 0.3595505617977528,
+    "placementPx": [
+      16,
+      51
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-54-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "relatedFrameCandidate": "assets/items/head-adornments/world/54/frame-000-54-b-v1.png",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "projectDisplayName": "云玉蹴鞠杯",
+  "sourceReferenceSha256": "9671c4266045455e9437d681352f19e5239d812f4791d4f197284610883ad623",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-54-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    33,
+    37
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    11,
+    10
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn19_stand.img",
+      "sourceSha256": "e7d3cba192feb54c59f11d08b13fbe0c091898c485456708e80a149d49a91682",
+      "byteLength": 8864,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 4,
+      "directions": 1,
+      "unknownHeaderWords24And28": [
+        33,
+        6
+      ],
+      "declaredCanvas": [
+        33,
+        26
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          33,
+          2
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          33,
+          22
+        ],
+        "unknownImageHeaderWord": 72
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn19_walk.img",
+      "sourceSha256": "e7d3cba192feb54c59f11d08b13fbe0c091898c485456708e80a149d49a91682",
+      "byteLength": 8864,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 4,
+      "directions": 1,
+      "unknownHeaderWords24And28": [
+        33,
+        6
+      ],
+      "declaredCanvas": [
+        33,
+        26
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          33,
+          2
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          33,
+          22
+        ],
+        "unknownImageHeaderWord": 72
+      }
+    }
+  ],
+  "worldStaticMasterProduced": true,
+  "worldFrameCandidatesProduced": 4,
+  "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
+  "completeAnimationProduced": false,
+  "worldStatus": "declared frame candidates present; timing, geometry and runtime not accepted",
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory reslice of original-painted world mother; not the small world export enlarged",
+  "appearanceChoice": "reuse same-item world mother crop after world geometry correction; no new model generation",
+  "accepted": false,
+  "checksPending": [
+    "alpha-and-small-size-review",
+    "runtime-adoption"
+  ],
+  "resliceReason": "same-item world mother reuse after world geometry correction; old isolated white neighbor fragment no longer visible, alpha still unaccepted"
+}

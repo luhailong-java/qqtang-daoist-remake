@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "reviewedAtUTC": "2026-10-29T06:21:04.528Z",
+  "sourceProposalSha256": "cb4271d16867c7534ae13d6750d19e45c59ff435631f1ef37ad9465f3ac6518a",
+  "status": "two_passing_static_candidates_shared_offset_lift_measured",
+  "actuallyViewed": [
+    {
+      "file": "two-passing-627-ivory.png",
+      "sha256": "5296790bd52313bbb9691c2e86ea4f810e28e5e1dda15fe35750577484e54c85"
+    },
+    {
+      "file": "two-passing-96-ivory.png",
+      "sha256": "9b9df73e81afe7b8be8ae7634b983ed308a99972b8483dfc8e7b97253f10532c"
+    }
+  ],
+  "nativeCropsIndividuallyActuallyViewed": [
+    "near_R_planted.png",
+    "near_R_raised.png",
+    "far_L_planted.png",
+    "far_L_raised.png"
+  ],
+  "manualSourceCapPointsVisible": true,
+  "capPixelEvidence": "Cap samples are near-opaque ivory at252–253alpha in current source. All chosen heel/toe/sole points are current visible pixels; far planted sole is threshold-edgealpha8 and remains manually uncertain.",
+  "sharedNewLegScale": 0.24,
+  "familyArtImageOffset": [
+    0,
+    -12.84
+  ],
+  "fixedBoneHips": {
+    "nearR": [
+      307,
+      439
+    ],
+    "farL": [
+      319,
+      438
+    ]
+  },
+  "sourceCapAfterPlacement": {
+    "nearR": [
+      307,
+      426.16
+    ],
+    "farL": [
+      319,
+      425.16
+    ]
+  },
+  "effectiveImagePivotIsAnatomicalClaim": false,
+  "fixedUpperArmRingMatricesUnchanged": true,
+  "observations": {
+    "posing": "P1near planted/far raised andP2near raised/far planted show actual bent knee and visible boot lift with consistent screen-right toes. Not an old whole leg rotated or source image warped.",
+    "hips": "White source caps mostly hide under the existing torso/hem after one common family image placement. No extra hem/gold hip ring added. Bonehip and paintedcap positions are explicitly different; do not relabel effective pivot as source anatomy.",
+    "scale": "Boot material/size is broadly compatible with old0.24 legs, no per-part or per-pose scale fit. This is one visual static comparison, not a measured native physical unit proof.",
+    "depth": "P2near raised boot obscures a substantial part of far planted ankle/lower leg; the lower far boot remains visible. Keep this overlap as a future motion/readability concern.",
+    "sourceMapping": "Source indices1/2/4/5 persistent anatomical identity and contact correspondence remain unconfirmed. TwoP poses do not establish six-phase source alignment or a loop.",
+    "small": "Whole627 square uniformly resized96; actor about68px high. Identity/gourd and a foot lift can be recognized, but overlapping ankles/boots become crowded; small view alone cannot certify limb identity."
+  },
+  "measurements": [
+    {
+      "pose": "P1",
+      "planted": [
+        "near_R_planted",
+        {
+          "state": "planted",
+          "manualSoleY": 528.88,
+          "manualSoleResidual": 0.37999999999999545,
+          "renderedLegAlpha8BBoxExclusive": [
+            294,
+            417,
+            353,
+            529
+          ],
+          "lowestVisiblePixelRow": 528,
+          "clearanceToPixelCenter": 0.5,
+          "clearanceToPixelBottom": -0.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        }
+      ],
+      "raised": [
+        "far_L_raised",
+        {
+          "state": "raised",
+          "manualSoleY": 509.64000000000004,
+          "manualSoleResidual": -18.859999999999957,
+          "renderedLegAlpha8BBoxExclusive": [
+            308,
+            417,
+            371,
+            511
+          ],
+          "lowestVisiblePixelRow": 510,
+          "clearanceToPixelCenter": 18.5,
+          "clearanceToPixelBottom": 17.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        }
+      ],
+      "actualFootBottomDifferenceBetweenLegs": 18,
+      "liftedLowestPixelBottomClearanceDesign": 17.5,
+      "liftedLowestPixelBottomClearanceLogicalUsingPriorFixedScale": 2.217060810810811
+    },
+    {
+      "pose": "P2",
+      "planted": [
+        "far_L_planted",
+        {
+          "state": "planted",
+          "manualSoleY": 528.12,
+          "manualSoleResidual": -0.37999999999999545,
+          "renderedLegAlpha8BBoxExclusive": [
+            291,
+            418,
+            339,
+            529
+          ],
+          "lowestVisiblePixelRow": 528,
+          "clearanceToPixelCenter": 0.5,
+          "clearanceToPixelBottom": -0.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        }
+      ],
+      "raised": [
+        "near_R_raised",
+        {
+          "state": "raised",
+          "manualSoleY": 511.36,
+          "manualSoleResidual": -17.139999999999986,
+          "renderedLegAlpha8BBoxExclusive": [
+            296,
+            417,
+            360,
+            513
+          ],
+          "lowestVisiblePixelRow": 512,
+          "clearanceToPixelCenter": 16.5,
+          "clearanceToPixelBottom": 15.5,
+          "clearanceScope": "Current isolated leg rendered at0.24 after the same family placement, before occluding torso; not native physical contact/timing."
+        }
+      ],
+      "actualFootBottomDifferenceBetweenLegs": 16,
+      "liftedLowestPixelBottomClearanceDesign": 15.5,
+      "liftedLowestPixelBottomClearanceLogicalUsingPriorFixedScale": 1.9636824324324327
+    }
+  ],
+  "manualPlantedSoleY": {
+    "P1": 528.88,
+    "P2": 528.12
+  },
+  "manualPlantedResidual": {
+    "P1": 0.38,
+    "P2": -0.38
+  },
+  "actualPlantedLowestPixelRowBoth": 528,
+  "actualPlantedLowestPixelBottomBoth": 529,
+  "candidateArtGroundY": 528.5,
+  "sourceNativeGroundClaim": false,
+  "requestedRaised75SourcePxTargetMetForBoth": false,
+  "unchangedFixedDrawScaleRecommendation": {
+    "designToLogical": 0.1266891891891892,
+    "source": "../../passing-leg-audit-20261029/current-static-alpha-scale.json",
+    "noPerPoseBboxNormalization": true
+  },
+  "currentActorAlpha8Bounds": [
+    {
+      "pose": "P1",
+      "bbox": [
+        111,
+        88,
+        449,
+        529
+      ]
+    },
+    {
+      "pose": "P2",
+      "bbox": [
+        111,
+        88,
+        449,
+        529
+      ]
+    }
+  ],
+  "sourceNativeTimingMs": null,
+  "worldRoot": null,
+  "sourcePoseIdentityMappingApproved": false,
+  "sixPhaseComplete": false,
+  "fullStaticCoordinatorApproved": false,
+  "runtimeEnabled": false,
+  "fullAnimationAccepted": false,
+  "newAiImages": 0,
+  "renderBatches": 1,
+  "extraRenders": 0,
+  "nextAction": "Preserve this one static batch with actual residuals/lift and depth concerns, no auto-refit, AI retry or second assembly. Coordinator decides next independent work."
+}

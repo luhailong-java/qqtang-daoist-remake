@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/06_thunder_caster_boy-256.png",
+  "sha256": "4ac2476f06708e6529a60f0a87a9a97fdb92f2a77bfcedb932ff2156ba6699fa",
+  "createdAt": "2026-10-29T00:04:52.851803+00:00",
+  "sourceRoleId": 6,
+  "identityId": "06_thunder_caster_boy",
+  "name": "雷法",
+  "type": "derived_ui_portrait_candidate_existing_character_not_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/roster-candidates/06_thunder_caster_boy/master.png",
+    "sha256": "abdfbe1fdc243ea6360a5d588f9ff1294fa2f0d43876d8b63aa452ec4889cd31",
+    "sourceCanvasSize": [
+      4096,
+      4096
+    ],
+    "sourceProvenanceRecord": "assets/characters/roster-candidates/06_thunder_caster_boy/source.json",
+    "sourceGenerationRecord": "assets/characters/roster-candidates/06_thunder_caster_boy/source.json",
+    "sourceGenerationRecordType": "historical source/provenance including generation evidence if present, not a new model receipt",
+    "nativeGenerationSize": null,
+    "nativeGenerationSizeEvidence": "Historical compatibility/export PNG dimensions only; native model generation dimensions unverified. Do not call4096 canvas native4K.",
+    "actualModel": null,
+    "actualQuality": null,
+    "provenanceSnapshot": {
+      "schema": "qqtang.roster-candidate-source.v1",
+      "status": "candidate_static_master_pending_roster_acceptance",
+      "characterId": "06_thunder_caster_boy",
+      "name": "雷法少年",
+      "copiedAtUTC": "2026-10-26T15:58:30.411848+00:00",
+      "file": "assets/characters/roster-candidates/06_thunder_caster_boy/master.png",
+      "operation": "byte-for-byte copy; no generation, editing, crop, resize, resampling or color change",
+      "source": {
+        "repository": "image",
+        "absolutePath": "D:\\work\\image\\q_daoist_character_pack_4096\\06_thunder_caster_boy_transparent_4096.png",
+        "repositoryRelativePath": "q_daoist_character_pack_4096/06_thunder_caster_boy_transparent_4096.png",
+        "manifest": "q_daoist_character_pack_4096/manifest.json",
+        "manifestSchema": "qdao.portraits.v6",
+        "manifestStatus": "static_art_only",
+        "manifestExpectedSHA256": "abdfbe1fdc243ea6360a5d588f9ff1294fa2f0d43876d8b63aa452ec4889cd31",
+        "manifestMatchesCurrentFile": true,
+        "declaredCreationMethod": "individual built-in image_gen redraw + skill cleanup",
+        "declaredPerImageRecord": "q_daoist_character_pack_4096/records/06_thunder_caster_boy_transparent_4096.json",
+        "declaredPerImageRecordExists": false
+      },
+      "sha256": "abdfbe1fdc243ea6360a5d588f9ff1294fa2f0d43876d8b63aa452ec4889cd31",
+      "bytes": 8588401,
+      "format": "PNG",
+      "pngSignatureHex": "89504e470d0a1a0a",
+      "isLFSPointer": false,
+      "width": 4096,
+      "height": 4096,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundingBoxLTRB": [
+        744,
+        241,
+        3349,
+        3859
+      ],
+      "generation": {
+        "isNewGeneration": false,
+        "nativeGenerationDimensions": null,
+        "configuredTargetAtOriginalGeneration": null,
+        "actualSubmittedModel": null,
+        "actualSubmittedQuality": null,
+        "actualReturnedModel": null,
+        "actualReturnedQuality": null,
+        "unconfirmedReason": "Historical per-image generation records are absent. README says native output was usually 1254x1254, but this does not establish the native dimensions or actual model/quality of this individual image. 4096 is a compatibility export canvas."
+      },
+      "visualInspection": {
+        "performed": true,
+        "date": "2026-10-26",
+        "method": "Viewed current source PNG with view_image; display resized by viewer to 1600x1600, file dimensions verified separately by Pillow",
+        "status": "candidate; target-background alpha-edge, face differentiation and client scale acceptance pending",
+        "note": "Fine magenta fringe remains on some transparent contours; source pixels preserved."
+      },
+      "runtime": {
+        "adopted": false,
+        "gameplaySlot": null,
+        "propertyChanges": false,
+        "actionsImported": false,
+        "codeChanged": false
+      },
+      "scope": "Static master candidate for selection portrait/avatar or later approved art work. Not a full animation set, gameplay-property mapping, final roster acceptance or complete-game-art delivery."
+    }
+  },
+  "operation": {
+    "kind": "one manually selected complete head/hair/headwear/face and upper collar ROI; whole ROI uniform premultiplied-alpha LANCZOS downscale and centered transparent256 canvas",
+    "sourceCropLTRB": [
+      1100,
+      140,
+      3380,
+      2140
+    ],
+    "sourceCropSize": [
+      2280,
+      2000
+    ],
+    "uniformScale": 0.1,
+    "resampledCropSize": [
+      228,
+      200
+    ],
+    "placementXY": [
+      14,
+      28
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "sourceMasterAndRecordActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      14,
+      38,
+      220,
+      228
+    ],
+    "alpha8MarginsLTRB": [
+      14,
+      38,
+      36,
+      28
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/06_thunder_caster_boy-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "Complete short knot/yellow ribbons and Taiji forehead ornament, warm eyes and yellow/white/navy collar retained; talisman/weapon edges stay in place.",
+    "smallUIReadabilityBelow256Verified": false,
+    "fullHeadHairHeadwearFacePreserved": true
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

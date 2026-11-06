@@ -1,0 +1,80 @@
+{
+  "file": "assets/items/head-adornments/world/world-39-d-v2.png",
+  "sha256": "07ff7868f240edd59e5284c3641d5e16b45e022a7bb59fe63372cf23b0effa35",
+  "generatedAt": "2026-11-04T16:31:16.047Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/head-adornments/world/world-39-d-v1.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world/39/source-phases-d.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ],
+    "prompt": "Edit the two separately drawn original Daoist collectible baskets in reference 1. Same two identities, full contents, and two phases, but the previous physical drawings are too tall. Redraw the shapes and positions, do not simply squeeze the image or leave a glow. Exactly two separate RGBA sprites on one 1536x1024 alpha canvas. Place left at center x390 and right at x1140, objects occupy x90–690 and x840–1440, leaving a wide clear gutter. LEFT whole silhouette visible width 600px and height 470px (ratio 1.28). RIGHT whole silhouette visible width 600px and height 440px (ratio 1.36). Basket rim spans most of the width, broaden basket and keep short woven base. Lower gourd/fan behind the centered child, make scroll more diagonal and lower for left. In the right phase, sink the same child's face 30px farther into the basket and turn the left scroll a little more upright. Keep a small visible height difference. Reference 2 defines phase structure and compact dimensions only; use our boy in ref1, no animal or Tencent face. Reference 3/4 are required warm-gold jade ivory Q hand-painted style. Preserve warm metal, bamboo, soft painted shadow only on objects. Wide true-alpha margin, NO glow, halo, shadow on background, text, trim frames or scenery, no extraneous objects. Two clearly separated sprites, each with complete edges and contained contents."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets/items/head-adornments/prompts/world-39-d-v2.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/world/world-39-d-v1.png",
+      "purpose": "style reference",
+      "sha256": "fcf829ff220e8da8fb9192ac39a716af94d152f456795c9b7c0300c8fb606e55"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world/39/source-phases-d.png",
+      "purpose": "structure and functional content reference only",
+      "sha256": "d831ef120a5a96e1f962242cc4ffc20d99c889ce60fa72e97126b85028dc3a96"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a17789-9eaa-7ed3-b597-50d6259dbf2c/exec-c341031a-3df9-4d6c-a93b-0c22f0a234d5.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in model redraw using v1 as edit reference; no nonuniform scale",
+  "nativeDimensions": true,
+  "submittedPromptSha256": "be407880e3f17bcb9353b8729c3295c0fe00e5d73e2efee88fba106b6ce1e766",
+  "editTarget": "assets/items/head-adornments/world/world-39-d-v1.png"
+}

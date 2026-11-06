@@ -1,0 +1,164 @@
+{
+  "itemId": 1354,
+  "category": "thadorn",
+  "sourceName": "UFO降落",
+  "sourceDescription": "神秘的飞船出现在夜空，会带你去哪个遥远的星球呢。",
+  "file": "assets/items/head-adornments/icons/1354-jade-alchemy-flying-saucer.png",
+  "sha256": "46f8517bffd2e0484fbdcf3cfd3090fe88240caf6a8cce12510705bfae42da21",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-c-v1.png",
+    "sha256": "e24c8cb34e797848aad15eb43cba59ebcfba3d35bc61376b44e4d7b5f1d3b239",
+    "generationRecord": "assets/items/head-adornments/head-adornments-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      512,
+      520,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      19,
+      68,
+      513,
+      431
+    ],
+    "sourceContentRect": [
+      19,
+      580,
+      513,
+      943
+    ],
+    "uniformScale": 0.4534412955465587,
+    "placementPx": [
+      16,
+      45
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-1354-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "324b604894f4ae1979a0b0b06eceec5e9e6143bc0a3a9e06f13ea84cff0ab65c",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-1354-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn50_stand.img",
+      "sourceSha256": "183b83967b60ae734e32a1acbcefeca3c6643cd9a579c9815dec0a1d11ae996d",
+      "byteLength": 369760,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          20,
+          0
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          64,
+          66
+        ],
+        "unknownImageHeaderWord": 128
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn50_walk.img",
+      "sourceSha256": "183b83967b60ae734e32a1acbcefeca3c6643cd9a579c9815dec0a1d11ae996d",
+      "byteLength": 369760,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          20,
+          0
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          64,
+          66
+        ],
+        "unknownImageHeaderWord": 128
+      }
+    }
+  ],
+  "worldStaticMasterProduced": true,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "云玉飞舟",
+  "appearanceChoice": "new Daoist Q inventory appearance; source function retained, source literal TOP/title presentation replaced by numbered crown for weekly award icons",
+  "worldFrameCandidatesProduced": 24,
+  "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
+  "worldStatus": "declared frame candidates present; timing, geometry and runtime not accepted"
+}

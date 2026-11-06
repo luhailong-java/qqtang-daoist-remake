@@ -1,0 +1,166 @@
+{
+  "itemId": 3932,
+  "category": "thadorn",
+  "sourceName": "月亮之光[积分",
+  "sourceDescription": "我是你的月亮，带给你温馨与柔美，你是我的依赖，让每天都满载希望。[携带此道具，所获积分增加1%。",
+  "file": "assets/items/head-adornments/icons/3932-ivory-jade-moon-heart.png",
+  "sha256": "f7afe255de4136e01256de6375ecf1e68ce8b2d0edcf33a0a423f57a5cbb8941",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-f-v1.png",
+    "sha256": "75f17e6ac84982030f2df869d5cde8cc5522d16760893544b92a373bc73bd320",
+    "generationRecord": "assets/items/head-adornments/head-adornments-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "contentBoxWithinCell": [
+      59,
+      72,
+      512,
+      451
+    ],
+    "sourceContentRect": [
+      571,
+      72,
+      1024,
+      451
+    ],
+    "uniformScale": 0.49448123620309054,
+    "placementPx": [
+      16,
+      34
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-3932-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "right"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "9b97cef670d47bee25ea53c4e3f7882f71373c5e999d0e9999ecb4ebe63e31bf",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-3932-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    25,
+    40
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    18,
+    13
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn93_stand.img",
+      "sourceSha256": "9305c4c0c8dd0e8dcc1e32a298c2d31e776cd263b9b875423c7ad3d4547a0a0d",
+      "byteLength": 42889,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          35,
+          4
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          24,
+          23
+        ],
+        "unknownImageHeaderWord": 48
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn93_walk.img",
+      "sourceSha256": "9305c4c0c8dd0e8dcc1e32a298c2d31e776cd263b9b875423c7ad3d4547a0a0d",
+      "byteLength": 42889,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          35,
+          4
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          24,
+          23
+        ],
+        "unknownImageHeaderWord": 48
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "清月心辉",
+  "appearanceChoice": "original Daoist Q inventory icon; source role retained, wearer master and animation remain unproduced",
+  "sourceEffectHint": "source description retains +1% score gain; image does not invent or alter numeric stats"
+}

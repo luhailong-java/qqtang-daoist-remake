@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/jade-craft-artisan-256.png",
+  "sha256": "662abdcf370a3c7869169e1bc3f04afd77b31277f218000557529feedc53471b",
+  "createdAt": "2026-10-28T23:39:59.676078+00:00",
+  "sourceRoleId": 14,
+  "identityId": "jade-craft-artisan",
+  "name": "玉匠",
+  "type": "derived_ui_portrait_candidate_not_new_character_or_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+    "sha256": "7f3fd753d50e84e9085f9332a90f03f99583efe2396cd0579c15e0e84977eb44",
+    "actualSourceCanvas": [
+      1254,
+      1254
+    ],
+    "sourceGenerationRecord": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png.generation.json",
+    "nativeGenerationSizeFromRecord": [
+      1254,
+      1254
+    ],
+    "actualModel": null,
+    "actualQuality": null,
+    "generationTime": "2026-10-28T17:30:03.704Z",
+    "sourceAlpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "sourceCanvasSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSizeEvidence": "Original own master generation record actually reports1254x1254; portrait downscale is not new generation."
+  },
+  "operation": {
+    "kind": "one manual rectangular whole ROI crop then uniform premultiplied-alpha LANCZOS shrink and centered transparent placement",
+    "sourceCropLTRB": [
+      320,
+      45,
+      1004,
+      654
+    ],
+    "sourceCropSize": [
+      684,
+      609
+    ],
+    "uniformScale": 0.3333333333333333,
+    "resampledCropSize": [
+      228,
+      203
+    ],
+    "placementXY": [
+      14,
+      26
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "selectionReason": "Complete bob, both short braids and left cloud clip/beads, freckled face and collar. Neighbouring mallet/cloud fragments remain at natural source-edge positions; no component erase or reposition.",
+    "sourceMasterActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceOrHatSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      14,
+      37,
+      238,
+      229
+    ],
+    "alpha8MarginsLTRB": [
+      14,
+      37,
+      18,
+      27
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/jade-craft-artisan-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "Full black bob/short braids, LEFT cloud clip/beads, olive eyes and freckles remain clear. Natural mallet/cloud edges remain at bottom sides.",
+    "visibleSolidHaloObserved": false,
+    "fullHeadHairHeadwearFacePreserved": true,
+    "smallUIReadabilityBelow256Verified": false
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

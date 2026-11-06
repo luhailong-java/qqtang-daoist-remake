@@ -1,0 +1,81 @@
+{
+  "elementId": 4008,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4008-mine-v1.png",
+  "sha256": "2ee54318b82b2995b965dff5cabe40132ec61b3c3a4160e3e3d6eec77f5b2efe",
+  "width": 176,
+  "height": 256,
+  "worldFrameWidth": 44,
+  "worldFrameHeight": 64,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-b-v1.png",
+    "sha256": "31d6d0c425775f433971d36c24019cbdf9b4d55d84b483018204d954bf08c217",
+    "generationRecord": "assets/maps/mine/props-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      622,
+      92,
+      915,
+      492
+    ],
+    "uniformScale": 0.6006825938566553,
+    "placementPx": [
+      0,
+      16
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4008-ab33591c3258.png",
+    "sha256": "10f627bafb12a3c950b5f13fa723a34d53b57e176b97d634b587a6cc004adbdc",
+    "representativeElementId": 4008,
+    "nativeFrameSize": [
+      44,
+      64
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    4,
+    20
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.6875,
+    "generatedVisibleAspect": 0.7297979797979798,
+    "relativeAspectDeviation": 0.06152433425160697,
+    "generatedCellLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

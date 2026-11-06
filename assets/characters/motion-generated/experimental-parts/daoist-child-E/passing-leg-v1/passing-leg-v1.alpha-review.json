@@ -1,0 +1,109 @@
+{
+  "file": "passing-leg-v1.png",
+  "sha256": "f35ce07c273f96d048344c1f1b55e71caf5ebc90eb1e16be1d12fd79ed5fc11e",
+  "actualNativeSize": [
+    1536,
+    1024
+  ],
+  "inspectedAtUTC": "2026-10-29T04:47:32.396399+00:00",
+  "alphaMin": 0,
+  "alphaMax": 254,
+  "threshold": 8,
+  "alpha8Count": 237849,
+  "alpha8BBoxExclusive": [
+    358,
+    22,
+    1276,
+    983
+  ],
+  "alpha8OuterEdges": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+  },
+  "nominalCenterLines": {
+    "xHalfMinus1": 0,
+    "xHalf": 0,
+    "yHalfMinus1": 0,
+    "yHalf": 0
+  },
+  "cellObservations": [
+    {
+      "id": "near_R_planted",
+      "inspectionCell": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "alpha8BBoxInCellExclusive": [
+        363,
+        22,
+        609,
+        490
+      ],
+      "alpha8Count": 60548,
+      "scope": "Nominal cell alpha observation only, not an asset crop, ownership approval, anatomical landmark or sourceRoot."
+    },
+    {
+      "id": "near_R_raised",
+      "inspectionCell": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "alpha8BBoxInCellExclusive": [
+        192,
+        27,
+        458,
+        428
+      ],
+      "alpha8Count": 59967,
+      "scope": "Nominal cell alpha observation only, not an asset crop, ownership approval, anatomical landmark or sourceRoot."
+    },
+    {
+      "id": "far_L_planted",
+      "inspectionCell": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "alpha8BBoxInCellExclusive": [
+        358,
+        8,
+        560,
+        471
+      ],
+      "alpha8Count": 59603,
+      "scope": "Nominal cell alpha observation only, not an asset crop, ownership approval, anatomical landmark or sourceRoot."
+    },
+    {
+      "id": "far_L_raised",
+      "inspectionCell": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "alpha8BBoxInCellExclusive": [
+        242,
+        14,
+        508,
+        409
+      ],
+      "alpha8Count": 57731,
+      "scope": "Nominal cell alpha observation only, not an asset crop, ownership approval, anatomical landmark or sourceRoot."
+    }
+  ],
+  "nominalCellLowestVisiblePixelLiftProxy": {
+    "nearR": 62,
+    "farL": 62
+  },
+  "proxyWarning": "Lower alpha bbox edges are a visible-height proxy before any shared hip registration, not measured sole/ankle coordinates or accepted lift. Do not treat as native timing/ground.",
+  "operation": "Decode this one new atlas only, alpha observation and native full-canvas ivory composite; no crop/fit/binding/animation.",
+  "hiddenRgbIsNotAlphaFailure": true,
+  "runtimeAdopted": false
+}

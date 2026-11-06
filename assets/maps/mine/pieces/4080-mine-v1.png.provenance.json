@@ -1,0 +1,92 @@
+{
+  "elementId": 4080,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4080-mine-v1.png",
+  "sha256": "672fdffa5677125a8ef9c2e0be9f4e3f9f72ac7419626c1cff26c44656585668",
+  "width": 492,
+  "height": 700,
+  "worldFrameWidth": 123,
+  "worldFrameHeight": 175,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-j-v1.png",
+    "sha256": "175b04adcf79d9d8f83559cfbdf6511892cc78dc0e64ba093b9ecfaf7b4c66ad",
+    "generationRecord": "assets/maps/mine/props-j-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      123,
+      644,
+      542,
+      1227
+    ],
+    "uniformScale": 1.1742243436754176,
+    "placementPx": [
+      0,
+      15
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4080-e5ecaa38dac2.png",
+    "sha256": "092e45f652fbc262a2912dadc3b6fd41a2776e39e29788e06d25f016e400662b",
+    "representativeElementId": 4080,
+    "nativeFrameSize": [
+      123,
+      175
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    3,
+    4
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    2,
+    8
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.7028571428571428,
+    "generatedVisibleAspect": 0.7167530224525043,
+    "relativeAspectDeviation": 0.019770560399904547,
+    "generatedCellLTRB": [
+      0,
+      627,
+      627,
+      1254
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

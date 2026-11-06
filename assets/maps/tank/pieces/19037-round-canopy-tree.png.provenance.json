@@ -1,0 +1,111 @@
+{
+  "elementId": 19037,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/tank/pieces/19037-round-canopy-tree.png",
+  "sha256": "e84df6af7bc75611a951768e4b237d23a40c7f717445d37a24c0d1fde2f155e3",
+  "width": 200,
+  "height": 264,
+  "worldFrameWidth": 50,
+  "worldFrameHeight": 66,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    5,
+    25
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/tank/binary/props-b-v1.png",
+    "sha256": "6b471e770322e965c30eecd00650d401ebd6dad3838d823248020d78ac872b87",
+    "generationRecord": "assets/maps/tank/binary/props-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      581,
+      45,
+      1003,
+      503
+    ],
+    "uniformScale": 0.47393364928909953,
+    "placementPx": [
+      0,
+      47
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.21624454148471628,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "internal-silhouette-and-original-map-render-unverified",
+    "visible-aspect-deviation-over-10-percent"
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 19037,
+      "recordOffset": 1296,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        5,
+        25
+      ],
+      "lifeTimeRaw": -1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        0
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "accepted": false,
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-19037.png",
+    "sha256": "304693ae5cbeada96c54ae58210622284c71d540bf625f029d9a1ee61ece45ea"
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffsetRaw": [
+    5,
+    25
+  ],
+  "sourceFrameOffsetRaw": [
+    6,
+    15
+  ],
+  "canHide": null,
+  "canDoSpecial": null,
+  "qa": {
+    "sourceVisibleAspect": 0.7575757575757576,
+    "generatedVisibleAspect": 0.9192139737991266,
+    "relativeAspectDeviation": 0.21336244541484706,
+    "warnings": [
+      "source-image-id-and-client-anchor-unverified",
+      "internal-silhouette-and-original-map-render-unverified",
+      "visible-aspect-deviation-over-10-percent"
+    ]
+  }
+}

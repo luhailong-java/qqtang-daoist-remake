@@ -1,0 +1,84 @@
+{
+  "elementId": 13040,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/machine/pieces/13040-machine-v1.png",
+  "sha256": "08ed9abd6170b1a10bcf277cc2baa4db43e46a5aab69b4ce5838cd326ab36730",
+  "width": 300,
+  "height": 344,
+  "worldFrameWidth": 75,
+  "worldFrameHeight": 86,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/machine/props-d-v1.png",
+    "sha256": "8dff4ba6829cd23ea335f02a5bb53547057f52e5cf63c4c4aad2c19cc8d93dea",
+    "generationRecord": "assets/maps/machine/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1086,
+      534,
+      1493,
+      975
+    ],
+    "uniformScale": 0.7371007371007371,
+    "placementPx": [
+      0,
+      19
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13040-51b943211474.png",
+    "sha256": "2575530e12eaa2b46773a44859c3d8fb58da546ddd898c8463ec6f613b6e446e",
+    "representativeElementId": 13040,
+    "nativeFrameSize": [
+      75,
+      86
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    2,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    -2,
+    6
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.872093023255814,
+    "generatedVisibleAspect": 0.9221967963386728,
+    "relativeAspectDeviation": 0.05745232646834486,
+    "generatedCellLTRB": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

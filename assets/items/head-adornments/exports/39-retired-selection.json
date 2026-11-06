@@ -1,0 +1,145 @@
+{
+  "selectedPhase6": {
+    "itemId": 39,
+    "sourceFrameIndex": 6,
+    "sourcePhaseIndex": 6,
+    "directionIndex": null,
+    "directionSemantic": null,
+    "file": "assets/items/head-adornments/world/39/frame-006-39-a6fix-v2.png",
+    "sha256": "ea4822c8e2279e770937aade3469ae225ee4f2e09e13af248413637bc4db31f5",
+    "width": 164,
+    "height": 116,
+    "logicalFrameSize": [
+      41,
+      29
+    ],
+    "exportDensity": 4,
+    "frameOffsetRaw": [
+      31,
+      4
+    ],
+    "frameOffsetPxAtDensity4": [
+      124,
+      16
+    ],
+    "sourceReference": {
+      "file": "assets/items/head-adornments/references/world/39/frame-006.png",
+      "sha256": "4e4addbc87984be13575754588c5b0b54a662f4a0e27bde4fe74023ecda01bef",
+      "record": "assets/items/head-adornments/references/world/39/frame-006.png.source.json"
+    },
+    "derivedFrom": {
+      "file": "assets/items/head-adornments/world/world-39-a6fix-v2.png",
+      "sha256": "83e472f46511cdc0f8294c98ea87a6eb47e75ce08f290b8013f34470b7a6610c",
+      "generationRecord": "assets/items/head-adornments/world/world-39-a6fix-v2.png.generation.json"
+    },
+    "operation": {
+      "type": "crop-uniform-fit-original-world-alpha-envelope",
+      "newModelGeneration": false,
+      "sourceCellRectLTRB": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "generatedContentBBoxAt16": [
+        33,
+        135,
+        442,
+        398
+      ],
+      "sourceLogicalAlphaBBoxAt16": [
+        0,
+        0,
+        41,
+        29
+      ],
+      "uniformScale": 0.40097799511002447,
+      "placementPx": [
+        0,
+        11
+      ],
+      "resampler": "premultiplied-alpha LANCZOS",
+      "registration": "source alpha envelope centred X and bottom aligned Y; raw frame offset untouched"
+    },
+    "frameDurationMs": null,
+    "loop": null,
+    "geometryAccepted": false,
+    "visualAccepted": false,
+    "runtimeAdopted": false,
+    "accepted": false,
+    "qa": {
+      "sourceVisibleAspect": 1.4137931034482758,
+      "generatedVisibleAspect": 1.5551330798479088,
+      "relativeAspectDeviation": 0.09997217842900863
+    },
+    "warnings": [
+      "native head-layer origin, sign and actor attachment unverified",
+      "source timing not supplied; do not invent frame duration",
+      "per-frame source phase, silhouette and alpha edges await review"
+    ],
+    "imagePhaseRepresentativeIndex": 6,
+    "sourceNativeFrameRecord": {
+      "index": 6,
+      "offset": 22513,
+      "rawMarker": 0,
+      "frameOffset": [
+        31,
+        4
+      ],
+      "pixelMode": 3,
+      "width": 41,
+      "height": 29,
+      "unknownImageHeaderWord": 88,
+      "empty": false,
+      "pixelDataOffset": 22541,
+      "pixelByteLength": 3567,
+      "encodedPixelSha256": "a59783ea7ce22f8a05e315958cb6a24dbaff09e6d2025d119cb2c29c0a974b22"
+    },
+    "provenanceRecord": "assets/items/head-adornments/world/39/frame-006-39-a6fix-v2.png.provenance.json",
+    "rasterImageShared": false,
+    "rasterAliasOfSourceFrameIndex": null,
+    "rasterAliasEvidence": "same encoded SHA/native width/height/pixel mode; rawOffset is this position's own",
+    "frameWithinDirection": null,
+    "directionCardinalOrder": null,
+    "positionWithinRawEnvelope": [
+      6,
+      15
+    ]
+  },
+  "retiredPixelFiles": [
+    {
+      "file": "assets/items/head-adornments/world/world-39-a6fix2-v3.png",
+      "sha256": "bbdf8e0d8acaba69bbd9ebd9d2bab68a601ec1fa5f69e1aae763e983a5f499db",
+      "bytes": 2466910
+    },
+    {
+      "file": "assets/items/head-adornments/world/39/frame-006-39-a6fix2-v3.png",
+      "sha256": "316e39fa820cab42bdec732a292ea6b02d3f305712a6f69719b127bbde3bcdbd",
+      "bytes": 33335
+    },
+    {
+      "file": "assets/items/head-adornments/exports/39-a6fix2-gray-composite-inspection.png",
+      "sha256": "26af507e2d322e5e22afb4771d3a253614e3f848e11701562b1e63e83131bff8",
+      "bytes": 26089
+    },
+    {
+      "file": "assets/items/head-adornments/world/39/frame-006-39-a-v1.png",
+      "sha256": "b81b25217da0f52e02ba926171634e0e4e04bfe1d0991fe741ce152edea2708d",
+      "bytes": 39677
+    }
+  ],
+  "rejectedTake": {
+    "name": "39-a6fix2-v3",
+    "reason": "real alpha>=16 crosses crop boundary; visible envelope deviation26.32%; not adopted",
+    "visibleBoundarySamples": 284
+  },
+  "previousAspectDeviations": [
+    0.11818035943517335,
+    0.09997217842900863,
+    0.263211382113821
+  ],
+  "deletionScope": "Four verified inactive project pixel files only; keep all generation/quality/source text and host cache; current selected candidate and source mothers remain",
+  "generationCountReturned": 5,
+  "currentSourceMothers": 4,
+  "runtimeAdopted": false
+}

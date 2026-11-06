@@ -1,0 +1,68 @@
+{
+  "scope": "Observations on displayed current single-image generations; not a full alpha/image QA scan",
+  "accepted": false,
+  "heavyWorkHold": true,
+  "items": [
+    {
+      "entityId": 30039,
+      "status": "pending",
+      "issue": "Clockwork axis silhouette was prompted hexagonal but displayed candidate appears softly octagonal; resolve identity design before acceptance."
+    },
+    {
+      "entityId": 30094,
+      "status": "pending",
+      "issue": "Displayed native master contains a small isolated pale mark above upper-right star lobe; inspect and remove isolated alpha component after individual QA authorization/window.",
+      "repairStatus": "pending",
+      "selectedVersion": "v1",
+      "attempts": 2,
+      "repairObservation": "v2 and v3 retained isolated upper-right dot, unselected; stop same point after two unsuccessful attempts"
+    },
+    {
+      "entityId": 30102,
+      "status": "pending",
+      "issue": "Ten blunt spines requested; front-three-quarter candidate shows fewer clearly visible caps. Confirm intentional occlusion/design count before acceptance."
+    },
+    {
+      "entityId": 30109,
+      "status": "pending",
+      "issue": "Displayed right ear is close to image edge; verify alpha bounds and sufficient production padding before acceptance.",
+      "repairStatus": "partial-pending",
+      "selectedVersion": "v2",
+      "attempts": 1,
+      "repairObservation": "displayed ear padding slightly improved, still narrower than requested8%; full alpha bounds not accepted"
+    },
+    {
+      "entityId": 30040,
+      "status": "pending",
+      "issue": "Small isolated dot visible outside right arm; inspect current master alpha component before acceptance.",
+      "repairStatus": "target-improved-not-accepted",
+      "selectedVersion": "v2",
+      "attempts": 1,
+      "repairObservation": "displayed isolated dot outside right arm removed; full alpha/in-game QA pending"
+    },
+    {
+      "entityId": 30076,
+      "status": "pending",
+      "issue": "Small isolated marks visible above quill fan; alpha component cleanup still required.",
+      "repairStatus": "pending",
+      "selectedVersion": "v1",
+      "attempts": 1,
+      "repairObservation": "v2 still showed floating marks above quill fan; unselected"
+    },
+    {
+      "entityId": 30077,
+      "status": "pending",
+      "issue": "Small isolated mark below front claw and narrow lateral padding; alpha component and bounds check still required.",
+      "repairStatus": "partial-pending",
+      "selectedVersion": "v2",
+      "attempts": 1,
+      "repairObservation": "displayed dot below front claw removed; lateral padding remains narrow and unaccepted"
+    }
+  ],
+  "globalLimitations": [
+    "All masters remain static candidates, no action/phase frames",
+    "No runtime integration or full-family image QA performed",
+    "Transparent native outputs may require edge cleanup; no blanket acceptance inferred from alpha extrema"
+  ],
+  "repairReceipt": "static-delivery-receipt.json"
+}

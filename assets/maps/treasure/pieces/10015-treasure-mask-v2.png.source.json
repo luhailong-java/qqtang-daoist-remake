@@ -1,0 +1,108 @@
+{
+  "elementId": 10015,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/treasure/pieces/10015-treasure-mask-v2.png",
+  "sha256": "6317e93fd5fa328ccbd6e7c19036a5de43e6eeddf59cc558e95fb87740b99bb3",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    0
+  ],
+  "mapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10015-77b3175e2dc5.png",
+    "sha256": "cdc7112b0ceff376631939e0a64bd214a84d15bb99af76346469ce95e6866767",
+    "representativeElementId": 10015,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/maps/treasure/batch-03/sheet-v1.png",
+      "sha256": "9f4eabc2a9fa3567587e5ac9512b659bee3b5af113dec17c245c6e149a812b24",
+      "generationRecord": "assets/maps/treasure/batch-03/sheet-v1.png.generation.json",
+      "purpose": "new painted lava RGB"
+    },
+    {
+      "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+      "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+      "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json",
+      "purpose": "new painted volcanic-stone RGB, no mushrooms in selected crop"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10015-77b3175e2dc5.png",
+      "sha256": "cdc7112b0ceff376631939e0a64bd214a84d15bb99af76346469ce95e6866767",
+      "purpose": "bank-versus-lava region mask only; no source RGB reused"
+    }
+  ],
+  "operation": {
+    "type": "reference-region-mask-new-image-texture-composite",
+    "newModelGeneration": false,
+    "resampled": true,
+    "lavaSourceRectLTRB": [
+      150,
+      170,
+      310,
+      330
+    ],
+    "stoneSourceRectLTRB": [
+      1290,
+      286,
+      1440,
+      436
+    ],
+    "textureOriginalAlphaExtrema": {
+      "lava": [
+        250,
+        253
+      ],
+      "stone": [
+        251,
+        254
+      ]
+    },
+    "alphaNormalization": "interior alpha>=250 to255; RGB unchanged",
+    "sourcePixelColoursReused": false,
+    "maskClassifier": "bank: B>=12 or (G>=0.32R and R<180); complement lava",
+    "logicalMaskSize": [
+      40,
+      40
+    ],
+    "logicalMaskSha256": "e5394580c83e8abdd523e865b7b16f971de5b4632d43672883e795a14b846624",
+    "maskResampler": "NEAREST",
+    "bankPixels": 228,
+    "lavaPixels": 1372
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "terrainOpaqueCanvasVerified": true,
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "seamlessVerified": false,
+  "anchorStatus": "source render offset remains unverified",
+  "status": "painted-lava-composite-awaiting-region-seam-and-in-game-validation",
+  "warnings": [
+    "bank-mask-classification-needs-visual-comparison",
+    "tile-seams-not-yet-accepted"
+  ]
+}

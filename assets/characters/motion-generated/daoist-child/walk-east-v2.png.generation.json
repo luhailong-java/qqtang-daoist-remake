@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/walk-east-v2.png",
+  "sha256": "6dbe1a5e7c85e3bf7769b70e73e92e90de9676d94c272ad75f55f70b6265a545",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 18:50:31 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 18:52:28 UTC"
+    }
+  },
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case identity-preserve. Transparent hand-painted game asset: ONE horizontal strip of FOUR EAST WALK frames.\nInput1 is the exact identity master: Original boy: spiky dark-brown short hair, broad yellow-gold headband tied at anatomical LEFT temple, amber eyes, cheerful round face, ivory Taoist robe and loose trousers, jade-green gold-edged overcoat with cloud embroidery, taiji belt and bells/beads, jade/cream gold-edged boots. Golden taiji gourd held in LEFT hand only. No sword/staff/new prop. Images2/3 are primary Taoist chibi hand-painted style ONLY, no UI/background/people. Image4 is the existing SOUTH action set ONLY for the same body volume, clothing/material detail and clean paint finish. Rotate the subject to the required side view; do not keep its front camera.\nExactly ONE ROW of FOUR equal columns, preferably2048x768. Actual transparent alpha, no text/labels/grid/floor/shadows/particles. SAME camera, figure size, torso center and ground reference in every cell. Fit the whole character, hair/scarf/ribbons and held props inside each cell with at least14% side and15% top/bottom safe transparent margins. Make the figure smaller to protect tips, never crop or let it cross into another cell.\nAll four figures face directly EAST / RIGHT in a clean side view, nose/toes point right, no front view. The anatomical RIGHT leg is the NEAR leg, a clear front layer; anatomical LEFT leg is FAR, partially occluded. The LEFT gourd arm is the FAR arm, so the gourd may be partly occluded but never switches to the near right hand.\n1 LEFT/FAR FOOT FORWARD: far left leg extends toward RIGHT at x66%,y84%; NEAR RIGHT leg trails LEFT at x36%,y82%. Near thigh/shin must slope BACK/LEFT, not forward.\n2 LEFT/FAR SUPPORT, RIGHT/NEAR PASS: far left boot planted beneath hip x52%,y84%; NEAR RIGHT knee bends forward RIGHT, raised near boot x61%,y72%. Legs close/cross.\n3 RIGHT/NEAR FOOT FORWARD: NEAR RIGHT leg extends toward RIGHT at x66%,y84%, large clear near boot in front layer; FAR LEFT leg trails LEFT x36%,y82%. Near thigh/shin must now slope FORWARD/RIGHT, exact opposite from1.\n4 RIGHT/NEAR SUPPORT, LEFT/FAR PASS: NEAR RIGHT boot planted below hip x52%,y84%; FAR LEFT knee bends forward/right behind the near thigh, raised far boot x61%,y72%. Opposite planted/passing leg from2.\nFour genuinely different alternating near/far leg poses. Frames1/3 must NOT use the same near-leg orientation, and2/4 must NOT lift the same near leg. Keep near/far layer ordering clear at knees, trouser cuffs and boots so the reversal can be verified. Opposite arm swing, traveling posture, no jumping or attack. Do not mirror a whole figure, duplicate a pose, switch handedness, change face/clothing, or change head/body volume. Small controlled cloth follow-through only. Maximum clean fine Taoist Q-version hand-painted detail.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-south-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具仅返回image_url/output_hint，没有可核实版本、质量或精确生成时刻。",
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/daoist-child/walk-east-v2.receipt.json",
+    "submission": "assets/characters/motion-generated/daoist-child/walk-east-v2.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "prompt": {
+    "path": "assets/characters/motion-generated/daoist-child/walk-east-v2.prompt.txt",
+    "sha256": "aa75ee97c4ce3221d3e5b5b82da1a5689485b607ecc474248714a0c6857bcf6d"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style"
+    },
+    {
+      "inputIndex": 4,
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-south-v2.png",
+      "sha256": "9d4aba929cca2b22bbda6d8d96270c72f201db229f169eef114c8a8f649304a7",
+      "role": "adopted south action body/finish reference"
+    }
+  ],
+  "status": "not_passed",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "direction": "E",
+    "identity": "original character recognizable; phase/side issues separately listed",
+    "transparency": "actual alpha; ivory/dark composition reviewed; hidden RGB excluded",
+    "gait": "not_passed",
+    "failureReasons": [
+      "opposite_leg_phase_not_established: frames1/3 or2/4 retain the same leading/support limb"
+    ],
+    "note": "Different PNG hashes do not establish different gait phases."
+  }
+}

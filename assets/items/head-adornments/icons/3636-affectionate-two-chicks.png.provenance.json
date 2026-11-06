@@ -1,0 +1,165 @@
+{
+  "itemId": 3636,
+  "category": "thadorn",
+  "sourceName": "恩爱咕咕鸡",
+  "sourceDescription": "自然的气息就在头上顶着，午后的田园村光时刻分享。",
+  "file": "assets/items/head-adornments/icons/3636-affectionate-two-chicks.png",
+  "sha256": "216f8334d62868f1442cb4bf8cc614b23f20f4abf9db1c0db8b23a4b9dcb34b6",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-e-v1.png",
+    "sha256": "1d9477a795bd4fea9188675ad52288f5d8881fe3772a23b270caaa941a5c2939",
+    "generationRecord": "assets/items/head-adornments/head-adornments-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      545,
+      512,
+      1024,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      21,
+      46,
+      479,
+      420
+    ],
+    "sourceContentRect": [
+      566,
+      558,
+      1024,
+      932
+    ],
+    "uniformScale": 0.4890829694323144,
+    "placementPx": [
+      16,
+      36
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-3636-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "right"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "24a1b474109e636b6387d16c2b5fe2565549ab5e1958781138560325b821c62d",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-3636-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn87_stand.img",
+      "sourceSha256": "94bd84086a7ec9175f424abf1a45d859773a9346675d6feb6c032017a134737d",
+      "byteLength": 118564,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          37,
+          6
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          26,
+          39
+        ],
+        "unknownImageHeaderWord": 56
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn87_walk.img",
+      "sourceSha256": "94bd84086a7ec9175f424abf1a45d859773a9346675d6feb6c032017a134737d",
+      "byteLength": 118564,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          37,
+          6
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          26,
+          39
+        ],
+        "unknownImageHeaderWord": 56
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "恩爱双雏",
+  "appearanceChoice": "new original Daoist Q inventory design; source team/character/commemoration appearance not copied, source role and attributes preserved"
+}

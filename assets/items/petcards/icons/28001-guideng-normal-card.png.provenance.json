@@ -1,0 +1,70 @@
+{
+  "itemId": 28001,
+  "category": "petcard",
+  "sourceName": "普通的酷比",
+  "sourceDescription": "没什么天赋。",
+  "file": "assets/items/petcards/icons/28001-guideng-normal-card.png",
+  "sha256": "a59d3e640871e047cc588ea29ea3fcd11da04d28c72441a59d78841e6b0edf0c",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-a-v1.png",
+    "sha256": "1875dcd81ac48e3005c14dd06f4dbc11946271f2ef25233909f23a23ab7846bb",
+    "generationRecord": "assets/items/petcards/petcards-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      46,
+      66,
+      467,
+      476
+    ],
+    "sourceContentRect": [
+      46,
+      66,
+      467,
+      476
+    ],
+    "uniformScale": 0.5320665083135392,
+    "placementPx": [
+      16,
+      19
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28001.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "5cb600a656773bef7543efaed350dd6f209ac0282fcf276fce072e0a3d6ab966",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28001.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "普通桂灯童",
+  "projectIdentity": "桂灯童",
+  "identityReference": "assets/items/petcards/references/canon/04-guideng.png",
+  "identityReferenceSha256": "5162ad6c61ab228dc7d0be1beefc7c6f9ed940d880b7d23648fae941559df309",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

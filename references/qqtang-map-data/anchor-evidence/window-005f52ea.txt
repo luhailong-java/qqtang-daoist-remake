@@ -1,0 +1,36 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-005f52ea.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+005f52ea <.text>:
+  5f52ea: 57                           	push	edi
+  5f52eb: 33 ff                        	xor	edi, edi
+  5f52ed: 39 7c 24 08                  	cmp	dword ptr [esp + 0x8], edi
+  5f52f1: 75 04                        	jne	0x5f52f7 <.text+0xd>
+  5f52f3: 33 c0                        	xor	eax, eax
+  5f52f5: 5f                           	pop	edi
+  5f52f6: c3                           	ret
+  5f52f7: 56                           	push	esi
+  5f52f8: 8b 35 14 dd 85 00            	mov	esi, dword ptr [0x85dd14]
+  5f52fe: 3b f7                        	cmp	esi, edi
+  5f5300: 74 26                        	je	0x5f5328 <.text+0x3e>
+  5f5302: ff 76 04                     	push	dword ptr [esi + 0x4]
+  5f5305: ff 74 24 10                  	push	dword ptr [esp + 0x10]
+  5f5309: e8 ae ad 02 00               	call	0x6200bc <.text+0x2add2>
+  5f530e: 59                           	pop	ecx
+  5f530f: 85 c0                        	test	eax, eax
+  5f5311: 59                           	pop	ecx
+  5f5312: 74 05                        	je	0x5f5319 <.text+0x2f>
+  5f5314: 8b 76 14                     	mov	esi, dword ptr [esi + 0x14]
+  5f5317: eb e5                        	jmp	0x5f52fe <.text+0x14>
+  5f5319: ff 74 24 14                  	push	dword ptr [esp + 0x14]
+  5f531d: ff 74 24 14                  	push	dword ptr [esp + 0x14]
+  5f5321: ff 56 0c                     	call	dword ptr [esi + 0xc]
+  5f5324: 59                           	pop	ecx
+  5f5325: 8b f8                        	mov	edi, eax
+  5f5327: 59                           	pop	ecx
+  5f5328: 8b c7                        	mov	eax, edi
+  5f532a: 5e                           	pop	esi
+  5f532b: 5f                           	pop	edi
+  5f532c: c3                           	ret

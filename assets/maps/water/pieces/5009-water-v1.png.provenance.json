@@ -1,0 +1,86 @@
+{
+  "elementId": 5009,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5009-water-v1.png",
+  "sha256": "052070ebb623a1c3d2196e8eca61a704eb447d2ee3ab89ab5e8f4a47a5bee353",
+  "width": 508,
+  "height": 368,
+  "worldFrameWidth": 127,
+  "worldFrameHeight": 92,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-b-v1.png",
+    "sha256": "f9046d4913b648180802fa21bcd604e91f2daec92542b7a9fdb264ea6e4fa37c",
+    "generationRecord": "assets/maps/water/props-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      915,
+      96,
+      1527,
+      541
+    ],
+    "uniformScale": 0.8269662921348314,
+    "placementPx": [
+      1,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5009-387bdbde9a04.png",
+    "sha256": "5a880f803443987bb34ab9376de9a4dd05de6627b9378427fd8a3cc009c31db5",
+    "representativeElementId": 5009,
+    "nativeFrameSize": [
+      127,
+      92
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    3,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    4,
+    14
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.3804347826086956,
+    "generatedVisibleAspect": 1.3786848072562359,
+    "relativeAspectDeviation": 0.0012676986805220114,
+    "generatedCellLTRB": [
+      890,
+      70,
+      1536,
+      555
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

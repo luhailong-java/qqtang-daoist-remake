@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/head-adornments/world/world-44-c-v1.png",
+  "sha256": "1f4ca2420158ae181a9c5a6acaddb6f5ea48c8e25aa35bd562a608fef0fb9850",
+  "generatedAt": "2026-10-29T00:02:27.256Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world/44/source-phases-c.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/references/world/44/own-appearance-master-reference.png",
+      "D:/work/qqtang-ui/assets/items/head-adornments/world/world-44-b-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets\\items\\head-adornments\\prompts\\world-44-c.prompt.txt",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world/44/source-phases-c.png",
+      "purpose": "actual decoded source world-frame action board; exact per-frame structure and phase, not runtime source pixels",
+      "sha256": "070761e9314b710d980669e09bced5ec37f65e8a4729e64cad4dc0a5bd732890"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/references/world/44/own-appearance-master-reference.png",
+      "purpose": "own same-item appearance/material and phase continuity reference only; not edit target/native canvas/timing",
+      "sha256": "26414564741ba8591d78fb2567b73ce98d8c6e77372ba8ef9c20989693e5b4f0"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/items/head-adornments/world/world-44-b-v1.png",
+      "purpose": "own same-item appearance/material and phase continuity reference only; not edit target/native canvas/timing",
+      "sha256": "8aba9315c52651216bd1e60c8dec2088a6dc986a07c2a2d950869bd8479ebc4f"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-b8d38740-08bc-48c5-a65d-dc670fd8c016.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}
