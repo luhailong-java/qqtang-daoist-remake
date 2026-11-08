@@ -1,0 +1,161 @@
+{
+  "itemId": 4499,
+  "category": "thadorn",
+  "sourceName": "幸福小伞",
+  "sourceDescription": "红色小伞，是嫁娶的必备道具，为天下有情人打造一生的幸福",
+  "file": "assets/items/head-adornments/icons/4499-red-silk-wedding-parasol.png",
+  "sha256": "134b97f12954ab3128db98541dc07a61c205cc9b7e9d745caa25dc9d95b78a7e",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-f-v1.png",
+    "sha256": "75f17e6ac84982030f2df869d5cde8cc5522d16760893544b92a373bc73bd320",
+    "generationRecord": "assets/items/head-adornments/head-adornments-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      512,
+      540,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      20,
+      16,
+      523,
+      488
+    ],
+    "sourceContentRect": [
+      20,
+      528,
+      523,
+      1000
+    ],
+    "uniformScale": 0.44532803180914515,
+    "placementPx": [
+      16,
+      23
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-4499-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "4b7a569e86c918eb544f4ac2c2a7d831f9127b9ba2555025aca3f6cc77609cb7",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-4499-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    56,
+    53
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn96_stand.img",
+      "sourceSha256": "e7a669296435ae585abb94466a50effa764a3a2ddfced87df93cf7af46f70e21",
+      "byteLength": 469640,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65537,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          14,
+          7
+        ],
+        "pixelMode": 8,
+        "empty": false,
+        "size": [
+          68,
+          72
+        ],
+        "unknownImageHeaderWord": 272
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn96_walk.img",
+      "sourceSha256": "e7a669296435ae585abb94466a50effa764a3a2ddfced87df93cf7af46f70e21",
+      "byteLength": 469640,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65537,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          14,
+          7
+        ],
+        "pixelMode": 8,
+        "empty": false,
+        "size": [
+          68,
+          72
+        ],
+        "unknownImageHeaderWord": 272
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "绯绢喜伞",
+  "appearanceChoice": "original Daoist Q inventory icon; source role retained, wearer master and animation remain unproduced"
+}

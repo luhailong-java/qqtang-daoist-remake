@@ -1,0 +1,87 @@
+{
+  "elementId": 5001,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5001-water-ground-v2.png",
+  "sha256": "a8af52b4379107fc7c17b9cd537f735167440a352e507b13b2a0eb20a39d4856",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/ground-pair-v2.png",
+    "sha256": "00dab7a4c5ffba953d98f7506b362b77eeb082f37a20b380dbb8a103e39a0642",
+    "generationRecord": "assets/maps/water/ground-pair-v2.png.generation.json"
+  },
+  "operation": {
+    "type": "square-crop-uniform-fit-shared-edge-blend",
+    "sourceRectLTRB": [
+      64,
+      192,
+      704,
+      832
+    ],
+    "uniformScale": 0.25,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "resizeFilter": "Lanczos",
+    "edgeBlend": {
+      "widthPx": 12,
+      "weight": "1 - smoothstep(clamp(distance / width, 0, 1))",
+      "passes": [
+        "shared-left-right-row-profile",
+        "shared-top-bottom-column-profile"
+      ],
+      "profile": "average of opposing edges of both crops from the input to each pass",
+      "channelSpace": "sRGB encoded RGB",
+      "rounding": "nearest, ties to even after both passes"
+    },
+    "newModelGeneration": false
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5001-1424d16a2b69.png",
+    "sha256": "daff2ea859274e698f13376e5b683ab78029a49d8259c283ce9588630ab71fda",
+    "representativeElementId": 5001,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0,
+    "relativeAspectDeviation": 0.0,
+    "opaqueFullFrameVerified": true,
+    "matchingExportEdgesVerified": true,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

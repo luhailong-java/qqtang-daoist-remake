@@ -1,0 +1,158 @@
+{
+  "source": "D:\\work\\qqtang-ui\\assets\\characters\\motion-generated\\transformations\\avatar-42-ink-horn-fox\\idle-four-directions-v1.png",
+  "sha256": "f5ede322b32b1623c6a8ecc8ab204ba87b68f4bc7768e9bcaafb8e3ff7238e61",
+  "size": [
+    1254,
+    1254
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alpha8BBoxLTRB": [
+    47,
+    23,
+    1225,
+    1227
+  ],
+  "alpha8OuterEdges": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0
+  },
+  "preview": "D:\\work\\qqtang-ui\\assets\\characters\\motion-generated\\transformations\\avatar-42-ink-horn-fox\\qa\\idle-four-directions-v1-ivory.jpg",
+  "operation": "Single named candidate alpha statistics and ivory compositing/whole-canvas thumbnail; diagnostic only, no source edits or runtime export.",
+  "actualVisualViewed": true,
+  "clientApproved": false,
+  "atlas": {
+    "columns": 2,
+    "rows": 2,
+    "cellSize": [
+      627,
+      627
+    ],
+    "actualObservedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "alpha8SeamCounts": {
+      "leftOfVertical": 216,
+      "rightOfVertical": 214,
+      "aboveHorizontal": 349,
+      "belowHorizontal": 341
+    },
+    "notOwnershipApproval": true
+  },
+  "cells": [
+    {
+      "direction": "N",
+      "nominalCell": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "localAlpha8BBox": [
+        47,
+        23,
+        624,
+        627
+      ],
+      "marginsLTRB": [
+        47,
+        23,
+        3,
+        0
+      ],
+      "pivot": null,
+      "status": "pending_identity_direction_shared_root_and_ownership"
+    },
+    {
+      "direction": "E",
+      "nominalCell": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "localAlpha8BBox": [
+        49,
+        26,
+        564,
+        627
+      ],
+      "marginsLTRB": [
+        49,
+        26,
+        63,
+        0
+      ],
+      "pivot": null,
+      "status": "pending_identity_direction_shared_root_and_ownership"
+    },
+    {
+      "direction": "S",
+      "nominalCell": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "localAlpha8BBox": [
+        111,
+        0,
+        627,
+        600
+      ],
+      "marginsLTRB": [
+        111,
+        0,
+        0,
+        27
+      ],
+      "pivot": null,
+      "status": "pending_identity_direction_shared_root_and_ownership"
+    },
+    {
+      "direction": "W",
+      "nominalCell": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "localAlpha8BBox": [
+        0,
+        0,
+        598,
+        600
+      ],
+      "marginsLTRB": [
+        0,
+        0,
+        29,
+        27
+      ],
+      "pivot": null,
+      "status": "pending_identity_direction_shared_root_and_ownership"
+    }
+  ],
+  "visualReview": {
+    "ivoryViewed": true,
+    "visibleSolidColorHaloObserved": false,
+    "interpretation": "No obvious solid colored halo on this ivory preview; alpha0 hiddenRGB is not treated as visible dirt. This does not approve edges at client size.",
+    "issues": [
+      "Alpha>=8 crosses both nominal vertical and horizontal cuts; equal627px cell crop is unsafe",
+      "Horn/tail near/far identity and common scale/root pending"
+    ]
+  }
+}

@@ -1,0 +1,932 @@
+{
+  "schemaVersion": 1,
+  "createdOn": "2026-10-28",
+  "operation": "Existing JSON/source arithmetic only; no image decode, tests, browser, compilation or runtime writes",
+  "sourceMap": {
+    "cellPixels": 40,
+    "actorLegacyUnit": 64,
+    "actorMapScale": 0.625,
+    "canvasBackingDensity": 2
+  },
+  "staticFallback": [
+    {
+      "identity": "daoist-child",
+      "spriteIndex": 0,
+      "file": "./assets/characters/runtime/daoist-child.png",
+      "sourceCanvas": [
+        1024,
+        1024
+      ],
+      "storedVisibleBounds": [
+        195,
+        59,
+        828,
+        966
+      ],
+      "sourceAlphaHeightFraction": 0.8857421875,
+      "sourceAlphaWidthFraction": 0.6181640625,
+      "sourceCrop": [
+        195,
+        59,
+        633,
+        907
+      ],
+      "requestBoxBeforeMapScale": [
+        82,
+        90
+      ],
+      "drawnCropBeforeMapScale": [
+        62.811466372657115,
+        90.0
+      ],
+      "drawnCropMapLogicalSize": [
+        39.2571664829107,
+        56.25
+      ],
+      "drawnCropHeightIn40pxCells": 1.40625,
+      "fullCanvasDrawn": false,
+      "sourcePixelToMapLogical": 0.062017640573318635,
+      "equivalentUncroppedCanvasSize": [
+        63.50606394707828,
+        63.50606394707828
+      ],
+      "motionAdoptionStatus": "missing",
+      "runtimeRunDirections": [],
+      "daoistGeneratedCandidatesAdopted": false
+    },
+    {
+      "identity": "moon-shadow",
+      "spriteIndex": 1,
+      "file": "./assets/characters/runtime/moon-shadow.png",
+      "sourceCanvas": [
+        1024,
+        1024
+      ],
+      "storedVisibleBounds": [
+        124,
+        59,
+        899,
+        965
+      ],
+      "sourceAlphaHeightFraction": 0.884765625,
+      "sourceAlphaWidthFraction": 0.7568359375,
+      "sourceCrop": [
+        124,
+        59,
+        775,
+        906
+      ],
+      "requestBoxBeforeMapScale": [
+        82,
+        90
+      ],
+      "drawnCropBeforeMapScale": [
+        76.98675496688742,
+        90.0
+      ],
+      "drawnCropMapLogicalSize": [
+        48.116721854304636,
+        56.25
+      ],
+      "drawnCropHeightIn40pxCells": 1.40625,
+      "fullCanvasDrawn": false,
+      "sourcePixelToMapLogical": 0.062086092715231786,
+      "equivalentUncroppedCanvasSize": [
+        63.57615894039735,
+        63.57615894039735
+      ],
+      "motionAdoptionStatus": "missing",
+      "runtimeRunDirections": [],
+      "daoistGeneratedCandidatesAdopted": null
+    },
+    {
+      "identity": "mountain-guardian",
+      "spriteIndex": 2,
+      "file": "./assets/characters/runtime/mountain-guardian.png",
+      "sourceCanvas": [
+        1024,
+        1024
+      ],
+      "storedVisibleBounds": [
+        161,
+        59,
+        862,
+        965
+      ],
+      "sourceAlphaHeightFraction": 0.884765625,
+      "sourceAlphaWidthFraction": 0.6845703125,
+      "sourceCrop": [
+        161,
+        59,
+        701,
+        906
+      ],
+      "requestBoxBeforeMapScale": [
+        82,
+        90
+      ],
+      "drawnCropBeforeMapScale": [
+        69.63576158940397,
+        90.0
+      ],
+      "drawnCropMapLogicalSize": [
+        43.52235099337748,
+        56.25
+      ],
+      "drawnCropHeightIn40pxCells": 1.40625,
+      "fullCanvasDrawn": false,
+      "sourcePixelToMapLogical": 0.062086092715231786,
+      "equivalentUncroppedCanvasSize": [
+        63.57615894039735,
+        63.57615894039735
+      ],
+      "motionAdoptionStatus": "client_candidate",
+      "runtimeRunDirections": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "daoistGeneratedCandidatesAdopted": null
+    },
+    {
+      "identity": "lotus-healer",
+      "spriteIndex": 3,
+      "file": "./assets/characters/runtime/lotus-healer.png",
+      "sourceCanvas": [
+        1024,
+        1024
+      ],
+      "storedVisibleBounds": [
+        142,
+        59,
+        882,
+        965
+      ],
+      "sourceAlphaHeightFraction": 0.884765625,
+      "sourceAlphaWidthFraction": 0.72265625,
+      "sourceCrop": [
+        142,
+        59,
+        740,
+        906
+      ],
+      "requestBoxBeforeMapScale": [
+        82,
+        90
+      ],
+      "drawnCropBeforeMapScale": [
+        73.50993377483444,
+        90.0
+      ],
+      "drawnCropMapLogicalSize": [
+        45.943708609271525,
+        56.25
+      ],
+      "drawnCropHeightIn40pxCells": 1.40625,
+      "fullCanvasDrawn": false,
+      "sourcePixelToMapLogical": 0.062086092715231786,
+      "equivalentUncroppedCanvasSize": [
+        63.57615894039735,
+        63.57615894039735
+      ],
+      "motionAdoptionStatus": "client_candidate",
+      "runtimeRunDirections": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "daoistGeneratedCandidatesAdopted": null
+    }
+  ],
+  "motionSamples": [
+    {
+      "identity": "mountain-guardian",
+      "action": "run",
+      "direction": "E",
+      "sampleFrame": "./assets/characters/motion/mountain-guardian/run/E/01.png",
+      "frameCanvas": [
+        256,
+        256
+      ],
+      "fullCanvasBeforeMapScale": [
+        110,
+        110
+      ],
+      "fullCanvasMapLogicalSize": [
+        68.75,
+        68.75
+      ],
+      "fullCanvasHeightInCells": 1.71875,
+      "clipAnchor": [
+        128.0,
+        232.0
+      ],
+      "clipAnchorStatus": "historical_layout_target_not_measured_ground",
+      "sourceCanvas": [
+        1024,
+        1024
+      ],
+      "sourceAlphaGt8BBox": [
+        71,
+        48,
+        887,
+        971
+      ],
+      "sourceAlphaHeightFraction": 0.9013671875,
+      "projectedVisibleHeightMapLogical": 61.968994140625,
+      "projectedVisibleHeightIn40pxCells": 1.549224853515625,
+      "actual256pxOutputAlphaMeasuredThisRun": false,
+      "sourceAlphaGt8ProjectionOnly": true
+    },
+    {
+      "identity": "lotus-healer",
+      "action": "run",
+      "direction": "E",
+      "sampleFrame": "./assets/characters/motion/lotus-healer/run/E/01.png",
+      "frameCanvas": [
+        256,
+        256
+      ],
+      "fullCanvasBeforeMapScale": [
+        110,
+        110
+      ],
+      "fullCanvasMapLogicalSize": [
+        68.75,
+        68.75
+      ],
+      "fullCanvasHeightInCells": 1.71875,
+      "clipAnchor": [
+        163.31738437001596,
+        237.6267942583732
+      ],
+      "clipAnchorStatus": "provisional_direction_roots_not_client_approved",
+      "sourceCanvas": [
+        1024,
+        1024
+      ],
+      "sourceAlphaGt8BBox": [
+        87,
+        69,
+        875,
+        952
+      ],
+      "sourceAlphaHeightFraction": 0.8623046875,
+      "projectedVisibleHeightMapLogical": 59.283447265625,
+      "projectedVisibleHeightIn40pxCells": 1.482086181640625,
+      "actual256pxOutputAlphaMeasuredThisRun": false,
+      "sourceAlphaGt8ProjectionOnly": true
+    }
+  ],
+  "nativeRole9": {
+    "source": "assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-six-phase-board.json",
+    "sourceRoleId": 9,
+    "observedDirection": "E",
+    "compositeScope": "Inspection overlay using raw common100px canvas and original per-layer offsets. Layer order is an explicit diagnostic choice, not independently verified native rendering order; raw layers retained. head1 not read/used.",
+    "records": [
+      {
+        "frameIndex": 0,
+        "phaseIndex": 0,
+        "nativeCanvas": [
+          100,
+          100
+        ],
+        "layers": [
+          {
+            "layer": "body",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "foot",
+            "frameOffset": [
+              45,
+              75
+            ],
+            "nativeSize": [
+              11,
+              6
+            ]
+          },
+          {
+            "layer": "leg",
+            "frameOffset": [
+              45,
+              75
+            ],
+            "nativeSize": [
+              11,
+              6
+            ]
+          },
+          {
+            "layer": "cloth",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "face",
+            "frameOffset": [
+              33,
+              29
+            ],
+            "nativeSize": [
+              33,
+              33
+            ]
+          },
+          {
+            "layer": "hair",
+            "frameOffset": [
+              31,
+              26
+            ],
+            "nativeSize": [
+              35,
+              35
+            ]
+          }
+        ],
+        "layerRectUnion": [
+          31,
+          26,
+          66,
+          81
+        ],
+        "layerRectUnionSize": [
+          35,
+          55
+        ],
+        "unionHeightFractionOf100": 0.55,
+        "actualAlphaUnionKnown": false,
+        "originalDisplayScaleKnown": false
+      },
+      {
+        "frameIndex": 1,
+        "phaseIndex": 1,
+        "nativeCanvas": [
+          100,
+          100
+        ],
+        "layers": [
+          {
+            "layer": "body",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "foot",
+            "frameOffset": [
+              40,
+              74
+            ],
+            "nativeSize": [
+              21,
+              7
+            ]
+          },
+          {
+            "layer": "leg",
+            "frameOffset": [
+              40,
+              75
+            ],
+            "nativeSize": [
+              21,
+              6
+            ]
+          },
+          {
+            "layer": "cloth",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "face",
+            "frameOffset": [
+              33,
+              29
+            ],
+            "nativeSize": [
+              33,
+              33
+            ]
+          },
+          {
+            "layer": "hair",
+            "frameOffset": [
+              31,
+              26
+            ],
+            "nativeSize": [
+              35,
+              35
+            ]
+          }
+        ],
+        "layerRectUnion": [
+          31,
+          26,
+          66,
+          81
+        ],
+        "layerRectUnionSize": [
+          35,
+          55
+        ],
+        "unionHeightFractionOf100": 0.55,
+        "actualAlphaUnionKnown": false,
+        "originalDisplayScaleKnown": false
+      },
+      {
+        "frameIndex": 2,
+        "phaseIndex": 2,
+        "nativeCanvas": [
+          100,
+          100
+        ],
+        "layers": [
+          {
+            "layer": "body",
+            "frameOffset": [
+              39,
+              62
+            ],
+            "nativeSize": [
+              22,
+              13
+            ]
+          },
+          {
+            "layer": "foot",
+            "frameOffset": [
+              39,
+              72
+            ],
+            "nativeSize": [
+              21,
+              9
+            ]
+          },
+          {
+            "layer": "leg",
+            "frameOffset": [
+              39,
+              72
+            ],
+            "nativeSize": [
+              21,
+              9
+            ]
+          },
+          {
+            "layer": "cloth",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "face",
+            "frameOffset": [
+              33,
+              29
+            ],
+            "nativeSize": [
+              33,
+              33
+            ]
+          },
+          {
+            "layer": "hair",
+            "frameOffset": [
+              31,
+              26
+            ],
+            "nativeSize": [
+              35,
+              36
+            ]
+          }
+        ],
+        "layerRectUnion": [
+          31,
+          26,
+          66,
+          81
+        ],
+        "layerRectUnionSize": [
+          35,
+          55
+        ],
+        "unionHeightFractionOf100": 0.55,
+        "actualAlphaUnionKnown": false,
+        "originalDisplayScaleKnown": false
+      },
+      {
+        "frameIndex": 3,
+        "phaseIndex": 3,
+        "nativeCanvas": [
+          100,
+          100
+        ],
+        "layers": [
+          {
+            "layer": "body",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "foot",
+            "frameOffset": [
+              45,
+              75
+            ],
+            "nativeSize": [
+              11,
+              6
+            ]
+          },
+          {
+            "layer": "leg",
+            "frameOffset": [
+              45,
+              75
+            ],
+            "nativeSize": [
+              11,
+              6
+            ]
+          },
+          {
+            "layer": "cloth",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "face",
+            "frameOffset": [
+              33,
+              29
+            ],
+            "nativeSize": [
+              33,
+              33
+            ]
+          },
+          {
+            "layer": "hair",
+            "frameOffset": [
+              31,
+              26
+            ],
+            "nativeSize": [
+              35,
+              35
+            ]
+          }
+        ],
+        "layerRectUnion": [
+          31,
+          26,
+          66,
+          81
+        ],
+        "layerRectUnionSize": [
+          35,
+          55
+        ],
+        "unionHeightFractionOf100": 0.55,
+        "actualAlphaUnionKnown": false,
+        "originalDisplayScaleKnown": false
+      },
+      {
+        "frameIndex": 4,
+        "phaseIndex": 4,
+        "nativeCanvas": [
+          100,
+          100
+        ],
+        "layers": [
+          {
+            "layer": "body",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "foot",
+            "frameOffset": [
+              40,
+              72
+            ],
+            "nativeSize": [
+              21,
+              9
+            ]
+          },
+          {
+            "layer": "leg",
+            "frameOffset": [
+              40,
+              72
+            ],
+            "nativeSize": [
+              21,
+              9
+            ]
+          },
+          {
+            "layer": "cloth",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "face",
+            "frameOffset": [
+              33,
+              29
+            ],
+            "nativeSize": [
+              33,
+              33
+            ]
+          },
+          {
+            "layer": "hair",
+            "frameOffset": [
+              31,
+              26
+            ],
+            "nativeSize": [
+              35,
+              35
+            ]
+          }
+        ],
+        "layerRectUnion": [
+          31,
+          26,
+          66,
+          81
+        ],
+        "layerRectUnionSize": [
+          35,
+          55
+        ],
+        "unionHeightFractionOf100": 0.55,
+        "actualAlphaUnionKnown": false,
+        "originalDisplayScaleKnown": false
+      },
+      {
+        "frameIndex": 5,
+        "phaseIndex": 5,
+        "nativeCanvas": [
+          100,
+          100
+        ],
+        "layers": [
+          {
+            "layer": "body",
+            "frameOffset": [
+              39,
+              62
+            ],
+            "nativeSize": [
+              22,
+              13
+            ]
+          },
+          {
+            "layer": "foot",
+            "frameOffset": [
+              39,
+              72
+            ],
+            "nativeSize": [
+              22,
+              8
+            ]
+          },
+          {
+            "layer": "leg",
+            "frameOffset": [
+              39,
+              73
+            ],
+            "nativeSize": [
+              22,
+              7
+            ]
+          },
+          {
+            "layer": "cloth",
+            "frameOffset": [
+              41,
+              62
+            ],
+            "nativeSize": [
+              18,
+              13
+            ]
+          },
+          {
+            "layer": "face",
+            "frameOffset": [
+              33,
+              29
+            ],
+            "nativeSize": [
+              33,
+              33
+            ]
+          },
+          {
+            "layer": "hair",
+            "frameOffset": [
+              32,
+              26
+            ],
+            "nativeSize": [
+              35,
+              35
+            ]
+          }
+        ],
+        "layerRectUnion": [
+          32,
+          26,
+          67,
+          80
+        ],
+        "layerRectUnionSize": [
+          35,
+          54
+        ],
+        "unionHeightFractionOf100": 0.54,
+        "actualAlphaUnionKnown": false,
+        "originalDisplayScaleKnown": false
+      }
+    ]
+  },
+  "map3019": {
+    "footprintCells": [
+      4,
+      2
+    ],
+    "nativeFrameSize": [
+      161,
+      110
+    ],
+    "declaredCanvas": [
+      161,
+      110
+    ],
+    "retainedVisibleBBox": [
+      0,
+      0,
+      161,
+      110
+    ],
+    "headerUnknownSignedPairAt24And28": [
+      0,
+      17
+    ],
+    "frameSignedPairAt44And48": [
+      0,
+      17
+    ],
+    "headerUnknownPairSemantics": "unknown; numerically equals frameOffset here, not a second authorized translation",
+    "rawFrameContainsProven17pxTransparentTopPadding": false,
+    "paddingEvidence": "Existing alpha bbox starts at y0 and reaches native frame bottom110; no new alpha read",
+    "sourceFrameDecodeAppliedFrameOffset": false,
+    "repeatAdditionAccepted": false
+  },
+  "inputSnapshot": [
+    {
+      "file": "src/game.js",
+      "byteLength": 25430,
+      "sha256": "418fa644bb622ac9be3b5bc7acb14bbbac326748a226f26811c6559f81cae811"
+    },
+    {
+      "file": "src/app.js",
+      "byteLength": 57743,
+      "sha256": "4f1bf3a9eaff7f9142d46502e4466dad6e389b4c4f0b27af0dfac509ba279488"
+    },
+    {
+      "file": "src/art.js",
+      "byteLength": 2689,
+      "sha256": "c7597b8b14e22df613c76a8ff97c4a74372d27d8fb340866d48d48e18eac97d3"
+    },
+    {
+      "file": "src/character-motion.js",
+      "byteLength": 5732,
+      "sha256": "3dc28c2f3670a1dbb8bb9d07d4753dc8d7dd85a4375f5b4d27c3faf73c2f5bb2"
+    },
+    {
+      "file": "assets/art.json",
+      "byteLength": 2596,
+      "sha256": "db77e38b3d4c273cfa5b9e3f98ad52662fa224bd8ecd282444ab836365516827"
+    },
+    {
+      "file": "assets/characters/motion/manifest.json",
+      "byteLength": 93389,
+      "sha256": "f4750ae48ed4d7bdb9327376e9d2c119991355535cd86723b4a3fc25d8ff6c87"
+    },
+    {
+      "file": "assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-six-phase-board.json",
+      "byteLength": 61353,
+      "sha256": "cf2c4a17ee2a205e42d94259cc7cb73f19eee9abf58c9b7d6981f264c79cd379"
+    },
+    {
+      "file": "assets/characters/runtime/daoist-child.png.provenance.json",
+      "byteLength": 797,
+      "sha256": "0581e24e6192394cdfd536e96b6e84378fb719a3117ac28bbfbe67e043ec2dd7"
+    },
+    {
+      "file": "assets/characters/runtime/moon-shadow.png.provenance.json",
+      "byteLength": 794,
+      "sha256": "3c6d293c5a767994ad9b410a67bd3faac88635d429ec8c920136267c8d8d1162"
+    },
+    {
+      "file": "assets/characters/runtime/mountain-guardian.png.provenance.json",
+      "byteLength": 812,
+      "sha256": "0a94d89528dc9be7ab53f83ea66246b7d28c6364bfd38d980f3181d2a40c0528"
+    },
+    {
+      "file": "assets/characters/runtime/lotus-healer.png.provenance.json",
+      "byteLength": 797,
+      "sha256": "04cced62f0c6dc3e7964987296e041ac6334f044852d4f97730e54d80be6e3c0"
+    },
+    {
+      "file": "assets/characters/motion/mountain-guardian/run/E/01.source.json",
+      "byteLength": 2016,
+      "sha256": "5a0e37105aaab382c227c29cf777e2e508b596faaf88767f6487990cc6530d3b"
+    },
+    {
+      "file": "assets/characters/motion/lotus-healer/run/E/01.source.json",
+      "byteLength": 1977,
+      "sha256": "a4f0080d8b344f3e515ad6e91093caf780ecd665698887530eda30191406e755"
+    }
+  ],
+  "limitations": [
+    "Layer rectangle union is an upper bound on visible alpha, not a newly measured pixel bbox.",
+    "Native100px canvas is not a proven100px screen draw size; original renderer transform remains unknown.",
+    "68.75px full motion canvas cannot be compared directly to a native55px rectangle union without accounting for alpha fraction.",
+    "Static daoist56.25px height is close to54-55px native layer extents under hypothetical1:1 native draw; this is a clue, not scale acceptance.",
+    "The current motion manifest leaves daoist-child and moon-shadow clips missing; generated candidate directories are not runtime adoption."
+  ]
+}

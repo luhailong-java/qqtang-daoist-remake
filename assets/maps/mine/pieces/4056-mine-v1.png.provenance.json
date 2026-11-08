@@ -1,0 +1,81 @@
+{
+  "elementId": 4056,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4056-mine-v1.png",
+  "sha256": "753a16a1555ba15d86615d3a432f3feb0d34c707fc438f2357aae0e7921099e3",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-h-v1.png",
+    "sha256": "fe87ed0f361de5c548f8d1991244324de6449daaa03f3f322334b4c32e429fb1",
+    "generationRecord": "assets/maps/mine/props-h-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      659,
+      200,
+      877,
+      418
+    ],
+    "uniformScale": 0.7339449541284404,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4056-d80c333286b5.png",
+    "sha256": "fbf89e4fb20a0654a59c951af4bd75d42892f6f43bdd09968fe092cfc882a27b",
+    "representativeElementId": 4056,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0,
+    "relativeAspectDeviation": 0.0,
+    "generatedCellLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

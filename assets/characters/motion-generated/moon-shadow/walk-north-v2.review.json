@@ -1,0 +1,86 @@
+{
+  "status": "not_passed",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "userAccepted": false,
+  "failureReasons": [
+    "opposite_leg_phase_not_established: frames1/3 or2/4 retain the same leading/support limb",
+    "back_head_with_front_waist_clasp_and_front_boot_motifs; rear garment design not established"
+  ],
+  "sourceSeparators": [
+    {
+      "nominal": 512,
+      "ownershipCut": 527,
+      "maxAlpha": 3,
+      "visiblePixelsAlphaGt8": 0
+    },
+    {
+      "nominal": 1024,
+      "ownershipCut": 1027,
+      "maxAlpha": 3,
+      "visiblePixelsAlphaGt8": 0
+    },
+    {
+      "nominal": 1536,
+      "ownershipCut": 1536,
+      "maxAlpha": 1,
+      "visiblePixelsAlphaGt8": 0
+    }
+  ],
+  "frameChecks": [
+    {
+      "frame": 1,
+      "bbox": [
+        72,
+        42,
+        199,
+        214
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 715,
+      "visualPhase": "not_passed_limb_ambiguity"
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        69,
+        42,
+        196,
+        211
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 703,
+      "visualPhase": "not_passed_limb_ambiguity"
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        68,
+        42,
+        192,
+        214
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 713,
+      "visualPhase": "not_passed_limb_ambiguity"
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        69,
+        42,
+        191,
+        213
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 708,
+      "visualPhase": "not_passed_limb_ambiguity"
+    }
+  ],
+  "anchor": [
+    128,
+    217.75609756097563
+  ],
+  "sameScaleAcrossSelectedDirections": true,
+  "wholeCanvasScale": 0.2601626016260163
+}

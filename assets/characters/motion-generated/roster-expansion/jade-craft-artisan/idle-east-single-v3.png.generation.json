@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-east-single-v3.png",
+  "sha256": "602eeb25b9edb33ea8d82d9866c979a5b8ff21fc1f75096d9b1f01f7ccd65fd8",
+  "generatedAt": "2026-10-28T21:32:11.696Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v2.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-east-single-v3.prompt.txt",
+  "promptSha256": "42e42015447f81b48b267b528834a04b68215b4945b95114bf4fdd4b5253c2ca",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+      "role": "own identity master; RIGHT mallet/LEFT cloud",
+      "sha256": "7f3fd753d50e84e9085f9332a90f03f99583efe2396cd0579c15e0e84977eb44"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v2.png",
+      "role": "selected direction source for identity/normalized cell scale; East absent",
+      "sha256": "13d5a7fcdfe22e61499e471c82b3defd6e0e10861191570cc162789c11515894"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-f29d5fb1-ede9-406a-914e-b0968fbf0f2b.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v2.png",
+  "review": {
+    "kind": "single_east_idle_static_key_not_animation",
+    "actualDirection": "E",
+    "orientation": "Nose and toes clearly screen-right, genuine new model drawing not a mirrored derived source.",
+    "identity": "Face/bob/braids/apron/tool shapes retained; far LEFT hairclip mostly behind hair. However near foreground arm appears to hold cloud and farther arm mallet, conflicting requested near RIGHT mallet chain in E. Not passed for prop-hand identity.",
+    "requestedNormalizedCell": {
+      "canvas": [
+        627,
+        627
+      ],
+      "fullCanvasScale": 0.5,
+      "root": [
+        313,
+        580
+      ]
+    },
+    "actualRoot": null,
+    "runtimeEnabled": false,
+    "pending": [
+      "near/far tool-hand chain",
+      "shared-root/scale actual source alignment",
+      "client"
+    ],
+    "next": "One independent single attempt completed; preserve specific hand-chain failure, move to eight transformation bases."
+  },
+  "status": "east_orientation_candidate_prop_hand_chain_not_passed",
+  "clientApproved": false,
+  "userAccepted": false
+}

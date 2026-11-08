@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/trapped-four-v1.png",
+  "sha256": "6b792866c2290dec017649a7fe4f2234435468cc48cdc1cc7d46a90eb11473dd",
+  "generatedAt": "2026-10-28T10:40:08.602Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/references/own-four-characters-contact.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/trapped-four-v1.prompt.txt",
+  "promptSha256": "4cc71e752617432ff5a4b864364d662c67018466fe3ebd5a6ba724fc65cf637b",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/references/own-four-characters-contact.png",
+      "role": "four exact original character identities, not background",
+      "sha256": "a885e378dd697d4f688f283e283116b701f9dd4279b5257eb0f7e638bf647273"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-e4a28f15-d2d9-4870-95ff-6e0561c78106.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": null,
+  "review": {
+    "type": "four distinct trapped-state stills, not animation",
+    "identity": "all four own identities visible, equipment retained",
+    "pending": [
+      "top bubbles appear near source top edge; alpha and full rim containment need check",
+      "bubble transparency and feet/scale need runtime review"
+    ],
+    "runtimeEnabled": false
+  },
+  "status": "source_pending_alpha_anchor_and_runtime_review",
+  "clientApproved": false,
+  "userAccepted": false
+}

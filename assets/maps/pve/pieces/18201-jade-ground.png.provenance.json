@@ -1,0 +1,51 @@
+{
+  "elementId": 18201,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/pve/pieces/18201-jade-ground.png",
+  "sha256": "75b85a1b4d34972e4f7c8d24b3614600a13b4dfba735dec8ac79c6d51aac615e",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/pve/ground-a-v1.png",
+    "sha256": "0a251a6e2fccb46dca6fc271407d9ce21c7f20f63f44cdf8b27340dffd8e603f",
+    "generationRecord": "assets/maps/pve/ground-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-opaque-square-texture-uniform-resize",
+    "sourceRectLTRB": [
+      95,
+      95,
+      455,
+      455
+    ],
+    "uniformScale": 0.4444444444444444,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied",
+    "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used"
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.0,
+  "geometryAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": []
+}

@@ -1,0 +1,95 @@
+{
+  "file": "assets/maps/exploration/batch-09/sheet-v1.png",
+  "sha256": "6f880432e252c16f694ec63e81686f534440a6fa72903afe62f9814adced659b",
+  "generatedAt": "2026-10-28T13:40:31.809008+00:00",
+  "generatedAtEvidence": "host output file last-write timestamp; tool call completed before this record was written",
+  "recordedAtUTC": "2026-10-28T13:43:36.130023+00:00",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\assets\\maps\\exploration\\batch-09\\structure-board.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\qqtang-ui\\assets\\maps\\exploration\\batch-08\\sheet-v1.png"
+    ],
+    "promptFile": "assets/maps/exploration/batch-09/prompt.txt",
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed; tool exposes no model/quality selector and returned image_url plus output_hint only. No verifiable model/quality metadata was returned.",
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1817f-7ee7-7a41-90d1-5c5dabc5c654\\exec-e9226e15-d976-4482-a0e0-b4c8dcd15d9f.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1817f-7ee7-7a41-90d1-5c5dabc5c654 as C:\\Users\\luyua\\.codex\\generated_images\\01a1817f-7ee7-7a41-90d1-5c5dabc5c654\\exec-e9226e15-d976-4482-a0e0-b4c8dcd15d9f.png by default.",
+    "apiOrCliUsed": false,
+    "officialCheckDate": "2026-10-28",
+    "officialCheckRecord": "docs/IMAGE_CONFIG_VERIFICATION_20261028.md",
+    "officialCheckSources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "prompt": "assets/maps/exploration/batch-09/prompt.txt",
+  "references": [
+    {
+      "file": "D:\\work\\qqtang-ui\\assets\\maps\\exploration\\batch-09\\structure-board.png",
+      "sha256": "f204b338f58a36252ed5582b857704bf87626e465876da22799d04d34515761c",
+      "role": "source structure enlarged only, first actual reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\qqtang-ui\\assets\\maps\\exploration\\batch-08\\sheet-v1.png",
+      "sha256": "0e4898ae81ef40e1a797528290b7d7ef41684074b8905d3c74f23eea87437ab1",
+      "role": "existing family golden sand and green grass continuity; not structure",
+      "actuallyAttached": true
+    }
+  ],
+  "sourcePlan": "assets/maps/exploration/batch-09/plan.json",
+  "accepted": false,
+  "geometryAccepted": false,
+  "inGameAccepted": false
+}

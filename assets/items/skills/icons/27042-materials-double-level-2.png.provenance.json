@@ -1,0 +1,65 @@
+{
+  "itemId": 27042,
+  "category": "skill",
+  "sourceName": "材料多多2级",
+  "sourceDescription": "宠物二级技能之一，有3%的概率使获得的材料翻倍，同类型技能效果叠加，学习此技能以后不能学习其他二级技能。",
+  "file": "assets/items/skills/icons/27042-materials-double-level-2.png",
+  "sha256": "0edaec838f9eb939a2a4cb4246b2f5f273afe06da2de7c9172b8cdb5969e6121",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-g-v1.png",
+    "sha256": "f6613217a898946e219685396a5042ecc5e7edd4a86c75ad8487aec70eba76d6",
+    "generationRecord": "assets/items/skills/skills-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      59,
+      41,
+      438,
+      473
+    ],
+    "sourceContentRect": [
+      1083,
+      553,
+      1462,
+      985
+    ],
+    "uniformScale": 0.5185185185185185,
+    "placementPx": [
+      29,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27042.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "e8af5290b2f019392a72b9ca3f56386d7a15b4e5d254814818aba755ef686b5c",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27042.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

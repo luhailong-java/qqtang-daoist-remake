@@ -1,0 +1,85 @@
+{
+  "elementId": 4029,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4029-mine-v2-crop.png",
+  "sha256": "83a6034a344e6bdd5358287218b360743e4232161f6297f20e9a18a9e49fdc4c",
+  "width": 168,
+  "height": 244,
+  "worldFrameWidth": 42,
+  "worldFrameHeight": 61,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-f-v1.png",
+    "sha256": "968c7d62ba7e32802aae37807fad7d7fdcf2510daedbdf568d3fdcba631bcd3d",
+    "generationRecord": "assets/maps/mine/props-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "refined-measured-crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1138,
+      110,
+      1408,
+      483
+    ],
+    "uniformScale": 0.6222222222222222,
+    "placementPx": [
+      0,
+      12
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "supersedes": {
+      "file": "assets/maps/mine/pieces/4029-mine-v1.png",
+      "sha256": "7010d391fa286e9be4dae39b698da826834581ef345aed9ef1b5f1d2dbb63706"
+    },
+    "reason": "Measured object regions replace equal-row cells; avoid cutting one asset and including the previous row."
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4029-96536a738769.png",
+    "sha256": "878acd5eef581553229249ad26741a19e9e33cd93e2e3baec55ef0964b1b9927",
+    "representativeElementId": 4029,
+    "nativeFrameSize": [
+      42,
+      61
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    1,
+    21
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.6885245901639344,
+    "generatedVisibleAspect": 0.7208672086720868,
+    "relativeAspectDeviation": 0.04697380307136423,
+    "generatedCellLTRB": [
+      1100,
+      80,
+      1450,
+      498
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

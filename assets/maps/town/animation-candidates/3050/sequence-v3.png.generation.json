@@ -1,0 +1,101 @@
+{
+  "file": "assets/maps/town/animation-candidates/3050/sequence-v3.png",
+  "sha256": "f22674270b974188e179f815c7d8b1cd16b5dc440d0257b1b2f108aae39ecf15",
+  "generatedAt": "2026-10-29T00:08:15.395767+00:00",
+  "generatedAtEvidence": "host output last-write timestamp",
+  "recordedAtUTC": "2026-10-29T00:09:12.594414+00:00",
+  "width": 2172,
+  "height": 724,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "promptFile": "assets/maps/town/animation-candidates/3050/prompt-v3.txt",
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\assets\\maps\\town\\animation-candidates\\3050\\sequence-v2.png",
+      "D:\\work\\qqtang-ui\\assets\\maps\\town\\animation-candidates\\3050\\four-source-structure.png",
+      "D:\\work\\qqtang-ui\\assets\\maps\\town\\pieces\\3050-dragon-lantern.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed tool exposes no model/quality selector or verifiable actual return metadata.",
+  "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1817f-7ee7-7a41-90d1-5c5dabc5c654\\exec-d1847ca2-bed8-44f1-8bcb-45025c421708.png",
+  "officialCheckRecord": "docs/IMAGE_CONFIG_VERIFICATION_20261028.md",
+  "references": [
+    {
+      "file": "D:\\work\\qqtang-ui\\assets\\maps\\town\\animation-candidates\\3050\\sequence-v2.png",
+      "sha256": "266658313dd0a9533204db5e86b29f995642da158f07e711517e9e29e689fb03",
+      "actuallyAttached": true,
+      "role": "exact prior native four-frame atlas being AI edited"
+    },
+    {
+      "file": "D:\\work\\qqtang-ui\\assets\\maps\\town\\animation-candidates\\3050\\four-source-structure.png",
+      "sha256": "2a147870962649cbd6b08b9a2f83d338f1f1680ecea219acf1960c0d66d16a8b",
+      "actuallyAttached": true,
+      "role": "all4 actual source frame positions, NN4x reference only"
+    },
+    {
+      "file": "D:\\work\\qqtang-ui\\assets\\maps\\town\\pieces\\3050-dragon-lantern.png",
+      "sha256": "f7bcbd4ec72474f85b542a0955a2f0b30cda10e51e26e90fcc9324d216cdf9e9",
+      "actuallyAttached": true,
+      "role": "existing own identity/material master; old narrow geometry is not accepted"
+    },
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true,
+      "role": "primary Daoist Q hand-painted style"
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true,
+      "role": "primary Daoist Q hand-painted style"
+    }
+  ],
+  "prompt": "assets/maps/town/animation-candidates/3050/prompt-v3.txt",
+  "sourceFrameEvidence": "assets/maps/town/animation-candidates/3050/source-frame-provenance.json",
+  "operation": "AI edit of existing four-frame atlas; not deterministic crop or component shift",
+  "frameIndexOrder": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "nativeTimingMs": null,
+  "nativeStateSemantics": null,
+  "resampled": false,
+  "accepted": false,
+  "runtimeIntegrated": false,
+  "editedFrom": {
+    "file": "assets/maps/town/animation-candidates/3050/sequence-v2.png",
+    "sha256": "266658313dd0a9533204db5e86b29f995642da158f07e711517e9e29e689fb03",
+    "generationRecord": "assets/maps/town/animation-candidates/3050/sequence-v2.png.generation.json"
+  }
+}

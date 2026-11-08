@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/whole-leg-v1.png",
+  "sha256": "9d8e19604c8b28089b6abd83cf5967cf705c17839db2ba59d999fea429f74fc7",
+  "generatedAt": "2026-10-29T01:05:00.037Z",
+  "timeEvidence": "UTC registration after builtin tool return; provider timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "batchConfigVerification": "docs/IMAGE_CONFIG_VERIFICATION_20261028.md",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/synthetic-structural-pose-guide.png",
+      "D:/work/qqtang-ui/assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实型号及质量。",
+  "requestedCanvasSizeInPrompt": [
+    1536,
+    1024
+  ],
+  "sizeSelectorExposed": false,
+  "prompt": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/whole-leg-v1.prompt.txt",
+  "promptFileSha256": "c566852961b39d32deb21414f847ae51c9e969bbaae454ce08ae2490308b0d90",
+  "submittedPromptSha256": "8bcd610d92cbd13b42c9ebd605b5fe58b3070aabe80f2756f240dd82069bacad",
+  "promptSubmission": "file text trimmed at beginning/end; no other alteration",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/synthetic-structural-pose-guide.png",
+      "role": "synthetic pose intention only; internal engineering diagram; not original game evidence",
+      "sha256": "f2d4923a1d4d233b270a0fddee5dee64c464d4d1a4e5d94324055e7f07f199f8",
+      "sourceRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/synthetic-structural-pose-guide.png.source.json"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png",
+      "role": "own previous parts material identity only; not separated cuffs/layout/poses",
+      "sha256": "ff9422e3bd0ed64373131da5f6da9a27de63459fee25dcc7a6592c09937663da",
+      "sourceRecord": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png.generation.json"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "confirmed primary Daoist Q hand-painted style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "sourceRecord": null
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "confirmed primary Daoist Q hand-painted style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "sourceRecord": null
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-e568a80a-cbfc-43b8-8d9d-361a2009aaee.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "toolResult": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/whole-leg-v1.tool-result.json",
+    "selectorsExposed": false
+  },
+  "newImageNotEditingFailedCharacterFrames": true,
+  "excludedReferences": [
+    "failed whole-character E poses",
+    "failed static bind",
+    "old native QQ character appearance"
+  ],
+  "review": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/whole-leg-v1.review.json",
+  "status": "not_passed_hip_cap_finished_trim_and_far_side_unproven",
+  "runtimeAdopted": false,
+  "clientApproved": false
+}

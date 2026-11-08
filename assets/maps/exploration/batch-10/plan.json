@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-10",
+  "family": "exploration",
+  "createdAtUTC": "2026-10-28T13:44:37.879312+00:00",
+  "sourceProductionIndexSHA256": "229c0d0c58da128fe13d4887c5791d266fcc83c6ef72e88f3892a68a78ab1bb7",
+  "contact": {
+    "file": "assets/maps/exploration/batch-10/structure-reference.png",
+    "sha256": "cb62246729b99184df6111728f4910041968f81e52418cb9b03f43fe5cbd3d2a",
+    "width": 1536,
+    "height": 1024,
+    "source": "mechanical placement of existing reference pixels, text and frame outlines only; not generated art; source pixels not runtime art"
+  },
+  "pieces": [
+    {
+      "elementId": 16111,
+      "family": "exploration",
+      "candidatePath": "object\\mapElem\\exploration\\elem111_stand.img",
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "footprintCells": [
+        3,
+        1
+      ],
+      "gridAttr": [
+        0,
+        1285,
+        0
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        53
+      ],
+      "selectedFrameSize": [
+        118,
+        93
+      ],
+      "selectedFrameOffsetRaw": [
+        1,
+        19
+      ],
+      "referencePng": {
+        "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16111-dd56f9e2bf9d.png",
+        "sha256": "d2386e1375a5a77fa19f61138bc03cc09d8c763f878662055c3643b95752b5d1",
+        "representativeElementId": 16111,
+        "nativeFrameSize": [
+          118,
+          93
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "visualGroupId": "visual-dd56f9e2bf9d6cfd",
+      "contactCellLTRB": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "contactSourceFrameLTRB": [
+        175,
+        123,
+        593,
+        452
+      ],
+      "inspectionUniformScale": 3.54,
+      "inspectionResample": "NEAREST",
+      "anchorStatus": "unverified-not-applied",
+      "accepted": false
+    },
+    {
+      "elementId": 16114,
+      "family": "exploration",
+      "candidatePath": "object\\mapElem\\exploration\\elem114_stand.img",
+      "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+      "footprintCells": [
+        1,
+        1
+      ],
+      "gridAttr": [
+        5397
+      ],
+      "mapElemOffsetRaw": [
+        4,
+        26
+      ],
+      "selectedFrameSize": [
+        47,
+        67
+      ],
+      "selectedFrameOffsetRaw": [
+        0,
+        1
+      ],
+      "referencePng": {
+        "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16114-3556f402367e.png",
+        "sha256": "4250167292c1f79631c84432b062c4465ae0a6eed108af4c11a1e311dab8a590",
+        "representativeElementId": 16114,
+        "nativeFrameSize": [
+          47,
+          67
+        ],
+        "sameNativeFrameExtent": true
+      },
+      "visualGroupId": "visual-3556f402367e4ca7",
+      "contactCellLTRB": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "contactSourceFrameLTRB": [
+        1069,
+        215,
+        1235,
+        452
+      ],
+      "inspectionUniformScale": 3.54,
+      "inspectionResample": "NEAREST",
+      "anchorStatus": "unverified-not-applied",
+      "accepted": false
+    }
+  ],
+  "invariants": [
+    "Do not modify map data, footprint, gridAttr, element offset or selected frame offset.",
+    "Source package authenticity, ID lookup and anchors remain unverified.",
+    "Generate own surface art with same structure, orientation and proportions; no UI/person/text in artwork.",
+    "Export canvas is selected native reference frame multiplied uniformly by four; scaling is not native generation."
+  ]
+}

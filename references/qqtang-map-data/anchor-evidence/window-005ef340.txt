@@ -1,0 +1,54 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-005ef340.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+005ef340 <.text>:
+  5ef340: 83 7c 24 04 06               	cmp	dword ptr [esp + 0x4], 0x6
+  5ef345: 75 12                        	jne	0x5ef359 <.text+0x19>
+  5ef347: 8b 41 14                     	mov	eax, dword ptr [ecx + 0x14]
+  5ef34a: 8b 40 14                     	mov	eax, dword ptr [eax + 0x14]
+  5ef34d: 83 e0 10                     	and	eax, 0x10
+  5ef350: 2c 10                        	sub	al, 0x10
+  5ef352: f6 d8                        	neg	al
+  5ef354: 1b c0                        	sbb	eax, eax
+  5ef356: 40                           	inc	eax
+  5ef357: eb 02                        	jmp	0x5ef35b <.text+0x1b>
+  5ef359: 32 c0                        	xor	al, al
+  5ef35b: c2 04 00                     	ret	0x4
+  5ef35e: e9 00 00 00 00               	jmp	0x5ef363 <.text+0x23>
+  5ef363: d9 e8                        	fld1
+  5ef365: d8 35 e8 36 7a 00            	fdiv	dword ptr [0x7a36e8]
+  5ef36b: d9 1d dc dc 85 00            	fstp	dword ptr [0x85dcdc]
+  5ef371: c3                           	ret
+  5ef372: 53                           	push	ebx
+  5ef373: 33 db                        	xor	ebx, ebx
+  5ef375: 56                           	push	esi
+  5ef376: 53                           	push	ebx
+  5ef377: 8b f1                        	mov	esi, ecx
+  5ef379: 68 d8 32 00 00               	push	0x32d8
+  5ef37e: e8 dd f8 ff ff               	call	0x5eec60
+  5ef383: 8a 44 24 0c                  	mov	al, byte ptr [esp + 0xc]
+  5ef387: c7 06 ec 36 7a 00            	mov	dword ptr [esi], 0x7a36ec
+  5ef38d: 88 46 3b                     	mov	byte ptr [esi + 0x3b], al
+  5ef390: 8a 44 24 10                  	mov	al, byte ptr [esp + 0x10]
+  5ef394: 88 46 3c                     	mov	byte ptr [esi + 0x3c], al
+  5ef397: c7 46 04 d8 32 00 00         	mov	dword ptr [esi + 0x4], 0x32d8
+  5ef39e: 88 5e 3a                     	mov	byte ptr [esi + 0x3a], bl
+  5ef3a1: 88 5e 38                     	mov	byte ptr [esi + 0x38], bl
+  5ef3a4: 88 5e 39                     	mov	byte ptr [esi + 0x39], bl
+  5ef3a7: 89 5e 1c                     	mov	dword ptr [esi + 0x1c], ebx
+  5ef3aa: 89 5e 50                     	mov	dword ptr [esi + 0x50], ebx
+  5ef3ad: 89 5e 54                     	mov	dword ptr [esi + 0x54], ebx
+  5ef3b0: 89 5e 58                     	mov	dword ptr [esi + 0x58], ebx
+  5ef3b3: 89 5e 5c                     	mov	dword ptr [esi + 0x5c], ebx
+  5ef3b6: 89 5e 60                     	mov	dword ptr [esi + 0x60], ebx
+  5ef3b9: 89 5e 64                     	mov	dword ptr [esi + 0x64], ebx
+  5ef3bc: 89 5e 6c                     	mov	dword ptr [esi + 0x6c], ebx
+  5ef3bf: 8b c6                        	mov	eax, esi
+  5ef3c1: 5e                           	pop	esi
+  5ef3c2: 5b                           	pop	ebx
+  5ef3c3: c2 08 00                     	ret	0x8
+  5ef3c6: 6a 1e                        	push	0x1e
+  5ef3c8: 58                           	pop	eax
+  5ef3c9: c3                           	ret

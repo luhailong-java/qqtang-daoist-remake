@@ -1,0 +1,65 @@
+{
+  "itemId": 27039,
+  "category": "skill",
+  "sourceName": "声望加加9级",
+  "sourceDescription": "宠物九级技能之一，增加购买道具和比赛时所获得的声望3%，同类型技能效果叠加，学习此技能以后不能学习其他九级技能。",
+  "file": "assets/items/skills/icons/27039-reputation-gain-level-9.png",
+  "sha256": "45cf43ea92e4bc12f7f96f1745081f4f846e46609b8afae45bd9698132198a09",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-g-v1.png",
+    "sha256": "f6613217a898946e219685396a5042ecc5e7edd4a86c75ad8487aec70eba76d6",
+    "generationRecord": "assets/items/skills/skills-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      60,
+      57,
+      436,
+      488
+    ],
+    "sourceContentRect": [
+      1084,
+      57,
+      1460,
+      488
+    ],
+    "uniformScale": 0.5197215777262181,
+    "placementPx": [
+      30,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27039.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "0f858284da8e356904031b23de88b387d9a0799750cd91586d6945825e2662e1",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27039.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

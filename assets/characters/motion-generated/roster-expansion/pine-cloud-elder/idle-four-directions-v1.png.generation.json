@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/roster-expansion/pine-cloud-elder/idle-four-directions-v1.png",
+  "sha256": "486ac7c611f5ceea20002bb626ec45f9902fd81d69541de9c7b2322adcafa980",
+  "generatedAt": "2026-10-28T21:04:48.627Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/pine-cloud-elder/master.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/roster-expansion/pine-cloud-elder/idle-four-directions-v1.prompt.txt",
+  "promptSha256": "b0d79a4451a41037a06ea22a506218bc76b4370000bd82c688a4ca30cdb0999b",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/pine-cloud-elder/master.png",
+      "role": "own approved identity candidate master; exact face/hair/props",
+      "sha256": "63e816fbf4bf4a058aee04fb09b4f2f22a590ba94a0d1ba2eb3eb0bb05489bb1"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist chibi style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist chibi style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-0ea67f03-848e-4ef4-aeee-5c31695012e6.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/roster-expansion/pine-cloud-elder/master.png",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "orderMatchesRequest": true,
+    "runtimeEnabled": false,
+    "pending": [
+      "requested per-cell margins/450px height/shared foot-root not strictly achieved",
+      "asymmetric hair-clip/equipment near-far occlusion and cross-direction scale",
+      "source ownership/registration and actual client"
+    ],
+    "ownership": "No equal cell crop approved until alpha boundary checked.",
+    "qa": "pine-cloud-elder/qa/idle-four-directions-v1.alpha-review.json",
+    "actualAlphaEvidence": {
+      "extrema": [
+        0,
+        255
+      ],
+      "outerEdges": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "seams": {
+        "leftOfVertical": 0,
+        "rightOfVertical": 0,
+        "aboveHorizontal": 0,
+        "belowHorizontal": 0
+      }
+    },
+    "ivoryViewed": true,
+    "sharedRootApproved": false
+  },
+  "status": "direction_still_candidate_shared_root_margin_identity_details_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}

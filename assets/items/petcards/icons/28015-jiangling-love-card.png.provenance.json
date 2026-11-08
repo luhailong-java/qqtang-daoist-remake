@@ -1,0 +1,73 @@
+{
+  "itemId": 28015,
+  "category": "petcard",
+  "sourceName": "爱情米多",
+  "sourceDescription": "具有天赋：声望之光5%，积分之光5%，积分闪耀5%。",
+  "file": "assets/items/petcards/icons/28015-jiangling-love-card.png",
+  "sha256": "7a9aa6697c6d41cc8fe7004ebc948ede70a949190a7f4f771bdde1fc670a659d",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-c-v1.png",
+    "sha256": "770fa66f3f1574a75ddc260b15dbaa38c24757bc07d9422db85011915d144ff1",
+    "generationRecord": "assets/items/petcards/petcards-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      490
+    ],
+    "contentBoxWithinCell": [
+      18,
+      15,
+      478,
+      487
+    ],
+    "sourceContentRect": [
+      1042,
+      15,
+      1502,
+      487
+    ],
+    "uniformScale": 0.4745762711864407,
+    "placementPx": [
+      19,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28015.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "sourceReferenceSha256": "d15279358ea12aa60f778723972af63d7528b1976990316dad5f5cc7ef2524eb",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28015.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "结缘绛铃",
+  "projectIdentity": "绛铃",
+  "identityReference": "assets/items/petcards/references/canon/02-jiangling.png",
+  "appearanceChoice": "explicit original Daoist Q identity, no Tencent pet face retained",
+  "identityReferenceSha256": "bff3e5b6b9a59de3843ecaa0e0b36caff4214b221add1aa5ef759a8fd1e50b11",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

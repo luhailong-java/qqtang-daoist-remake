@@ -1,0 +1,106 @@
+{
+  "elementId": 10010,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/treasure/pieces/10010-treasure-v1.png",
+  "sha256": "d1e189a6d5afd8767cbf8002dd54bea0b725f797dde30c0f9960056440840140",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    3855
+  ],
+  "mapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/treasure/frames/candidate-10010-dc0f17450c6c.png",
+    "sha256": "30f2c55612878491756167996f38095d42675830323a663778bd024518801400",
+    "representativeElementId": 10010,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": {
+    "file": "assets/maps/treasure/batch-02/sheet-v1.png",
+    "sha256": "e31a216c96334ab0fe5d821ccc67434fae18d68d079eb2f4a344b808f96a2350",
+    "generationRecord": "assets/maps/treasure/batch-02/sheet-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-inscribed-near-opaque-square-texture-normalize-alpha-uniform-scale",
+    "sourceRectLTRB": [
+      591,
+      86,
+      946,
+      441
+    ],
+    "cropSelection": "largest fully alpha>=250 inscribed square in this manually whitelisted plain ground texture; original RGB preserved",
+    "uniformScale": 0.4507042253521127,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "resampler": "LANCZOS",
+    "newModelGeneration": false,
+    "sourceAlphaPositivePixels": 148405,
+    "croppedAlphaPositivePixels": 126025,
+    "droppedAlphaPositivePixels": 22380,
+    "droppedAlphaPositiveFraction": 0.15080354435497456,
+    "alphaAtLeast8DroppedPixels": 15301,
+    "extractionRegionLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "nominalGridFollowed": true,
+    "alphaNormalization": "near-opaque texture alpha normalization250..254→255",
+    "alphaBeforeNormalization": [
+      250,
+      254
+    ]
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "anchorStatus": "unverified-not-applied; bottom placement is export convention, not source render-anchor proof",
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "opaqueSquareTexture": {
+    "requested": true,
+    "applied": true,
+    "whitelist": "plain texture only 10001/10010; manually inspected source",
+    "sourceReferenceAlphaExtrema": [
+      255,
+      255
+    ],
+    "nativeInscribedSquareSide": 355,
+    "operation": "near-opaque texture alpha normalization250..254→255",
+    "threshold": 250,
+    "notSeamAcceptance": true,
+    "originalAlphaExtrema": [
+      250,
+      254
+    ],
+    "rgbPreserved": true,
+    "nativeCropRGBSHA256": "4cc74ef91f5f9b4e2242cd9878b860b6609000647628eee793f6ec76f54df12d"
+  },
+  "terrainOpaqueCanvasVerified": true
+}

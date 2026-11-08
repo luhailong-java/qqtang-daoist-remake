@@ -1,0 +1,81 @@
+{
+  "elementId": 13006,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/machine/pieces/13006-machine-v1.png",
+  "sha256": "87d60431d96974320071ca3daa59fc929a3e0a821420fdbd5180db4b6f252a7c",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/machine/props-a-v1.png",
+    "sha256": "c4f89d4c222f03cc30256c51b2058bb0d22f388c53a19073354ab3377ed86809",
+    "generationRecord": "assets/maps/machine/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      884,
+      493,
+      1153,
+      759
+    ],
+    "uniformScale": 0.5947955390334573,
+    "placementPx": [
+      0,
+      2
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13006-247bc85bdbd9.png",
+    "sha256": "6e400c65fbf8dc6cb0ba4097ea11f15d3954b6053494a9f02221e7986e15607c",
+    "representativeElementId": 13006,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0114503816793894,
+    "relativeAspectDeviation": 0.011450381679389388,
+    "generatedCellLTRB": [
+      836,
+      418,
+      1254,
+      836
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "elementId": 9001,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/pig/pieces/9001-cobble-light.png",
+  "sha256": "67b7677e548066ec5aa1614eeb86c77bcfec05484eac52782dbf262d913b0d55",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/pig/ground-v1.png",
+    "sha256": "383acbdb8965cb0c277951881d94b621cde7d2ee7144f673b85d92dbb7b1cbe9",
+    "generationRecord": "assets/maps/pig/ground-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-opaque-square-texture-uniform-resize",
+    "sourceRectLTRB": [
+      120,
+      220,
+      680,
+      780
+    ],
+    "uniformScale": 0.2857142857142857,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied",
+    "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used"
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.0,
+  "geometryAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": []
+}

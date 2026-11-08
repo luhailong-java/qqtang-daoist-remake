@@ -1,0 +1,103 @@
+{
+  "elementId": 1135,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1135-desert-v1.png",
+  "sha256": "33265c2633b373b6db836c6a1ad5c0c2012352045b130c4b2d216e7c3c66b9a2",
+  "width": 1760,
+  "height": 320,
+  "worldFrameWidth": 440,
+  "worldFrameHeight": 80,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-f-v1.png",
+    "sha256": "802374ba4ac097597e40d69269276d75cc1c107f87b9d5c879cfb54a1113d14c",
+    "generationRecord": "assets/maps/desert/props-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      87,
+      265,
+      1168,
+      417
+    ],
+    "uniformScale": 1.6281221091581868,
+    "placementPx": [
+      0,
+      73
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1135-afaa63b72a90.png",
+    "sha256": "550dc18d02a02c9d18a8ff71b73ff73f0455d0b1aba9b0d7f6a6a1451c989e38",
+    "representativeElementId": 1135,
+    "nativeFrameSize": [
+      440,
+      80
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    11,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 5.5,
+    "generatedVisibleAspect": 7.277027027027027,
+    "relativeAspectDeviation": 0.3230958230958232,
+    "generatedCellLTRB": [
+      73,
+      250,
+      1178,
+      433
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.323-exceeds-0.100-review-required"
+    ]
+  }
+}

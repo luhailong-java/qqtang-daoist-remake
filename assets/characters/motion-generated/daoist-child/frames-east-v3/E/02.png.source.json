@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/frames-east-v3/E/02.png",
+  "sha256": "3eb9fbc148ec55346bce666a4d81b99c9c4a2987d49fb1c4c25621773f0853f2",
+  "derivedAt": "2026-10-26T21:32:01.294668+00:00",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": {
+    "file": "assets/characters/motion-generated/daoist-child/walk-east-v3.png",
+    "sha256": "63b0f747865e92b107c39705433bf69918e63bc5a1773920702e41ee04db855a",
+    "generationRecord": "assets/characters/motion-generated/daoist-child/walk-east-v3.png.generation.json"
+  },
+  "operation": {
+    "type": "ownership_crop_fixed_nominal_root_common_transparent_canvas_uniform_downscale",
+    "sourceSize": [
+      2048,
+      768
+    ],
+    "cropLTRB": [
+      512,
+      0,
+      1024,
+      768
+    ],
+    "nominalCellRootX": 256,
+    "placementOnCommonCanvas": [
+      236,
+      108
+    ],
+    "commonCanvas": [
+      984,
+      984
+    ],
+    "scale": 0.2601626016260163,
+    "resampler": "LANCZOS premultiplied RGBa",
+    "output": [
+      256,
+      256
+    ],
+    "perFrameSubjectFit": false,
+    "mirror": false,
+    "interpolatedPoses": false,
+    "newGeneration": false
+  },
+  "anchor": [
+    128,
+    215.93495934959353
+  ],
+  "anchorStatus": "shared_character_root_candidate_not_client_approved",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaGt8BBox": [
+    61,
+    40,
+    195,
+    226
+  ],
+  "boundaryPixelsAlphaGt8": 0,
+  "status": "not_passed",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "failureReasons": [
+    "visible_brown_blocky_alpha_halo_outside_silhouettes; actual ivory composite not clean",
+    "no_clear_ownership_separator; source pixels or haze cross cell cuts"
+  ]
+}

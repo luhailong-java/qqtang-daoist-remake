@@ -1,0 +1,161 @@
+{
+  "itemId": 3035,
+  "category": "thadorn",
+  "sourceName": "天使的庇佑",
+  "sourceDescription": "有了天使的庇佑，可爱的女生更加神光异彩。",
+  "file": "assets/items/head-adornments/icons/3035-ivory-jade-angel-wings.png",
+  "sha256": "1f9630b0879eb5fc06cb0c4c5d91c3369525f7c10ea44b72bca2376dff49b573",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/head-adornments-e-v1.png",
+    "sha256": "1d9477a795bd4fea9188675ad52288f5d8881fe3772a23b270caaa941a5c2939",
+    "generationRecord": "assets/items/head-adornments/head-adornments-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      512,
+      545,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      17,
+      134,
+      533,
+      357
+    ],
+    "sourceContentRect": [
+      17,
+      646,
+      533,
+      869
+    ],
+    "uniformScale": 0.43410852713178294,
+    "placementPx": [
+      16,
+      79
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-3035-inventory-icon.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [],
+  "warnings": [],
+  "assetRole": "independent static inventory icon for overhead adornment",
+  "scope": "inventory icon only; no wearable world master or complete animation produced",
+  "sourceReferenceSha256": "0b4fd6d5a13c1800fb272c0733942807e0ffd3458fbd32d36417f52305df8fb6",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-3035-inventory-icon.png.source.json",
+  "sourceResourceKind": "explicit inventory icon",
+  "sourceNativeInventoryFrameSize": [
+    52,
+    43
+  ],
+  "sourceInventoryFrameOffsetRaw": [
+    3,
+    10
+  ],
+  "worldStateSourceSummary": [
+    {
+      "state": "stand",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn78_stand.img",
+      "sourceSha256": "4e73ae14864ca94bfb17486d43ddb16da00a9325c59b09f4f512f7ceb3708537",
+      "byteLength": 192022,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          24,
+          7
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          40,
+          43
+        ],
+        "unknownImageHeaderWord": 80
+      }
+    },
+    {
+      "state": "walk",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/thadorn/thadorn78_walk.img",
+      "sourceSha256": "4e73ae14864ca94bfb17486d43ddb16da00a9325c59b09f4f512f7ceb3708537",
+      "byteLength": 192022,
+      "referenceOnly": true,
+      "pixelDataDecoded": false,
+      "completeContainerVerified": false,
+      "opaqueSuffixMeaning": "not inspected by header-only reader",
+      "signature": "QQF1aDIMG",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 24,
+      "directions": 4,
+      "unknownHeaderWords24And28": [
+        0,
+        0
+      ],
+      "declaredCanvas": [
+        100,
+        100
+      ],
+      "firstDeclaredFrame": {
+        "index": 0,
+        "marker": 0,
+        "offsetRaw": [
+          24,
+          7
+        ],
+        "pixelMode": 3,
+        "empty": false,
+        "size": [
+          40,
+          43
+        ],
+        "unknownImageHeaderWord": 80
+      }
+    }
+  ],
+  "worldStaticMasterProduced": false,
+  "completeAnimationProduced": false,
+  "accepted": false,
+  "checksPending": [
+    "function-and-identity-review",
+    "alpha-and-small-size-review",
+    "world-master-production",
+    "all-original-direction-and-action-frames",
+    "client-anchor-and-runtime-adoption"
+  ],
+  "projectDisplayName": "云绢羽护",
+  "appearanceChoice": "new original Daoist Q inventory design; source team/character/commemoration appearance not copied, source role and attributes preserved"
+}

@@ -1,0 +1,12 @@
+Edit the first reference3x2 fully opaque square texture atlas to correct SIX SOURCE PHASE POSITIONS. Keep the same own gray stone, perforated dark grate, slender warm-gold rails and fine Daoist cloud material, exact1536x1024 canvas with3columns x2rows of512x512 edge-to-edge cells. No gaps, margins, labels, bevel perspective or transparency. Image2 contains actual source frames0,1,2,3,4,5 left-to-right; image3 is own material master; final two are Daoist Q style.
+
+The first draft incorrectly reused identical SIDE RAIL cross-seam positions in all cells, and shifted the central bands too far down in cells1 and2. Redraw each ENTIRE tile to its own exact source arrangement. For each512-high cell, all coordinates below are LOCAL within that cell, not whole-atlas coordinates. The central DARK PERFORATED GRATE row ranges must be:
+frame0 TOP LEFT: y26..115 and282..371; solid gray plate between and below. The two side-rail cross seams at y205 and320.
+frame1 TOP MIDDLE: y64..154 and320..410; small solid gray plate at very top, broad solid plates between and below. Side-rail cross seams y102 and499. The first grate MUST start64, not about128 as in current draft.
+frame2 TOP RIGHT: y38..128 and294..384; small solid top area then two grate bands. Side-rail seams y77 and474. First grate MUST start38, not about70.
+frame3 BOTTOM LEFT: partial grate y0..90 and256..346. Side-rail seams y179 and294.
+frame4 BOTTOM MIDDLE: partial grate y0..64, full grate230..320, partial grate486..511. Side-rail seams154 and269.
+frame5 BOTTOM RIGHT: partial grate y0..38, full grate205..294, partial grate461..511. Side-rail seams128 and243.
+Use smooth thin warm-gold separators at these transitions; source image2 is definitive. Keep the rail width and inner channel edges consistent across all phases. Maintain the full square opaque footprint, no extra outlines, frame labels, arrows or claimed movement direction. These are retained source frame positions only.
+
+Refined HD hand painting with subtle gray/ivory stone textures and controlled gold highlights as in our own current material. No new decorations or invented cracks, no plastic glare, text, symbols, shadows, creatures or other props. Draw the six corrected phase compositions naturally and coherently; do not just repeat the earlier atlas or mechanically paste shifted strips. Output only the corrected fully opaque3x2 atlas.

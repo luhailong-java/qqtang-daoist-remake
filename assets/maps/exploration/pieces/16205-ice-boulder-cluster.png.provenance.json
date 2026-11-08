@@ -1,0 +1,109 @@
+{
+  "elementId": 16205,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/exploration/pieces/16205-ice-boulder-cluster.png",
+  "sha256": "f9ba88704c89bf22cce886723df0d7d1d87dfca8527f7a10874fd30c1c48534b",
+  "width": 200,
+  "height": 236,
+  "worldFrameWidth": 50,
+  "worldFrameHeight": 59,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    6,
+    19
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/exploration/binary/props-a-v1.png",
+    "sha256": "9f541b4b819d9c0da519547c19fec51b7c8621d3615edb94bfa0aec25619a862",
+    "generationRecord": "assets/maps/exploration/binary/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      585,
+      558,
+      955,
+      979
+    ],
+    "uniformScale": 0.5405405405405406,
+    "placementPx": [
+      0,
+      8
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.03705463182897861,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "internal-silhouette-and-original-map-render-unverified"
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 16205,
+      "recordOffset": 17336,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        6,
+        19
+      ],
+      "lifeTimeRaw": -1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        0
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "accepted": false,
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-16205.png",
+    "sha256": "42d5f417677d502c0b96ec8580be86327b5acffc814b673e9ce49988090d4d5f"
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffsetRaw": [
+    6,
+    19
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "canHide": null,
+  "canDoSpecial": null,
+  "qa": {
+    "sourceVisibleAspect": 0.847457627118644,
+    "generatedVisibleAspect": 0.8764845605700713,
+    "relativeAspectDeviation": 0.03425178147268415,
+    "warnings": [
+      "source-image-id-and-client-anchor-unverified",
+      "internal-silhouette-and-original-map-render-unverified"
+    ]
+  }
+}

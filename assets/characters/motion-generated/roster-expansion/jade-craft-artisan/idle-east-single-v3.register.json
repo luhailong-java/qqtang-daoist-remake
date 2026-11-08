@@ -1,0 +1,50 @@
+{
+  "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-east-single-v3.png",
+  "prompt": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-east-single-v3.prompt.txt",
+  "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-f29d5fb1-ede9-406a-914e-b0968fbf0f2b.png",
+  "editTarget": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v2.png",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+      "role": "own identity master; RIGHT mallet/LEFT cloud"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v2.png",
+      "role": "selected direction source for identity/normalized cell scale; East absent"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style"
+    }
+  ],
+  "status": "east_orientation_candidate_prop_hand_chain_not_passed",
+  "review": {
+    "kind": "single_east_idle_static_key_not_animation",
+    "actualDirection": "E",
+    "orientation": "Nose and toes clearly screen-right, genuine new model drawing not a mirrored derived source.",
+    "identity": "Face/bob/braids/apron/tool shapes retained; far LEFT hairclip mostly behind hair. However near foreground arm appears to hold cloud and farther arm mallet, conflicting requested near RIGHT mallet chain in E. Not passed for prop-hand identity.",
+    "requestedNormalizedCell": {
+      "canvas": [
+        627,
+        627
+      ],
+      "fullCanvasScale": 0.5,
+      "root": [
+        313,
+        580
+      ]
+    },
+    "actualRoot": null,
+    "runtimeEnabled": false,
+    "pending": [
+      "near/far tool-hand chain",
+      "shared-root/scale actual source alignment",
+      "client"
+    ],
+    "next": "One independent single attempt completed; preserve specific hand-chain failure, move to eight transformation bases."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/frames-east-v4/E/02.png",
+  "sha256": "c0d3ec0237a1c1a7867e6efbb3ef686d2c9e63cd7fa14fdc334e31d540070e1b",
+  "derivedAt": "2026-10-28T09:46:54.282731+00:00",
+  "derivedFrom": {
+    "file": "assets/characters/motion-generated/moon-shadow/walk-east-v4.png",
+    "sha256": "a47012d1304e202372fb76b2911b571ea6469931faafdfaf64053b99bacc3e5d",
+    "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-east-v4.png.generation.json"
+  },
+  "operation": {
+    "type": "ownership_crop_fixed_nominal_root_common_transparent_canvas_uniform_downscale",
+    "sourceSize": [
+      2048,
+      768
+    ],
+    "cropLTRB": [
+      532,
+      0,
+      1024,
+      768
+    ],
+    "nominalCellRootX": 236,
+    "placementOnCommonCanvas": [
+      256,
+      108
+    ],
+    "commonCanvas": [
+      984,
+      984
+    ],
+    "scale": 0.2601626016260163,
+    "resampler": "LANCZOS premultiplied RGBa",
+    "output": [
+      256,
+      256
+    ],
+    "perFrameSubjectFit": false,
+    "mirror": false,
+    "interpolatedPoses": false,
+    "newGeneration": false
+  },
+  "anchor": [
+    128,
+    217.75609756097563
+  ],
+  "anchorStatus": "shared_character_root_candidate_not_client_approved",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaGt8BBox": [
+    69,
+    44,
+    195,
+    215
+  ],
+  "boundaryPixelsAlphaGt8": 0,
+  "status": "not_passed",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "review": {
+    "identity": "silver bob, hair ornament and twin daggers consistent across all four frames",
+    "gait": "Root visual review: near-side toe remains forward in both1and3, rear-leg angle changed without true support reversal",
+    "phaseInference": "near/far inferred from trouser cuff overlap; final dynamic/client review pending",
+    "failureReasons": [
+      "near_leg_toe_relative_to_hip_does_not_reverse_between_frames1and3"
+    ]
+  }
+}

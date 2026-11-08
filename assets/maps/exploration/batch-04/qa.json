@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUTC": "2026-10-28T12:59:37.360489+00:00",
+  "generatedSheet": "assets/maps/exploration/batch-04/sheet-v1.png",
+  "nativeSheetSize": [
+    1536,
+    1024
+  ],
+  "generatedSheetSHA256": "03a79c80e011eaec757773e511c52aa2ece43ebb18bf0abcda408293d7336091",
+  "exportCount": 6,
+  "fixedFrameCanvas4xPassed": 6,
+  "footprintAndOffsetCopiedWithoutMutation": 6,
+  "warnings": [
+    {
+      "id": "crop.dropped_alpha_positive_fraction",
+      "elementId": 16024,
+      "value": 0.04311951024753793,
+      "threshold": 0.01,
+      "file": "assets/maps/exploration/pieces/16024-exploration-v1.png",
+      "sourceFile": "assets/maps/exploration/batch-04/sheet-v1.png",
+      "note": "Discarded pixels are faint outside-object generated halos (alpha 1-7 when strong dropped count is zero); not silently treated as no loss."
+    },
+    {
+      "id": "crop.dropped_alpha_positive_fraction",
+      "elementId": 16028,
+      "value": 0.1044299542887873,
+      "threshold": 0.01,
+      "file": "assets/maps/exploration/pieces/16028-exploration-v1.png",
+      "sourceFile": "assets/maps/exploration/batch-04/sheet-v1.png",
+      "note": "Deliberate plain-texture inscribed crop; outside-window artwork is not retained, source crop and original alpha documented."
+    },
+    {
+      "id": "crop.dropped_alpha_at_least_8",
+      "elementId": 16028,
+      "value": 12570,
+      "threshold": 0,
+      "file": "assets/maps/exploration/pieces/16028-exploration-v1.png"
+    }
+  ],
+  "failures": [],
+  "accepted": false,
+  "geometryAccepted": false,
+  "inGameAccepted": false,
+  "limitations": [
+    "Fixed export dimensions do not prove pixel geometry, silhouette, perspective, anchor or original client lookup.",
+    "Browser use disabled by Work settings; no current in-game screenshots or acceptance.",
+    "No alpha correction or background removal; native alpha inside crops preserved.",
+    "Generation may change art silhouette or doorway shape; these candidates require source-overlay and in-game visual review."
+  ]
+}

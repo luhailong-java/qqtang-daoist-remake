@@ -1,0 +1,128 @@
+{
+  "elementId": 16001,
+  "selectedRepresentatives": [
+    0,
+    1,
+    2
+  ],
+  "sourceKindObservation": "flat rounded lava appearance with full-frame alpha8 bounds; no gameplay meaning inferred",
+  "exportGuardNativePixels": 0,
+  "why": "Do not add the standing-object4-native-pixel clear guard to an edge-reaching floor image; actual surface alpha remains unnormalized.",
+  "sourceAndCurrentCandidateOnly": true,
+  "rows": [
+    {
+      "frameIndex": 0,
+      "source": {
+        "size": [
+          83,
+          83
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alpha8BBox": [
+          0,
+          0,
+          83,
+          83
+        ],
+        "alpha8EdgeCount": 61
+      },
+      "candidateX1": {
+        "size": [
+          83,
+          83
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alpha8BBox": [
+          0,
+          1,
+          83,
+          83
+        ],
+        "alpha8EdgeCount": 88
+      }
+    },
+    {
+      "frameIndex": 1,
+      "source": {
+        "size": [
+          83,
+          83
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alpha8BBox": [
+          0,
+          0,
+          83,
+          83
+        ],
+        "alpha8EdgeCount": 61
+      },
+      "candidateX1": {
+        "size": [
+          83,
+          83
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alpha8BBox": [
+          0,
+          1,
+          83,
+          83
+        ],
+        "alpha8EdgeCount": 87
+      }
+    },
+    {
+      "frameIndex": 2,
+      "source": {
+        "size": [
+          83,
+          83
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alpha8BBox": [
+          0,
+          0,
+          83,
+          83
+        ],
+        "alpha8EdgeCount": 61
+      },
+      "candidateX1": {
+        "size": [
+          83,
+          83
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alpha8BBox": [
+          0,
+          1,
+          83,
+          83
+        ],
+        "alpha8EdgeCount": 89
+      }
+    }
+  ],
+  "accepted": false,
+  "geometryAccepted": false,
+  "limitation": "Boundary pixel counts are factual evidence, not acceptance. Remaining1-pixel margin/phase outline variation and native source edge registration still pending."
+}

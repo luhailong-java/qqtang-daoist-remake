@@ -1,0 +1,65 @@
+{
+  "itemId": 27069,
+  "category": "skill",
+  "sourceName": "勇气多多9级",
+  "sourceDescription": "宠物九级技能之一，有3%的概率使得获得的勇气翻倍，同类型技能效果叠加，学习此技能以后不能学习其他九级技能。",
+  "file": "assets/items/skills/icons/27069-courage-double-level-9.png",
+  "sha256": "dea230dbde9c77ba9a9ca6838b12e8cf81c6969d1fe33e0b51ce344240f3e069",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-l-v1.png",
+    "sha256": "2ffe20dfea3ddd3a05308619f3bfd37d39e8a2ea945e58cfd7a50c937181d510",
+    "generationRecord": "assets/items/skills/skills-l-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      79,
+      54,
+      458,
+      487
+    ],
+    "sourceContentRect": [
+      1103,
+      54,
+      1482,
+      487
+    ],
+    "uniformScale": 0.5173210161662818,
+    "placementPx": [
+      30,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27069.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "600b0cf41b050f39a591841eb2cf66c582eb9d1b08473fc1c099eac184399433",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27069.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

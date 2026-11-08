@@ -1,0 +1,81 @@
+{
+  "elementId": 5006,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5006-water-v1.png",
+  "sha256": "29604eb49691cda54fd9dbccdcf7a627ee43d57ea602dcfcbdb7713074c88231",
+  "width": 160,
+  "height": 200,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 50,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-a-v1.png",
+    "sha256": "8b3f1df2b0ebf953a1302399d88d5a7fd9ff32d3e072c6876f30d3309169586e",
+    "generationRecord": "assets/maps/water/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1151,
+      590,
+      1429,
+      935
+    ],
+    "uniformScale": 0.5755395683453237,
+    "placementPx": [
+      0,
+      1
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5006-9d92383a2c45.png",
+    "sha256": "db7cb29d5530aeebd9cde919e11ebdabd6592bd95f37b6e6f3bd4a75c84ed96f",
+    "representativeElementId": 5006,
+    "nativeFrameSize": [
+      40,
+      50
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    -1,
+    12
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8,
+    "generatedVisibleAspect": 0.8035190615835777,
+    "relativeAspectDeviation": 0.004398826979471915,
+    "generatedCellLTRB": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

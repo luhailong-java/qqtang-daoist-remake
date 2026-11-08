@@ -1,0 +1,174 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-00582ba0.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+00582ba0 <.text>:
+  582ba0: 2b 05 b4 37 80 00            	sub	eax, dword ptr [0x8037b4]
+  582ba6: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  582ba9: 89 41 14                     	mov	dword ptr [ecx + 0x14], eax
+  582bac: 5f                           	pop	edi
+  582bad: 5e                           	pop	esi
+  582bae: 5b                           	pop	ebx
+  582baf: 8b e5                        	mov	esp, ebp
+  582bb1: 5d                           	pop	ebp
+  582bb2: c2 08 00                     	ret	0x8
+  582bb5: cc                           	int3
+  582bb6: cc                           	int3
+  582bb7: cc                           	int3
+  582bb8: cc                           	int3
+  582bb9: cc                           	int3
+  582bba: cc                           	int3
+  582bbb: cc                           	int3
+  582bbc: cc                           	int3
+  582bbd: cc                           	int3
+  582bbe: cc                           	int3
+  582bbf: cc                           	int3
+  582bc0: cc                           	int3
+  582bc1: cc                           	int3
+  582bc2: cc                           	int3
+  582bc3: cc                           	int3
+  582bc4: cc                           	int3
+  582bc5: cc                           	int3
+  582bc6: cc                           	int3
+  582bc7: cc                           	int3
+  582bc8: cc                           	int3
+  582bc9: cc                           	int3
+  582bca: cc                           	int3
+  582bcb: cc                           	int3
+  582bcc: cc                           	int3
+  582bcd: cc                           	int3
+  582bce: cc                           	int3
+  582bcf: cc                           	int3
+  582bd0: 55                           	push	ebp
+  582bd1: 8b ec                        	mov	ebp, esp
+  582bd3: 83 ec 44                     	sub	esp, 0x44
+  582bd6: 53                           	push	ebx
+  582bd7: 56                           	push	esi
+  582bd8: 57                           	push	edi
+  582bd9: 89 4d fc                     	mov	dword ptr [ebp - 0x4], ecx
+  582bdc: 8b 45 fc                     	mov	eax, dword ptr [ebp - 0x4]
+  582bdf: 8b 4d 08                     	mov	ecx, dword ptr [ebp + 0x8]
+  582be2: 89 48 08                     	mov	dword ptr [eax + 0x8], ecx
+  582be5: 8b 55 fc                     	mov	edx, dword ptr [ebp - 0x4]
+  582be8: 8b 45 0c                     	mov	eax, dword ptr [ebp + 0xc]
+  582beb: 89 42 0c                     	mov	dword ptr [edx + 0xc], eax
+  582bee: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  582bf1: 8b 55 08                     	mov	edx, dword ptr [ebp + 0x8]
+  582bf4: 89 51 10                     	mov	dword ptr [ecx + 0x10], edx
+  582bf7: 8b 45 fc                     	mov	eax, dword ptr [ebp - 0x4]
+  582bfa: 8b 4d 0c                     	mov	ecx, dword ptr [ebp + 0xc]
+  582bfd: 89 48 14                     	mov	dword ptr [eax + 0x14], ecx
+  582c00: 5f                           	pop	edi
+  582c01: 5e                           	pop	esi
+  582c02: 5b                           	pop	ebx
+  582c03: 8b e5                        	mov	esp, ebp
+  582c05: 5d                           	pop	ebp
+  582c06: c2 08 00                     	ret	0x8
+  582c09: cc                           	int3
+  582c0a: cc                           	int3
+  582c0b: cc                           	int3
+  582c0c: cc                           	int3
+  582c0d: cc                           	int3
+  582c0e: cc                           	int3
+  582c0f: cc                           	int3
+  582c10: cc                           	int3
+  582c11: cc                           	int3
+  582c12: cc                           	int3
+  582c13: cc                           	int3
+  582c14: cc                           	int3
+  582c15: cc                           	int3
+  582c16: cc                           	int3
+  582c17: cc                           	int3
+  582c18: cc                           	int3
+  582c19: cc                           	int3
+  582c1a: cc                           	int3
+  582c1b: cc                           	int3
+  582c1c: cc                           	int3
+  582c1d: cc                           	int3
+  582c1e: cc                           	int3
+  582c1f: cc                           	int3
+  582c20: 55                           	push	ebp
+  582c21: 8b ec                        	mov	ebp, esp
+  582c23: 83 ec 48                     	sub	esp, 0x48
+  582c26: 53                           	push	ebx
+  582c27: 56                           	push	esi
+  582c28: 57                           	push	edi
+  582c29: 89 4d fc                     	mov	dword ptr [ebp - 0x4], ecx
+  582c2c: c7 45 f8 00 00 00 00         	mov	dword ptr [ebp - 0x8], 0x0
+  582c33: eb 09                        	jmp	0x582c3e <.text+0x9e>
+  582c35: 8b 45 f8                     	mov	eax, dword ptr [ebp - 0x8]
+  582c38: 83 c0 01                     	add	eax, 0x1
+  582c3b: 89 45 f8                     	mov	dword ptr [ebp - 0x8], eax
+  582c3e: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  582c41: 8b 09                        	mov	ecx, dword ptr [ecx]
+  582c43: 83 c1 28                     	add	ecx, 0x28
+  582c46: e8 0c 0a e8 ff               	call	0x403657
+  582c4b: 39 45 f8                     	cmp	dword ptr [ebp - 0x8], eax
+  582c4e: 73 19                        	jae	0x582c69 <.text+0xc9>
+  582c50: 8b 55 f8                     	mov	edx, dword ptr [ebp - 0x8]
+  582c53: 52                           	push	edx
+  582c54: 8b 45 fc                     	mov	eax, dword ptr [ebp - 0x4]
+  582c57: 8b 08                        	mov	ecx, dword ptr [eax]
+  582c59: 83 c1 28                     	add	ecx, 0x28
+  582c5c: e8 2f ad e8 ff               	call	0x40d990
+  582c61: 8a 4d 08                     	mov	cl, byte ptr [ebp + 0x8]
+  582c64: 88 48 37                     	mov	byte ptr [eax + 0x37], cl
+  582c67: eb cc                        	jmp	0x582c35 <.text+0x95>
+  582c69: 5f                           	pop	edi
+  582c6a: 5e                           	pop	esi
+  582c6b: 5b                           	pop	ebx
+  582c6c: 8b e5                        	mov	esp, ebp
+  582c6e: 5d                           	pop	ebp
+  582c6f: c2 04 00                     	ret	0x4
+  582c72: cc                           	int3
+  582c73: cc                           	int3
+  582c74: cc                           	int3
+  582c75: cc                           	int3
+  582c76: cc                           	int3
+  582c77: cc                           	int3
+  582c78: cc                           	int3
+  582c79: cc                           	int3
+  582c7a: cc                           	int3
+  582c7b: cc                           	int3
+  582c7c: cc                           	int3
+  582c7d: cc                           	int3
+  582c7e: cc                           	int3
+  582c7f: cc                           	int3
+  582c80: cc                           	int3
+  582c81: cc                           	int3
+  582c82: cc                           	int3
+  582c83: cc                           	int3
+  582c84: cc                           	int3
+  582c85: cc                           	int3
+  582c86: cc                           	int3
+  582c87: cc                           	int3
+  582c88: cc                           	int3
+  582c89: cc                           	int3
+  582c8a: cc                           	int3
+  582c8b: cc                           	int3
+  582c8c: cc                           	int3
+  582c8d: cc                           	int3
+  582c8e: cc                           	int3
+  582c8f: cc                           	int3
+  582c90: 55                           	push	ebp
+  582c91: 8b ec                        	mov	ebp, esp
+  582c93: 83 ec 44                     	sub	esp, 0x44
+  582c96: 53                           	push	ebx
+  582c97: 56                           	push	esi
+  582c98: 57                           	push	edi
+  582c99: 89 4d fc                     	mov	dword ptr [ebp - 0x4], ecx
+  582c9c: 8b 45 08                     	mov	eax, dword ptr [ebp + 0x8]
+  582c9f: 50                           	push	eax
+  582ca0: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  582ca3: 8b 09                        	mov	ecx, dword ptr [ecx]
+  582ca5: 83 c1 28                     	add	ecx, 0x28
+  582ca8: e8 e3 ac e8 ff               	call	0x40d990
+  582cad: 8b 55 0c                     	mov	edx, dword ptr [ebp + 0xc]
+  582cb0: 89 50 2c                     	mov	dword ptr [eax + 0x2c], edx
+  582cb3: 8b 45 08                     	mov	eax, dword ptr [ebp + 0x8]
+  582cb6: 50                           	push	eax
+  582cb7: 8b 4d fc                     	mov	ecx, dword ptr [ebp - 0x4]
+  582cba: 8b 09                        	mov	ecx, dword ptr [ecx]
+  582cbc: 83 c1 28                     	add	ecx, 0x28
+  582cbf: e8                           	<unknown>

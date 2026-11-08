@@ -1,0 +1,65 @@
+{
+  "itemId": 27037,
+  "category": "skill",
+  "sourceName": "声望加加7级",
+  "sourceDescription": "宠物七级技能之一，增加购买道具和比赛时所获得的声望3%，同类型技能效果叠加，学习此技能以后不能学习其他七级技能。",
+  "file": "assets/items/skills/icons/27037-reputation-gain-level-7.png",
+  "sha256": "ae16aa3d49053b878c50a245a0986464ed49dc26b7f3f6610b067bf8986d516c",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-g-v1.png",
+    "sha256": "f6613217a898946e219685396a5042ecc5e7edd4a86c75ad8487aec70eba76d6",
+    "generationRecord": "assets/items/skills/skills-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "contentBoxWithinCell": [
+      91,
+      57,
+      466,
+      488
+    ],
+    "sourceContentRect": [
+      91,
+      57,
+      466,
+      488
+    ],
+    "uniformScale": 0.5197215777262181,
+    "placementPx": [
+      30,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27037.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "0d3d19d6c723141fdfdd69bc9964713dc6f45dbeb9d5feea68f889967ab6aa9c",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27037.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "elementId": 11007,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/match/pieces/11007-boundary-strip-v3.png",
+  "sha256": "ae9a31f9fe09d6b475a11180418c526ee408e5ad45994d73df36c29df9ea24e1",
+  "width": 2080,
+  "height": 160,
+  "worldFrameWidth": 520,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    13,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/match/boundary-strip-v3.png",
+    "sha256": "d18a4640de33f9e984fab906b038d81ec42a5362895a3a0407491ad4b141436d",
+    "generationRecord": "assets/maps/match/boundary-strip-v3.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-opaque-rectangular-texture-uniform-resize",
+    "sourceRectLTRB": [
+      290,
+      332,
+      1759,
+      445
+    ],
+    "uniformScale": 1.415929203539823,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied",
+    "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used"
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.0,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [],
+  "mappingNotes": "Original is a fully opaque520x40 continuous boundary texture, not a tall transparent fence. New native2048x768 painting contains a straight repeated-material strip. Crop1469x113 selects its fully opaque interior at exact13:1; alpha250–254 normalized to255, uniform1.416x compatibility export2080x160. This is a material crop/resample, not2080px native detail or proof of original rendering. Ornamental hedge repeat density is newly painted; full rectangular footprint and raw source offsets stay unchanged. Top/bottom material split, adjacent joins and actual map placement remain unaccepted."
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/portraits-candidates/paper-kite-wanderer-256.png",
+  "sha256": "e26258d46fd54a3c1dfcc9957c110945b5c3b3756e20abb90922fcf338ed71c3",
+  "createdAt": "2026-10-28T23:40:40.939395+00:00",
+  "sourceRoleId": 15,
+  "identityId": "paper-kite-wanderer",
+  "name": "纸鸢",
+  "type": "derived_ui_portrait_candidate_not_new_character_or_new_generation",
+  "mappingRecord": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+  "source": {
+    "file": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/master.png",
+    "sha256": "c948ea39a2d3aff75157046e298b963a318bbfddc47366aa0742b86d1edb84ff",
+    "actualSourceCanvas": [
+      1254,
+      1254
+    ],
+    "sourceGenerationRecord": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/master.png.generation.json",
+    "nativeGenerationSizeFromRecord": [
+      1254,
+      1254
+    ],
+    "actualModel": null,
+    "actualQuality": null,
+    "generationTime": "2026-10-28T17:37:45.111Z",
+    "sourceAlpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "sourceCanvasSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSize": [
+      1254,
+      1254
+    ],
+    "nativeGenerationSizeEvidence": "Original own master generation record actually reports1254x1254; portrait downscale is not new generation."
+  },
+  "operation": {
+    "kind": "one manual rectangular whole ROI crop then uniform premultiplied-alpha LANCZOS shrink and centered transparent placement",
+    "sourceCropLTRB": [
+      160,
+      42,
+      1224,
+      798
+    ],
+    "sourceCropSize": [
+      1064,
+      756
+    ],
+    "uniformScale": 0.21428571428571427,
+    "resampledCropSize": [
+      228,
+      162
+    ],
+    "placementXY": [
+      14,
+      47
+    ],
+    "outputCanvas": [
+      256,
+      256
+    ],
+    "requestedTransparentInset": 14,
+    "selectionReason": "Complete wide bamboo hat/cloud pin/ribbons, both braids and face plus shoulder collar. Wide hat requires smaller face within256; no hat clipping or separate face zoom.",
+    "sourceMasterActuallyViewed": true,
+    "noComponentMovement": true,
+    "noFaceOrHatSeparateScale": true,
+    "noMirroring": true,
+    "newImageGeneration": false
+  },
+  "output": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha8BBoxLTRB": [
+      22,
+      54,
+      234,
+      209
+    ],
+    "alpha8MarginsLTRB": [
+      22,
+      54,
+      22,
+      47
+    ],
+    "alpha8OuterEdges": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "preview": "assets/characters/portraits-candidates/qa/paper-kite-wanderer-256-ivory.png",
+    "actual256Viewed": true,
+    "visualObservation": "Complete broad bamboo hat/cloud pin/ribbons and both braids retained. Face is smaller because full hat and hair share one uniform crop scale;256 eyes readable, smaller UI sizes unverified.",
+    "visibleSolidHaloObserved": false,
+    "fullHeadHairHeadwearFacePreserved": true,
+    "smallUIReadabilityBelow256Verified": false
+  },
+  "runtimeAdopted": false,
+  "clientApproved": false,
+  "status": "portrait_candidate_actual256_viewed_pending_ui_adoption"
+}

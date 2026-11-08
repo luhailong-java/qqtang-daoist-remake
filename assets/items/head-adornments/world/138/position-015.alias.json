@@ -1,0 +1,114 @@
+{
+  "itemId": 138,
+  "sourceFrameIndex": 15,
+  "sourcePhaseIndex": 15,
+  "directionIndex": null,
+  "directionSemantic": null,
+  "file": "assets/items/head-adornments/world/138/frame-012-138-c-v1.png",
+  "sha256": "7ac3d66263a8b100f4cdffb6ef1cbe6132df683955c5665610ce6d89f7e2e5d8",
+  "width": 196,
+  "height": 96,
+  "logicalFrameSize": [
+    49,
+    24
+  ],
+  "exportDensity": 4,
+  "frameOffsetRaw": [
+    24,
+    11
+  ],
+  "frameOffsetPxAtDensity4": [
+    96,
+    44
+  ],
+  "sourceReference": {
+    "file": "assets/items/head-adornments/references/world/138/frame-012.png",
+    "sha256": "1976f3bd6b5e61114c800ff39cb365632957a3ac5b6d6882ec33819472ce16c2",
+    "record": "assets/items/head-adornments/references/world/138/frame-012.png.source.json"
+  },
+  "derivedFrom": {
+    "file": "assets/items/head-adornments/world/world-138-c-v1.png",
+    "sha256": "b21984ddc0de159207559ec361cf7e5b00b5eff20978015f087a768c0569ebb7",
+    "generationRecord": "assets/items/head-adornments/world/world-138-c-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "exact-raster-file-reference-reuse",
+    "newModelGeneration": false,
+    "representativeSourceFrameIndex": 12,
+    "representativeFile": "assets/items/head-adornments/world/138/frame-012-138-c-v1.png",
+    "geometry": "same native width/height only; rawOffset belongs to this source position",
+    "originalPaintOperation": {
+      "type": "crop-uniform-fit-original-world-alpha-envelope",
+      "newModelGeneration": false,
+      "sourceCellRectLTRB": [
+        0,
+        0,
+        512,
+        1024
+      ],
+      "generatedContentBBoxAt16": [
+        14,
+        358,
+        480,
+        601
+      ],
+      "sourceLogicalAlphaBBoxAt16": [
+        0,
+        0,
+        49,
+        24
+      ],
+      "uniformScale": 0.3950617283950617,
+      "placementPx": [
+        6,
+        0
+      ],
+      "resampler": "premultiplied-alpha LANCZOS",
+      "registration": "source alpha envelope centred X and bottom aligned Y; raw frame offset untouched"
+    }
+  },
+  "frameDurationMs": null,
+  "loop": null,
+  "geometryAccepted": false,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false,
+  "qa": {
+    "sourceVisibleAspect": 2.0416666666666665,
+    "generatedVisibleAspect": 1.9176954732510287,
+    "relativeAspectDeviation": 0.06072058453010831
+  },
+  "warnings": [
+    "native head-layer origin, sign and actor attachment unverified",
+    "source timing not supplied; do not invent frame duration",
+    "per-frame source phase, silhouette and alpha edges await review"
+  ],
+  "imagePhaseRepresentativeIndex": 12,
+  "sourceNativeFrameRecord": {
+    "index": 15,
+    "offset": 54550,
+    "rawMarker": 0,
+    "frameOffset": [
+      24,
+      11
+    ],
+    "pixelMode": 3,
+    "width": 49,
+    "height": 24,
+    "unknownImageHeaderWord": 104,
+    "empty": false,
+    "pixelDataOffset": 54578,
+    "pixelByteLength": 3528,
+    "encodedPixelSha256": "373069306f462a24c302de2b86446931cde7c6b94b769069c17da8dc37d86786"
+  },
+  "provenanceRecord": "assets/items/head-adornments/world/138/position-015.alias.json",
+  "rasterImageShared": true,
+  "rasterAliasOfSourceFrameIndex": 12,
+  "rasterAliasEvidence": "strict encodedPixelSha256 + native width/height + pixelMode equal; each position keeps its own source offset",
+  "frameWithinDirection": null,
+  "directionCardinalOrder": null,
+  "positionWithinRawEnvelope": [
+    0,
+    2
+  ]
+}

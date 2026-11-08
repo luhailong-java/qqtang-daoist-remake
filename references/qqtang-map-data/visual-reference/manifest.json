@@ -1,0 +1,1437 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-10-26",
+  "source": {
+    "archiveUrl": "https://github.com/kuuhaku1314/qqtang/releases/download/v1.3.4/QQTang-Local.zip",
+    "archiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "sourceType": "community-patched-client-data",
+    "officialOriginalAuthenticity": "unverified",
+    "inputFiles": {
+      "data/object.pkg": {
+        "archiveEntry": "QQTang-Local/runtime/client-patched/data/object.pkg",
+        "byteLength": 35553570,
+        "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+      },
+      "data/object.idx": {
+        "archiveEntry": "QQTang-Local/runtime/client-patched/data/object.idx",
+        "byteLength": 176711,
+        "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+      },
+      "map/town01_4.img": {
+        "archiveEntry": "QQTang-Local/runtime/client-patched/map/town01_4.img",
+        "byteLength": 56318,
+        "sha256": "3aafd617d51a436c8db8e4449292f9346f271f9fdbcf327d12b76ad995e11f49"
+      }
+    },
+    "externalCodeExecuted": false
+  },
+  "formatEvidence": {
+    "authority": "community-reverse-engineered-format-and-local-byte-checks",
+    "communityCommit": "4b3a245fd985cabd4abd68ade6c282cc163d9edb",
+    "localFormatEvidence": ".artifacts/reference-inputs/community-dimg-format.go",
+    "officialSpecification": "unverified",
+    "localFormatEvidenceSha256": "f6fec2355b4335129130feb2bcf8ea2b549608022bdad13bfd8c0175a606f161"
+  },
+  "catalogSource": {
+    "archiveUrl": "https://github.com/kuuhaku1314/qqtang/releases/download/v1.3.4/QQTang-Local.zip",
+    "archiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "sourceType": "community-patched-client-data",
+    "officialOriginalAuthenticity": "unverified",
+    "archiveEntry": "QQTang-Local/runtime/client-patched/map/mapDesc.py",
+    "localInput": ".artifacts/reference-inputs/extracted/QQTang-Local/runtime/client-patched/map/mapDesc.py",
+    "byteLength": 48965,
+    "sha256": "342c91fb1b7f76116191ebc09eec6b00833e7492350b38163c4064cc1a578f8d",
+    "externalCodeExecuted": false,
+    "method": "Python AST + literal_eval; single class inheritance and registry Name references resolved as data only",
+    "encoding": "gb18030"
+  },
+  "elementDefinitionSource": {
+    "archiveUrl": "https://github.com/kuuhaku1314/qqtang/releases/download/v1.3.4/QQTang-Local.zip",
+    "archiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "sourceType": "community-patched-client-data",
+    "officialOriginalAuthenticity": "unverified",
+    "archiveEntry": "QQTang-Local/runtime/client-patched/object/mapElem/mapElem.py",
+    "localInput": ".artifacts/reference-inputs/extracted/QQTang-Local/runtime/client-patched/object/mapElem/mapElem.py",
+    "byteLength": 99032,
+    "sha256": "6bbc353501dcaadb5af4d8007dc250b3532a7abb603a7a98f6eb74beea6b314f",
+    "externalCodeExecuted": false,
+    "method": "Python AST + literal_eval; single class inheritance and registry Name references resolved as data only",
+    "encoding": "utf-8"
+  },
+  "packageIndex": {
+    "headerWords": [
+      100,
+      3482,
+      16,
+      176695
+    ],
+    "entryCount": 3482,
+    "parsedWholeIndex": true
+  },
+  "map": {
+    "id": 201,
+    "name": "中国城01",
+    "file": "town01_4.map",
+    "sha256": "10f84593742d90af379f9698d7e003111ea8c5b209f87ac27f3717afdcbec4ca",
+    "usedPositiveElementIds": [
+      3002,
+      3003,
+      3004,
+      3007,
+      3008,
+      3009,
+      3010,
+      3011,
+      3012,
+      3013,
+      3014,
+      3015,
+      3019,
+      3020,
+      3022,
+      3024,
+      3025
+    ]
+  },
+  "thumbnail": {
+    "catalogPreviewPath": "map/town01_4.img",
+    "directCatalogFileMatch": true,
+    "dimg": {
+      "byteLength": 56318,
+      "sha256": "3aafd617d51a436c8db8e4449292f9346f271f9fdbcf327d12b76ad995e11f49",
+      "version": 65536,
+      "frameInfoSize": 24,
+      "frameCount": 1,
+      "directions": 1,
+      "unknownHeaderWordsAt24And28": [
+        3435973836,
+        3435973836
+      ],
+      "declaredCanvas": [
+        3435973836,
+        3435973836
+      ],
+      "declaredCanvasWithinBound": false,
+      "frames": [
+        {
+          "index": 0,
+          "offset": 40,
+          "rawMarker": 0,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "width": 150,
+          "height": 125,
+          "unknownImageHeaderWord": 304,
+          "empty": false,
+          "pixelDataOffset": 68,
+          "pixelByteLength": 56250,
+          "encodedPixelSha256": "a900b4459959c4108f355c120eb071106d9d0c27f78e56cda7d7217d834b47f9",
+          "decodedRgbaSha256": "15103a9c988fa092a775cf257bf8f5c1ed0d2ac13911611177c0ba00ccc58ae3"
+        }
+      ],
+      "parsedByteLength": 56318,
+      "trailingByteLength": 0
+    },
+    "png": {
+      "file": "town01_4-thumbnail-frame.png",
+      "width": 150,
+      "height": 125,
+      "sha256": "62c1c5b190e66e8218d9ddf30e68f58cbaa7e062b74d2fd6239f46ad63eae79f",
+      "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+    },
+    "inspectionEnlargement": {
+      "file": "town01_4-thumbnail-4x-inspection.png",
+      "scale": 4,
+      "resampling": "nearest-neighbor",
+      "sha256": "d927c30187fbe955e37831f2019667f7d14c89af50d2e87f68fcf6d6c1d8e09e",
+      "nativeResolutionClaim": false
+    }
+  },
+  "resources": [
+    {
+      "mapElementId": 3002,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2308,
+        "indexOffset": 118416,
+        "path": "object\\mapElem\\town\\elem2_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23954040,
+        "rawByteLength": 4868,
+        "compressedByteLength": 112
+      },
+      "compressedStreamSha256": "40f30dff7af1d1dac041098ddea85f65dbc0fb318227d497aa2cff42f1b189d9",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "7a1639e449f120a3acbfe40c4fd005887b19c1ca8a1b01530935531e39855c07",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "35075d13acbd2e9bba2b922ed1e58119b86de8c8bdb373d47ea3dae3348faa2b",
+            "decodedRgbaSha256": "d12d45dd4162be8f768eb19eccbebfd9f5d6f48d75d1872f5957a366eb459eeb"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        3855
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3002-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "9020a8ada63b52cc70fa1b8fe34a7c21aaa21e981662721cc9d81cec9bf64035",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3003,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2309,
+        "indexOffset": 118469,
+        "path": "object\\mapElem\\town\\elem3_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23954152,
+        "rawByteLength": 4868,
+        "compressedByteLength": 112
+      },
+      "compressedStreamSha256": "144301c1cff5ce4ab687f63039ed1c31dc6da63c40cc1e90258f31fe52b4478c",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "9892f3acd2b1c46a1648b83bd58c1c3ce770f107117ae7264dd2833db9176751",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "20ee58eb0659d3a7812106101d9251175e7c73b953db2c066625d7bdc7a3eac8",
+            "decodedRgbaSha256": "cdff88714fe4078bdede3ca2845eef104d903579c4699f23d1fece1cff35d1b3"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        3855
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3003-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "d6170aebc61dbb57208fb89f092a7bb539d7d92e62bc690858e2d40d9536cd48",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3004,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2311,
+        "indexOffset": 118573,
+        "path": "object\\mapElem\\town\\elem4_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23956848,
+        "rawByteLength": 6872,
+        "compressedByteLength": 1037
+      },
+      "compressedStreamSha256": "7b2b714f712b4e41cb8f3b84dd6411848cd9f0fbacb1994a4fc5512e2e088bb0",
+      "dimg": {
+        "byteLength": 6872,
+        "sha256": "163e3b5973bcb7f1230c8ea9b16743bcbed02b67f69bbae0d827c1e5f06d59f8",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          42,
+          54
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 42,
+            "height": 54,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6804,
+            "encodedPixelSha256": "8491a53b3dfd2e95ffe9967fbed208bca70130b5e7754bca0882a597dc347b36",
+            "decodedRgbaSha256": "61e42d1e533e77d2c23873bde4e8580071aa1905da60fb265b7da27f70f3bce8"
+          }
+        ],
+        "parsedByteLength": 6872,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3004-frame.png",
+        "width": 42,
+        "height": 54,
+        "sha256": "c4d037b52838097eb0adedb954e5963f19ee2ff90b4da22d81f7f511fb1b0a66",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3007,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2330,
+        "indexOffset": 119591,
+        "path": "object\\mapElem\\town\\elem7_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 24195889,
+        "rawByteLength": 7550,
+        "compressedByteLength": 734
+      },
+      "compressedStreamSha256": "9f51b2dc67f7ac2d41ac60338069c48a94accfd0ec1c6967a54bc2f93e644087",
+      "dimg": {
+        "byteLength": 7550,
+        "sha256": "7bcd8a3472984b32f06b4ca260ababb96a244965a8a589a160c91ee75289a045",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          43,
+          58
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 43,
+            "height": 58,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 7482,
+            "encodedPixelSha256": "766e96129ee749bcf7a70bd8812bbcf97ad81434f5c65e690da292a14e9fb386",
+            "decodedRgbaSha256": "14091342d637efa18f96b2e4ff616442a68fd491d011714e391c805884159926"
+          }
+        ],
+        "parsedByteLength": 7550,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        3,
+        17
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3007-frame.png",
+        "width": 43,
+        "height": 58,
+        "sha256": "7d5f67a3a21afdea621bf000f7b5b55efcd54d7c44b03a90a5c4acccfd9c3262",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3008,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2331,
+        "indexOffset": 119644,
+        "path": "object\\mapElem\\town\\elem8_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 24196623,
+        "rawByteLength": 7550,
+        "compressedByteLength": 757
+      },
+      "compressedStreamSha256": "4b79112e965ca46fd1925be95fc82ab60771be81b903cdc1dcd20e858057ce01",
+      "dimg": {
+        "byteLength": 7550,
+        "sha256": "af176da84d5f1b328beb01b17f1ad51d764593238c55d91759a8136cd4954111",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          43,
+          58
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 43,
+            "height": 58,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 7482,
+            "encodedPixelSha256": "2da30bebb70945f582c0b5d749118a94a1220d72681fb4b8d6387e004e696491",
+            "decodedRgbaSha256": "57888da72eb719ce5eab3cd094d9e9f59e56071e09b47a6de8636e03ec2d17e4"
+          }
+        ],
+        "parsedByteLength": 7550,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        3,
+        17
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3008-frame.png",
+        "width": 43,
+        "height": 58,
+        "sha256": "05869129babcfddc19eea9e984df0cec17233bd503e0de3353dee9aa2a689855",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3009,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2332,
+        "indexOffset": 119697,
+        "path": "object\\mapElem\\town\\elem9_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 24197380,
+        "rawByteLength": 7550,
+        "compressedByteLength": 713
+      },
+      "compressedStreamSha256": "c98dd384d8bd99345197303234fd6849619629b5c24284269b0f30dc3693c191",
+      "dimg": {
+        "byteLength": 7550,
+        "sha256": "259ba96455a4b80c70954d4b159f8e8752488224ccf1524db4ba0ab998917ba6",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          43,
+          58
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 43,
+            "height": 58,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 7482,
+            "encodedPixelSha256": "5a829d5bb08e1283590f65434ca242253a49d07e2144161dc2051f3a021f95e3",
+            "decodedRgbaSha256": "5f0bfa7b2f7c0abd2c284d2f4938056456fbbdb6e382aeec0843c49cbf33b51a"
+          }
+        ],
+        "parsedByteLength": 7550,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        3,
+        18
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3009-frame.png",
+        "width": 43,
+        "height": 58,
+        "sha256": "eee1f7a61ac61b1e7bfbb93e89de3fde95c65e48e956e4c8265702bab9992511",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3010,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2285,
+        "indexOffset": 117180,
+        "path": "object\\mapElem\\town\\elem10_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23928378,
+        "rawByteLength": 6905,
+        "compressedByteLength": 1013
+      },
+      "compressedStreamSha256": "fa5f57105a6d079c197150b695b3b30fdbbf925e4ceed4b84b187a3eef1ac012",
+      "dimg": {
+        "byteLength": 6905,
+        "sha256": "1cb7a79e3348d98d72c352964f7c8a16d7e0c76fbe518c8539fb20b15191924b",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          43,
+          53
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 43,
+            "height": 53,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6837,
+            "encodedPixelSha256": "21fd2324ee75edc12e4d0560aef03dc022a98ab83b1217523605d1e8fb0cb219",
+            "decodedRgbaSha256": "0d3a211544c4095dc9931bd7a4df673ab703474c71faa8013991cdf1400885b4"
+          }
+        ],
+        "parsedByteLength": 6905,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        2,
+        13
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3010-frame.png",
+        "width": 43,
+        "height": 53,
+        "sha256": "56e519cad4fcdf88dd684c31bb9c69069506172c62f9b9f39f61bebbcd6ba088",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3011,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2286,
+        "indexOffset": 117234,
+        "path": "object\\mapElem\\town\\elem11_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23929391,
+        "rawByteLength": 4868,
+        "compressedByteLength": 536
+      },
+      "compressedStreamSha256": "959ed9deaa18bdb4868077b4570d33b730f591e36bee02e6182ad314c4da5fad",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "ad1ef8553b064f67db0b6e1839c4497ad1aeba97b00a9e39679251fdc31ee27c",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "95b9423556ec0da343b440ab21e7d45c59ef0396f6ec651c06c3eee9faf2e1b9",
+            "decodedRgbaSha256": "7dd45bbcf8f8f8c7abf518ce72ab1ef39dc9f9f373b96efdac1726a5ff0d4cf7"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3011-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "e105d0af6fb280e9c8c2aec0608cbbff1f352e312ac23e7e58c30014213d8b8d",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3012,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2290,
+        "indexOffset": 117453,
+        "path": "object\\mapElem\\town\\elem12_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23935574,
+        "rawByteLength": 4868,
+        "compressedByteLength": 539
+      },
+      "compressedStreamSha256": "891ebc87bc67c5fcca5f92b4fbb0c35e09a1c0eef6a091f4dd9bbf7d9e817221",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "ed730d2716b617e1af65646a3bd578d61ef51b551c4617c0d2d57b3539ae115f",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "ccaedcfc2ed8048fb11b8a008e35c394cd27b21b64d8eb585f2beb172d4dfecf",
+            "decodedRgbaSha256": "142df7a6c122f0f8234d95bfdf83c302d548f0fc7bde043aee69581fc5eee5ba"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3012-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "5760538c997ac8c52c7772708e082e419623995499580450a29e7f65fa1fb893",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3013,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2291,
+        "indexOffset": 117507,
+        "path": "object\\mapElem\\town\\elem13_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23936113,
+        "rawByteLength": 4868,
+        "compressedByteLength": 511
+      },
+      "compressedStreamSha256": "67fb8f31ab87645742bf43ade47caf930a6d4e63427ab25e5a6e1bfe0ba9edf6",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "999ea06f10b2142d6d7908fb6c8ccf0845798fe6d9467a5aefbbed8591913490",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "f00eddbe54c6a411d4ff45b3e8432a68dfc3ded4fc368a7a93ca34a6225217c9",
+            "decodedRgbaSha256": "ae88248ee0f32f3522cc280087508631eed3ab1f43c8c65128f14906c7e96f41"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3013-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "167532b733608aa6dc36629118d3989b0d3d3406d3a98e4b977f02231c595de9",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3014,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2293,
+        "indexOffset": 117613,
+        "path": "object\\mapElem\\town\\elem14_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23938761,
+        "rawByteLength": 6905,
+        "compressedByteLength": 417
+      },
+      "compressedStreamSha256": "530f4e53da8de82a897f009f6ba3f0288b811ea85fe0ba47bb8867420379ca6f",
+      "dimg": {
+        "byteLength": 6905,
+        "sha256": "faa9659a511c454eeb3da59a6b1c6a473745634a938e7684cfaf4ae52116c2b6",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          43,
+          53
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 43,
+            "height": 53,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6837,
+            "encodedPixelSha256": "aa5790ae37a3318202b6ae6c6a1100138f884d0d18a66eaa0d667fde2c11839e",
+            "decodedRgbaSha256": "990bf28b8fb9b87c3dfec4cb4a2770007dbdfbf4f637d0013bba90f831a7a1a9"
+          }
+        ],
+        "parsedByteLength": 6905,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        3,
+        10
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3014-frame.png",
+        "width": 43,
+        "height": 53,
+        "sha256": "2ec5e69d55f63c08248ba9ebb3f5d81eacd7325a75a38a6ef8a41a36d502390d",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3015,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2295,
+        "indexOffset": 117719,
+        "path": "object\\mapElem\\town\\elem15_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23941095,
+        "rawByteLength": 6905,
+        "compressedByteLength": 405
+      },
+      "compressedStreamSha256": "006d15e5014804b4941ed908f349b22595b3319b2f0e255ba26e5221ee4dc3e1",
+      "dimg": {
+        "byteLength": 6905,
+        "sha256": "741b69ec471cb3524f9fc3d67c16938bab242463705bb238490ba87d410dfaf2",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          43,
+          53
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 43,
+            "height": 53,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6837,
+            "encodedPixelSha256": "a103367b02c5cd600c72d83ba5b7787e55b08a553102d0a1858d53e6e60aae54",
+            "decodedRgbaSha256": "e109c0c1642fe5af0ba0c4100d4a417266c3079f6145f14f9edaa4fbc9ac4fb6"
+          }
+        ],
+        "parsedByteLength": 6905,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        2,
+        10
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3015-frame.png",
+        "width": 43,
+        "height": 53,
+        "sha256": "906343b3e4de2ad1fbdd0ffe40e42355e66ac981ca5eb9bcc9c50909ab4b23c4",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3019,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2300,
+        "indexOffset": 117985,
+        "path": "object\\mapElem\\town\\elem19_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23947399,
+        "rawByteLength": 53198,
+        "compressedByteLength": 3471
+      },
+      "compressedStreamSha256": "e42606639d97a60e76266ba862845223a31b6befb1b77dfbf2aedacadbc76f31",
+      "dimg": {
+        "byteLength": 53198,
+        "sha256": "c03fc42e8cd3dc5a4b37be28f8922ba8745c5ba3d70f03e9caf81ba8fd98aea0",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          17
+        ],
+        "declaredCanvas": [
+          161,
+          110
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              17
+            ],
+            "pixelMode": 3,
+            "width": 161,
+            "height": 110,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 53130,
+            "encodedPixelSha256": "af717abad404720d86f0992f169bd6bd109b5374fb307bc8e6cc4319e22c09dc",
+            "decodedRgbaSha256": "2465aa7f2095800afb6a4353530ee03d2b6956a074500ca93160e3f00cbe8ad7"
+          }
+        ],
+        "parsedByteLength": 53198,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        4,
+        2
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        30
+      ],
+      "gridAttrRaw": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3019-frame.png",
+        "width": 161,
+        "height": 110,
+        "sha256": "6c75626fee1d7b43489f21123516736a1873061d862452901e0c2d518daa1009",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3020,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2302,
+        "indexOffset": 118092,
+        "path": "object\\mapElem\\town\\elem20_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23951053,
+        "rawByteLength": 6548,
+        "compressedByteLength": 793
+      },
+      "compressedStreamSha256": "e19cee9d5935d1a624cacbef4b86996e381d1a0bf0dcb9710eef86330d32754a",
+      "dimg": {
+        "byteLength": 6548,
+        "sha256": "b32598e52dc4cab7a752d1903eee260e3248cb81d2241fc45ba6ad09830ca508",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          54
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 54,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6480,
+            "encodedPixelSha256": "879ed3832a854bb860108263dda97f5a17d8b776b4924e9ec572a6598134a5fa",
+            "decodedRgbaSha256": "a24ab3f0bd42f140000ea97b20d6279517fceb9ff8f2a255edc64892979da296"
+          }
+        ],
+        "parsedByteLength": 6548,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        14
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3020-frame.png",
+        "width": 40,
+        "height": 54,
+        "sha256": "96fcd62da15ee8fad2cf4971329e940f50e0d27b7a153265ceaec736667f3b62",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3022,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2303,
+        "indexOffset": 118146,
+        "path": "object\\mapElem\\town\\elem22_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23951846,
+        "rawByteLength": 4868,
+        "compressedByteLength": 415
+      },
+      "compressedStreamSha256": "3bf183f0b9257154ca546e688fe5f4334b24163ed8785ef9f5ffbfc9ebff123c",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "984f6e2913caaf14bfd85ffcee93d565634122f594427d4322e6458da10138bf",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "4dcc1ed8a0aa584276865047f4d2b023c0dd581c2d598170c966f5698d13f2f4",
+            "decodedRgbaSha256": "f34e043ad125d377b4d02bf7e2cecf99587c9b6210abd98cdd76e13bcee8a764"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3022-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "4c87e386624b886edd3c08cf56ca6cc28568173916ae5c80c3f313f6c9bff5f4",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3024,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2305,
+        "indexOffset": 118254,
+        "path": "object\\mapElem\\town\\elem24_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23952673,
+        "rawByteLength": 4868,
+        "compressedByteLength": 559
+      },
+      "compressedStreamSha256": "d561fe6c81290d8fc09b81d05985154730a116aefe6147bb294934d714a69579",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "7abbcf5cb0e158c25be309ea254124fabe782e2cb92a9ceda6be89a6de379632",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "22dd3e3b4b8025f5cd2c2eb6481ea8669799d945ba5915e9f7c9e2bbd168302d",
+            "decodedRgbaSha256": "5eabdf5b78fd1dfb416f3a0163e7ad6d5cca5cac90830211662feaa33bcee8c0"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3024-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "f0853a7aa0066fdb93665db26a0b37dfdc8d990517afc069e53ab39705d36b00",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    },
+    {
+      "mapElementId": 3025,
+      "status": "decoded-candidate",
+      "mappingStatus": "filename-numeric-and-family-inference-not-client-lookup-proof",
+      "packageEntry": {
+        "ordinal": 2306,
+        "indexOffset": 118308,
+        "path": "object\\mapElem\\town\\elem25_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23953232,
+        "rawByteLength": 4868,
+        "compressedByteLength": 420
+      },
+      "compressedStreamSha256": "b5036479ff4a5236de3521cee06c75f01f23fb41423f93f40800a99934ae9ba3",
+      "dimg": {
+        "byteLength": 4868,
+        "sha256": "138f60cab7a5fc11ee4bcfd8ef960457c2a673a6b91e6da435ba9e229b4df37d",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          40,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 40,
+            "height": 40,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4800,
+            "encodedPixelSha256": "d50a696a21834c1554932bcf882565d07d877a276607c343c76ced3030d45c17",
+            "decodedRgbaSha256": "62aca2ccc8b66d2e87b57c62f693848bf407f3b12bd049909b861b58599d4fa7"
+          }
+        ],
+        "parsedByteLength": 4868,
+        "trailingByteLength": 0
+      },
+      "elementFootprintCells": [
+        1,
+        1
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "gridAttrRaw": [
+        0
+      ],
+      "clientCompositionAnchor": "unverified-not-applied",
+      "selectedFrame": 0,
+      "png": {
+        "file": "town-candidate-3025-frame.png",
+        "width": 40,
+        "height": 40,
+        "sha256": "483fb2ffd7e1c9121cd5f7d731299eb43c52f2a30be71e36dc23733f002ad85c",
+        "operation": "decode-first-visible-frame-no-resize-no-client-composition"
+      }
+    }
+  ],
+  "contactSheet": {
+    "file": "town01-building-candidates-contact-sheet.png",
+    "sha256": "e3c144d7a27a72e4a43d2a4ff1966de50b039016f25b23922fa1b374f764a734",
+    "size": [
+      1216,
+      1170
+    ],
+    "sourceFramesScaled": false,
+    "decorations": "neutral backdrop and data labels only"
+  },
+  "limitations": [
+    "ID 3000+N to town/elemN filename relation is only a candidate until independently verified in client lookup data.",
+    "Raw mapElem offset and DIMG frame offset are separate; no guessed anchor, sign, origin or map composition was applied.",
+    "The map thumbnail is the catalog-linked source frame, not a reconstructed full-resolution map.",
+    "Thumbnail canvas header is invalid/uninitialized; only its bounded declared frame is decoded.",
+    "PNG files are source/structure reference only and are not copied into runtime assets."
+  ]
+}

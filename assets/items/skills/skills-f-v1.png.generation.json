@@ -1,0 +1,73 @@
+{
+  "file": "assets/items/skills/skills-f-v1.png",
+  "sha256": "f4e78fe98cb7c5bd22b8aaeedea31d417199fb80bf8409bb1f3c134be4d6f747",
+  "generatedAt": "2026-10-28T17:50:31.132Z",
+  "timeEvidence": "registration immediately after tool return; UTC",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\assets\\items\\skills\\references\\structure-f.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:\\work\\qqtang-ui\\assets\\items\\items-a-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "assets/items/skills/prompts/batch-f.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\items\\skills\\references\\structure-f.png",
+      "purpose": "exact skill-book functional source shape/level reference only; not runtime art",
+      "sha256": "9628761ac4f229b2e171e959dbd4b55b089d95483ad9fc0882534713c3edd6b1"
+    },
+    {
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\items\\items-a-v1.png",
+      "purpose": "previous original-painted item material and finish reference",
+      "sha256": "2d63ef0b9571368e4d5716837abf80d14cea1e5a0060bf283fb6f6f5f4529840"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1817e-b30c-70e0-8760-29fecfeffb44/exec-01ab1d2d-78d0-4fa4-a62b-ba7e7f181dc3.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

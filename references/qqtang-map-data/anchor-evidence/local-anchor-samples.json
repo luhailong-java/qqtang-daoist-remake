@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 1,
+  "capturedOn": "2026-10-28",
+  "scope": "Five explicit element contracts; bounded DIMG framing and source property bytes, no pixel decoding",
+  "sourceArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "sourceType": "community-patched-client-data",
+  "officialOriginalAuthenticity": "unverified",
+  "packageIdentityEvidence": "Previously verified fixed object.pkg; this capture verifies only five compressed-stream and DIMG hashes, not full35MB package",
+  "compressedBytesRead": 8974,
+  "sourcePropertySha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+  "inputSnapshot": [
+    {
+      "file": "src/map-art.js",
+      "byteLength": 5899,
+      "sha256": "a3b4da941c1221d49e016945964796805a5b45fd9b0c56e47f020cf1d96e89ca"
+    },
+    {
+      "file": "src/original-maps.js",
+      "byteLength": 8522,
+      "sha256": "c3fcd40cdc779ba8f4f9a809fa827784c95ea96a66668a60b495f96afef5aa96"
+    },
+    {
+      "file": "assets/maps/production-index.json",
+      "byteLength": 3467741,
+      "sha256": "229c0d0c58da128fe13d4887c5791d266fcc83c6ef72e88f3892a68a78ab1bb7"
+    },
+    {
+      "file": "assets/maps/town/art.json",
+      "byteLength": 58506,
+      "sha256": "8064ce23acf15af545d0047050435c23c02acc50629caea296ec24c9b0c21fa4"
+    },
+    {
+      "file": "assets/maps/match/art.json",
+      "byteLength": 14662,
+      "sha256": "10aacc4d86d4748722537080560200a876c9f65a2f50fe3094da0b73e50dcf5e"
+    },
+    {
+      "file": "references/qqtang-map-data/binary-properties-inspection.json",
+      "byteLength": 287694,
+      "sha256": "d24990d43bd8e0381cc52a4f0e083df736f3bd079943a493bbc5ae89e0ffd5f2"
+    }
+  ],
+  "records": [
+    {
+      "elementId": 3001,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "logicalFootprintAt40": [
+        40,
+        40
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "binaryPropertyRecordOffset": 24252,
+      "binaryPropertyFixedHeaderHex": "b90b00000100010000000000ffffffff0001000000000000",
+      "candidatePath": "object\\mapElem\\town\\elem1_stand.img",
+      "packageEntry": {
+        "ordinal": 2301,
+        "indexOffset": 118039,
+        "path": "object\\mapElem\\town\\elem1_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23950870,
+        "rawByteLength": 4868,
+        "compressedByteLength": 183
+      },
+      "dimgSha256": "6242b7942e2a1587d2ce47984114d796d99ba5263d80ea9b39b710122594bcf6",
+      "dimgFirst68BytesHex": "5151461a44494d47000001001800000001000000010000000000000000000000280000002800000000000000000000000000000003000000280000002800000050000000",
+      "dimgHeader": {
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "declaredCanvas": [
+          40,
+          40
+        ]
+      },
+      "firstFrame": {
+        "offset": 40,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "size": [
+          40,
+          40
+        ],
+        "pixelMode": 3,
+        "unknownImageHeaderWord": 80
+      },
+      "retainedVisibleBoundingBox": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "visibleBoundsEvidence": "Existing JSON only; no PNG or alpha read in this capture",
+      "runtimeArt": {
+        "file": "assets/maps/town/pieces/3001-wood-floor.png",
+        "worldFrameWidth": 40,
+        "worldFrameHeight": 40,
+        "mapElemOffsetRaw": null,
+        "geometryAccepted": false,
+        "accepted": null
+      },
+      "candidateAtAnchorZero": {
+        "currentMinusMapElemOffset": [
+          0,
+          0
+        ],
+        "hypotheticalPlusDimgFrameOffset": [
+          0,
+          0
+        ],
+        "hypotheticalMinusDimgFrameOffset": [
+          0,
+          0
+        ],
+        "arithmeticOnly": true,
+        "nativeCorrectFormulaSelected": false
+      }
+    },
+    {
+      "elementId": 3002,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "logicalFootprintAt40": [
+        40,
+        40
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "binaryPropertyRecordOffset": 24280,
+      "binaryPropertyFixedHeaderHex": "ba0b00000100010000000000ffffffff0001000000000000",
+      "candidatePath": "object\\mapElem\\town\\elem2_stand.img",
+      "packageEntry": {
+        "ordinal": 2308,
+        "indexOffset": 118416,
+        "path": "object\\mapElem\\town\\elem2_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23954040,
+        "rawByteLength": 4868,
+        "compressedByteLength": 112
+      },
+      "dimgSha256": "7a1639e449f120a3acbfe40c4fd005887b19c1ca8a1b01530935531e39855c07",
+      "dimgFirst68BytesHex": "5151461a44494d47000001001800000001000000010000000000000000000000280000002800000000000000000000000000000003000000280000002800000050000000",
+      "dimgHeader": {
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "declaredCanvas": [
+          40,
+          40
+        ]
+      },
+      "firstFrame": {
+        "offset": 40,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "size": [
+          40,
+          40
+        ],
+        "pixelMode": 3,
+        "unknownImageHeaderWord": 80
+      },
+      "retainedVisibleBoundingBox": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "visibleBoundsEvidence": "Existing JSON only; no PNG or alpha read in this capture",
+      "runtimeArt": {
+        "file": "assets/maps/town/pieces/3002-pavement-light.png",
+        "worldFrameWidth": 40,
+        "worldFrameHeight": 40,
+        "mapElemOffsetRaw": null,
+        "geometryAccepted": false,
+        "accepted": null
+      },
+      "candidateAtAnchorZero": {
+        "currentMinusMapElemOffset": [
+          0,
+          0
+        ],
+        "hypotheticalPlusDimgFrameOffset": [
+          0,
+          0
+        ],
+        "hypotheticalMinusDimgFrameOffset": [
+          0,
+          0
+        ],
+        "arithmeticOnly": true,
+        "nativeCorrectFormulaSelected": false
+      }
+    },
+    {
+      "elementId": 3019,
+      "footprintCells": [
+        4,
+        2
+      ],
+      "logicalFootprintAt40": [
+        160,
+        80
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        30
+      ],
+      "binaryPropertyRecordOffset": 8008,
+      "binaryPropertyFixedHeaderHex": "cb0b00000400020000001e00ffffffff0001000000000000",
+      "candidatePath": "object\\mapElem\\town\\elem19_stand.img",
+      "packageEntry": {
+        "ordinal": 2300,
+        "indexOffset": 117985,
+        "path": "object\\mapElem\\town\\elem19_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23947399,
+        "rawByteLength": 53198,
+        "compressedByteLength": 3471
+      },
+      "dimgSha256": "c03fc42e8cd3dc5a4b37be28f8922ba8745c5ba3d70f03e9caf81ba8fd98aea0",
+      "dimgFirst68BytesHex": "5151461a44494d47000001001800000001000000010000000000000011000000a10000006e00000000000000000000001100000003000000a10000006e00000048010000",
+      "dimgHeader": {
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "declaredCanvas": [
+          161,
+          110
+        ]
+      },
+      "firstFrame": {
+        "offset": 40,
+        "frameOffset": [
+          0,
+          17
+        ],
+        "size": [
+          161,
+          110
+        ],
+        "pixelMode": 3,
+        "unknownImageHeaderWord": 328
+      },
+      "retainedVisibleBoundingBox": [
+        0,
+        0,
+        161,
+        110
+      ],
+      "visibleBoundsEvidence": "Existing JSON only; no PNG or alpha read in this capture",
+      "runtimeArt": {
+        "file": "assets/maps/town/pieces/3019-courtyard-shop.png",
+        "worldFrameWidth": 161,
+        "worldFrameHeight": 110,
+        "mapElemOffsetRaw": null,
+        "geometryAccepted": false,
+        "accepted": null
+      },
+      "candidateAtAnchorZero": {
+        "currentMinusMapElemOffset": [
+          0,
+          -30
+        ],
+        "hypotheticalPlusDimgFrameOffset": [
+          0,
+          -13
+        ],
+        "hypotheticalMinusDimgFrameOffset": [
+          0,
+          -47
+        ],
+        "arithmeticOnly": true,
+        "nativeCorrectFormulaSelected": false
+      }
+    },
+    {
+      "elementId": 3050,
+      "footprintCells": [
+        1,
+        1
+      ],
+      "logicalFootprintAt40": [
+        40,
+        40
+      ],
+      "mapElemOffsetRaw": [
+        1,
+        60
+      ],
+      "binaryPropertyRecordOffset": 8272,
+      "binaryPropertyFixedHeaderHex": "ea0b00000100010001003c00ffffffff0001000000000000",
+      "candidatePath": "object\\mapElem\\town\\elem50_stand.img",
+      "packageEntry": {
+        "ordinal": 2312,
+        "indexOffset": 118626,
+        "path": "object\\mapElem\\town\\elem50_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 23957885,
+        "rawByteLength": 52268,
+        "compressedByteLength": 4531
+      },
+      "dimgSha256": "b82ee0728bb2ec7d15f601b490a55989699aaa2427615d4c01e1e4822f14909a",
+      "dimgFirst68BytesHex": "5151461a44494d470000010018000000040000000100000000000000000000002b00000065000000000000000000000000000000030000002b0000006500000058000000",
+      "dimgHeader": {
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "declaredCanvas": [
+          43,
+          101
+        ]
+      },
+      "firstFrame": {
+        "offset": 40,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "size": [
+          43,
+          101
+        ],
+        "pixelMode": 3,
+        "unknownImageHeaderWord": 88
+      },
+      "retainedVisibleBoundingBox": [
+        0,
+        0,
+        43,
+        101
+      ],
+      "visibleBoundsEvidence": "Existing JSON only; no PNG or alpha read in this capture",
+      "runtimeArt": {
+        "file": "assets/maps/town/pieces/3050-dragon-lantern.png",
+        "worldFrameWidth": 43,
+        "worldFrameHeight": 101,
+        "mapElemOffsetRaw": null,
+        "geometryAccepted": false,
+        "accepted": null
+      },
+      "candidateAtAnchorZero": {
+        "currentMinusMapElemOffset": [
+          -1,
+          -60
+        ],
+        "hypotheticalPlusDimgFrameOffset": [
+          -1,
+          -60
+        ],
+        "hypotheticalMinusDimgFrameOffset": [
+          -1,
+          -60
+        ],
+        "arithmeticOnly": true,
+        "nativeCorrectFormulaSelected": false
+      }
+    },
+    {
+      "elementId": 11007,
+      "footprintCells": [
+        13,
+        1
+      ],
+      "logicalFootprintAt40": [
+        520,
+        40
+      ],
+      "mapElemOffsetRaw": [
+        0,
+        0
+      ],
+      "binaryPropertyRecordOffset": 876,
+      "binaryPropertyFixedHeaderHex": "ff2a00000d00010000000000ffffffff0001000000000000",
+      "candidatePath": "object\\mapElem\\match\\elem7_stand.img",
+      "packageEntry": {
+        "ordinal": 1926,
+        "indexOffset": 97704,
+        "path": "object\\mapElem\\match\\elem7_stand.img",
+        "reservedWord": 0,
+        "packageOffset": 22911090,
+        "rawByteLength": 62468,
+        "compressedByteLength": 677
+      },
+      "dimgSha256": "199162e3d5ecb04ccccbe9c575d3ea5a06c01757191c832afa96b8c2279aae93",
+      "dimgFirst68BytesHex": "5151461a44494d47000001001800000001000000010000000000000000000000080200002800000000000000000000000000000003000000080200002800000010040000",
+      "dimgHeader": {
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "declaredCanvas": [
+          520,
+          40
+        ]
+      },
+      "firstFrame": {
+        "offset": 40,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "size": [
+          520,
+          40
+        ],
+        "pixelMode": 3,
+        "unknownImageHeaderWord": 1040
+      },
+      "retainedVisibleBoundingBox": [
+        0,
+        0,
+        520,
+        40
+      ],
+      "visibleBoundsEvidence": "Existing JSON only; no PNG or alpha read in this capture",
+      "runtimeArt": {
+        "file": "assets/maps/match/pieces/11007-boundary-strip-v3.png",
+        "worldFrameWidth": 520,
+        "worldFrameHeight": 40,
+        "mapElemOffsetRaw": null,
+        "geometryAccepted": false,
+        "accepted": null
+      },
+      "candidateAtAnchorZero": {
+        "currentMinusMapElemOffset": [
+          0,
+          0
+        ],
+        "hypotheticalPlusDimgFrameOffset": [
+          0,
+          0
+        ],
+        "hypotheticalMinusDimgFrameOffset": [
+          0,
+          0
+        ],
+        "arithmeticOnly": true,
+        "nativeCorrectFormulaSelected": false
+      }
+    }
+  ],
+  "runtimeWrites": false,
+  "testsRun": false,
+  "clientExecuted": false,
+  "pixelsDecoded": false,
+  "newArtGenerated": false,
+  "limitations": [
+    "DIMG frameOffset, prop offsets, visible alpha bounds, and package byte offsets are separate namespaces.",
+    "Native property+8/+0xa layout matches these serialized headers, but property allocation/loading has not been fully traced.",
+    "Candidate arithmetic distinguishes hypotheses; it is not an acceptance test or original-client proof."
+  ]
+}

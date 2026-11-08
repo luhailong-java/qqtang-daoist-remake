@@ -1,0 +1,77 @@
+{
+  "itemId": 28035,
+  "category": "petcard",
+  "sourceName": "可爱的小猪",
+  "sourceDescription": "具有天赋：亲密闪耀5%。",
+  "file": "assets/items/petcards/icons/28035-peach-jade-pig-affinity-card.png",
+  "sha256": "a6019cea94a7ea87c55cc3ca2a5e5d980d8514d4e04188149964972001b43888",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-f-v1.png",
+    "sha256": "27d959504939d0862712bc84a359dfaf22651b3aec1b1e9915474c6e03532a63",
+    "generationRecord": "assets/items/petcards/petcards-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      0,
+      16,
+      471,
+      464
+    ],
+    "sourceContentRect": [
+      512,
+      528,
+      983,
+      976
+    ],
+    "uniformScale": 0.47558386411889597,
+    "placementPx": [
+      16,
+      21
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28035.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "left"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "sourceReferenceSha256": "f759c0300f08899f64cb700528b964e283c67f6f8b5447a83a89a5006fc85756",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28035.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "亲昵桃玉豚",
+  "projectIdentity": "桃玉豚",
+  "identityReference": "assets/items/petcards/icons/28007-peach-jade-pig-normal-card.png",
+  "appearanceChoice": "new project identity choice, no Tencent face or MMO attribute mapping",
+  "identityReferenceSha256": "6316c3fb55417fb59ef6a081ed6c33465d84d5d40f9c80fb7190664038333267",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

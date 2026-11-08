@@ -1,0 +1,86 @@
+{
+  "status": "not_passed",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "userAccepted": false,
+  "failureReasons": [
+    "opposite_leg_phase_not_established: frames1/3 or2/4 retain the same leading/support limb",
+    "left_hair_ornament_visibility_changes_in_frame4; side_camera_or_identity_orientation_inconsistent"
+  ],
+  "sourceSeparators": [
+    {
+      "nominal": 512,
+      "ownershipCut": 512,
+      "maxAlpha": 2,
+      "visiblePixelsAlphaGt8": 0
+    },
+    {
+      "nominal": 1024,
+      "ownershipCut": 1024,
+      "maxAlpha": 2,
+      "visiblePixelsAlphaGt8": 0
+    },
+    {
+      "nominal": 1536,
+      "ownershipCut": 1536,
+      "maxAlpha": 1,
+      "visiblePixelsAlphaGt8": 0
+    }
+  ],
+  "frameChecks": [
+    {
+      "frame": 1,
+      "bbox": [
+        65,
+        46,
+        195,
+        210
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 699,
+      "visualPhase": "not_passed_limb_ambiguity"
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        72,
+        44,
+        193,
+        211
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 704,
+      "visualPhase": "not_passed_limb_ambiguity"
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        65,
+        46,
+        194,
+        212
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 704,
+      "visualPhase": "not_passed_limb_ambiguity"
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        71,
+        44,
+        192,
+        211
+      ],
+      "boundaryPixelsAlphaGt8": 0,
+      "sourceFootBBoxBottom": 703,
+      "visualPhase": "not_passed_limb_ambiguity"
+    }
+  ],
+  "anchor": [
+    128,
+    217.75609756097563
+  ],
+  "sameScaleAcrossSelectedDirections": true,
+  "wholeCanvasScale": 0.2601626016260163
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "file": "assets/items/eye-adornments/eye-adornments-l-v1.png",
+  "sha256": "97d0adcbbf94da83392413133bcc49f71ba7bc8af74b604f3d0e7b800b432d0c",
+  "generatedAt": "2026-11-02T05:20:41.517Z",
+  "timeEvidence": "UTC registration after builtin return; provider creation timestamp not disclosed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/eye-adornments/references/eye-adornments-l-structure.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实版本/质量。",
+  "prompt": "docs/eye-adornments-l.prompt.txt",
+  "promptFileSha256": "4f2cc9951936a2fbf98082f70f5f588efcf2f12062753807c1598209848adf32",
+  "submittedPromptSha256": "fb5388e3163e20ce284fae0d24a5d9066130807e4b291141888093a0b119d20e",
+  "promptSubmission": "File text trimmed at beginning/end only",
+  "references": [
+    {
+      "file": "assets/items/eye-adornments/references/eye-adornments-l-structure.png",
+      "sha256": "796e66f4faa8a247326a44befd84ef073b0eeb12249f766120759e9514cf4026",
+      "role": "Actual item structure references; board source records distinguish inventory/stand and format limits, not style/QQ face adoption"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    }
+  ],
+  "sourceVisualNotes": "Six actual inventory icons viewed: layered pink floral crown/ornament; horizontal ivory bone with red central tie; orange pumpkin bag; diamond three-disc licensed silhouette; round gold sun shield; pink faceted princess coronet. Item4685 deliberately becomes our original DIAMOND GOURD hairpin, not the licensed three-disc mouse silhouette. Source names/descriptions remain solely in catalog fields, while own display names identify the new designs.",
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a17789-9eaa-7ed3-b597-50d6259dbf2c/exec-17a5e4c1-4a8a-423b-b7aa-cd887eca7932.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "requestedCanvasInPrompt": [
+    1536,
+    1024
+  ],
+  "generationCount": 1,
+  "requestedItemCount": 6,
+  "sourceAndOutputScope": "One six-object atlas is one model generation; each later256 icon is a crop/PMA resize, not six model calls.",
+  "accepted": false,
+  "worldAccepted": false,
+  "stateAccepted": false,
+  "runtimeAdopted": false
+}

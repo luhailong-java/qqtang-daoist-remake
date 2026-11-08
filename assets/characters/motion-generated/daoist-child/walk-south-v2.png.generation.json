@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/daoist-child/walk-south-v2.png",
+  "sha256": "9d4aba929cca2b22bbda6d8d96270c72f201db229f169eef114c8a8f649304a7",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 17:03:51 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 17:05:47 UTC"
+    }
+  },
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: identity-preserve, targeted motion correction. Asset type: a single horizontal strip of FOUR full-body south-facing WALK frames, real transparent PNG.\nInput 1 is the exact original boy identity master. Preserve the short spiky dark-brown hair, yellow-gold headband tied on his anatomical LEFT temple, amber eyes, cheerful round face, jade/cream/gold Taoist clothes, matching boots, taiji belt, golden taiji gourd in his LEFT hand (on the viewer's RIGHT in every front view). No redesign, no staff or new weapon. Images 2 and 3 are ONLY the Taoist hand-painted finish references; no UI, scenery or other figures.\nONE ROW and exactly FOUR equal columns, left to right 1,2,3,4. Prefer a 2048x512 horizontal strip with four square cells if supported. Absolutely transparent background. NO text, numbers, labels, visible grid, shadows, floor, particles or extra items. Every figure and accessory entirely inside its own cell with a generous 14% safe margin on all four sides. Same orthographic slightly elevated camera, same fixed torso center and exact figure size in all four cells. Top of hair at about 15% of each cell; shared ground reference at 84%. The body faces DIRECTLY SOUTH / toward viewer in ALL FOUR poses, with a clear FRONT view, not diagonal, no head/body turning.\nThis corrects a previous sheet whose columns 1 and 3 kept the same leg forward. The mandatory change is obvious LEFT/RIGHT leg alternation:\nFRAME 1, LEFT FOOT FORWARD: anatomical left boot = viewer RIGHT boot must be lower and farther forward, at approximately x62%,y84%. Anatomical right boot = viewer LEFT boot trails higher at x40%,y73%. The free right hand (viewer LEFT) swings toward viewer. Clearly separated legs.\nFRAME 2, LEFT SUPPORT / RIGHT PASSING: left boot (viewer RIGHT) supports beneath hip around x57%,y84%; right knee (viewer LEFT) bends and passes forward, raised boot at x44%,y72%. Legs close but BOTH different shoes visible.\nFRAME 3, RIGHT FOOT FORWARD: anatomical right boot = viewer LEFT boot must now be lower and farther forward, x38%,y84%. Anatomical left boot = viewer RIGHT boot trails higher at x60%,y73%. This must be the OPPOSITE knee and foot from frame1; free right hand counter-swings back.\nFRAME 4, RIGHT SUPPORT / LEFT PASSING: right boot (viewer LEFT) supports beneath hip at x43%,y84%; left knee (viewer RIGHT) bends and passes forward, raised boot x56%,y72%. Opposite support leg from frame2.\nDo not duplicate or merely redraw frame1 as frame3, or frame2 as frame4. Do not mirror the character to change legs: the golden gourd ALWAYS stays on the viewer's RIGHT and the headband ornament stays on the same anatomical side. Keep knees/boots clearly readable, keep the carried gourd above knee level and away from the legs. This is walking on alternating grounded legs, no jumping. Face and body volume stay stable, small cloth/headband follow-through only. Produce four genuinely different hand-painted poses at maximum available clean detail.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未披露可核实model/quality或精确生成时刻。",
+  "prompt": {
+    "path": "assets/characters/motion-generated/daoist-child/walk-south-v2.prompt.txt",
+    "sha256": "284b220b76da47c6b7d8fbee948b0d6bde01eebcac0d8e0d9ae801d4cdbf9038"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+      "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style reference"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style reference"
+    }
+  ],
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/daoist-child/walk-south-v2.receipt.json",
+    "submission": "assets/characters/motion-generated/daoist-child/walk-south-v2.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "status": "internal_visual_candidate",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "identity": "matches adopted master face/hair/clothes/accessories and anatomical sides",
+    "gaitPhases": [
+      "left contact",
+      "left support / right knee raised",
+      "right contact",
+      "right support / left knee raised"
+    ],
+    "transparency": "actual RGBA0..254, ivory and dark compositing clean; displayed hidden RGB excluded",
+    "poseDistinctness": "internal visual left/right leg alternation confirmed; no generated pose duplication or code mirroring",
+    "sourceLayoutDeviation": "Requested large margin not achieved in native strip; preserve full ownership crops and add ONE common transparent padded canvas before uniform scale",
+    "separators": [
+      {
+        "x": 512,
+        "maxAlpha": 1,
+        "visiblePixelsAlphaGt8": 0
+      },
+      {
+        "x": 1024,
+        "maxAlpha": 0,
+        "visiblePixelsAlphaGt8": 0
+      },
+      {
+        "x": 1536,
+        "maxAlpha": 1,
+        "visiblePixelsAlphaGt8": 0
+      }
+    ],
+    "sourceEqualGridDeviation": "nominal 512px columns usable at alpha>8 threshold",
+    "dynamicReview": "pending: four-pose loop is coarse, 4->1 recovery/ground slip and game-size readability need client review"
+  }
+}

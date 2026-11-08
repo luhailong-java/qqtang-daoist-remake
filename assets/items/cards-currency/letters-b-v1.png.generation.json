@@ -1,0 +1,71 @@
+{
+  "file": "assets/items/cards-currency/letters-b-v1.png",
+  "sha256": "c518d12f3197a85fc7ddc9d2ec71671289d28c11e9a63b111daf6b832f25b1b6",
+  "generatedAt": "2026-10-28T20:20:15.084Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\references\\qqtang-item-data\\letters-b-structure.png",
+      "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "docs/letters-b-v1.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\qqtang-item-data\\letters-b-structure.png",
+      "purpose": "structure and functional content reference only",
+      "sha256": "9e21336f07d9e7d4c8b5f4647d4b894e138009bbd426f2e9bbaf2b39d6358544"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "exec-8694173e-6960-4687-847f-974beaee85f8",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

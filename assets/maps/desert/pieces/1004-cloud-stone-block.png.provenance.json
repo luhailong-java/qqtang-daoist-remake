@@ -1,0 +1,74 @@
+{
+  "elementId": 1004,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1004-cloud-stone-block.png",
+  "sha256": "d1796d9dc698d486dd0da3873b66b7afc3da7a61f63d0c0a35d8bb8707c79afa",
+  "width": 176,
+  "height": 212,
+  "worldFrameWidth": 44,
+  "worldFrameHeight": 53,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-a-v1.png",
+    "sha256": "c9037b8e1e0ca408c4875d7350380761672941a6cadc11c021896ecb46692ee8",
+    "generationRecord": "assets/maps/desert/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      125,
+      607,
+      428,
+      918
+    ],
+    "uniformScale": 0.5808580858085809,
+    "placementPx": [
+      0,
+      31
+    ],
+    "resampled": true,
+    "newModelGeneration": false
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1004-d4eb19a22860.png",
+    "sha256": "012a9c74dc8d1c78d840eb3c742b098ae7644e657e09f12d99bd0f278be823d5",
+    "representativeElementId": 1004,
+    "nativeFrameSize": [
+      44,
+      53
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    3,
+    10
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8301886792452831,
+    "generatedVisibleAspect": 0.9739413680781759,
+    "relativeAspectDeviation": 0.17315664791234808,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.173-exceeds-0.100-review-required"
+    ]
+  }
+}

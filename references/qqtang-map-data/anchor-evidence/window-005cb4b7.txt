@@ -1,0 +1,73 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-005cb4b7.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+005cb4b7 <.text>:
+  5cb4b7: 55                           	push	ebp
+  5cb4b8: 8b ec                        	mov	ebp, esp
+  5cb4ba: 51                           	push	ecx
+  5cb4bb: 51                           	push	ecx
+  5cb4bc: 8b 55 08                     	mov	edx, dword ptr [ebp + 0x8]
+  5cb4bf: 33 c0                        	xor	eax, eax
+  5cb4c1: c7 45 fc 0a d7 a3 3c         	mov	dword ptr [ebp - 0x4], 0x3ca3d70a
+  5cb4c8: 8d 8a 1f bd ff ff            	lea	ecx, [edx - 0x42e1]
+  5cb4ce: 83 f9 0c                     	cmp	ecx, 0xc
+  5cb4d1: 77 29                        	ja	0x5cb4fc <.text+0x45>
+  5cb4d3: ff 24 8d 2a b5 5c 00         	jmp	dword ptr [4*ecx + 0x5cb52a]
+  5cb4da: c7 45 f8 01 00 00 00         	mov	dword ptr [ebp - 0x8], 0x1
+  5cb4e1: eb 16                        	jmp	0x5cb4f9 <.text+0x42>
+  5cb4e3: c7 45 f8 03 00 00 00         	mov	dword ptr [ebp - 0x8], 0x3
+  5cb4ea: eb 0d                        	jmp	0x5cb4f9 <.text+0x42>
+  5cb4ec: 83 65 f8 00                  	and	dword ptr [ebp - 0x8], 0x0
+  5cb4f0: eb 07                        	jmp	0x5cb4f9 <.text+0x42>
+  5cb4f2: c7 45 f8 02 00 00 00         	mov	dword ptr [ebp - 0x8], 0x2
+  5cb4f9: 8d 45 f8                     	lea	eax, [ebp - 0x8]
+  5cb4fc: 56                           	push	esi
+  5cb4fd: 50                           	push	eax
+  5cb4fe: 52                           	push	edx
+  5cb4ff: e8 29 9e 02 00               	call	0x5f532d <.text+0x29e76>
+  5cb504: 8b f0                        	mov	esi, eax
+  5cb506: 59                           	pop	ecx
+  5cb507: 85 f6                        	test	esi, esi
+  5cb509: 59                           	pop	ecx
+  5cb50a: 74 13                        	je	0x5cb51f <.text+0x68>
+  5cb50c: 8b 06                        	mov	eax, dword ptr [esi]
+  5cb50e: 8b ce                        	mov	ecx, esi
+  5cb510: ff 50 04                     	call	dword ptr [eax + 0x4]
+  5cb513: 84 c0                        	test	al, al
+  5cb515: 75 0c                        	jne	0x5cb523 <.text+0x6c>
+  5cb517: 8b 06                        	mov	eax, dword ptr [esi]
+  5cb519: 6a 01                        	push	0x1
+  5cb51b: 8b ce                        	mov	ecx, esi
+  5cb51d: ff 10                        	call	dword ptr [eax]
+  5cb51f: 33 c0                        	xor	eax, eax
+  5cb521: eb 02                        	jmp	0x5cb525 <.text+0x6e>
+  5cb523: 8b c6                        	mov	eax, esi
+  5cb525: 5e                           	pop	esi
+  5cb526: c9                           	leave
+  5cb527: c2 04 00                     	ret	0x4
+  5cb52a: da b4 5c 00 da b4 5c         	fidiv	dword ptr [esp + 2*ebx + 0x5cb4da00]
+  5cb531: 00 e3                        	add	bl, ah
+  5cb533: b4 5c                        	mov	ah, 0x5c
+  5cb535: 00 e3                        	add	bl, ah
+  5cb537: b4 5c                        	mov	ah, 0x5c
+  5cb539: 00 ec                        	add	ah, ch
+  5cb53b: b4 5c                        	mov	ah, 0x5c
+  5cb53d: 00 ec                        	add	ah, ch
+  5cb53f: b4 5c                        	mov	ah, 0x5c
+  5cb541: 00 f2                        	add	dl, dh
+  5cb543: b4 5c                        	mov	ah, 0x5c
+  5cb545: 00 f2                        	add	dl, dh
+  5cb547: b4 5c                        	mov	ah, 0x5c
+  5cb549: 00 fc                        	add	ah, bh
+  5cb54b: b4 5c                        	mov	ah, 0x5c
+  5cb54d: 00 e3                        	add	bl, ah
+  5cb54f: b4 5c                        	mov	ah, 0x5c
+  5cb551: 00 da                        	add	dl, bl
+  5cb553: b4 5c                        	mov	ah, 0x5c
+  5cb555: 00 ec                        	add	ah, ch
+  5cb557: b4 5c                        	mov	ah, 0x5c
+  5cb559: 00 f2                        	add	dl, dh
+  5cb55b: b4 5c                        	mov	ah, 0x5c
+  5cb55d: 00                           	<unknown>

@@ -1,0 +1,66 @@
+{
+  "frameIndex": 0,
+  "empty": false,
+  "file": "assets/effects/flames/flame3/00.png",
+  "sha256": "07ad47471b8570bf38151ffb54922079ca3107b35c5420e0ccba5e4a7e7785fa",
+  "width": 160,
+  "height": 160,
+  "exportDensity": 4,
+  "sourceFrame": {
+    "index": 0,
+    "offset": 40,
+    "rawMarker": 0,
+    "frameOffset": [
+      0,
+      0
+    ],
+    "pixelMode": 3,
+    "width": 40,
+    "height": 40,
+    "unknownImageHeaderWord": 80,
+    "empty": false,
+    "pixelDataOffset": 68,
+    "pixelByteLength": 4800,
+    "encodedPixelSha256": "d3ae39104ec04c7bd5ef24bdda9ad29beb793f757bcea296e2de800e27fe87f7",
+    "decodedRgbaSha256": "eaa44e0a7b4e071bb14b32d4e53fb8ee1b3659d76642c836049859e21190f146"
+  },
+  "derivedFrom": {
+    "file": "assets/effects/flame-pairs-b-v1.png",
+    "sha256": "97ab532fd34232cfbfe0254c7f3281586cb6f3b442072d35cd9e8e70ec6bfb59",
+    "generationRecord": "assets/effects/flame-pairs-b-v1.png.generation.json"
+  },
+  "geometryMaskSource": {
+    "file": "references/qqtang-packed-art/object--flame--flame3_stand-first-visible.png",
+    "sha256": "283ec4691c11caa862c0846ed085ff79ea64d2ac2bfd804947233036e4c9faad",
+    "sourceRecord": "references/qqtang-packed-art/object--flame--flame3_stand-first-visible.png.source.json",
+    "use": "original alpha only; no original RGB in final"
+  },
+  "operation": {
+    "type": "generated-material-interior-RGB-resample-plus-original-frame-alpha",
+    "materialRect": [
+      585,
+      560,
+      945,
+      920
+    ],
+    "materialAlphaBeforeReplacement": [
+      247,
+      253
+    ],
+    "rgbResampler": "LANCZOS",
+    "alphaResampler": "NEAREST 4x",
+    "outputAlpha": "original frame alpha, not generated-material alpha",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "limitations": [
+    "texture edges and neighboring-cell seams unverified",
+    "original low-resolution alpha enlarged; not native HD contour",
+    "actual client layer, timing, blend mode and end-state not yet verified"
+  ]
+}

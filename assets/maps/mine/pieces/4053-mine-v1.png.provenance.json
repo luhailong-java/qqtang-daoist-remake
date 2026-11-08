@@ -1,0 +1,82 @@
+{
+  "elementId": 4053,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4053-mine-v1.png",
+  "sha256": "9ba7b047ccc374add5fee14b8ea36a94ea95ed84bc9875c331ebbbbca91fb098",
+  "width": 172,
+  "height": 332,
+  "worldFrameWidth": 43,
+  "worldFrameHeight": 83,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-f-v1.png",
+    "sha256": "968c7d62ba7e32802aae37807fad7d7fdcf2510daedbdf568d3fdcba631bcd3d",
+    "generationRecord": "assets/maps/mine/props-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1156,
+      512,
+      1393,
+      992
+    ],
+    "uniformScale": 0.6916666666666667,
+    "placementPx": [
+      4,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4053-1d94f3a09ac6.png",
+    "sha256": "d06b27bfce8896ae6662394dbf56d4a5f68c49db37a43dc22785d988de6d6005",
+    "representativeElementId": 4053,
+    "nativeFrameSize": [
+      43,
+      83
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    1,
+    43
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.5180722891566265,
+    "generatedVisibleAspect": 0.4874476987447699,
+    "relativeAspectDeviation": 0.059112581492653415,
+    "generatedCellLTRB": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "coreTouchesCellEdge": true,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "visible-core-touches-generated-cell-edge-review-required"
+    ]
+  }
+}

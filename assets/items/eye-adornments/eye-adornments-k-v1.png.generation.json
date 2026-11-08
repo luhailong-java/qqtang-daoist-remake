@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "file": "assets/items/eye-adornments/eye-adornments-k-v1.png",
+  "sha256": "7673378ef598e5afe49b2233e3a229b95852e9158b5e8e0e09278afe304173c3",
+  "generatedAt": "2026-11-02T05:14:51.713Z",
+  "timeEvidence": "UTC registration after builtin return; provider creation timestamp not disclosed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/eye-adornments/references/eye-adornments-k-structure.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实版本/质量。",
+  "prompt": "docs/eye-adornments-k.prompt.txt",
+  "promptFileSha256": "4cb5142497799384a6b3a4ff4ef578290df7adc7d2ffd4ead355f5b0a603fdb0",
+  "submittedPromptSha256": "6503023b54d7ecaaa51800bee8c5306471f74fb8a955900c4d90b2548cb1be6f",
+  "promptSubmission": "File text trimmed at beginning/end only",
+  "references": [
+    {
+      "file": "assets/items/eye-adornments/references/eye-adornments-k-structure.png",
+      "sha256": "70ad24e9326ef09de68c0d79b55aaae292aef3d91889ab5cb28d326bac84f108",
+      "role": "Actual item structure references; board source records distinguish inventory/stand and format limits, not style/QQ face adoption"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    }
+  ],
+  "sourceVisualNotes": "Six actual inventory icons viewed: coral red butterfly with white pearl pattern; pale comma-shaped surprised ghost; silver microphone with colored music notes; gold/red command banner on pole; blue heart mobile phone with ring glyph; pink heart mobile phone with blue ring glyph. Phone signal glyphs and music notes are intentional parts of these item concepts, not ambient backgrounds.",
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a17789-9eaa-7ed3-b597-50d6259dbf2c/exec-3341bd96-d631-4798-b4bd-a9bf8b4a5da6.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "requestedCanvasInPrompt": [
+    1536,
+    1024
+  ],
+  "generationCount": 1,
+  "requestedItemCount": 6,
+  "sourceAndOutputScope": "One six-object atlas is one model generation; each later256 icon is a crop/PMA resize, not six model calls.",
+  "accepted": false,
+  "worldAccepted": false,
+  "stateAccepted": false,
+  "runtimeAdopted": false
+}

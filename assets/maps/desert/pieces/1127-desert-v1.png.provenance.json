@@ -1,0 +1,87 @@
+{
+  "elementId": 1127,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/desert/pieces/1127-desert-v1.png",
+  "sha256": "8974fcc77cbf583c9e67729fc4f539d5774049632548ad3c60b60c9fd54b9773",
+  "width": 160,
+  "height": 960,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 240,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/desert/props-d-v1.png",
+    "sha256": "a1d2bf893c2c6f2dd5b0b71c02e5d9293f6d06b58f077db26998eca2bd42f8b8",
+    "generationRecord": "assets/maps/desert/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      1084,
+      133,
+      1226,
+      1144
+    ],
+    "uniformScale": 0.9495548961424333,
+    "placementPx": [
+      12,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/desert/frames/candidate-1127-8e4dc94b9006.png",
+    "sha256": "b4d732d8284638ef2d21c3fd08cfbcb19d014f5a88f9c563be62f0fbe9c78367",
+    "representativeElementId": 1127,
+    "nativeFrameSize": [
+      40,
+      240
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    6
+  ],
+  "sourceGridAttr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.16666666666666666,
+    "generatedVisibleAspect": 0.13704071499503476,
+    "relativeAspectDeviation": 0.1777557100297914,
+    "generatedCellLTRB": [
+      1070,
+      120,
+      1242,
+      1162
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.178-exceeds-0.100-review-required"
+    ]
+  }
+}

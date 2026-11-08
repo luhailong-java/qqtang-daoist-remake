@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/walk-south-v2.png",
+  "sha256": "bd923ad328d7227e43914bf7e0c2f8e10bd2c2ede5a3e0583cd9b826973eb245",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 17:17:29 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 17:19:45 UTC"
+    }
+  },
+  "width": 2048,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: identity-preserve, targeted animation correction. Asset type: ONE horizontal four-frame SOUTH WALK strip with genuine transparent alpha.\nImage1 is the original Moon Shadow identity master. Preserve her exact short silver bob, cowlick, huge violet eyes, navy petal/crescent hair ornament and bead tassel on her anatomical LEFT (viewer RIGHT in all front views), navy/gold embroidered scarf, ivory inner robe, indigo cloud/gold waistcoat, loose trousers, crescent belt with blue jewels, indigo/gold boots and ONE small silver crescent dagger in each hand. Same friendly big-head short-body Taoist chibi face, no redesign. Images2/3 are hand-painted Taoist style references only, no UI/background content.\nExactly ONE ROW of FOUR equal columns. Prefer a 2048x768 horizontal PNG with four 512x768 cells. Fully transparent background, no ground/shadow, text, labels, visible grid, particles or extra figures. Important safety: center each COMPLETE figure in its cell with at least 14% side margin and 15% top/bottom margin. Include the whole scalp/cowlick, scarf, both hands, dagger tips and boots; no accessory may cross a cell boundary. One shared camera distance and identical figure size, stable torso axis x50%. Keep scarf closer behind shoulder to fit safe margins. All four poses face DIRECTLY SOUTH, front view walking toward viewer, NO diagonal turning, no mirrored copies.\nFOOT PHASES MUST ALTERNATE ANATOMICAL LEFT AND RIGHT; show two different shoes and knees clearly. This corrects the prior duplicated support-leg problem:\nCOLUMN1 LEFT CONTACT: LEFT boot is viewer RIGHT, lower/forward at cell x60%, y83%; RIGHT boot is viewer LEFT, trailing higher at x41%,y73%. Left leg extends forward, right leg back; right arm counter-swings gently forward, both daggers safely pointing down away from feet.\nCOLUMN2 LEFT SUPPORT, RIGHT PASS: LEFT boot viewerRIGHT supports beneath hip at x56%,y83%; RIGHT knee viewerLEFT bends forward with its raised boot at x44%,y72%. Different bent knee and close passing legs, no standing pose.\nCOLUMN3 RIGHT CONTACT: RIGHT boot viewerLEFT now lower/forward at x40%,y83%; LEFT boot viewerRIGHT trails higher at x59%,y73%. Opposite leading knee/foot from column1, opposite arm swing. Do NOT reuse the same leg as column1.\nCOLUMN4 RIGHT SUPPORT, LEFT PASS: RIGHT boot viewerLEFT supports at x44%,y83%; LEFT knee viewerRIGHT bends forward and raises its boot at x56%,y72%. Opposite supporting leg from column2.\nThe legs spread in columns1/3 and pass close in2/4, with clear opposing near/far knees, natural weight on one grounded leg, no jump, no attack. Do not duplicate/redraw column1 as3 or2 as4. Do not mirror the whole figure: hair ornament stays viewerRIGHT and dagger decorations stay with their original hands. Same body volume, face size and baseline, controlled gentle scarf/hem follow-through. Maximum available fine hand-painted detail, crisp clean native alpha.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/moon-shadow.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未披露可核实model/quality或精确生成时刻。",
+  "prompt": {
+    "path": "assets/characters/motion-generated/moon-shadow/walk-south-v2.prompt.txt",
+    "sha256": "8f77bbf4312e021ebdf55c1ab9ee2eebc4e476a20cb303822d7863b22bf3be94"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/moon-shadow.png",
+      "sha256": "8ccc7e9118ed1ca608a407687e5a76cf392b1f694ef7737ccc28536caae84bfc",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style reference"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style reference"
+    }
+  ],
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/moon-shadow/walk-south-v2.receipt.json",
+    "submission": "assets/characters/motion-generated/moon-shadow/walk-south-v2.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "status": "internal_visual_candidate",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "identity": "matches adopted master face/hair/clothes/accessories and anatomical sides",
+    "gaitPhases": [
+      "left contact",
+      "left support / right knee raised",
+      "right contact",
+      "right support / left knee raised"
+    ],
+    "transparency": "actual RGBA0..254, ivory and dark compositing clean; displayed hidden RGB excluded",
+    "poseDistinctness": "internal visual left/right leg alternation confirmed; no generated pose duplication or code mirroring",
+    "sourceLayoutDeviation": "Requested large margin not achieved in native strip; preserve full ownership crops and add ONE common transparent padded canvas before uniform scale",
+    "separators": [
+      {
+        "x": 528,
+        "maxAlpha": 1,
+        "visiblePixelsAlphaGt8": 0
+      },
+      {
+        "x": 1024,
+        "maxAlpha": 2,
+        "visiblePixelsAlphaGt8": 0
+      },
+      {
+        "x": 1536,
+        "maxAlpha": 0,
+        "visiblePixelsAlphaGt8": 0
+      }
+    ],
+    "sourceEqualGridDeviation": "moon frame1 scarf extends past nominal x512; ownership cut x528 uses no alpha>8 source pixels",
+    "dynamicReview": "pending: four-pose loop is coarse, 4->1 recovery/ground slip and game-size readability need client review"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/walk-sheet-v1.png",
+  "sha256": "952815a01f490b036b494e1a037c6fb89270e2a15eabd61f67de32edc186b89a",
+  "generatedAt": null,
+  "generationTimeEvidence": {
+    "started": {
+      "current_time": "2026-10-26 16:35:13 UTC"
+    },
+    "completed": {
+      "current_time": "2026-10-26 16:38:26 UTC"
+    }
+  },
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: identity-preserve. Asset type: transparent hand-painted 2D game character WALK sprite sheet.\nCreate ONE square image containing EXACTLY 16 separately drawn full-body poses of the SAME original Taoist chibi girl in input image 1. Invisible uniform grid: 4 rows x 4 columns. This is a true four-phase walk animation in four directions, not a character redesign and not sixteen standing portraits.\nIDENTITY LOCK, image 1: short silver-grey bob and little upward cowlick, huge violet eyes, round cheerful face, navy-blue petal/crescent hair ornament on her anatomical LEFT side with dangling blue bead tassel, long flowing navy scarf with subtle warm-gold cloud embroidery, ivory undershirt, navy/indigo short vest and loose trousers, cloud/gold-edged sash, crescent belt clasp and small blue jewels, matching indigo/gold boots. Keep one small silver crescent dagger in EACH hand, arms down in safe traveling posture, never an attack. Preserve short big-head chibi body ratio, body volume, face and hairstyle. The daggers/scarf stay recognizably the same objects; side views keep anatomical side details, NOT mirrored clones.\nSTYLE REFERENCES: images 2 and 3 provide only fine Taoist Q-version hand-painted finish, soft controlled shading, clean edges, rich cloth, subtle gold/jade detail, warm friendly clarity. No UI, text, borders, landscape, other people, logos or decorations from those images.\nLAYOUT CONTRACT: square, preferably 2048x2048 if supported. Exact equal 4x4 cells. Genuine transparent alpha, completely empty between figures. NO visible grid lines, labels, text, ground, drop shadows, particles, loose color speckles, checkerboard painting or scenery. Every full pose including scarf tips, hands, daggers, hair ornaments and shoes safely inside its own cell with at least 10% side padding and 7% top/bottom padding. All figures use identical camera distance, stable head/body scale, torso axis at cell x=50%, shared intended ground root at x=50%,y=90%. No per-cell zoom.\nROW ORDER TOP TO BOTTOM, no exceptions:\n1 NORTH: back view, walking away; show back of silver bob and robe, NO front face.\n2 EAST: side view facing RIGHT; nose, body and boots point right.\n3 SOUTH: front view walking toward viewer.\n4 WEST: side view facing LEFT; nose, body and boots point left.\nFOUR COLUMNS ARE FOUR DIFFERENT ALTERNATING FOOT PHASES, same order in every row:\n1 LEFT FOOT CONTACT: left leg extended forward with heel touching, right leg behind pushing, legs clearly spread.\n2 LEFT STANCE / RIGHT PASSING: left foot beneath hips supports weight, right bent knee passes forward, legs visibly close/cross.\n3 RIGHT FOOT CONTACT: right leg extended forward with heel touching, left leg behind pushing, opposite leg from col1, legs clearly spread.\n4 RIGHT STANCE / LEFT PASSING: right foot beneath hips supports weight, left bent knee passes forward, legs visibly close/cross, opposite leg from col2.\nColumns 1 and 3 MUST show opposite near/far knees and opposite supporting feet, not the same leg pose redrawn. Columns 2 and 4 MUST also switch the support leg. Four genuinely distinct poses, no duplicates, no mirroring a frame to fake the other phase, no floating/jumping. Gentle natural scarf/hem follow-through, hands counter-swing slightly while safely holding the two daggers. Relaxed lively walking loop, consistent orthographic slightly elevated game camera and soft light. Keep every toe/heel visible enough to verify the leg alternation. Maximum available clean hand-painted detail. No signatures.",
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/moon-shadow.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具仅返回image_url/output_hint，没有可核实型号、质量或精确出图时间。",
+  "evidence": {
+    "receipt": "assets/characters/motion-generated/moon-shadow/walk-sheet-v1.receipt.json",
+    "submission": "assets/characters/motion-generated/moon-shadow/walk-sheet-v1.submission.json",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pngMetadataKeys": []
+  },
+  "prompt": {
+    "path": "assets/characters/motion-generated/moon-shadow/walk-sheet-v1.prompt.txt",
+    "sha256": "993b95a9fbc4f85ebe4c8b222c2a2fdb1fb4feac99e79cf16472ba738a7ea619"
+  },
+  "references": [
+    {
+      "inputIndex": 1,
+      "path": "D:/work/qqtang-ui/assets/characters/moon-shadow.png",
+      "sha256": "8ccc7e9118ed1ca608a407687e5a76cf392b1f694ef7737ccc28536caae84bfc",
+      "role": "identity master"
+    },
+    {
+      "inputIndex": 2,
+      "path": "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Taoist chibi style reference, no UI/layout content copied"
+    },
+    {
+      "inputIndex": 3,
+      "path": "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Taoist chibi style reference, no UI/layout content copied"
+    }
+  ],
+  "status": "not_passed",
+  "clientApproved": false,
+  "userAccepted": false,
+  "review": {
+    "identityAndFourDirections": "internal_visual_match",
+    "transparency": "actual_alpha_0_255; ivory_composite_clean; hidden_RGB_not_a_visible_halo",
+    "gait": "not_passed: columns 1/3 and 2/4 retain similar supporting legs; genuine opposite-leg four-phase loop not established",
+    "grid": "not_passed: body/scarf/hair pixels meet or cross equal-cell boundaries in S/W; full fixed-grid slices not safe",
+    "note": "Different PNG hashes do not establish different gait phases."
+  }
+}

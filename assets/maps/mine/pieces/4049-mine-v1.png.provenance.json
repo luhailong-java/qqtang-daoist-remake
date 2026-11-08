@@ -1,0 +1,83 @@
+{
+  "elementId": 4049,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4049-mine-v1.png",
+  "sha256": "75586976b94b947b34082f8890e18d7f719a2e35e0354bb464ff8ae8db27ccf0",
+  "width": 160,
+  "height": 320,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 80,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-g-v1.png",
+    "sha256": "319572e8bc61e66d938fcffdb08e1b6dcfa0ae2b360cb8c331d2b4c3534cc6e1",
+    "generationRecord": "assets/maps/mine/props-g-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      645,
+      538,
+      891,
+      966
+    ],
+    "uniformScale": 0.6504065040650406,
+    "placementPx": [
+      0,
+      42
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4049-854831290752.png",
+    "sha256": "b05f31774e9bbe47cdd53044edb1a328ac64b926dbecf177a8b4326afb30aa2c",
+    "representativeElementId": 4049,
+    "nativeFrameSize": [
+      40,
+      80
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    2
+  ],
+  "sourceGridAttr": [
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.5,
+    "generatedVisibleAspect": 0.5707547169811321,
+    "relativeAspectDeviation": 0.14150943396226423,
+    "generatedCellLTRB": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.142-exceeds-0.100-review-required"
+    ]
+  }
+}

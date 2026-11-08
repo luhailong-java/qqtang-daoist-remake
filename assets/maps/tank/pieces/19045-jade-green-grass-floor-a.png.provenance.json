@@ -1,0 +1,118 @@
+{
+  "elementId": 19045,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/tank/pieces/19045-jade-green-grass-floor-a.png",
+  "sha256": "70dce337e43f1c293f9299a8f5f1f57f95de24e2d51e702e9be9ed11bdf67c00",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffset": [
+    0,
+    0
+  ],
+  "derivedFrom": {
+    "file": "assets/maps/tank/binary/props-d-v1.png",
+    "sha256": "8de177570e3aef4f13efae89c4ad11c8aee75fc7f1eac3964a15ce6714a8ef47",
+    "generationRecord": "assets/maps/tank/binary/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-opaque-square-texture-uniform-resize",
+    "sourceRectLTRB": [
+      10,
+      10,
+      877,
+      877
+    ],
+    "uniformScale": 0.1845444059976932,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "resizeAlpha": "premultiplied",
+    "alphaNormalization": "interior alpha>=250 normalized to255; no transparent-edge pixels used",
+    "originalCropAlphaExtrema": [
+      255,
+      255
+    ],
+    "referenceAlphaExtrema": [
+      255,
+      255
+    ]
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "visibleAspectRatioRelativeError": 0.0,
+  "geometryAccepted": false,
+  "seamlessVerified": null,
+  "status": "painted-candidate-awaiting-geometry-and-in-game-validation",
+  "warnings": [
+    "source-image-id-and-client-anchor-unverified",
+    "internal-silhouette-and-original-map-render-unverified"
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "binaryPropertyEvidence": {
+    "binaryPropertyRecord": {
+      "id": 19045,
+      "recordOffset": 23132,
+      "recordBytes": 28,
+      "widthCells": 1,
+      "heightCells": 1,
+      "offsetRaw": [
+        0,
+        0
+      ],
+      "lifeTimeRaw": -1,
+      "wordAtRecord16": 256,
+      "wordAtRecord20": 0,
+      "gridAttrRaw": [
+        3855
+      ]
+    },
+    "binaryPropertySourceSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+    "familyMappingStatus": "numeric-prefix,exact indexed filename and source-map cooccurrence candidate; native image lookup unverified",
+    "canDoSpecial": null,
+    "canHide": null,
+    "unserializedFieldsUnknown": true,
+    "sourceInspection": "references/qqtang-map-data/binary-properties-inspection.json"
+  },
+  "accepted": false,
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/binary-supplement/frames/candidate-19045.png",
+    "sha256": "c7da42ed026e0f8962113508b47110706ca71f28cfb0dfbe9fe73cc0e10a7492"
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "canHide": null,
+  "canDoSpecial": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.0,
+    "relativeAspectDeviation": 0.0,
+    "warnings": [
+      "source-image-id-and-client-anchor-unverified",
+      "internal-silhouette-and-original-map-render-unverified"
+    ]
+  }
+}

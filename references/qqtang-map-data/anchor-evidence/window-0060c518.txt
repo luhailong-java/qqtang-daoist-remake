@@ -1,0 +1,94 @@
+
+references\qqtang-map-data\anchor-evidence\window-0060c518.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+0060c518 <.text>:
+  60c518: 55                           	push	ebp
+  60c519: 8b ec                        	mov	ebp, esp
+  60c51b: 83 ec 14                     	sub	esp, 0x14
+  60c51e: 53                           	push	ebx
+  60c51f: 56                           	push	esi
+  60c520: 8b 71 04                     	mov	esi, dword ptr [ecx + 0x4]
+  60c523: 57                           	push	edi
+  60c524: 8b 7d 08                     	mov	edi, dword ptr [ebp + 0x8]
+  60c527: 89 4d fc                     	mov	dword ptr [ebp - 0x4], ecx
+  60c52a: 81 c6 10 13 00 00            	add	esi, 0x1310
+  60c530: d9 87 3c 03 00 00            	fld	dword ptr [edi + 0x33c]
+  60c536: d9 87 38 03 00 00            	fld	dword ptr [edi + 0x338]
+  60c53c: e8 8d 3b 01 00               	call	0x6200ce <.text+0x13bb6>
+  60c541: 6a 28                        	push	0x28
+  60c543: 99                           	cdq
+  60c544: 59                           	pop	ecx
+  60c545: f7 f9                        	idiv	ecx
+  60c547: 50                           	push	eax
+  60c548: e8 81 3b 01 00               	call	0x6200ce <.text+0x13bb6>
+  60c54d: 6a 28                        	push	0x28
+  60c54f: 99                           	cdq
+  60c550: 59                           	pop	ecx
+  60c551: f7 f9                        	idiv	ecx
+  60c553: 8d 8e 20 3b 00 00            	lea	ecx, [esi + 0x3b20]
+  60c559: 50                           	push	eax
+  60c55a: e8 f5 f7 fc ff               	call	0x5dbd54
+  60c55f: 8b d8                        	mov	ebx, eax
+  60c561: 85 db                        	test	ebx, ebx
+  60c563: 74 7d                        	je	0x60c5e2 <.text+0xca>
+  60c565: 8b 4b 3c                     	mov	ecx, dword ptr [ebx + 0x3c]
+  60c568: 8b 01                        	mov	eax, dword ptr [ecx]
+  60c56a: ff 50 04                     	call	dword ptr [eax + 0x4]
+  60c56d: 83 f8 04                     	cmp	eax, 0x4
+  60c570: 74 70                        	je	0x60c5e2 <.text+0xca>
+  60c572: 66 8b 87 28 03 00 00         	mov	ax, word ptr [edi + 0x328]
+  60c579: d9 87 38 03 00 00            	fld	dword ptr [edi + 0x338]
+  60c57f: 66 89 45 ec                  	mov	word ptr [ebp - 0x14], ax
+  60c583: 8b 43 58                     	mov	eax, dword ptr [ebx + 0x58]
+  60c586: 89 45 ee                     	mov	dword ptr [ebp - 0x12], eax
+  60c589: e8 40 3b 01 00               	call	0x6200ce <.text+0x13bb6>
+  60c58e: d9 87 3c 03 00 00            	fld	dword ptr [edi + 0x33c]
+  60c594: 66 89 45 f6                  	mov	word ptr [ebp - 0xa], ax
+  60c598: e8 31 3b 01 00               	call	0x6200ce <.text+0x13bb6>
+  60c59d: 66 89 45 f8                  	mov	word ptr [ebp - 0x8], ax
+  60c5a1: 8b 43 04                     	mov	eax, dword ptr [ebx + 0x4]
+  60c5a4: 89 45 f2                     	mov	dword ptr [ebp - 0xe], eax
+  60c5a7: 8d 45 ec                     	lea	eax, [ebp - 0x14]
+  60c5aa: bf ac 0f 00 00               	mov	edi, 0xfac
+  60c5af: 50                           	push	eax
+  60c5b0: 57                           	push	edi
+  60c5b1: e8 2b 58 f9 ff               	call	0x5a1de1
+  60c5b6: 8b c8                        	mov	ecx, eax
+  60c5b8: e8 8f 69 f9 ff               	call	0x5a2f4c
+  60c5bd: 8b 86 24 38 00 00            	mov	eax, dword ptr [esi + 0x3824]
+  60c5c3: 3b 86 30 38 00 00            	cmp	eax, dword ptr [esi + 0x3830]
+  60c5c9: 75 17                        	jne	0x60c5e2 <.text+0xca>
+  60c5cb: 8d 45 ec                     	lea	eax, [ebp - 0x14]
+  60c5ce: 50                           	push	eax
+  60c5cf: 8b 45 fc                     	mov	eax, dword ptr [ebp - 0x4]
+  60c5d2: 57                           	push	edi
+  60c5d3: 8b 48 04                     	mov	ecx, dword ptr [eax + 0x4]
+  60c5d6: e8 b9 c1 fb ff               	call	0x5c8794
+  60c5db: 8b c8                        	mov	ecx, eax
+  60c5dd: e8 29 d0 26 00               	call	0x87960b <.text+0x26d0f3>
+  60c5e2: 5f                           	pop	edi
+  60c5e3: 5e                           	pop	esi
+  60c5e4: 5b                           	pop	ebx
+  60c5e5: c9                           	leave
+  60c5e6: c2 04 00                     	ret	0x4
+  60c5e9: e9 00 00 00 00               	jmp	0x60c5ee <.text+0xd6>
+  60c5ee: d9 e8                        	fld1
+  60c5f0: d8 35 64 45 7a 00            	fdiv	dword ptr [0x7a4564]
+  60c5f6: d9 1d 8c de 85 00            	fstp	dword ptr [0x85de8c]
+  60c5fc: c3                           	ret
+  60c5fd: 56                           	push	esi
+  60c5fe: 8b f1                        	mov	esi, ecx
+  60c600: e8 48 8c fe ff               	call	0x5f524d
+  60c605: c7 06 68 45 7a 00            	mov	dword ptr [esi], 0x7a4568
+  60c60b: 8b c6                        	mov	eax, esi
+  60c60d: 5e                           	pop	esi
+  60c60e: c3                           	ret
+  60c60f: 6a 03                        	push	0x3
+  60c611: 58                           	pop	eax
+  60c612: c3                           	ret
+  60c613: 56                           	push	esi
+  60c614: 8b f1                        	mov	esi, ecx
+  60c616: e8                           	<unknown>
+  60c617: 14                           	<unknown>

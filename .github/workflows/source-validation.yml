@@ -1,0 +1,68 @@
+name: Source validation
+on:
+  push:
+    branches: ["codex/**"]
+    paths:
+      - "src/**"
+      - "server/**"
+      - "scripts/**"
+      - "tests/**"
+      - "*.html"
+      - "package.json"
+      - ".github/**"
+      - "references/qqtang-map-data/motion-contract/inspect-packed-metadata.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: source-validation-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    if: ${{ github.event.repository.private == false }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7, verified2026-10-28
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: "22"
+          package-manager-cache: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: "3.12"
+      - name: Install fixture dependency
+        run: python -m pip install --no-cache-dir "Pillow==12.0.0"
+      - name: Node engine, server, map and cutout checks
+        run: npm test
+      - name: JavaScript source syntax
+        run: find src server scripts tests -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
+      - name: Independent image-container and UI-constant fixtures
+        run: |
+          python tests/dimg-reference.test.py
+          python tests/dimg-metadata-only.test.py
+          python tests/legacy-ui-constants.test.py
+          python tests/inventory-reference-contract.test.py
+          python tests/world-export-gate.test.py
+          python tests/water-ground-pair.test.py
+      - name: Python source syntax
+        run: python -m compileall -q scripts tests references/qqtang-map-data/motion-contract/inspect-packed-metadata.py
+      - name: Selected inventory PNG specifications
+        if: ${{ hashFiles('assets/items/surroundings/art.json') != '' }}
+        run: python scripts/verify-inventory-candidates.py --manifest assets/items/surroundings/art.json --catalog references/qqtang-item-data/catalog.json --category ear --expected 62
+      - name: Footprint inventory PNG specifications
+        if: ${{ hashFiles('assets/items/footprints/art.json') != '' }}
+        run: python scripts/verify-inventory-candidates.py --manifest assets/items/footprints/art.json --catalog references/qqtang-item-data/catalog.json --category footprint --expected 74
+      - name: Crown and ornament inventory PNG specifications
+        if: ${{ hashFiles('assets/items/eye-adornments/art.json') != '' }}
+        run: python scripts/verify-inventory-candidates.py --manifest assets/items/eye-adornments/art.json --catalog references/qqtang-item-data/catalog.json --category eye --expected 72 --source-exceptions assets/items/eye-adornments/source-exceptions.json
+      - name: Rose garland exact source positions
+        if: ${{ hashFiles('assets/items/head-adornments/world-114-art.json') != '' }}
+        run: python scripts/verify-head-world-114.py
+      - name: Collector basket exact source positions
+        if: ${{ hashFiles('assets/items/head-adornments/world-39-art.json') != '' }}
+        run: python scripts/verify-head-world-114.py --item 39 --expected-count 24 --expected-unique 20
+      - name: Package with baseline published assets
+        run: npm run build

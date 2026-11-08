@@ -1,0 +1,68 @@
+{
+  "recordedAtUTC": "2026-10-28T22:36:36.699377+00:00",
+  "inspectionType": "small JSON identity/path existence only; no image decode/scan/hash audit",
+  "sourceEntityCount": 97,
+  "staticCandidateCount": 97,
+  "classes": {
+    "ordinary": 70,
+    "boss": 26,
+    "mixed-context": 1
+  },
+  "missingSourceIds": [],
+  "unexpectedIds": [],
+  "allCurrentPathsExist": true,
+  "allGenerationRecordPathsExist": true,
+  "allAccepted": false,
+  "actionsProduced": 0,
+  "runtimeVerification": false,
+  "heavyWorkHoldRespected": true,
+  "currentRepairs": [
+    {
+      "entityId": 30094,
+      "attempts": 2,
+      "selected": "v1",
+      "result": "v2 and v3 retained isolated upper-right dot, unselected; stop same point after two unsuccessful attempts",
+      "status": "pending"
+    },
+    {
+      "entityId": 30109,
+      "attempts": 1,
+      "selected": "v2",
+      "result": "displayed ear padding slightly improved, still narrower than requested8%; full alpha bounds not accepted",
+      "status": "partial-pending"
+    },
+    {
+      "entityId": 30040,
+      "attempts": 1,
+      "selected": "v2",
+      "result": "displayed isolated dot outside right arm removed; full alpha/in-game QA pending",
+      "status": "target-improved-not-accepted"
+    },
+    {
+      "entityId": 30076,
+      "attempts": 1,
+      "selected": "v1",
+      "result": "v2 still showed floating marks above quill fan; unselected",
+      "status": "pending"
+    },
+    {
+      "entityId": 30077,
+      "attempts": 1,
+      "selected": "v2",
+      "result": "displayed dot below front claw removed; lateral padding remains narrow and unaccepted",
+      "status": "partial-pending"
+    },
+    {
+      "entityId": 30104,
+      "attempts": 1,
+      "selected": "v2",
+      "result": "displayed isolated marks around antlers/below feet removed; colored fringe/full alpha still pending",
+      "status": "target-improved-not-accepted"
+    }
+  ],
+  "limitations": [
+    "Static coverage is not completed entity art",
+    "No direction/frame/action timing established from these masters",
+    "No full inventory image decoding, build, runtime test or Git changes performed"
+  ]
+}

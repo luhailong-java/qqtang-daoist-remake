@@ -1,0 +1,178 @@
+{
+  "file": "assets/maps/previews/source-1-ground-pair-v2-candidate.png",
+  "sha256": "f3f0784dc49544d3a443fa58c1885998e500a6172df0865f5cee2e0e0d83e692",
+  "operation": "existing-image-composition-at-candidate-renderer-offsets",
+  "newModelGeneration": false,
+  "previewDensity": 2,
+  "logicalSize": [
+    600,
+    520
+  ],
+  "outputPixels": [
+    1200,
+    1040
+  ],
+  "mapSourceSha256": "7a019aa43280fcc68a0c55c247b216e9e909d146f1673008665f97469710a02e",
+  "drawPlan": ".artifacts/map-art-plan-source-1-ground-pair-v2.json",
+  "drawPlanSha256": "552eeb89f68fbf1857bfe62269265375857f651f76165070587be9eb2fd5d098",
+  "baseline": {
+    "file": "assets/maps/previews/source-1-painted-candidate.png",
+    "sha256": "dec3b43a4b651b1cdbd22cabf8d1476360fe9db60d0908f26839878631ba68ad"
+  },
+  "changedTileIds": [
+    5001,
+    5019
+  ],
+  "missingElementIds": [],
+  "geometryAccepted": false,
+  "inGameVerified": false,
+  "comparison": {
+    "before": {
+      "floorPixels": 1248000,
+      "floorPixelsBelowOpaque": 1222168,
+      "visibleFloorPixelsBelowOpaque": 374238,
+      "edgesAt160": {
+        "H-5001-5001": [
+          3.716666666666667,
+          255
+        ],
+        "H-5001-5019": [
+          121.66041666666666,
+          255
+        ],
+        "H-5019-5001": [
+          23.904166666666665,
+          255
+        ],
+        "H-5019-5019": [
+          113.70208333333333,
+          255
+        ],
+        "V-5001-5001": [
+          1.9479166666666667,
+          255
+        ],
+        "V-5001-5019": [
+          3.5416666666666665,
+          255
+        ],
+        "V-5019-5001": [
+          117.81458333333333,
+          255
+        ],
+        "V-5019-5019": [
+          118.34583333333333,
+          255
+        ]
+      },
+      "edgeGroupsAt80": {
+        "H-5001-5019": {
+          "samples": 2580,
+          "meanRgbJump": 29.113953488372093,
+          "meanLumaMinusThreeLogicalPixelsIn": 58.55802445736446
+        },
+        "H-5019-5001": {
+          "samples": 1918,
+          "meanRgbJump": 22.51494612443516,
+          "meanLumaMinusThreeLogicalPixelsIn": 65.1712622002086
+        },
+        "H-5019-5019": {
+          "samples": 56,
+          "meanRgbJump": 1.761904761904762,
+          "meanLumaMinusThreeLogicalPixelsIn": 82.5277625
+        },
+        "V-5001-5019": {
+          "samples": 2123,
+          "meanRgbJump": 9.683623802794786,
+          "meanLumaMinusThreeLogicalPixelsIn": 52.475743005181364
+        },
+        "V-5019-5001": {
+          "samples": 1488,
+          "meanRgbJump": 22.365591397849446,
+          "meanLumaMinusThreeLogicalPixelsIn": 69.10645833333348
+        },
+        "V-5019-5019": {
+          "samples": 1,
+          "meanRgbJump": 31.666666666666668,
+          "meanLumaMinusThreeLogicalPixelsIn": 62.02619999999999
+        }
+      }
+    },
+    "after": {
+      "floorPixels": 1248000,
+      "floorPixelsBelowOpaque": 0,
+      "visibleFloorPixelsBelowOpaque": 0,
+      "edgesAt160": {
+        "H-5001-5001": [
+          0.0,
+          0
+        ],
+        "H-5001-5019": [
+          0.0,
+          0
+        ],
+        "H-5019-5001": [
+          0.0,
+          0
+        ],
+        "H-5019-5019": [
+          0.0,
+          0
+        ],
+        "V-5001-5001": [
+          0.0,
+          0
+        ],
+        "V-5001-5019": [
+          0.0,
+          0
+        ],
+        "V-5019-5001": [
+          0.0,
+          0
+        ],
+        "V-5019-5019": [
+          0.0,
+          0
+        ]
+      },
+      "edgeGroupsAt80": {
+        "H-5001-5019": {
+          "samples": 2580,
+          "meanRgbJump": 0.07093023255813985,
+          "meanLumaMinusThreeLogicalPixelsIn": -1.1958006976744173
+        },
+        "H-5019-5001": {
+          "samples": 1918,
+          "meanRgbJump": 0.15015641293013568,
+          "meanLumaMinusThreeLogicalPixelsIn": -3.631200312825863
+        },
+        "H-5019-5019": {
+          "samples": 56,
+          "meanRgbJump": 0.1309523809523809,
+          "meanLumaMinusThreeLogicalPixelsIn": 0.7104410714285734
+        },
+        "V-5001-5019": {
+          "samples": 2123,
+          "meanRgbJump": 0.15167216203485628,
+          "meanLumaMinusThreeLogicalPixelsIn": -5.89214875176639
+        },
+        "V-5019-5001": {
+          "samples": 1488,
+          "meanRgbJump": 0.1639784946236562,
+          "meanLumaMinusThreeLogicalPixelsIn": -1.603465389784946
+        },
+        "V-5019-5019": {
+          "samples": 1,
+          "meanRgbJump": 0.0,
+          "meanLumaMinusThreeLogicalPixelsIn": -1.60769999999998
+        }
+      }
+    },
+    "source1GroundPlacements": {
+      "5001": 97,
+      "5019": 98
+    },
+    "operation": "read-only PNG/source geometry audit and existing painting composition comparison"
+  }
+}

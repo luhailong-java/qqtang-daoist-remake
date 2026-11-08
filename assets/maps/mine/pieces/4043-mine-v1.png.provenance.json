@@ -1,0 +1,81 @@
+{
+  "elementId": 4043,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4043-mine-v1.png",
+  "sha256": "14275212ce89a2b6ba5a4da3eee4281202dc26fe9d7acab52d924719a1b188b8",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-e-v1.png",
+    "sha256": "ffb09a3c120ef8c35d23c8fc0d08a0b1d87cd0d25da9366b74d7b550df2418ae",
+    "generationRecord": "assets/maps/mine/props-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      62,
+      843,
+      391,
+      1175
+    ],
+    "uniformScale": 0.4819277108433735,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4043-4fc663d0750a.png",
+    "sha256": "5393266ff1e6cb6a5747cb45d8751aeed8eaa2253e58151eeb46d1a5b9efc19f",
+    "representativeElementId": 4043,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 0.9908536585365854,
+    "relativeAspectDeviation": 0.009146341463414642,
+    "generatedCellLTRB": [
+      0,
+      836,
+      418,
+      1254
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

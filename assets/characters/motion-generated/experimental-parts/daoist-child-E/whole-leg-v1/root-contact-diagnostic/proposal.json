@@ -1,0 +1,365 @@
+{
+  "createdAtUTC": "2026-10-29T03:14:19.112243+00:00",
+  "source": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/whole-leg-v1.png",
+  "sourceSHA256": "9d8e19604c8b28089b6abd83cf5967cf705c17839db2ba59d999fea429f74fc7",
+  "sourceNativeSize": [
+    1536,
+    1024
+  ],
+  "parts": {
+    "near_R_forward": {
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/near_R_forward.png",
+      "sha256": "9adc8ed5310e4dfbfb5e337d3bb4df7b5e4f681a33050bd20ff7f4f9cb5f1666",
+      "sourceCropRect": [
+        284,
+        27,
+        733,
+        477
+      ],
+      "sourceNativeSize": [
+        449,
+        450
+      ],
+      "hip": [
+        93,
+        66
+      ],
+      "ankle": [
+        292,
+        351
+      ],
+      "toe": [
+        429,
+        401
+      ],
+      "soleCandidate": [
+        347,
+        439
+      ],
+      "landmarksEvidence": "Manual visual estimates in actual native whole-leg image. Not native anatomy, approved bind or recovered original root."
+    },
+    "near_R_backward": {
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/near_R_backward.png",
+      "sha256": "21859982b65be3034c8f9238a60d17d7585b7f9a9944af202475935285ae9c59",
+      "sourceCropRect": [
+        972,
+        40,
+        1308,
+        490
+      ],
+      "sourceNativeSize": [
+        336,
+        450
+      ],
+      "hip": [
+        252,
+        65
+      ],
+      "ankle": [
+        75,
+        351
+      ],
+      "toe": [
+        188,
+        411
+      ],
+      "soleCandidate": [
+        109,
+        428
+      ],
+      "landmarksEvidence": "Manual visual estimates in actual native whole-leg image. Not native anatomy, approved bind or recovered original root."
+    },
+    "far_L_forward": {
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/far_L_forward.png",
+      "sha256": "9506ad149ea387bb42681ffb9bdc0c86aa031d7baf608ce6f8068803b6ae090c",
+      "sourceCropRect": [
+        281,
+        518,
+        723,
+        959
+      ],
+      "sourceNativeSize": [
+        442,
+        441
+      ],
+      "hip": [
+        91,
+        58
+      ],
+      "ankle": [
+        285,
+        372
+      ],
+      "toe": [
+        429,
+        407
+      ],
+      "soleCandidate": [
+        342,
+        425
+      ],
+      "landmarksEvidence": "Manual visual estimates in actual native whole-leg image. Not native anatomy, approved bind or recovered original root."
+    },
+    "far_L_backward": {
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/far_L_backward.png",
+      "sha256": "98fb3b3dee3da0f3be5e436badb87369c7a2e099e9270c285ce413262cef1988",
+      "sourceCropRect": [
+        971,
+        531,
+        1311,
+        984
+      ],
+      "sourceNativeSize": [
+        340,
+        453
+      ],
+      "hip": [
+        254,
+        60
+      ],
+      "ankle": [
+        77,
+        361
+      ],
+      "toe": [
+        199,
+        419
+      ],
+      "soleCandidate": [
+        119,
+        437
+      ],
+      "landmarksEvidence": "Manual visual estimates in actual native whole-leg image. Not native anatomy, approved bind or recovered original root."
+    }
+  },
+  "sourceAlpha8PixelsOwnedOnce": 269858,
+  "designCanvas": [
+    627,
+    627
+  ],
+  "twoContacts": [
+    {
+      "contact": "A",
+      "nearPart": "near_R_forward",
+      "farPart": "far_L_backward",
+      "nodes": [
+        {
+          "id": "far_L_backward",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/far_L_backward.png",
+          "sha256": "98fb3b3dee3da0f3be5e436badb87369c7a2e099e9270c285ce413262cef1988",
+          "pivot": [
+            254,
+            60
+          ],
+          "scale": 0.24,
+          "position": [
+            319,
+            438
+          ],
+          "layer": 10,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            258.04,
+            423.6
+          ]
+        },
+        {
+          "id": "near_R_forward",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/near_R_forward.png",
+          "sha256": "9adc8ed5310e4dfbfb5e337d3bb4df7b5e4f681a33050bd20ff7f4f9cb5f1666",
+          "pivot": [
+            93,
+            66
+          ],
+          "scale": 0.24,
+          "position": [
+            307,
+            439
+          ],
+          "layer": 20,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            284.68,
+            423.16
+          ]
+        },
+        {
+          "id": "head",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/head.png",
+          "sha256": "88430e2313ee893d7b37d3888650cd5b0edfcb24fce45b5373eca8ff4059ac29",
+          "pivot": [
+            280,
+            335
+          ],
+          "scale": 0.72,
+          "position": [
+            307,
+            321
+          ],
+          "layer": 35,
+          "imageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            79.80000000000001
+          ]
+        },
+        {
+          "id": "torso_pelvis",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+          "sha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+          "pivot": [
+            184,
+            188
+          ],
+          "scale": 0.48,
+          "position": [
+            313.5,
+            398
+          ],
+          "layer": 40,
+          "imageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            307.76
+          ]
+        }
+      ],
+      "output": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/contact-A-ivory.png"
+    },
+    {
+      "contact": "B",
+      "nearPart": "near_R_backward",
+      "farPart": "far_L_forward",
+      "nodes": [
+        {
+          "id": "far_L_forward",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/far_L_forward.png",
+          "sha256": "9506ad149ea387bb42681ffb9bdc0c86aa031d7baf608ce6f8068803b6ae090c",
+          "pivot": [
+            91,
+            58
+          ],
+          "scale": 0.24,
+          "position": [
+            319,
+            438
+          ],
+          "layer": 10,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            297.16,
+            424.08
+          ]
+        },
+        {
+          "id": "near_R_backward",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/near_R_backward.png",
+          "sha256": "21859982b65be3034c8f9238a60d17d7585b7f9a9944af202475935285ae9c59",
+          "pivot": [
+            252,
+            65
+          ],
+          "scale": 0.24,
+          "position": [
+            307,
+            439
+          ],
+          "layer": 20,
+          "imageMatrix": [
+            0.24,
+            0,
+            0,
+            0.24,
+            246.52,
+            423.4
+          ]
+        },
+        {
+          "id": "head",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/head.png",
+          "sha256": "88430e2313ee893d7b37d3888650cd5b0edfcb24fce45b5373eca8ff4059ac29",
+          "pivot": [
+            280,
+            335
+          ],
+          "scale": 0.72,
+          "position": [
+            307,
+            321
+          ],
+          "layer": 35,
+          "imageMatrix": [
+            0.72,
+            0,
+            0,
+            0.72,
+            105.4,
+            79.80000000000001
+          ]
+        },
+        {
+          "id": "torso_pelvis",
+          "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+          "sha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+          "pivot": [
+            184,
+            188
+          ],
+          "scale": 0.48,
+          "position": [
+            313.5,
+            398
+          ],
+          "layer": 40,
+          "imageMatrix": [
+            0.48,
+            0,
+            0,
+            0.48,
+            225.18,
+            307.76
+          ]
+        }
+      ],
+      "output": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-leg-v1/root-contact-diagnostic/contact-B-ivory.png"
+    }
+  ],
+  "wholeLegUniformScale": 0.24,
+  "nearHipPosition": [
+    307,
+    439
+  ],
+  "farHipPosition": [
+    319,
+    438
+  ],
+  "diagnosticGroundY": 529,
+  "nearFarIDsFixed": true,
+  "mirroring": false,
+  "componentWarping": false,
+  "oldSecondHemUsed": false,
+  "oldSegmentedLegsUsed": false,
+  "armsPresent": false,
+  "landmarksApproved": false,
+  "staticBindAccepted": false,
+  "runtimeIntegrated": false,
+  "sourceNativeTimingMs": null,
+  "worldRoot": null,
+  "completeAnimation": false,
+  "operation": "Exact native whole-leg crops and fixed manual isotropic affine composition; head/torso retained. No new AI image, repaint, mirror, per-pose fit or world-root claim."
+}

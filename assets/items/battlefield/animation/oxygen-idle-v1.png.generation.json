@@ -1,0 +1,77 @@
+{
+  "file": "assets/items/battlefield/animation/oxygen-idle-v1.png",
+  "sha256": "54d2bf57540ca01152dd9b35b363f4f22dcd8db15e5bcd5331b127c597f31535",
+  "generatedAt": "2026-10-28T23:18:11.255Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\assets\\items\\battlefield\\references\\oxygen-identity-native.png",
+      "D:\\work\\qqtang-ui\\references\\qqtang-packed-art\\oxygen-seven-phases.png",
+      "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "docs/oxygen-idle-v1.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\items\\battlefield\\references\\oxygen-identity-native.png",
+      "purpose": "style reference",
+      "sha256": "602cd514e28cee8a7af8c1e68c03f2d7341375f5086ac5d9e3af9ef7aac84409"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\qqtang-packed-art\\oxygen-seven-phases.png",
+      "purpose": "structure and functional content reference only",
+      "sha256": "7bbad68493754559646ef2e0223d46869d8e1212c5f067269b271ec849365943"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a17789-9eaa-7ed3-b597-50d6259dbf2c\\exec-b452678f-03cd-4b21-a72c-aba86fe802de.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

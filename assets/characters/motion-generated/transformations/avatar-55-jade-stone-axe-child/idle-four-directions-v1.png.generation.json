@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/idle-four-directions-v1.png",
+  "sha256": "eea388549470e6288c5899ec6209c198a00f5b564a5c97f29237d00106412ff9",
+  "generatedAt": "2026-10-28T22:24:25.775Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/master.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/idle-four-directions-v1.prompt.txt",
+  "promptSha256": "a29b8dd0510a1769819c71ae08d778e799f07e58db4295490a194c740bb13716",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/master.png",
+      "role": "selected own form identity master",
+      "sha256": "ed428ebda40175fa8eeada670a07026ecbf300db69644fe5ec464fdb9ff9eaca"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist Q style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist Q style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-3f418631-2aad-46cc-9ff3-df5db01640af.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/master.png",
+  "review": {
+    "kind": "temporary_form_four_direction_idle_stills_not_animation",
+    "avatarRoleId": 55,
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "missingDirections": [],
+    "runtimeEnabled": false,
+    "pending": [
+      "single-source alpha/ownership",
+      "identity asymmetric attachments/true directions",
+      "shared scale/root and client"
+    ],
+    "sourceDirectionEvidence": "assets/characters/motion-generated/transformations/native-body-direction-evidence.json",
+    "sourceDirectionCount": 4,
+    "sourceDirectionIndexOrder": null,
+    "failureReasons": [
+      "E and W show3 crescent blade heads/extra axe-like head while selected master has exactly2 single-blade axes. Direction names correct but prop identity not passed."
+    ],
+    "sourcePropCount": 2,
+    "visibleBladeHeadCounts": {
+      "N": 2,
+      "E": 3,
+      "S": 2,
+      "W": 3
+    }
+  },
+  "status": "not_passed_extra_axe_blade_heads_in_E_W",
+  "clientApproved": false,
+  "userAccepted": false,
+  "supersededCandidate": "assets/characters/motion-generated/transformations/avatar-55-jade-stone-axe-child/idle-four-directions-v2.png"
+}

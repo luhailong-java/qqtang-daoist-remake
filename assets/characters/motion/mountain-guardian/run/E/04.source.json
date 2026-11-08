@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "adoptedAt": "2026-10-26T16:08:00.298443+00:00",
+  "artSource": "existing",
+  "adoptionStatus": "client_candidate",
+  "clientApproved": false,
+  "file": "assets/characters/motion/mountain-guardian/run/E/04.png",
+  "sha256": "6899847328b1fbc2a1b0afde99c31cf4694bbd00ec4e5edad3ed1a4565dce5f7",
+  "source": {
+    "repository": "image",
+    "path": "qdao_original_roster_v14_hd/action-remake-20261001/characters/04_mountain_guardian_boy/frames/run/E/frame_04.png",
+    "sha256": "938682b7405c998421380eea870b0877bcfe8f5ff3f35a0f68b8be2b2c8d80e8",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaGt8BBox": [
+      115,
+      10,
+      931,
+      986
+    ]
+  },
+  "generationRecord": {
+    "source": "qdao_original_roster_v14_hd/action-remake-20261001/characters/04_mountain_guardian_boy/frames/run/E/frame_04.generation.json",
+    "sourceSha256": "0b5a7edf0dddc92c2bef98a9261680e19d708b5e917eb0806cf97c0c3266c891",
+    "local": "assets/characters/motion/mountain-guardian/run/E/04.generation.json",
+    "unchangedByteCopy": true,
+    "configuredTarget": {
+      "model": "gpt-image-2.5-sunburst",
+      "quality": "max"
+    },
+    "actualModel": null,
+    "actualQuality": null,
+    "note": "配置目标和历史提交字段不代表宿主已披露型号/质量；实际不可得值仍为未确认。"
+  },
+  "operation": {
+    "type": "deterministic_full_canvas_downscale",
+    "input": [
+      1024,
+      1024
+    ],
+    "output": [
+      256,
+      256
+    ],
+    "scale": 0.25,
+    "resampler": "LANCZOS",
+    "alphaProcessing": "RGBA -> premultiplied RGBa -> resize -> RGBA",
+    "crop": null,
+    "translation": [
+      0,
+      0
+    ],
+    "mirrored": false,
+    "sourceAnchor": [
+      512,
+      928
+    ],
+    "outputAnchor": [
+      128.0,
+      232.0
+    ],
+    "poseInterpolation": false,
+    "newGeneration": false
+  },
+  "warnings": []
+}

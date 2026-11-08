@@ -1,0 +1,81 @@
+{
+  "elementId": 4041,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4041-mine-v1.png",
+  "sha256": "834b72b8bfa74c9c218fe86a4b0c43f8f77ca6c6323bfa69460d2260a5cb1b42",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-e-v1.png",
+    "sha256": "ffb09a3c120ef8c35d23c8fc0d08a0b1d87cd0d25da9366b74d7b550df2418ae",
+    "generationRecord": "assets/maps/mine/props-e-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      464,
+      450,
+      790,
+      774
+    ],
+    "uniformScale": 0.49079754601226994,
+    "placementPx": [
+      0,
+      1
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4041-dc637a95fdb2.png",
+    "sha256": "346acd61ce50e525b5b0293495b9ff9000db2513285fb2502437dd87d4ab2875",
+    "representativeElementId": 4041,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 1.00625,
+    "relativeAspectDeviation": 0.006250000000000089,
+    "generatedCellLTRB": [
+      418,
+      418,
+      836,
+      836
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

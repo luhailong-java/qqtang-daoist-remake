@@ -1,0 +1,89 @@
+
+D:\work\qqtang-ui\references\qqtang-map-data\anchor-evidence\window-005ef0be.obj:	file format coff-i386
+
+Disassembly of section .text:
+
+005ef0be <.text>:
+  5ef0be: b8 56 be 65 00               	mov	eax, 0x65be56
+  5ef0c3: e8 3c 14 03 00               	call	0x620504 <.text+0x31446>
+  5ef0c8: 51                           	push	ecx
+  5ef0c9: 56                           	push	esi
+  5ef0ca: 57                           	push	edi
+  5ef0cb: 8b f1                        	mov	esi, ecx
+  5ef0cd: 33 ff                        	xor	edi, edi
+  5ef0cf: 39 7e 18                     	cmp	dword ptr [esi + 0x18], edi
+  5ef0d2: c7 46 0c 03 00 00 00         	mov	dword ptr [esi + 0xc], 0x3
+  5ef0d9: 75 28                        	jne	0x5ef103 <.text+0x45>
+  5ef0db: 6a 2c                        	push	0x2c
+  5ef0dd: e8 6c 0f 03 00               	call	0x62004e <.text+0x30f90>
+  5ef0e2: 59                           	pop	ecx
+  5ef0e3: 8b c8                        	mov	ecx, eax
+  5ef0e5: 89 4d f0                     	mov	dword ptr [ebp - 0x10], ecx
+  5ef0e8: 3b cf                        	cmp	ecx, edi
+  5ef0ea: 89 7d fc                     	mov	dword ptr [ebp - 0x4], edi
+  5ef0ed: 74 07                        	je	0x5ef0f6 <.text+0x38>
+  5ef0ef: e8 a6 54 fb ff               	call	0x5a459a
+  5ef0f4: eb 02                        	jmp	0x5ef0f8 <.text+0x3a>
+  5ef0f6: 33 c0                        	xor	eax, eax
+  5ef0f8: 83 4d fc ff                  	or	dword ptr [ebp - 0x4], -0x1
+  5ef0fc: 3b c7                        	cmp	eax, edi
+  5ef0fe: 89 46 18                     	mov	dword ptr [esi + 0x18], eax
+  5ef101: 74 58                        	je	0x5ef15b <.text+0x9d>
+  5ef103: 53                           	push	ebx
+  5ef104: 57                           	push	edi
+  5ef105: 66 8b 7d 08                  	mov	di, word ptr [ebp + 0x8]
+  5ef109: ff 75 10                     	push	dword ptr [ebp + 0x10]
+  5ef10c: 0f bf c7                     	movsx	eax, di
+  5ef10f: 66 8b 5d 0c                  	mov	bx, word ptr [ebp + 0xc]
+  5ef113: 8b 4e 18                     	mov	ecx, dword ptr [esi + 0x18]
+  5ef116: 8d 04 80                     	lea	eax, [eax + 4*eax]
+  5ef119: 8b 11                        	mov	edx, dword ptr [ecx]
+  5ef11b: 8d 04 c5 14 00 00 00         	lea	eax, [8*eax + 0x14]
+  5ef122: 50                           	push	eax
+  5ef123: 0f bf c3                     	movsx	eax, bx
+  5ef126: 8d 04 80                     	lea	eax, [eax + 4*eax]
+  5ef129: 8d 04 c5 14 00 00 00         	lea	eax, [8*eax + 0x14]
+  5ef130: 50                           	push	eax
+  5ef131: 0f bf 46 08                  	movsx	eax, word ptr [esi + 0x8]
+  5ef135: 8d 04 80                     	lea	eax, [eax + 4*eax]
+  5ef138: 8d 04 c5 14 00 00 00         	lea	eax, [8*eax + 0x14]
+  5ef13f: 50                           	push	eax
+  5ef140: 0f bf 46 0a                  	movsx	eax, word ptr [esi + 0xa]
+  5ef144: 8d 04 80                     	lea	eax, [eax + 4*eax]
+  5ef147: 8d 04 c5 14 00 00 00         	lea	eax, [8*eax + 0x14]
+  5ef14e: 50                           	push	eax
+  5ef14f: ff 52 04                     	call	dword ptr [edx + 0x4]
+  5ef152: 66 89 5e 0a                  	mov	word ptr [esi + 0xa], bx
+  5ef156: 66 89 7e 08                  	mov	word ptr [esi + 0x8], di
+  5ef15a: 5b                           	pop	ebx
+  5ef15b: 8b 4d f4                     	mov	ecx, dword ptr [ebp - 0xc]
+  5ef15e: 5f                           	pop	edi
+  5ef15f: 5e                           	pop	esi
+  5ef160: 64 89 0d 00 00 00 00         	mov	dword ptr fs:[0x0], ecx
+  5ef167: c9                           	leave
+  5ef168: c2 0c 00                     	ret	0xc
+  5ef16b: 83 79 0c 01                  	cmp	dword ptr [ecx + 0xc], 0x1
+  5ef16f: 75 36                        	jne	0x5ef1a7 <.text+0xe9>
+  5ef171: 8b 41 1c                     	mov	eax, dword ptr [ecx + 0x1c]
+  5ef174: 83 41 2c 02                  	add	dword ptr [ecx + 0x2c], 0x2
+  5ef178: 8b 51 2c                     	mov	edx, dword ptr [ecx + 0x2c]
+  5ef17b: 56                           	push	esi
+  5ef17c: 6a 0c                        	push	0xc
+  5ef17e: 85 c0                        	test	eax, eax
+  5ef180: 5e                           	pop	esi
+  5ef181: 74 18                        	je	0x5ef19b <.text+0xdd>
+  5ef183: 8b 40 34                     	mov	eax, dword ptr [eax + 0x34]
+  5ef186: 8b 80 f8 37 00 00            	mov	eax, dword ptr [eax + 0x37f8]
+  5ef18c: 8b 80 a4 4e 00 00            	mov	eax, dword ptr [eax + 0x4ea4]
+  5ef192: 83 78 08 08                  	cmp	dword ptr [eax + 0x8], 0x8
+  5ef196: 75 03                        	jne	0x5ef19b <.text+0xdd>
+  5ef198: 6a 1e                        	push	0x1e
+  5ef19a: 5e                           	pop	esi
+  5ef19b: 3b d6                        	cmp	edx, esi
+  5ef19d: 5e                           	pop	esi
+  5ef19e: 7e 07                        	jle	0x5ef1a7 <.text+0xe9>
+  5ef1a0: 83 61 2c 00                  	and	dword ptr [ecx + 0x2c], 0x0
+  5ef1a4: b0 01                        	mov	al, 0x1
+  5ef1a6: c3                           	ret
+  5ef1a7: 32 c0                        	xor	al, al
+  5ef1a9: c3                           	ret

@@ -1,0 +1,47 @@
+{
+  "file": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v2.png",
+  "prompt": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v2.prompt.txt",
+  "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-cb0d4426-7ea9-485b-97fa-f13c6513df18.png",
+  "editTarget": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v1.png",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/idle-four-directions-v1.png",
+      "role": "AI reframe target with ribbon/feet across nominal cell boundaries"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/master.png",
+      "role": "own identity master"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style"
+    }
+  ],
+  "status": "four_direction_static_candidate_pending_single_source_qa",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "runtimeEnabled": false,
+    "pending": [
+      "single-source alpha/seams",
+      "shared root/frame layout",
+      "client"
+    ],
+    "editReason": "AI redrew all4 at smaller common apparent scale to clear cell boundaries; not programmed bbox fit"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "elementId": 16033,
+  "idMapping": "candidate-numeric-prefix-family-cooccurrence-and-filename-suffix-not-client-lookup-proof",
+  "file": "assets/maps/exploration/pieces/16033-exploration-terrain-v2.png",
+  "sha256": "920a603ecaa20422b8bd4cbfb78ce677935ec95a74a771bde4f4364d9b5deb02",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "footprintCells": [
+    1,
+    1
+  ],
+  "gridAttr": [
+    0
+  ],
+  "mapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "selectedFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16033-a80fc562cbea.png",
+    "sha256": "0775a190df59f6e95d4f047d4f37f4da882035c26992dbd8c8d72b925e5ce0df",
+    "representativeElementId": 16033,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/maps/exploration/pieces/16028-exploration-v1.png",
+      "sha256": "24ffdef9f5549a10f8bdac3f5efae34c95e3e30d988a546cb70d3eab6c4b4309",
+      "generationRecord": "assets/maps/exploration/batch-04/sheet-v1.png.generation.json",
+      "sourceRecord": "assets/maps/exploration/pieces/16028-exploration-v1.png.source.json",
+      "purpose": "new hand-painted molten material RGB"
+    },
+    {
+      "file": "assets/maps/exploration/pieces/16010-exploration-v1.png",
+      "sha256": "378296e703c71ef58e918118bb87e9a9f08334549cee6d2de6bda5ba2f69769f",
+      "generationRecord": "assets/maps/exploration/batch-01/sheet-v1.png.generation.json",
+      "sourceRecord": "assets/maps/exploration/pieces/16010-exploration-v1.png.source.json",
+      "purpose": "new hand-painted dark earth/basalt RGB"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/exploration/frames/candidate-16033-a80fc562cbea.png",
+      "sha256": "0775a190df59f6e95d4f047d4f37f4da882035c26992dbd8c8d72b925e5ce0df",
+      "purpose": "source molten/crust classification and alpha geometry only, no source RGB colours copied"
+    }
+  ],
+  "operation": {
+    "type": "source-region-mask-new-texture-image-assembly",
+    "newModelGeneration": false,
+    "resampled": true,
+    "sourcePixelColoursReused": false,
+    "maskClassifier": "molten R>2G and R>60; complementary opaque region dark crust/bank",
+    "logicalMaskSize": [
+      40,
+      40
+    ],
+    "logicalMaskSha256": "19f07b4f4336126f0380bc158603f0ea47fceb6966578825878369bfde9ea3d7",
+    "materialMaskResampler": "LANCZOS",
+    "sourceAlphaResampler": "LANCZOS",
+    "sourceAlphaSHA256": "e0081ecd5b36c23f063154da67340750d5ce3dcf434c7d3656e4a9b50c99d8c9",
+    "sourceAlphaExtrema": [
+      0,
+      255
+    ],
+    "moltenPixelCount": 1454
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "accepted": false,
+  "inGameAccepted": false,
+  "seamlessVerified": false,
+  "anchorStatus": "source render offset unverified",
+  "status": "painted-terrain-composite-awaiting-mask-alpha-seam-and-in-game-validation",
+  "warnings": [
+    "classification-material-and-alpha-shape-await-visual-comparison",
+    "all-tile-joins-await-validation"
+  ]
+}

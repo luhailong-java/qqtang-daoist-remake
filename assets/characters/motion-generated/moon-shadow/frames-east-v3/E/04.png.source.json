@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/moon-shadow/frames-east-v3/E/04.png",
+  "sha256": "b129c92f9becc3b5521bb869d257150f6d211de5df64f1da305f9a5ce9f3c5c6",
+  "derivedAt": "2026-10-28T09:38:34.013927+00:00",
+  "derivedFrom": {
+    "file": "assets/characters/motion-generated/moon-shadow/walk-east-v3.png",
+    "sha256": "e3325d94c7b307c4a63865f20ef9974c1822db781b89fd8ff413942066f3bf65",
+    "generationRecord": "assets/characters/motion-generated/moon-shadow/walk-east-v3.png.generation.json"
+  },
+  "operation": {
+    "type": "ownership_crop_fixed_nominal_root_common_transparent_canvas_uniform_downscale",
+    "sourceSize": [
+      2048,
+      768
+    ],
+    "cropLTRB": [
+      1538,
+      0,
+      2048,
+      768
+    ],
+    "nominalCellRootX": 254,
+    "placementOnCommonCanvas": [
+      238,
+      108
+    ],
+    "commonCanvas": [
+      984,
+      984
+    ],
+    "scale": 0.2601626016260163,
+    "resampler": "LANCZOS premultiplied RGBa",
+    "output": [
+      256,
+      256
+    ],
+    "perFrameSubjectFit": false,
+    "mirror": false,
+    "interpolatedPoses": false,
+    "newGeneration": false
+  },
+  "anchor": [
+    128,
+    217.75609756097563
+  ],
+  "anchorStatus": "shared_character_root_candidate_not_client_approved",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaGt8BBox": [
+    70,
+    44,
+    192,
+    215
+  ],
+  "boundaryPixelsAlphaGt8": 0,
+  "status": "not_passed",
+  "runtimeEnabled": false,
+  "clientApproved": false,
+  "review": {
+    "identity": "hair ornament now consistently visible in all four frames",
+    "gait": "1/3 and2/4 silhouette remains too similar to establish opposite near/far limb phases",
+    "failureReasons": [
+      "opposite_leg_phase_not_established"
+    ]
+  }
+}

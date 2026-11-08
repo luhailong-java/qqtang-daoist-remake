@@ -1,0 +1,89 @@
+{
+  "elementId": 3059,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/town/pieces/3059-palace-courtyard-floor.png",
+  "sha256": "a1b88a5a3fefe2c19c50042f126e8bc76d1539a1f78a5e5fde25db42525ee3e8",
+  "width": 2400,
+  "height": 1600,
+  "worldFrameWidth": 600,
+  "worldFrameHeight": 400,
+  "exportDensity": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/maps/town/floor-g-v2.png",
+      "sha256": "38b9ccdc3ce88bd78edebf738d355f07670751197d4b746863568aa47d334e34",
+      "generationRecord": "assets/maps/town/floor-g-v2.png.generation.json",
+      "purpose": "all newly painted output RGB"
+    },
+    {
+      "file": "references/qqtang-map-data/visual-reference/families/town/frames/candidate-3059-34bdb810e5cd.png",
+      "sha256": "e6ad69c7f4179992d0084d381ac4ce5ca6bd515e7bc5d3687c2a3fddad2c5deb",
+      "purpose": "decoration extent and placement inspection only; no source RGB reused"
+    }
+  ],
+  "operation": {
+    "type": "existing-image-crop-resize-and-composite",
+    "newModelGeneration": false,
+    "resampled": true,
+    "stoneSourceRect": [
+      0,
+      0,
+      108,
+      108
+    ],
+    "horizontalSourceRect": [
+      0,
+      356,
+      235,
+      591
+    ],
+    "verticalSourceRect": [
+      649,
+      0,
+      888,
+      239
+    ],
+    "centerSourceRect": [
+      539,
+      251,
+      998,
+      690
+    ],
+    "sourcePixelColoursReused": false,
+    "logicalHorizontalRect": [
+      0,
+      99,
+      600,
+      176
+    ],
+    "logicalVerticalRect": [
+      262,
+      0,
+      339,
+      400
+    ],
+    "logicalCenterRectCandidate": [
+      200,
+      38,
+      400,
+      238
+    ],
+    "centerResizeUniform": false,
+    "centerScaleXY": [
+      1.7429193899782136,
+      1.8223234624145785
+    ],
+    "placementEvidence": "source edge red-colour spans; central square manually inspected, not accepted exact-geometry proof"
+  },
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "geometryAccepted": false,
+  "seamlessVerified": false,
+  "status": "painted-composite-candidate-awaiting-decoration-and-game-validation",
+  "warnings": [
+    "central-decoration-bounds-and-texture-joins-await-validation",
+    "minor-anisotropic-central-carpet-resize-recorded"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/cards-currency/books-c-v1.png",
+  "sha256": "c2cbf4d682290dccaebfc7ce18025cb47e9e3d643217d89a5076fd662f823e7a",
+  "generatedAt": "2026-10-28T20:25:08.561Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\references\\qqtang-item-data\\books-c-structure.png",
+      "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "D:\\work\\qqtang-ui\\assets\\characters\\runtime\\daoist-child.png",
+      "D:\\work\\qqtang-ui\\assets\\characters\\runtime\\moon-shadow.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "docs/books-c-v1.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\qqtang-item-data\\books-c-structure.png",
+      "purpose": "structure and functional content reference only",
+      "sha256": "f9f280d3b0d06964daf6dce24a24202fd483b6415582bc374e7e521341d6db0d"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\characters\\runtime\\daoist-child.png",
+      "purpose": "original character identity reference",
+      "sha256": "fec0ecc7881d65daf5cc9ee095ae6964ac7b76ec243df665e48b90b89758de63"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\characters\\runtime\\moon-shadow.png",
+      "purpose": "original character identity reference",
+      "sha256": "c459e26a3ef58c02a46ca8b14655d377527630994b8dfe61b58a41e970b7ae3b"
+    }
+  ],
+  "evidence": {
+    "hostSource": "exec-887bcc69-79a5-4ae0-99fa-9d772eb2aed0",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true
+}

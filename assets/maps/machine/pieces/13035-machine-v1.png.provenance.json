@@ -1,0 +1,82 @@
+{
+  "elementId": 13035,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/machine/pieces/13035-machine-v1.png",
+  "sha256": "e7447977ea43a4d64c929cd4877f45b793c0db864af83be062421bb8c3a3eb87",
+  "width": 320,
+  "height": 348,
+  "worldFrameWidth": 80,
+  "worldFrameHeight": 87,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/machine/props-d-v1.png",
+    "sha256": "8dff4ba6829cd23ea335f02a5bb53547057f52e5cf63c4c4aad2c19cc8d93dea",
+    "generationRecord": "assets/maps/machine/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      37,
+      42,
+      467,
+      476
+    ],
+    "uniformScale": 0.7441860465116279,
+    "placementPx": [
+      0,
+      25
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/machine/frames/candidate-13035-830752538a0c.png",
+    "sha256": "a06aa9c9b7b6725fc939ab8fb3ada94f72fa1c0c90d1ab085ffc146367bc279a",
+    "representativeElementId": 13035,
+    "nativeFrameSize": [
+      80,
+      87
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    2,
+    1
+  ],
+  "sourceGridAttr": [
+    0,
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    47
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    4
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.9195402298850575,
+    "generatedVisibleAspect": 0.9906976744186047,
+    "relativeAspectDeviation": 0.0773837209302326,
+    "generatedCellLTRB": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

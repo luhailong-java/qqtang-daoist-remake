@@ -1,0 +1,85 @@
+{
+  "sceneId": 24,
+  "displayName": "玉嵌银扳",
+  "projectNameOriginal": true,
+  "semanticCandidate": "scene24 grants battlefield action63 x1; native function independently unverified",
+  "file": "assets/items/battlefield/masters/24-jade-spanner.png",
+  "sha256": "082ac873d2a4a8308676c2b0870f8d97505fc255c4b3d4f591a76ab875c71e52",
+  "width": 108,
+  "height": 184,
+  "sourceFirstFrame": {
+    "index": 0,
+    "offset": 40,
+    "rawMarker": 0,
+    "frameOffset": [
+      8,
+      9
+    ],
+    "pixelMode": 3,
+    "width": 27,
+    "height": 46,
+    "unknownImageHeaderWord": 56,
+    "empty": false,
+    "pixelDataOffset": 68,
+    "pixelByteLength": 3726,
+    "encodedPixelSha256": "44992a3039c1b0176522162a2af82ce8bec6029f046cd47ae3d11a7015a12f36",
+    "decodedRgbaSha256": "e779f5bc3fec9d9c2d8d944f0673e79021b1975ce927a3d84e6a36e694d5bd93"
+  },
+  "sourceAnimationFrameCount": 7,
+  "sourceRecord": "references/qqtang-packed-art/object--item--item24_stand-first-visible.png.source.json",
+  "semanticsSource": {
+    "url": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/game/battleengine/pickup.go",
+    "gitBlobSha": "c5a613e311dbbf841271ce99d08ac7499532d023",
+    "scope": "community reconstruction constants and handling; native usage not independently verified"
+  },
+  "imageMapping": "numeric filename association with scene-factory ID; original client lookup not independently verified",
+  "derivedFrom": {
+    "file": "assets/items/battlefield/pickups-b-v1.png",
+    "sha256": "c3bb7cd6ade7183628198445f48d8971e85de0aaf1ba501bd6e26bf66ca235d2",
+    "generationRecord": "assets/items/battlefield/pickups-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceCellRect": [
+      512,
+      512,
+      982,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      112,
+      16,
+      441,
+      457
+    ],
+    "uniformScale": 0.3282674772036474,
+    "placementPx": [
+      0,
+      39
+    ],
+    "exportDensity": 4,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "masterOnly": true,
+  "fullIdleAnimationComplete": false,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "visibleAspectRatioRelativeError": 0.27101704879482647,
+  "geometryAccepted": false,
+  "warnings": [
+    "visible-proportions-differ-more-than-10-percent"
+  ],
+  "communitySceneToAction": {
+    "sceneId": 24,
+    "actionId": 63,
+    "count": 1,
+    "sourceUrl": "https://github.com/kuuhaku1314/qqtang/blob/4b3a245fd985cabd4abd68ade6c282cc163d9edb/internal/clientdata/sceneelement/catalog.go",
+    "gitBlobSha": "83ef5a6fc73dfd51aa4d881b10c9a32eb4bb6db5",
+    "nativeFunctionIndependentlyVerified": false
+  }
+}

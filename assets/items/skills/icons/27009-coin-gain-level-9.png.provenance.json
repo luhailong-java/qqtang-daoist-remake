@@ -1,0 +1,65 @@
+{
+  "itemId": 27009,
+  "category": "skill",
+  "sourceName": "糖币加加9级",
+  "sourceDescription": "宠物九级技能之一，增加所获得的糖币6%，同类型技能效果叠加，学习此技能以后不能学习其他九级技能。",
+  "file": "assets/items/skills/icons/27009-coin-gain-level-9.png",
+  "sha256": "377de631067b60979e6af255ed29f2dce9cb63094e7830884afdb2177516e76c",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/skills/skills-b-v1.png",
+    "sha256": "48c015a2d807cb498c19dfc6a5764d082bc480edbdd0c92d91814ab5777623fd",
+    "generationRecord": "assets/items/skills/skills-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "contentBoxWithinCell": [
+      66,
+      50,
+      431,
+      481
+    ],
+    "sourceContentRect": [
+      1090,
+      50,
+      1455,
+      481
+    ],
+    "uniformScale": 0.5197215777262181,
+    "placementPx": [
+      33,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-27009.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "01f7ffe76910681f1d07ee487a140bbe5aa22012fac54dc0d9b9c05f6c10d9e2",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-27009.png.source.json",
+  "scope": "independent static skill icon; no animation or effect delivery",
+  "checksPending": [
+    "numeral-and-functional-emblem-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}

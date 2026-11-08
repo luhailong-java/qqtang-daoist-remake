@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "updatedOn": "2026-10-26",
+  "requirements": "docs/USER_REQUIREMENTS_LOCK_20261026.md",
+  "targetGame": "腾讯QQ堂",
+  "targetOriginalVersion": null,
+  "productionStatus": "community_source_geometry_imported_original_authenticity_and_visual_acceptance_pending",
+  "artDirection": "image已确认的原创道家Q版高清手绘",
+  "characterVisualPolicy": "own_original_characters",
+  "geometryPolicy": {
+    "mapExtent": "exact_original",
+    "pixelDimensions": "exact_original_specification",
+    "gridRowsAndColumns": "exact_original",
+    "tileDimensions": "exact_original_specification",
+    "buildingPositionsAndFootprints": "exact_original",
+    "roadsObstaclesSpawnsCollision": "exact_original",
+    "unknownValues": "unverified_no_guessing",
+    "viewAdaptation": "display_only_preserve_map_data_and_aspect_ratio"
+  },
+  "unacceptedDraftMaps": ["courtyard", "town", "factory"],
+  "verifiedOriginalMaps": [],
+  "candidateSource": {
+    "kind":"community-patched-client-release",
+    "release":"https://github.com/kuuhaku1314/qqtang/releases/tag/v1.3.4",
+    "archiveSha256":"fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "parsedMapCount":377,"catalogEntryCount":381,
+    "binaryJsonRoundTrip":"all-377-map-files-byte-identical",
+    "officialOriginalAuthenticity":"unverified",
+    "originalVersion":"unconfirmed",
+    "logicalCellPixels":40,"logicalCellPixelEvidence":"pinned community implementation plus native reference ground frame, not official verification"
+  },
+  "requiredPerMapEvidence": [
+    "original_version_and_map_id",
+    "verifiable_source_and_source_hash",
+    "original_pixel_width_and_height",
+    "original_tile_width_and_height",
+    "original_grid_rows_and_columns",
+    "building_footprints_and_layer_coordinates",
+    "roads_obstacles_spawn_points_and_collision",
+    "exact_geometry_comparison_result"
+  ],
+  "note": "已静态取得并导入377张社区客户端地图，格值、三层、建筑占地、出生坐标保持源数据。社区修补包不等同于已认证腾讯原始客户端；原始版本身份、40像素常量与视觉锚点仍须核验。自定义技术试稿不能作为原图验收依据。"
+}

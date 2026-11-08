@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "reviewedAtUTC": "2026-10-29T08:36:27.646Z",
+  "manifestSha256": "0568ef64817945ef6522bcc4c676ef8b3d9d8adb573b6d6a8a9eaa6c527fa9ad",
+  "status": "inspection_only_six_assembled_slots_not_native_six_frames",
+  "actuallyViewed": [
+    {
+      "file": "six-poses-627-contact.png",
+      "sha256": "3d4eaf240c45b45fd404d8176db7ded01b1fcc57fc249f9cab6baf95ab859ed7"
+    },
+    {
+      "file": "six-poses-96-contact.png",
+      "sha256": "ea0c854e37ec36dc0c053d1aacd70c4f25776cc41b20f11c918590121e5329f9"
+    }
+  ],
+  "renderCounts": {
+    "exactByteReused627": 4,
+    "exactByteReused96": 4,
+    "new627Combinations": 2,
+    "newModelGenerations": 0
+  },
+  "byteReuseEvidence": [
+    {
+      "slot": 0,
+      "studyFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/six-phase-study-v1/frames627/00-contact-A.png",
+      "studySha256": "d3d760a2b731a972ac3eb1a6dce4d7ae55d7eb65c510b54881ff550759bd4dba",
+      "originalFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/contact-A-rgba.png",
+      "originalSha256": "d3d760a2b731a972ac3eb1a6dce4d7ae55d7eb65c510b54881ff550759bd4dba",
+      "byteCopyNotReRender": true
+    },
+    {
+      "slot": 1,
+      "studyFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/six-phase-study-v1/frames627/01-passing-P1.png",
+      "studySha256": "d5b7d557ef9d9abeb9e0d343bc4fa2b843b15c430519c37a1ef04ac7b41fb743",
+      "originalFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/passing-P1-rgba.png",
+      "originalSha256": "d5b7d557ef9d9abeb9e0d343bc4fa2b843b15c430519c37a1ef04ac7b41fb743",
+      "byteCopyNotReRender": true
+    },
+    {
+      "slot": 3,
+      "studyFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/six-phase-study-v1/frames627/03-contact-B.png",
+      "studySha256": "d0ce9d02c663d99f7703da650aa83ba871ee433386cc5d494468bac611a81466",
+      "originalFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/whole-arm-v1/bind-static-v2/contact-B-rgba.png",
+      "originalSha256": "d0ce9d02c663d99f7703da650aa83ba871ee433386cc5d494468bac611a81466",
+      "byteCopyNotReRender": true
+    },
+    {
+      "slot": 4,
+      "studyFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/six-phase-study-v1/frames627/04-passing-P2.png",
+      "studySha256": "ef617fd4e7d1283d6d0ebaf2e585f3288af586814d3380849207cec85825cc81",
+      "originalFile": "assets/characters/motion-generated/experimental-parts/daoist-child-E/passing-leg-v1/bind-static-v1/passing-P2-rgba.png",
+      "originalSha256": "ef617fd4e7d1283d6d0ebaf2e585f3288af586814d3380849207cec85825cc81",
+      "byteCopyNotReRender": true
+    }
+  ],
+  "observations": {
+    "newSlot2": "NearRIGHT backward support from oldContactB plus farLEFT raised fromP1 is readable as a rear-support/raised-forward static combination. No obvious new trouser break or source edge clipping observed.",
+    "newSlot5": "NearRIGHT raised fromP2 plus farLEFT backward support from oldContactA remains readable. Near raised boot partly overlaps lower far leg/boot area, without relabelling layers.",
+    "fixedUpper": "Head, torso, both arms and shoulder ring remain identical in all6slots. This intentionally contains no arm swing, body weight shift or hair motion.",
+    "heldLegs": "FarRaised is the same piece/matrix in slots1/2; nearRaised the same piece/matrix in4/5. One leg therefore holds while the other switches source shape.",
+    "inferredTransitionRisk": "Static differences suggest hold/pop risk under hard120ms cuts; this is an inference from the contact sheets and inherited matrices, not a watched client loop or motion-quality acceptance.",
+    "small": "All six96 canvases preserve the same full627 scale. Character/gourd and raised-foot differences are visible, ankle layering remains crowded; actor is about68px high."
+  },
+  "gif": {
+    "file": "six-poses-inspection-120ms.gif",
+    "exported": true,
+    "canvas": [
+      96,
+      96
+    ],
+    "sharedPaletteColors": 256,
+    "durationMsPerFrame": 120,
+    "inspectionTimingOnly": true,
+    "nativeTimingMs": null,
+    "loopExtension": null,
+    "playsOnce": true,
+    "dynamicallyViewedInClientOrBrowser": false,
+    "doNotClaimGIFMotionQA": true
+  },
+  "matrixOrPivotOrOffsetRefit": false,
+  "newNearFarSwap": false,
+  "sourceAlphaModified": false,
+  "sourceCorrespondence": false,
+  "nativeTimingMs": null,
+  "worldRoot": null,
+  "loop": false,
+  "runtimeAccepted": false,
+  "fullWalkAccepted": false,
+  "formalRigCreated": false,
+  "testsBuildBrowserExecuted": false,
+  "nextAction": "Preserve this one assembly study and explicit hard-cut/depth risks; no retry, new imagegen, runtime integration or native timing/source-match claim."
+}

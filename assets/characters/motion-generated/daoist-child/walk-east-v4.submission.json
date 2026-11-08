@@ -1,0 +1,10 @@
+{
+  "prompt": "Use case: background-extraction / precise alpha repair. EDIT IMAGE4 ONLY. Image4 is the accepted-pose four-frame EAST/right-facing walk strip, but its alpha has BAD brown blocky translucent halos outside the silhouettes. Remove those exterior brown/black blocks and haze completely, restoring truly transparent alpha=0 everywhere outside the four characters.\nCRITICAL INVARIANTS: keep image4's exact 2048x768 canvas, one row of four figures, ALL FOUR EXISTING WALK POSES, their limb overlap, boots, head/face, arm positions, gourd in left hand, outfit, ribbon tips, body size and placement. Do NOT redraw or reset frames3/4 to frames1/2. Do NOT change their legs or expressions. This is ONLY background/alpha cleanup, not a new pose design.\nInputs1/2/3 are the original identity master and Taoist hand-painted style guides, only to protect original character colors/material edges. The character's actual brown hair, cream cloth, gold trim, green boots and red tassel must stay opaque/soft-edged exactly as appropriate; remove ONLY the unwanted exterior haze. Preserve fine hair, ribbon, hand, tassel and shoe outlines with clean natural antialiasing. No shadow, glow, floor or colored matte. Background must be genuinely transparent, not painted black/brown/checkerboard/white. Whole gourd, ribbons and boots intact, no crop. Output one transparent PNG, same four-frame composition.",
+  "referenced_image_paths": [
+    "D:/work/qqtang-ui/assets/characters/daoist-child.png",
+    "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+    "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+    "D:/work/qqtang-ui/assets/characters/motion-generated/daoist-child/walk-east-v3.png"
+  ],
+  "transparent_background": true
+}

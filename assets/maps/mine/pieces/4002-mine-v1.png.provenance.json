@@ -1,0 +1,81 @@
+{
+  "elementId": 4002,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4002-mine-v1.png",
+  "sha256": "31f9ef6ba73b74cd1d772bef2763d4fef13d644f9c239e0eb3ab0889b089ecc3",
+  "width": 160,
+  "height": 160,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 40,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-a-v1.png",
+    "sha256": "6f1fc5cdcebe5f35102b8c2baa7c7e2b41fdda4dcc1cbae8c8c80cd0753b8129",
+    "generationRecord": "assets/maps/mine/props-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      603,
+      84,
+      935,
+      418
+    ],
+    "uniformScale": 0.47904191616766467,
+    "placementPx": [
+      0,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4002-2deda967697f.png",
+    "sha256": "2d0815dd47cbe7c946991405855143cd1427815f08615e0e58d7d2d2593bf6e7",
+    "representativeElementId": 4002,
+    "nativeFrameSize": [
+      40,
+      40
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    3855
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 1.0,
+    "generatedVisibleAspect": 0.9939393939393939,
+    "relativeAspectDeviation": 0.0060606060606061,
+    "generatedCellLTRB": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

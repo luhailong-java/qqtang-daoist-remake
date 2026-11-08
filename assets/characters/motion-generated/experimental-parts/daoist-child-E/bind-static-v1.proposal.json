@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 1,
+  "identity": "daoist-child",
+  "direction": "E",
+  "animationSource": "procedural_skeletal_animation",
+  "proposalStatus": "manual_static_bind_proposal_unassembled_unapproved",
+  "sourcePartsManifest": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/manifest.json",
+  "sourceAtlas": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-master-v1.png",
+  "sourceAtlasSha256": "ff9422e3bd0ed64373131da5f6da9a27de63459fee25dcc7a6592c09937663da",
+  "sourceOwnershipClaim": {
+    "visibleAlphaThreshold": 8,
+    "unassignedVisiblePixels": 0,
+    "multiplyAssignedVisiblePixels": 0,
+    "scope": "Copied root's current ownership metadata; not an independent pixel re-audit."
+  },
+  "designCanvas": [
+    627,
+    627
+  ],
+  "referenceRoot": [
+    313.5,
+    528.8719512195123
+  ],
+  "rootEvidence": "Compatibility-only coordinate copied from the earlier own candidate contract. This is not a recovered original-client anchor, measured sole, gameplay position or approved physical ground.",
+  "pivotEvidence": "Every numeric pivot/bind/scale below is a hand-authored first composition from actual part images and source crop sizes. They are not native joints, measured anatomical truth or already visually accepted. No bbox auto-fit or mirroring.",
+  "coordinateContract": {
+    "pivot": "Unscaled pixels of that exact parts-v1 crop, before imageRotationDegrees.",
+    "bindPosition": "Design-plane units in parent bone coordinates; imageScale does not scale child offsets.",
+    "imageScale": "Single fixed isotropic source-to-design scale per painted part, chosen manually once. No per-frame normalization.",
+    "bindRotationDegrees": "Bone orientation0 in this static draft; future joint motion is separate.",
+    "imageRotationDegrees": "Image orientation within its bone; forearm_near_R/hand_near_R use15deg. Child offsets already manually account for that image angle.",
+    "landmarks": "Hand-estimated checks only, not approved anatomical coordinates."
+  },
+  "nodes": [
+    {
+      "id": "torso_pelvis",
+      "parent": null,
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/torso_pelvis.png",
+      "partSha256": "62ecef1e3101a3c1618dd38f13a58f11e57989907cd9b41612222330b1f2f601",
+      "partNativeCropSize": [
+        310,
+        314
+      ],
+      "anatomicalSide": null,
+      "pivot": [
+        184,
+        188
+      ],
+      "bindPosition": [
+        313.5,
+        398
+      ],
+      "imageScale": 0.48,
+      "layer": 40,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "head",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/head.png",
+      "partSha256": "88430e2313ee893d7b37d3888650cd5b0edfcb24fce45b5373eca8ff4059ac29",
+      "partNativeCropSize": [
+        378,
+        363
+      ],
+      "anatomicalSide": null,
+      "pivot": [
+        280,
+        335
+      ],
+      "bindPosition": [
+        -6.5,
+        -77
+      ],
+      "imageScale": 0.72,
+      "layer": 35,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "upper_arm_far_L",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/upper_arm_far_L.png",
+      "partSha256": "24ff3e685ef20eafae86fdd699d6a77bda38a58bc0708116a411dca205fc8fb2",
+      "partNativeCropSize": [
+        239,
+        249
+      ],
+      "anatomicalSide": "LEFT",
+      "pivot": [
+        61,
+        43
+      ],
+      "bindPosition": [
+        33,
+        -47.5
+      ],
+      "imageScale": 0.245,
+      "layer": 5,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "forearm_far_L",
+      "parent": "upper_arm_far_L",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/forearm_far_L.png",
+      "partSha256": "79f136cfc46a0cce480eff7913e8dd5e469e40ba2997fd223450a660c154d9ac",
+      "partNativeCropSize": [
+        239,
+        197
+      ],
+      "anatomicalSide": "LEFT",
+      "pivot": [
+        204,
+        47
+      ],
+      "bindPosition": [
+        24.5,
+        39.45
+      ],
+      "imageScale": 0.215,
+      "layer": 45,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "hand_gourd_far_L",
+      "parent": "forearm_far_L",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/hand_gourd_far_L.png",
+      "partSha256": "269629a0f1ab27780dd8da2f1cef8cb3994583b2e5d3340f9af63b886c8d3552",
+      "partNativeCropSize": [
+        302,
+        311
+      ],
+      "anatomicalSide": "LEFT",
+      "pivot": [
+        38,
+        183
+      ],
+      "bindPosition": [
+        -34.62,
+        18.92
+      ],
+      "imageScale": 0.4,
+      "layer": 46,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "thigh_far_L",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/thigh_far_L.png",
+      "partSha256": "ac5a4631422aceb74a2f95af07984cc83695c311aec2fdecc52c2ab4d1024498",
+      "partNativeCropSize": [
+        243,
+        261
+      ],
+      "anatomicalSide": "LEFT",
+      "pivot": [
+        92,
+        30
+      ],
+      "bindPosition": [
+        8.5,
+        40
+      ],
+      "imageScale": 0.17,
+      "layer": 12,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "shin_far_L",
+      "parent": "thigh_far_L",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/shin_far_L.png",
+      "partSha256": "1a5b2d8f616cdfbe6494fb795f04ddba8d5fb358cb6034f8ae148d259c8ae605",
+      "partNativeCropSize": [
+        195,
+        258
+      ],
+      "anatomicalSide": "LEFT",
+      "pivot": [
+        92,
+        30
+      ],
+      "bindPosition": [
+        8.84,
+        34.85
+      ],
+      "imageScale": 0.17,
+      "layer": 11,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "boot_far_L",
+      "parent": "shin_far_L",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/boot_far_L.png",
+      "partSha256": "c59a6bb1c5d248d1d97f629e5c6a67c2fe1450d056b5d2afe7d67739440f5bcd",
+      "partNativeCropSize": [
+        223,
+        155
+      ],
+      "anatomicalSide": "LEFT",
+      "pivot": [
+        64,
+        34
+      ],
+      "bindPosition": [
+        3.91,
+        32.98
+      ],
+      "imageScale": 0.215,
+      "layer": 10,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "thigh_near_R",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/thigh_near_R.png",
+      "partSha256": "b2198afeac7d8239276468434749e49425c8cd094534068ccd469ac74534dac3",
+      "partNativeCropSize": [
+        245,
+        272
+      ],
+      "anatomicalSide": "RIGHT",
+      "pivot": [
+        164,
+        35
+      ],
+      "bindPosition": [
+        -18.5,
+        39.5
+      ],
+      "imageScale": 0.17,
+      "layer": 22,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "shin_near_R",
+      "parent": "thigh_near_R",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/shin_near_R.png",
+      "partSha256": "ef92e2238fdc32c5cb7d80ff0c7c559011fe8558c5f8f072b02edf0c9cdd94db",
+      "partNativeCropSize": [
+        197,
+        258
+      ],
+      "anatomicalSide": "RIGHT",
+      "pivot": [
+        108,
+        32
+      ],
+      "bindPosition": [
+        -8.33,
+        35.7
+      ],
+      "imageScale": 0.17,
+      "layer": 21,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "boot_near_R",
+      "parent": "shin_near_R",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/boot_near_R.png",
+      "partSha256": "0857c8f68c637266581bf1d596baace5b04cfb5c7d7c529a0fd88fecac907c44",
+      "partNativeCropSize": [
+        223,
+        158
+      ],
+      "anatomicalSide": "RIGHT",
+      "pivot": [
+        64,
+        35
+      ],
+      "bindPosition": [
+        3.06,
+        31.11
+      ],
+      "imageScale": 0.22,
+      "layer": 20,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "hem_far_back",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/hem_far_back.png",
+      "partSha256": "763dc4996fa82111b6c6a3348e728236e68ae9700bdd027a65c692f1ad2432b7",
+      "partNativeCropSize": [
+        287,
+        280
+      ],
+      "anatomicalSide": "LEFT",
+      "pivot": [
+        150,
+        30
+      ],
+      "bindPosition": [
+        -21.5,
+        11
+      ],
+      "imageScale": 0.24,
+      "layer": 30,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "hem_near_front",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/hem_near_front.png",
+      "partSha256": "6e0695a875f1310978eaa2de17acfe495a93842841544298d530c7837826253a",
+      "partNativeCropSize": [
+        236,
+        279
+      ],
+      "anatomicalSide": "RIGHT",
+      "pivot": [
+        182,
+        34
+      ],
+      "bindPosition": [
+        13,
+        10
+      ],
+      "imageScale": 0.24,
+      "layer": 50,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "upper_arm_near_R",
+      "parent": "torso_pelvis",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/upper_arm_near_R.png",
+      "partSha256": "b17d729962e9f7a7930070a84c72d6998fefc8d6443efb8384afe3e138bf9c3e",
+      "partNativeCropSize": [
+        231,
+        273
+      ],
+      "anatomicalSide": "RIGHT",
+      "pivot": [
+        105,
+        35
+      ],
+      "bindPosition": [
+        -51,
+        -41.5
+      ],
+      "imageScale": 0.29,
+      "layer": 70,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 0,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "forearm_near_R",
+      "parent": "upper_arm_near_R",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/forearm_near_R.png",
+      "partSha256": "8423ce19ac24c0e3f9ae8e50e605b732e8743f9cfdaf2c267379868ecbdaa567",
+      "partNativeCropSize": [
+        219,
+        187
+      ],
+      "anatomicalSide": "RIGHT",
+      "pivot": [
+        38,
+        44
+      ],
+      "bindPosition": [
+        13.34,
+        55.97
+      ],
+      "imageScale": 0.29,
+      "layer": 71,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 15,
+      "manualCandidate": true,
+      "pivotApproved": false
+    },
+    {
+      "id": "hand_near_R",
+      "parent": "forearm_near_R",
+      "file": "assets/characters/motion-generated/experimental-parts/daoist-child-E/parts-v1/hand_near_R.png",
+      "partSha256": "5f6f576a417962ec4cded6243566ca88d1b85748919c8f426a471f7e19883d81",
+      "partNativeCropSize": [
+        176,
+        142
+      ],
+      "anatomicalSide": "RIGHT",
+      "pivot": [
+        40,
+        65
+      ],
+      "bindPosition": [
+        33.57,
+        28.2
+      ],
+      "imageScale": 0.25,
+      "layer": 72,
+      "bindRotationDegrees": 0,
+      "imageRotationDegrees": 15,
+      "manualCandidate": true,
+      "pivotApproved": false
+    }
+  ],
+  "actions": {
+    "idle": {
+      "loop": false,
+      "tracks": {}
+    }
+  },
+  "landmarks": {
+    "hip_near_R": {
+      "node": "thigh_near_R",
+      "space": "joint",
+      "point": [
+        0,
+        0
+      ]
+    },
+    "knee_near_R": {
+      "node": "shin_near_R",
+      "space": "joint",
+      "point": [
+        0,
+        0
+      ]
+    },
+    "ankle_near_R": {
+      "node": "boot_near_R",
+      "space": "joint",
+      "point": [
+        0,
+        0
+      ]
+    },
+    "toe_near_R": {
+      "node": "boot_near_R",
+      "space": "image",
+      "point": [
+        205,
+        119
+      ]
+    },
+    "sole_near_R": {
+      "node": "boot_near_R",
+      "space": "image",
+      "point": [
+        136,
+        147
+      ]
+    },
+    "hip_far_L": {
+      "node": "thigh_far_L",
+      "space": "joint",
+      "point": [
+        0,
+        0
+      ]
+    },
+    "knee_far_L": {
+      "node": "shin_far_L",
+      "space": "joint",
+      "point": [
+        0,
+        0
+      ]
+    },
+    "ankle_far_L": {
+      "node": "boot_far_L",
+      "space": "joint",
+      "point": [
+        0,
+        0
+      ]
+    },
+    "toe_far_L": {
+      "node": "boot_far_L",
+      "space": "image",
+      "point": [
+        206,
+        119
+      ]
+    },
+    "sole_far_L": {
+      "node": "boot_far_L",
+      "space": "image",
+      "point": [
+        135,
+        142
+      ]
+    }
+  },
+  "drawOrderReasoning": [
+    "Far upper arm behind torso; its bent forearm and held gourd are in front of torso, still anatomically LEFT and below the near RIGHT arm. Object crossing the front is a manual depth proposal.",
+    "Boots behind shins behind thighs, so painted open boot mouths/upper shin mouths can be overlapped rather than leave hollow knees/ankles.",
+    "Head below torso layer deliberately lets torso collar cover the head crop's short duplicate neck/collar. Face/jaw remain above collar.",
+    "Far hem behind torso; near hem overlays below belt only. Existing torso already has a full robe hem, so duplicate trim/extra skirt remains a rejection risk."
+  ],
+  "expectedManualStaticJoints": {
+    "neck": [
+      307,
+      321
+    ],
+    "shoulderNear": [
+      262.5,
+      356.5
+    ],
+    "elbowNear": [
+      275.84,
+      412.47
+    ],
+    "wristNear": [
+      309.41,
+      440.67
+    ],
+    "shoulderFar": [
+      346.5,
+      350.5
+    ],
+    "elbowFar": [
+      371,
+      389.95
+    ],
+    "wristFar": [
+      336.38,
+      408.87
+    ],
+    "hipNear": [
+      295,
+      437.5
+    ],
+    "kneeNear": [
+      286.67,
+      473.2
+    ],
+    "ankleNear": [
+      289.73,
+      504.31
+    ],
+    "soleNear": [
+      305.57,
+      528.95
+    ],
+    "hipFar": [
+      322,
+      438
+    ],
+    "kneeFar": [
+      330.84,
+      472.85
+    ],
+    "ankleFar": [
+      334.75,
+      505.83
+    ],
+    "soleFar": [
+      350.015,
+      529.05
+    ]
+  },
+  "pending": [
+    "A single necessary static compositing review, after parent coordination; no render performed for this proposal.",
+    "Need verify shoulder gold rings do not double, head neck can hide cleanly under torso collar, and forearm-to-hand cuff circumferences match.",
+    "Upper/lower trouser segments and torso already contain finished gold hems; knees/waist may look like repeated clothing or cut-out doll. Existing paint cannot be assumed to have full hidden caps.",
+    "Potential extra robe density from both separate hem covers over a torso that already has complete hanging skirts.",
+    "Do not move root/collision/world coordinates in order to hide an art-binding problem.",
+    "No walk action/keyframes until a static E bind looks natural; then96px/ivory/dark and genuine opposite contact phases must independently pass."
+  ],
+  "staticBindApproved": false,
+  "commonPhysicalScaleApproved": false,
+  "clientApproved": false,
+  "runtimeEnabled": false,
+  "fullAnimationComplete": false
+}

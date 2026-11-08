@@ -1,0 +1,77 @@
+{
+  "file": "assets/items/footprints/footprints-frog-v3.png",
+  "sha256": "18dccac98d05e57d08d6f0c7284fd13f469d7c2b21432fb39af2aa61d3ed1f9b",
+  "generatedAt": "2026-10-30T05:15:46.500Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSource": {
+    "path": "D:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\qqtang-ui\\assets\\items\\footprints\\footprints-b-v2.png",
+      "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "docs/footprints-frog-v3.prompt.txt",
+  "references": [
+    {
+      "path": "D:\\work\\qqtang-ui\\assets\\items\\footprints\\footprints-b-v2.png",
+      "purpose": "actual edit target; preserve useful design while correcting requested geometry",
+      "sha256": "86976529cf3fc2c9e320d0b637f5a238f2ad988f454effbb99229dfd0c703cdf"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\01-mail-event.png",
+      "purpose": "style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:\\work\\qqtang-ui\\references\\image\\team-ui-v2.png",
+      "purpose": "style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a17789-9eaa-7ed3-b597-50d6259dbf2c\\exec-756f2519-1c11-4d38-b534-7f309c2911a5.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in AI image edit conditioned on the actual target reference; no program pixel editing",
+  "nativeDimensions": true,
+  "editOf": {
+    "file": "assets/items/footprints/footprints-b-v2.png",
+    "sha256": "86976529cf3fc2c9e320d0b637f5a238f2ad988f454effbb99229dfd0c703cdf",
+    "generationRecord": "assets/items/footprints/footprints-b-v2.png.generation.json"
+  },
+  "annotationNote": "Edit relationship clarified from the actual submitted target reference and prompt; original model, quality, timestamp and submission fields unchanged."
+}

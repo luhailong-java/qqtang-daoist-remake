@@ -1,0 +1,82 @@
+{
+  "elementId": 5020,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/water/pieces/5020-water-v1.png",
+  "sha256": "cd4de21a1fbd69b140c1da235a33deed4173661c054e1bf639772af43776acd5",
+  "width": 160,
+  "height": 200,
+  "worldFrameWidth": 40,
+  "worldFrameHeight": 50,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/water/props-d-v1.png",
+    "sha256": "39590272a50efdd1f67a753be6c97e4901889693b0bedf4366cb199ee04f1317",
+    "generationRecord": "assets/maps/water/props-d-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      661,
+      133,
+      882,
+      441
+    ],
+    "uniformScale": 0.6493506493506493,
+    "placementPx": [
+      8,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "measured-separated-objects-after-host-layout-deviation"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/water/frames/candidate-5020-e8d761a5d1f4.png",
+    "sha256": "e11242d675801b470d31200fa6fe8c76d9d9700da5f473a25f040959611c11ea",
+    "representativeElementId": 5020,
+    "nativeFrameSize": [
+      40,
+      50
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    10
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.8,
+    "generatedVisibleAspect": 0.7138157894736842,
+    "relativeAspectDeviation": 0.1077302631578948,
+    "generatedCellLTRB": [
+      630,
+      105,
+      920,
+      465
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.108-exceeds-0.100-review-required"
+    ]
+  }
+}

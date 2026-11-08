@@ -1,0 +1,81 @@
+{
+  "elementId": 4055,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/mine/pieces/4055-mine-v1.png",
+  "sha256": "5c888ad466c1a626b738d5288991a4ae18f90b2916a0a1d32793276162e17b8c",
+  "width": 2800,
+  "height": 960,
+  "worldFrameWidth": 700,
+  "worldFrameHeight": 240,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-i-v1.png",
+    "sha256": "777b0427122d87f626ebbca97f0293b7a83833379640f4c8e6e463686592574f",
+    "generationRecord": "assets/maps/mine/props-i-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-bottom-align",
+    "sourceRectLTRB": [
+      10,
+      50,
+      1077,
+      453
+    ],
+    "uniformScale": 2.3821339950372207,
+    "placementPx": [
+      129,
+      0
+    ],
+    "resampled": true,
+    "newModelGeneration": false,
+    "boxPolicy": "nominal-grid-then-measured-alpha-core"
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4055-4cdb1f4ac25f.png",
+    "sha256": "9a6d88fb0795c767398dd522d15d626bbfeaa6100ee430857b43c24700714527",
+    "representativeElementId": 4055,
+    "nativeFrameSize": [
+      700,
+      240
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    0,
+    0
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "painted-candidate-awaiting-source-lookup-anchor-and-in-game-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 2.9166666666666665,
+    "generatedVisibleAspect": 2.664160401002506,
+    "relativeAspectDeviation": 0.08657357679914068,
+    "generatedCellLTRB": [
+      0,
+      0,
+      1086,
+      483
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending"
+    ]
+  }
+}

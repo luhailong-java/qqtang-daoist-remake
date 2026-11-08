@@ -1,0 +1,50 @@
+{
+  "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v2.png",
+  "prompt": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v2.prompt.txt",
+  "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-3518de11-d648-4d0b-95a8-f91b64040956.png",
+  "editTarget": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v1.png",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/idle-four-directions-v1.png",
+      "role": "edit target lacking East direction and row clearance"
+    },
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+      "role": "own identity master"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary style"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary style"
+    }
+  ],
+  "status": "not_passed_missing_east_after_two_attempts",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "W"
+    ],
+    "missingDirections": [
+      "E"
+    ],
+    "runtimeEnabled": false,
+    "pending": [
+      "true East independently painted pose absent",
+      "shared root/layout",
+      "client"
+    ],
+    "samePointPolicy": "v1 and v2 both duplicate West instead of East; stop this point and proceed to other identities, not passed"
+  }
+}

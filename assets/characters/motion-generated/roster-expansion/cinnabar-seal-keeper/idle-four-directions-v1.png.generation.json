@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/idle-four-directions-v1.png",
+  "sha256": "3f00a59aa2c0278c2dfa80aefef30245c6f9c512baedda8fa2e9e88961bbc561",
+  "generatedAt": "2026-10-28T21:18:41.452Z",
+  "timeEvidence": "UTC registration after builtin tool result; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/master.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，实际返回未披露可核实版本与质量。",
+  "prompt": "assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/idle-four-directions-v1.prompt.txt",
+  "promptSha256": "c9a2f589f95efa3b09f4f8a9d4b236f1ee3a015ea2121c0c7a1cfde3766cc10c",
+  "references": [
+    {
+      "path": "D:/work/qqtang-ui/assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/master.png",
+      "role": "own approved identity candidate master; exact face/hair/props",
+      "sha256": "9fe13dad822fb70bbdb891e327b1f7df7e5d09ed09bef59bacbf1d2f70338fba"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "role": "primary Daoist chibi style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "D:/work/qqtang-ui/references/image/team-ui-v2.png",
+      "role": "primary Daoist chibi style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a18186-b8cc-7422-8ae3-98b8ffad899f/exec-d44f53c7-de42-4b1c-922c-76a4691d1c12.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "editTarget": "assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/master.png",
+  "review": {
+    "kind": "four_direction_idle_stills_not_animation",
+    "requestedOrder": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "actualVisualOrder": [
+      "N",
+      "W",
+      "S",
+      "E"
+    ],
+    "orderMatchesRequest": false,
+    "runtimeEnabled": false,
+    "pending": [
+      "requested per-cell margins/450px height/shared foot-root not strictly achieved",
+      "asymmetric hair-clip/equipment near-far occlusion and cross-direction scale",
+      "source ownership/registration and actual client"
+    ],
+    "ownership": "No equal cell crop approved until alpha boundary checked.",
+    "qa": "cinnabar-seal-keeper/qa/idle-four-directions-v1.alpha-review.json",
+    "actualAlphaEvidence": {
+      "extrema": [
+        0,
+        255
+      ],
+      "outerEdges": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "seams": {
+        "leftOfVertical": 0,
+        "rightOfVertical": 0,
+        "aboveHorizontal": 0,
+        "belowHorizontal": 0
+      }
+    },
+    "ivoryViewed": true,
+    "sharedRootApproved": false
+  },
+  "status": "direction_still_candidate_shared_root_margin_identity_details_pending",
+  "clientApproved": false,
+  "userAccepted": false
+}

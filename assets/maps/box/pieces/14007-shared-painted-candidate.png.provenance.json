@@ -1,0 +1,80 @@
+{
+  "elementId": 14007,
+  "idMapping": "candidate-filename-inference",
+  "file": "assets/maps/box/pieces/14007-shared-painted-candidate.png",
+  "sha256": "dcd38f1e87b044b5d9cd568354013df7a982d5aaa25190524b82c141e695393b",
+  "width": 156,
+  "height": 252,
+  "worldFrameWidth": 39,
+  "worldFrameHeight": 63,
+  "exportDensity": 4,
+  "derivedFrom": {
+    "file": "assets/maps/mine/props-b-v1.png",
+    "sha256": "31d6d0c425775f433971d36c24019cbdf9b4d55d84b483018204d954bf08c217",
+    "generationRecord": "assets/maps/mine/props-b-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "same-reference-sha-and-frame-explicit-cross-family-paint-reuse",
+    "sourcePaintedFile": "assets/maps/mine/pieces/4007-mine-v1.png",
+    "sourcePaintedSha256": "dcd38f1e87b044b5d9cd568354013df7a982d5aaa25190524b82c141e695393b",
+    "sourcePaintedProvenance": "assets/maps/mine/pieces/4007-mine-v1.png.provenance.json",
+    "referenceImageSha256": "47e3117133b6f6845f38752613323d5ffee1f02caf431e425aa2932bb462bdc9",
+    "resampled": false,
+    "newModelGeneration": false
+  },
+  "sourceReference": {
+    "file": "references/qqtang-map-data/visual-reference/families/mine/frames/candidate-4007-fee1be2f63cb.png",
+    "sha256": "47e3117133b6f6845f38752613323d5ffee1f02caf431e425aa2932bb462bdc9",
+    "representativeElementId": 4007,
+    "nativeFrameSize": [
+      39,
+      63
+    ],
+    "sameNativeFrameExtent": true
+  },
+  "footprintCells": [
+    1,
+    1
+  ],
+  "sourceGridAttr": [
+    0
+  ],
+  "sourceMapElemOffsetRaw": [
+    -1,
+    23
+  ],
+  "sourceFrameOffsetRaw": [
+    0,
+    0
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "geometryAccepted": false,
+  "status": "same-source-picture-cross-family-paint-reuse-candidate-awaiting-validation",
+  "seamlessVerified": null,
+  "qa": {
+    "sourceVisibleAspect": 0.6190476190476191,
+    "generatedVisibleAspect": 0.6921296296296297,
+    "relativeAspectDeviation": 0.11805555555555558,
+    "generatedCellLTRB": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "coreTouchesCellEdge": false,
+    "warnings": [
+      "source-id-lookup-and-render-anchor-unverified",
+      "original-map-geometry-and-in-game-validation-pending",
+      "generated-visible-aspect-deviation-0.118-exceeds-0.100-review-required"
+    ]
+  },
+  "sourceFootprintCells": [
+    1,
+    1
+  ],
+  "crossFamilyPaintedReuseOfElementId": 4007,
+  "accepted": false
+}

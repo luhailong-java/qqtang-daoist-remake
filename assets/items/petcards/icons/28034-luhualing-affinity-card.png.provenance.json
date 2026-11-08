@@ -1,0 +1,77 @@
+{
+  "itemId": 28034,
+  "category": "petcard",
+  "sourceName": "丘比特",
+  "sourceDescription": "顽皮的小家伙，谁会是他的下一个目标？具有天赋：积分闪耀6%，勇气闪耀6%，亲密闪耀6%。",
+  "file": "assets/items/petcards/icons/28034-luhualing-affinity-card.png",
+  "sha256": "31e9c81784ee378bb2e929a843bc984ba57d81312dc2bb99801d9ddbfe9e68a8",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/petcards/petcards-f-v1.png",
+    "sha256": "27d959504939d0862712bc84a359dfaf22651b3aec1b1e9915474c6e03532a63",
+    "generationRecord": "assets/items/petcards/petcards-f-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      18,
+      5,
+      512,
+      449
+    ],
+    "sourceContentRect": [
+      18,
+      517,
+      512,
+      961
+    ],
+    "uniformScale": 0.4534412955465587,
+    "placementPx": [
+      16,
+      27
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-28034.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceCellAlphaTouchEdges": [
+    "right"
+  ],
+  "warnings": [
+    "source-cell-alpha-touches-boundary-review-ownership"
+  ],
+  "sourceReferenceSha256": "097520c7e24da9410a033a6e4d5a6dfc9ad0be95166f715ff626965c8a9e94ed",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-28034.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ],
+  "projectDisplayName": "结缘露华灵",
+  "projectIdentity": "露华灵",
+  "identityReference": "assets/items/petcards/references/canon/16-luhualing.png",
+  "appearanceChoice": "new project identity choice, no Tencent face or MMO attribute mapping",
+  "identityReferenceSha256": "7fe99b36b327a0c22f76c28b641f926b161a63bce52514bfae67d80b7483b707",
+  "identityRelationship": "explicit new-project appearance choice; not a historical QQTang mapping or adoption of MMO attributes"
+}

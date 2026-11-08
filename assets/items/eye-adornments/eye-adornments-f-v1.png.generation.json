@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "projectDisplayName": "灵葫大作战",
+  "file": "assets/items/eye-adornments/eye-adornments-f-v1.png",
+  "sha256": "6c6b5fae7540bb4786532de4b6c94b17dae2163dd86c54e44ccf43483d89d79d",
+  "generatedAt": "2026-10-30T10:19:08.015Z",
+  "timeEvidence": "UTC registration after builtin return; provider creation timestamp not disclosed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/qqtang-ui/assets/items/eye-adornments/references/eye-adornments-f-structure.png",
+      "D:/work/qqtang-ui/references/image/01-mail-event.png",
+      "D:/work/qqtang-ui/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实版本/质量。",
+  "prompt": "docs/eye-adornments-f.prompt.txt",
+  "promptFileSha256": "fa3d4e1bd61f5f51e1350561c390dd20530cbd68da54736fc562c14c6fa62395",
+  "submittedPromptSha256": "fbaea5e59360a4b1b16440eea1c14655c0557ef3f2027df2c5bcdb5dc827ca1f",
+  "promptSubmission": "File text trimmed at beginning/end only",
+  "references": [
+    {
+      "file": "assets/items/eye-adornments/references/eye-adornments-f-structure.png",
+      "sha256": "5f9ed33b5241271b49a8d2eb007906950ce8a6c9bd35595f1c571d428520a6bd",
+      "role": "Actual item structure references; board source records distinguish inventory/stand and format limits, not style/QQ face adoption"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Confirmed primary Daoist Q hand-painted style"
+    }
+  ],
+  "sourceVisualNotes": "This actual board contains FIVE inventory icons and ONE explicitly declared stand frame: top-right item3767 is stand frame0 from object/eye/eye125_stand.img,15x14 source crop/offset51,61, not an inventory icon. That item's inventory mapping and resource_id12 relation remain unverified. It visibly shows a red round ball with gold star, catalog calls it commemorative basketball. Do not claim we recovered its missing inventory image. Bottom-left3768 inventory has rainbow background around orange-white football; omit the background, keep the football.3017 is a paired white/lilac feather head ornament,3020 a silver ceremonial helm,3874 a butterfly and3875 a small red-flower/ivory-wrap bouquet.",
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a17789-9eaa-7ed3-b597-50d6259dbf2c/exec-e3e0db3c-6ad9-46bf-930a-77d6ff7950c4.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "requestedCanvasInPrompt": [
+    1536,
+    1024
+  ],
+  "generationCount": 1,
+  "requestedItemCount": 6,
+  "sourceAndOutputScope": "One six-object atlas is one model generation; each later256 icon is a crop/PMA resize, not six model calls.",
+  "accepted": false,
+  "worldAccepted": false,
+  "stateAccepted": false,
+  "runtimeAdopted": false
+}

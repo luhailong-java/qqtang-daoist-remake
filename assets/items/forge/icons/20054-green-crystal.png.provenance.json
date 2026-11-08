@@ -1,0 +1,65 @@
+{
+  "itemId": 20054,
+  "category": "forge",
+  "sourceName": "绿水晶",
+  "sourceDescription": "神奇的七色水晶石，用来锻造道具。大概率锻造出3级特效和绿色蓝色。",
+  "file": "assets/items/forge/icons/20054-green-crystal.png",
+  "sha256": "c0a3a9aa4abbb93e0ba9109c7b00685072ac3b80ad6cc446cc955167179bd375",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    128
+  ],
+  "derivedFrom": {
+    "file": "assets/items/forge/forge-a-v1.png",
+    "sha256": "2ccc22a5e771e1892593b0d252e37ca029ed7fa34bdf7121824bd2f057dff079",
+    "generationRecord": "assets/items/forge/forge-a-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "crop-uniform-fit-centred",
+    "sourceCellRect": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "contentBoxWithinCell": [
+      79,
+      43,
+      432,
+      450
+    ],
+    "sourceContentRect": [
+      79,
+      555,
+      432,
+      962
+    ],
+    "uniformScale": 0.5503685503685504,
+    "placementPx": [
+      31,
+      16
+    ],
+    "resampled": true,
+    "resampler": "premultiplied-alpha LANCZOS",
+    "newModelGeneration": false
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sourceReference": "references/qqtang-item-data/icons/item-20054.png",
+  "runtimeAdopted": false,
+  "visualAccepted": false,
+  "status": "painted-candidate-awaiting-alpha-background-and-runtime-review",
+  "sourceReferenceSha256": "4d386ba08fe1d0bc0fe4ca783fca4fb7abeec74c3b0ad3f08387cc1c6f9fad29",
+  "sourceReferenceRecord": "references/qqtang-item-data/icons/item-20054.png.source.json",
+  "scope": "independent static catalog icon; not pet entity, skill effects or animation",
+  "checksPending": [
+    "functional-content-visual-review",
+    "alpha-and-background-review",
+    "small-size-readability",
+    "runtime-adoption"
+  ]
+}
