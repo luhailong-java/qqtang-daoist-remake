@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "evidenceKind": "exact-retained-builtin-tool-arguments-and-results",
+  "lineEndingNormalizationApplied": "none",
+  "source": "Original functions.store/load values and original actual tool-call literal reference arrays",
+  "entries": [
+    {
+      "version": "2000-a-v2",
+      "file": "assets/items/head-adornments/world/world-2000-a-v2.png",
+      "prompt": "Use case: stylized-concept.\r\nAsset type: transparent hand-painted game overhead-adornment phase atlas for original Daoist chibi game 灵葫大作战, item 五心祈愿.\r\nInput roles: image1 ACTUAL SOURCE PHASE BOARD controls exactly five hearts, their per-phase position, size and face tilt; image2 OUR EXISTING inventory heart-jewel identity controls material and shape only, NOT its static arrangement; images3/4 confirmed project Daoist Q hand-painted style references only.\r\nCreate a genuinely transparent RGBA atlas, requested1536x1024, exact3columns2rows, six separate512x512 cells. Each cell contains EXACTLY FIVE separated floating heart jewels, total30 visible hearts on sheet. These are the same five rose-jade heart ornaments in successive source phases, not regular pentagons and not a copied static arrangement. Retain clean transparent empty centre and transparent gaps between ALL five hearts. No physical circle, ring, string, orbit line, trails, wearer or central object.\r\nOur identity: softly translucent salmon/rose-pink jade hearts, plump rounded heart silhouettes, elegant warm-gold narrow rims and one tiny integrated gold cloud-scroll curl within each heart outline. Fine Daoist Q HD hand-painted gold/jade finish from the two style refs. NOT plastic3D or red pixel art. No new loose sparkles, particles, glows, fog, shadows, text or grid lines. Do not add points beyond each physical heart.\r\nThe complete VISIBLE alpha envelope of each five-heart group must have its source native ratio, not counting transparent canvas padding. Each group about440px wide with its height drawn naturally as specified below. Keep all hearts whole, naturally hand-drawn, with generous true empty alpha margins >=30px in each cell. Do not crop, stretch, mirror, or repeat/relabel one arrangement.\r\n\r\nTOP ROW then BOTTOM ROW, left to right:\r\nCell1, source phase0: native envelope54:27, complete visible aspect2.00000, around440wide x220high. Five alpha-centres as percentages within visible group: [[9.3, 35.3], [39.8, 11.2], [39.8, 77.5], [80.6, 15.0], [88.9, 65.7]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell2, source phase1: native envelope58:28, complete visible aspect2.07143, around440wide x212high. Five alpha-centres as percentages within visible group: [[8.6, 48.3], [30.2, 10.8], [47.4, 78.3], [68.1, 10.8], [89.7, 52.6]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell3, source phase2: native envelope57:30, complete visible aspect1.90000, around440wide x232high. Five alpha-centres as percentages within visible group: [[8.8, 58.4], [20.2, 16.8], [55.3, 79.7], [58.8, 10.1], [89.5, 39.1]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell4, source phase3: native envelope51:29, complete visible aspect1.75862, around440wide x250high. Five alpha-centres as percentages within visible group: [[8.8, 20.8], [11.8, 67.3], [50.0, 10.5], [65.7, 79.0], [88.2, 30.1]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell5, source phase4: native envelope51:27, complete visible aspect1.88889, around440wide x233high. Five alpha-centres as percentages within visible group: [[8.8, 29.8], [27.5, 76.0], [48.0, 11.2], [83.3, 77.5], [88.2, 25.0]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell6, source phase5: native envelope52:27, complete visible aspect1.92593, around440wide x228high. Five alpha-centres as percentages within visible group: [[9.6, 35.3], [35.6, 77.5], [45.2, 11.2], [85.6, 22.4], [88.5, 76.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nNo whole-object bob or invented compass label: source rawOffset is separate preserved data. All source timing and head attachment remain unverified; render these six static phases only. Highest available host-provided image quality target.",
+      "actualPromptCharacterLength": 4287,
+      "crCount": 14,
+      "lfCount": 14,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-a.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-c1e821d7-2862-4089-b1ce-a05abf0757e9.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-c1e821d7-2862-4089-b1ce-a05abf0757e9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-a-v2-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-a-v2-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "fe07c670e56420f279e851a1eae9d5786ff206af64a9b551874115e148a2b539",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-a-v2.png.generation.json",
+        "generationRecordByteSha256": "b01a3c5e58a32adfd0722acc9ad621e0c3b535c6910269c75fd49d2f2131bdcc",
+        "recordedPromptSha256": "fe07c670e56420f279e851a1eae9d5786ff206af64a9b551874115e148a2b539",
+        "submittedPromptSha256": "09bb387822d2b693ff91d8ead288aa38bd3f769d932b70aa7f8ace38ec596f42"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-a.png",
+          "sha256": "bb94e110f936764043d87ff27510ed43c0612b57030692c33af3f9108c4ac2a6"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-a-v3",
+      "file": "assets/items/head-adornments/world/world-2000-a-v3.png",
+      "prompt": "Use case: precise-object-edit.\r\nImage1 is the ACTUAL EDIT TARGET: our six five-heart world phases, original1536x1024,3columns2rows. Image2 actual source0-5 phases controls exact relative positions and envelope. Image3 existing inventory controls original rose-jade/gold identity only. Images4/5 project hand-painted style only.\r\nAI REDRAW the six groups with flatter natural five-heart constellations. Current actual alpha-envelope heights are246/267/286/284/266/270px versus widths415/440/434/426/432/448. They are too tall by14-20percent relative to source. Keep six different phase arrangements and FIVE separate hearts per cell, keep horizontal spread, but draw each heart around20percent smaller and slightly wider, lower upper/lower row separation enough to make the complete constellation W440 by220/212/232/250/233/228px respectively. Height means entire group INCLUDING top and bottom heart tips. Real natural illustration changes, not nonuniformly stretching the old image. No new hearts, no particles, no physical orbit/ring/rope. Empty alpha centre and gaps stay.\r\nKeep our rose-pink carved jade, warm-gold fine rim and tiny integrated cloud curl, same hand-painted finish. Heart shapes should be gently WIDE plump hearts, around80wide x65high; no long teardrop point. Upper/lower hearts sit visibly closer while leftmost/rightmost hearts preserve each actual source position. All groups stay isolated within original512cells with>=30px transparent margins. Genuine RGBA exterior, no glow/fog/shadows/text/grid.\r\n\r\nTOP ROW then BOTTOM ROW, left to right:\r\nCell1, source phase0: native envelope54:27, complete visible aspect2.00000, around440wide x220high. Five alpha-centres as percentages within visible group: [[9.3, 35.3], [39.8, 11.2], [39.8, 77.5], [80.6, 15.0], [88.9, 65.7]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell2, source phase1: native envelope58:28, complete visible aspect2.07143, around440wide x212high. Five alpha-centres as percentages within visible group: [[8.6, 48.3], [30.2, 10.8], [47.4, 78.3], [68.1, 10.8], [89.7, 52.6]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell3, source phase2: native envelope57:30, complete visible aspect1.90000, around440wide x232high. Five alpha-centres as percentages within visible group: [[8.8, 58.4], [20.2, 16.8], [55.3, 79.7], [58.8, 10.1], [89.5, 39.1]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell4, source phase3: native envelope51:29, complete visible aspect1.75862, around440wide x250high. Five alpha-centres as percentages within visible group: [[8.8, 20.8], [11.8, 67.3], [50.0, 10.5], [65.7, 79.0], [88.2, 30.1]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell5, source phase4: native envelope51:27, complete visible aspect1.88889, around440wide x233high. Five alpha-centres as percentages within visible group: [[8.8, 29.8], [27.5, 76.0], [48.0, 11.2], [83.3, 77.5], [88.2, 25.0]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell6, source phase5: native envelope52:27, complete visible aspect1.92593, around440wide x228high. Five alpha-centres as percentages within visible group: [[9.6, 35.3], [35.6, 77.5], [45.2, 11.2], [85.6, 22.4], [88.5, 76.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nNo whole-object bob or invented compass label: source rawOffset is separate preserved data. All source timing and head attachment remain unverified; render these six static phases only. Highest available host-provided image quality target.",
+      "actualPromptCharacterLength": 4027,
+      "crCount": 12,
+      "lfCount": 12,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-a-v2.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-a.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-08b7803f-101b-4c05-b664-f7c6fd6f793d.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-08b7803f-101b-4c05-b664-f7c6fd6f793d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-a-v3-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-a-v3-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "9802ef3797ae5524cdbd9e61a01aee70a042eaf6d616e01e9fc17083511c670e",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-a-v3.png.generation.json",
+        "generationRecordByteSha256": "62993e6b116d9a6eddff7379c28c0b1a203db2e4903daa13c983da17cb3d4bad",
+        "recordedPromptSha256": "1f4ca356b55b582d7ecb4cfad9d93c4ff6a1c2bc4b981701450f8be352b75808",
+        "submittedPromptSha256": "1f4ca356b55b582d7ecb4cfad9d93c4ff6a1c2bc4b981701450f8be352b75808"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-a-v2.png",
+          "sha256": "856e787a96e4aea1e0a38775b253374eb7fe30962b7f54c1fb6ead8ff89b1faa"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-a.png",
+          "sha256": "bb94e110f936764043d87ff27510ed43c0612b57030692c33af3f9108c4ac2a6"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-b-v1",
+      "file": "assets/items/head-adornments/world/world-2000-b-v1.png",
+      "prompt": "Use case: stylized-concept.\r\nAsset type: transparent hand-painted game overhead-adornment phase atlas for original Daoist chibi game 灵葫大作战, item 五心祈愿.\r\nInput roles: image1 ACTUAL SOURCE PHASE BOARD controls exactly five hearts, their per-phase position, size and face tilt; image2 OUR EXISTING inventory heart-jewel identity controls material and shape only, NOT its static arrangement; images3/4 confirmed project Daoist Q hand-painted style references only.\r\nCreate a genuinely transparent RGBA atlas, requested1536x1024, exact3columns2rows, six separate512x512 cells. Each cell contains EXACTLY FIVE separated floating heart jewels, total30 visible hearts on sheet. These are the same five rose-jade heart ornaments in successive source phases, not regular pentagons and not a copied static arrangement. Retain clean transparent empty centre and transparent gaps between ALL five hearts. No physical circle, ring, string, orbit line, trails, wearer or central object.\r\nOur identity: softly translucent salmon/rose-pink jade hearts, plump rounded heart silhouettes, elegant warm-gold narrow rims and one tiny integrated gold cloud-scroll curl within each heart outline. Fine Daoist Q HD hand-painted gold/jade finish from the two style refs. NOT plastic3D or red pixel art. No new loose sparkles, particles, glows, fog, shadows, text or grid lines. Do not add points beyond each physical heart.\r\nThe complete VISIBLE alpha envelope of each five-heart group must have its source native ratio, not counting transparent canvas padding. Each group about440px wide with its height drawn naturally as specified below. Keep all hearts whole, naturally hand-drawn, with generous true empty alpha margins >=30px in each cell. Do not crop, stretch, mirror, or repeat/relabel one arrangement.\r\n\r\nTOP ROW then BOTTOM ROW, left to right:\r\nCell1, source phase6: native envelope54:27, complete visible aspect2.00000, around440wide x220high. Five alpha-centres as percentages within visible group: [[9.3, 65.7], [17.6, 15.0], [58.3, 11.2], [58.3, 77.5], [88.9, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell2, source phase7: native envelope58:28, complete visible aspect2.07143, around440wide x212high. Five alpha-centres as percentages within visible group: [[8.6, 52.6], [30.2, 10.8], [50.9, 78.3], [68.1, 10.8], [89.7, 48.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell3, source phase8: native envelope57:30, complete visible aspect1.90000, around440wide x232high. Five alpha-centres as percentages within visible group: [[8.8, 39.1], [39.5, 10.1], [43.0, 79.7], [78.1, 16.8], [89.5, 58.4]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell4, source phase9: native envelope51:29, complete visible aspect1.75862, around440wide x250high. Five alpha-centres as percentages within visible group: [[9.8, 30.1], [32.4, 79.0], [48.0, 10.5], [86.3, 67.3], [89.2, 20.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell5, source phase10: native envelope51:27, complete visible aspect1.88889, around440wide x233high. Five alpha-centres as percentages within visible group: [[9.8, 25.0], [14.7, 77.5], [50.0, 11.2], [70.6, 76.0], [89.2, 29.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell6, source phase11: native envelope52:27, complete visible aspect1.92593, around440wide x228high. Five alpha-centres as percentages within visible group: [[9.6, 76.8], [12.5, 22.4], [52.9, 11.2], [62.5, 77.5], [88.5, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nNo whole-object bob or invented compass label: source rawOffset is separate preserved data. All source timing and head attachment remain unverified; render these six static phases only. Highest available host-provided image quality target.\r\n\r\nCritical geometry: hearts must be SMALL, WIDE and shallow, around75-85px wide and60-70px high individually, with no tall teardrop point. Five-heart constellation W440-460px, with complete height220-245px (phase-dependent ratios above). Keep upper and lower hearts closer vertically; the result must be a WIDE SHALLOW ellipse, not a near-circle. Intrinsic source ratio is the alpha-visible outer envelope INCLUDING all five hearts, not centre positions alone.",
+      "actualPromptCharacterLength": 4751,
+      "crCount": 16,
+      "lfCount": 16,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-b.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-89617d92-ec24-4d16-864f-315ed6b2e207.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-89617d92-ec24-4d16-864f-315ed6b2e207.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-b-v1-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-b-v1-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "c0809706704fc84d56d8d99c6164bedcea8cad117ec3bc954c6eafa7ae5987dc",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-b-v1.png.generation.json",
+        "generationRecordByteSha256": "36cf96bfb36f000a0ca73fb636edbd908b6076926e06e1ff3e439bf3f73f1e03",
+        "recordedPromptSha256": "cb8c8b86bdf08c51c7c131e88deccc378c35ccacbfe2d51264fb56a995011865",
+        "submittedPromptSha256": "cb8c8b86bdf08c51c7c131e88deccc378c35ccacbfe2d51264fb56a995011865"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-b.png",
+          "sha256": "e388f36a5c1b59237475f589555fd3fb0aac40a4c6488b607aaaa3fa604faeb7"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-c-v1",
+      "file": "assets/items/head-adornments/world/world-2000-c-v1.png",
+      "prompt": "Use case: stylized-concept.\r\nAsset type: transparent hand-painted game overhead-adornment phase atlas for original Daoist chibi game 灵葫大作战, item 五心祈愿.\r\nInput roles: image1 ACTUAL SOURCE PHASE BOARD controls exactly five hearts, their per-phase position, size and face tilt; image2 OUR EXISTING inventory heart-jewel identity controls material and shape only, NOT its static arrangement; images3/4 confirmed project Daoist Q hand-painted style references only.\r\nCreate a genuinely transparent RGBA atlas, requested1536x1024, exact3columns2rows, six separate512x512 cells. Each cell contains EXACTLY FIVE separated floating heart jewels, total30 visible hearts on sheet. These are the same five rose-jade heart ornaments in successive source phases, not regular pentagons and not a copied static arrangement. Retain clean transparent empty centre and transparent gaps between ALL five hearts. No physical circle, ring, string, orbit line, trails, wearer or central object.\r\nOur identity: softly translucent salmon/rose-pink jade hearts, plump rounded heart silhouettes, elegant warm-gold narrow rims and one tiny integrated gold cloud-scroll curl within each heart outline. Fine Daoist Q HD hand-painted gold/jade finish from the two style refs. NOT plastic3D or red pixel art. No new loose sparkles, particles, glows, fog, shadows, text or grid lines. Do not add points beyond each physical heart.\r\nThe complete VISIBLE alpha envelope of each five-heart group must have its source native ratio, not counting transparent canvas padding. Each group about440px wide with its height drawn naturally as specified below. Keep all hearts whole, naturally hand-drawn, with generous true empty alpha margins >=30px in each cell. Do not crop, stretch, mirror, or repeat/relabel one arrangement.\r\n\r\nTOP ROW then BOTTOM ROW, left to right:\r\nCell1, source phase12: native envelope54:27, complete visible aspect2.00000, around440wide x220high. Five alpha-centres as percentages within visible group: [[9.3, 65.7], [17.6, 15.0], [58.3, 11.2], [58.3, 77.5], [88.9, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell2, source phase13: native envelope58:28, complete visible aspect2.07143, around440wide x212high. Five alpha-centres as percentages within visible group: [[8.6, 52.6], [30.2, 10.8], [50.9, 78.3], [68.1, 10.8], [89.7, 48.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell3, source phase14: native envelope57:30, complete visible aspect1.90000, around440wide x232high. Five alpha-centres as percentages within visible group: [[8.8, 39.1], [39.5, 10.1], [43.0, 79.7], [78.1, 16.8], [89.5, 58.4]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell4, source phase15: native envelope51:29, complete visible aspect1.75862, around440wide x250high. Five alpha-centres as percentages within visible group: [[9.8, 30.1], [32.4, 79.0], [48.0, 10.5], [86.3, 67.3], [89.2, 20.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell5, source phase16: native envelope51:27, complete visible aspect1.88889, around440wide x233high. Five alpha-centres as percentages within visible group: [[9.8, 25.0], [14.7, 77.5], [50.0, 11.2], [70.6, 76.0], [89.2, 29.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell6, source phase17: native envelope52:27, complete visible aspect1.92593, around440wide x228high. Five alpha-centres as percentages within visible group: [[9.6, 76.8], [12.5, 22.4], [52.9, 11.2], [62.5, 77.5], [88.5, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nNo whole-object bob or invented compass label: source rawOffset is separate preserved data. All source timing and head attachment remain unverified; render these six static phases only. Highest available host-provided image quality target.\r\n\r\nCritical geometry: hearts must be SMALL, WIDE and shallow, around75-85px wide and60-70px high individually, with no tall teardrop point. Five-heart constellation W440-460px, with complete height220-245px (phase-dependent ratios above). Keep upper and lower hearts closer vertically; the result must be a WIDE SHALLOW ellipse, not a near-circle. Intrinsic source ratio is the alpha-visible outer envelope INCLUDING all five hearts, not centre positions alone.",
+      "actualPromptCharacterLength": 4755,
+      "crCount": 16,
+      "lfCount": 16,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-90483235-7ea7-4f4b-80b0-55ef8f47d8df.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-90483235-7ea7-4f4b-80b0-55ef8f47d8df.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-c-v1-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-c-v1-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "5750745399ef33080c6cda101019a2f128116ff41ca7ba3a66c0bccbecb496bd",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-c-v1.png.generation.json",
+        "generationRecordByteSha256": "93699238c4c8a621392cfb95f173948a5df42b1f64c3f26ff24cdd48efdadd63",
+        "recordedPromptSha256": "1c59ed17150d6303d27a9cf0088fe1c4ec475c9f43183dbb0e4c6e171bdee4ce",
+        "submittedPromptSha256": "1c59ed17150d6303d27a9cf0088fe1c4ec475c9f43183dbb0e4c6e171bdee4ce"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+          "sha256": "ab187d0b4bfe5e58af7860e9873a0a6e3a67f7ad7591c631b2e1050c040a51a7"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-d-v1",
+      "file": "assets/items/head-adornments/world/world-2000-d-v1.png",
+      "prompt": "Use case: stylized-concept.\r\nAsset type: transparent hand-painted game overhead-adornment phase atlas for original Daoist chibi game 灵葫大作战, item 五心祈愿.\r\nInput roles: image1 ACTUAL SOURCE PHASE BOARD controls exactly five hearts, their per-phase position, size and face tilt; image2 OUR EXISTING inventory heart-jewel identity controls material and shape only, NOT its static arrangement; images3/4 confirmed project Daoist Q hand-painted style references only.\r\nCreate a genuinely transparent RGBA atlas, requested1536x1024, exact3columns2rows, six separate512x512 cells. Each cell contains EXACTLY FIVE separated floating heart jewels, total30 visible hearts on sheet. These are the same five rose-jade heart ornaments in successive source phases, not regular pentagons and not a copied static arrangement. Retain clean transparent empty centre and transparent gaps between ALL five hearts. No physical circle, ring, string, orbit line, trails, wearer or central object.\r\nOur identity: softly translucent salmon/rose-pink jade hearts, plump rounded heart silhouettes, elegant warm-gold narrow rims and one tiny integrated gold cloud-scroll curl within each heart outline. Fine Daoist Q HD hand-painted gold/jade finish from the two style refs. NOT plastic3D or red pixel art. No new loose sparkles, particles, glows, fog, shadows, text or grid lines. Do not add points beyond each physical heart.\r\nThe complete VISIBLE alpha envelope of each five-heart group must have its source native ratio, not counting transparent canvas padding. Each group about440px wide with its height drawn naturally as specified below. Keep all hearts whole, naturally hand-drawn, with generous true empty alpha margins >=30px in each cell. Do not crop, stretch, mirror, or repeat/relabel one arrangement.\r\n\r\nTOP ROW then BOTTOM ROW, left to right:\r\nCell1, source phase18: native envelope54:27, complete visible aspect2.00000, around440wide x220high. Five alpha-centres as percentages within visible group: [[9.3, 65.7], [17.6, 15.0], [58.3, 11.2], [58.3, 77.5], [88.9, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell2, source phase19: native envelope58:28, complete visible aspect2.07143, around440wide x212high. Five alpha-centres as percentages within visible group: [[8.6, 52.6], [30.2, 10.8], [50.9, 78.3], [68.1, 10.8], [89.7, 48.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell3, source phase20: native envelope57:30, complete visible aspect1.90000, around440wide x232high. Five alpha-centres as percentages within visible group: [[8.8, 39.1], [39.5, 10.1], [43.0, 79.7], [78.1, 16.8], [89.5, 58.4]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell4, source phase21: native envelope51:29, complete visible aspect1.75862, around440wide x250high. Five alpha-centres as percentages within visible group: [[9.8, 30.1], [32.4, 79.0], [48.0, 10.5], [86.3, 67.3], [89.2, 20.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell5, source phase22: native envelope51:27, complete visible aspect1.88889, around440wide x233high. Five alpha-centres as percentages within visible group: [[9.8, 25.0], [14.7, 77.5], [50.0, 11.2], [70.6, 76.0], [89.2, 29.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell6, source phase23: native envelope52:27, complete visible aspect1.92593, around440wide x228high. Five alpha-centres as percentages within visible group: [[9.6, 76.8], [12.5, 22.4], [52.9, 11.2], [62.5, 77.5], [88.5, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nNo whole-object bob or invented compass label: source rawOffset is separate preserved data. All source timing and head attachment remain unverified; render these six static phases only. Highest available host-provided image quality target.\r\n\r\nCritical geometry: hearts must be SMALL, WIDE and shallow, around75-85px wide and60-70px high individually, with no tall teardrop point. Five-heart constellation W440-460px, with complete height220-245px (phase-dependent ratios above). Keep upper and lower hearts closer vertically; the result must be a WIDE SHALLOW ellipse, not a near-circle. Intrinsic source ratio is the alpha-visible outer envelope INCLUDING all five hearts, not centre positions alone.",
+      "actualPromptCharacterLength": 4755,
+      "crCount": 16,
+      "lfCount": 16,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-d.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-4f72e560-9e29-4167-9f23-22b20f47a46b.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-4f72e560-9e29-4167-9f23-22b20f47a46b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-d-v1-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-d-v1-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "096b70bf8bd9330876d271299362bcb220ebcaea87d556abfb889432f89abaa6",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-d-v1.png.generation.json",
+        "generationRecordByteSha256": "b2fc65639f84cf248e06a1b953495ebf3c886d34c9f8ff8b614f87938a6a7d62",
+        "recordedPromptSha256": "d0825a2ae34392a5a37f546d55d940020396f0d987248864a4db0adc5cb8a195",
+        "submittedPromptSha256": "d0825a2ae34392a5a37f546d55d940020396f0d987248864a4db0adc5cb8a195"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-d.png",
+          "sha256": "017d976154c5d2c187bbdb336688fb5b6e2fae393cbf584b38b269d8a88762f7"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-a-v4",
+      "file": "assets/items/head-adornments/world/world-2000-a-v4.png",
+      "prompt": "Use case: stylized-concept.\r\nGenerate a brand-new transparent RGBA world sprite atlas for Daoist chibi game item 五心祈愿. Input1 source phase board is STRUCTURE: only source phases[0, 1, 2, 3, 4, 5] in this request. Input2 our already-made six-phase heart atlas is MATERIAL/SMALL HEART SCALE reference only, not its layout. Input3 existing inventory is our rose-jade/gold heart identity. Inputs4/5 confirmed Daoist hand-painted style.\r\nRequested canvas1536x1024, exact3columns x2rows. Each cell512square contains exactly FIVE SEPARATED heart jewels, total30 hearts. No missing/extra heart. Wide shallow, empty-centred orbit-like constellation from actual source phase. Do NOT copy a regular pentagon or a static arrangement. DO NOT draw any ring, string, trajectory, particles, extra light streaks, head, body or background.\r\nHearts are SMALL and plump-wide, around75pxwide x58pxhigh, fine translucent rose/salmon jade with warm-gold narrow rim and tiny integrated cloud-curl within the heart outline. Natural illustration, no plastic3D, no teardrop long points. Important: retain source native ratio of the COMPLETE five-heart OUTER visible envelope. Each constellation should be about440-450px wide but ONLY205-235px tall, according to each ratio listed. Previous tall constellations failed; draw upper and lower hearts closer and slightly smaller. This is visible group size including each jewel's extremities; transparent padding is not part of ratio.\r\nGenuine alpha=0 must exist in all gaps, centre and outside the jewels. NO semi-transparent bronze/grey/color field, fog, halo, gold glow, shadow or vignette anywhere. Every heart whole, no contact with cell edge, >=25px fully transparent margins; no grid/text/labels.\r\n\r\nLeft to right, top row then bottom if present:\r\nCell1 phase0: native54:27, full visible aspect2.00000. Alpha-centres as % within source visible group: [[9.3, 35.3], [39.8, 11.2], [39.8, 77.5], [80.6, 15.0], [88.9, 65.7]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell2 phase1: native58:28, full visible aspect2.07143. Alpha-centres as % within source visible group: [[8.6, 48.3], [30.2, 10.8], [47.4, 78.3], [68.1, 10.8], [89.7, 52.6]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell3 phase2: native57:30, full visible aspect1.90000. Alpha-centres as % within source visible group: [[8.8, 58.4], [20.2, 16.8], [55.3, 79.7], [58.8, 10.1], [89.5, 39.1]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell4 phase3: native51:29, full visible aspect1.75862. Alpha-centres as % within source visible group: [[8.8, 20.8], [11.8, 67.3], [50.0, 10.5], [65.7, 79.0], [88.2, 30.1]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell5 phase4: native51:27, full visible aspect1.88889. Alpha-centres as % within source visible group: [[8.8, 29.8], [27.5, 76.0], [48.0, 11.2], [83.3, 77.5], [88.2, 25.0]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell6 phase5: native52:27, full visible aspect1.92593. Alpha-centres as % within source visible group: [[9.6, 35.3], [35.6, 77.5], [45.2, 11.2], [85.6, 22.4], [88.5, 76.8]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nPreserve source phase geometry but own jade-heart identity, no mirroring/software distortions. Head attachment and timing are unverified; these are static phases only. Highest host-provided quality target.",
+      "actualPromptCharacterLength": 3460,
+      "crCount": 13,
+      "lfCount": 13,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-a.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-b-v1.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-bd41f50a-589b-427c-9870-8c50383f14c4.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-bd41f50a-589b-427c-9870-8c50383f14c4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-a-v4-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-a-v4-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "1c17c975a56cc05013577a9454bc86b6b6f7d5e3216e30c1ab47ecf89e78fbcc",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-a-v4.png.generation.json",
+        "generationRecordByteSha256": "5208521370a7f12b55ec1125cc664ccea03e04db73713c4187040401756d7ddd",
+        "recordedPromptSha256": "0bcf85106e8b63165e50dea25dd36bf6d055f8e60a62414ce6f7e5d742b6223f",
+        "submittedPromptSha256": "0bcf85106e8b63165e50dea25dd36bf6d055f8e60a62414ce6f7e5d742b6223f"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-a.png",
+          "sha256": "bb94e110f936764043d87ff27510ed43c0612b57030692c33af3f9108c4ac2a6"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-b-v1.png",
+          "sha256": "6593f909515ea08055bf3512aff071b9bde258456f00424e35bc14c5cad74d17"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-c-v2",
+      "file": "assets/items/head-adornments/world/world-2000-c-v2.png",
+      "prompt": "Use case: stylized-concept.\r\nGenerate a brand-new transparent RGBA world sprite atlas for Daoist chibi game item 五心祈愿. Input1 source phase board is STRUCTURE: only source phases[12, 13, 14] in this request. Input2 our already-made six-phase heart atlas is MATERIAL/SMALL HEART SCALE reference only, not its layout. Input3 existing inventory is our rose-jade/gold heart identity. Inputs4/5 confirmed Daoist hand-painted style.\r\nRequested canvas1536x512, exact3columns x1rows. Each cell512square contains exactly FIVE SEPARATED heart jewels, total15 hearts. No missing/extra heart. Wide shallow, empty-centred orbit-like constellation from actual source phase. Do NOT copy a regular pentagon or a static arrangement. DO NOT draw any ring, string, trajectory, particles, extra light streaks, head, body or background.\r\nHearts are SMALL and plump-wide, around75pxwide x58pxhigh, fine translucent rose/salmon jade with warm-gold narrow rim and tiny integrated cloud-curl within the heart outline. Natural illustration, no plastic3D, no teardrop long points. Important: retain source native ratio of the COMPLETE five-heart OUTER visible envelope. Each constellation should be about440-450px wide but ONLY205-235px tall, according to each ratio listed. Previous tall constellations failed; draw upper and lower hearts closer and slightly smaller. This is visible group size including each jewel's extremities; transparent padding is not part of ratio.\r\nGenuine alpha=0 must exist in all gaps, centre and outside the jewels. NO semi-transparent bronze/grey/color field, fog, halo, gold glow, shadow or vignette anywhere. Every heart whole, no contact with cell edge, >=25px fully transparent margins; no grid/text/labels.\r\n\r\nLeft to right, top row then bottom if present:\r\nCell1 phase12: native54:27, full visible aspect2.00000. Alpha-centres as % within source visible group: [[9.3, 65.7], [17.6, 15.0], [58.3, 11.2], [58.3, 77.5], [88.9, 35.3]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell2 phase13: native58:28, full visible aspect2.07143. Alpha-centres as % within source visible group: [[8.6, 52.6], [30.2, 10.8], [50.9, 78.3], [68.1, 10.8], [89.7, 48.3]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell3 phase14: native57:30, full visible aspect1.90000. Alpha-centres as % within source visible group: [[8.8, 39.1], [39.5, 10.1], [43.0, 79.7], [78.1, 16.8], [89.5, 58.4]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nPreserve source phase geometry but own jade-heart identity, no mirroring/software distortions. Head attachment and timing are unverified; these are static phases only. Highest host-provided quality target.",
+      "actualPromptCharacterLength": 2715,
+      "crCount": 10,
+      "lfCount": 10,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-b-v1.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-5f53fe70-75bf-4b94-9262-7ccd352ec143.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-5f53fe70-75bf-4b94-9262-7ccd352ec143.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-c-v2-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-c-v2-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "d0ae37bba3f794f3c657b7df2b9ffb8c44b061706a2f63863ed7d6bb1a7ce312",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-c-v2.png.generation.json",
+        "generationRecordByteSha256": "6a747cd438e954b2e9922dde9c627749fd1cc50ca680472f77ff89722034185b",
+        "recordedPromptSha256": "3a9e55cf790a9e176b2767506eccfa34679d6a5d79966815810bff04aba57000",
+        "submittedPromptSha256": "3a9e55cf790a9e176b2767506eccfa34679d6a5d79966815810bff04aba57000"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+          "sha256": "ab187d0b4bfe5e58af7860e9873a0a6e3a67f7ad7591c631b2e1050c040a51a7"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-b-v1.png",
+          "sha256": "6593f909515ea08055bf3512aff071b9bde258456f00424e35bc14c5cad74d17"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-d-v2",
+      "file": "assets/items/head-adornments/world/world-2000-d-v2.png",
+      "prompt": "Use case: stylized-concept.\r\nGenerate a brand-new transparent RGBA world sprite atlas for Daoist chibi game item 五心祈愿. Input1 source phase board is STRUCTURE: only source phases[18, 19, 20] in this request. Input2 our already-made six-phase heart atlas is MATERIAL/SMALL HEART SCALE reference only, not its layout. Input3 existing inventory is our rose-jade/gold heart identity. Inputs4/5 confirmed Daoist hand-painted style.\r\nRequested canvas1536x512, exact3columns x1rows. Each cell512square contains exactly FIVE SEPARATED heart jewels, total15 hearts. No missing/extra heart. Wide shallow, empty-centred orbit-like constellation from actual source phase. Do NOT copy a regular pentagon or a static arrangement. DO NOT draw any ring, string, trajectory, particles, extra light streaks, head, body or background.\r\nHearts are SMALL and plump-wide, around75pxwide x58pxhigh, fine translucent rose/salmon jade with warm-gold narrow rim and tiny integrated cloud-curl within the heart outline. Natural illustration, no plastic3D, no teardrop long points. Important: retain source native ratio of the COMPLETE five-heart OUTER visible envelope. Each constellation should be about440-450px wide but ONLY205-235px tall, according to each ratio listed. Previous tall constellations failed; draw upper and lower hearts closer and slightly smaller. This is visible group size including each jewel's extremities; transparent padding is not part of ratio.\r\nGenuine alpha=0 must exist in all gaps, centre and outside the jewels. NO semi-transparent bronze/grey/color field, fog, halo, gold glow, shadow or vignette anywhere. Every heart whole, no contact with cell edge, >=25px fully transparent margins; no grid/text/labels.\r\n\r\nLeft to right, top row then bottom if present:\r\nCell1 phase18: native54:27, full visible aspect2.00000. Alpha-centres as % within source visible group: [[9.3, 65.7], [17.6, 15.0], [58.3, 11.2], [58.3, 77.5], [88.9, 35.3]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell2 phase19: native58:28, full visible aspect2.07143. Alpha-centres as % within source visible group: [[8.6, 52.6], [30.2, 10.8], [50.9, 78.3], [68.1, 10.8], [89.7, 48.3]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nCell3 phase20: native57:30, full visible aspect1.90000. Alpha-centres as % within source visible group: [[8.8, 39.1], [39.5, 10.1], [43.0, 79.7], [78.1, 16.8], [89.5, 58.4]]. Follow source board for heart tilt/size. Never print numbers or guides.\r\nPreserve source phase geometry but own jade-heart identity, no mirroring/software distortions. Head attachment and timing are unverified; these are static phases only. Highest host-provided quality target.",
+      "actualPromptCharacterLength": 2715,
+      "crCount": 10,
+      "lfCount": 10,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-d.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-b-v1.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-b77e83a2-4af9-4553-bf42-507ee0a68465.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-b77e83a2-4af9-4553-bf42-507ee0a68465.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-d-v2-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-d-v2-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "002e8bc21dc1ded058ea0bc4794e7a71a8393a4c6e23b5aaa8bc61c5ede1d4db",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-d-v2.png.generation.json",
+        "generationRecordByteSha256": "3363d60e084b535542032897fd8aca4f8b780ed3a7b09e2956e819ff0bf2b295",
+        "recordedPromptSha256": "b25a8acc46598464fd4d42424594dec1304e95fc4038516b8caeb09fa963370e",
+        "submittedPromptSha256": "b25a8acc46598464fd4d42424594dec1304e95fc4038516b8caeb09fa963370e"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-d.png",
+          "sha256": "017d976154c5d2c187bbdb336688fb5b6e2fae393cbf584b38b269d8a88762f7"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-b-v1.png",
+          "sha256": "6593f909515ea08055bf3512aff071b9bde258456f00424e35bc14c5cad74d17"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-c-v3",
+      "file": "assets/items/head-adornments/world/world-2000-c-v3.png",
+      "prompt": "Use case: stylized-concept.\r\nGenerate TWO clean transparent RGBA sprite groups for 五心祈愿, requested1536x768, TWO columns ONE row. Each cell768square has exactly FIVE physically SEPARATED rose-pink jade HEART JEWELS, ten hearts total. No background image or particles of any kind.\r\nImage1 actual source board phases12-17 controls arrangement: use ONLY source15 (bottom-left) for left output, source16 (bottom-middle) for right output. Image2 our existing inventory controls own pink jade/gold rim/mini cloud-scroll identity, not its static layout. Images3/4 confirmed Daoist Q HD hand-painted style.\r\nCorrect technical problem: previous images had faint fog connecting two hearts or small detached alpha dots. New image must have PURE EMPTY ALPHA=0 between all five jewels and at centre/exterior. No glow, halo, shadow, fog, coloured clouds, specks, sparkles, orbit line, ring or rope. Each jewel has only its physical jade/gold edges, clean antialiased alpha; mini cloud-scroll remains attached inside the rim, never detached.\r\nFive plump-wide pink jade hearts around110wide x85high, thin warm-gold rim and one tiny integrated cloud curl, finely hand-painted, not pixel/plastic3D. Entire constellation about630pxwide. LEFT phase15 full visible outer aspect51:29=1.75862, height around358px; RIGHT phase16 aspect51:27=1.88889, around334pxhigh. This ratio includes all heart extremities, not padding. Draw hearts naturally in these shallow ellipse arrangements. All five remain whole inside each cell with>=45px empty alpha margins. Do not mirror one group or move all five rigidly as one static pentagon.\r\nSource15 five normalized alpha-centres: [9.8,30.15],[32.35,79.05],[48.04,10.48],[86.27,67.34],[89.22,20.82]. Source16: [9.8,24.97],[14.71,77.49],[50,11.25],[70.59,76.03],[89.22,29.77]. Use actual source board for each heart face-angle and size. No printed guides/numbers/text/grid.\r\nKeep centre truly hollow and EVERY heart independent. Source rawOffset/timing/head attachment are separate data and unverified; no extra whole-group bob. Highest host-provided quality target.",
+      "actualPromptCharacterLength": 2078,
+      "crCount": 6,
+      "lfCount": 6,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-d8c6ee29-5197-4d7a-97eb-f68a26919155.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-d8c6ee29-5197-4d7a-97eb-f68a26919155.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-c-v3-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-c-v3-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "a9bc3ef3624c86388c3fd3dbeb244299379a2317914a2c68ed087a2517d93a3b",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-c-v3.png.generation.json",
+        "generationRecordByteSha256": "e6f5359f63968d70b599f2e160b7e33fa323ba47bf099827ee6395f076c4d49f",
+        "recordedPromptSha256": "778d5eb8b678c08fe287e3afe159a4196775f05680f22c6cbb61b3af3bbec4bd",
+        "submittedPromptSha256": "778d5eb8b678c08fe287e3afe159a4196775f05680f22c6cbb61b3af3bbec4bd"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+          "sha256": "ab187d0b4bfe5e58af7860e9873a0a6e3a67f7ad7591c631b2e1050c040a51a7"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-phase15-v1",
+      "file": "assets/items/head-adornments/world/world-2000-phase15-v1.png",
+      "prompt": "Use case: stylized-concept. One original Daoist Q game overhead-effect sprite 五心祈愿, source phase15, genuinely transparent RGBA, requested1024x1024.\r\nImage1 REAL source single-phase reference controls the FIVE heart positions and visual size/tilt. Image2 OUR established inventory jewel identity/material only; do NOT reuse its static arrangement. Images3/4 confirmed project hand-painted style only.\r\nDraw EXACTLY FIVE SEPARATE pink jade heart jewels, no sixth ornament, no centre body. Each jewel is plump, rose/salmon jade with a thin warm-gold rim and tiny attached cloud-scroll curl inside the rim. Fine detailed Daoist Q hand painting, no plastic3D.\r\nThe constellation is a WIDE SHALLOW ELLIPSE, complete visible outer envelope ratio51:29=1.758621, about840px wide by478px high, centred on the1024square with fully empty margins. This includes the entire jewels, not centre points or padding. The source's five normalized alpha-centres within visible envelope are[[9.8, 30.15], [32.35, 79.05], [48.04, 10.48], [86.27, 67.34], [89.22, 20.82]]; match their distinct layout, NOT a regular pentagon. Use actual reference for gem face tilt. Hearts around150wide x120high, physically separated by large alpha=0 gaps, exactly five.\r\nALL area outside the five PHYSICAL jewels must be actual alpha=0, including every inter-jewel gap and hollow centre. No grey/gold/white fog, coloured light, bloom, halo, shadow, particles, stars, ring, rope, trails or surface. Use clean antialiased jewel cutout edges only. No glints detached from physical rims. Do not draw the source label, measurements, UI or background. Five complete standalone hearts floating in truly EMPTY TRANSPARENCY. No rescaling an existing image, no mirror; redraw this specific source phase with our own jade/gold identity. Static pose only, native timing/head attachment unverified. Highest host-provided quality target.",
+      "actualPromptCharacterLength": 1883,
+      "crCount": 4,
+      "lfCount": 4,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-015-board.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-a81abd0f-6ae8-484f-bd8b-f7175f3f2256.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-a81abd0f-6ae8-484f-bd8b-f7175f3f2256.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-phase15-v1-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-phase15-v1-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "5b53f34f1e38374acbf9bbd65393b5c195eec03b51fd1f4ac972bee365f34a77",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-phase15-v1.png.generation.json",
+        "generationRecordByteSha256": "aa80a0666a8e8f273978a59de28e033bbbf79c405e262b493bcef7cd87072ec6",
+        "recordedPromptSha256": "3d4928f1842773406dfc108afe445b6436a72eca377217bd824c6c43d56da1db",
+        "submittedPromptSha256": "3d4928f1842773406dfc108afe445b6436a72eca377217bd824c6c43d56da1db"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-015-board.png",
+          "sha256": "cd5e2f9be46d586408b0f5141790dc7090d828a71194cee4369773fa0bc5ae97"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-phase16-v1",
+      "file": "assets/items/head-adornments/world/world-2000-phase16-v1.png",
+      "prompt": "Use case: stylized-concept. One original Daoist Q game overhead-effect sprite 五心祈愿, source phase16, genuinely transparent RGBA, requested1024x1024.\r\nImage1 REAL source single-phase reference controls the FIVE heart positions and visual size/tilt. Image2 OUR established inventory jewel identity/material only; do NOT reuse its static arrangement. Images3/4 confirmed project hand-painted style only.\r\nDraw EXACTLY FIVE SEPARATE pink jade heart jewels, no sixth ornament, no centre body. Each jewel is plump, rose/salmon jade with a thin warm-gold rim and tiny attached cloud-scroll curl inside the rim. Fine detailed Daoist Q hand painting, no plastic3D.\r\nThe constellation is a WIDE SHALLOW ELLIPSE, complete visible outer envelope ratio51:27=1.888889, about840px wide by445px high, centred on the1024square with fully empty margins. This includes the entire jewels, not centre points or padding. The source's five normalized alpha-centres within visible envelope are[[9.8, 24.97], [14.71, 77.49], [50, 11.25], [70.59, 76.03], [89.22, 29.77]]; match their distinct layout, NOT a regular pentagon. Use actual reference for gem face tilt. Hearts around150wide x120high, physically separated by large alpha=0 gaps, exactly five.\r\nALL area outside the five PHYSICAL jewels must be actual alpha=0, including every inter-jewel gap and hollow centre. No grey/gold/white fog, coloured light, bloom, halo, shadow, particles, stars, ring, rope, trails or surface. Use clean antialiased jewel cutout edges only. No glints detached from physical rims. Do not draw the source label, measurements, UI or background. Five complete standalone hearts floating in truly EMPTY TRANSPARENCY. No rescaling an existing image, no mirror; redraw this specific source phase with our own jade/gold identity. Static pose only, native timing/head attachment unverified. Highest host-provided quality target.",
+      "actualPromptCharacterLength": 1880,
+      "crCount": 4,
+      "lfCount": 4,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-1e6f25b9-963a-48ca-8c3b-651b94474cdd.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-1e6f25b9-963a-48ca-8c3b-651b94474cdd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-phase16-v1-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-phase16-v1-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "4cb1eedd7e9db1e60661764822d4623b8dde83b40444da074afa9e5f3906989c",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-phase16-v1.png.generation.json",
+        "generationRecordByteSha256": "cb07821fb2efdde05842b3b938339189ddc43809acc6b68e3f3c9abe1863daeb",
+        "recordedPromptSha256": "ce1a814860a3ade36cad06428ce031618041670d1d6a974cf57f88cfb0691f61",
+        "submittedPromptSha256": "ce1a814860a3ade36cad06428ce031618041670d1d6a974cf57f88cfb0691f61"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+          "sha256": "4adf13120607702f899ffa3783107f001d337c80b76b739391e27e0a91502d03"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-phase15-v2",
+      "file": "assets/items/head-adornments/world/world-2000-phase15-v2.png",
+      "prompt": "Use case: precise-object-edit.\r\nImage1 ACTUAL AI EDIT TARGET is our single source-phase15 five-heart sprite, native1254x1254. Image2 actual source phase15 controls relative arrangement. Image3 established inventory heart identity only. Images4/5 style only.\r\nRedraw the five jewels NATURALLY at about80percent of their current physical size around the same centres. Keep exactly FIVE, same rose-jade/gold identity, same fine painting and five separate transparent gaps. Keep the upper three jewel centres stable. Raise only the LOWER TWO heart centres by about80px compared with target. Their smaller size gives clear gaps, do NOT overlap any jewels. This fixes the current too-tall outer envelope [69,221,1187,977]. New complete visible alpha envelope should beabout1055wide x600high, intrinsic ratio51:29=1.75862, not counting empty canvas. Current target jewels are too big and low; do not leave the old envelope unchanged.\r\nAll geometry correction must be freshly hand-painted by image generation, no flat squashing/stretching. Hearts remain plump and wide, their contour and gold cloud-curl intact but smaller. Five whole natural jewels only, no extra dots, light trails, ring, rope, fog, halo, grey/gold field, shadow, text or UI. Entire exterior, centre and every inter-jewel gap must have real alpha=0. The target already has safe empty alpha; preserve it, don't introduce translucent background haze. Original source head attachment/timing remain unknown. Same canvas framing is fine, with ample empty space; only actual jewel envelope ratio counts. Highest host-provided image quality target.",
+      "actualPromptCharacterLength": 1602,
+      "crCount": 3,
+      "lfCount": 3,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-phase15-v1.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-015-board.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-70f23749-82d3-4bed-801d-00ef5c31b694.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-70f23749-82d3-4bed-801d-00ef5c31b694.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-phase15-v2-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-phase15-v2-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "7d5f70652ba154544749e56addd7d98a02fffd711db8f4aef2d02b41145edc9b",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-phase15-v2.png.generation.json",
+        "generationRecordByteSha256": "4d2466d35dc0e29be37f98f20366de22fe2b0bbc1ac4e5fff19646de34871b52",
+        "recordedPromptSha256": "37650032b7ad3323fe03c161b6f77d14112d321c540a03656e0f45977f4d9724",
+        "submittedPromptSha256": "37650032b7ad3323fe03c161b6f77d14112d321c540a03656e0f45977f4d9724"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-phase15-v1.png",
+          "sha256": "87330698379fdd8a2d6cdaf15c15f8f8b62a38ab70873fcfff331553e97d3fec"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-015-board.png",
+          "sha256": "cd5e2f9be46d586408b0f5141790dc7090d828a71194cee4369773fa0bc5ae97"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-phase16-v2",
+      "file": "assets/items/head-adornments/world/world-2000-phase16-v2.png",
+      "prompt": "Use case: precise-object-edit.\r\nImage1 ACTUAL AI EDIT TARGET is our single source-phase16 five-heart sprite, native1261x1247. Image2 actual source phase16 controls relative arrangement. Image3 established inventory heart identity only. Images4/5 style only.\r\nRedraw the five jewels NATURALLY at about80percent of their current physical size around the same centres. Keep exactly FIVE, same rose-jade/gold identity, same fine painting and five separate transparent gaps. Keep the upper three jewel centres stable. Raise only the LOWER TWO heart centres by about60px compared with target. Their smaller size gives clear gaps, do NOT overlap any jewels. This fixes the current too-tall outer envelope [74,257,1171,923]. New complete visible alpha envelope should beabout1035wide x548high, intrinsic ratio51:27=1.88889, not counting empty canvas. Current target jewels are too big and low; do not leave the old envelope unchanged.\r\nAll geometry correction must be freshly hand-painted by image generation, no flat squashing/stretching. Hearts remain plump and wide, their contour and gold cloud-curl intact but smaller. Five whole natural jewels only, no extra dots, light trails, ring, rope, fog, halo, grey/gold field, shadow, text or UI. Entire exterior, centre and every inter-jewel gap must have real alpha=0. The target already has safe empty alpha; preserve it, don't introduce translucent background haze. Original source head attachment/timing remain unknown. Same canvas framing is fine, with ample empty space; only actual jewel envelope ratio counts. Highest host-provided image quality target.",
+      "actualPromptCharacterLength": 1602,
+      "crCount": 3,
+      "lfCount": 3,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-phase16-v1.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-119fca47-a2bb-470f-8dbf-d069119459e3.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-119fca47-a2bb-470f-8dbf-d069119459e3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-phase16-v2-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-phase16-v2-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "69de066b92a273b8582bfec7a273cd57744e17b978bb0be16fc35ae4b4a8ee60",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-phase16-v2.png.generation.json",
+        "generationRecordByteSha256": "390be4a3bfc55cf36b81b120b6c0e6a281f7006950e7c29b42107c658c18974e",
+        "recordedPromptSha256": "e1c6a1e42e29e71190f4a17be765d1963a4e60713a2c7affca0d5a74f43c1f10",
+        "submittedPromptSha256": "e1c6a1e42e29e71190f4a17be765d1963a4e60713a2c7affca0d5a74f43c1f10"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-phase16-v1.png",
+          "sha256": "44cb473b6202ed410212e516ef57d44f114e44d9256e1a9d0ca09d892a24f59b"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+          "sha256": "4adf13120607702f899ffa3783107f001d337c80b76b739391e27e0a91502d03"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+          "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+        }
+      ]
+    },
+    {
+      "version": "2000-phase16-v3",
+      "file": "assets/items/head-adornments/world/world-2000-phase16-v3.png",
+      "prompt": "Use case: background-extraction / precise-object-edit.\r\nImage1 is the ACTUAL EDIT TARGET: our five rose-jade/gold heart jewels in source phase16,512x512 crop. Its visible artwork ratio already fits the source. Keep the exact FIVE heart shapes, material, relative positions, face tilts and scale relationships. Do NOT spread/reorder them, enlarge/shrink individual hearts, move their centres, squash or mirror. Image2 is real phase16 for structural verification. Only these two inputs are attached; keep the existing target art style unchanged.\r\nOnly fix the background/alpha: remove faint translucent colour/fog and tiny isolated alpha spots, leaving FIVE distinct physical heart cutouts and fully empty alpha=0 throughout all exterior, hollow centre and all inter-heart gaps. Preserve the natural antialiased physical gold rims and every attached cloud-scroll. No detached specular dots, stars, halo, glow, shadow, or new decorative marks. No new objects or text.\r\nKeep the complete physical visible five-heart envelope ratio around1.75 to1.89, source native51:27=1.88889; existing crop's envelope426x244=1.7459 is already within tolerance. Do NOT change composition or make it taller/flatter. Requested1024x1024 for clean re-render of same illustration, transparent RGBA. Only the physical five jade hearts remain; no coloured field behind them. Original head/timing contract stays unverified. Highest host-provided image quality target.",
+      "actualPromptCharacterLength": 1439,
+      "crCount": 3,
+      "lfCount": 3,
+      "submittedParameters": {
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/own-phase016-cleanup-target.png",
+          "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png"
+        ]
+      },
+      "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-2c8f8de5-f772-462c-ae7a-f237c8b2065b.png",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-2c8f8de5-f772-462c-ae7a-f237c8b2065b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "actualModel": null,
+      "actualQuality": null,
+      "evidence": {
+        "prompt": "Original functions.load('2000-phase16-v3-prompt') value, stored immediately before and passed unchanged to image_gen tool",
+        "references": "Exact literal ordered absolute referenced_image_paths arrays in the original tool calls retained in this agent's conversation history; not recovered from generation metadata",
+        "result": "Original functions.load('2000-phase16-v3-result') object, hostSource parsed only from its actual output_hint; image payload not duplicated"
+      },
+      "actualSubmittedPromptSha256": "37801784ca00d1d6724944ffef2dbefb0096664853c73e658933b7976bca5d01",
+      "registrationSnapshotBeforeCorrection": {
+        "generationRecord": "assets/items/head-adornments/world/world-2000-phase16-v3.png.generation.json",
+        "generationRecordByteSha256": "1f7abb11c7014351a09da9c8a59afcaf5f54d307a4913642e65e7598dd005ea6",
+        "recordedPromptSha256": "bcc9553cd9dcacf8e6ccb3255eab38cc9cb49137354e14a2bf7add0a93d8646c",
+        "submittedPromptSha256": "bcc9553cd9dcacf8e6ccb3255eab38cc9cb49137354e14a2bf7add0a93d8646c"
+      },
+      "referencesAtRecovery": [
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/own-phase016-cleanup-target.png",
+          "sha256": "c4f5f51d420ce3c2cf5f3caf711529fa98406c9e0ec922c0ff4c35e02b0320e2"
+        },
+        {
+          "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+          "sha256": "4adf13120607702f899ffa3783107f001d337c80b76b739391e27e0a91502d03"
+        }
+      ]
+    }
+  ],
+  "capturedAtUTC": "2026-11-12T08:44:29.489879+00:00",
+  "timestampMeaning": "Evidence recovery time, not provider generation time"
+}

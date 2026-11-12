@@ -1,0 +1,91 @@
+{
+  "file": "assets/items/head-adornments/world/world-2000-phase16-v3.png",
+  "sha256": "f5d8f3a5b3bbdb23689801a1d0d6bc0be4e505af6ae7a50f4c85f9a88087ba70",
+  "generatedAt": "2026-11-12T08:26:14.509Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/own-phase016-cleanup-target.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: background-extraction / precise-object-edit.\r\nImage1 is the ACTUAL EDIT TARGET: our five rose-jade/gold heart jewels in source phase16,512x512 crop. Its visible artwork ratio already fits the source. Keep the exact FIVE heart shapes, material, relative positions, face tilts and scale relationships. Do NOT spread/reorder them, enlarge/shrink individual hearts, move their centres, squash or mirror. Image2 is real phase16 for structural verification. Only these two inputs are attached; keep the existing target art style unchanged.\r\nOnly fix the background/alpha: remove faint translucent colour/fog and tiny isolated alpha spots, leaving FIVE distinct physical heart cutouts and fully empty alpha=0 throughout all exterior, hollow centre and all inter-heart gaps. Preserve the natural antialiased physical gold rims and every attached cloud-scroll. No detached specular dots, stars, halo, glow, shadow, or new decorative marks. No new objects or text.\r\nKeep the complete physical visible five-heart envelope ratio around1.75 to1.89, source native51:27=1.88889; existing crop's envelope426x244=1.7459 is already within tolerance. Do NOT change composition or make it taller/flatter. Requested1024x1024 for clean re-render of same illustration, transparent RGBA. Only the physical five jade hearts remain; no coloured field behind them. Original head/timing contract stays unverified. Highest host-provided image quality target.",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/own-phase016-cleanup-target.png",
+      "purpose": "actual AI edit target: own generated phase16 mother crop",
+      "sha256": "c4f5f51d420ce3c2cf5f3caf711529fa98406c9e0ec922c0ff4c35e02b0320e2"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+      "purpose": "actual source phase16 structure only",
+      "sha256": "4adf13120607702f899ffa3783107f001d337c80b76b739391e27e0a91502d03"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-2c8f8de5-f772-462c-ae7a-f237c8b2065b.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in AI edit for alpha background cleanup using actual own crop target; no program pixel cleanup",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-2000-phase16-v3.prompt.txt",
+  "promptFileSha256": "24089dbaa8ad9adf1385f8ba231181b39a8c32614d3b7682b554cc5b9754ab93",
+  "submittedPromptSha256": "37801784ca00d1d6724944ffef2dbefb0096664853c73e658933b7976bca5d01",
+  "promptSubmission": "Exact prompt file trimmed only at beginning/end",
+  "editOf": {
+    "file": "assets/items/head-adornments/references/world/2000/own-phase016-cleanup-target.png",
+    "sha256": "c4f5f51d420ce3c2cf5f3caf711529fa98406c9e0ec922c0ff4c35e02b0320e2",
+    "sourceRecord": "assets/items/head-adornments/references/world/2000/own-phase016-cleanup-target.png.source.json"
+  },
+  "exactPrompt": "Use case: background-extraction / precise-object-edit.\r\nImage1 is the ACTUAL EDIT TARGET: our five rose-jade/gold heart jewels in source phase16,512x512 crop. Its visible artwork ratio already fits the source. Keep the exact FIVE heart shapes, material, relative positions, face tilts and scale relationships. Do NOT spread/reorder them, enlarge/shrink individual hearts, move their centres, squash or mirror. Image2 is real phase16 for structural verification. Only these two inputs are attached; keep the existing target art style unchanged.\r\nOnly fix the background/alpha: remove faint translucent colour/fog and tiny isolated alpha spots, leaving FIVE distinct physical heart cutouts and fully empty alpha=0 throughout all exterior, hollow centre and all inter-heart gaps. Preserve the natural antialiased physical gold rims and every attached cloud-scroll. No detached specular dots, stars, halo, glow, shadow, or new decorative marks. No new objects or text.\r\nKeep the complete physical visible five-heart envelope ratio around1.75 to1.89, source native51:27=1.88889; existing crop's envelope426x244=1.7459 is already within tolerance. Do NOT change composition or make it taller/flatter. Requested1024x1024 for clean re-render of same illustration, transparent RGBA. Only the physical five jade hearts remain; no coloured field behind them. Original head/timing contract stays unverified. Highest host-provided image quality target.",
+  "registrationCorrection": {
+    "correctedAtUTC": "2026-11-12T08:44:29.794753+00:00",
+    "previousRecordedPromptSha256": "bcc9553cd9dcacf8e6ccb3255eab38cc9cb49137354e14a2bf7add0a93d8646c",
+    "previousSubmittedPromptSha256": "bcc9553cd9dcacf8e6ccb3255eab38cc9cb49137354e14a2bf7add0a93d8646c",
+    "previousGenerationRecordByteSha256": "1f7abb11c7014351a09da9c8a59afcaf5f54d307a4913642e65e7598dd005ea6",
+    "actualSubmittedPromptSha256": "37801784ca00d1d6724944ffef2dbefb0096664853c73e658933b7976bca5d01",
+    "actualSubmissionEvidence": {
+      "file": "docs/art-review-20261112b/2000-builtin-submissions.json",
+      "sha256": "953ca22ab4b017dbc5570a0b7a0a8f5fd1773ee2df1b478a557c2b21b91c0459",
+      "entryVersion": "2000-phase16-v3"
+    },
+    "reason": "Original builtin arguments were retained with CRLF in functions.store before the actual image_gen call. Initial Python Path.read_text used universal-newline normalization for SHA registration and, for thirteen takes, the recorded prompt text. A2 retained the correct CRLF prompt text but its registered submittedPromptSha256 was computed from the LF-normalized file text. This correction restores exact original submitted strings, not a new submission.",
+    "normalizationAppliedToActualEvidence": "none",
+    "scope": "Generation metadata text/SHA correction only; prompt files, generated pixels, candidate manifest and previews unchanged"
+  }
+}

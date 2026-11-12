@@ -1,0 +1,98 @@
+{
+  "file": "assets/items/head-adornments/world/world-2000-c-v1.png",
+  "sha256": "e6575fadf1897a4e2a62e605dc14715cadb40bb5fd7ed90a7ef3e4c9f3e596ad",
+  "generatedAt": "2026-11-12T07:51:08.390Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: stylized-concept.\r\nAsset type: transparent hand-painted game overhead-adornment phase atlas for original Daoist chibi game 灵葫大作战, item 五心祈愿.\r\nInput roles: image1 ACTUAL SOURCE PHASE BOARD controls exactly five hearts, their per-phase position, size and face tilt; image2 OUR EXISTING inventory heart-jewel identity controls material and shape only, NOT its static arrangement; images3/4 confirmed project Daoist Q hand-painted style references only.\r\nCreate a genuinely transparent RGBA atlas, requested1536x1024, exact3columns2rows, six separate512x512 cells. Each cell contains EXACTLY FIVE separated floating heart jewels, total30 visible hearts on sheet. These are the same five rose-jade heart ornaments in successive source phases, not regular pentagons and not a copied static arrangement. Retain clean transparent empty centre and transparent gaps between ALL five hearts. No physical circle, ring, string, orbit line, trails, wearer or central object.\r\nOur identity: softly translucent salmon/rose-pink jade hearts, plump rounded heart silhouettes, elegant warm-gold narrow rims and one tiny integrated gold cloud-scroll curl within each heart outline. Fine Daoist Q HD hand-painted gold/jade finish from the two style refs. NOT plastic3D or red pixel art. No new loose sparkles, particles, glows, fog, shadows, text or grid lines. Do not add points beyond each physical heart.\r\nThe complete VISIBLE alpha envelope of each five-heart group must have its source native ratio, not counting transparent canvas padding. Each group about440px wide with its height drawn naturally as specified below. Keep all hearts whole, naturally hand-drawn, with generous true empty alpha margins >=30px in each cell. Do not crop, stretch, mirror, or repeat/relabel one arrangement.\r\n\r\nTOP ROW then BOTTOM ROW, left to right:\r\nCell1, source phase12: native envelope54:27, complete visible aspect2.00000, around440wide x220high. Five alpha-centres as percentages within visible group: [[9.3, 65.7], [17.6, 15.0], [58.3, 11.2], [58.3, 77.5], [88.9, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell2, source phase13: native envelope58:28, complete visible aspect2.07143, around440wide x212high. Five alpha-centres as percentages within visible group: [[8.6, 52.6], [30.2, 10.8], [50.9, 78.3], [68.1, 10.8], [89.7, 48.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell3, source phase14: native envelope57:30, complete visible aspect1.90000, around440wide x232high. Five alpha-centres as percentages within visible group: [[8.8, 39.1], [39.5, 10.1], [43.0, 79.7], [78.1, 16.8], [89.5, 58.4]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell4, source phase15: native envelope51:29, complete visible aspect1.75862, around440wide x250high. Five alpha-centres as percentages within visible group: [[9.8, 30.1], [32.4, 79.0], [48.0, 10.5], [86.3, 67.3], [89.2, 20.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell5, source phase16: native envelope51:27, complete visible aspect1.88889, around440wide x233high. Five alpha-centres as percentages within visible group: [[9.8, 25.0], [14.7, 77.5], [50.0, 11.2], [70.6, 76.0], [89.2, 29.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell6, source phase17: native envelope52:27, complete visible aspect1.92593, around440wide x228high. Five alpha-centres as percentages within visible group: [[9.6, 76.8], [12.5, 22.4], [52.9, 11.2], [62.5, 77.5], [88.5, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nNo whole-object bob or invented compass label: source rawOffset is separate preserved data. All source timing and head attachment remain unverified; render these six static phases only. Highest available host-provided image quality target.\r\n\r\nCritical geometry: hearts must be SMALL, WIDE and shallow, around75-85px wide and60-70px high individually, with no tall teardrop point. Five-heart constellation W440-460px, with complete height220-245px (phase-dependent ratios above). Keep upper and lower hearts closer vertically; the result must be a WIDE SHALLOW ellipse, not a near-circle. Intrinsic source ratio is the alpha-visible outer envelope INCLUDING all five hearts, not centre positions alone.",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phases-c.png",
+      "purpose": "actual source six phases, structure only",
+      "sha256": "ab187d0b4bfe5e58af7860e9873a0a6e3a67f7ad7591c631b2e1050c040a51a7"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+      "purpose": "own inventory heart identity, not native world geometry",
+      "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "purpose": "confirmed mail UI style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+      "purpose": "confirmed team UI style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-90483235-7ea7-4f4b-80b0-55ef8f47d8df.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-2000-c-v1.prompt.txt",
+  "promptFileSha256": "3953345e7f76b3d1be7175e6ccd0540b2bab9a62ea6642997a43df90794f721e",
+  "submittedPromptSha256": "5750745399ef33080c6cda101019a2f128116ff41ca7ba3a66c0bccbecb496bd",
+  "promptSubmission": "Exact prompt file trimmed only at beginning/end",
+  "exactPrompt": "Use case: stylized-concept.\r\nAsset type: transparent hand-painted game overhead-adornment phase atlas for original Daoist chibi game 灵葫大作战, item 五心祈愿.\r\nInput roles: image1 ACTUAL SOURCE PHASE BOARD controls exactly five hearts, their per-phase position, size and face tilt; image2 OUR EXISTING inventory heart-jewel identity controls material and shape only, NOT its static arrangement; images3/4 confirmed project Daoist Q hand-painted style references only.\r\nCreate a genuinely transparent RGBA atlas, requested1536x1024, exact3columns2rows, six separate512x512 cells. Each cell contains EXACTLY FIVE separated floating heart jewels, total30 visible hearts on sheet. These are the same five rose-jade heart ornaments in successive source phases, not regular pentagons and not a copied static arrangement. Retain clean transparent empty centre and transparent gaps between ALL five hearts. No physical circle, ring, string, orbit line, trails, wearer or central object.\r\nOur identity: softly translucent salmon/rose-pink jade hearts, plump rounded heart silhouettes, elegant warm-gold narrow rims and one tiny integrated gold cloud-scroll curl within each heart outline. Fine Daoist Q HD hand-painted gold/jade finish from the two style refs. NOT plastic3D or red pixel art. No new loose sparkles, particles, glows, fog, shadows, text or grid lines. Do not add points beyond each physical heart.\r\nThe complete VISIBLE alpha envelope of each five-heart group must have its source native ratio, not counting transparent canvas padding. Each group about440px wide with its height drawn naturally as specified below. Keep all hearts whole, naturally hand-drawn, with generous true empty alpha margins >=30px in each cell. Do not crop, stretch, mirror, or repeat/relabel one arrangement.\r\n\r\nTOP ROW then BOTTOM ROW, left to right:\r\nCell1, source phase12: native envelope54:27, complete visible aspect2.00000, around440wide x220high. Five alpha-centres as percentages within visible group: [[9.3, 65.7], [17.6, 15.0], [58.3, 11.2], [58.3, 77.5], [88.9, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell2, source phase13: native envelope58:28, complete visible aspect2.07143, around440wide x212high. Five alpha-centres as percentages within visible group: [[8.6, 52.6], [30.2, 10.8], [50.9, 78.3], [68.1, 10.8], [89.7, 48.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell3, source phase14: native envelope57:30, complete visible aspect1.90000, around440wide x232high. Five alpha-centres as percentages within visible group: [[8.8, 39.1], [39.5, 10.1], [43.0, 79.7], [78.1, 16.8], [89.5, 58.4]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell4, source phase15: native envelope51:29, complete visible aspect1.75862, around440wide x250high. Five alpha-centres as percentages within visible group: [[9.8, 30.1], [32.4, 79.0], [48.0, 10.5], [86.3, 67.3], [89.2, 20.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell5, source phase16: native envelope51:27, complete visible aspect1.88889, around440wide x233high. Five alpha-centres as percentages within visible group: [[9.8, 25.0], [14.7, 77.5], [50.0, 11.2], [70.6, 76.0], [89.2, 29.8]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nCell6, source phase17: native envelope52:27, complete visible aspect1.92593, around440wide x228high. Five alpha-centres as percentages within visible group: [[9.6, 76.8], [12.5, 22.4], [52.9, 11.2], [62.5, 77.5], [88.5, 35.3]]. Follow actual source board image for individual face angle and visual size; centres are reference measurements, never draw coordinate guides.\r\nNo whole-object bob or invented compass label: source rawOffset is separate preserved data. All source timing and head attachment remain unverified; render these six static phases only. Highest available host-provided image quality target.\r\n\r\nCritical geometry: hearts must be SMALL, WIDE and shallow, around75-85px wide and60-70px high individually, with no tall teardrop point. Five-heart constellation W440-460px, with complete height220-245px (phase-dependent ratios above). Keep upper and lower hearts closer vertically; the result must be a WIDE SHALLOW ellipse, not a near-circle. Intrinsic source ratio is the alpha-visible outer envelope INCLUDING all five hearts, not centre positions alone.",
+  "registrationCorrection": {
+    "correctedAtUTC": "2026-11-12T08:44:29.786806+00:00",
+    "previousRecordedPromptSha256": "1c59ed17150d6303d27a9cf0088fe1c4ec475c9f43183dbb0e4c6e171bdee4ce",
+    "previousSubmittedPromptSha256": "1c59ed17150d6303d27a9cf0088fe1c4ec475c9f43183dbb0e4c6e171bdee4ce",
+    "previousGenerationRecordByteSha256": "93699238c4c8a621392cfb95f173948a5df42b1f64c3f26ff24cdd48efdadd63",
+    "actualSubmittedPromptSha256": "5750745399ef33080c6cda101019a2f128116ff41ca7ba3a66c0bccbecb496bd",
+    "actualSubmissionEvidence": {
+      "file": "docs/art-review-20261112b/2000-builtin-submissions.json",
+      "sha256": "953ca22ab4b017dbc5570a0b7a0a8f5fd1773ee2df1b478a557c2b21b91c0459",
+      "entryVersion": "2000-c-v1"
+    },
+    "reason": "Original builtin arguments were retained with CRLF in functions.store before the actual image_gen call. Initial Python Path.read_text used universal-newline normalization for SHA registration and, for thirteen takes, the recorded prompt text. A2 retained the correct CRLF prompt text but its registered submittedPromptSha256 was computed from the LF-normalized file text. This correction restores exact original submitted strings, not a new submission.",
+    "normalizationAppliedToActualEvidence": "none",
+    "scope": "Generation metadata text/SHA correction only; prompt files, generated pixels, candidate manifest and previews unchanged"
+  }
+}

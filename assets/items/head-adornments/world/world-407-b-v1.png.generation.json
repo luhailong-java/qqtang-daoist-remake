@@ -1,0 +1,136 @@
+{
+  "file": "assets/items/head-adornments/world/world-407-b-v1.png",
+  "sha256": "aa908cdf4d37a4588008d9241692ba12b817fed0794372a6e03ffec1cf8da3d2",
+  "generatedAt": "2026-11-12T07:41:10.100546+00:00",
+  "timeEvidence": "UTC registration after the successful tool return was supplied by the coordinator; provider creation timestamp was not exposed. This is registration time, not an independently exposed provider timestamp.",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "modelQualityReverifiedOn": "2026-11-12",
+  "modelQualityVerificationSources": {
+    "release": "https://openai.com/index/introducing-images-2-6/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  },
+  "modelQualityEvidenceBoundary": "Coordinator supplied this re-verification date and official source links. Project configuration is a target only. Actual built-in model and quality were not exposed, and remain null.",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/407/source-phases-b.png",
+      "E:/work/qqtang-daoist-remake/assets/items/petcards/references/canon/11-xiajiaolu.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/407-xiajiaolu-spirit-head.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "referencePathNotation": "references and projectRelativeReferencePaths preserve project-relative identities and the exact reference order. actualSubmittedReferencePaths/submittedParameters preserve the actual full E:/ paths explicitly forwarded from the successful tool calls.",
+  "unforwardedSubmittedParameters": "The coordinator subsequently supplied transparent_background=true and the actual absolute reference-path lists for all five successful calls. Model/quality selectors were not exposed, so those fields remain null.",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Built-in tool exposes no model or quality selectors and returned no verifiable actual model/quality metadata.",
+  "prompt": "Use case: stylized-concept. Asset: original Daoist chibi 2D head ornament407 Xia-jiao Deer Spirit, transparent phase atlas B. Image1 is STRUCTURE ONLY for source phases6,7,8: true back of the head, NO eyes/face/muzzle/nose visible, two ears and two antlers; use source view, do not copy its orange ball colors. Images2 and3 define our original deer identity: cocoa brown fur and cream spots, small lavender-apricot crystal branching antlers, indigo short scarf, warm gold small charm. Images4 and5 define established detailed Daoist Q handpainted style.\nExactly THREE isolated rear-facing HEADS on top row of a transparent1536x1024 atlas,3 columns by2 rows512square. Top cells lefttoright indices6,7,8. Entire bottom row transparent, no text or borders. Each head genuinely viewed from behind, round cocoa crown and nape, ivory crown spots, ears seen from behind, two short forked crystal antlers, short scarf back edge/knot. No face, eye or muzzle peeking around either side. Head-only, no body/neck column/hooves/wings.\nFit each full visible silhouette to compact W/H26:21=1.238 (within5%), roughlywidth360 height291. Keep antlers LOW and branching outward, ears horizontally spread as source, round short nape and shallow scarf edge; avoid elongated horns or hanging scarf tail. Generous transparent margins. Same scale, view, palette and lighting across3 drawings. Each source phase has extremely subtle fur-highlight/ear edge differences; preserve those as three fresh coherent drawings, do not invent turning or bobbing because source raw offsets are applied separately.\nFine warm 2D painted detail and clean alpha edge, original lovable spirit with small-screen readable silhouette. Transparent background only, no ground, shadow, glow, sparkles, labels, watermark, text, surrounding props or UI.",
+  "exactPrompt": "Use case: stylized-concept. Asset: original Daoist chibi 2D head ornament407 Xia-jiao Deer Spirit, transparent phase atlas B. Image1 is STRUCTURE ONLY for source phases6,7,8: true back of the head, NO eyes/face/muzzle/nose visible, two ears and two antlers; use source view, do not copy its orange ball colors. Images2 and3 define our original deer identity: cocoa brown fur and cream spots, small lavender-apricot crystal branching antlers, indigo short scarf, warm gold small charm. Images4 and5 define established detailed Daoist Q handpainted style.\nExactly THREE isolated rear-facing HEADS on top row of a transparent1536x1024 atlas,3 columns by2 rows512square. Top cells lefttoright indices6,7,8. Entire bottom row transparent, no text or borders. Each head genuinely viewed from behind, round cocoa crown and nape, ivory crown spots, ears seen from behind, two short forked crystal antlers, short scarf back edge/knot. No face, eye or muzzle peeking around either side. Head-only, no body/neck column/hooves/wings.\nFit each full visible silhouette to compact W/H26:21=1.238 (within5%), roughlywidth360 height291. Keep antlers LOW and branching outward, ears horizontally spread as source, round short nape and shallow scarf edge; avoid elongated horns or hanging scarf tail. Generous transparent margins. Same scale, view, palette and lighting across3 drawings. Each source phase has extremely subtle fur-highlight/ear edge differences; preserve those as three fresh coherent drawings, do not invent turning or bobbing because source raw offsets are applied separately.\nFine warm 2D painted detail and clean alpha edge, original lovable spirit with small-screen readable silhouette. Transparent background only, no ground, shadow, glow, sparkles, labels, watermark, text, surrounding props or UI.",
+  "promptFile": "docs/art-review-20261112b/407-b-v1.prompt.txt",
+  "promptFileSha256": "b29641cf66ded48fcd91d435bd21ad2d62901497dd6799676da123c136d1b137",
+  "submittedPromptSha256": "d9ed6ac9437d6a7a53ef506c1ef2b2742c1d704c0f806f8bef8f068922bf2dde",
+  "promptSubmission": "Coordinator explicitly identified this UTF-8 file with terminal CR/LF stripped as the exact complete string submitted to the built-in tool. Internal line endings are preserved.",
+  "references": [
+    {
+      "path": "assets/items/head-adornments/references/world/407/source-phases-b.png",
+      "purpose": "source rear-view phase geometry only; source face not copied",
+      "sha256": "c395738b5f947286a53d3787ec11cdd4443e4bb11761f891aa80ce44a2e62e72"
+    },
+    {
+      "path": "assets/items/petcards/references/canon/11-xiajiaolu.png",
+      "purpose": "established original XiaJiaoLu canonical or inventory head identity; not native world geometry",
+      "sha256": "a549a64fbf7fc6b472085a605b6861a3e29a3baaf7f7c62febeea9bca2f1ceb6"
+    },
+    {
+      "path": "assets/items/head-adornments/icons/407-xiajiaolu-spirit-head.png",
+      "purpose": "established original XiaJiaoLu canonical or inventory head identity; not native world geometry",
+      "sha256": "2c720f76d5f6de8ab22b4640f3c5510636a62055c93b52707fb7086d667e61f6"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "purpose": "confirmed project Daoist chibi hand-painted style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "purpose": "confirmed project Daoist chibi hand-painted style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1ce03-582b-7a62-8e44-59d748fb5874/exec-a2ee6383-3f21-47f1-ac9c-bcdcbb3dfc1a.png",
+    "hostSourceEvidence": "Exact successful tool output path forwarded by coordinator; registration reads only the copied project PNG.",
+    "registrationInputsForwardedBy": "parent coordinator with actual built-in tool-call context",
+    "actualModelQualityDisclosed": false,
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "actualParameterEvidence": "Exact transparent flag, full absolute reference paths and returned field names forwarded from the parent coordinator actual tool-call context."
+  },
+  "operation": "built-in generated source master; no pixel mutation during registration",
+  "nativeDimensions": true,
+  "nativeDimensionsReturned": [
+    1536,
+    1024
+  ],
+  "selection": {
+    "state": "exported-candidate-awaiting-user-review",
+    "exported": true,
+    "sourcePositions": [
+      6,
+      7,
+      8
+    ],
+    "technicalScope": "source envelope measured below ten-percent limit; no visual/animation/runtime acceptance",
+    "manifest": "assets/items/head-adornments/world-407-art.json",
+    "stateObservedAt": "2026-11-12T07:47:30.035455+00:00",
+    "stateEvidence": "Current exported candidate lifecycle verified against world-407-art.json; final visual review remains pending."
+  },
+  "userReviewStatus": "pending",
+  "visualAccepted": false,
+  "accepted": false,
+  "runtimeAdopted": false,
+  "projectRelativeReferencePaths": [
+    "assets/items/head-adornments/references/world/407/source-phases-b.png",
+    "assets/items/petcards/references/canon/11-xiajiaolu.png",
+    "assets/items/head-adornments/icons/407-xiajiaolu-spirit-head.png",
+    "references/image/01-mail-event.png",
+    "references/image/team-ui-v2.png"
+  ],
+  "actualSubmittedReferencePaths": [
+    "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/407/source-phases-b.png",
+    "E:/work/qqtang-daoist-remake/assets/items/petcards/references/canon/11-xiajiaolu.png",
+    "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/407-xiajiaolu-spirit-head.png",
+    "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+    "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+  ]
+}

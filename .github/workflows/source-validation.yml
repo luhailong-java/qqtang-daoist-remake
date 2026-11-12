@@ -66,5 +66,11 @@ jobs:
       - name: Collector basket exact source positions
         if: ${{ hashFiles('assets/items/head-adornments/world-39-art.json') != '' }}
         run: python scripts/verify-head-world-114.py --item 39 --expected-count 24 --expected-unique 20
+      - name: Crystal deer exact source positions
+        if: ${{ hashFiles('assets/items/head-adornments/world-407-art.json') != '' }}
+        run: python scripts/verify-head-world-114.py --item 407 --expected-count 24 --expected-unique 18
+      - name: Five wishing hearts exact source positions
+        if: ${{ hashFiles('assets/items/head-adornments/world-2000-art.json') != '' }}
+        run: python scripts/verify-head-world-114.py --item 2000 --expected-count 24 --expected-unique 24
       - name: Package with baseline published assets
         run: npm run build

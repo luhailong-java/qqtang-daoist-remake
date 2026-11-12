@@ -1,0 +1,98 @@
+{
+  "file": "assets/items/head-adornments/world/world-2000-phase16-v1.png",
+  "sha256": "44cb473b6202ed410212e516ef57d44f114e44d9256e1a9d0ca09d892a24f59b",
+  "generatedAt": "2026-11-12T08:14:51.180Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1261,
+  "height": 1247,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: stylized-concept. One original Daoist Q game overhead-effect sprite 五心祈愿, source phase16, genuinely transparent RGBA, requested1024x1024.\r\nImage1 REAL source single-phase reference controls the FIVE heart positions and visual size/tilt. Image2 OUR established inventory jewel identity/material only; do NOT reuse its static arrangement. Images3/4 confirmed project hand-painted style only.\r\nDraw EXACTLY FIVE SEPARATE pink jade heart jewels, no sixth ornament, no centre body. Each jewel is plump, rose/salmon jade with a thin warm-gold rim and tiny attached cloud-scroll curl inside the rim. Fine detailed Daoist Q hand painting, no plastic3D.\r\nThe constellation is a WIDE SHALLOW ELLIPSE, complete visible outer envelope ratio51:27=1.888889, about840px wide by445px high, centred on the1024square with fully empty margins. This includes the entire jewels, not centre points or padding. The source's five normalized alpha-centres within visible envelope are[[9.8, 24.97], [14.71, 77.49], [50, 11.25], [70.59, 76.03], [89.22, 29.77]]; match their distinct layout, NOT a regular pentagon. Use actual reference for gem face tilt. Hearts around150wide x120high, physically separated by large alpha=0 gaps, exactly five.\r\nALL area outside the five PHYSICAL jewels must be actual alpha=0, including every inter-jewel gap and hollow centre. No grey/gold/white fog, coloured light, bloom, halo, shadow, particles, stars, ring, rope, trails or surface. Use clean antialiased jewel cutout edges only. No glints detached from physical rims. Do not draw the source label, measurements, UI or background. Five complete standalone hearts floating in truly EMPTY TRANSPARENCY. No rescaling an existing image, no mirror; redraw this specific source phase with our own jade/gold identity. Static pose only, native timing/head attachment unverified. Highest host-provided quality target.",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-016-board.png",
+      "purpose": "actual single source phase: count/geometry only",
+      "sha256": "4adf13120607702f899ffa3783107f001d337c80b76b739391e27e0a91502d03"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+      "purpose": "own existing inventory heart identity only",
+      "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "purpose": "confirmed mail UI style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+      "purpose": "confirmed team UI style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-1e6f25b9-963a-48ca-8c3b-651b94474cdd.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-2000-phase16-v1.prompt.txt",
+  "promptFileSha256": "43e17cdfdd22e6e9f1adb21fc190bcde92e00a5683868a8e7a4b21856701e7f4",
+  "submittedPromptSha256": "4cb1eedd7e9db1e60661764822d4623b8dde83b40444da074afa9e5f3906989c",
+  "promptSubmission": "Exact prompt file trimmed only at beginning/end",
+  "exactPrompt": "Use case: stylized-concept. One original Daoist Q game overhead-effect sprite 五心祈愿, source phase16, genuinely transparent RGBA, requested1024x1024.\r\nImage1 REAL source single-phase reference controls the FIVE heart positions and visual size/tilt. Image2 OUR established inventory jewel identity/material only; do NOT reuse its static arrangement. Images3/4 confirmed project hand-painted style only.\r\nDraw EXACTLY FIVE SEPARATE pink jade heart jewels, no sixth ornament, no centre body. Each jewel is plump, rose/salmon jade with a thin warm-gold rim and tiny attached cloud-scroll curl inside the rim. Fine detailed Daoist Q hand painting, no plastic3D.\r\nThe constellation is a WIDE SHALLOW ELLIPSE, complete visible outer envelope ratio51:27=1.888889, about840px wide by445px high, centred on the1024square with fully empty margins. This includes the entire jewels, not centre points or padding. The source's five normalized alpha-centres within visible envelope are[[9.8, 24.97], [14.71, 77.49], [50, 11.25], [70.59, 76.03], [89.22, 29.77]]; match their distinct layout, NOT a regular pentagon. Use actual reference for gem face tilt. Hearts around150wide x120high, physically separated by large alpha=0 gaps, exactly five.\r\nALL area outside the five PHYSICAL jewels must be actual alpha=0, including every inter-jewel gap and hollow centre. No grey/gold/white fog, coloured light, bloom, halo, shadow, particles, stars, ring, rope, trails or surface. Use clean antialiased jewel cutout edges only. No glints detached from physical rims. Do not draw the source label, measurements, UI or background. Five complete standalone hearts floating in truly EMPTY TRANSPARENCY. No rescaling an existing image, no mirror; redraw this specific source phase with our own jade/gold identity. Static pose only, native timing/head attachment unverified. Highest host-provided quality target.",
+  "registrationCorrection": {
+    "correctedAtUTC": "2026-11-12T08:44:29.792438+00:00",
+    "previousRecordedPromptSha256": "ce1a814860a3ade36cad06428ce031618041670d1d6a974cf57f88cfb0691f61",
+    "previousSubmittedPromptSha256": "ce1a814860a3ade36cad06428ce031618041670d1d6a974cf57f88cfb0691f61",
+    "previousGenerationRecordByteSha256": "cb07821fb2efdde05842b3b938339189ddc43809acc6b68e3f3c9abe1863daeb",
+    "actualSubmittedPromptSha256": "4cb1eedd7e9db1e60661764822d4623b8dde83b40444da074afa9e5f3906989c",
+    "actualSubmissionEvidence": {
+      "file": "docs/art-review-20261112b/2000-builtin-submissions.json",
+      "sha256": "953ca22ab4b017dbc5570a0b7a0a8f5fd1773ee2df1b478a557c2b21b91c0459",
+      "entryVersion": "2000-phase16-v1"
+    },
+    "reason": "Original builtin arguments were retained with CRLF in functions.store before the actual image_gen call. Initial Python Path.read_text used universal-newline normalization for SHA registration and, for thirteen takes, the recorded prompt text. A2 retained the correct CRLF prompt text but its registered submittedPromptSha256 was computed from the LF-normalized file text. This correction restores exact original submitted strings, not a new submission.",
+    "normalizationAppliedToActualEvidence": "none",
+    "scope": "Generation metadata text/SHA correction only; prompt files, generated pixels, candidate manifest and previews unchanged"
+  }
+}

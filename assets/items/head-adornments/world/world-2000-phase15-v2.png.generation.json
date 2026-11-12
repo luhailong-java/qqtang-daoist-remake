@@ -1,0 +1,109 @@
+{
+  "file": "assets/items/head-adornments/world/world-2000-phase15-v2.png",
+  "sha256": "b9b0b6a3613efd0d3bd58323bd7212c2bb3f1c5783b61dbd8c132e06a1fbb9f7",
+  "generatedAt": "2026-11-12T08:21:10.239Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1692,
+  "height": 930,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-phase15-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-015-board.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: precise-object-edit.\r\nImage1 ACTUAL AI EDIT TARGET is our single source-phase15 five-heart sprite, native1254x1254. Image2 actual source phase15 controls relative arrangement. Image3 established inventory heart identity only. Images4/5 style only.\r\nRedraw the five jewels NATURALLY at about80percent of their current physical size around the same centres. Keep exactly FIVE, same rose-jade/gold identity, same fine painting and five separate transparent gaps. Keep the upper three jewel centres stable. Raise only the LOWER TWO heart centres by about80px compared with target. Their smaller size gives clear gaps, do NOT overlap any jewels. This fixes the current too-tall outer envelope [69,221,1187,977]. New complete visible alpha envelope should beabout1055wide x600high, intrinsic ratio51:29=1.75862, not counting empty canvas. Current target jewels are too big and low; do not leave the old envelope unchanged.\r\nAll geometry correction must be freshly hand-painted by image generation, no flat squashing/stretching. Hearts remain plump and wide, their contour and gold cloud-curl intact but smaller. Five whole natural jewels only, no extra dots, light trails, ring, rope, fog, halo, grey/gold field, shadow, text or UI. Entire exterior, centre and every inter-jewel gap must have real alpha=0. The target already has safe empty alpha; preserve it, don't introduce translucent background haze. Original source head attachment/timing remain unknown. Same canvas framing is fine, with ample empty space; only actual jewel envelope ratio counts. Highest host-provided image quality target.",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-2000-phase15-v1.png",
+      "purpose": "actual AI edit target",
+      "sha256": "87330698379fdd8a2d6cdaf15c15f8f8b62a38ab70873fcfff331553e97d3fec"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/2000/source-phase-015-board.png",
+      "purpose": "actual source single phase: count/geometry only",
+      "sha256": "cd5e2f9be46d586408b0f5141790dc7090d828a71194cee4369773fa0bc5ae97"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/head-adornments/icons/2000-five-orbiting-jade-hearts.png",
+      "purpose": "own inventory heart identity only",
+      "sha256": "28102fd886524378324bee073b6bc8e9ce22a9ef077d7bc56542a0dc16fda854"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "purpose": "confirmed mail UI style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+      "purpose": "confirmed team UI style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-70f23749-82d3-4bed-801d-00ef5c31b694.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in AI edit of actual target; no program pixel edits",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-2000-phase15-v2.prompt.txt",
+  "promptFileSha256": "54087191d0f5e4e9e2e7eed00f0abd53b7678f361d4d1d3e1fbba99c6539a442",
+  "submittedPromptSha256": "7d5f70652ba154544749e56addd7d98a02fffd711db8f4aef2d02b41145edc9b",
+  "promptSubmission": "Exact prompt file trimmed only at beginning/end",
+  "editOf": {
+    "file": "assets/items/head-adornments/world/world-2000-phase15-v1.png",
+    "sha256": "87330698379fdd8a2d6cdaf15c15f8f8b62a38ab70873fcfff331553e97d3fec",
+    "generationRecord": "assets/items/head-adornments/world/world-2000-phase15-v1.png.generation.json"
+  },
+  "exactPrompt": "Use case: precise-object-edit.\r\nImage1 ACTUAL AI EDIT TARGET is our single source-phase15 five-heart sprite, native1254x1254. Image2 actual source phase15 controls relative arrangement. Image3 established inventory heart identity only. Images4/5 style only.\r\nRedraw the five jewels NATURALLY at about80percent of their current physical size around the same centres. Keep exactly FIVE, same rose-jade/gold identity, same fine painting and five separate transparent gaps. Keep the upper three jewel centres stable. Raise only the LOWER TWO heart centres by about80px compared with target. Their smaller size gives clear gaps, do NOT overlap any jewels. This fixes the current too-tall outer envelope [69,221,1187,977]. New complete visible alpha envelope should beabout1055wide x600high, intrinsic ratio51:29=1.75862, not counting empty canvas. Current target jewels are too big and low; do not leave the old envelope unchanged.\r\nAll geometry correction must be freshly hand-painted by image generation, no flat squashing/stretching. Hearts remain plump and wide, their contour and gold cloud-curl intact but smaller. Five whole natural jewels only, no extra dots, light trails, ring, rope, fog, halo, grey/gold field, shadow, text or UI. Entire exterior, centre and every inter-jewel gap must have real alpha=0. The target already has safe empty alpha; preserve it, don't introduce translucent background haze. Original source head attachment/timing remain unknown. Same canvas framing is fine, with ample empty space; only actual jewel envelope ratio counts. Highest host-provided image quality target.",
+  "registrationCorrection": {
+    "correctedAtUTC": "2026-11-12T08:44:29.793251+00:00",
+    "previousRecordedPromptSha256": "37650032b7ad3323fe03c161b6f77d14112d321c540a03656e0f45977f4d9724",
+    "previousSubmittedPromptSha256": "37650032b7ad3323fe03c161b6f77d14112d321c540a03656e0f45977f4d9724",
+    "previousGenerationRecordByteSha256": "4d2466d35dc0e29be37f98f20366de22fe2b0bbc1ac4e5fff19646de34871b52",
+    "actualSubmittedPromptSha256": "7d5f70652ba154544749e56addd7d98a02fffd711db8f4aef2d02b41145edc9b",
+    "actualSubmissionEvidence": {
+      "file": "docs/art-review-20261112b/2000-builtin-submissions.json",
+      "sha256": "953ca22ab4b017dbc5570a0b7a0a8f5fd1773ee2df1b478a557c2b21b91c0459",
+      "entryVersion": "2000-phase15-v2"
+    },
+    "reason": "Original builtin arguments were retained with CRLF in functions.store before the actual image_gen call. Initial Python Path.read_text used universal-newline normalization for SHA registration and, for thirteen takes, the recorded prompt text. A2 retained the correct CRLF prompt text but its registered submittedPromptSha256 was computed from the LF-normalized file text. This correction restores exact original submitted strings, not a new submission.",
+    "normalizationAppliedToActualEvidence": "none",
+    "scope": "Generation metadata text/SHA correction only; prompt files, generated pixels, candidate manifest and previews unchanged"
+  }
+}
