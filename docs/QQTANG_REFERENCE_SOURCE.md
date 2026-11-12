@@ -25,9 +25,34 @@
 
 [固定参考恢复方式与逐文件哈希](../references/qqtang-map-data/README.md)、[本轮源复核](SOURCE_REVALIDATION_20261111.md)、[地图几何证据与缺口](QQTANG_MAP_DIMENSION_EVIDENCE.md)。社区原作者也在[开发说明](https://github.com/kuuhaku1314/qqtang/blob/main/README-DEV.md)明确区分原始客户端与其恢复工程；其发行包不能替代原件身份核验。
 
+## 用户提供的本机客户端目录：已静态核验
+
+2026-11-12，用户提供下载后的`QQTang-Local/QQTang-Local`目录。本机位置可写作`%USERPROFILE%\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local`；精确绝对路径仅存本项目忽略的本机核查回执，未复制或改动用户输入。
+
+**结论：这是社区QQTang-Local包；本轮核查的静态部分与已固定v1.3.4发行ZIP逐字节相同，不能将它改称腾讯未修改原始客户端。** 因此可以继续用它核对已有静态资源和社区样本；它没有补足腾讯原版身份、原始动作时长或头部挂点的证据缺口。
+
+- 比较范围：根README/发行清单/启动器、`runtime/client-patched`顶层EXE/DLL，以及`map`、`object`、`data`、`res`静态资源目录。
+- 9,209件文件、717,485,649字节全部SHA-256相同；其中377张`.map`一致。在这组限定目录内没有缺失、额外或不同文件。这不是整个运行目录/服务端/存档全部相同的声明。
+- README明确自称“QQ堂怀旧版”、指向`kuuhaku1314/qqtang`，说明重建Client.exe和移除TP。README及发行清单无显式semver tag；v1.3.4对应关系来自固定ZIP的字节比较，`schema_version=1`不是游戏版本号。
+- `release-manifest.json`为1,850,860字节，SHA-256 `bccfa25e8799f2cc0f0e9b31806a288b4400b71534b5330d32153b61718e6b32`，包名`QQTang-Local`，生成时间`2026-10-22T22:27:32.598074+00:00`。
+
+PE资源版本和本机Windows Authenticode静态检查：
+
+| 文件 | 文件版本资源 | 检查返回 | 限定解释 |
+|---|---|---|---|
+| `QQTang-Launcher.exe` | `0.0.0.0` | `NotSigned` | 社区启动器，不是腾讯原始安装包证据 |
+| `runtime/client-patched/Client.exe` | `5, 2, 1, 201` | `NotSigned` | 当前修改后主程序保留5.2.1.201版本资源；版本字符串不证明未修改 |
+| `Core.dll` | `5, 2, 1, 201` | `HashMismatch` | 能读到Tencent证书信息，但当前文件未通过签名哈希检查 |
+| `QQTDir.dll`、`QQTModules.dll`、`QQTSection.dll` | `0, 10, 1, 1` | `HashMismatch` | 同样不能将保留的签名证书当有效原件认证 |
+| `TerSafe.dll` | 无版本资源 | `NotSigned` | 2,048字节，与社区兼容层描述对应 |
+
+主程序为13,860,864字节，SHA-256 `670af4f24b3db6bac030a61d628cedc8e4522468f4ef4cb88a2239ad6b946f74`。这组返回值只说明实际读取到的版本/签名状态，不据此推断恶意软件或声称它已通过腾讯认证。
+
+公开摘要和七个二进制的大小/完整SHA/版本/签名返回见[用户目录静态检查回执](reference-evidence-20261112/user-client-static-check.json)。逐9,209文件比较表和原始本机路径在忽略目录`.artifacts/local-client-inspection-20261112/`。未读取账号数据库、存档、日志、抓包、run-state或网络配置内容，未启动客户端、安装器、DLL、脚本或GUI。
+
 ## 原始客户端现在能否下载
 
-本轮查到了历史官网、玩家原版备份及下载站条目；**截至本次记录，尚未取得并核验一份完整、未修改的腾讯原始客户端。** “页面存在”“写着官方版”“有下载器”与“完整原始包可下载且身份已核实”分别记录。
+用户刚提供的本机目录已核验为上述社区样本。本轮另查到了历史官网、玩家原版备份及下载站条目；**截至本次记录，尚未取得并核验一份完整、未修改的腾讯原始客户端。** “页面存在”“写着官方版”“有下载器”与“完整原始包可下载且身份已核实”分别记录。
 
 | 入口 | 本轮实际核查 | 作为参照的边界 |
 |---|---|---|

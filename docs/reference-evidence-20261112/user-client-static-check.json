@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUTC": "2026-11-12T07:21:22.734148+00:00",
+  "dateLocal": "2026-11-12",
+  "timezone": "America/New_York",
+  "inputKind": "user-supplied-extracted-community-package",
+  "inputLocationTemplate": "%USERPROFILE%\\Downloads\\ABDM\\Compressed\\QQTang-Local\\QQTang-Local",
+  "sourceDownloadURLFromUser": null,
+  "classification": "static client regions and release metadata match the fixed community v1.3.4 package; not an authenticated unmodified Tencent installer",
+  "fixedArchive": {
+    "sourceURL": "https://github.com/kuuhaku1314/qqtang/releases/download/v1.3.4/QQTang-Local.zip",
+    "bytes": 288298460,
+    "sha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7"
+  },
+  "comparison": {
+    "selectedRegions": [
+      "README.md",
+      "release-manifest.json",
+      "QQTang-Launcher.exe",
+      "runtime/client-patched top-level EXE/DLL",
+      "runtime/client-patched/map",
+      "runtime/client-patched/object",
+      "runtime/client-patched/data",
+      "runtime/client-patched/res"
+    ],
+    "comparedFiles": 9209,
+    "equalFiles": 9209,
+    "comparedBytes": 717485649,
+    "mapFiles": 377,
+    "missingFiles": [],
+    "differentFiles": [],
+    "extraFilesInSelectedRegions": [],
+    "excluded": "User runtime databases/save data/logs/captures/run-state/configuration and unselected server/ONNX runtime regions; no values or contents read"
+  },
+  "packageMetadata": {
+    "readmeBytes": 6391,
+    "readmeSha256": "454dbd84a609b0af0e1cc257aae330bcbc013a03689d23264b0609b5b7e1c433",
+    "releaseManifestBytes": 1850860,
+    "releaseManifestSha256": "bccfa25e8799f2cc0f0e9b31806a288b4400b71534b5330d32153b61718e6b32",
+    "packageName": "QQTang-Local",
+    "generatedUTC": "2026-10-22T22:27:32.598074+00:00",
+    "explicitSemverTagInTheseMetadata": null,
+    "classificationEvidence": "README says community QQ堂怀旧版, points to kuuhaku1314/qqtang, and describes rebuilding Client.exe/removing TP; v1.3.4 association is established by fixed archive byte comparison, not schema_version=1"
+  },
+  "binaryMetadata": [
+    {
+      "file": "QQTang-Launcher.exe",
+      "bytes": 271360,
+      "sha256": "c649a065f1c6180672f3c497e5cf4cd3114e9d4e9f121f2eb1bd32b1f4deb0a3",
+      "fileVersion": "0.0.0.0",
+      "productVersion": "0.0.0.0",
+      "companyName": "",
+      "productName": "",
+      "signatureStatus": "NotSigned",
+      "signer": null,
+      "timestampSigner": null
+    },
+    {
+      "file": "runtime/client-patched/Client.exe",
+      "bytes": 13860864,
+      "sha256": "670af4f24b3db6bac030a61d628cedc8e4522468f4ef4cb88a2239ad6b946f74",
+      "fileVersion": "5, 2, 1, 201",
+      "productVersion": "5, 2, 1, 201",
+      "companyName": "深圳市腾讯计算机系统有限公司",
+      "productName": "s",
+      "signatureStatus": "NotSigned",
+      "signer": null,
+      "timestampSigner": null
+    },
+    {
+      "file": "runtime/client-patched/Core.dll",
+      "bytes": 79168,
+      "sha256": "3dfb5523b2a2c5dfc8a142068e2a397d7862ac5b3f996a96776681c3cea4391b",
+      "fileVersion": "5, 2, 1, 201",
+      "productVersion": "5, 2, 1, 201",
+      "companyName": "深圳市腾讯计算机系统有限公司",
+      "productName": "Core Dynamic Link Library",
+      "signatureStatus": "HashMismatch",
+      "signer": "CN=Tencent Technology(Shenzhen) Company Limited, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Tencent Technology(Shenzhen) Company Limited, L=shenzhen, S=guangdong, C=CN",
+      "timestampSigner": "CN=Symantec Time Stamping Services Signer - G4, O=Symantec Corporation, C=US"
+    },
+    {
+      "file": "runtime/client-patched/QQTDir.dll",
+      "bytes": 182168,
+      "sha256": "8e27be84e7eb5f6e25a3e92f47eaec5766ef88604efe918c27d8fe717e74e71e",
+      "fileVersion": "0, 10, 1, 1",
+      "productVersion": "0, 10, 1, 1",
+      "companyName": "深圳市腾讯计算机系统有限公司",
+      "productName": "QQTDir Dynamic Link Library",
+      "signatureStatus": "HashMismatch",
+      "signer": "CN=Tencent Technology(Shenzhen) Company Limited, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Tencent Technology(Shenzhen) Company Limited, L=shenzhen, S=guangdong, C=CN",
+      "timestampSigner": "CN=Symantec Time Stamping Services Signer - G4, O=Symantec Corporation, C=US"
+    },
+    {
+      "file": "runtime/client-patched/QQTModules.dll",
+      "bytes": 569448,
+      "sha256": "d55131aa1bcc60144002e257628df4bc29539eba41b0d6af9e0b110b0ec5feb5",
+      "fileVersion": "0, 10, 1, 1",
+      "productVersion": "0, 10, 1, 1",
+      "companyName": "深圳市腾讯计算机系统有限公司",
+      "productName": "QQTModules Dynamic Link Library",
+      "signatureStatus": "HashMismatch",
+      "signer": "CN=Tencent Technology(Shenzhen) Company Limited, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Tencent Technology(Shenzhen) Company Limited, L=shenzhen, S=guangdong, C=CN",
+      "timestampSigner": "CN=Symantec Time Stamping Services Signer - G4, O=Symantec Corporation, C=US"
+    },
+    {
+      "file": "runtime/client-patched/QQTSection.dll",
+      "bytes": 491168,
+      "sha256": "3121d24f1652a57a6ed80791326bdc67ab303fa04c43e0ae5d3413e27d9ebf44",
+      "fileVersion": "0, 10, 1, 1",
+      "productVersion": "0, 10, 1, 1",
+      "companyName": "深圳市腾讯计算机系统有限公司",
+      "productName": "QQTSection Dynamic Link Library",
+      "signatureStatus": "HashMismatch",
+      "signer": "CN=Tencent Technology(Shenzhen) Company Limited, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Tencent Technology(Shenzhen) Company Limited, L=shenzhen, S=guangdong, C=CN",
+      "timestampSigner": "CN=Symantec Time Stamping Services Signer - G4, O=Symantec Corporation, C=US"
+    },
+    {
+      "file": "runtime/client-patched/TerSafe.dll",
+      "bytes": 2048,
+      "sha256": "1ffbe92e52862c8270e4faf83ae6fc29ae986c8c638f6d5e295c76bcd1c07a9d",
+      "fileVersion": null,
+      "productVersion": null,
+      "companyName": null,
+      "productName": null,
+      "signatureStatus": "NotSigned",
+      "signer": null,
+      "timestampSigner": null
+    }
+  ],
+  "limits": {
+    "targetTencentHistoricalVersionLocked": false,
+    "unmodifiedTencentOriginalProven": false,
+    "originalNativeTimingVerified": false,
+    "originalHeadAttachmentVerified": false,
+    "unknownProgramsExecuted": false,
+    "guiAutomationUsed": false,
+    "userInputWritten": false
+  },
+  "evidenceChecks": {
+    "binaryChecksMatchArchiveComparison": true,
+    "readmeAndReleaseManifestHashesMatchArchiveComparison": true,
+    "allComparedFilesEqual": true,
+    "errors": []
+  }
+}
