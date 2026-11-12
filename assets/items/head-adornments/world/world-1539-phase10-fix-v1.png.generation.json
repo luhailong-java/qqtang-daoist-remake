@@ -1,0 +1,102 @@
+{
+  "file": "assets/items/head-adornments/world/world-1539-phase10-fix-v1.png",
+  "sha256": "54bc9fb2722e2b75103eaa4aa9274b85b873a489920b2b783a7f705adc0987da",
+  "generatedAt": "2026-11-12T04:42:25.539Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1576,
+  "height": 998,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+    "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+    "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+    "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/1539/source-phases-b.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-1539-e-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/items/petcards/references/canon/04-guideng.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: precise-object-edit, transparent game world sprite.\nCreate ONE original floating-head sprite for 灵葫大作战 item1539, replacing ONLY phase10, not a sheet. Requested1024x1024 genuine RGBA transparency. Input1 source board bottom-middle phase10 controls complete silhouette, mouth, compact halo and bow side only; do not copy its licensed pink face or pixel art. Input2 current original project atlas bottom-middle controls our 桂灯童 identity and hand-painted appearance. Input3 is original canonical 桂灯童 identity. Inputs4/5 confirmed jade/ivory/warmgold Daoist chibi style. Keep identity from our originals: chestnut short curly layered hair, round brown-gold eyes, jade-leaf hat with fine gold veins, small white osmanthus blossoms, jade bead and short ivory tassel. NO body, neck, shoulders, arms or extra limbs: a floating round HEAD only.\n\nRequired phase10: open both eyes, small circular O mouth, front face; one ivory/gold feather wing on VIEWER-LEFT, one gold curved bow on VIEWER-RIGHT with a horizontal shaft ending in exactly ONE red heart arrowhead at far RIGHT. Shaft at face side has blunt flat end, not a second arrowhead. Do not mirror sides. Small gold halo ABOVE leaf cap is a near round foreshortened ring with truly transparent open centre, as source10, NOT the broad flat ellipse of smiling phases.\n\nFix old phase's excessive height/narrowness by REDRAWING a wider, lower composition naturally: full alpha>=16 visible envelope width:height target exactly41:26=1.577 (about800px wide by507px high). Spread the single left feather wing and right bow/heart laterally, keep hair/hat compact and tassel short within head height. Preserve roughly round face, do not squash/stretch pixels. Outer wing tip through outer red heart spans800px; halo top through chin/bow bottom only507px. Match surrounding phase7/10 face and hat scale relationships as a coherent candidate, no enormous halo or extra ornament.\n\nFine detailed soft hand-painted round forms, crisp readable at164x104 export, jade/ivory/warmgold with small crimson heart. Transparent margin >=70px on all sides. Truly empty alpha around every sprite edge AND inside gold ring/wing/bow gaps. No brown glow, colored fog, cast shadow, background, square matte, labels, text, border, floor, numbers or grid. No source face, no plastic rendering. Highest host-provided quality target. Return exactly one sprite.",
+  "references": [
+    {
+      "path": "assets/items/head-adornments/references/world/1539/source-phases-b.png",
+      "purpose": "source phase and structure reference only; source pixels not runtime art",
+      "sha256": "1eb3387785dbeb551e6dd11a5b89653be23395fb52cce951125ac54252be43cf"
+    },
+    {
+      "path": "assets/items/head-adornments/world/world-1539-e-v1.png",
+      "purpose": "project original visual identity or edit target; previous state not automatically accepted",
+      "sha256": "d7ed0f577af44e0f969e9893c1df6fda9b7e57b6c852343c2b295501ac8912c2"
+    },
+    {
+      "path": "assets/items/petcards/references/canon/04-guideng.png",
+      "purpose": "established original identity reference",
+      "sha256": "5162ad6c61ab228dc7d0be1beefc7c6f9ed940d880b7d23648fae941559df309"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1ce03-582b-7a62-8e44-59d748fb5874/exec-07d79d69-acda-4fdc-956e-bc2439821abb.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-1539-phase10-fix-v1.prompt.txt",
+  "promptFileSha256": "4f84a85b54e11bcfc20f3626f036195f69742bde7b2e2fa8283b4cf65687cc6a",
+  "submittedPromptSha256": "b887c0496c7ec5cfcb1d4ab7e73b7b6f9086d1cd2fae57e75a9035b0ac128781",
+  "userReviewStatus": "pending",
+  "visualAccepted": false,
+  "selection": "not exported; flat halo contradicted phase10; actual edit input for v2",
+  "requestedDimensions": [
+    1024,
+    1024
+  ],
+  "nativeDimensionsReturned": [
+    1576,
+    998
+  ],
+  "promptSubmission": "Exact string sent to built-in tool, preserved from call; prompt file may use normalized line endings."
+}

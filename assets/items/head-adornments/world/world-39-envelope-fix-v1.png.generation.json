@@ -1,0 +1,107 @@
+{
+  "file": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+  "sha256": "4b273289c1a189c8b5e3c2dc7ba1ace6d362335e844bd90f62dba8aa1c4654c6",
+  "generatedAt": "2026-11-12T04:36:49.750Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+    "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+    "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+    "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/39/source-phases-b.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/39/source-phases-c.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-39-c-v1.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: precise-object-edit / stylized-concept game asset.\nCreate one genuine transparent RGBA atlas for the original Daoist chibi game 灵葫大作战, requested 1536x512, THREE equally sized square cells in ONE HORIZONTAL ROW. Exactly three collectible basket poses, left to right corresponding to source positions 12, 19, 20. This is a targeted original redraw to fix envelopes that were too tall, never a nonuniform stretch.\n\nInput images 1 and 2 are SOURCE STRUCTURE ONLY: board b bottom-left is position12, board c bottom-left is19 and bottom-middle is20. Do not copy the penguin character, pixel rendering, labels or grey board. Input image3 is the current ORIGINAL project basket design to preserve the same tiny golden-headband Daoist-boy doll, wicker craft, red scroll, golden gourd and pale jade folding fan. Input images4 and5 are the confirmed jade/ivory/warmgold delicate chibi hand-painted style references; not UI to put into the sprite.\n\nAll three: SAME broad shallow oval golden wicker basket, short rounded body, warm gold weave, small jade cloud medallion on FRONT; exactly four contents only: our miniature original brown-haired golden-headband Daoist boy doll, one crimson rolled scroll, one golden double gourd and one pale jade/ivory fan. Same tiny topknot, gold ribbon, ivory/amber/jade clothes, friendly original face. No licensed face/penguin/red scarf/beak. No wearer below basket, no new ornaments. Hand-painted round forms, sharp clean fine details, soft warm shading, not plastic 3D or pixel art.\n\nLEFT CELL (position12): full visible envelope width:height exactly 37:31 (around 430px wide by360px high). Basket FRONT with boy at viewer-LEFT; his nose/face and torso turn distinctly toward viewer-LEFT as the source board, NOT toward viewer-right. He sits low with short body concealed by rim. Scroll slants up right at viewer-RIGHT front. Gourd behind centre, fan behind-right. Broader shallower than the old top-left pose on input3, reduce tallest contents naturally while keeping same items. The whole basket plus contents is 1.194 times as wide as tall.\nMIDDLE CELL (position19): full visible envelope 46:34 (around460px wide by340px high). Front centred boy looking front with level eyes; mildly raised doll. Scroll at far viewer-LEFT leans outward diagonally up-left, extending the envelope leftwards, fan behind-right, gourd behind-left. A WIDE low composition, total width1.353 times total height. Keep all props in cell.\nRIGHT CELL (position20): envelope 37:28 (around445px wide by337px high), front centred boy lowered inside basket with less upper torso showing than middle pose. Scroll almost upright at viewer-LEFT, gourd behind-left, fan behind-right. WIDE shallow basket and low contents, total width1.321 times total height. Do not duplicate the taller old bottom-middle on input3.\n\nEvery complete sprite centred within its own512x512 cell with at least24px truly clear alpha margins. No crop, no shared pixels between cells. All backgrounds and gaps genuinely empty transparent alpha, no brown glow, grey ground, gradient, cast shadow, fog, halo, labels, text, cell dividers, grid, UI, or numbers. Highest host-provided quality target. Preserve asymmetry: do not mirror existing pixels or stretch them.",
+  "references": [
+    {
+      "path": "assets/items/head-adornments/references/world/39/source-phases-b.png",
+      "purpose": "source phase and structure reference only; source pixels not runtime art",
+      "sha256": "53ae1a27a7a8ac8c5af41c0f80a27de928de157de8a819e2bf140799a6fad622"
+    },
+    {
+      "path": "assets/items/head-adornments/references/world/39/source-phases-c.png",
+      "purpose": "source phase and structure reference only; source pixels not runtime art",
+      "sha256": "6f8d1fe8ca1ab879048f1208216329baa577c8fd5426f5b1db0d96d3cec6e975"
+    },
+    {
+      "path": "assets/items/head-adornments/world/world-39-c-v1.png",
+      "purpose": "project original visual identity or edit target; previous state not automatically accepted",
+      "sha256": "774be877fa91b3864fd0841111c49a30852aeebb8b122488576feaee5897fbf8"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1ce03-582b-7a62-8e44-59d748fb5874/exec-dcc32c4d-adf1-4ed0-9674-7761295ceb06.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false,
+    "toolResultFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputFileName": "exec-dcc32c4d-adf1-4ed0-9674-7761295ceb06.png"
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-39-envelope-fix-v1.prompt.txt",
+  "promptFileSha256": "ea652a5857f3fd82bdeb3e59f193a1dbc3a2ede5a5728c868e06472907d2904d",
+  "submittedPromptSha256": "23888b751537b9b249a7e67c8ddd8063285d09cec6b8327a62cb34d7358ba37b",
+  "requestedDimensions": [
+    1536,
+    512
+  ],
+  "nativeDimensionsReturned": [
+    2172,
+    724
+  ],
+  "dimensionEvidence": "Requested size was prompt guidance only; tool returned actual native PNG 2172x724. Export rectangles use measured PNG dimensions.",
+  "userReviewStatus": "pending",
+  "visualAccepted": false,
+  "promptSubmission": "Exact string sent to built-in tool, preserved from call; prompt file may use normalized line endings."
+}

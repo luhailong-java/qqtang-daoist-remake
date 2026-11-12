@@ -7,7 +7,7 @@ const [file,prompt,hostSource,...references]=process.argv.slice(2);
 if(!file||!prompt||!hostSource)throw new Error('Usage: node register-generated-image.mjs asset prompt host-source [reference ...]');
 const bytes=await readFile(path.join(root,file));
 if(bytes.subarray(0,8).toString('hex')!=='89504e470d0a1a0a')throw new Error('Expected real PNG');
-const candidates=[process.env.GPT_IMAGE_CONFIG,path.resolve(root,'..','image','config','image-generation.json')].filter(Boolean);
+const candidates=[process.env.GPT_IMAGE_CONFIG,path.join(root,'config','image-generation.json'),path.resolve(root,'..','image','config','image-generation.json')].filter(Boolean);
 let cfg,configSource;
 async function readConfiguration(candidate){const raw=await readFile(candidate);cfg=JSON.parse(raw.toString('utf8').replace(/^\uFEFF/,''));configSource={path:candidate,sha256:createHash('sha256').update(raw).digest('hex')};}
 for(const candidate of candidates){try{await readConfiguration(candidate);break;}catch(error){if(error.code!=='ENOENT')throw error;}}

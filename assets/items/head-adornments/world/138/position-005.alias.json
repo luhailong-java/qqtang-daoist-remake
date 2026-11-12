@@ -4,8 +4,8 @@
   "sourcePhaseIndex": 5,
   "directionIndex": null,
   "directionSemantic": null,
-  "file": "assets/items/head-adornments/world/138/frame-002-138-a-v1.png",
-  "sha256": "29ae0e7c151d7951eb1c60222589ec9b91df3a91d49db6348c9ed90f950eb420",
+  "file": "assets/items/head-adornments/world/138/frame-002-138-phase2-fix-v2.png",
+  "sha256": "83810264cc297d1eb3eeb7c3df3e0eb6640ebff238fa3bf1283f575412a233bf",
   "width": 192,
   "height": 92,
   "logicalFrameSize": [
@@ -27,30 +27,30 @@
     "record": "assets/items/head-adornments/references/world/138/frame-002.png.source.json"
   },
   "derivedFrom": {
-    "file": "assets/items/head-adornments/world/world-138-a-v1.png",
-    "sha256": "66676baa5ed2092686dff3154e6ca25dfc010be2e742fdc6ba5ae327aaf86f5a",
-    "generationRecord": "assets/items/head-adornments/world/world-138-a-v1.png.generation.json"
+    "file": "assets/items/head-adornments/world/world-138-phase2-fix-v2.png",
+    "sha256": "ddcd47643b1ce015912eebdb47015bf7ee15b441c88407f1848575b8944a4a45",
+    "generationRecord": "assets/items/head-adornments/world/world-138-phase2-fix-v2.png.generation.json"
   },
   "operation": {
     "type": "exact-raster-file-reference-reuse",
     "newModelGeneration": false,
     "representativeSourceFrameIndex": 2,
-    "representativeFile": "assets/items/head-adornments/world/138/frame-002-138-a-v1.png",
-    "geometry": "same native width/height only; rawOffset belongs to this source position",
+    "representativeFile": "assets/items/head-adornments/world/138/frame-002-138-phase2-fix-v2.png",
+    "geometry": "same native width/height only; rawOffset remains source position's own",
     "originalPaintOperation": {
       "type": "crop-uniform-fit-original-world-alpha-envelope",
       "newModelGeneration": false,
       "sourceCellRectLTRB": [
-        1024,
         0,
-        1536,
-        512
+        0,
+        1813,
+        868
       ],
       "generatedContentBBoxAt16": [
-        54,
-        166,
-        481,
-        395
+        368,
+        172,
+        1435,
+        693
       ],
       "sourceLogicalAlphaBBoxAt16": [
         0,
@@ -58,9 +58,9 @@
         48,
         23
       ],
-      "uniformScale": 0.4017467248908297,
+      "uniformScale": 0.1765834932821497,
       "placementPx": [
-        10,
+        2,
         0
       ],
       "resampler": "premultiplied-alpha LANCZOS",
@@ -75,14 +75,13 @@
   "accepted": false,
   "qa": {
     "sourceVisibleAspect": 2.0869565217391304,
-    "generatedVisibleAspect": 1.8646288209606987,
-    "relativeAspectDeviation": 0.10653202328966516
+    "generatedVisibleAspect": 2.047984644913628,
+    "relativeAspectDeviation": 0.018674024312219983
   },
   "warnings": [
     "native head-layer origin, sign and actor attachment unverified",
     "source timing not supplied; do not invent frame duration",
-    "per-frame source phase, silhouette and alpha edges await review",
-    "visible aspect differs by more than 10%"
+    "per-frame source phase, silhouette and alpha edges await review"
   ],
   "imagePhaseRepresentativeIndex": 2,
   "sourceNativeFrameRecord": {
@@ -111,5 +110,7 @@
   "positionWithinRawEnvelope": [
     1,
     5
-  ]
+  ],
+  "userReviewStatus": "pending",
+  "reviewBatch": "docs/ART_DELIVERY_20261111.md"
 }

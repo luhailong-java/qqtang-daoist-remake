@@ -1,0 +1,101 @@
+{
+  "file": "assets/items/head-adornments/world/world-39-left-continuity-v1.png",
+  "sha256": "f9371f8b86afacad662da4cc9e4741e43fc029e133534fd661d07d4617661cfd",
+  "generatedAt": "2026-11-12T04:47:57.302Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+    "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+    "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+    "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/39/source-phases-b.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-39-c-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: precise-object-edit / original game sprite atlas.\nCreate TWO genuine transparent RGBA basket sprites in one horizontal row, requested2048x1024, equal square cells. They are original 灵葫大作战 collectible basket world phases13 LEFT and14 RIGHT. Input1 source-board b bottom-middle and bottom-right controls poses ONLY, not its penguin face or pixel art. Input2 current original basket atlas top-left16 and top-middle17 controls the correct LEFT-facing doll identity/view relationship. Input3 latest corrected basket left-cell12 preserves same jade/gold basket design and miniature original golden-headband brown-haired Daoist boy. Inputs4/5 confirmed project Daoist chibi hand-painted style.\n\nBoth required: basket FRONT with boy at viewer-LEFT and his nose/face directed unambiguously toward VIEWER-LEFT, same as source13/14 and neighbouring corrected12. Existing B13/14 mistakenly face right: do NOT copy that right-facing error or mirror old pixels. Repaint both faces/poses in the correct left-facing direction while retaining headband/topknot/ivory-jade-amber outfit. Crimson scroll in FRONT RIGHT leaning up-right; golden double gourd behind centre, palejade/ivory fan behind right. Same four contents only, golden shallow woven bamboo oval basket with jade cloud medallion centred on front. No source penguin/blackwhite licensed face/redscarf/beak.\nLEFT phase13: taller UPRIGHT tiny boy rising above rim with short torso visible, source full visible envelope width:height38:36=1.056 (about650wide615high). Scroll and fan lower than top of head/gourd as source. Whole basket/contents must not be horizontally spread like low phase12. This is a tall phase with boy upright and firmly seated.\nRIGHT phase14: boy settles LOWER with most body hidden by rim, same left-facing side view; source envelope37:33=1.121 (about650wide580high). Scroll prominent to front-right, fan/gourd behind. Difference from13 must be clear downward seated posture, not just whole sprite translated. Do not shift whole-object offsets, export keeps raw offsets separately.\n\nKeep basket craft/number of objects/face identity/relative side relationships coherent with inputs2/3, fine rounded hand-painted jade/ivory/warmgold, not plastic3D. Exactly one whole sprite centred in each1024square with >=90px genuine clear alpha margin. No cells crossing. Outside and gaps fully transparent; no brown background glow/fog/cast shadow/ground/halo, no labels/text/numbers/UI/grid, no head wearer under basket. Highest host-provided quality target. Never nonuniform stretch or mirror.",
+  "references": [
+    {
+      "path": "assets/items/head-adornments/references/world/39/source-phases-b.png",
+      "purpose": "source phase and structure reference only; source pixels not runtime art",
+      "sha256": "53ae1a27a7a8ac8c5af41c0f80a27de928de157de8a819e2bf140799a6fad622"
+    },
+    {
+      "path": "assets/items/head-adornments/world/world-39-c-v1.png",
+      "purpose": "project original visual identity or edit target; previous state not automatically accepted",
+      "sha256": "774be877fa91b3864fd0841111c49a30852aeebb8b122488576feaee5897fbf8"
+    },
+    {
+      "path": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+      "purpose": "project original visual identity or edit target; previous state not automatically accepted",
+      "sha256": "4b273289c1a189c8b5e3c2dc7ba1ace6d362335e844bd90f62dba8aa1c4654c6"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1ce03-582b-7a62-8e44-59d748fb5874/exec-e1b649e2-9783-43f1-acfd-1ba0b7f5235e.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-39-left-continuity-v1.prompt.txt",
+  "promptFileSha256": "bc238eec020407098278c83902b71ec6693ba3b47278864f1599cf27f0a214ec",
+  "submittedPromptSha256": "c1613e70875255f934c2a3e6658a9e99c0ea1b2d8f4c1d0eb27c130e60a4d8bd",
+  "userReviewStatus": "pending",
+  "visualAccepted": false,
+  "requestedDimensions": [
+    2048,
+    1024
+  ],
+  "nativeDimensionsReturned": [
+    1774,
+    887
+  ],
+  "promptSubmission": "Exact string sent to built-in tool, preserved from call; prompt file may use normalized line endings."
+}

@@ -1,0 +1,99 @@
+{
+  "file": "assets/items/head-adornments/world/world-408-b-v1.png",
+  "sha256": "00dbb777a5c51fab6100e13f4759ebceef8c913b03774aac6151070a76b5f6de",
+  "generatedAt": "2026-11-12T05:00:09.001Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/408/source-phases-b.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-408-a-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/items/petcards/references/canon/14-feierling.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: stylized-concept original game sprite atlas.\nCreate one transparent RGBA WORLD head-ornament sheet for 灵葫大作战 item408 绯耳灵伴. Requested1536x1024 exact3columns2rows, six equal square cells. Input1 SOURCE board top12/13/14 and bottom18/19/20 controls visible views, wing poses and full-envelope proportions only, not purple devil, black horns, fangs or pixel art. Input2 our newly drawn world identity controls same copperred hair/fox ears/jade-gold leaflike spirit wings; it is a candidate appearance reference, not approved geometry: do not inherit its too-tall rear head. Input3 canonical ORIGINAL 绯耳灵 controls identity, face/ears/hair/flowers/jade. Inputs4/5 confirmed jade/ivory/warmgold Daoist chibi fine hand painting.\n\nFloating HEAD ONLY, no neck/collar/clothes/shoulders/body/arms/tail/foxmask/wearer. Copper-red short layered hair, fluffy fox ears with ivory inner fur and dark tips, osmanthus and jade bead SHORT ribbons on same physical side of head as canonical. Do genuine rotations, not mirror existing pixels. Friendly original calm closed/narrow eyes, subtle smile, no devil fangs. Wings are one pair of small darkjade membranous leaf-shaped spirit ornaments behind head with fine warmgold ribs, never arms or angel feathers.\nTOP LEFT12: true SIDE PROFILE nose points viewer-LEFT, back of hair to viewer-RIGHT; one visible wing extends behind head toward RIGHT in middle/horizontal position. Complete visible envelope28:22=1.273, around390wide306high. Same identity as input2 right-facing profile viewed from the OTHER side, flower ornament can be partly occluded by the head; do not paste right-view face pointing wrong way.\nTOP MIDDLE13: same left-facing head scale/placement, the one right-back wing lifts UP-right. Still complete envelope1.273; wing must keep enough rightward extension, not shrink to a tiny vertical appendage.\nTOP RIGHT14: same left-facing head; single right-back wing sweeps DOWN-right. Same total envelope1.273. Head itself does not bob: rawOffset carries vertical motion separately.\nBOTTOM LEFT18: true FRONT view, level closed smiling eyes and little smile; head front centred, two symmetrical fox ears, osmanthus jade cluster on viewer-LEFT as canonical. Both jade/gold wings at middle/horizontal positions extend far to both sides behind hair. COMPLETE envelope39:22=1.773, around430wide243high. Draw compact round face and foreshortened short fox ears naturally with wings long enough sideways; do not make a tall narrow portrait.\nBOTTOM MIDDLE19: same FRONT head size/placement and expression, both wings lift UP/outward while full envelope remains430wide243high. Keep small compact round face, short ears, head stable. Only wing pose changes.\nBOTTOM RIGHT20: same FRONT head, wings sweep DOWN/outward, width430height243 target. No whole-head vertical shift. Do not draw rear face here.\n\nSame head silhouette/ear/face identity within each triple, same wing design across all6. Bodyless floating heads, short ribbons inside contour. Required ratios are natural redraw goals; never squash/stretch pixels. Each complete sprite centred in512square with >=35px genuinely transparent margins; no crossing/cropping. Fine rounded hand-painted textures, readable at112x88/156x88 density4 export. Clear alpha outside/gaps with no brown glow/fog/ground/shadow/particles/halo. No text/numbers/labels/grid/dividers/UI. Highest host-provided quality target. These are candidates pending USER visual/animation/attachment review; no invented cardinal directions or timing.",
+  "references": [
+    {
+      "path": "assets/items/head-adornments/references/world/408/source-phases-b.png",
+      "purpose": "source phases/structure only",
+      "sha256": "b2e2440e9bf4e3b22f91b6612652a4e0cb7d72a58eacbcd1879bdaf035a3a30f"
+    },
+    {
+      "path": "assets/items/head-adornments/world/world-408-a-v1.png",
+      "purpose": "project original identity or edit target",
+      "sha256": "3d2f70ba80ae0721b4b6db4ff0ec89f8f2e2aeec4f3f4b2e1c651177610cb122"
+    },
+    {
+      "path": "assets/items/petcards/references/canon/14-feierling.png",
+      "purpose": "project original identity or edit target",
+      "sha256": "c0e4141ae433177e0861209ea7affb0db266611ed53a398d8bf71b6dd9d9dc01"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "purpose": "confirmed Daoist chibi visual style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "purpose": "confirmed Daoist chibi visual style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1ce03-582b-7a62-8e44-59d748fb5874/exec-36464d6a-7b20-4bc8-bbaf-bf261eef93ec.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-408-b-v1.prompt.txt",
+  "submittedPromptSha256": "7bdd4e517194fead6e7d6c3dca8e3437154dfe0160ccd6f01c53b89b9281418e",
+  "promptFileSha256": "b2cd355ed2833025f11d7a4a75a81346b9e734952f0c901429267b021d0c72f8",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "nativeDimensionsReturned": [
+    1536,
+    1024
+  ],
+  "promptSubmission": "Exact string sent to built-in tool; preserved from call.",
+  "userReviewStatus": "pending",
+  "visualAccepted": false,
+  "selection": "Original take retained as actual edit/identity input; final frame crops use v2. Initial take had aspect warnings."
+}

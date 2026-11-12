@@ -1,0 +1,100 @@
+{
+  "file": "assets/items/head-adornments/world/world-138-phase2-fix-v2.png",
+  "sha256": "ddcd47643b1ce015912eebdb47015bf7ee15b441c88407f1848575b8944a4a45",
+  "generatedAt": "2026-11-12T04:48:48.857Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1813,
+  "height": 868,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+    "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+    "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+    "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-138-envelope-fix-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/138/source-phases-a.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: precise-object-edit. Create ONE corrected phase2 jade halo sprite, transparent RGBA, requested1024x1024. Image1 target is ONLY its LEFT ring (discard the right sprite). Keep same jade stone ring, gold trim and small cloud engraving identity and fine Daoist chibi hand painting. Image2 actual source board top-right controls phase2 geometry and the sparse small glints only; images3/4 confirmed project style.\n\nThe previous LEFT sprite total measured alpha>=16 envelope is672 wide285 high, too shallow at2.358:1. Need total envelope48:23=2.087:1. Do not stretch or squash pixels, and do not enlarge ring thickness. Redraw the same ring body with the surrounding tiny glints at source-phase distances: upper-left small glint approx20px further upward and lower-centre small glint approx20px further downward relative to ring, for total visible height about322px for same672px width. Keep ellipse itself slender and broad, same material and cloud engravings, all glints SMALL as source2; no giant cross star from phase13. The intended correction is a naturally taller placement of existing tiny phase2 lights around same ring, not a new ornament or fake background haze. Preserve sparse upper-left/upper-right/lower-centre glints and minute edge dots. Do not invent large top/bottom stars or spread more particles laterally. Complete visible width:height2.087 within5%.\n\nExactly one complete low oval ring centred with >=100px clear alpha margin. Ring interior truly empty transparent alpha, background and gaps truly transparent, no glow cloud/brown haze/ground/shadow/cell/grid/text/numbers/UI/character. Isolated intended small sharp glints only. Highest host quality target. Return one sprite, no extra ring or sheet.",
+  "references": [
+    {
+      "path": "assets/items/head-adornments/world/world-138-envelope-fix-v1.png",
+      "purpose": "project original visual identity or edit target; previous state not automatically accepted",
+      "sha256": "5aae7e68d409fdeb9191598948b890f622e85c202f091ca1b2377dd8574aaf81"
+    },
+    {
+      "path": "assets/items/head-adornments/references/world/138/source-phases-a.png",
+      "purpose": "source phase and structure reference only; source pixels not runtime art",
+      "sha256": "b3b02f57ee6aaff9862776e724c0125d1328522ed8e9502020b19aae79199ca4"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "purpose": "confirmed project Daoist chibi visual style reference",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1ce03-582b-7a62-8e44-59d748fb5874/exec-e1435cdd-3e87-4548-baa0-d081524cb84c.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-138-phase2-fix-v2.prompt.txt",
+  "promptFileSha256": "89ee693e82d7547ec56948f2435eacf3dc8310842e5a1b4f76d9df2ac8ef447b",
+  "submittedPromptSha256": "cb819e43f2897045c8a429b72c6de6cd01be3781b92c19ed8c849de63892732d",
+  "userReviewStatus": "pending",
+  "visualAccepted": false,
+  "editOf": {
+    "file": "assets/items/head-adornments/world/world-138-envelope-fix-v1.png",
+    "sha256": "5aae7e68d409fdeb9191598948b890f622e85c202f091ca1b2377dd8574aaf81",
+    "generationRecord": "assets/items/head-adornments/world/world-138-envelope-fix-v1.png.generation.json"
+  },
+  "requestedDimensions": [
+    1024,
+    1024
+  ],
+  "nativeDimensionsReturned": [
+    1813,
+    868
+  ],
+  "promptSubmission": "Exact string sent to built-in tool, preserved from call; prompt file may use normalized line endings."
+}

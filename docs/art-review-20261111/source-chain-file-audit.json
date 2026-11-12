@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-11-12T05:02:56.757420+00:00",
+  "scope": "first user-review batch only: six masters, eight exported PNGs, fifteen source positions; excludes 408",
+  "method": "file bytes, PNG decode, JSON relationships and SHA-256 only; no GUI automation or visual acceptance",
+  "userVisualReviewRequired": true,
+  "masterCount": 6,
+  "referenceLinkCount": 29,
+  "newExportedPngCount": 8,
+  "sourcePositionCount": 15,
+  "masters": [
+    {
+      "file": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+      "generationRecord": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png.generation.json",
+      "generationRecordSha256": "bd4a54bd0287912e00261d40a52e52d1fe9ae3a2b84c72cfb06c0676ae23898d",
+      "sha256": "4b273289c1a189c8b5e3c2dc7ba1ace6d362335e844bd90f62dba8aa1c4654c6",
+      "actualPngSize": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceChecks": [
+        {
+          "file": "assets/items/head-adornments/references/world/39/source-phases-b.png",
+          "sha256": "53ae1a27a7a8ac8c5af41c0f80a27de928de157de8a819e2bf140799a6fad622",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/references/world/39/source-phases-c.png",
+          "sha256": "6f8d1fe8ca1ab879048f1208216329baa577c8fd5426f5b1db0d96d3cec6e975",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/world/world-39-c-v1.png",
+          "sha256": "774be877fa91b3864fd0841111c49a30852aeebb8b122488576feaee5897fbf8",
+          "match": true
+        },
+        {
+          "file": "references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "match": true
+        },
+        {
+          "file": "references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "match": true
+        }
+      ],
+      "promptFile": "assets/items/head-adornments/prompts/world-39-envelope-fix-v1.prompt.txt",
+      "promptFileSha256": "ea652a5857f3fd82bdeb3e59f193a1dbc3a2ede5a5728c868e06472907d2904d",
+      "promptFileRecordedShaMatches": true,
+      "promptFileCrlfCount": 0,
+      "promptFileLfCount": 12,
+      "submittedPromptByteLength": 3252,
+      "submittedPromptSha256": "23888b751537b9b249a7e67c8ddd8063285d09cec6b8327a62cb34d7358ba37b",
+      "submittedPromptRecordedShaMatches": true,
+      "fileAndSubmittedPromptEqualAfterOnlyLineEndingAndTrailingNewlineNormalization": true,
+      "actualModelEvidenceBoundary": "generation record actualModel/actualQuality null; tool invocation not independently re-created by this file audit",
+      "configSource": {
+        "file": "config/image-generation.json",
+        "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+        "generationTimeBytes": 941,
+        "recordedGenerationSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+        "generationTimeBytesShaMatches": true,
+        "currentFileBytes": 940,
+        "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+        "recordedCurrentFileShaMatches": true,
+        "semanticSnapshotMatchesHistoricalAndCurrentJson": true,
+        "literalCurrentPathShaMatchesHistorical": false,
+        "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+      }
+    },
+    {
+      "file": "assets/items/head-adornments/world/world-39-left-continuity-v1.png",
+      "generationRecord": "assets/items/head-adornments/world/world-39-left-continuity-v1.png.generation.json",
+      "generationRecordSha256": "7f8b5f11c9c5d4c65865d00d2bfad0e7adf734b02c7b4c7959acc03918ef10f2",
+      "sha256": "f9371f8b86afacad662da4cc9e4741e43fc029e133534fd661d07d4617661cfd",
+      "actualPngSize": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceChecks": [
+        {
+          "file": "assets/items/head-adornments/references/world/39/source-phases-b.png",
+          "sha256": "53ae1a27a7a8ac8c5af41c0f80a27de928de157de8a819e2bf140799a6fad622",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/world/world-39-c-v1.png",
+          "sha256": "774be877fa91b3864fd0841111c49a30852aeebb8b122488576feaee5897fbf8",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+          "sha256": "4b273289c1a189c8b5e3c2dc7ba1ace6d362335e844bd90f62dba8aa1c4654c6",
+          "match": true
+        },
+        {
+          "file": "references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "match": true
+        },
+        {
+          "file": "references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "match": true
+        }
+      ],
+      "promptFile": "assets/items/head-adornments/prompts/world-39-left-continuity-v1.prompt.txt",
+      "promptFileSha256": "bc238eec020407098278c83902b71ec6693ba3b47278864f1599cf27f0a214ec",
+      "promptFileRecordedShaMatches": true,
+      "promptFileCrlfCount": 0,
+      "promptFileLfCount": 8,
+      "submittedPromptByteLength": 2567,
+      "submittedPromptSha256": "c1613e70875255f934c2a3e6658a9e99c0ea1b2d8f4c1d0eb27c130e60a4d8bd",
+      "submittedPromptRecordedShaMatches": true,
+      "fileAndSubmittedPromptEqualAfterOnlyLineEndingAndTrailingNewlineNormalization": true,
+      "actualModelEvidenceBoundary": "generation record actualModel/actualQuality null; tool invocation not independently re-created by this file audit",
+      "configSource": {
+        "file": "config/image-generation.json",
+        "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+        "generationTimeBytes": 941,
+        "recordedGenerationSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+        "generationTimeBytesShaMatches": true,
+        "currentFileBytes": 940,
+        "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+        "recordedCurrentFileShaMatches": true,
+        "semanticSnapshotMatchesHistoricalAndCurrentJson": true,
+        "literalCurrentPathShaMatchesHistorical": false,
+        "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+      }
+    },
+    {
+      "file": "assets/items/head-adornments/world/world-138-envelope-fix-v1.png",
+      "generationRecord": "assets/items/head-adornments/world/world-138-envelope-fix-v1.png.generation.json",
+      "generationRecordSha256": "fe012d6a5549d3e17de083d1a00b0b3163b0ea9b37fb03d9d0ec3624fe43ef3d",
+      "sha256": "5aae7e68d409fdeb9191598948b890f622e85c202f091ca1b2377dd8574aaf81",
+      "actualPngSize": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceChecks": [
+        {
+          "file": "assets/items/head-adornments/references/world/138/source-phases-a.png",
+          "sha256": "b3b02f57ee6aaff9862776e724c0125d1328522ed8e9502020b19aae79199ca4",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/references/world/138/source-phases-b.png",
+          "sha256": "93b4f0904cc3ad47112e7e5860fc6556d5f75eab39e4ab06fbe766527973192c",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/world/world-138-a-v1.png",
+          "sha256": "66676baa5ed2092686dff3154e6ca25dfc010be2e742fdc6ba5ae327aaf86f5a",
+          "match": true
+        },
+        {
+          "file": "references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "match": true
+        },
+        {
+          "file": "references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "match": true
+        }
+      ],
+      "promptFile": "assets/items/head-adornments/prompts/world-138-envelope-fix-v1.prompt.txt",
+      "promptFileSha256": "2ef86ce838b9cec4a1fbe5eb307c9b1a876fdcb8ed47e72806f465ffba7fd265",
+      "promptFileRecordedShaMatches": true,
+      "promptFileCrlfCount": 0,
+      "promptFileLfCount": 9,
+      "submittedPromptByteLength": 2792,
+      "submittedPromptSha256": "adf4d96d13d50adb7bf60687225faeae28c3e95a751f00589ba2347590129ea2",
+      "submittedPromptRecordedShaMatches": true,
+      "fileAndSubmittedPromptEqualAfterOnlyLineEndingAndTrailingNewlineNormalization": true,
+      "actualModelEvidenceBoundary": "generation record actualModel/actualQuality null; tool invocation not independently re-created by this file audit",
+      "configSource": {
+        "file": "config/image-generation.json",
+        "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+        "generationTimeBytes": 941,
+        "recordedGenerationSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+        "generationTimeBytesShaMatches": true,
+        "currentFileBytes": 940,
+        "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+        "recordedCurrentFileShaMatches": true,
+        "semanticSnapshotMatchesHistoricalAndCurrentJson": true,
+        "literalCurrentPathShaMatchesHistorical": false,
+        "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+      }
+    },
+    {
+      "file": "assets/items/head-adornments/world/world-138-phase2-fix-v2.png",
+      "generationRecord": "assets/items/head-adornments/world/world-138-phase2-fix-v2.png.generation.json",
+      "generationRecordSha256": "d426f4b63d13cb44cb3a45f027392753d8dcaaac88afbcb84d809cd9b8efe10b",
+      "sha256": "ddcd47643b1ce015912eebdb47015bf7ee15b441c88407f1848575b8944a4a45",
+      "actualPngSize": [
+        1813,
+        868
+      ],
+      "mode": "RGBA",
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceChecks": [
+        {
+          "file": "assets/items/head-adornments/world/world-138-envelope-fix-v1.png",
+          "sha256": "5aae7e68d409fdeb9191598948b890f622e85c202f091ca1b2377dd8574aaf81",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/references/world/138/source-phases-a.png",
+          "sha256": "b3b02f57ee6aaff9862776e724c0125d1328522ed8e9502020b19aae79199ca4",
+          "match": true
+        },
+        {
+          "file": "references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "match": true
+        },
+        {
+          "file": "references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "match": true
+        }
+      ],
+      "promptFile": "assets/items/head-adornments/prompts/world-138-phase2-fix-v2.prompt.txt",
+      "promptFileSha256": "89ee693e82d7547ec56948f2435eacf3dc8310842e5a1b4f76d9df2ac8ef447b",
+      "promptFileRecordedShaMatches": true,
+      "promptFileCrlfCount": 0,
+      "promptFileLfCount": 5,
+      "submittedPromptByteLength": 1728,
+      "submittedPromptSha256": "cb819e43f2897045c8a429b72c6de6cd01be3781b92c19ed8c849de63892732d",
+      "submittedPromptRecordedShaMatches": true,
+      "fileAndSubmittedPromptEqualAfterOnlyLineEndingAndTrailingNewlineNormalization": true,
+      "actualModelEvidenceBoundary": "generation record actualModel/actualQuality null; tool invocation not independently re-created by this file audit",
+      "configSource": {
+        "file": "config/image-generation.json",
+        "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+        "generationTimeBytes": 941,
+        "recordedGenerationSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+        "generationTimeBytesShaMatches": true,
+        "currentFileBytes": 940,
+        "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+        "recordedCurrentFileShaMatches": true,
+        "semanticSnapshotMatchesHistoricalAndCurrentJson": true,
+        "literalCurrentPathShaMatchesHistorical": false,
+        "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+      }
+    },
+    {
+      "file": "assets/items/head-adornments/world/world-1539-phase10-fix-v1.png",
+      "generationRecord": "assets/items/head-adornments/world/world-1539-phase10-fix-v1.png.generation.json",
+      "generationRecordSha256": "d95dd4f1659008621bf5d44072bec941876a5fbaa224f955f06acf4bbef43fd8",
+      "sha256": "54bc9fb2722e2b75103eaa4aa9274b85b873a489920b2b783a7f705adc0987da",
+      "actualPngSize": [
+        1576,
+        998
+      ],
+      "mode": "RGBA",
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceChecks": [
+        {
+          "file": "assets/items/head-adornments/references/world/1539/source-phases-b.png",
+          "sha256": "1eb3387785dbeb551e6dd11a5b89653be23395fb52cce951125ac54252be43cf",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/world/world-1539-e-v1.png",
+          "sha256": "d7ed0f577af44e0f969e9893c1df6fda9b7e57b6c852343c2b295501ac8912c2",
+          "match": true
+        },
+        {
+          "file": "assets/items/petcards/references/canon/04-guideng.png",
+          "sha256": "5162ad6c61ab228dc7d0be1beefc7c6f9ed940d880b7d23648fae941559df309",
+          "match": true
+        },
+        {
+          "file": "references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "match": true
+        },
+        {
+          "file": "references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "match": true
+        }
+      ],
+      "promptFile": "assets/items/head-adornments/prompts/world-1539-phase10-fix-v1.prompt.txt",
+      "promptFileSha256": "4f84a85b54e11bcfc20f3626f036195f69742bde7b2e2fa8283b4cf65687cc6a",
+      "promptFileRecordedShaMatches": true,
+      "promptFileCrlfCount": 0,
+      "promptFileLfCount": 8,
+      "submittedPromptByteLength": 2403,
+      "submittedPromptSha256": "b887c0496c7ec5cfcb1d4ab7e73b7b6f9086d1cd2fae57e75a9035b0ac128781",
+      "submittedPromptRecordedShaMatches": true,
+      "fileAndSubmittedPromptEqualAfterOnlyLineEndingAndTrailingNewlineNormalization": true,
+      "actualModelEvidenceBoundary": "generation record actualModel/actualQuality null; tool invocation not independently re-created by this file audit",
+      "configSource": {
+        "file": "config/image-generation.json",
+        "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+        "generationTimeBytes": 941,
+        "recordedGenerationSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+        "generationTimeBytesShaMatches": true,
+        "currentFileBytes": 940,
+        "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+        "recordedCurrentFileShaMatches": true,
+        "semanticSnapshotMatchesHistoricalAndCurrentJson": true,
+        "literalCurrentPathShaMatchesHistorical": false,
+        "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+      }
+    },
+    {
+      "file": "assets/items/head-adornments/world/world-1539-phase10-fix-v2.png",
+      "generationRecord": "assets/items/head-adornments/world/world-1539-phase10-fix-v2.png.generation.json",
+      "generationRecordSha256": "3bf9d01dc9d2aa5458f0243fe223c4adfdc025cabf417bd2c334fcbe30e7b5a0",
+      "sha256": "4a02ef037e1a9dd079e133802fa7346fade6ed34e7208aead950c7eea5fb04dc",
+      "actualPngSize": [
+        1576,
+        998
+      ],
+      "mode": "RGBA",
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceChecks": [
+        {
+          "file": "assets/items/head-adornments/world/world-1539-phase10-fix-v1.png",
+          "sha256": "54bc9fb2722e2b75103eaa4aa9274b85b873a489920b2b783a7f705adc0987da",
+          "match": true
+        },
+        {
+          "file": "assets/items/head-adornments/references/world/1539/source-phases-b.png",
+          "sha256": "1eb3387785dbeb551e6dd11a5b89653be23395fb52cce951125ac54252be43cf",
+          "match": true
+        },
+        {
+          "file": "references/image/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "match": true
+        },
+        {
+          "file": "references/image/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "match": true
+        },
+        {
+          "file": "assets/items/petcards/references/canon/04-guideng.png",
+          "sha256": "5162ad6c61ab228dc7d0be1beefc7c6f9ed940d880b7d23648fae941559df309",
+          "match": true
+        }
+      ],
+      "promptFile": "assets/items/head-adornments/prompts/world-1539-phase10-fix-v2.prompt.txt",
+      "promptFileSha256": "4abba4f9dba13375e88ce58a363e0f5c17a2468cf8c1cc909fd95a476dcde2c4",
+      "promptFileRecordedShaMatches": true,
+      "promptFileCrlfCount": 0,
+      "promptFileLfCount": 1,
+      "submittedPromptByteLength": 1190,
+      "submittedPromptSha256": "5e71e466177a5960cee9a724dc4b1a8a0f32fcced36457527915c3d5ee387cd0",
+      "submittedPromptRecordedShaMatches": true,
+      "fileAndSubmittedPromptEqualAfterOnlyLineEndingAndTrailingNewlineNormalization": true,
+      "actualModelEvidenceBoundary": "generation record actualModel/actualQuality null; tool invocation not independently re-created by this file audit",
+      "configSource": {
+        "file": "config/image-generation.json",
+        "generationTimeBytesFile": "docs/art-review-20261111/image-generation-submitted.json",
+        "generationTimeBytes": 941,
+        "recordedGenerationSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+        "generationTimeBytesShaMatches": true,
+        "currentFileBytes": 940,
+        "currentFileSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+        "recordedCurrentFileShaMatches": true,
+        "semanticSnapshotMatchesHistoricalAndCurrentJson": true,
+        "literalCurrentPathShaMatchesHistorical": false,
+        "serializationChange": "The generation-time configuration had LF internal line endings and one terminal CRLF (941 bytes). The current file has the identical JSON body with terminal LF (940 bytes). Historical configSource.path and sha256 are preserved; generationTimeBytesFile preserves the exact historical bytes."
+      }
+    }
+  ],
+  "manifestChecks": {
+    "independent39MatchesFullManifestEntry": true,
+    "files": [
+      {
+        "file": "assets/items/head-adornments/world-art.json",
+        "sha256": "56ee0ac1bf7464958fc69a10df929490bc0cd5f24a9eb988774563b6ceb2b55a"
+      },
+      {
+        "file": "assets/items/head-adornments/world-39-art.json",
+        "sha256": "af8ae608a2af15515e0b8d6041660da35f569f9605b9b85e345ac4b50d45a408"
+      }
+    ]
+  },
+  "newExportedPngs": [
+    {
+      "file": "assets/items/head-adornments/world/39/frame-012-39-envelope-fix-v1.png",
+      "sha256": "5d6ce20329b588c907558620887699786d08b6f355d556b48da8ba3d87ce3af3",
+      "size": [
+        148,
+        124
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+      "sourceMasterSha256": "4b273289c1a189c8b5e3c2dc7ba1ace6d362335e844bd90f62dba8aa1c4654c6"
+    },
+    {
+      "file": "assets/items/head-adornments/world/39/frame-013-39-left-continuity-v1.png",
+      "sha256": "46944f362f4f519e07b4b3b8f5f62eacd2422288160ed8d92271d98c8c2b7766",
+      "size": [
+        152,
+        144
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-39-left-continuity-v1.png",
+      "sourceMasterSha256": "f9371f8b86afacad662da4cc9e4741e43fc029e133534fd661d07d4617661cfd"
+    },
+    {
+      "file": "assets/items/head-adornments/world/39/frame-014-39-left-continuity-v1.png",
+      "sha256": "9f0c01ac555963899c8bdf78e82c1e56b9f67f08cb58138efc68722e113ea92e",
+      "size": [
+        148,
+        132
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-39-left-continuity-v1.png",
+      "sourceMasterSha256": "f9371f8b86afacad662da4cc9e4741e43fc029e133534fd661d07d4617661cfd"
+    },
+    {
+      "file": "assets/items/head-adornments/world/39/frame-019-39-envelope-fix-v1.png",
+      "sha256": "6ff9589631439bae6a737a64487e49d981e0119850b3c69f9f006658739979bc",
+      "size": [
+        184,
+        136
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+      "sourceMasterSha256": "4b273289c1a189c8b5e3c2dc7ba1ace6d362335e844bd90f62dba8aa1c4654c6"
+    },
+    {
+      "file": "assets/items/head-adornments/world/39/frame-020-39-envelope-fix-v1.png",
+      "sha256": "c6495a660bda0fa9c19ebe3e3b972daad85eedb185cfcbd6356ba657f9b6b6a8",
+      "size": [
+        148,
+        112
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png",
+      "sourceMasterSha256": "4b273289c1a189c8b5e3c2dc7ba1ace6d362335e844bd90f62dba8aa1c4654c6"
+    },
+    {
+      "file": "assets/items/head-adornments/world/138/frame-002-138-phase2-fix-v2.png",
+      "sha256": "83810264cc297d1eb3eeb7c3df3e0eb6640ebff238fa3bf1283f575412a233bf",
+      "size": [
+        192,
+        92
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-138-phase2-fix-v2.png",
+      "sourceMasterSha256": "ddcd47643b1ce015912eebdb47015bf7ee15b441c88407f1848575b8944a4a45"
+    },
+    {
+      "file": "assets/items/head-adornments/world/138/frame-013-138-envelope-fix-v1.png",
+      "sha256": "5b7b2d27616e1863b238eac659ebb11acb0645cec1929f37a6fb4c39e0e205a3",
+      "size": [
+        204,
+        104
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-138-envelope-fix-v1.png",
+      "sourceMasterSha256": "5aae7e68d409fdeb9191598948b890f622e85c202f091ca1b2377dd8574aaf81"
+    },
+    {
+      "file": "assets/items/head-adornments/world/1539/frame-010-1539-phase10-fix-v2.png",
+      "sha256": "0aed73ecbeeb079f2eaf3a9bad22c06cbb228ebed3b63805b1a3706c50fdf034",
+      "size": [
+        164,
+        104
+      ],
+      "mode": "RGBA",
+      "sourceMaster": "assets/items/head-adornments/world/world-1539-phase10-fix-v2.png",
+      "sourceMasterSha256": "4a02ef037e1a9dd079e133802fa7346fade6ed34e7208aead950c7eea5fb04dc"
+    }
+  ],
+  "positions": [
+    {
+      "itemId": 39,
+      "sourceFrameIndex": 12,
+      "file": "assets/items/head-adornments/world/39/frame-012-39-envelope-fix-v1.png",
+      "sha256": "5d6ce20329b588c907558620887699786d08b6f355d556b48da8ba3d87ce3af3",
+      "nativeLogicalSize": [
+        37,
+        31
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        31,
+        0
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/39/frame-012-39-envelope-fix-v1.png.provenance.json",
+      "provenanceRecordSha256": "efe8c62f36069359e95d2386224f6f9cfad6d9dfb36831bccb698bc52b7ed317",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 39,
+      "sourceFrameIndex": 13,
+      "file": "assets/items/head-adornments/world/39/frame-013-39-left-continuity-v1.png",
+      "sha256": "46944f362f4f519e07b4b3b8f5f62eacd2422288160ed8d92271d98c8c2b7766",
+      "nativeLogicalSize": [
+        38,
+        36
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        32,
+        -11
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/39/frame-013-39-left-continuity-v1.png.provenance.json",
+      "provenanceRecordSha256": "457156378790285041077f652e4f6f4841c00fb02155877830de69739773af29",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 39,
+      "sourceFrameIndex": 14,
+      "file": "assets/items/head-adornments/world/39/frame-014-39-left-continuity-v1.png",
+      "sha256": "9f0c01ac555963899c8bdf78e82c1e56b9f67f08cb58138efc68722e113ea92e",
+      "nativeLogicalSize": [
+        37,
+        33
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        31,
+        2
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/39/frame-014-39-left-continuity-v1.png.provenance.json",
+      "provenanceRecordSha256": "0a1621ad90007d1f33b71f93c03660252bf93b3e7f8541d7f0eab9de814fbae2",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 39,
+      "sourceFrameIndex": 15,
+      "file": "assets/items/head-adornments/world/39/frame-012-39-envelope-fix-v1.png",
+      "sha256": "5d6ce20329b588c907558620887699786d08b6f355d556b48da8ba3d87ce3af3",
+      "nativeLogicalSize": [
+        37,
+        31
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        31,
+        0
+      ],
+      "rasterAliasOf": 12,
+      "provenanceRecord": "assets/items/head-adornments/world/39/position-015.alias.json",
+      "provenanceRecordSha256": "fa9554308e8fd54eb12c45fc1c16033dcf9e805b7c118f2e3ea80fbfe32ca3e7",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 39,
+      "sourceFrameIndex": 19,
+      "file": "assets/items/head-adornments/world/39/frame-019-39-envelope-fix-v1.png",
+      "sha256": "6ff9589631439bae6a737a64487e49d981e0119850b3c69f9f006658739979bc",
+      "nativeLogicalSize": [
+        46,
+        34
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        25,
+        -7
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/39/frame-019-39-envelope-fix-v1.png.provenance.json",
+      "provenanceRecordSha256": "92d52d14b27b74c1de482095276cf9cda6984ad7913c67f5fae637bc63b05818",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 39,
+      "sourceFrameIndex": 20,
+      "file": "assets/items/head-adornments/world/39/frame-020-39-envelope-fix-v1.png",
+      "sha256": "c6495a660bda0fa9c19ebe3e3b972daad85eedb185cfcbd6356ba657f9b6b6a8",
+      "nativeLogicalSize": [
+        37,
+        28
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        32,
+        7
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/39/frame-020-39-envelope-fix-v1.png.provenance.json",
+      "provenanceRecordSha256": "87c8d939352f2f0044dad9992e8c8bb6e4406cc2d94dd53d4663f9d65763817d",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 2,
+      "file": "assets/items/head-adornments/world/138/frame-002-138-phase2-fix-v2.png",
+      "sha256": "83810264cc297d1eb3eeb7c3df3e0eb6640ebff238fa3bf1283f575412a233bf",
+      "nativeLogicalSize": [
+        48,
+        23
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        25,
+        12
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/138/frame-002-138-phase2-fix-v2.png.provenance.json",
+      "provenanceRecordSha256": "15bac821f52f88f5b089b5aa59882d5f8b2f4631e0e2401334f9f0021de15050",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 5,
+      "file": "assets/items/head-adornments/world/138/frame-002-138-phase2-fix-v2.png",
+      "sha256": "83810264cc297d1eb3eeb7c3df3e0eb6640ebff238fa3bf1283f575412a233bf",
+      "nativeLogicalSize": [
+        48,
+        23
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        25,
+        14
+      ],
+      "rasterAliasOf": 2,
+      "provenanceRecord": "assets/items/head-adornments/world/138/position-005.alias.json",
+      "provenanceRecordSha256": "c94d861080f7f380f95b1d247e1f5cb347e7a94d48ec5a571dc5a1ee8fd91459",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 13,
+      "file": "assets/items/head-adornments/world/138/frame-013-138-envelope-fix-v1.png",
+      "sha256": "5b7b2d27616e1863b238eac659ebb11acb0645cec1929f37a6fb4c39e0e205a3",
+      "nativeLogicalSize": [
+        51,
+        26
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        25,
+        12
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/138/frame-013-138-envelope-fix-v1.png.provenance.json",
+      "provenanceRecordSha256": "82d1fc5677541f04b62e9e6d1c393cde874d3ee99fdfb019992c9eeb1a3529ad",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 16,
+      "file": "assets/items/head-adornments/world/138/frame-013-138-envelope-fix-v1.png",
+      "sha256": "5b7b2d27616e1863b238eac659ebb11acb0645cec1929f37a6fb4c39e0e205a3",
+      "nativeLogicalSize": [
+        51,
+        26
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        25,
+        10
+      ],
+      "rasterAliasOf": 13,
+      "provenanceRecord": "assets/items/head-adornments/world/138/position-016.alias.json",
+      "provenanceRecordSha256": "b6e3adc6e8a8aa2e70e1f04df0d625676867e635fdb4000b86cb7e1e8f0ad111",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 19,
+      "file": "assets/items/head-adornments/world/138/frame-013-138-envelope-fix-v1.png",
+      "sha256": "5b7b2d27616e1863b238eac659ebb11acb0645cec1929f37a6fb4c39e0e205a3",
+      "nativeLogicalSize": [
+        51,
+        26
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        25,
+        12
+      ],
+      "rasterAliasOf": 13,
+      "provenanceRecord": "assets/items/head-adornments/world/138/position-019.alias.json",
+      "provenanceRecordSha256": "745519222f94eb3ae60d77c2d8ec2e63291ea92621995d94539a93292c81650e",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 22,
+      "file": "assets/items/head-adornments/world/138/frame-013-138-envelope-fix-v1.png",
+      "sha256": "5b7b2d27616e1863b238eac659ebb11acb0645cec1929f37a6fb4c39e0e205a3",
+      "nativeLogicalSize": [
+        51,
+        26
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        25,
+        10
+      ],
+      "rasterAliasOf": 13,
+      "provenanceRecord": "assets/items/head-adornments/world/138/position-022.alias.json",
+      "provenanceRecordSha256": "d083884e4668567bafcc33601ddcb1593043ad138485df09498bd14863ade578",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 1539,
+      "sourceFrameIndex": 10,
+      "file": "assets/items/head-adornments/world/1539/frame-010-1539-phase10-fix-v2.png",
+      "sha256": "0aed73ecbeeb079f2eaf3a9bad22c06cbb228ebed3b63805b1a3706c50fdf034",
+      "nativeLogicalSize": [
+        41,
+        26
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        31,
+        10
+      ],
+      "rasterAliasOf": null,
+      "provenanceRecord": "assets/items/head-adornments/world/1539/frame-010-1539-phase10-fix-v2.png.provenance.json",
+      "provenanceRecordSha256": "f3c067380961b5e2cb628bb9b2398630bfc0efd63547c977b63cb8db215971ea",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 1539,
+      "sourceFrameIndex": 16,
+      "file": "assets/items/head-adornments/world/1539/frame-010-1539-phase10-fix-v2.png",
+      "sha256": "0aed73ecbeeb079f2eaf3a9bad22c06cbb228ebed3b63805b1a3706c50fdf034",
+      "nativeLogicalSize": [
+        41,
+        26
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        31,
+        10
+      ],
+      "rasterAliasOf": 10,
+      "provenanceRecord": "assets/items/head-adornments/world/1539/position-016.alias.json",
+      "provenanceRecordSha256": "26339a6ba8902ddc51712c841f616c5bc2c3b8ef4fa7b196095624890eb53f9b",
+      "allAcceptanceFlagsFalse": true
+    },
+    {
+      "itemId": 1539,
+      "sourceFrameIndex": 22,
+      "file": "assets/items/head-adornments/world/1539/frame-010-1539-phase10-fix-v2.png",
+      "sha256": "0aed73ecbeeb079f2eaf3a9bad22c06cbb228ebed3b63805b1a3706c50fdf034",
+      "nativeLogicalSize": [
+        41,
+        26
+      ],
+      "rawOffsetMatchesOwnSource": true,
+      "rawOffset": [
+        31,
+        10
+      ],
+      "rasterAliasOf": 10,
+      "provenanceRecord": "assets/items/head-adornments/world/1539/position-022.alias.json",
+      "provenanceRecordSha256": "40f5b32b302b4a125eccc2eebc304d429ff6af638de3fe7d0a96781ef7d882e6",
+      "allAcceptanceFlagsFalse": true
+    }
+  ],
+  "aliasChecks": [
+    {
+      "itemId": 39,
+      "sourceFrameIndex": 15,
+      "representative": 12,
+      "ownRawOffset": [
+        31,
+        0
+      ],
+      "representativeRawOffset": [
+        31,
+        0
+      ],
+      "ownSourceReference": "assets/items/head-adornments/references/world/39/frame-012.png"
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 5,
+      "representative": 2,
+      "ownRawOffset": [
+        25,
+        14
+      ],
+      "representativeRawOffset": [
+        25,
+        12
+      ],
+      "ownSourceReference": "assets/items/head-adornments/references/world/138/frame-002.png"
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 16,
+      "representative": 13,
+      "ownRawOffset": [
+        25,
+        10
+      ],
+      "representativeRawOffset": [
+        25,
+        12
+      ],
+      "ownSourceReference": "assets/items/head-adornments/references/world/138/frame-013.png"
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 19,
+      "representative": 13,
+      "ownRawOffset": [
+        25,
+        12
+      ],
+      "representativeRawOffset": [
+        25,
+        12
+      ],
+      "ownSourceReference": "assets/items/head-adornments/references/world/138/frame-013.png"
+    },
+    {
+      "itemId": 138,
+      "sourceFrameIndex": 22,
+      "representative": 13,
+      "ownRawOffset": [
+        25,
+        10
+      ],
+      "representativeRawOffset": [
+        25,
+        12
+      ],
+      "ownSourceReference": "assets/items/head-adornments/references/world/138/frame-013.png"
+    },
+    {
+      "itemId": 1539,
+      "sourceFrameIndex": 16,
+      "representative": 10,
+      "ownRawOffset": [
+        31,
+        10
+      ],
+      "representativeRawOffset": [
+        31,
+        10
+      ],
+      "ownSourceReference": "assets/items/head-adornments/references/world/1539/frame-010.png"
+    },
+    {
+      "itemId": 1539,
+      "sourceFrameIndex": 22,
+      "representative": 10,
+      "ownRawOffset": [
+        31,
+        10
+      ],
+      "representativeRawOffset": [
+        31,
+        10
+      ],
+      "ownSourceReference": "assets/items/head-adornments/references/world/1539/frame-010.png"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "code": "CONFIG_SERIALIZATION_NORMALIZATION_DOCUMENTED",
+      "detail": "Historical configSource.path/sha256 retained. Exact 941-byte generation-time JSON saved as image-generation-submitted.json; current 940-byte LF serialization hashed separately. All six historical and current hashes verified."
+    }
+  ],
+  "fileChecksPassed": true,
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "configLineEndingEvidence": {
+    "file": "config/image-generation.json",
+    "currentBytes": 940,
+    "currentSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+    "currentCrlfCount": 0,
+    "currentLfCount": 15,
+    "sameBodyWithOnlyTerminalLfReplacedByCrlfBytes": 941,
+    "sameBodyWithOnlyTerminalLfReplacedByCrlfSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+    "recordedGenerationConfigSha256": "fbb85873f83accc39c3ff7d345c2b97f2601740bb951ca3bf3f2d25cb40b95e3",
+    "reconstructedHashMatchesAllSixGenerationRecords": true,
+    "semanticJsonMatchesAllSixSnapshots": true,
+    "interpretation": "Six literal source-path SHA mismatches are exactly explained by terminal CRLF becoming LF, with all internal newlines already LF. This file audit does not rewrite generation-time evidence.",
+    "resolution": "Exact historical-byte snapshot preserved; generationTimeBytesFile and currentFileSha256 added to six generation records without changing historical configSource.path/sha256."
+  },
+  "contactSheetChecks": {
+    "file": "docs/art-review-20261111/candidate-contact.png",
+    "sha256": "01e58c35bdd91204b184cf36746e5ea53787ac6cd3b3417d55bb34f287180c2d",
+    "sourceRecordSha256": "d40c753b6ec0bf245f4f8896a9c5845b314fee3ee1640c64418683651d9055a4",
+    "sourcePngCount": 8,
+    "allInputShaMatches": true,
+    "userReviewStatus": "pending",
+    "visualAccepted": false
+  }
+}

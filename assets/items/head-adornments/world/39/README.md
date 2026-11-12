@@ -1,7 +1,7 @@
-# 云玩珍藏篮：部分世界相位
+# 云玩珍藏篮：24源位置候选
 
-18个不同PNG覆盖22/24源位置，22和23尚未生成。用户要求的自有金发带道童玩偶替代源QQ公仔，原各帧尺寸×4、序号和rawOffset独立保留。参见`assets/items/head-adornments/docs/WORLD_39_SOURCE_CONTRACT.md`及`world-39-art.json`。
+当前24源位置/20不同PNG，原尺寸×4、源序号和rawOffset独立保留。2026-11-11重画12/15、13、14、19、20：比例门槛均通过，13/14同步修正朝左方向，完整视觉/时序/挂点仍待用户审核。所有accepted/runtime仍false。
 
-当前只有技术规格检查通过；12/15、19、20比例偏差超过10%，A6也仍待细化。一次修图出现背景污染已拒用并退回较好稿。方向/时序/头挂点和实际佩戴未验，所有accepted/runtime为false。`art.html?kind=headWorld39`是原序线性检查，不是已确认的原版循环。
+[本批统一预览与审核要点](../../../../../docs/ART_DELIVERY_20261111.md)。独立清单为`world-39-art.json`，全族选择已同步，逐图来源在各PNG的provenance及母图generation记录。不得把24源位置覆盖当完整穿戴动画。
 
-最后D批返回内置日额度耗尽，没有产图；失败记录及服务返回恢复时间在`exports/39-d-generation-attempt.json`。不把待生成帧用旧背包裁切、拉伸或源像素替代。
+用户最新要求不使用Computer Use/CUA/sky及替代GUI验收；请用户手动查看现成预览。2026-11-02缺帧/生图限额记录为历史，不能当作当前数量或阻断。

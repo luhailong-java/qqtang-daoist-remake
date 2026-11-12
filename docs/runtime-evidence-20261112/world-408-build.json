@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-12",
+  "timezone": "America/New_York",
+  "sourceCommit": "8cdabaf36056c8d49ee73f24c6b38be0cfd31d5d",
+  "workingTreeIncrement": true,
+  "command": "node scripts/build.mjs",
+  "exitCode": 0,
+  "result": "pass",
+  "scope": "normalcompletebuildafter408candidateincrement;bytechecks12newPNGand2changedmanifests only; noGUI/visual/runtime approval",
+  "coverageTest": {
+    "command": "node --test tests/art-review-coverage.test.mjs",
+    "pass": 4,
+    "fail": 0,
+    "scope": "existing4 review-data tests, not 408 animation or browser approval"
+  },
+  "approvalStatus": "awaiting-user-review",
+  "inventoryCounters": {
+    "items": 18,
+    "sourcePositionsWithCandidate": 390,
+    "uniqueCandidatePng": 201,
+    "meaning": "manifest inventory counts only; not completion or acceptance"
+  },
+  "entries": [
+    {
+      "file": "assets/items/head-adornments/world-408-art.json",
+      "bytes": 103654,
+      "sha256": "00456816447bf6ab3af83ad66b4fe6acc18aefe1c0afd0234b7578ac5faea0d7"
+    },
+    {
+      "file": "assets/items/head-adornments/world-art.json",
+      "bytes": 1688474,
+      "sha256": "4973604dfe0bfd7f7d4f55b52fec2b528de720dc5ebe3cc0af4e4b8a8908d714"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-000-408-a-v2.png",
+      "bytes": 18398,
+      "sha256": "e47f1f06f9472b922b4a341a264a3ce98fe21f85f6b84c28b1c6451904dce264"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-001-408-a-v2.png",
+      "bytes": 18218,
+      "sha256": "777dff4310a0a4fc6f44f474726b6137df0995182b8911a5a0674362e749e1ba"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-002-408-a-v2.png",
+      "bytes": 18455,
+      "sha256": "2f4171396e8efa81257a79a057f80bbe432a0f391de7229bd518fe26cc97cdbc"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-006-408-a-v2.png",
+      "bytes": 24787,
+      "sha256": "cce8a328feb87fa7ed2d45a92c87b6433487754a5cbfc88bea99496ffaa6a21c"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-007-408-a-v2.png",
+      "bytes": 25542,
+      "sha256": "e5800fe9b3b33878be06c5d52258af12a0138d70550b3497a769955baaafb0de"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-008-408-a-v2.png",
+      "bytes": 23978,
+      "sha256": "0f18902c7e17cdad021eaed63aa411899d7ba1f281f56f28624513e46bf47854"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-012-408-b-v2.png",
+      "bytes": 19356,
+      "sha256": "afafba4e53c211a939186c506af43851bd538d5bcc1825af1f536fe57734e9ab"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-013-408-b-v2.png",
+      "bytes": 20684,
+      "sha256": "eb5b00d660f7417e9906a9df9fcfd8be32ef19af2adffae36214a9ecc9076ede"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-014-408-b-v2.png",
+      "bytes": 19236,
+      "sha256": "64ffdcc5d7a1f545252dccd7a3dd1ef39066a9fa111304f0ebe1776b0e15626f"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-018-408-b-v2.png",
+      "bytes": 25779,
+      "sha256": "1a6ab284ec8f13ed97ba946b08eb4bea20da942ee7284ffa68fb936482df3295"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-019-408-b-v2.png",
+      "bytes": 27776,
+      "sha256": "048cd8dd1a720c4bf8a424df6257d9984e4d3e31fff3de6748f9fa9c5e6567b9"
+    },
+    {
+      "file": "assets/items/head-adornments/world/408/frame-020-408-b-v2.png",
+      "bytes": 26224,
+      "sha256": "d00667eb0c0bb563abae0ec9f4156a093c97e935e9665ee9731ee05824f1c063"
+    }
+  ]
+}

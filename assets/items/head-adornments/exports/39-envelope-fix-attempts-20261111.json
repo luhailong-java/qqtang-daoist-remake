@@ -1,0 +1,20 @@
+{
+  "dateLocal": "2026-11-11",
+  "timezone": "America/New_York",
+  "attempts": [
+    {
+      "attempt": 1,
+      "phase": "tool input validation",
+      "result": "referenced_image_paths must contain at most 5 paths",
+      "referencePathCount": 6,
+      "imageProduced": false
+    },
+    {
+      "attempt": 2,
+      "phase": "host built-in generation",
+      "referencePathCount": 5,
+      "imageProduced": true,
+      "generationRecord": "assets/items/head-adornments/world/world-39-envelope-fix-v1.png.generation.json"
+    }
+  ]
+}

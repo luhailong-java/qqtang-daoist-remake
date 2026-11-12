@@ -4,7 +4,7 @@
 
 公开默认开发分支为`codex/initial-public`。本次72冠饰/趣味装饰库存候选已公开保存于`c39dd47f`，远端78项测试、208候选PNG规格与语法/构建通过，准确范围见 [本批发布记录](docs/EYE_PUBLICATION_20261102.md)。另新增胜利/平局/再接再厉三态灵葫结算徽章并接真实胜负，制作与视觉待验范围见 [结算交付记录](docs/RESULT_UI_DELIVERY_20261102.md)。完整人物动作及整游戏终验尚未完成。
 
-随后结算三态及114花环20图像/24源位置也已公开保存并正常快进默认开发分支，见[结算回执](docs/RESULT_UI_PUBLICATION_20261102.md)、[花环回执](docs/WORLD_114_PUBLICATION_20261102.md)。39珍藏篮当前18图像覆盖22/24位置，部分比例仍待修；剩余生成遇到内置当日额度限制，精确缺项及服务返回恢复时间见[当前记录](docs/IMAGE_GENERATION_BLOCK_20261102.md)，其公开保存范围见[珍藏篮批次](docs/WORLD_39_PUBLICATION_20261102.md)。这些世界帧仍未通过方向/时序/挂点和运行验收。
+随后结算三态及114花环20图像/24源位置也已公开保存并正常快进默认开发分支，见[结算回执](docs/RESULT_UI_PUBLICATION_20261102.md)、[花环回执](docs/WORLD_114_PUBLICATION_20261102.md)。39珍藏篮已齐24源位置/20PNG；2026-11-11重新绘制其12/13/14/19/20，并修138玉环2/13和1539桂灯童10，共8新PNG覆盖15源位置。三项有限像素几何检查均无技术错误或超限，视觉、原时序和头挂点仍待用户审核。请看[本批预览、来源和剩余](docs/ART_DELIVERY_20261111.md)。历史生图限额记录保留为历史，不作当前阻断。用户最新要求禁止Computer Use/CUA及替代GUI验收，由用户审核画风、实速和界面效果。 之后408绯耳灵伴新增12世界PNG覆盖24源位置，规格门槛通过，仍为待用户审核候选，见[408预览与范围](docs/ART_DELIVERY_20261112.md)。
 
 公开仓库：[luhailong-java/qqtang-daoist-remake](https://github.com/luhailong-java/qqtang-daoist-remake)。当前为开发中的完整工程与美术制作资料，尚未达到完整游戏全部美术完成及终验标准。
 
@@ -67,7 +67,7 @@ node scripts/serve.mjs
 
 ## 仓库对应与验证
 
-本地项目为 `D:\work\qqtang-ui`，image参考仓库为 `D:\work\image`。用户于2026-10-27授权公开上传，已创建独立Git仓库与公开远端 [luhailong-java/qqtang-daoist-remake](https://github.com/luhailong-java/qqtang-daoist-remake)；首批文件范围和核验说明见 [GITHUB_PUBLICATION.md](docs/GITHUB_PUBLICATION.md)。原版研究中的社区工程只是线索，没有克隆其工程。
+当前本机项目为 `E:\work\qqtang-daoist-remake`。历史制作目录为 `D:\work\qqtang-ui`，历史image参考仓库为 `D:\work\image`；本轮使用本项目内的规则/风格副本及`config/image-generation.json`，不跨项目读写。用户于2026-10-27授权公开上传，已创建独立Git仓库与公开远端 [luhailong-java/qqtang-daoist-remake](https://github.com/luhailong-java/qqtang-daoist-remake)；首批文件范围和核验说明见 [GITHUB_PUBLICATION.md](docs/GITHUB_PUBLICATION.md)。原版研究中的社区工程只是线索，没有克隆其工程。
 
 image的历史GitHub／素材来源为 [luhailong-cpp/image](https://github.com/luhailong-cpp/image)，当前本地origin为 [Azure Repos image](https://luyuacpp.visualstudio.com/image/_git/image)，依据本地文档和只读配置核对，未在线验证同步；二者不是本项目远端。关联记录在image的 `designs/qqtang-ui-20261026/README.md` 与 `q_daoist_character_pack_4096/README.md` 的“项目关联”。
 

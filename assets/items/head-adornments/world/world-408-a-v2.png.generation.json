@@ -1,0 +1,104 @@
+{
+  "file": "assets/items/head-adornments/world/world-408-a-v2.png",
+  "sha256": "a3dca686f55ae057188fba8ae838b8ada553a533dc5e576acef75caedd6d9e6c",
+  "generatedAt": "2026-11-12T04:59:15.552Z",
+  "timeEvidence": "UTC registration after tool return; provider creation timestamp not exposed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "E:\\work\\qqtang-daoist-remake\\config\\image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/world/world-408-a-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/items/head-adornments/references/world/408/source-phases-a.png",
+      "E:/work/qqtang-daoist-remake/assets/items/petcards/references/canon/14-feierling.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未开放型号/质量选择器，返回未披露可核实型号或质量。",
+  "prompt": "Use case: precise-object-edit game sprite atlas. Image1 is the ORIGINAL 绯耳灵伴 world sheet to edit. Image2 source board controls6poses. Image3 canonical identity and images4/5 confirmed Daoist chibi style. Preserve same copper-red fox hair, fox ears, osmanthus jade ornament, short ribbons, calm side face and jade/gold spirit-wing ornaments. True RGBA transparency. SAME1536x1024 exact3columns2rows, no layout shift.\n\nChange ONLY these four cells: TOP MIDDLE1 and bottom three6/7/8. Leave top-left0 and top-right2 unchanged.\nTOP MIDDLE1: right-facing true side head remains same face/ears/position/scale as top0/2. Raised wing currently too short sideways: its full visible envelope342x305 is too narrow. Extend raised wing naturally LEFT while still pointing up-left until complete envelope about390wide305high (target28:22=1.273). Do not increase vertical height or move whole head. No mirroring.\nBOTTOM ROW: all3 are true BACK VIEW with no eyes/nose/mouth. Current head/ears285high with wings≈400wide is too tall/narrow. Naturally redraw head a little more compact/low, with fox ears foreshortened from rear, and extend both jade spirit wings further sideways. Target each COMPLETE visible envelope430wide243high, ratio39:22=1.773. Preserve round hair shape, back hair swirl and same2foxears; do not squash pixels. Scale redraw as a coherent head so cell has >=40px margins; do not stretch to edge.\nBOTTOM LEFT6 wings middle/horizontal, BOTTOM MIDDLE7 wings lift up-outward but retain complete width≈430 and maxheight≈243, BOTTOM RIGHT8 wings sweep down-outward. Keep identical back-head size/placement across triple and only wing pose changes. Side/back will later export under same raw22px source height; do not make arbitrary whole-object bob. Wing design remains darkjade membranous leaves with gold ribs, not feathers/arms/huge jewelry. Ribbons SHORT within head height.\n\nDo not change original character into purple devil, licensed face, black horns or fangs. Floating head only, no neck/collar/body/tail/mask/wearer. Every crop truly transparent at margins and gaps, no brown haze/glow/cloud/ground/shadow/particles. No labels/text/numbers/grid/lines/UI. Fine high detail hand painting same copper/jade/ivory/warmgold. Ratios are drawing requirements, not a request to nonuniformly stretch. Highest host-provided quality target. Candidate only, USER visual review pending.",
+  "references": [
+    {
+      "path": "assets/items/head-adornments/world/world-408-a-v1.png",
+      "purpose": "project original identity or edit target",
+      "sha256": "3d2f70ba80ae0721b4b6db4ff0ec89f8f2e2aeec4f3f4b2e1c651177610cb122"
+    },
+    {
+      "path": "assets/items/head-adornments/references/world/408/source-phases-a.png",
+      "purpose": "source phases/structure only",
+      "sha256": "10321a2382591658bfd2211b461474d4c9409fb122a116c932f20e1da568504c"
+    },
+    {
+      "path": "assets/items/petcards/references/canon/14-feierling.png",
+      "purpose": "project original identity or edit target",
+      "sha256": "c0e4141ae433177e0861209ea7affb0db266611ed53a398d8bf71b6dd9d9dc01"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "purpose": "confirmed Daoist chibi visual style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "purpose": "confirmed Daoist chibi visual style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:/Users/luyua/.codex/generated_images/01a1ce03-582b-7a62-8e44-59d748fb5874/exec-8b02ed77-aa65-4212-b036-f1b04ece55e6.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "selectorsExposed": false
+  },
+  "operation": "built-in generated source; no resampling or pixel editing",
+  "nativeDimensions": true,
+  "promptFile": "assets/items/head-adornments/prompts/world-408-a-v2.prompt.txt",
+  "submittedPromptSha256": "c3bc74d68c6eb2504de3e661de8b954abcf01d04ec3055ec3304245b5c527303",
+  "promptFileSha256": "9c9e7dfd9344237831b671ba0398f83140d15ab6682639d992452ec8ccc1681c",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "nativeDimensionsReturned": [
+    1536,
+    1024
+  ],
+  "promptSubmission": "Exact string sent to built-in tool; preserved from call.",
+  "userReviewStatus": "pending",
+  "visualAccepted": false,
+  "editOf": {
+    "file": "assets/items/head-adornments/world/world-408-a-v1.png",
+    "sha256": "3d2f70ba80ae0721b4b6db4ff0ec89f8f2e2aeec4f3f4b2e1c651177610cb122",
+    "generationRecord": "assets/items/head-adornments/world/world-408-a-v1.png.generation.json"
+  },
+  "selection": "All six measured phase crops selected as pending user-review candidates."
+}

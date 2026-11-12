@@ -93,9 +93,9 @@
           }
         }
       ],
-      "worldFrameCandidatesProduced": 22,
+      "worldFrameCandidatesProduced": 24,
       "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
-      "worldStatus": "declared frame candidates present; timing, geometry and runtime not accepted"
+      "worldStatus": "source-position candidates present; user visual review, native timing and attachment pending; not runtime approved"
     },
     {
       "itemId": 42,
@@ -862,7 +862,7 @@
         "res/uiRes/icon/thadorn/thadorn40.img"
       ],
       "inventoryIconCandidate": "res/uiRes/icon/thadorn/thadorn40.img",
-      "worldStaticMasterProduced": false,
+      "worldStaticMasterProduced": true,
       "completeAnimationProduced": false,
       "worldStates": [
         {
@@ -941,7 +941,10 @@
             "unknownImageHeaderWord": 56
           }
         }
-      ]
+      ],
+      "worldFrameCandidatesProduced": 24,
+      "worldRepresentationIndex": "assets/items/head-adornments/world-art.json",
+      "worldStatus": "source-position candidates present; user visual review, native timing and attachment pending; not runtime approved"
     },
     {
       "itemId": 1246,
@@ -3285,9 +3288,9 @@
       "24frames/4directions/v65537": 2
     },
     "standDeclaredFrameTotal": 798,
-    "worldStaticMastersProduced": 17,
+    "worldStaticMastersProduced": 18,
     "completeAnimationsProduced": 0,
     "scope": "lightweight source header summary only; not full pixel/container QA or runtime validation",
-    "worldFrameCandidatesProduced": 364
+    "worldFrameCandidatesProduced": 390
   }
 }

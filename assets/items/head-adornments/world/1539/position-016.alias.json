@@ -4,8 +4,8 @@
   "sourcePhaseIndex": 16,
   "directionIndex": null,
   "directionSemantic": null,
-  "file": "assets/items/head-adornments/world/1539/frame-010-1539-e-v1.png",
-  "sha256": "6860cfba799d8ee7de4e87c6afc4143f5799a30b92bd0a75602aef388e3f4ad1",
+  "file": "assets/items/head-adornments/world/1539/frame-010-1539-phase10-fix-v2.png",
+  "sha256": "0aed73ecbeeb079f2eaf3a9bad22c06cbb228ebed3b63805b1a3706c50fdf034",
   "width": 164,
   "height": 104,
   "logicalFrameSize": [
@@ -27,30 +27,30 @@
     "record": "assets/items/head-adornments/references/world/1539/frame-010.png.source.json"
   },
   "derivedFrom": {
-    "file": "assets/items/head-adornments/world/world-1539-e-v1.png",
-    "sha256": "d7ed0f577af44e0f969e9893c1df6fda9b7e57b6c852343c2b295501ac8912c2",
-    "generationRecord": "assets/items/head-adornments/world/world-1539-e-v1.png.generation.json"
+    "file": "assets/items/head-adornments/world/world-1539-phase10-fix-v2.png",
+    "sha256": "4a02ef037e1a9dd079e133802fa7346fade6ed34e7208aead950c7eea5fb04dc",
+    "generationRecord": "assets/items/head-adornments/world/world-1539-phase10-fix-v2.png.generation.json"
   },
   "operation": {
     "type": "exact-raster-file-reference-reuse",
     "newModelGeneration": false,
     "representativeSourceFrameIndex": 10,
-    "representativeFile": "assets/items/head-adornments/world/1539/frame-010-1539-e-v1.png",
+    "representativeFile": "assets/items/head-adornments/world/1539/frame-010-1539-phase10-fix-v2.png",
     "geometry": "same native width/height only; rawOffset remains source position's own",
     "originalPaintOperation": {
       "type": "crop-uniform-fit-original-world-alpha-envelope",
       "newModelGeneration": false,
       "sourceCellRectLTRB": [
-        512,
-        512,
-        1024,
-        1024
+        0,
+        0,
+        1576,
+        998
       ],
       "generatedContentBBoxAt16": [
-        23,
-        54,
-        501,
-        415
+        122,
+        56,
+        1458,
+        877
       ],
       "sourceLogicalAlphaBBoxAt16": [
         0,
@@ -58,10 +58,10 @@
         41,
         26
       ],
-      "uniformScale": 0.2880886426592798,
+      "uniformScale": 0.12275449101796407,
       "placementPx": [
-        13,
-        0
+        0,
+        3
       ],
       "resampler": "premultiplied-alpha LANCZOS",
       "registration": "source alpha envelope centred X and bottom aligned Y; raw frame offset untouched"
@@ -75,14 +75,13 @@
   "accepted": false,
   "qa": {
     "sourceVisibleAspect": 1.5769230769230769,
-    "generatedVisibleAspect": 1.3240997229916898,
-    "relativeAspectDeviation": 0.16032700493209917
+    "generatedVisibleAspect": 1.6272838002436054,
+    "relativeAspectDeviation": 0.031936068447164345
   },
   "warnings": [
     "native head-layer origin, sign and actor attachment unverified",
     "source timing not supplied; do not invent frame duration",
-    "per-frame source phase, silhouette and alpha edges await review",
-    "visible aspect differs by more than 10%"
+    "per-frame source phase, silhouette and alpha edges await review"
   ],
   "imagePhaseRepresentativeIndex": 10,
   "sourceNativeFrameRecord": {
@@ -111,5 +110,7 @@
   "positionWithinRawEnvelope": [
     4,
     1
-  ]
+  ],
+  "userReviewStatus": "pending",
+  "reviewBatch": "docs/ART_DELIVERY_20261111.md"
 }

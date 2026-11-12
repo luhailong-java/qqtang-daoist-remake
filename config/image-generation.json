@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "builtin_product": "ChatGPT Images 2.6",
+  "selection": "latest_officially_verified_target",
+  "preferred_route": "builtin",
+  "verified_on": "2026-11-11",
+  "sources": {
+    "release": "https://openai.com/index/introducing-images-2-6/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  },
+  "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+}
