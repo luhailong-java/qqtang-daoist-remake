@@ -101,7 +101,26 @@
     724
   ],
   "dimensionEvidence": "Requested size was prompt guidance only; tool returned actual native PNG 2172x724. Export rectangles use measured PNG dimensions.",
-  "userReviewStatus": "pending",
+  "userReviewStatus": "selected-exports-approved-static-visual",
   "visualAccepted": false,
-  "promptSubmission": "Exact string sent to built-in tool, preserved from call; prompt file may use normalized line endings."
+  "promptSubmission": "Exact string sent to built-in tool, preserved from call; prompt file may use normalized line endings.",
+  "selectedExportUserReview": {
+    "status": "approved",
+    "scope": "static-export-raster",
+    "record": "docs/art-review-20261111/user-approval-20261112.json",
+    "exports": [
+      {
+        "file": "assets/items/head-adornments/world/39/frame-012-39-envelope-fix-v1.png",
+        "sha256": "5d6ce20329b588c907558620887699786d08b6f355d556b48da8ba3d87ce3af3"
+      },
+      {
+        "file": "assets/items/head-adornments/world/39/frame-019-39-envelope-fix-v1.png",
+        "sha256": "6ff9589631439bae6a737a64487e49d981e0119850b3c69f9f006658739979bc"
+      },
+      {
+        "file": "assets/items/head-adornments/world/39/frame-020-39-envelope-fix-v1.png",
+        "sha256": "c6495a660bda0fa9c19ebe3e3b972daad85eedb185cfcbd6356ba657f9b6b6a8"
+      }
+    ]
+  }
 }

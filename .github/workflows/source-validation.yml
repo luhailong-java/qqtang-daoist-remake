@@ -46,6 +46,8 @@ jobs:
           python tests/legacy-ui-constants.test.py
           python tests/inventory-reference-contract.test.py
           python tests/world-export-gate.test.py
+          python tests/world-export-manifest.test.py
+          python tests/head-world-visual-review.test.py
           python tests/water-ground-pair.test.py
       - name: Python source syntax
         run: python -m compileall -q scripts tests references/qqtang-map-data/motion-contract/inspect-packed-metadata.py

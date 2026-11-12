@@ -63,7 +63,7 @@
   "frameDurationMs": null,
   "loop": null,
   "geometryAccepted": false,
-  "visualAccepted": false,
+  "visualAccepted": true,
   "runtimeAdopted": false,
   "accepted": false,
   "qa": {
@@ -74,7 +74,7 @@
   "warnings": [
     "native head-layer origin, sign and actor attachment unverified",
     "source timing not supplied; do not invent frame duration",
-    "per-frame source phase, silhouette and alpha edges await review"
+    "user approved static exported raster only; native timing, head attachment and in-game composition remain pending"
   ],
   "imagePhaseRepresentativeIndex": 13,
   "sourceNativeFrameRecord": {
@@ -104,6 +104,8 @@
     1,
     3
   ],
-  "userReviewStatus": "pending",
-  "reviewBatch": "docs/ART_DELIVERY_20261111.md"
+  "userReviewStatus": "approved-static-visual",
+  "reviewBatch": "docs/ART_DELIVERY_20261111.md",
+  "visualAcceptanceScope": "static-export-raster",
+  "userVisualReviewRecord": "docs/art-review-20261111/user-approval-20261112.json"
 }

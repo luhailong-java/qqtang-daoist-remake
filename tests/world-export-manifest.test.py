@@ -40,6 +40,10 @@ class ManifestIsolationTests(unittest.TestCase):
         alias['sourceNativeFrameRecord']['frameOffset'] = [35, -9]
         alias['positionWithinRawEnvelope'] = [10, 2]
         alias['sourceReference'] = {'file': 'source-position-15.png', 'sha256': 'position-specific-reference', 'record': 'source-position-15.json'}
+        for frame in entry['frames']:
+            frame.update({'visualAccepted': True, 'visualAcceptanceScope': 'static-export-raster',
+                          'userReviewStatus': 'approved-static-visual',
+                          'userVisualReviewRecord': 'previous-raster-review.json'})
         self.before = deepcopy(doc)
         self.write(BASE / 'world-art.json', doc)
         self.write(BASE / 'world-39-art.json', doc)
@@ -77,6 +81,11 @@ class ManifestIsolationTests(unittest.TestCase):
                          [{'itemId': 39, 'sourceFrameIndex': 15, 'representativeSourceFrameIndex': 12}])
         self.assertFalse(frames[12]['accepted'])
         self.assertFalse(frames[15]['runtimeAdopted'])
+        for frame in frames.values():
+            self.assertFalse(frame['visualAccepted'])
+            self.assertEqual(frame['userReviewStatus'], 'pending')
+            self.assertNotIn('userVisualReviewRecord', frame)
+            self.assertNotIn('visualAcceptanceScope', frame)
 
     def test_default_destination_remains_family_manifest(self):
         self.write('spec.json', self.spec)

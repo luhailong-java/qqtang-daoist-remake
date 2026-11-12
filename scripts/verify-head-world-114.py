@@ -4,6 +4,7 @@ from PIL import Image
 import hashlib
 import json
 import argparse
+from head_world_visual_review import validate_static_visual_review
 
 root=Path(__file__).resolve().parents[1]
 folder=root/'assets/items/head-adornments'
@@ -14,9 +15,17 @@ parser.add_argument('--expected-unique',type=int,default=20)
 parser.add_argument('--missing',type=int,nargs='*',default=[])
 args=parser.parse_args()
 contract=json.loads((folder/f'references/world/{args.item}/source-contract.json').read_text(encoding='utf-8'))
-item=json.loads((folder/f'world-{args.item}-art.json').read_text(encoding='utf-8'))['items'][0]
+document=json.loads((folder/f'world-{args.item}-art.json').read_text(encoding='utf-8'))
+item=document['items'][0]
 images={}
 errors=[]
+approved_static_positions=[]
+for label,record in (('manifest',document),('item',item)):
+    for key in ('accepted','geometryAccepted','visualAccepted','runtimeAdopted','completeAnimationAccepted'):
+        if key in record and record[key]is not False:
+            errors.append(f'{label}: unexpected overall {key} claim')
+if item.get('animationTimingKnown')is not False:
+    errors.append('Item native animation timing is still unverified')
 def read_image(path):
     if path not in images:
         images[path]=Image.open(root/path).convert('RGBA')
@@ -46,8 +55,7 @@ for frame in item['frames']:
             raise ValueError('Transparent pixels absent')
         if frame['imagePhaseRepresentativeIndex']!=representatives[index]:
             raise ValueError('Alias is not source payload equality')
-        if any(frame.get(key)is not False for key in ('accepted','geometryAccepted','visualAccepted','runtimeAdopted')):
-            raise ValueError('Unexpected acceptance claim')
+        approved_static=validate_static_visual_review(frame,args.item,root)
         if frame.get('frameDurationMs')is not None or frame.get('directionSemantic')is not None:
             raise ValueError('Unknown native timing/direction was invented')
         ref=frame['sourceReference']
@@ -64,6 +72,7 @@ for frame in item['frames']:
         w,h=crop.size
         if any(any(v>=16 for v in crop.crop(edge).tobytes())for edge in ((0,0,1,h),(w-1,0,w,h),(0,0,w,1),(0,h-1,w,h))):
             raise ValueError('Mother crop cuts visible content')
+        if approved_static:approved_static_positions.append(index)
     except Exception as exc:
         errors.append(f'{index}: {exc}')
 result={'itemId':args.item,'sourcePositions':len(item['frames']),'sourceDeclaredPositions':len(contract['frames']),
@@ -72,6 +81,8 @@ result={'itemId':args.item,'sourcePositions':len(item['frames']),'sourceDeclared
         'visibleAspectDeviationRange':[min(f['qa']['relativeAspectDeviation']for f in item['frames']),max(f['qa']['relativeAspectDeviation']for f in item['frames'])],
         'pixelDecodePerformed':True,'errors':errors,
         'aspectWarningSourcePositions':[f['sourceFrameIndex']for f in item['frames']if f['qa']['relativeAspectDeviation']>.1],
-        'visualAccepted':False,'animationTimingKnown':False,'runtimeAdopted':False}
+        'approvedStaticVisualPositions':approved_static_positions,
+        'visualAccepted':False,'visualAcceptanceScope':'whole-item-unapproved',
+        'animationTimingKnown':False,'runtimeAdopted':False}
 print(json.dumps(result,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)

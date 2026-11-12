@@ -16,6 +16,13 @@ def project_path(root,relative):
     if not resolved.is_relative_to(root.resolve()):raise ValueError('Export path leaves the project')
     return resolved
 
+def invalidate_static_review(record):
+    """An earlier raster approval never follows newly exported image bytes."""
+    for key in ('userVisualReviewRecord','userVisualReviewRecordSha256','visualAcceptanceScope'):
+        record.pop(key,None)
+    record['userReviewStatus']='pending'
+    record['visualAccepted']=False
+
 def refresh_explicit_aliases(entry,representative,contract):
     """Refresh only existing explicit raster aliases, keeping source semantics."""
     refreshed=[];idx=representative['sourceFrameIndex']
@@ -35,6 +42,7 @@ def refresh_explicit_aliases(entry,representative,contract):
             'representativeSourceFrameIndex':idx,'representativeFile':representative['file'],
             'geometry':"same native width/height only; rawOffset remains source position's own",
             'originalPaintOperation':deepcopy(representative['operation'])}
+        invalidate_static_review(alias)
         refreshed.append(alias)
     return refreshed
 
@@ -95,6 +103,7 @@ def export_batch(spec_path,root=ROOT):
         previous=next((f for f in entry['frames']if f['sourceFrameIndex']==idx),{})
         merged=deepcopy(previous);merged.update(record);record=merged
         if 'directionIndex'in previous:record['directionIndex']=previous['directionIndex']
+        invalidate_static_review(record)
         record['provenanceRecord']=target.relative_to(ROOT).as_posix()+'.provenance.json'
         entry['frames']=[f for f in entry['frames']if f['sourceFrameIndex']!=idx]+[record]
         aliases=refresh_explicit_aliases(entry,record,contract)
