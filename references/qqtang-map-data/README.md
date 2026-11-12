@@ -2,6 +2,8 @@
 
 这是一份**社区 v1.3.4 修改后客户端的数据导出**，用于建立可追踪的几何参考。不是腾讯公开源码，不是经过腾讯签名核验的原始安装包，不是已完成的道家 Q 版地图。没有把腾讯地图贴图放入游戏运行资源，也没有执行被检查的 Python、EXE 或 DLL。
 
+原始客户端当前下载线索、目标版本和本研究样本的区别，统一见[QQ堂参照源](../../docs/QQTANG_REFERENCE_SOURCE.md)。
+
 ## 来源
 
 - 发行 ZIP：<https://github.com/kuuhaku1314/qqtang/releases/download/v1.3.4/QQTang-Local.zip>
