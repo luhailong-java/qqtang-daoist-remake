@@ -27,15 +27,18 @@ export function mapSequence(data) {
 export function characterDiagnosticSequence(data) {
   const actor = {'daoist-child': '道童', 'moon-shadow': '月影'}[data.characterId] ?? data.characterId;
   const direction = {N: '北向', E: '东向', S: '南向', W: '西向'}[data.direction] ?? data.direction;
+  const previewPosition = new Map(data.frames.map((frame, index) => [frame.sourceFrameIndex, index]));
   return {
     ...data,
     sourceResource: `${data.characterId}-${data.direction}`,
     projectEffectName: `${actor} · ${direction}步行`,
     frameCount: data.frames.length,
     sourceDeclaredFrameCount: data.sourceFrameOrder.length,
+    originalFrameDurationMs: data.originalFrameDurationMs ?? data.sourceFrameDurationMs ?? null,
     frames: data.frames.map(frame => ({
       ...frame,
       frameIndex: frame.sourceFrameIndex,
+      reuseOfFrameIndex: previewPosition.get(frame.rasterAliasOfSourceFrameIndex),
       sourceFrame: {width: frame.width, height: frame.height, frameOffset: [0, 0]},
     })),
     diagnosticNote: '按已对齐的256像素审阅画布展示。各源分层偏移见来源记录，原时序和人物根点待核。',
