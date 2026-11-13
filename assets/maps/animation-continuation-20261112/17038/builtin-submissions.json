@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "calls": [
+    {
+      "input": {
+        "prompt": "Paint one production-ready 1536x1024 map floor atlas for element 17038, with exactly three columns and two rows. Each cell is a complete 512x512 opaque edge-to-edge square tile, placed flush without any gutters, empty background, framing, or labels. Each of the six images fills its own exact square. The camera is perfectly top-down and orthographic throughout. The stone frame and internal metal mesh belong to the tile, not the surroundings. Keep the outer silhouette an exact full square including all four corners.\n\nImage 1 is the real 6-phase source contact sheet. It is the authority for rail orientation, phase sequence, proportions, and locations of moving solid plates relative to the checker-like perforated mesh. Treat every source frame independently in row-major order. The checker-like texture is physical iron mesh above a dark opaque backing. Image 2 is our existing original frame-0 art for this exact element, used as identity and material reference. The primary outer frame and curved rail follow the RIGHT and BOTTOM edges, with the curved arc bending around the lower-right corner. Pivot/cutout detail at TOP LEFT. Image 3 is our already painted sibling material atlas. Match the same charcoal stone and dark iron mesh shading and restrained thin warm-brass edging, but ignore the sister tile's corner placement and phase order. Images 4 and 5 are original Daoist chibi hand-painted finish references only. No figures, UI, typography or additional jade ornament.\n\nRetain exactly the rail, taper and plate proportions of Image 1, corresponding to our original finish in Image 2. The outer rail stays pinned to those same edges in all cells. Subtle rail joint position can change to match the exact source frame, and the dark outlined solid grey sector or sectors sweep over the fine opaque mesh. Each edge between smooth solid graphite plate and the tiny tightly repeated metal grid has a crisp readable contour. Copy the structure, not pixels. Small broad color and lighting differences between states are allowed only to make the moving panel distinguishable. No gold ornament inside the track, no light-up arrows, no added handle or bolts, no literal opening or transparent hole.\n\nFrame 0: broad exposed mesh wedge in center-right between left-side solid and top solid; wedge tapers to top-left pivot. Frame 1: the upper solid section widens diagonally downward toward right, shifting exposed mesh lower-right. Frame 2: solid wedge sweeps diagonally across upper-right center while mesh remains lower-left and a strip along top. Frame 3: broad solid wedge crossing center-right into lower-right arc, with exposed mesh left and upper right. Frame 4: broad solid wedge further down toward the lower-right corner, open mesh above and left. Frame 5: broad solid wedge is now lower-left, exposed mesh above and right.\nTop row left to right is 0, 1, 2. Bottom row left to right is 3, 4, 5. Follow the corresponding source panel angle and mesh-versus-solid divisions, retaining the fixed rail orientation and full edge-to-edge square. High-definition hand-painted game art, texture and material realism compatible with our Daoist Q world. No independent sheets, no white matte, no perspective, no shadows beyond the tile, no sticker outline, no checkerboard background, no captions.",
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17038/source-phase-board.png",
+          "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17038-grey-mesh-curve-d.png",
+          "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17030/sequence-v1.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ],
+        "transparent_background": false
+      },
+      "result": {
+        "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-ed510e68-efb3-4c75-92d6-db0fdbb51273.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-ed510e68-efb3-4c75-92d6-db0fdbb51273.png",
+        "returnedFields": [
+          "image_url",
+          "output_hint"
+        ],
+        "imageDataOmitted": true
+      }
+    }
+  ]
+}

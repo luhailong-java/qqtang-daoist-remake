@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261113/daoist-child-west/mother-b-v1.png",
+  "sha256": "760aff953e8bda2f035ba9d6ac6a522aed3b6560893e5994ed5a9d6cd089176f",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Use case: game sprite production, stylized-concept. Redraw our Daoist Child walking LEFT as one horizontal sheet of exactly three original frames in three equal square cells. Actual transparent PNG with true alpha. Ref 1 is the exact W-facing Daoist Child visual identity: preserve head size, dark spiky hair, thick amber headband with knot and two ribbon tails trailing screen RIGHT, one visible profile eye, gold double gourd held securely by near hand, small red tassel hanging from it, dark teal embroidered short outer robe and ivory full trousers with jade-and-gold boots. The near hand holds the gourd throughout and swings with it, far hand empty. Ref 2 and 3 show the actual stored source poses and relative foot/sleeve positions. Use source for motion and camera only. Refs 4 and 5 set the handcrafted 2D Chinese Daoist Q finish only, clear amber/ivory/jade palette, warm softened outlines and painterly ink details at small game scale. Create entirely original clothing and colors from our character, no source sportswear/red hair. The face is a fixed strict screen LEFT side profile with one eye, same profile camera all three, no change in scale. Give the boot soles simple well-connected curves and two plausible, short, distinct trousers-to-boot chains. Near boot is brighter jade with thin gold trim, far boot is partly occluded shaded jade. Leg length and body size stay constant across the 3. No running lunge, lean, action sparks or shadows. Transparent all around each isolated pose, no labels, background, title, floor, shadow or UI. Exactly three equally tall characters, one per square with 12% clear horizontal gutters and clear vertical margins. Body hips and boot floor levels stay on the same baseline across all three cells. Preserve the subtle arm and sleeve changes from the ref; do not recopy the same pose. Use the BOTTOM row in refs 2–3, from left to right. f15 leftmost: passing pose, boots close together below the waist as in the first source pose, near boot pointing left and flat, a sliver of the shaded far toe peeks out a little to screen LEFT and higher. Near hand holds gourd beside hip. Exactly one eye in a clear quick BLINK, draw a closed single eyelid, keeping head shape unchanged. f16 middle: eye open, near sleeve and gourd swing slightly forward toward screen LEFT, the LEFT forward boot lifts noticeably above the planted flat RIGHT rear boot. The lifted leading boot points slightly UP with a heel higher than the planted rear sole, keep the foot attached to its own short puffy ivory leg. f17 rightmost: eye open, same sleeve/gourd slightly forward, LEFT leading boot is now flat and planted, the RIGHT trailing heel lifts just enough to show a toe-off angle with its toe still close to the ground plane. In this second half of the walk the brighter nearer boot is on screen RIGHT in f16 and f17, darker farther boot screen LEFT; keep the split boots and sleeve positions clearly readable. Show these three different compact positions only.",
+  "submittedPromptSha256": "2cd6ad942689231ee4dd45b8e99290f4ab115cd9d1981db20aaff8cd453f8703",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/daoist-child-W.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/daoist-child-west/source-west-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/daoist-child-west/source-west-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin output did not disclose model/quality.",
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/daoist-child-W.png",
+      "sha256": "4298ee13ad0587ebcb53867cd0d15b7ecb10a1951536f2eb7fd3a55af9c3eca4",
+      "role": "own identity"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/daoist-child-west/source-west-six-phases.png",
+      "sha256": "28807cc13d80eb82baf471c77e0035cfc405f8951bbe25bf1720546993ecb593",
+      "role": "source pose structure"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/daoist-child-west/source-west-lower-body.png",
+      "sha256": "550be2da097b7febdb09d8bec316dce3dc27e402c547fe2c40b6a47a02a4ef9b",
+      "role": "source feet and sleeve timing order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q hand-painted style"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261113/daoist-child-west/submission-b-v1.json",
+    "sha256": "34a49c4aafa794d6302eec7d808ce5c5e71954b07e8736d3176a2d0f2e4d5df8"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261113/daoist-child-west/result-b-v1.json",
+    "sha256": "79f39eba8a0250663401d9aab86ab6546a863e0b37f7c5292dc0e12ceb69e4cb"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-6817c664-804a-40c9-beb2-0fbf8168186a.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T07:40:43.254926+00:00",
+  "timeEvidence": "Native file modification time; actual model-side generation time undisclosed.",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}

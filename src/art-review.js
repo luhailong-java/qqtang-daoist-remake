@@ -7,6 +7,7 @@ const paths={items:'assets/items/art.json',battlefield:'assets/items/battlefield
 Object.assign(paths,{cards:'assets/items/cards-currency/art.json',platform:'assets/items/platform/art.json',nameplates:'assets/items/namecard-borders/art.json',shortNameplates:'assets/items/namecard-borders/walk/art.json',nameplateIcons:'assets/items/namecard-borders/inventory/art.json'});
 Object.assign(paths,{headAdornments:'assets/items/head-adornments/art.json'});
 Object.assign(paths,{hats:'assets/items/hats/inventory-combined.json',backInventory:'assets/items/back-adornments/inventory-combined.json',bubbleSkins:'assets/items/bubble-skins/inventory-combined.json',mouthAdornments:'assets/items/mouth-adornments/cloud-masquerade-a/art.json'});
+Object.assign(paths,{wingInventory:'assets/items/wing-adornments/spirit-wings-a/art.json',profileMedals:'assets/items/profile-frames/elemental-medals/art.json',scenicBackgrounds:'assets/items/scenic-backgrounds/four-seasons-a/art.json',touchIcons:'assets/ui/touch-icons-20261113/manifest.json'});
 Object.assign(paths,{surroundings:'assets/items/surroundings/art.json'});
 Object.assign(paths,{eyeAdornments:'assets/items/eye-adornments/art.json'});
 Object.assign(paths,{footprints:'assets/items/footprints/art.json'});
@@ -24,8 +25,12 @@ async function readSequences(category){
   if(category==='headWorld39')return headWorldSequences(await readJson('assets/items/head-adornments/world-39-art.json'));
   if(category==='pickupSequences')return(await readJson('assets/items/battlefield/animation/manifest.json')).resources;
   if(category==='characterMotion'){
-    const base='assets/characters/motion-continuation-20261112';
-    const clips=await Promise.all(['daoist-child-east','daoist-child-north','moon-shadow-east'].map(id=>readJson(`${base}/${id}/manifest.json`)));
+    const batches = {
+      '20261112': ['daoist-child-east', 'daoist-child-north', 'moon-shadow-east'],
+      '20261113': ['daoist-child-west', 'daoist-child-south'],
+    };
+    const clips=await Promise.all(Object.entries(batches).flatMap(([date, ids]) =>
+      ids.map(id=>readJson(`assets/characters/motion-continuation-${date}/${id}/manifest.json`))));
     return clips.map(characterDiagnosticSequence);
   }
   if(category==='mapSequences'){
@@ -54,6 +59,7 @@ async function showCategory(){stop();selectedClip=null;const version=++requestVe
     else if(kind.value==='characters')entries=data.entries.map(e=>({name:e.name,file:e.file,size:e.nativeSize,native:true,wide:true,failed:e.gate==='not_passed',note:'原画或关键姿态；不代表连续动作已经完成。',record:e}));
     else if(kind.value==='portraits')entries=data.entries.map(e=>({name:e.name,id:e.sourceRoleId,file:e.file,size:e.canvas,note:'从现有20个自有身份等比裁出的头像；未增加角色数量，尚未接入角色槽位。',record:e}));
     else if(kind.value==='uiExtra')entries=data.entries.map(e=>({name:uiNames[e.id]??e.id,id:e.id,file:e.file,size:e.outputCanvas,note:'一张母图裁出16个语义图标；小尺寸辨识、状态和实际控件接入待验。',record:e}));
+    else if(kind.value==='touchIcons')entries=data.items.map(e=>({name:e.projectDisplayName,id:e.id,file:e.file,size:[e.width,e.height],note:'已用于现有触屏按钮；小屏实机视觉待验。',record:e}));
     else if(kind.value==='resultCrests')entries=data.entries.map(e=>({name:e.label,id:e.id,file:e.file,size:[e.width,e.height],note:'原生母图裁切/等比导出，已接真实胜负状态；全视口实机视觉待验。',record:e}));
     else if(kind.value==='creatures')entries=data.masters.map(e=>({name:e.projectOriginalChineseIdentityName,id:e.entityId,file:e.file,size:[e.width,e.height],native:true,note:'本项目原创外观；源参数另存，完整动作待制作。',record:e}));
     else if(kind.value==='transformations')entries=data.entries.map(e=>({name:e.ownIdentity.name,id:e.sourceSceneId,file:e.ownIdentity.master,size:e.ownIdentity.nativeSize,native:true,note:`临时模型编号 ${e.sourceAvatarRoleId}；静态原画，完整动作与运行待验。`,record:e}));

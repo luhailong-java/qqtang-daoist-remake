@@ -4,6 +4,7 @@ const MANIFESTS = Object.freeze({
   creatures: 'assets/maps/exploration/creatures/art.json',
   bubbles: 'assets/effects/bubbles/manifest.json',
   flames: 'assets/effects/flames/manifest.json',
+  states: 'assets/effects/states/manifest.json',
   props: 'assets/runtime/battle-props-20261112/manifest.json',
 });
 const PICKUP_SCENES = Object.freeze({capacity: 1, range: 2, speed: 3});
@@ -36,7 +37,7 @@ function asset(entry, manifest, extra = {}) {
 export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
   createImage = () => new globalThis.Image()} = {}) {
   const pickups = new Map(), creatures = new Map(), props = new Map(), images = new Map(), errors = [];
-  let bubble = null, blast = null, loading;
+  let bubble = null, blast = null, heldShield = null, loading;
 
   async function read(manifest, apply) {
     try {
@@ -78,6 +79,12 @@ export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
         const frame = data.resources.find(entry => entry.sourceResource === 'flame10_stand')?.frames
           .find(entry => entry.frameIndex === 0 && !entry.empty);
         blast = asset(frame || {}, MANIFESTS.flames, {artworkResource: 'flame10_stand', selectedFrameIndex: 0});
+      }),
+      read(MANIFESTS.states, data => {
+        // A static own painting for the existing shield flag. The original lookup, anchor and pace remain unknown.
+        const frame = data.resources.find(entry => entry.sourceResource === 'magic3')?.frames
+          .find(entry => entry.frameIndex === 2 && !entry.empty);
+        heldShield = asset(frame || {}, MANIFESTS.states, {artworkResource: 'magic3', selectedFrameIndex: 2});
       }),
       read(MANIFESTS.props, data => {
         const entries = new Map();
@@ -146,7 +153,7 @@ export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
   }
   async function preloadDefaults() {
     await load();
-    await Promise.all([pickups.get(1), pickups.get(2), pickups.get(3), bubble, blast, ...props.values()]
+    await Promise.all([pickups.get(1), pickups.get(2), pickups.get(3), bubble, blast, heldShield, ...props.values()]
       .filter(Boolean).map(descriptor => requestImage(descriptor).promise));
     return status();
   }
@@ -159,11 +166,14 @@ export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
   return Object.freeze({load, preloadDefaults, status, pickupDescriptor, monsterDescriptor,
     propDescriptor: slot => props.get(slot) || null,
     bubbleDescriptor: () => bubble, blastDescriptor: () => blast,
+    heldShieldDescriptor: () => heldShield,
     drawPickup: (ctx, pickup, ...bounds) => draw(ctx, pickupDescriptor(pickup), ...bounds),
     drawProp: (ctx, slot, ...bounds) => draw(ctx, props.get(slot), ...bounds),
     drawMonster: (ctx, monster, game, ...bounds) => draw(ctx, monsterDescriptor(monster, game)?.asset, ...bounds),
     drawBubble: (ctx, ...bounds) => draw(ctx, bubble, ...bounds),
-    drawBlast: (ctx, ...bounds) => draw(ctx, blast, ...bounds)});
+    drawBlast: (ctx, ...bounds) => draw(ctx, blast, ...bounds),
+    drawHeldShield: (ctx, player, ...bounds) => player?.alive === true && player.shield === true
+      && player.trappedUntil == null && draw(ctx, heldShield, ...bounds)});
 }
 
 const runtime = createBattleArtRuntime();
@@ -173,4 +183,5 @@ export const drawBattleProp = (...args) => runtime.drawProp(...args);
 export const drawBattleMonster = (...args) => runtime.drawMonster(...args);
 export const drawBattleBubble = (...args) => runtime.drawBubble(...args);
 export const drawBattleBlast = (...args) => runtime.drawBlast(...args);
+export const drawHeldShield = (...args) => runtime.drawHeldShield(...args);
 export const battleArtStatus = () => runtime.status();

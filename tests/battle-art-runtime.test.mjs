@@ -14,6 +14,7 @@ const manifestFiles = [
   'assets/items/battlefield/art.json', 'assets/maps/exploration/creatures/art.json',
   'assets/effects/bubbles/manifest.json', 'assets/effects/flames/manifest.json',
   'assets/runtime/battle-props-20261112/manifest.json',
+  'assets/effects/states/manifest.json',
 ];
 const manifests = new Map(await Promise.all(manifestFiles.map(async file =>
   [file, JSON.parse(await readFile(rootFile(file), 'utf8'))])));
@@ -46,13 +47,13 @@ function selectedCandidates(runtime) {
   return [...['capacity', 'range', 'speed'].map(type => runtime.pickupDescriptor({type})),
     ...['needle', 'shield', 'bun'].map(slot => runtime.propDescriptor(slot)),
     runtime.monsterDescriptor({boss: false}, game).asset, runtime.monsterDescriptor({boss: true}, game).asset,
-    runtime.bubbleDescriptor(), runtime.blastDescriptor()];
+    runtime.bubbleDescriptor(), runtime.blastDescriptor(), runtime.heldShieldDescriptor()];
 }
 
 test('capacity, range and speed use separate scene-factory paintings, without inventory-ID confusion', async () => {
   const {runtime, fetches, decoded} = fixture();
   await runtime.load();
-  assert.equal(fetches.length, 5);
+  assert.equal(fetches.length, manifestFiles.length);
   assert.equal(decoded.length, 0);
   assert.deepEqual(['capacity', 'range', 'speed'].map(type => runtime.pickupDescriptor({type}).sceneId), [1, 2, 3]);
   assert.equal(new Set(['capacity', 'range', 'speed'].map(type => runtime.pickupDescriptor({type}).file)).size, 3);
@@ -80,7 +81,7 @@ test('synthetic normal/Boss appearances remain distinct from exact native entity
 test('currently used paintings have exact PNG hashes, dimensions and a present generation/provenance chain', async () => {
   const {runtime} = fixture(); await runtime.load();
   const selected = selectedCandidates(runtime);
-  assert.equal(new Set(selected.map(entry => entry.file)).size, 10);
+  assert.equal(new Set(selected.map(entry => entry.file)).size, 11);
   for (const entry of selected) {
     const bytes = await readFile(rootFile(entry.file));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), entry.sha256);
@@ -109,6 +110,19 @@ test('static effect painting and uniform fitting do not advance clocks, add cell
   assert.equal(runtime.bubbleDescriptor().selectedFrameIndex, 0);
   assert.equal(runtime.blastDescriptor().selectedFrameIndex, 0);
   assert.deepEqual(game, before);
+});
+
+test('shield painting follows only the live held flag, separately from the pickup and invulnerability timer', async () => {
+  const {runtime} = fixture(); await runtime.preloadDefaults();
+  const player = {alive: true, shield: true, trappedUntil: null, invulnerableUntil: 0};
+  const draws = [], ctx = {drawImage: image => draws.push(image.src)};
+  const render = state => runtime.drawHeldShield(ctx, state, 0, 0, 108, 108);
+  assert.equal(render(player), true);
+  assert.equal(render({...player, alive: false}), false);
+  assert.equal(render({...player, trappedUntil: 4000}), false);
+  assert.equal(render({...player, shield: false, invulnerableUntil: 1000}), false);
+  assert.deepEqual(draws, ['./' + runtime.heldShieldDescriptor().file]);
+  assert.notEqual(runtime.heldShieldDescriptor().file, runtime.pickupDescriptor({type: 'shield'}).file);
 });
 
 test('unavailable/not-decoded art returns false for the existing caller fallback, with one decode attempt', async () => {

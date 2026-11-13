@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "calls": [
+    {
+      "input": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17038/source-phase-board.png",
+          "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17038/sequence-v1.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ],
+        "prompt": "Edit only image 2, the original dark-slate/brass map animation atlas, with image 1 as the authoritative six-frame mechanical reference. Keep its exact 1536×1024 opaque atlas of three columns and two rows, six full 512×512 contiguous square edge-to-edge tiles. Each source frame in image 1 corresponds in reading order to one output tile in image 2. Keep the top-left bevel pivot, right/bottom curved outer rail, recessed bottom-right square, dark opaque slate and small square grille, fine polished antique brass accents, and six existing vane/grille changes. Do not rotate or mirror. The specific revision is that the dark cuts between sections of the bright rail MUST travel to the phase-dependent positions seen in image 1. Image 2 previously repeated identical joints, a fixed gold double notch at the curved bottom right, in all 6 cells. Remove that repeated double notch. Cut the right vertical bright outer rail with a narrow but visible dark horizontal gap at different heights in each cell and cut the bottom bright horizontal rail with a narrow dark vertical gap at varying horizontal positions. Measure each percent relative to the full 512-square, origin top left; copy the precise visible dark seams in image 1 if uncertain. Phase 0 top-left: right rail has no cut in its upper straight section, bottom rail has its cut near x=17%. Phase 1 top-middle: right rail cut near y=19%, bottom rail cut near x=29%. Phase 2 top-right: right rail cut near y=26%, bottom rail cut near x=11%. Phase 3 bottom-left: right rail cut near y=42%, bottom rail cut near x=58%. Phase 4 bottom-middle: right rail cut near y=49%, bottom rail cut near x=57%. Phase 5 bottom-right: right rail cut near y=23%, bottom rail cut near x=26%. Even at miniature display size, right-side seam should clearly move down and reset. The individual background details should stay in register. Use exact cell boundaries x=0,512,1024,1536 and y=0,512,1024, no external padding, alpha, dividers, logos, letters or labels. Stay edge to edge. Do not merge neighboring cells or flatten the frame changes into repeated decoration. Retain the same material and identity as image 2; other attached art shows paint finish only."
+      },
+      "result": {
+        "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-c03a1ddf-c6ed-49c8-9693-f5b961a9c4c8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-c03a1ddf-c6ed-49c8-9693-f5b961a9c4c8.png",
+        "returnedFields": [
+          "image_url",
+          "output_hint"
+        ],
+        "imageDataOmitted": true,
+        "localAtlasSha256": "e2d8342e33913a4bc01c114bce8d37369a79659f2115a8dea31b25d6bdc9c060"
+      }
+    }
+  ]
+}

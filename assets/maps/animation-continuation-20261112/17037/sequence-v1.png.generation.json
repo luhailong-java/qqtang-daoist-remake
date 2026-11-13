@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/maps/animation-continuation-20261112/17037/sequence-v1.png",
+  "sha256": "29958f73421c95181cedf68ca03d9e168217c2da0ab3417df817cfe81e13d446",
+  "generatedAt": "2026-11-13T07:43:15.715994+00:00",
+  "timeEvidence": "UTC registration after host output",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "storedMode": "RGB",
+  "decodedRGBAAlphaExtrema": [
+    255,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "sourceContract": "assets/maps/animation-continuation-20261112/17037/source-contract.json",
+  "sourceContractSha256": "4daf8c691e8d7f16fdb438ce3b257048906696e86977bd6822df5cded3240d24",
+  "operation": "Native full-square atlas copied without changing image pixels",
+  "promptFile": "assets/maps/animation-continuation-20261112/17037/prompt-v1.txt",
+  "promptFileSha256": "c4c6a35625d4951a69eefade9c45369596ec54ccea79d0db0d32513824961090",
+  "exactPrompt": "Paint one production-ready 1536x1024 map floor atlas for element 17037, with exactly three columns and two rows. Each cell is a complete 512x512 opaque edge-to-edge square tile, placed flush without any gutters, empty background, framing, or labels. Each of the six images fills its own exact square. The camera is perfectly top-down and orthographic throughout. The stone frame and internal metal mesh belong to the tile, not the surroundings. Keep the outer silhouette an exact full square including all four corners.\n\nImage 1 is the real 6-phase source contact sheet. It is the authority for rail orientation, phase sequence, proportions, and locations of moving solid plates relative to the checker-like perforated mesh. Treat every source frame independently in row-major order. The checker-like texture is physical iron mesh above a dark opaque backing. Image 2 is our existing original frame-0 art for this exact element, used as identity and material reference. The primary outer frame and curved rail follow the TOP and LEFT edges, with the curved arc bending around the upper-left corner. Pivot/cutout detail at BOTTOM RIGHT. Image 3 is our already painted sibling material atlas. Match the same charcoal stone and dark iron mesh shading and restrained thin warm-brass edging, but ignore the sister tile's corner placement and phase order. Images 4 and 5 are original Daoist chibi hand-painted finish references only. No figures, UI, typography or additional jade ornament.\n\nRetain exactly the rail, taper and plate proportions of Image 1, corresponding to our original finish in Image 2. The outer rail stays pinned to those same edges in all cells. Subtle rail joint position can change to match the exact source frame, and the dark outlined solid grey sector or sectors sweep over the fine opaque mesh. Each edge between smooth solid graphite plate and the tiny tightly repeated metal grid has a crisp readable contour. Copy the structure, not pixels. Small broad color and lighting differences between states are allowed only to make the moving panel distinguishable. No gold ornament inside the track, no light-up arrows, no added handle or bolts, no literal opening or transparent hole.\n\nFrame 0: solid wedge upper-right, exposed mesh lower-left. Frame 1: solid wedge spans upper left and center diagonally toward lower right; exposed mesh lower left and upper right. Frame 2: solid wedge moves down-left toward lower center; broad mesh triangle upper right. Frame 3: mesh triangular area center-top; separate narrow solid right strip and broad bottom-left solid region. Frame 4: central mesh broadens down toward the lower-right pivot, with solid regions at right and bottom-left. Frame 5: broad mesh wedge reaches upper left-center, solid area upper right and narrow solid area along bottom.\nTop row left to right is 0, 1, 2. Bottom row left to right is 3, 4, 5. Follow the corresponding source panel angle and mesh-versus-solid divisions, retaining the fixed rail orientation and full edge-to-edge square. High-definition hand-painted game art, texture and material realism compatible with our Daoist Q world. No independent sheets, no white matte, no perspective, no shadows beyond the tile, no sticker outline, no checkerboard background, no captions.",
+  "submittedPromptSha256": "c4c6a35625d4951a69eefade9c45369596ec54ccea79d0db0d32513824961090",
+  "submittedInputFile": "assets/maps/animation-continuation-20261112/17037/submitted-input-v1.json",
+  "submittedInputFileSha256": "790a29c6fb3c42202da480c2deac5d9f0bedfc6afe7466320fc5431c35df3e7b",
+  "references": [
+    {
+      "path": "assets/maps/animation-continuation-20261112/17037/source-phase-board.png",
+      "sha256": "0e9c2ff1533a991d7028a8a9f8897cb21f7536ffd9553fb710746fca57bb9703",
+      "purpose": "Six source phases and rail orientation"
+    },
+    {
+      "path": "assets/maps/common/pieces/17037-grey-mesh-curve-c.png",
+      "sha256": "ac6def9c4b32e9a36afc261048e8b7d8ead840eefa32fcc5c3c6e579f4f031b8",
+      "purpose": "Original first frame identity"
+    },
+    {
+      "path": "assets/maps/animation-continuation-20261112/17030/sequence-v1.png",
+      "sha256": "e763865e99e6db47ccc44e9cf9943e7b6fe7da02f0614adffdc9b6dcf255bbc7",
+      "purpose": "Sibling material reference"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "Daoist Q paint style"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "Daoist Q paint style"
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Paint one production-ready 1536x1024 map floor atlas for element 17037, with exactly three columns and two rows. Each cell is a complete 512x512 opaque edge-to-edge square tile, placed flush without any gutters, empty background, framing, or labels. Each of the six images fills its own exact square. The camera is perfectly top-down and orthographic throughout. The stone frame and internal metal mesh belong to the tile, not the surroundings. Keep the outer silhouette an exact full square including all four corners.\n\nImage 1 is the real 6-phase source contact sheet. It is the authority for rail orientation, phase sequence, proportions, and locations of moving solid plates relative to the checker-like perforated mesh. Treat every source frame independently in row-major order. The checker-like texture is physical iron mesh above a dark opaque backing. Image 2 is our existing original frame-0 art for this exact element, used as identity and material reference. The primary outer frame and curved rail follow the TOP and LEFT edges, with the curved arc bending around the upper-left corner. Pivot/cutout detail at BOTTOM RIGHT. Image 3 is our already painted sibling material atlas. Match the same charcoal stone and dark iron mesh shading and restrained thin warm-brass edging, but ignore the sister tile's corner placement and phase order. Images 4 and 5 are original Daoist chibi hand-painted finish references only. No figures, UI, typography or additional jade ornament.\n\nRetain exactly the rail, taper and plate proportions of Image 1, corresponding to our original finish in Image 2. The outer rail stays pinned to those same edges in all cells. Subtle rail joint position can change to match the exact source frame, and the dark outlined solid grey sector or sectors sweep over the fine opaque mesh. Each edge between smooth solid graphite plate and the tiny tightly repeated metal grid has a crisp readable contour. Copy the structure, not pixels. Small broad color and lighting differences between states are allowed only to make the moving panel distinguishable. No gold ornament inside the track, no light-up arrows, no added handle or bolts, no literal opening or transparent hole.\n\nFrame 0: solid wedge upper-right, exposed mesh lower-left. Frame 1: solid wedge spans upper left and center diagonally toward lower right; exposed mesh lower left and upper right. Frame 2: solid wedge moves down-left toward lower center; broad mesh triangle upper right. Frame 3: mesh triangular area center-top; separate narrow solid right strip and broad bottom-left solid region. Frame 4: central mesh broadens down toward the lower-right pivot, with solid regions at right and bottom-left. Frame 5: broad mesh wedge reaches upper left-center, solid area upper right and narrow solid area along bottom.\nTop row left to right is 0, 1, 2. Bottom row left to right is 3, 4, 5. Follow the corresponding source panel angle and mesh-versus-solid divisions, retaining the fixed rail orientation and full edge-to-edge square. High-definition hand-painted game art, texture and material realism compatible with our Daoist Q world. No independent sheets, no white matte, no perspective, no shadows beyond the tile, no sticker outline, no checkerboard background, no captions.",
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17037/source-phase-board.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17037-grey-mesh-curve-c.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17030/sequence-v1.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "builtinSubmissions": "assets/maps/animation-continuation-20261112/17037/builtin-submissions.json",
+    "builtinSubmissionsSha256": "52ae93501b2e65bb9416ba9cce1c7e23818d9857960ec86a872eeaa85d35d431",
+    "functionStoreKey": "17037-input-v1",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-f7335e80-71da-4ac3-9c62-0f03a1c2843b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-f7335e80-71da-4ac3-9c62-0f03a1c2843b.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "imageDataOmitted": true
+  },
+  "accepted": false,
+  "visualAccepted": false,
+  "geometryAccepted": false,
+  "stateCorrespondenceAccepted": false,
+  "seamlessVerified": false,
+  "runtimeIntegrated": false
+}

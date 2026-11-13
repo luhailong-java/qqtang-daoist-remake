@@ -1,6 +1,6 @@
 # 《灵葫大作战》参照的《QQ堂》与客户端来源
 
-更新：2026-11-12，America/New_York。
+更新：2026-11-13，America/New_York。
 
 ## 参照对象
 
@@ -84,3 +84,7 @@ PE资源版本和本机Windows Authenticode静态检查：
 来源合同、PNG与对应源SHA见[407来源合同](../assets/items/head-adornments/docs/WORLD_407_SOURCE_CONTRACT.md)及[2000来源合同](../assets/items/head-adornments/references/world/2000/source-contract.json)。新绘采用自有角色身份及原有道家Q版手绘风格，原客户端贴图只作结构参考。
 
 用户已明确后续制作手游。制作端保留高清母图、RGBA、源逻辑规格和原偏移，并另做32/48/64像素诊断预览；该预览不定义手游格距、碰撞或挂点。具体约束见[手游美术方向补充](MOBILE_ART_DIRECTION_20261112.md)。
+
+## 2026-11-13 接续取证
+
+同一固定 QQTang-Local 样本用于核对角色 9 的西向组 2（f12–17）和南向组 3（f18–23）、地图元素 17033／17037／17038 的 18 个原生位置，以及 `fpack`、`frame`、`bg` 各六个库存资源。库存依目录记录的实际资源成员匹配，未用物品编号猜测佩戴或展示资源。人物和地图保留原生声明与偏移；时序、循环与运行挂点仍待证。 [本轮美术与逐项来源](ART_DELIVERY_20261113.md)

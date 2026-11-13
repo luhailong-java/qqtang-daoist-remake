@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/maps/animation-continuation-20261112/17038/sequence-v2.png",
+  "sha256": "e2d8342e33913a4bc01c114bce8d37369a79659f2115a8dea31b25d6bdc9c060",
+  "generatedAt": "2026-11-13T07:47:19.555511+00:00",
+  "timeEvidence": "UTC registration after host output",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "storedMode": "RGB",
+  "decodedRGBAAlphaExtrema": [
+    255,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "sourceContract": "assets/maps/animation-continuation-20261112/17038/source-contract.json",
+  "sourceContractSha256": "32997ca0430fbf75cb8e76affec8db83876695424c07533d18fa2b82d4946579",
+  "operation": "Native full-square atlas copied without changing image pixels",
+  "promptFile": "assets/maps/animation-continuation-20261112/17038/prompt-v2.txt",
+  "promptFileSha256": "1eefe54d62e509766126f692c8ae5e37d7c3da8eb667dc870904ec6c9cce3f43",
+  "exactPrompt": "Edit only image 2, the original dark-slate/brass map animation atlas, with image 1 as the authoritative six-frame mechanical reference. Keep its exact 1536×1024 opaque atlas of three columns and two rows, six full 512×512 contiguous square edge-to-edge tiles. Each source frame in image 1 corresponds in reading order to one output tile in image 2. Keep the top-left bevel pivot, right/bottom curved outer rail, recessed bottom-right square, dark opaque slate and small square grille, fine polished antique brass accents, and six existing vane/grille changes. Do not rotate or mirror. The specific revision is that the dark cuts between sections of the bright rail MUST travel to the phase-dependent positions seen in image 1. Image 2 previously repeated identical joints, a fixed gold double notch at the curved bottom right, in all 6 cells. Remove that repeated double notch. Cut the right vertical bright outer rail with a narrow but visible dark horizontal gap at different heights in each cell and cut the bottom bright horizontal rail with a narrow dark vertical gap at varying horizontal positions. Measure each percent relative to the full 512-square, origin top left; copy the precise visible dark seams in image 1 if uncertain. Phase 0 top-left: right rail has no cut in its upper straight section, bottom rail has its cut near x=17%. Phase 1 top-middle: right rail cut near y=19%, bottom rail cut near x=29%. Phase 2 top-right: right rail cut near y=26%, bottom rail cut near x=11%. Phase 3 bottom-left: right rail cut near y=42%, bottom rail cut near x=58%. Phase 4 bottom-middle: right rail cut near y=49%, bottom rail cut near x=57%. Phase 5 bottom-right: right rail cut near y=23%, bottom rail cut near x=26%. Even at miniature display size, right-side seam should clearly move down and reset. The individual background details should stay in register. Use exact cell boundaries x=0,512,1024,1536 and y=0,512,1024, no external padding, alpha, dividers, logos, letters or labels. Stay edge to edge. Do not merge neighboring cells or flatten the frame changes into repeated decoration. Retain the same material and identity as image 2; other attached art shows paint finish only.",
+  "submittedPromptSha256": "1eefe54d62e509766126f692c8ae5e37d7c3da8eb667dc870904ec6c9cce3f43",
+  "submittedInputFile": "assets/maps/animation-continuation-20261112/17038/submitted-input-v2.json",
+  "submittedInputFileSha256": "8782facaa7af98f91b5c65a0efa94debfcc9076812c937ba88ab2ed6b1fc4a84",
+  "references": [
+    {
+      "path": "assets/maps/animation-continuation-20261112/17038/source-phase-board.png",
+      "sha256": "a88f0743d5b0b89a2761f6e7cdd8c9601273d01ae9eab4d5dde24751631d9fd0",
+      "purpose": "Six source phases and rail orientation"
+    },
+    {
+      "path": "assets/maps/animation-continuation-20261112/17038/sequence-v1.png",
+      "sha256": "44a8de73c5d21534cf02aa9f5dcd1d9b34c8466059ed893cfd3ab79ed3163a89",
+      "purpose": "First generated atlas edited for joint motion",
+      "generationRecord": "assets/maps/animation-continuation-20261112/17038/sequence-v1.png.generation.json",
+      "generationRecordSha256": "ec011f0d23f995d1fd910ed3f9f60248c9417709056ff24eca2de2beb5493ac2"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "Daoist Q paint style"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "Daoist Q paint style"
+    }
+  ],
+  "submittedParameters": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17038/source-phase-board.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17038/sequence-v1.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "prompt": "Edit only image 2, the original dark-slate/brass map animation atlas, with image 1 as the authoritative six-frame mechanical reference. Keep its exact 1536×1024 opaque atlas of three columns and two rows, six full 512×512 contiguous square edge-to-edge tiles. Each source frame in image 1 corresponds in reading order to one output tile in image 2. Keep the top-left bevel pivot, right/bottom curved outer rail, recessed bottom-right square, dark opaque slate and small square grille, fine polished antique brass accents, and six existing vane/grille changes. Do not rotate or mirror. The specific revision is that the dark cuts between sections of the bright rail MUST travel to the phase-dependent positions seen in image 1. Image 2 previously repeated identical joints, a fixed gold double notch at the curved bottom right, in all 6 cells. Remove that repeated double notch. Cut the right vertical bright outer rail with a narrow but visible dark horizontal gap at different heights in each cell and cut the bottom bright horizontal rail with a narrow dark vertical gap at varying horizontal positions. Measure each percent relative to the full 512-square, origin top left; copy the precise visible dark seams in image 1 if uncertain. Phase 0 top-left: right rail has no cut in its upper straight section, bottom rail has its cut near x=17%. Phase 1 top-middle: right rail cut near y=19%, bottom rail cut near x=29%. Phase 2 top-right: right rail cut near y=26%, bottom rail cut near x=11%. Phase 3 bottom-left: right rail cut near y=42%, bottom rail cut near x=58%. Phase 4 bottom-middle: right rail cut near y=49%, bottom rail cut near x=57%. Phase 5 bottom-right: right rail cut near y=23%, bottom rail cut near x=26%. Even at miniature display size, right-side seam should clearly move down and reset. The individual background details should stay in register. Use exact cell boundaries x=0,512,1024,1536 and y=0,512,1024, no external padding, alpha, dividers, logos, letters or labels. Stay edge to edge. Do not merge neighboring cells or flatten the frame changes into repeated decoration. Retain the same material and identity as image 2; other attached art shows paint finish only.",
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "builtinSubmissions": "assets/maps/animation-continuation-20261112/17038/builtin-submissions-v2.json",
+    "builtinSubmissionsSha256": "d84946f03e29f105e0c37f19b9fa73e6ec8ccd2afe21e496635c2320343b4a17",
+    "functionStoreKey": "17038-input-v2",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-c03a1ddf-c6ed-49c8-9693-f5b961a9c4c8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-c03a1ddf-c6ed-49c8-9693-f5b961a9c4c8.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "imageDataOmitted": true,
+    "localAtlasSha256": "e2d8342e33913a4bc01c114bce8d37369a79659f2115a8dea31b25d6bdc9c060"
+  },
+  "accepted": false,
+  "visualAccepted": false,
+  "geometryAccepted": false,
+  "stateCorrespondenceAccepted": false,
+  "seamlessVerified": false,
+  "runtimeIntegrated": false
+}

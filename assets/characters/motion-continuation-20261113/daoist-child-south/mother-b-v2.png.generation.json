@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261113/daoist-child-south/mother-b-v2.png",
+  "sha256": "f90a77b44081793a8492f76438f7ecc41568366c8fd65323b27a2747408e7707",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Create a production-quality clean true-transparent Chinese Daoist Q sprite strip, three equal square cells horizontal. Use image 1 as the EXACT front-facing character identity, images 2 and 3 only for walking poses (BOTTOM row), images 4 and 5 for painterly Chinese fantasy finish only. The boy is centered and faces front all three frames. His gold bow ribbons, gourd and red tassel appear on the RIGHT side of the PAGE, and his empty hand is on the LEFT side of the PAGE. Dark brown spiky hair, amber headband, ivory puff trousers, teal gold-edged boots and embroidered coat. Match the hand-painted texture and head-to-body proportion. \nIn center and right panels, the boot on the EMPTY HAND side is the fully PLANTED low boot. On the GOURD side of the image the leg is slightly receding backward in depth, hence its toe appears slightly higher on the canvas and closer to the robe hem. The EMPTY HAND side shows a straight, normal length ivory trouser leg and a complete front-facing jade boot touching the bottom ground baseline. Both boots face toward the bottom edge of the canvas and you see their cream caps from above. Avoid upward toe, forward knee lift, kicking or any large outsole visible under a shoe. Never lift the boot beneath the empty hand in these three drawings.\nLeft panel f21: both feet planted on the same level, elbows relaxed. Both eyes closed in a quick blink. Center f22: eyes open. The empty-hand-side boot remains fully planted, the gourd-side boot is receding behind the hem just a few pixels. Right f23: eyes open. Empty-hand-side boot still planted, gourd-side boot sits slightly farther back, roughly 25 to 40 px higher in a 724px cell, with some ivory trouser leg still visible above it. Bend the gourd arm modestly and raise the gourd slightly as a single held prop with red tassel. The empty hand remains lower and always on the screen left. A simple compact in-place walk. Same scale, face, outerwear and floor level across all three. True alpha transparent with 12% clear gutter around each frame; no lines, labels, floor, scene, panel background or shadow.",
+  "submittedPromptSha256": "d78cb3a641034627d610416a2d937840208d131ecd8542876a28e79e8797c33e",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/daoist-child-S.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/daoist-child-south/source-south-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/daoist-child-south/source-south-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin output did not disclose model/quality.",
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/daoist-child-S.png",
+      "sha256": "1a46e3af4180d67ac03efe84e04b1e328d883696d6b5b0d14197d25e2ffc1794",
+      "role": "own identity"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/daoist-child-south/source-south-six-phases.png",
+      "sha256": "a5b2df0c1557bbbbcaba94a1e17dcd4bdf529c677abfb7e3c5413f5a04eb301f",
+      "role": "source pose structure"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/daoist-child-south/source-south-lower-body.png",
+      "sha256": "095f0279a894cec88d271334fbe7fa3170701ea33ff5a67cfb9da59a3e0c6be5",
+      "role": "source feet and sleeve timing order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q hand-painted style"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261113/daoist-child-south/submission-b-v2.json",
+    "sha256": "f68e862c09c8246444b3e94ae2c8104cb1b3e5735bd5491c25930fd38b31ee62"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261113/daoist-child-south/result-b-v2.json",
+    "sha256": "b16379c9d59ff298b1b8bf228f89b3b7e35b4c623d20845d09a672748c6e2308"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-babd2079-80fe-4ed8-87ea-bf8e3b3b0f3c.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T07:52:50.693703+00:00",
+  "timeEvidence": "Native file modification time; actual model-side generation time undisclosed.",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}
