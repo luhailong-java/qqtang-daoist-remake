@@ -25,7 +25,7 @@ async function readSequences(category){
   if(category==='pickupSequences')return(await readJson('assets/items/battlefield/animation/manifest.json')).resources;
   if(category==='characterMotion'){
     const base='assets/characters/motion-continuation-20261112';
-    const clips=await Promise.all(['daoist-child-east','moon-shadow-east'].map(id=>readJson(`${base}/${id}/manifest.json`)));
+    const clips=await Promise.all(['daoist-child-east','daoist-child-north','moon-shadow-east'].map(id=>readJson(`${base}/${id}/manifest.json`)));
     return clips.map(characterDiagnosticSequence);
   }
   if(category==='mapSequences'){

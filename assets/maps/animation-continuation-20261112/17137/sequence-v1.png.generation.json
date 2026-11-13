@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/maps/animation-continuation-20261112/17137/sequence-v1.png",
+  "sha256": "fae5571cecf8f7531fba475fa37e5ee6b27300e213d16f2c4d2b41e5ff6eba11",
+  "generatedAt": "2026-11-13T03:37:41.116020+00:00",
+  "timeEvidence": "Registration after built-in return; provider timestamp undisclosed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "storedMode": "RGBA",
+  "decodedRGBAAlphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17137/source-phase-board.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17137-jade-left-arrow-tile.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17134/sequence-v1.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Built-in output supplied no actual model or quality metadata",
+  "exactPrompt": "Generate a true transparent RGBA atlas of five light phases of map tile 17137, a LEFT-pointing original painted jade arrow floor tile. Strict canvas 1536 × 1024, exact 3 columns × 2 rows of 512px slots. Same aligned silhouette in the first 5 row-major slots. Bottom-right slot blank fully transparent.\n\nImage 1 is the true five-phase source board. Use its exact motif direction and illumination order. Image 2 is our hand-painted existing original left arrow tile and specifies the exact motif and identity. Image 3 is our upward sister atlas, match its warm aged thin metal bevel, dark diagonally divided jade frame, centered geometry, corner cloud engraving, and the consistent vivid-vs-dim intensity of the inlay. The upward symbol of image 3 is irrelevant: LEFT-facing horizontal arrow only. Images 4 and 5 are style cues for original finely painted Daoist chibi jade and metallic trim; no UI, text or figures.\n\nThe whole cutout frame is stationary, top-down, face-on. In every 512px cell match the sister atlas outer silhouette approximately [79,61,436,444] with tidy real alpha edges and transparent margins. The stone face is almost square, just slightly taller than wide, with chamfered corners, fixed diagonal panels and tiny corner engravings. Do not flip, rotate, or move the plaque face or frame. Keep motif exactly as image 2: ONE left-facing triangular inlay on the left followed by THREE tall thin vertical rectangular inlay bars on its right. The triangle has a vertical right base and left-pointing tip. The three bars are VERTICAL not horizontal, exactly equal lengths, with visible gaps. The triangle is centered vertically in the same band as the bars. No extra bar, no stem, no writing, no separate symbols. Position, scale, shape, and direction identical across frames. Only jade inlay intensity changes. Dim pieces are medium-dark emerald but always clearly present. Bright pieces are significantly brighter turquoise with a clean thin bright edge. No glow beyond the object or texture behind it.\n\nSlot 0 top left: triangle and all three bars dim.\nSlot 1 top middle: triangle bright; all bars dim.\nSlot 2 top right: triangle and leftmost bar bright, other two bars dim.\nSlot 3 bottom left: triangle and leftmost and middle bars bright, only rightmost bar dim.\nSlot 4 bottom middle: triangle and all three bars bright.\nSlot 5 bottom right: fully transparent blank.\nMatch clean rectangular frame and restrained painterly stone sheen in all five. No camera perspective, no duplicate state, no grid lines, no labels, no surrounding objects or backdrop.",
+  "promptFile": "assets/maps/animation-continuation-20261112/17137/prompt-v1.txt",
+  "promptFileSha256": "593f506fc66838ca2c860f3a125908c16a09a04a11b9c35440de0362546fc2af",
+  "submittedPromptSha256": "593f506fc66838ca2c860f3a125908c16a09a04a11b9c35440de0362546fc2af",
+  "submittedInputFile": "assets/maps/animation-continuation-20261112/17137/submitted-input-v1.json",
+  "submittedInputFileSha256": "9a0aeb350a95918af41f7f84fef90f59c0bbb7c6b33356af2bf0b7bf0731c441",
+  "references": [
+    {
+      "path": "assets/maps/animation-continuation-20261112/17137/source-phase-board.png",
+      "sha256": "66d41c95c8a2cb1d42d9023322dafbc78f29b3f492e620f2a7e4a62b22afbf70",
+      "purpose": "Five leftward source positions and cumulative light-state correspondence"
+    },
+    {
+      "path": "assets/maps/common/pieces/17137-jade-left-arrow-tile.png",
+      "sha256": "6ad7fdf08a9aaa23ff37e490f78c151545949ebf100a3fbcbafd905e07bec037",
+      "purpose": "Current original leftward jade arrow tile identity",
+      "generationRecord": "assets/maps/common/props-n-v1.png.generation.json",
+      "generationRecordSha256": "90cd59d6e22956df22cd4ff5915d3a9c66eabcf49e6edaa03094b018fd64d36a",
+      "provenanceRecord": "assets/maps/common/pieces/17137-jade-left-arrow-tile.png.provenance.json",
+      "provenanceRecordSha256": "83e0e48420fbcab665250c0b6a6380b1d7601503738941f6f511f6fd34386e67"
+    },
+    {
+      "path": "assets/maps/animation-continuation-20261112/17134/sequence-v1.png",
+      "sha256": "7a48c1c1bc8bd4db6e3a4a0daf6725459cbb1fe967bff07ff04dd097f14ce0d4",
+      "purpose": "Sister upward atlas for matching outer frame, jade texture and registration only"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "Confirmed Daoist chibi painted jade and metal finish"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "Confirmed Daoist chibi painted jade and metal finish"
+    }
+  ],
+  "sourceContract": "assets/maps/animation-continuation-20261112/17137/source-contract.json",
+  "sourceContractSha256": "ac98ae125b60c3e3af14eac88fc44a57419f8ee63698aa67ab29dc4767905241",
+  "evidence": {
+    "builtinSubmissions": "assets/maps/animation-continuation-20261112/17137/builtin-submissions.json",
+    "builtinSubmissionsSha256": "b72dac80ed8d4ce19f4ae06e039d9ed220f8f1012c94034e4385c4dddbbb0230",
+    "functionStoreKey": "17137-input-v1",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-292b3009-6e9b-4ce1-90bb-6aba682c8dfe.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-292b3009-6e9b-4ce1-90bb-6aba682c8dfe.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "imageDataOmitted": true
+  },
+  "operation": "New built-in RGBA atlas copied without pixel changes",
+  "accepted": false,
+  "visualAccepted": false,
+  "geometryAccepted": false,
+  "stateCorrespondenceAccepted": false,
+  "runtimeIntegrated": false
+}

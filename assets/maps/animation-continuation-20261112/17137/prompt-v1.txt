@@ -1,0 +1,13 @@
+Generate a true transparent RGBA atlas of five light phases of map tile 17137, a LEFT-pointing original painted jade arrow floor tile. Strict canvas 1536 × 1024, exact 3 columns × 2 rows of 512px slots. Same aligned silhouette in the first 5 row-major slots. Bottom-right slot blank fully transparent.
+
+Image 1 is the true five-phase source board. Use its exact motif direction and illumination order. Image 2 is our hand-painted existing original left arrow tile and specifies the exact motif and identity. Image 3 is our upward sister atlas, match its warm aged thin metal bevel, dark diagonally divided jade frame, centered geometry, corner cloud engraving, and the consistent vivid-vs-dim intensity of the inlay. The upward symbol of image 3 is irrelevant: LEFT-facing horizontal arrow only. Images 4 and 5 are style cues for original finely painted Daoist chibi jade and metallic trim; no UI, text or figures.
+
+The whole cutout frame is stationary, top-down, face-on. In every 512px cell match the sister atlas outer silhouette approximately [79,61,436,444] with tidy real alpha edges and transparent margins. The stone face is almost square, just slightly taller than wide, with chamfered corners, fixed diagonal panels and tiny corner engravings. Do not flip, rotate, or move the plaque face or frame. Keep motif exactly as image 2: ONE left-facing triangular inlay on the left followed by THREE tall thin vertical rectangular inlay bars on its right. The triangle has a vertical right base and left-pointing tip. The three bars are VERTICAL not horizontal, exactly equal lengths, with visible gaps. The triangle is centered vertically in the same band as the bars. No extra bar, no stem, no writing, no separate symbols. Position, scale, shape, and direction identical across frames. Only jade inlay intensity changes. Dim pieces are medium-dark emerald but always clearly present. Bright pieces are significantly brighter turquoise with a clean thin bright edge. No glow beyond the object or texture behind it.
+
+Slot 0 top left: triangle and all three bars dim.
+Slot 1 top middle: triangle bright; all bars dim.
+Slot 2 top right: triangle and leftmost bar bright, other two bars dim.
+Slot 3 bottom left: triangle and leftmost and middle bars bright, only rightmost bar dim.
+Slot 4 bottom middle: triangle and all three bars bright.
+Slot 5 bottom right: fully transparent blank.
+Match clean rectangular frame and restrained painterly stone sheen in all five. No camera perspective, no duplicate state, no grid lines, no labels, no surrounding objects or backdrop.

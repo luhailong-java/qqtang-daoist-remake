@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261112/daoist-child-north/mother-a-v1.png",
+  "sha256": "2ea56b1846b2aede6e033aa9749f810aff6940c9c64294d91b15707ace0bc246",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Use case: stylized-concept. Make exactly three transparent back-facing walk key poses of OUR Daoist Child, as one horizontal sprite sheet with three equally sized square cells. Ref 1 is his exact own back-facing identity and palette; ref 2 is the observed native walking pose order and rear camera ONLY; ref 3 is a magnified motion reference for distinct left/right foot heights; refs 4–5 establish hand-painted Chinese Daoist Q finish only. Use no original red hair, sports clothing, UI, scene or captions. \nHead and boots must stay fully inside each cell, with 10% clear transparent gutter at each side. Do not draw a floor line. True transparent alpha, crisp clean edges, no floor, shadows, checkerboard or glow. Camera fixed directly from the REAR, looking at the back of his head and shoulders. No face, nose, eye, front belt buckle or front white toe caps visible. Preserve spiky brown hair, golden headband with bow on screen LEFT, gold gourd held fixed in screen LEFT hand visible just past his screen-left shoulder, red small tassel, teal embroidered back vest with overlapping panels, ivory sleeves and puff trousers, jade and gold boot heels. Empty right hand remains clear. Keep same size, central waist position and costume across all three. The two trouser cuffs and separate jade boot backs must be visible beneath the embroidered hem. Lift of one foot reads as a difference in SCREEN Y (higher foot means closer to the top edge), not an extra leg or detached sole. Consistent handpainted silhouette readable at 64 px. Exactly one complete child per cell.\nUse the source TOP row and draw these exact phases in order, left to right: \n1) native f6: passing pose with both feet side by side; both boot heels have their lowest edge at the same middle height. Both arms low.\n2) native f7: the screen-RIGHT leg is visibly longer and its shoe sole is LOWER; the screen-LEFT boot and puff cuff are clearly higher and visibly shortened as the foot steps away. Head centered, both elbows relaxed.\n3) native f8: keep the screen-RIGHT boot lower, shift the raised screen-LEFT boot slightly toward ground but still well above the lower right sole; stronger screen-LEFT upper arm bend as the child gathers the gourd, screen-RIGHT empty hand mostly hidden by the sleeve/back. Add a very slight weight shift without showing any face.",
+  "submittedPromptSha256": "70d3a23d7ff11e68b4216b83ab9e323334861c5fed08b7bd99dfa13a04b6bb2a",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/daoist-child-N.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261112/daoist-child-north/source-north-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261112/daoist-child-north/source-north-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin output did not disclose model/quality.",
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/daoist-child-N.png",
+      "sha256": "fa68b03040af0c253dae8c7fa730f33a6e597b63400eabfdb63e09e1054bf2a7",
+      "role": "own identity"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261112/daoist-child-north/source-north-six-phases.png",
+      "sha256": "9e60045255f5ce569977b868ea1653dd5f8a3dfb6e4d3984ad49d0f0eee577e8",
+      "role": "source pose structure"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261112/daoist-child-north/source-north-lower-body.png",
+      "sha256": "7f6cb2f3f8f32bdf89446793be559fcc4e8dbdc825376aa5b360e18a74cd6687",
+      "role": "source feet and sleeve timing order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q hand-painted style"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261112/daoist-child-north/submission-a-v1.json",
+    "sha256": "a3652b3f82f2af92126fc0cc8d2e34e37987b9429d451072a4933a5e177e61f4"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261112/daoist-child-north/result-a-v1.json",
+    "sha256": "9380d7a03497b478751673c632e47a36d09b9b652c6bee6da19c4778be1ace4a"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-3e994835-9104-467a-ac28-17f67af8e291.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T03:38:14.403707+00:00",
+  "timeEvidence": "Native file modification time; actual model-side generation time undisclosed.",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}

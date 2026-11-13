@@ -1,0 +1,16 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "scope": "source positions 9–11",
+  "input": {
+    "prompt": "Use case: stylized-concept. Make exactly three transparent back-facing walk key poses of OUR Daoist Child, as one horizontal sprite sheet with three equally sized square cells. Ref 1 is his exact own back-facing identity and palette; ref 2 is the observed native walking pose order and rear camera ONLY; ref 3 is a magnified motion reference for distinct left/right foot heights; refs 4–5 establish hand-painted Chinese Daoist Q finish only. Use no original red hair, sports clothing, UI, scene or captions. \nHead and boots must stay fully inside each cell, with 10% clear transparent gutter at each side. Do not draw a floor line. True transparent alpha, crisp clean edges, no floor, shadows, checkerboard or glow. Camera fixed directly from the REAR, looking at the back of his head and shoulders. No face, nose, eye, front belt buckle or front white toe caps visible. Preserve spiky brown hair, golden headband with bow on screen LEFT, gold gourd held fixed in screen LEFT hand visible just past his screen-left shoulder, red small tassel, teal embroidered back vest with overlapping panels, ivory sleeves and puff trousers, jade and gold boot heels. Empty right hand remains clear. Keep same size, central waist position and costume across all three. The two trouser cuffs and separate jade boot backs must be visible beneath the embroidered hem. Lift of one foot reads as a difference in SCREEN Y (higher foot means closer to the top edge), not an extra leg or detached sole. Consistent handpainted silhouette readable at 64 px. Exactly one complete child per cell.\nUse the source BOTTOM row and draw these exact phases in order, left to right:\n1) native f9: passing pose with two boots side by side and both boot heels ending at the same middle height. Both arms low. \n2) native f10: the screen-LEFT leg is visibly longer and its shoe sole is LOWER; the screen-RIGHT boot and puff cuff are clearly higher and visibly shortened as the foot steps away. Exactly reverse the foot-height relationship of source f7 from the top reference row. Keep the gold gourd on SCREEN LEFT and the empty hand on SCREEN RIGHT.\n3) native f11: keep the screen-LEFT boot lower, shift the raised screen-RIGHT boot a little toward ground but still visibly above the left sole. The empty screen-RIGHT arm bends and rises compared with f10; opposite gourd arm tucked behind the body with its top still recognizable on screen left. Slight weight shift only; no part of the face visible.",
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/daoist-child-N.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261112/daoist-child-north/source-north-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261112/daoist-child-north/source-north-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

@@ -15,7 +15,15 @@ const gameAudio = new GameAudio();
 const $=(s,root=document)=>root.querySelector(s),app=$('#app'),modalRoot=$('#modal-root');
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const iconFiles={rooms:'rooms',person:'person',shop:'shop',trophy:'records',settings:'settings',back:'exit',plus:'plus',help:'help',check:'ready',sound:'sound',chat:'chat',team:'team',lock:'lock',search:'search',refresh:'refresh',home:'home'};
-const ico=name=>iconFiles[name]?`<span class="ui-icon painted-icon" aria-hidden="true"><img src="./assets/ui/icons/${iconFiles[name]}.png" alt=""></span>`:`<span class="ui-icon" aria-hidden="true">${({play:'▷',pause:'Ⅱ',close:'×',next:'→'})[name]||'✦'}</span>`;
+const actionIconNames = new Set(['play', 'pause', 'close', 'next']);
+function ico(name) {
+  const path = actionIconNames.has(name)
+    ? `action-icons-20261112/${name}.png`
+    : Object.hasOwn(iconFiles, name) ? `icons/${iconFiles[name]}.png` : null;
+  return path
+    ? `<span class="ui-icon painted-icon" aria-hidden="true"><img src="./assets/ui/${path}" alt=""></span>`
+    : '';
+}
 const char=id=>CHARACTERS.find(c=>c.id===id)||CHARACTERS[0],mode=id=>MODES.find(m=>m.id===id)||MODES[0];
 const draftMapNames={courtyard:'庭院 · 自定义技术试稿',town:'街区 · 自定义技术试稿',factory:'工场 · 自定义技术试稿'};
 let mapDirectory={maps:[],draftMaps:[]},mapDirectoryStatus='loading',mapDirectoryError='',mapDirectoryPromise=null;

@@ -26,10 +26,11 @@ export function mapSequence(data) {
 
 export function characterDiagnosticSequence(data) {
   const actor = {'daoist-child': '道童', 'moon-shadow': '月影'}[data.characterId] ?? data.characterId;
+  const direction = {N: '北向', E: '东向', S: '南向', W: '西向'}[data.direction] ?? data.direction;
   return {
     ...data,
     sourceResource: `${data.characterId}-${data.direction}`,
-    projectEffectName: `${actor} · 东向步行`,
+    projectEffectName: `${actor} · ${direction}步行`,
     frameCount: data.frames.length,
     sourceDeclaredFrameCount: data.sourceFrameOrder.length,
     frames: data.frames.map(frame => ({
