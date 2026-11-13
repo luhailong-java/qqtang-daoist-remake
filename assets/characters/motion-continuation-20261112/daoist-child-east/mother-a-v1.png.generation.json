@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261112/daoist-child-east/mother-a-v1.png",
+  "sha256": "bd204fd8b4ebd9f3884511cb4aeab79f82eeaa06fbf0f20b88820f11e173ad35",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "route": "builtin",
+  "tool": "image_gen.imagegen",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Use case: stylized-concept. Three original transparent 2D hand-painted game sprite frames of the SAME Daoist Child (道童) walking east.\nReference roles: image 1 is the exact original character identity and exact nose-right camera. Image 2 is legacy motion reference only: use ONLY its top row f0, f1, f2 poses. Image 3 is the leg-placement close-up from the legacy sequence: use ONLY its top row f1, f2 to see which shoe is raised. Images 4 and 5 are the established hand-painted Daoist Q style only. Do not draw UI or copy the legacy boy's red hair, sportswear or black shoes.\nGenerate ONE wide sheet with exactly THREE equally sized invisible cells in a single horizontal row. True transparent background and transparent vertical gutters. Each cell contains one whole centered character, hair through shoe soles, no clipping. All three faces have the same strict nose-right profile as image 1, with one visible ear and eye. Identical camera, head scale, hips position, head height, ground line. Large brown short spiky head, gold headband, warm amber eye, deep jade split vest with fine gold cloud embroidery, white loose sleeves and puffy trousers, rounded jade/gold ivory-toe boots. Exactly ONE gold gourd held at chest by the far left hand. The near right hand stays empty, and its visible sleeve/arm swings behind. Make the short legs readable below split vest. Far limbs remain slightly darker and visually behind the visible near limbs, with identical outfit and boot design. No letters, pose labels, extra marks, floor, ground shadows, glow, haze, scenery or other objects.\nLEFT: f0 neutral passing pose with both shoes close and both soles near the common baseline, far boot a little behind the near boot, visible eye open, near arm relaxed vertical.\nMIDDLE: f1 extended contact, near right boot with bright outer toe on screen-RIGHT of the hips and its sole on the common baseline; far left boot clearly screen-LEFT of hips and slightly higher, knee soft and ready to lift. Near empty right hand is behind the near hip, not holding the gourd.\nRIGHT: f2 screen-RIGHT near boot remains planted at the same baseline, while the far screen-LEFT boot lifts further upward with a bent knee, clearly a different image from f1. Empty near right sleeve stays back. Slight torso rise only. Keep f0, f1, f2 distinct. Use clean controlled painting, warm gold highlights, readable silhouette at 90px. Keep 12 percent clear air in each cell to enable safe extraction. Make the whole image truly RGBA transparent.",
+  "submittedPromptSha256": "725a0922ccc0f39bc094f9cd8d1de9ef25b49ce0be84a69e3b0cce28a1de4dfb",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/daoist-child-E.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-six-phase-board-5x.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-e-lowerbody-12x.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/daoist-child-E.png",
+      "sha256": "69d99db855de75ac1c62d453b4c6fd8bbf4420bd729d162fc22e16604d68388c"
+    },
+    {
+      "file": "assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-six-phase-board-5x.png",
+      "sha256": "cde5a057f8acb6ff384a7540704eeb613d0a3b84897500af6ff30c301ede1311"
+    },
+    {
+      "file": "assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-e-lowerbody-12x.png",
+      "sha256": "94f34f4546f6296da29adca9b2c3bacec77366222ac6a6b319b5182a263bc60d"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261112/daoist-child-east/submission-a-v1.json",
+    "sha256": "32df33a269f79b630a822c2acd73fe5b4e19e90ca8cb5d45af6167cc0685eb88"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261112/daoist-child-east/result-a-v1.json",
+    "sha256": "f45e90fece0e37031d19ed6f481727eee2a9c357c0e1430a61236de2de363591"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin returned no verifiable model/quality values.",
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-092c2f8c-71a4-45fa-9c91-c5ca0a6aba34.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T02:53:13.962445+00:00",
+  "timeEvidence": "Native image file modification time preserved by Copy-Item; model-side time undisclosed.",
+  "selectionStatus": "diagnostic-export-source",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}

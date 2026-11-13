@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "scope": "Independent production continuation, original global animation index/runtime untouched. Counts are complete source raster bindings, not visual/native action acceptance.",
+  "baselineIndex": {
+    "file": "assets/maps/animation-candidates-index.json",
+    "sha256": "f5967a33bd72419a1bb705c9991b136d4b964d451cfde7bd1c77f6127fff6bf6",
+    "candidateSequenceCount": 20,
+    "sourceFramePositions": 90
+  },
+  "sourceProductionIndex": {
+    "file": "assets/maps/production-index.json",
+    "sha256": "b13b26b3ad21a4ce4d30e84806a3adadb0f1cd9278f207f7b81ce432ffe8709f",
+    "multiFrameDefinitionCount": 45
+  },
+  "newCompleteCandidateElements": [
+    17030
+  ],
+  "newSourceFramePositions": 6,
+  "newIndependentGeneratedRasters": 6,
+  "newAliasPositions": 0,
+  "newEmptyPositions": 0,
+  "combinedCandidateSequenceCount": 21,
+  "combinedSourceFramePositions": 96,
+  "multiFrameIdsWithoutCompleteSequenceCandidate": [
+    16005,
+    17024,
+    17025,
+    17026,
+    17027,
+    17028,
+    17029,
+    17033,
+    17037,
+    17038,
+    17039,
+    17046,
+    17048,
+    17052,
+    17054,
+    17077,
+    17130,
+    17131,
+    17132,
+    17133,
+    17134,
+    17135,
+    17136,
+    17137
+  ],
+  "remainingElementCount": 24,
+  "entries": [
+    {
+      "elementId": 17030,
+      "sequence": "assets/maps/animation-continuation-20261112/17030/sequence.json",
+      "sequenceSha256": "c8b4820c91a73253680da3471c75baa09d64a0fecb8873d8a7f69d8346c2cc8d",
+      "allResourceFramePositionsPresent": true,
+      "sourceFrameCount": 6,
+      "sourceNativeFrameSize": [
+        40,
+        40
+      ],
+      "nativeDurationMs": null,
+      "loopPolicy": null,
+      "accepted": false,
+      "runtimeIntegrated": false
+    }
+  ],
+  "sourcePreparedOnly": [
+    {
+      "elementId": 17134,
+      "sourceContract": "assets/maps/animation-continuation-20261112/17134/source-contract.json",
+      "sourceContractSha256": "2b3a4dffa7c6a031412641e4d9aee8a957f7d1a966c9fac558ded5f2ac6e8ee7",
+      "sourceFrameCount": 5,
+      "candidateProduced": false,
+      "note": "Read-only preparation retained as next explicit source input; not counted as a candidate sequence."
+    }
+  ],
+  "accepted": false,
+  "visualAccepted": false,
+  "runtimeIntegrated": false
+}

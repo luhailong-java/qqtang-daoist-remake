@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configuredTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualEvidence": "Built-in tool does not expose model/quality controls or verified metadata.",
+  "newModelGeneration": true,
+  "requestedCanvasViaPrompt": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "file": "assets/items/hats/cloud-masquerade-g/references/source-six-board.png",
+      "sha256": "f445a28c7ad7c02696098b8a384e70281f52b6d11310a9b6927d3a2c3de63933",
+      "role": "cap inventory structure only",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    }
+  ],
+  "sourceReferenceLimitations": [
+    "Source280/281UI frames excluded.",
+    "Source281catalog name not treated as character identity; actual visible flight helmet/goggles shape referenced and redesigned originally.",
+    "Source45wig-like silhouette is detached costume-cap object, no wearer."
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "submittedAtUTC": "2026-11-12T15:13:35Z",
+      "status": "submitted",
+      "submittedArgsFile": "assets/items/hats/cloud-masquerade-g/submitted-args-v1.json",
+      "submittedArgsSha256": "d8b204295ebbdf19c0e90be905f861271e94f5aa92d8177b6b169bd2ac530c4f",
+      "exactPromptUtf8File": "assets/items/hats/cloud-masquerade-g/prompt-v1.txt",
+      "exactPromptUtf8Sha256": "fe4e1b962e7c62ca4b48225fdfa8856a5e52c3d44a968694ff156f40da74ab4e",
+      "promptCapture": "Exact functions.store args.prompt UTF-8; no read_text/normalize reconstruction"
+    }
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false
+}

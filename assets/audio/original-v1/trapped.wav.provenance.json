@@ -1,0 +1,38 @@
+{
+  "cue": "trapped",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/trapped.wav",
+  "sha256": "dfaadba85f535c1d85c187a435fc7d0d8ce91a812706076e918632ecabd2c132",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "trapped",
+    "seed": 1004,
+    "durationTargetSeconds": 0.55
+  },
+  "qa": {
+    "durationSeconds": 0.55,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 24255,
+    "peak": 0.6199951171875,
+    "rms": 0.14529820732216048,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.150669+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

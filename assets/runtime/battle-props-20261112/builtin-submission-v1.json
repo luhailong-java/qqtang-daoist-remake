@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "input": {
+    "prompt": "Use case: stylized-concept.\nAsset type: three ORIGINAL gameplay prop sprites for our Daoist chibi game《灵葫大作战》, replacing temporary render art without changing gameplay. Both attached images are STYLE REFERENCES ONLY: established detailed Chinese Daoist Q hand-painted jade, ivory and restrained warm gold. Do not reproduce their UI, text, scenery, people or objects wholesale.\nCreate a genuinely transparent RGBA atlas1536x1024 with exactly three isolated props in the TOP row of a 3columns x2rows regular512square grid, left to right [needle, shield pickup, single bao bun]. Entire bottom row empty alpha. No labels, text, numerals, cell borders, painted checkerboard, scene, floor, shadow, aura, loose sparkles or extra props. Each complete prop fits well within its own cell with at least64px clear margin. This is a consistent game-ready 2D hand-painted prop set, not photorealism or plastic3D.\nLEFT: a single magical sewing needle, NOT a sword, wand or syringe. Warm gold slender shaft, sharp point toward LOWER-LEFT, small oval pierced eye toward UPPER-RIGHT, a tiny jade collar around the eye with one engraved cloud curl. The eye is visibly OPEN/transparent. Needle diagonal runs from bottom-left to top-right, roughly40degrees from vertical. No string, tassel, floating lines or surrounding glow. Strong enough shaft silhouette to remain readable in a54px game pickup, without chunky weapon proportions.\nMIDDLE: one defensive talisman SHIELD PICKUP icon, a rounded jade shield plaque with a low curved upper edge and short rounded lower point, slim warm-gold rim, one small ivory-and-jade yin-yang in the centre and a restrained cloud-scroll relief. It is an opaque small pickup object, no wearer, arm, bubble or scene. Clear solid silhouette and minimal strong details readable at54px.\nRIGHT: exactly ONE round steamed bao bun, soft ivory dough, rounded full dome, recognizable top pleats and a little cloud-shaped jade-green stamp on the dough. Warm very subtle golden reflected highlights, no metal wrapping. A slight three-quarter top view shows fluffy form and gathered knot. No plate, basket, leaf base, filling spill, extra buns or face. It must work as one54-64px pickup as well as a35px carrying indicator; game draws counts separately.\nRender all three at similar occupied maximum extent of360–380px, centred in their individual top cells. Keep crisp antialiased transparent edges, continuous hand-painted shading, original Daoist Q visual identity from the two references. No shared background between cells.",
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceGeometry": "Current technical renderer bounds only; native QQTang source scene IDs/sizes are unverified."
+}

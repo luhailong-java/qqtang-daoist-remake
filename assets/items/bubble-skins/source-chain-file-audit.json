@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-12T14:39:48.200187+00:00",
+  "scope": "Read-only file/source/pixel audit; no GUI, no gameplay, appearance or animation acceptance.",
+  "verificationScript": "assets/items/bubble-skins/verify-zodiac.py",
+  "verificationScriptSha256": "96b1124e2b23bafa8b2c8a457fab862347a1c937e949bfe3c3cfa6fe9ac568c8",
+  "sourceCatalog": {
+    "file": "references/qqtang-item-data/catalog.json",
+    "sha256": "115930d870aeb74280e22548d85211f996087443cfb81f3c16aa199572c2db9f",
+    "category": "bomb",
+    "categoryCount": 295
+  },
+  "sourceContractSha256": "17e6a3689af90292b00fadf13f353cf7e7c278559dcab9610a2d938ed12669e5",
+  "manifestSha256": "763a76c6ad75c4d9eb72b0be9c2ff650f76b843d48ec4abcf5d774846a26fa8a",
+  "archive": {
+    "file": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "sha256AsPreviouslyVerified": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "note": "This run directly compared all12 explicit icon member bytes with their authorized local input paths. Whole archive SHA is preserved prior verified fixed-input evidence, not rehashed in this audit."
+  },
+  "masterChecks": [
+    {
+      "file": "assets/items/bubble-skins/zodiac-a-v1.png",
+      "sha256": "87b2ce8c2f09d258ed1dcdee086851ea13799cf7802a1a9db82807d90dd66e2d",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "promptSha256": "b5c79e94b731871dc87b692148f5495d83f4e85dec0f52b963be4acf7715c78b",
+      "submittedInputFileSha256": "e6d3602abe5df8886545a0c548533be6e0c3b7bf0de667f2d018214344870848",
+      "referencesVerified": 3,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "file": "assets/items/bubble-skins/zodiac-b-v1.png",
+      "sha256": "6b383428ba2499c13a07d6ef35e21e6bd6e5353cd36330a94a88368087ab2ebb",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "promptSha256": "6490828608ac87bf38060048528a50bf559db43d2cce96dccd848b49c4d43e10",
+      "submittedInputFileSha256": "e9b4d8ddcdcc8e210efeedfb98f20dcf995d0aea29844b5ed17ee918af9b8429",
+      "referencesVerified": 4,
+      "actualModel": null,
+      "actualQuality": null
+    }
+  ],
+  "itemChecks": [
+    {
+      "itemId": 1690,
+      "sourceName": "白羊座糖泡",
+      "file": "assets/items/bubble-skins/icons/1690-aries-cloud-bubble.png",
+      "sha256": "ec760fc2e6c73ba268e43e0c7b9a7b3086ac474a57fac3564cc447a93cb59c2e",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb93.img",
+      "sourceMemberSha256": "cc4b00a9b16eac35b120410f5cf82b06f915a005b218f1a8481ddc6d378e7879",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1691,
+      "sourceName": "金牛座糖泡",
+      "file": "assets/items/bubble-skins/icons/1691-taurus-cloud-bubble.png",
+      "sha256": "f37be48b911a1cb3011b249bcb6825f6d9490dd56269e427c15270a41a2c614b",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb94.img",
+      "sourceMemberSha256": "82d49e90e68fbd7b0c7eec2cfc9394d1370a2d9dff4524551da7a9805ec2dfa0",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1692,
+      "sourceName": "双子座糖泡",
+      "file": "assets/items/bubble-skins/icons/1692-gemini-cloud-bubble.png",
+      "sha256": "e57d7d5b6a6f7ca7d9243f52e173457cbdc80ba5176f125206e02815b40e0d8d",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb95.img",
+      "sourceMemberSha256": "fb92697e81586010cf4c7fd9f23085fac5c411ef7af35db83623b059509e6529",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1693,
+      "sourceName": "巨蟹座糖泡",
+      "file": "assets/items/bubble-skins/icons/1693-cancer-cloud-bubble.png",
+      "sha256": "70335e957a5c7425596b410cb58801d42456819c56723143397bc664083de39b",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb96.img",
+      "sourceMemberSha256": "f149ba1147ceb59bb3595b9ebb9336f72e27e95621a46b045d6e70c0bde2c6e3",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1694,
+      "sourceName": "狮子座糖泡",
+      "file": "assets/items/bubble-skins/icons/1694-leo-cloud-bubble.png",
+      "sha256": "653486ffb44ebaeff5aaaf58a2a86a81372cc67d7e86133662a5851c6c908d46",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb97.img",
+      "sourceMemberSha256": "e300a3d6af355b093ce132e435cff8f307da4a080cf0b2b36cf00f627852b079",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1695,
+      "sourceName": "处女座糖泡",
+      "file": "assets/items/bubble-skins/icons/1695-virgo-cloud-bubble.png",
+      "sha256": "37787ddd19c0f8ebbfcf11bf49daf0e012f4e539c66113480aafb80d1b49ec10",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb98.img",
+      "sourceMemberSha256": "eecac756c15c673b32b438de8afcead4420e44a70f1aed3bed47d543faa75195",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1696,
+      "sourceName": "天秤座糖泡",
+      "file": "assets/items/bubble-skins/icons/1696-libra-cloud-bubble.png",
+      "sha256": "463e45c82f55190405077e449bd01c0028594b6cb91530da17a3e32432cca82c",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb99.img",
+      "sourceMemberSha256": "062b735a83c6fe864575a69d628ee187d13c3bbdd25dac025e1616ff822c8d9b",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1697,
+      "sourceName": "天蝎座糖泡",
+      "file": "assets/items/bubble-skins/icons/1697-scorpio-cloud-bubble.png",
+      "sha256": "3f6a91b1bfac96829da33e0be762bc6804a11a2fa43118a0638a897e0fd40a63",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb100.img",
+      "sourceMemberSha256": "eab05fcb7f5becc95ccb54cb06665e3a4375c28b8531a46bbdef07971e7476b4",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1698,
+      "sourceName": "射手座糖泡",
+      "file": "assets/items/bubble-skins/icons/1698-sagittarius-cloud-bubble.png",
+      "sha256": "6cf9eac1fcdf6c35c649239133924922ed39aae2ec07d10f7c835a6c588849b8",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb101.img",
+      "sourceMemberSha256": "37e9b79221da7f90a3f2aeff7e714cc66ae648510165e157c3ec8f1acf033cb6",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1699,
+      "sourceName": "摩羯座糖泡",
+      "file": "assets/items/bubble-skins/icons/1699-capricorn-cloud-bubble.png",
+      "sha256": "adcd2555c6fa54c205e48cb97c77196222aaef6e9368bc4a1e53184c95616245",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb102.img",
+      "sourceMemberSha256": "3a603ea6b208a4636fb6ab6251ae2050a9ebac1fbb75b7fb602675b7f99361ab",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1700,
+      "sourceName": "水瓶座糖泡",
+      "file": "assets/items/bubble-skins/icons/1700-aquarius-cloud-bubble.png",
+      "sha256": "bab4c9311b6abab34f047984980e1b8ab7aacec0e5f874d5d4c007393c645256",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb103.img",
+      "sourceMemberSha256": "07d4e5749175a6894547cb2c4fce227111cca6ca2a6ae8714f8901650bca7128",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1701,
+      "sourceName": "双鱼座糖泡",
+      "file": "assets/items/bubble-skins/icons/1701-pisces-cloud-bubble.png",
+      "sha256": "29f0537557a1b7e8d1cf26e3555b775626eda49b629b2d4cea4c99588e756e50",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb104.img",
+      "sourceMemberSha256": "4595c602de1ae9a464cf7d5e37c9295398853811f1f72554504767a843783466",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        49
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    }
+  ],
+  "previewChecks": [
+    {
+      "file": "assets/items/bubble-skins/previews/zodiac-double-background.png",
+      "sha256": "e071fa1dc3e0f78fee07ee44c783421b50f3f1d19063a3b5dd53cc3d39d21284",
+      "size": [
+        1536,
+        1152
+      ],
+      "manifestSha256": "763a76c6ad75c4d9eb72b0be9c2ff650f76b843d48ec4abcf5d774846a26fa8a",
+      "inputsVerified": 12
+    },
+    {
+      "file": "assets/items/bubble-skins/previews/zodiac-mobile-size-preview.png",
+      "sha256": "1492212b11a8a8cfa6e297dfeaa7f46b99270c76703e22fc71a09044293b548c",
+      "size": [
+        1680,
+        408
+      ],
+      "manifestSha256": "763a76c6ad75c4d9eb72b0be9c2ff650f76b843d48ec4abcf5d774846a26fa8a",
+      "inputsVerified": 12
+    }
+  ],
+  "inventoryCandidates": 12,
+  "noCandidateSourceBombIdsAfterThisNewFamily": 283,
+  "worldCandidatesProduced": 0,
+  "errors": [],
+  "visualAccepted": false,
+  "accepted": false,
+  "guiUsed": false,
+  "privateDataRead": false,
+  "externalPackageExecuted": false
+}

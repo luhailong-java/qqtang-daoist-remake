@@ -13,8 +13,8 @@
     1
   ],
   "sourceMapElemOffset": [
-    -6,
-    16
+    -5,
+    9
   ],
   "derivedFrom": {
     "file": "assets/maps/bomb/props-a-v1.png",
@@ -65,5 +65,30 @@
     0
   ],
   "crossFamilyPaintedReuseOfElementId": 7010,
-  "accepted": false
+  "accepted": false,
+  "sourceMetadataCorrections": [
+    {
+      "elementId": 14010,
+      "field": "sourceMapElemOffset",
+      "old": [
+        -6,
+        16
+      ],
+      "new": [
+        -5,
+        9
+      ],
+      "authority": {
+        "file": "references/qqtang-map-data/elements.json",
+        "sha256": "09b09391576d68cac8191cfdeff729e344aff87662780c920461d7655952c8d2",
+        "binaryComparison": "references/qqtang-map-data/binary-properties-inspection.json",
+        "binaryComparisonSha256": "d24990d43bd8e0381cc52a4f0e083df736f3bd079943a493bbc5ae89e0ffd5f2",
+        "originalPropertyFileSha256": "9b27eb66494c74770e9242ba4df34d7c03db7dd44b130a02440abff95a284a64",
+        "sharedFieldsMatch": true
+      },
+      "reason": "Target-element geometry cache inherited from an exact-picture paint donor. Keep donor pixel provenance while restoring this target element's own source field.",
+      "runtimeGeometryChanged": false,
+      "pngChanged": false
+    }
+  ]
 }

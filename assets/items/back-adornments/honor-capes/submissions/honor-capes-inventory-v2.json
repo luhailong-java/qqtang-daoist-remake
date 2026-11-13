@@ -1,0 +1,60 @@
+{
+  "version": "honor-capes-inventory-v2",
+  "prompt": "EDIT image1, the actual five-cape inventory sheet. Retain these five original garment identities, embroidery, colors, tier differences and 3x2 ordering. Image2 is only the exact physical-cloth source structure/ratio, never paint its labels or pixel texture.\r\nReturn a real transparent RGBA 1536x1024 sheet, three columns and two rows, same five capes with bottom-right cell empty. CRITICAL CLEANUP: Remove ALL backdrop and luminous colored mist/vignettes behind and between capes. Alpha must be EXACTLY ZERO outside each physical cloth silhouette, inside open necklines, and all empty gaps. No colored rectangle, ambient shadow, bloom, lighting aura or residual translucent fog. Keep antialiased physical garment edges only.\r\nTop-left ID148 jade-green and top-right ID150 cobalt/turquoise were slightly too broad. Repaint these two naturally a little narrower or taller to source cloth envelope width/height=26/18=1.4444 (target e.g.420wide by291high); do not stretch/rescale the original raster. Top-middle149 violet ratio1.4444, bottom-left151 golden ratio31/23=1.3478, bottom-middle152 red/gold ratio38/25=1.5200. Allow at most5% deviation per garment.\r\nEach is a short unworn shoulder/back cape with empty neck opening, broad collar band and exactly three main cloth hem lobes. The151/152 shoulder clasps remain attached. Each cell512x512; centre complete physical cloth and keep40px clear border. No wearer, body, head, mannequin, hanger, pedestal, text, labels, cell borders, particles or detached pieces. Preserve design identity; this is clean-alpha garment art, not a display poster.",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/mothers/honor-capes-inventory-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/source-inventory-physical-five.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "promptSha256": "2f82187f11dd0d97f2df1357835d26fd206a35b2be105033fefa7c8ace41afc5",
+  "promptCharacterLength": 1592,
+  "crCount": 3,
+  "lfCount": 3,
+  "promptFile": "assets/items/back-adornments/honor-capes/prompts/honor-capes-inventory-v2.prompt.txt",
+  "promptFileSha256": "2f82187f11dd0d97f2df1357835d26fd206a35b2be105033fefa7c8ace41afc5",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "sealedBeforeCallAtUTC": "2026-11-12T09:16:21.736161-05:00",
+  "referenceEvidence": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/mothers/honor-capes-inventory-v1.png",
+      "sha256": "900e68965a7b81aa0941d044c122352d32266908ef5de4055f6145c3c1869f10",
+      "purpose": "actual edit target: preserve five original cape identities while removing background and correcting physical envelope"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/source-inventory-physical-five.png",
+      "sha256": "e71a6dd2c2495177f2350a8a1eab1ca6662495fbd01a9d68ba7948419f412993",
+      "purpose": "actual physical source cape silhouette and proportions only"
+    }
+  ],
+  "evidenceMeaning": "Actual functions.store value, written as JSON before builtin call. No newline normalization applied.",
+  "result": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-c1340a01-4a07-407a-a8cb-16e6d78e7bd5.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-c1340a01-4a07-407a-a8cb-16e6d78e7bd5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

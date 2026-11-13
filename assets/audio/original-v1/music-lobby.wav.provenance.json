@@ -1,0 +1,40 @@
+{
+  "cue": "music-lobby",
+  "kind": "music",
+  "file": "assets/audio/original-v1/music-lobby.wav",
+  "sha256": "5612c3b62e4de58c4105cd75b9ebafd23d994ba20a70b0b139d8e5fcd106e685",
+  "format": "PCM WAV",
+  "loop": true,
+  "design": {
+    "tempoBPM": 96,
+    "beats": 32,
+    "scale": "D major pentatonic",
+    "composition": "original 8-bar melody, paired plucked patterns, synthesized wind, jade-bell and quiet wood pulse",
+    "seed": 20261112
+  },
+  "qa": {
+    "durationSeconds": 20.0,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 882000,
+    "peak": 0.579986572265625,
+    "rms": 0.11408036172370152,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.00390625
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:09.728090+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

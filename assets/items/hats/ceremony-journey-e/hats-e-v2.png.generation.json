@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configuredTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualEvidence": "Built-in edit tool exposes no model/quality selector or identity metadata.",
+  "newModelGeneration": true,
+  "generationType": "background-extraction-edit",
+  "requestedCanvasViaPrompt": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "file": "assets/items/hats/ceremony-journey-e/hats-e-v1.png",
+      "sha256": "eac068d231e01a89bc8aa4bf36d014aee4605246ba01958702a1a5f9de2be449",
+      "role": "edit target",
+      "actuallyViewed": true
+    }
+  ],
+  "parentGenerationRecord": "assets/items/hats/ceremony-journey-e/hats-e-v1.png.generation.json",
+  "reason": "Initial generation has background haze failing alpha8 crop gate; helmet apertures already low-alpha.",
+  "attempts": [
+    {
+      "attempt": 2,
+      "submittedAtUTC": "2026-11-12T15:02:44Z",
+      "status": "returned",
+      "submittedArgsFile": "assets/items/hats/ceremony-journey-e/submitted-args-v2.json",
+      "submittedArgsSha256": "88c061082fd260e32cc05f8a8cb0334d43673477239e8bec64fb1501db039783",
+      "exactPromptUtf8File": "assets/items/hats/ceremony-journey-e/prompt-v2.txt",
+      "exactPromptUtf8Sha256": "b16f8abd2bbc209b4efc99cc14c1d29b086eea7990f87fcf51d6d8c56cd3889a",
+      "promptCapture": "Exact functions.store args.prompt UTF-8; no read_text/normalize reconstruction",
+      "returnedAtUTC": "2026-11-12T15:04:08.721980+00:00",
+      "output": {
+        "file": "assets/items/hats/ceremony-journey-e/hats-e-v2.png",
+        "sha256": "b1e06b36efe4db5c32ec36bb83adc0e4a99e159ab72e85c9afee39c36c8bc39d",
+        "bytes": 2129838,
+        "actualNativeSize": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          254
+        ]
+      }
+    }
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "toolReturnedPath": "C:/Users/luyua/.codex/generated_images/01a1ce04-0bcd-7611-9c19-48579cea8160/exec-8d9eebe0-b745-463d-8390-9aab3b50a26a.png",
+  "file": "assets/items/hats/ceremony-journey-e/hats-e-v2.png",
+  "sha256": "b1e06b36efe4db5c32ec36bb83adc0e4a99e159ab72e85c9afee39c36c8bc39d",
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "cropNote": "Selected builtin alpha-cleanup edit v2 after v1 failed alpha8 empty-gutter gate; actual edit parent and both submitted prompts retained. No native mounting claim."
+}

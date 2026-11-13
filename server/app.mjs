@@ -10,7 +10,7 @@ const MAX_BODY=8192, MAX_ROOMS=30, MAX_SESSIONS=100;
 const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8',
   '.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8',
   '.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml',
-  '.webp':'image/webp','.woff2':'font/woff2','.md':'text/plain; charset=utf-8'};
+  '.wav':'audio/wav','.webp':'image/webp','.woff2':'font/woff2','.md':'text/plain; charset=utf-8'};
 class ApiError extends Error {
   constructor(status,message,code='BAD_REQUEST'){super(message);this.status=status;this.code=code;}
 }

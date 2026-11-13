@@ -1,0 +1,38 @@
+{
+  "cue": "bubble-place",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/bubble-place.wav",
+  "sha256": "7fa7c130eb53fe6e5c7949a5f3dc156484a6be4f2a7d7851e7054882dca3e002",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "bubble-place",
+    "seed": 1001,
+    "durationTargetSeconds": 0.25
+  },
+  "qa": {
+    "durationSeconds": 0.25,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 11025,
+    "peak": 0.6199951171875,
+    "rms": 0.21307899164091734,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.141473+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

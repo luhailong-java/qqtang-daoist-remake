@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configuredTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualEvidence": "Tool returned image and local path only; no actual model/quality metadata.",
+  "newModelGeneration": true,
+  "requestedCanvasViaPrompt": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "file": "assets/items/hats/spirit-creatures-c/references/source-six-board.png",
+      "sha256": "257f2a56b72cb8cf9c275f80410feda59aae5f563b9f8b366ac6a712b969a231",
+      "role": "inventory structure only",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    }
+  ],
+  "sourceReferenceLimitations": [
+    "Inventory253 includes wearer face and UI frame; only detached hood shape referenced; wearer/frame prohibited in new art.",
+    "Inventory283 includes blue UI frame; only ear-band shape referenced."
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "submittedAtUTC": "2026-11-12T14:40:23Z",
+      "status": "returned",
+      "submittedArgsFile": "assets/items/hats/spirit-creatures-c/submitted-args-v1.json",
+      "submittedArgsSha256": "d8eac326158460f474a749f1474477b0e534bad081144d2bfa297b50acd423a9",
+      "exactPromptUtf8File": "assets/items/hats/spirit-creatures-c/prompt-v1.txt",
+      "exactPromptUtf8Sha256": "f6a09a2fd89e812419328b50fa1f8273cb5b5b05cef6b85ed3809e26ab489410",
+      "promptCapture": "Exact functions.store args.prompt UTF-8; no read_text/normalize reconstruction",
+      "returnedAtUTC": "2026-11-12T14:44:22.859190+00:00",
+      "output": {
+        "file": "assets/items/hats/spirit-creatures-c/hats-c-v1.png",
+        "sha256": "a57c3036d13f1d756b640afb856fd7d4e66a04e0486d9918c2a336113b321638",
+        "bytes": 2428550,
+        "actualNativeSize": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          254
+        ]
+      },
+      "exportPreflight": {
+        "result": "failed",
+        "candidatePngsExported": 0,
+        "reason": "Low-opacity background haze reaches alpha10-12 on nominal empty slice boundaries; alpha8 crop gate fails. No threshold-alpha cleanup performed."
+      }
+    }
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "toolReturnedPath": "C:/Users/luyua/.codex/generated_images/01a1ce04-0bcd-7611-9c19-48579cea8160/exec-b3475378-ad2f-4b6d-8cfa-b0fd3df03c65.png",
+  "file": "assets/items/hats/spirit-creatures-c/hats-c-v1.png",
+  "sha256": "a57c3036d13f1d756b640afb856fd7d4e66a04e0486d9918c2a336113b321638",
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "cropNote": "Regular512x512 cuts verified against generated alpha gutters. Source253 wearer face and253/283UI frames deliberately excluded from original object-only art."
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "scope": "source positions 0–2",
+  "input": {
+    "prompt": "Use case: stylized-concept. Three original transparent 2D hand-painted game sprite frames of the SAME Daoist Child (道童) walking east.\nReference roles: image 1 is the exact original character identity and exact nose-right camera. Image 2 is legacy motion reference only: use ONLY its top row f0, f1, f2 poses. Image 3 is the leg-placement close-up from the legacy sequence: use ONLY its top row f1, f2 to see which shoe is raised. Images 4 and 5 are the established hand-painted Daoist Q style only. Do not draw UI or copy the legacy boy's red hair, sportswear or black shoes.\nGenerate ONE wide sheet with exactly THREE equally sized invisible cells in a single horizontal row. True transparent background and transparent vertical gutters. Each cell contains one whole centered character, hair through shoe soles, no clipping. All three faces have the same strict nose-right profile as image 1, with one visible ear and eye. Identical camera, head scale, hips position, head height, ground line. Large brown short spiky head, gold headband, warm amber eye, deep jade split vest with fine gold cloud embroidery, white loose sleeves and puffy trousers, rounded jade/gold ivory-toe boots. Exactly ONE gold gourd held at chest by the far left hand. The near right hand stays empty, and its visible sleeve/arm swings behind. Make the short legs readable below split vest. Far limbs remain slightly darker and visually behind the visible near limbs, with identical outfit and boot design. No letters, pose labels, extra marks, floor, ground shadows, glow, haze, scenery or other objects.\nLEFT: f0 neutral passing pose with both shoes close and both soles near the common baseline, far boot a little behind the near boot, visible eye open, near arm relaxed vertical.\nMIDDLE: f1 extended contact, near right boot with bright outer toe on screen-RIGHT of the hips and its sole on the common baseline; far left boot clearly screen-LEFT of hips and slightly higher, knee soft and ready to lift. Near empty right hand is behind the near hip, not holding the gourd.\nRIGHT: f2 screen-RIGHT near boot remains planted at the same baseline, while the far screen-LEFT boot lifts further upward with a bent knee, clearly a different image from f1. Empty near right sleeve stays back. Slight torso rise only. Keep f0, f1, f2 distinct. Use clean controlled painting, warm gold highlights, readable silhouette at 90px. Keep 12 percent clear air in each cell to enable safe extraction. Make the whole image truly RGBA transparent.",
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/daoist-child-E.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-six-phase-board-5x.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-e-lowerbody-12x.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

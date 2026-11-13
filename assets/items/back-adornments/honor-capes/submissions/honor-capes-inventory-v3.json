@@ -1,0 +1,54 @@
+{
+  "version": "honor-capes-inventory-v3",
+  "prompt": "Background removal edit of image1 only. Preserve exactly the five physical cape garments, all their colors, paint details, shapes, size, cell positions and five-object 3x2 arrangement. Remove the ENTIRE white background and its translucent white/grey residue from every empty pixel; make those pixels truly transparent alpha=0. The lower-right cell and all five open neck holes must be fully transparent. Do not add any backdrop, light aura, shadow or haze. Return ONLY the five isolated physical cloth cutouts with clean antialiased edges, on genuine transparent RGBA; this is a game asset background-removal edit, not white-background product photography. Requested1536x1024. Do not repaint or move the garments.",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/mothers/honor-capes-inventory-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "promptSha256": "4234a60fb8d412c95978942aebd9ec98d4f06e899e9927e4cb7dc66d468706ea",
+  "promptCharacterLength": 714,
+  "crCount": 0,
+  "lfCount": 0,
+  "promptFile": "assets/items/back-adornments/honor-capes/prompts/honor-capes-inventory-v3.prompt.txt",
+  "promptFileSha256": "4234a60fb8d412c95978942aebd9ec98d4f06e899e9927e4cb7dc66d468706ea",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "sealedBeforeCallAtUTC": "2026-11-12T09:19:47.288584-05:00",
+  "referenceEvidence": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/mothers/honor-capes-inventory-v2.png",
+      "sha256": "d8f0a814ba1c251aa02a70e55f8bd02e818edc09a8f3c10ad6df4a44f7dc98eb",
+      "purpose": "actual edit target: five original cape identities; remove only empty-pixel white background"
+    }
+  ],
+  "evidenceMeaning": "Actual functions.store value, written as JSON before builtin call. No newline normalization applied.",
+  "result": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-51e05aa1-187e-49c0-98ff-0c04c9f9dab0.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-51e05aa1-187e-49c0-98ff-0c04c9f9dab0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

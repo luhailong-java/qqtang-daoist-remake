@@ -1,0 +1,38 @@
+{
+  "cue": "wood-push",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/wood-push.wav",
+  "sha256": "66815f0618d018b2e55efc466a2181d396ee3b070c24a0c3e26d7918d05b4adb",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "wood-push",
+    "seed": 1009,
+    "durationTargetSeconds": 0.25
+  },
+  "qa": {
+    "durationSeconds": 0.25,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 11025,
+    "peak": 0.6199951171875,
+    "rms": 0.10962874671683412,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.191926+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

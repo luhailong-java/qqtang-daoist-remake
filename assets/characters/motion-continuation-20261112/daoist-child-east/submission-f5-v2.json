@@ -1,0 +1,16 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "scope": "source position 5",
+  "input": {
+    "prompt": "Use case: precise-object-edit. Produce the next eastward walking sprite frame f5 by editing image 1, our f4 sprite. Preserve its whole artwork from the belt up: exact profile and nose right, hair, gold headband, visible amber eye, empty forward right fist, far left hand carrying exactly one gold gourd, same height and body size. Image 2 bottom-right is legacy f5 sole motion reference only. Image 3 supplies our character identity. Images 4 and 5 supply hand-painted finish only. Maintain the near right leg at screen LEFT behind the hips, clearly foreground with the large cuff of ivory trousers joined to it. This is the SAME anatomical leg as the screen-left boot in image 1. It now trails backward and lifts the heel while the toe dips slightly, with the knee slightly bent. Keep the current smaller far left boot at screen RIGHT in the back layer; extend its knee down a little, lower its sole almost to baseline, below its f4 height. The foreground leg must stay on the left side of the pose in depth and in x. Draw exactly two legs and boots. Keep the previous asymmetrical layering and the loose green hems. One full-size whole character centered on a square RGBA canvas with ample clear transparent margins. No shading outside silhouette, text, ground, guides or extra props.",
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261112/daoist-child-east/reference-f4-from-b-v1.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-generated/daoist-child/native-role9-evidence/group0-e-lowerbody-12x.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/daoist-child-E.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

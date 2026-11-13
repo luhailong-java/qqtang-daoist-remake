@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configuredTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualEvidence": "Built-in edit tool exposes no model/quality selector or identity metadata.",
+  "newModelGeneration": true,
+  "generationType": "background-extraction-edit",
+  "requestedCanvasViaPrompt": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "file": "assets/items/hats/spirit-creatures-c/hats-c-v1.png",
+      "sha256": "a57c3036d13f1d756b640afb856fd7d4e66a04e0486d9918c2a336113b321638",
+      "role": "edit target",
+      "actuallyViewed": true
+    }
+  ],
+  "parentGenerationRecord": "assets/items/hats/spirit-creatures-c/hats-c-v1.png.generation.json",
+  "reason": "Initial generation has low-opacity background haze that fails alpha8 empty-gutter gate.",
+  "attempts": [
+    {
+      "attempt": 2,
+      "submittedAtUTC": "2026-11-12T14:46:18Z",
+      "status": "returned",
+      "submittedArgsFile": "assets/items/hats/spirit-creatures-c/submitted-args-v2.json",
+      "submittedArgsSha256": "9b55c993a0d66b63e01d7655f6a1fff1d111624b2dcdc4d6dfa170ea92e31a02",
+      "exactPromptUtf8File": "assets/items/hats/spirit-creatures-c/prompt-v2.txt",
+      "exactPromptUtf8Sha256": "09f773e450a0c0d232e85dc33c9ae5a176f22cb6c7da3bee1dc05b3dc7529998",
+      "promptCapture": "Exact functions.store args.prompt UTF-8; no read_text/normalize reconstruction",
+      "returnedAtUTC": "2026-11-12T14:48:17.973184+00:00",
+      "output": {
+        "file": "assets/items/hats/spirit-creatures-c/hats-c-v2.png",
+        "sha256": "387831ab69e1ee3de882c8ff6ca698e911c5ed6cf4b5936351a4058c35ecff1d",
+        "bytes": 2357232,
+        "actualNativeSize": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          254
+        ]
+      }
+    }
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "toolReturnedPath": "C:/Users/luyua/.codex/generated_images/01a1ce04-0bcd-7611-9c19-48579cea8160/exec-21af9df1-419f-45b3-992d-0e5d8ae7ca7e.png",
+  "file": "assets/items/hats/spirit-creatures-c/hats-c-v2.png",
+  "sha256": "387831ab69e1ee3de882c8ff6ca698e911c5ed6cf4b5936351a4058c35ecff1d",
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "cropNote": "Selected builtin edit v2 removes low-alpha haze; v1 failed crop gate and is the actual retained edit parent. Regular512x512 cuts now have clear alpha gutters. Source253 wearer and253/283UI frames excluded."
+}

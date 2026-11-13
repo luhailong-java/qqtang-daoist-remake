@@ -1,0 +1,60 @@
+{
+  "version": "honor-cape-150-b-v1",
+  "prompt": "Use case: game-sprite. Generate SIX original hand-painted HD Daoist Q short-cape WORLD overlay frames, transparent RGBA, requested1536x1024, three equal columns by two equal rows. Read source phases in image1 row-major and paint exactly ONE corresponding physical cape layer in each cell. NO labels or captions.\r\nThe source item ID is 150. Image1 is the exact six source phase/silhouette contract, not a finished style. Image2 is the matching ORIGINAL new Daoist cape inventory cutout for this same ID: match only its physical garment materials and embroidery. Its style already derives from our own Daoist child and confirmed mail/team game references. No scenery, UI, lettering or wearer is wanted. Two input images only.\r\nIdentity: 玄霜夜行披: deep cobalt-blue silk, turquoise collar/edge, ivory lining, original pale blue cloud/wave embroidery, three main hem lobes. No snow or particles.\r\nCRITICAL: This is a torso/back equipment layer already occluded by an invisible wearer. Preserve the actual sparse side silhouettes: do NOT draw a complete garment in the side cells, do NOT fill the large transparent central open area, do NOT invent a body to fill the gap. Short shoulder cape only, never a full-length robe. Source pixel silhouette is structural guidance, redraw all paint in refined rounded game illustration style.\r\nTOP row phases6/7/8: the opposite actual source EDGE-ON profiles, slim collar band extends LEFT from narrow hanging strip at RIGHT. Retain the mostly empty alpha below the leftward collar. Phase6 near vertical; phase7 stronger billow to right; phase8 intermediate. Repaint actual source individually, do not software-mirror. BOTTOM row phases9/10/11: broad INNER/PLAIN LINING of same short cape, open side folds, neutral then left then right billow. Broad central lining is plain and interior-facing, exterior central embroidery is NOT copied onto it.\r\nPhysical envelope for each separate cell, deviation must <=5%: cell1 sourcePhase6: visible-envelope W:H=19:19=1.00000, rawOffset[45,61]; cell2 sourcePhase7: visible-envelope W:H=26:18=1.44444, rawOffset[45,61]; cell3 sourcePhase8: visible-envelope W:H=23:18=1.27778, rawOffset[45,61]; cell4 sourcePhase9: visible-envelope W:H=26:18=1.44444, rawOffset[37,59]; cell5 sourcePhase10: visible-envelope W:H=32:19=1.68421, rawOffset[31,59]; cell6 sourcePhase11: visible-envelope W:H=32:19=1.68421, rawOffset[35,59]. These are alpha silhouette ratios, NOT cell aspect ratio. Natural repaint matching each source shape; do not stretch or pad with extra paint to meet numbers. Keep each complete physical layer centred in512x512cell with>=48px clear gutter. Sparse profiles can be larger but must retain their L-shaped empty area.\r\nTRANSPARENCY: Real transparent PNG. Alpha=0 everywhere except the PHYSICAL cape cloth, seams and attached metal trim. All empty wearer-occlusion spaces are alpha=0. No background of any color including white/black, no grey source-board field, ground, shadow, haze, fog, ambient glow, bloom, texture rectangle, stars, particles or detached decoration. No humanoid, head, body, mannequin, hanger, pedestal, UI, frame grid, source labels, numbers, words, logos. Clean antialiased physical edges only. Refined silk folds and physical gold stitching remain inside the exact envelope. Keep all six phases materially consistent.\r\nOrthographic costume-overlay production sheet with flat neutral illumination; never a glowing product display. Do NOT surround the garment with an atmosphere or environmental light pool. Empty regions must be clear alpha0.",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/150/source-phases-b.png",
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/icons/150-honor-cape-honor-capes-inventory-v3.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "promptSha256": "aca6664606e8e23d2d48eef096b4df313a3c128ef5df8c24262f3bd49001452e",
+  "promptCharacterLength": 3545,
+  "crCount": 7,
+  "lfCount": 7,
+  "promptFile": "assets/items/back-adornments/honor-capes/prompts/honor-cape-150-b-v1.prompt.txt",
+  "promptFileSha256": "aca6664606e8e23d2d48eef096b4df313a3c128ef5df8c24262f3bd49001452e",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "sealedBeforeCallAtUTC": "2026-11-12T09:23:11.229622-05:00",
+  "referenceEvidence": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/150/source-phases-b.png",
+      "sha256": "a0482efa00fea6ecbfd0b4c25d94099b318f459faaa4e1ac9fb47fa51b6c83a0",
+      "purpose": "actual six source phases and silhouettes; reference only"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/icons/150-honor-cape-honor-capes-inventory-v3.png",
+      "sha256": "6a12eb76d6062d08ab002afb4ae4b10fc115eaba7a3f5632310729659a1e7d15",
+      "purpose": "own corresponding selected inventory candidate identity/material only; user review pending"
+    }
+  ],
+  "evidenceMeaning": "Actual functions.store value, written as JSON before builtin call. No newline normalization applied.",
+  "result": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-9c2411bb-b5b5-47d5-8b55-c4e7ce04d54c.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-9c2411bb-b5b5-47d5-8b55-c4e7ce04d54c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

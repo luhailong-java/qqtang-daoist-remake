@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/back-adornments/honor-capes/mothers/honor-cape-148-repair1-v3.png",
+  "sha256": "6f64a7e6393c21083e1a51a19c17c9027d791753c11331b9f3df45d929d37c79",
+  "generatedAt": "2026-11-12T14:30:41.478506+00:00",
+  "timeEvidence": "Registration after return; provider creation time not disclosed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "nativeDimensions": true,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "prompt": "EDIT image1, one actual HD jade cape phase1 overlay. Image2 is its exact small source phase. Return ONE transparent isolated cape layer, requested1024x1024. Preserve identity, drape direction, cloth folds, gold/ivory details and large L-shaped empty wearer-occlusion gap.\r\nMake one small structural correction: LENGTHEN ONLY the slim horizontal collar band toward the RIGHT. In the512x512 reference, the current visible cape envelope is329wide x243high. Desired envelope is372wide x243high, W/H=26/17=1.52941. Add about43px to the rightward collar span in this reference scale, preserving the hanging cloth height and its leftmost billowing hem. This is a natural hand-painted extension with matching gold edging, NOT a software stretch or duplicate part. Equivalent proportional repaint at the returned resolution is fine. Keep final visible envelope within3% of1.52941.\r\nKeep the original thin collar and sparse diagonal hanging strip on the LEFT: no broad central cape panel, no body/mannequin. Do not change to a full front cape. Remove all atmospheric background so empty pixels are alpha0; clean antialias on physical cloth only. No backdrop, mist, fog, bloom, colored halo, floor/shadow, labels, particles, UI or new decorations. Keep ample transparent border. Preserve the source phase1 billow to the left.",
+  "exactPrompt": "EDIT image1, one actual HD jade cape phase1 overlay. Image2 is its exact small source phase. Return ONE transparent isolated cape layer, requested1024x1024. Preserve identity, drape direction, cloth folds, gold/ivory details and large L-shaped empty wearer-occlusion gap.\r\nMake one small structural correction: LENGTHEN ONLY the slim horizontal collar band toward the RIGHT. In the512x512 reference, the current visible cape envelope is329wide x243high. Desired envelope is372wide x243high, W/H=26/17=1.52941. Add about43px to the rightward collar span in this reference scale, preserving the hanging cloth height and its leftmost billowing hem. This is a natural hand-painted extension with matching gold edging, NOT a software stretch or duplicate part. Equivalent proportional repaint at the returned resolution is fine. Keep final visible envelope within3% of1.52941.\r\nKeep the original thin collar and sparse diagonal hanging strip on the LEFT: no broad central cape panel, no body/mannequin. Do not change to a full front cape. Remove all atmospheric background so empty pixels are alpha0; clean antialias on physical cloth only. No backdrop, mist, fog, bloom, colored halo, floor/shadow, labels, particles, UI or new decorations. Keep ample transparent border. Preserve the source phase1 billow to the left.",
+  "submittedPromptSha256": "e6aed6303a69b42e8a2acd7cc40ab4eb14e5fe1ce8b4ac505f78607d3cad7b42",
+  "promptFile": "assets/items/back-adornments/honor-capes/prompts/honor-cape-148-repair1-v3.prompt.txt",
+  "promptFileSha256": "e6aed6303a69b42e8a2acd7cc40ab4eb14e5fe1ce8b4ac505f78607d3cad7b42",
+  "promptSubmission": "Exact CRLF-preserving string from pre-call JSON and functions.store; not universal-newline text read",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/148/edit-input-phase001.png",
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/148/frame-001.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Builtin exposes no model/quality selector or verifiable return metadata",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/148/edit-input-phase001.png",
+      "sha256": "5d33133ea42dd9a0ab7765e510db793809a98654db9ab8008730caf02a070d05",
+      "purpose": "actual native crop of failed phase1 mother, edit only collar span; source chain sidecar included"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/148/frame-001.png",
+      "sha256": "d80b5f0dba83bca111c1ad8794ff9b487becef11469ae7a4e67ecffe9588804b",
+      "purpose": "actual source phase1 structural contract only"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-7e029550-43b6-4749-915e-4cbb360a0910.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-7e029550-43b6-4749-915e-4cbb360a0910.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "selectorsExposed": false,
+    "actualSubmissionRecord": "assets/items/back-adornments/honor-capes/submissions/honor-cape-148-repair1-v3.json",
+    "actualSubmissionRecordSha256": "8b27d675362b346849a36a0765f5cafe3c8aba40836d6fbd8c521267964cfd00"
+  },
+  "operation": "builtin AI edit of actual referenced target; no program pixel editing",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "editOf": {
+    "file": "assets/items/back-adornments/honor-capes/references/148/edit-input-phase001.png",
+    "sha256": "5d33133ea42dd9a0ab7765e510db793809a98654db9ab8008730caf02a070d05",
+    "sourceRecord": "assets/items/back-adornments/honor-capes/references/148/edit-input-phase001.png.source.json",
+    "sourceRecordSha256": "f5d575f47b9aee399b01c3d9e14b694b778d4ad4b52834150912f74851cd8927"
+  }
+}

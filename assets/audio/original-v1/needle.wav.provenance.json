@@ -1,0 +1,38 @@
+{
+  "cue": "needle",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/needle.wav",
+  "sha256": "89a93e58435147b9bfdaaf134e35ca2cbda253a13865547fe85fca5e44af2d84",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "needle",
+    "seed": 1018,
+    "durationTargetSeconds": 0.3
+  },
+  "qa": {
+    "durationSeconds": 0.3,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 13230,
+    "peak": 0.6199951171875,
+    "rms": 0.2079492707957813,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.345122+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

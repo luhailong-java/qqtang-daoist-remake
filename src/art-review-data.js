@@ -1,12 +1,12 @@
 // Diagnostic adapters only. Raw offsets retain their source meaning; these are not gameplay bindings.
-export const sequenceCategories = new Set(['effects', 'pickupSequences', 'headWorld', 'headWorld114', 'headWorld39', 'mapSequences']);
-export function headWorldSequences(data) {
+export const sequenceCategories = new Set(['effects', 'pickupSequences', 'headWorld', 'headWorld114', 'headWorld39', 'backWorld', 'mapSequences', 'characterMotion']);
+export function headWorldSequences(data, sourceClass = 'thadorn') {
   return data.items.map(item => ({
-    ...item, sourceResource: `thadorn-${item.itemId}`, projectEffectName: item.projectDisplayName??item.sourceName,
+    ...item, sourceResource: `${sourceClass}-${item.itemId}`, projectEffectName: item.projectDisplayName??item.sourceName,
     frameCount: item.frames.length, sourceDeclaredFrameCount: item.sourceFrameCount,
     frames: item.frames.map(f => ({...f, frameIndex: f.sourceFrameIndex,
       sourceFrame: {width: f.logicalFrameSize[0], height: f.logicalFrameSize[1], frameOffset: f.frameOffsetRaw}})),
-    diagnosticNote: '原始frameOffset相对包络预览；方向语义、头部绑定与播放时序未知。',
+    diagnosticNote: `原始frameOffset相对包络预览；方向语义、${sourceClass === 'npack' ? '背部' : '头部'}绑定与播放时序未知。`,
   }));
 }
 export function sequenceFrameLabel(clip){
@@ -21,5 +21,22 @@ export function mapSequence(data) {
       reuseOfFrameIndex: f.pixelAliasOfFrameIndex ?? undefined,
       sourceFrame: {width: f.sourceFrameSize[0], height: f.sourceFrameSize[1], frameOffset: f.sourceFrameOffset}})),
     diagnosticNote: '仅frameOffset相对包络；mapElemOffset另存，未合成未经证实的运行锚点。',
+  };
+}
+
+export function characterDiagnosticSequence(data) {
+  const actor = {'daoist-child': '道童', 'moon-shadow': '月影'}[data.characterId] ?? data.characterId;
+  return {
+    ...data,
+    sourceResource: `${data.characterId}-${data.direction}`,
+    projectEffectName: `${actor} · 东向步行`,
+    frameCount: data.frames.length,
+    sourceDeclaredFrameCount: data.sourceFrameOrder.length,
+    frames: data.frames.map(frame => ({
+      ...frame,
+      frameIndex: frame.sourceFrameIndex,
+      sourceFrame: {width: frame.width, height: frame.height, frameOffset: [0, 0]},
+    })),
+    diagnosticNote: '按已对齐的256像素审阅画布展示。各源分层偏移见来源记录，原时序和人物根点待核。',
   };
 }

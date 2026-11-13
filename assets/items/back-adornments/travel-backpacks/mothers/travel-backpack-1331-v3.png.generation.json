@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/back-adornments/travel-backpacks/mothers/travel-backpack-1331-v3.png",
+  "sha256": "89dfdf0d5ca9c39dc24dacb152beb3accb6c5aefa29d4dbc5106b08d32af6622",
+  "generatedAt": "2026-11-12T15:10:21.417816+00:00",
+  "timeEvidence": "Registration after return; provider creation time not disclosed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "nativeDimensions": true,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "prompt": "EDIT image1, the current original amber teddy-bear equipment bag. Image2 is only the exact source physical proportion, ignore its blue UI pixels. Keep the original round ears, huge amber/ivory face, gentle square eyes, nose/mouth, jade edging/straps and warm-gold cloud closure exactly consistent. One isolated bag, square transparent canvas, requested1254x1254.\r\nMake a SMALL targeted repaint to correct physical envelope: image1 currently has actual alpha width1092pixels and height900pixels. Target width1092 and height1001, ratio36:33=1.09091, within3%. Keep current HEAD WIDTH, ear spread and head top position unchanged. Add about100pixels of natural CLOTH DEPTH to the LOWER BELLY POCKET, extending its bottom downward into the existing empty lower margin. Do not grow head wider, do not add any top handle, tassel or separate object. The current compact belly is slightly too shallow; this is a modest deeper short pouch, still a giant head plus short body as source.\r\nPreserve material details and bag identity with newly painted cloth folds/stitching along the deeper belly. No stretch/squash or raster transform. Keep one connected equipment assembly, no live animal body or long legs/arms. Alpha0 outside physical garment, no background, haze, fog, glow, ground/shadow, blue/white field, labels, UI, grid, new particles or dangling decorations. Keep complete object inside squarecanvas without touching edges.",
+  "exactPrompt": "EDIT image1, the current original amber teddy-bear equipment bag. Image2 is only the exact source physical proportion, ignore its blue UI pixels. Keep the original round ears, huge amber/ivory face, gentle square eyes, nose/mouth, jade edging/straps and warm-gold cloud closure exactly consistent. One isolated bag, square transparent canvas, requested1254x1254.\r\nMake a SMALL targeted repaint to correct physical envelope: image1 currently has actual alpha width1092pixels and height900pixels. Target width1092 and height1001, ratio36:33=1.09091, within3%. Keep current HEAD WIDTH, ear spread and head top position unchanged. Add about100pixels of natural CLOTH DEPTH to the LOWER BELLY POCKET, extending its bottom downward into the existing empty lower margin. Do not grow head wider, do not add any top handle, tassel or separate object. The current compact belly is slightly too shallow; this is a modest deeper short pouch, still a giant head plus short body as source.\r\nPreserve material details and bag identity with newly painted cloth folds/stitching along the deeper belly. No stretch/squash or raster transform. Keep one connected equipment assembly, no live animal body or long legs/arms. Alpha0 outside physical garment, no background, haze, fog, glow, ground/shadow, blue/white field, labels, UI, grid, new particles or dangling decorations. Keep complete object inside squarecanvas without touching edges.",
+  "submittedPromptSha256": "f6d63ee53e1b748c823da7f836d3925f9a4a80e1fdd7168a4422f902ba56ca8e",
+  "promptFile": "assets/items/back-adornments/travel-backpacks/prompts/travel-backpack-1331-v3.prompt.txt",
+  "promptFileSha256": "f6d63ee53e1b748c823da7f836d3925f9a4a80e1fdd7168a4422f902ba56ca8e",
+  "promptSubmission": "Exact CRLF-preserving string from pre-call JSON and functions.store; not universal-newline text read",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/travel-backpacks/mothers/travel-backpack-1331-v2.png",
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/travel-backpacks/references/1331/inventory-physical-reference.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Builtin exposes no model/quality selector or verifiable return metadata",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/travel-backpacks/mothers/travel-backpack-1331-v2.png",
+      "sha256": "c3694182ea03bdcdf6aa0ba4c80ab16caadd970390bc36f47e6368c545404976",
+      "purpose": "actual prior teddy candidate: keep head and extend only lower pocket naturally"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/travel-backpacks/references/1331/inventory-physical-reference.png",
+      "sha256": "0cf4c53c5363db2cadc080693de890b7b39eeda70c90dd9a4779d16b6970f0ed",
+      "purpose": "exact source physical aspect/structure only; blue UI omitted"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-5fc4c29e-5501-48f5-b145-980b77c7c4a6.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-5fc4c29e-5501-48f5-b145-980b77c7c4a6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "selectorsExposed": false,
+    "actualSubmissionRecord": "assets/items/back-adornments/travel-backpacks/submissions/travel-backpack-1331-v3.json",
+    "actualSubmissionRecordSha256": "65eaa4172639be9bcd1000a12ba0bc9fae7ed68ba0ad96864dc3c1d7667aed4d"
+  },
+  "operation": "builtin AI edit of actual referenced target; no program pixel editing",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "editOf": {
+    "file": "assets/items/back-adornments/travel-backpacks/mothers/travel-backpack-1331-v2.png",
+    "sha256": "c3694182ea03bdcdf6aa0ba4c80ab16caadd970390bc36f47e6368c545404976",
+    "generationRecord": "assets/items/back-adornments/travel-backpacks/mothers/travel-backpack-1331-v2.png.generation.json",
+    "generationRecordSha256": "9f368e2c7d90f32c6447eb0cc433fc0a8cf16c0ce35f7a39818dde4ae8c21a9f"
+  }
+}

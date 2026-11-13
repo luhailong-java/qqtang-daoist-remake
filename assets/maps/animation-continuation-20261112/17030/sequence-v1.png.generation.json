@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/maps/animation-continuation-20261112/17030/sequence-v1.png",
+  "sha256": "e763865e99e6db47ccc44e9cf9943e7b6fe7da02f0614adffdc9b6dcf255bbc7",
+  "generatedAt": "2026-11-12T15:10:52.977534+00:00",
+  "timeEvidence": "UTC registration following successful built-in result; provider creation timestamp not exposed.",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "storedMode": "RGB",
+  "decodedRGBAAlphaExtrema": [
+    255,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "modelQualityReverifiedOn": "2026-11-12",
+  "modelQualityVerificationSources": {
+    "release": "https://openai.com/index/introducing-images-2-6/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17030/source-phase-board.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17030-grey-mesh-curve-a.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Built-in route has no model or quality selectors; result contains image_url/output_hint without actual model/quality metadata. Target config is not actual return evidence.",
+  "exactPrompt": "Use case: stylized-concept, source-corresponding original hand-painted 2D GAME MAP TILE PHASE ATLAS, element17030. Generate one1536x1024 image divided EXACTLY into THREE columns and TWO rows of512x512 square tiles, edge to edge with NO margins, NO gutters and NO labels. Each tile is a COMPLETE FULL SQUARE OPAQUE MAP FLOOR TILE. This is not a collection of floating inventory icons. Every pixel of every square is real tile material, including its corners; no transparent background, no surrounding board.\nImage1 shows the SIX actual source frames in row-major order0,1,2,3,4,5. STRUCTURE/PHASE reference only: each has the same outer fixed left-and-bottom curved corner rail, top-right corner block, dark fine metal mesh area and a broad grey solid moving shutter plate whose silhouette/angle changes across the6 frames. The source checker-like mesh pattern is REAL mesh over a dark opaque backing, NOT transparency to remove. Precisely follow each cell's source mesh-versus-solid-plate division and the rail location. Do not invent an open/closed switch meaning, arrows, collision changes or missing phases.\nImage2 is OUR ORIGINAL CURRENT FIRST-FRAME ART for this exact element: cool charcoal-grey stone/iron mechanical floor, restrained thin warm-brass edge trim, fine crosshatched metal grate, a broad smooth grey shutter sector, segmented rail curving from the left upper edge toward bottom edge and around lower-left corner. Preserve this original identity, top-down view, border thickness, segmentation and material finish in ALL6 fresh drawings. Source frame0 should correspond to this design. Do not copy source pixels; redraw originally in our existing hand-painted finish.\nImages3 and4 are the user-selected Daoist Q hand-painted fine finish only: soft deliberate painterly material shading, controlled thin gold craftsmanship, clean mobile-readable shapes and high detail. Do not draw their UI, people, text, jade window panels, scenery or decorative symbols. This is a grey functional floor tile, not a UI button or coin.\nALL6 tiles must keep the SAME fixed outer rail geometry, border anchors, top-right corner and metal mesh pitch in register; only the broad moving solid shutter plate / exposed mesh division changes according to Image1. Match these6 source states independently, never duplicate one frame across the sheet. The broad plate and mesh boundaries are clear. Preserve the source outer square extent, no cropped corners, no isometric diamond, no camera tilt, no perspective change or floating slab.\nRow1 left/middle/right = source0/source1/source2 exactly. Row2 left/middle/right = source3/source4/source5 exactly. Use the source phase image itself to match each plate contour/angle, rather than a smooth generic spin sequence. Rails stay in exactly the same screen position from tile to tile; no size change or bobbing. Keep fine engraved detail restrained so moving and fixed parts remain easy to tell apart.\nStrict layout: six complete512px square material tiles fill the entire1536x1024 canvas as a3x2 atlas. No spaces between tiles, no composition framing, no surrounding dark/white border. No title, grid line overlay, numbers, letters, watermark, arrow symbol, added gear, handles, trap spikes, steam, flames, sparks, cast shadow, vignette, glow or ambient background. The tile's own fixed rail and dark mesh backing remain fully opaque. Highest host-provided detailed original2D painted finish.",
+  "promptFile": "assets/maps/animation-continuation-20261112/17030/prompt-v1.txt",
+  "promptFileSha256": "de73c4cf0ba9d2c0b06f7d3e99155a9c945cb19efd72cc7d2247e4dc0bdf3f10",
+  "submittedPromptSha256": "de73c4cf0ba9d2c0b06f7d3e99155a9c945cb19efd72cc7d2247e4dc0bdf3f10",
+  "submittedPromptUtf8ByteLength": 3430,
+  "submittedInputFile": "assets/maps/animation-continuation-20261112/17030/submitted-input-v1.json",
+  "submittedInputFileSha256": "74b6cdc9ae1de18a74513877fc09257a1a2387f15f086a3a0dbc45b45393a6c0",
+  "promptSubmission": "Actual function-store string directly encoded UTF-8, no stripping/universal-newline normalization.",
+  "references": [
+    {
+      "path": "assets/maps/animation-continuation-20261112/17030/source-phase-board.png",
+      "sha256": "456cebf48f185fcef576467d8fd2e33b604390e5a597a8f15c6c360505e56560",
+      "purpose": "six complete source frames, silhouette/rail/plate phase structure only"
+    },
+    {
+      "path": "assets/maps/common/pieces/17030-grey-mesh-curve-a.png",
+      "sha256": "f508dbcc2ef21e419e09d78e05b10de842223a0cfa368532565c4446d8133841",
+      "purpose": "current original first-frame identity and material; not native state timing",
+      "generationRecord": "assets/maps/common/props-k-v1.png.generation.json",
+      "generationRecordSha256": "f0d9c319bc3b02307de65f8dd0a0ba87d8217697b6bc471aa81edb519c8a8e5b",
+      "provenanceRecord": "assets/maps/common/pieces/17030-grey-mesh-curve-a.png.provenance.json",
+      "provenanceSha256": "6aca4e9beedfac7c65f564af6c30d01b478942ab0f5b620a528f64f338504832"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "user-selected original Daoist Q hand-painted style"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "user-selected original Daoist Q hand-painted style"
+    }
+  ],
+  "actualSubmittedReferencePaths": [
+    "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17030/source-phase-board.png",
+    "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17030-grey-mesh-curve-a.png",
+    "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+    "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+  ],
+  "sourceContract": "assets/maps/animation-continuation-20261112/17030/source-contract.json",
+  "sourceContractSha256": "351fdcdb1909d4fb738fcc1e9e482bbb07290ac0dbaf3d4454eabc5f45715ae7",
+  "evidence": {
+    "functionStoreKey": "source_audit_map_17030_sequence_v1_input",
+    "builtinSubmissions": "assets/maps/animation-continuation-20261112/17030/builtin-submissions.json",
+    "builtinSubmissionsSha256": "f6564c43005a1af26dfbf8e2f811533ae154743840b130be2c4fb337a680f9cd",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748\\exec-5e7c419f-1416-4081-8138-8ca901779677.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748\\exec-5e7c419f-1416-4081-8138-8ca901779677.png",
+    "actualModelQualityDisclosed": false
+  },
+  "operation": "New native opaque full-square6-phase atlas; copied without pixel changes.",
+  "sourceFrameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selection": {
+    "state": "complete-phase-candidates-awaiting-user-review",
+    "exported": true,
+    "manifest": "assets/maps/animation-continuation-20261112/17030/sequence.json"
+  },
+  "accepted": false,
+  "visualAccepted": false,
+  "stateCorrespondenceAccepted": false,
+  "geometryAccepted": false,
+  "runtimeIntegrated": false
+}

@@ -1,0 +1,38 @@
+{
+  "cue": "bun-delivery",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/bun-delivery.wav",
+  "sha256": "d55d01f8632aec51bab0f39f21ec65639d6e0c112568d840b5fa52958f1d9d4a",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "bun-delivery",
+    "seed": 1012,
+    "durationTargetSeconds": 0.9
+  },
+  "qa": {
+    "durationSeconds": 0.9,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 39690,
+    "peak": 0.6199951171875,
+    "rms": 0.17106644372198793,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.211300+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

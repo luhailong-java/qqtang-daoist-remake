@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261112/moon-shadow-east/mother-b-v1.png",
+  "sha256": "a9e319de68d44eea93f51f4632aac0db830bc8b3ec9a9a3cbd349c239ddae990",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Use case: stylized-concept. Transparent sprite poses for original Daoist Q girl Yueying (月影) walking screen-right. Image 1 is the exact own identity, outfit, short stature, one-eye side profile and two weapons. Images 2 and 3 are legacy motion evidence only: the old red-haired girl is not the identity. Images 4 and 5 are established Daoist Q hand-painted finish references only. \nExactly THREE full-body isolated sprites in a single row of three equal square cells, clear generous transparent gaps. Same head scale, same nose-right side camera, stance height and hip axis, fixed horizontal sole baseline. Full hair and boots fully visible inside each cell. Silver bob, crescent-shaped loose top lock, purple eye, navy scarf trailing toward screen-left, far-side dark-blue moon-flower clip and visible little blue tassel along the back of the hair, pale sleeves, short navy cloud-embroidered hems, blue balloon pants, gold-edged navy boots. Maintain crescent C belt buckle. Exactly two very short ornate silver crescent daggers held pointing downward, one in each hand. Foreground right dagger clear, smaller far dagger behind with partial occlusion where appropriate. Both weapons safely held, no attack. Distinct knees and overlapping trousers show which leg is in front in depth; the near right trouser leg has its normal readable gold outer braid, the far left leg is shaded and behind. Do not swap the anatomy. Crisp hand-painted navy and gold, no floor, shadows, marks, words, scenery, checkerboard or UI. Native alpha transparent.\nUse the bottom row of the source motion boards. Left cell f3: eyes nearly closed with natural short blink, passing pose, feet close, arms lower by hips. Middle cell f4: the same near right leg now trails on SCREEN LEFT. Show the larger foreground pant cuff connecting visibly down diagonally backward to its planted left-side boot at baseline. The small FAR left leg rises screen-right ahead of hips with knee bent; its shoe is much higher than foreground boot. Right hand and near dagger swing slightly forward, eye open. Right cell f5: retain that exact same foreground RIGHT leg trailing on SCREEN LEFT, attached to the same bright foreground pants cuff. This trailing shoe lifts at its heel with toe dipping. The smaller far LEFT boot still lies at SCREEN RIGHT behind near leg in depth, and extends downward to land. Right hand stays slightly forward. Draw this exact ownership through both f4 and f5.",
+  "submittedPromptSha256": "9a2a4b84e6d90e7dd2366ff515b5f4b1f62e0482a94ab1996846a9f6184b8168",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/moon-shadow-E.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261112/moon-shadow-east/source-east-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261112/moon-shadow-east/source-east-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin output did not disclose model/quality.",
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/moon-shadow-E.png",
+      "sha256": "6ef591d348963da705326c9a2c9d7e8acd188ce6e0469dfcdb0be03b7cdbbf48",
+      "role": "own identity"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261112/moon-shadow-east/source-east-six-phases.png",
+      "sha256": "f85ca0ae4ce62e8bee9b220063a68365e00578b9a5bf18b0969fbeac00b7f620",
+      "role": "source pose structure"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261112/moon-shadow-east/source-east-lower-body.png",
+      "sha256": "35432f4f68bea3ae6d11c8c5431668a40e2899c167924f515965bec21ae8bf1f",
+      "role": "source feet and sleeve timing order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q hand-painted style"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261112/moon-shadow-east/submission-b-v1.json",
+    "sha256": "7b363c41a55490a259efd7373d288458f753d8bd43c2bfdae0badbcbfba16759"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261112/moon-shadow-east/result-b-v1.json",
+    "sha256": "cdbd1a21483aa1152c556c07ee5b1eaf85260ee06069e99f4c3e0cb45de48e47"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-48485987-d744-4c31-9f6b-ba72d7b36e7c.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T03:19:27.457080+00:00",
+  "timeEvidence": "Native file modification time; actual model-side generation time undisclosed.",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}

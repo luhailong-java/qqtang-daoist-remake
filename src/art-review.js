@@ -1,4 +1,4 @@
-import {sequenceCategories,headWorldSequences,mapSequence,sequenceFrameLabel} from './art-review-data.js';
+import {sequenceCategories,headWorldSequences,mapSequence,characterDiagnosticSequence,sequenceFrameLabel} from './art-review-data.js';
 const $=id=>document.getElementById(id);
 const grid=$('review-grid'),status=$('review-status'),kind=$('review-kind'),search=$('review-search');
 const panel=$('effect-panel'),canvas=$('effect-canvas'),ctx=canvas.getContext('2d');
@@ -6,6 +6,7 @@ const cache=new Map(),images=new Map();let requestVersion=0,entries=[],clips=[],
 const paths={items:'assets/items/art.json',battlefield:'assets/items/battlefield/art.json',skills:'assets/items/skills/art.json',food:'assets/items/food/art.json',forge:'assets/items/forge/art.json',petcards:'assets/items/petcards/art.json',transformations:'assets/characters/motion-generated/transformations/manifest.json',roster:'assets/characters/motion-generated/roster-skin-mapping-20261028.json',characters:'assets/characters/motion-generated/source-candidates-20261028.manifest.json',creatures:'assets/maps/exploration/creatures/art.json'};
 Object.assign(paths,{cards:'assets/items/cards-currency/art.json',platform:'assets/items/platform/art.json',nameplates:'assets/items/namecard-borders/art.json',shortNameplates:'assets/items/namecard-borders/walk/art.json',nameplateIcons:'assets/items/namecard-borders/inventory/art.json'});
 Object.assign(paths,{headAdornments:'assets/items/head-adornments/art.json'});
+Object.assign(paths,{hats:'assets/items/hats/inventory-combined.json',backInventory:'assets/items/back-adornments/inventory-combined.json',bubbleSkins:'assets/items/bubble-skins/inventory-combined.json',mouthAdornments:'assets/items/mouth-adornments/cloud-masquerade-a/art.json'});
 Object.assign(paths,{surroundings:'assets/items/surroundings/art.json'});
 Object.assign(paths,{eyeAdornments:'assets/items/eye-adornments/art.json'});
 Object.assign(paths,{footprints:'assets/items/footprints/art.json'});
@@ -18,9 +19,15 @@ function element(tag,text,className){const e=document.createElement(tag);if(text
 async function readJson(file){if(!cache.has(file))cache.set(file,fetch(file,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`${file}：${r.status}`);return r.json();}).catch(e=>{cache.delete(file);throw e;}));return cache.get(file);}
 async function readSequences(category){
   if(category==='headWorld')return headWorldSequences(await readJson('assets/items/head-adornments/world-art.json'));
+  if(category==='backWorld')return headWorldSequences(await readJson('assets/items/back-adornments/honor-capes/world-art.json'),'npack');
   if(category==='headWorld114')return headWorldSequences(await readJson('assets/items/head-adornments/world-114-art.json'));
   if(category==='headWorld39')return headWorldSequences(await readJson('assets/items/head-adornments/world-39-art.json'));
   if(category==='pickupSequences')return(await readJson('assets/items/battlefield/animation/manifest.json')).resources;
+  if(category==='characterMotion'){
+    const base='assets/characters/motion-continuation-20261112';
+    const clips=await Promise.all(['daoist-child-east','moon-shadow-east'].map(id=>readJson(`${base}/${id}/manifest.json`)));
+    return clips.map(characterDiagnosticSequence);
+  }
   if(category==='mapSequences'){
     const index=await readJson('assets/maps/animation-candidates-index.json');
     const results=await Promise.allSettled(index.entries.map(async e=>{if(!safeAssetPath(e.manifest))throw new Error('非法序列路径');return mapSequence({...await readJson(e.manifest),family:e.family});}));
@@ -41,7 +48,7 @@ function renderCards(){const query=search.value.trim().toLocaleLowerCase();const
 function stop(){playing=false;cancelAnimationFrame(raf);raf=0;$('effect-play').textContent='播放';$('effect-play').setAttribute('aria-pressed','false');}
 async function showCategory(){stop();selectedClip=null;const version=++requestVersion;page=0;status.textContent='正在载入…';grid.replaceChildren();entries=[];panel.hidden=true;search.disabled=sequenceCategories.has(kind.value);$('review-pagination').hidden=sequenceCategories.has(kind.value);
   try{if(sequenceCategories.has(kind.value)){clips=await readSequences(kind.value);if(version!==requestVersion)return;if(!clips.length)throw new Error('没有载入候选序列');
-      $('effect-select').replaceChildren(...clips.map((c,i)=>{const option=element('option',`${c.group?c.group+' · ':''}${c.projectEffectName??c.sourceResource} · ${sequenceFrameLabel(c)}`);option.value=String(i);return option;}));panel.hidden=false;selectedClip=clips[0];frameIndex=0;status.textContent=`${clips.length} 组候选序列。仅按原始frameOffset作诊断包络预览，未确认绑定、方向语义或时序。`;$('effect-details').textContent=JSON.stringify(selectedClip,null,2);await drawFrame();return;}
+      $('effect-select').replaceChildren(...clips.map((c,i)=>{const option=element('option',`${c.group?c.group+' · ':''}${c.projectEffectName??c.sourceResource} · ${sequenceFrameLabel(c)}`);option.value=String(i);return option;}));panel.hidden=false;selectedClip=clips[0];frameIndex=0;status.textContent=`${clips.length} 组候选序列。仅按原始frameOffset作诊断包络预览，未确认绑定、方向语义或时序。`;$('effect-details').textContent=JSON.stringify(selectedClip,null,2);$('effect-note').textContent=selectedClip.diagnosticNote??$('effect-note').dataset.defaultNote;await drawFrame();return;}
     const data=await readJson(paths[kind.value]);if(version!==requestVersion)return;
     if(kind.value==='roster')entries=data.slots.map(s=>({name:s.appearance.displayName,id:s.sourceRoleId,file:s.appearance.master,note:`静态身份与来源槽位待验。容量 ${s.baseAttributes.capacity}/${s.baseAttributes.maxCapacity} · 威力 ${s.baseAttributes.range}/${s.baseAttributes.maxRange} · 速度档 ${s.baseAttributes.speed}/${s.baseAttributes.maxSpeed}；速度档单位另待核实。`,record:s}));
     else if(kind.value==='characters')entries=data.entries.map(e=>({name:e.name,file:e.file,size:e.nativeSize,native:true,wide:true,failed:e.gate==='not_passed',note:'原画或关键姿态；不代表连续动作已经完成。',record:e}));
@@ -65,7 +72,7 @@ async function drawFrame(){const clip=selectedClip,index=frameIndex;if(!clip)ret
 function animate(now){if(!playing)return;if(!lastFrameAt)lastFrameAt=now;if(now-lastFrameAt>=Number($('effect-pace').value)){frameIndex=(frameIndex+1)%selectedClip.frames.length;lastFrameAt=now;void drawFrame();}raf=requestAnimationFrame(animate);}
 kind.addEventListener('change',showCategory);search.addEventListener('input',()=>{page=0;renderCards();});$('review-background').addEventListener('change',background);
 $('review-previous').addEventListener('click',()=>{page--;renderCards();});$('review-next').addEventListener('click',()=>{page++;renderCards();});
-$('effect-select').addEventListener('change',()=>{stop();selectedClip=clips[Number($('effect-select').value)];frameIndex=0;$('effect-details').textContent=JSON.stringify(selectedClip,null,2);void drawFrame();});
+$('effect-select').addEventListener('change',()=>{stop();selectedClip=clips[Number($('effect-select').value)];frameIndex=0;$('effect-details').textContent=JSON.stringify(selectedClip,null,2);$('effect-note').textContent=selectedClip.diagnosticNote??$('effect-note').dataset.defaultNote;void drawFrame();});
 $('effect-step').addEventListener('click',()=>{stop();if(selectedClip){frameIndex=(frameIndex+1)%selectedClip.frames.length;void drawFrame();}});
 $('effect-play').addEventListener('click',()=>{if(playing){stop();return;}if(!selectedClip)return;playing=true;lastFrameAt=0;$('effect-play').textContent='暂停';$('effect-play').setAttribute('aria-pressed','true');raf=requestAnimationFrame(animate);});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});window.addEventListener('pagehide',stop);void showCategory();

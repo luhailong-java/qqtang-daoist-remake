@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configuredTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualEvidence": "Tool returned image and local path only; no actual model/quality metadata.",
+  "newModelGeneration": true,
+  "requestedCanvasViaPrompt": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "file": "assets/items/hats/morning-courtesy-b/references/source-six-board.png",
+      "sha256": "b462148fcb320548e3f8441c1fc1df1516ab2222ea7059b870b6ccc46148b0d0",
+      "role": "inventory structure only",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "submittedAtUTC": "2026-11-12T14:33:35Z",
+      "status": "returned",
+      "submittedArgsFile": "assets/items/hats/morning-courtesy-b/submitted-args-v1.json",
+      "submittedArgsSha256": "d26e3182523464642ef2e32beeee02a62d6ca4bc8ca49c1288a8bc05fc7149a7",
+      "exactPromptUtf8File": "assets/items/hats/morning-courtesy-b/prompt-v1.txt",
+      "exactPromptUtf8Sha256": "3a18a321c474108c672ed84c66e78ded312f469decd86f053676d93cba4ef9a9",
+      "promptCapture": "Exact functions.store args.prompt UTF-8; no read_text/normalize reconstruction",
+      "returnedAtUTC": "2026-11-12T14:36:41.574563+00:00",
+      "output": {
+        "file": "assets/items/hats/morning-courtesy-b/hats-b-v1.png",
+        "sha256": "b1a26466f8c74d2f6fe29bf4f68402c3f942b94bda1661d876c9a6163124651d",
+        "bytes": 2216832,
+        "actualNativeSize": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          254
+        ]
+      }
+    }
+  ],
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "toolReturnedPath": "C:/Users/luyua/.codex/generated_images/01a1ce04-0bcd-7611-9c19-48579cea8160/exec-0386e08e-c40c-48ac-a266-fb67cb557016.png",
+  "file": "assets/items/hats/morning-courtesy-b/hats-b-v1.png",
+  "sha256": "b1a26466f8c74d2f6fe29bf4f68402c3f942b94bda1661d876c9a6163124651d",
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "cropNote": "Regular512x512 cuts verified against generated alpha gutters; no scaling or source-body edits before export."
+}

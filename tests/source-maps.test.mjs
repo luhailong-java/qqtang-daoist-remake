@@ -89,7 +89,10 @@ test('actual map directory preserves 381 catalog rows, source authenticity and u
   assert.equal(directory.maps.length,381);assert.equal(directory.get('source-201').maxSeats,4);
   assert.equal(directory.get('source-201').officialOriginalAuthenticity,'unverified');
   assert.equal(directory.get('source-0').unavailableCode,'SOURCE_FILE_MISSING');
-  assert.equal(directory.maps.filter(m=>m.unavailableCode==='SOURCE_UNKNOWN_ELEMENT').length,22);
+  assert.equal(directory.maps.filter(m=>m.unavailableCode==='SOURCE_UNKNOWN_ELEMENT').length,0);
+  assert.equal(directory.source.elementDefinitionCount,773);
+  assert.equal(directory.maps.filter(m=>m.unavailableCode==='SOURCE_RULE_UNSUPPORTED').length,184);
+  assert.ok(directory.maps.filter(m=>m.unavailableCode==='SOURCE_RULE_UNSUPPORTED').every(m=>m.playable===false));
   assert.ok(directory.maps.filter(m=>m.width!==15&&m.width!==null).every(m=>m.width>15));
   assert.ok(directory.draftMaps.every(m=>m.geometryStatus==='unaccepted-custom-draft'));
 });

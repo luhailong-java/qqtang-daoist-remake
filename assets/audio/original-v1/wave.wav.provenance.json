@@ -1,0 +1,38 @@
+{
+  "cue": "wave",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/wave.wav",
+  "sha256": "313f3d6d62ce10a5e8da57b206783e13daceed2b9f405c27b6b8c50beb6b37e2",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "wave",
+    "seed": 1013,
+    "durationTargetSeconds": 0.8
+  },
+  "qa": {
+    "durationSeconds": 0.8,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 35280,
+    "peak": 0.6199951171875,
+    "rms": 0.16297316874012396,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.222812+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

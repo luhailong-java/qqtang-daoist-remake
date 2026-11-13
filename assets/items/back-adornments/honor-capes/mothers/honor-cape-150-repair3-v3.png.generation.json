@@ -1,0 +1,83 @@
+{
+  "file": "assets/items/back-adornments/honor-capes/mothers/honor-cape-150-repair3-v3.png",
+  "sha256": "3b8ec1edf78da28b442e49ed97ec3276c38c716ccad99186334160f0291973a9",
+  "generatedAt": "2026-11-12T14:36:06.542980+00:00",
+  "timeEvidence": "Registration after return; provider creation time not disclosed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "nativeDimensions": true,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "prompt": "EDIT image1, the actual square512x512 cell of our own cobalt/turquoise short cape exterior phase3. Image2 is only the small native source structure. Keep a SQUARE transparent output canvas, requested1024x1024, ample empty border. One cape only. Preserve color identity, waves/cloud embroidery, collar, three main hem lobes and neutral symmetrical exterior pose.\r\nMinor physical correction: the current painted envelope in image1 is303pixels wide by208pixels high, too narrow. Desired physical cloth envelope is350pixels wide by208pixels high at this reference density (ratio1.683). Naturally repaint the side cloth slightly flared outward, extending each side hem end about24pixels left/right, while retaining current top collar and current total cloth height. At doubled output density this becomes700wide by416high. NOT a stretch, not a new longer robe. Width-to-height of actual PAINT, not canvas, target1.684±3%.\r\nImage2 contains unexplained white edge paint; do not reproduce it as a particle, trail, graphic frame or padding. Only actual short cloth and trim should define the new envelope. No detached decorations.\r\nKeep internal ivory underside at folded hem, cobalt silk, turquoise collar, fine gold seams, original pale blue wave/cloud embroidery. Pure physical cutout with alpha0 outside garment and in neckline. No background, white/grey field, colored haze, fog, glow, shadow, environment, wearer/head/body/mannequin, text, UI or label. The large square canvas remains empty around the short cape.",
+  "exactPrompt": "EDIT image1, the actual square512x512 cell of our own cobalt/turquoise short cape exterior phase3. Image2 is only the small native source structure. Keep a SQUARE transparent output canvas, requested1024x1024, ample empty border. One cape only. Preserve color identity, waves/cloud embroidery, collar, three main hem lobes and neutral symmetrical exterior pose.\r\nMinor physical correction: the current painted envelope in image1 is303pixels wide by208pixels high, too narrow. Desired physical cloth envelope is350pixels wide by208pixels high at this reference density (ratio1.683). Naturally repaint the side cloth slightly flared outward, extending each side hem end about24pixels left/right, while retaining current top collar and current total cloth height. At doubled output density this becomes700wide by416high. NOT a stretch, not a new longer robe. Width-to-height of actual PAINT, not canvas, target1.684±3%.\r\nImage2 contains unexplained white edge paint; do not reproduce it as a particle, trail, graphic frame or padding. Only actual short cloth and trim should define the new envelope. No detached decorations.\r\nKeep internal ivory underside at folded hem, cobalt silk, turquoise collar, fine gold seams, original pale blue wave/cloud embroidery. Pure physical cutout with alpha0 outside garment and in neckline. No background, white/grey field, colored haze, fog, glow, shadow, environment, wearer/head/body/mannequin, text, UI or label. The large square canvas remains empty around the short cape.",
+  "submittedPromptSha256": "8a3ec670892201c16fffc6f63a7572614288675e115a445787e28cb57a409217",
+  "promptFile": "assets/items/back-adornments/honor-capes/prompts/honor-cape-150-repair3-v3.prompt.txt",
+  "promptFileSha256": "8a3ec670892201c16fffc6f63a7572614288675e115a445787e28cb57a409217",
+  "promptSubmission": "Exact CRLF-preserving string from pre-call JSON and functions.store; not universal-newline text read",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/150/edit-input-phase003.png",
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/150/frame-003.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Builtin exposes no model/quality selector or verifiable return metadata",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/150/edit-input-phase003.png",
+      "sha256": "b9552212e6d84f4558272452600dca38ffd7755fce01cc208063a47658c666af",
+      "purpose": "actual failed phase3 square native crop; natural side-hem extension only"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/150/frame-003.png",
+      "sha256": "3ff4fcab8bcd136410fd47336d356fc83ff1cd8689dffa510dd3855ee0adb4bc",
+      "purpose": "actual source phase3 envelope/structure; unexplained source white paint remains reference only"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-ddaf49d4-bc70-4b97-968c-489310c4875b.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-ddaf49d4-bc70-4b97-968c-489310c4875b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "selectorsExposed": false,
+    "actualSubmissionRecord": "assets/items/back-adornments/honor-capes/submissions/honor-cape-150-repair3-v3.json",
+    "actualSubmissionRecordSha256": "0dae061c5bfb8efe33c8e5486664cc9c41511e7fe85d8bcd18b44bbd70011a3d"
+  },
+  "operation": "builtin AI edit of actual referenced target; no program pixel editing",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "editOf": {
+    "file": "assets/items/back-adornments/honor-capes/references/150/edit-input-phase003.png",
+    "sha256": "b9552212e6d84f4558272452600dca38ffd7755fce01cc208063a47658c666af",
+    "sourceRecord": "assets/items/back-adornments/honor-capes/references/150/edit-input-phase003.png.source.json",
+    "sourceRecordSha256": "a5f5a812be3b561b9e9f53dbf4737526111d5a5b761752386ac97d1810ad0d0d"
+  }
+}

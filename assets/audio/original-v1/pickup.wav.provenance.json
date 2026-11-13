@@ -1,0 +1,38 @@
+{
+  "cue": "pickup",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/pickup.wav",
+  "sha256": "92ffcd94229c2cd61aa122f67237ccb9304e582b67697cb52738b990652298fb",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "pickup",
+    "seed": 1003,
+    "durationTargetSeconds": 0.42
+  },
+  "qa": {
+    "durationSeconds": 0.42,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 18522,
+    "peak": 0.6199951171875,
+    "rms": 0.16574889029496004,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.148644+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

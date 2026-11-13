@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/items/bubble-skins/fruit-dessert/fruit-dessert-b-v1.png",
+  "sha256": "f26d5203f60ae1e19f6f9c8bdad8dcb0523dad5b7e26b5024994ac3ec1ac6162",
+  "generatedAt": "2026-11-12T14:58:36.844361+00:00",
+  "timeEvidence": "UTC registration after actual successful built-in return; provider creation timestamp was not disclosed.",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "modelQualityReverifiedOn": "2026-11-12",
+  "modelQualityVerificationSources": {
+    "release": "https://openai.com/index/introducing-images-2-6/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/bubble-skins/fruit-dessert/references/fruit-dessert-b-structure.png",
+      "E:/work/qqtang-daoist-remake/assets/items/bubble-skins/fruit-dessert/fruit-dessert-a-v1.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in route exposes no model/quality selectors; actual tool result returned image_url/output_hint without actual model/quality metadata. Target config is not actual return evidence.",
+  "exactPrompt": "Use case: stylized-concept, original Daoist chibi hand-painted game inventory icons. Create six DISTINCT fruit/dessert sugar-bubble skins on a true transparent RGBA atlas, requested1536x1024, regular THREE columns by TWO rows of512px square cells, six complete isolated objects in row-major order.\nImage1 is source STRUCTURE/SEMANTIC only. Match each item meaning, silhouette and key color differences, not original pixel rendering. The BLUE SQUARES around source lemon and cake are UI SELECTION FRAMES: REMOVE THEM ENTIRELY. Remove the source board, labels and detached oval ground shadows. Image2 is our original already generated fruit bubble family A: match its detailed gentle 2D painted finish, subtle Daoist cloud motifs, jade leaves/thin gold veins and clean readable rounded forms. Images3 and4 are the user-selected main Daoist Q hand-painted style only, not scenes or UI to paint.\nThese are inventory candidates, not animation frames. Fine hand-painted highlights, subtle crystal/sugar glaze where natural, rounded appetizing silhouettes, original jade/ivory/warm-gold accents used sparingly. Keep the food identities distinct; do not put every item in an identical orb or medallion. Not photography, plastic3D, vector emoji, generic tokens or flat UI buttons. No faces, hands, bodies or animals.\nCell1 TOP LEFT: item3607 RED APPLE, a round plump scarlet apple with warm golden blush, shallow top notch, short brown stem leaning upper-left and one tiny jade leaf. Red apple skin with a very subtle cloud reflection, clearly unlike the BLUE crystal apple from familyA.\nCell2 TOP MIDDLE: item3845 LEMON, one bright golden-yellow cut lemon half at a three-quarter angle, visible juicy radial segments on its tilted cut face, thick pale-ivory pith and curved golden rind behind. Clear curved fruit silhouette with no square frame, no rectangular card.\nCell3 TOP RIGHT: item1073 CHOCOLATE sugar bubble: one rounded low dome of rich cocoa chocolate with a warm caramel/ivory swirl on top, tiny two chocolate curls, resting IN a close-fitting shallow ivory fluted confectionery paper wrapper attached to the bonbon. The wrapper is part of this chocolate, not a pedestal or ground. No gift box, flat chocolate bar or lettering.\nCell4 BOTTOM LEFT: item2199 MILK CHOCOLATE, a plump tapered teardrop-shaped bonbon with pointed top and round base, rich milk-chocolate brown sides, a broad ivory cream-and-cocoa spiral across the front/top. Large simple swirl, warm soft glaze, no wrapper.\nCell5 BOTTOM MIDDLE: item2200 STRAWBERRY CHOCOLATE, same tapered teardrop bonbon family silhouette but deep berry-cocoa sides with a broad rose-pink strawberry-cream spiral and tiny warm ivory highlight. Clearly pink versus cell4's ivory-and-brown version, no wrapper.\nCell6 BOTTOM RIGHT: item1486 BIRTHDAY CAKE bubble, one miniature round golden-vanilla cake, ivory whipped-cream edge, soft caramel cake layers, a central cream rosette and EXACTLY TWO short red birthday candles with small attached warm flames, one each left/right. No numbers, letters, name plaque, blue selection frame, detached plate or pedestal. Cake bottom cream edge is part of edible cake.\nUse a consistent gentle front three-quarter game-icon perspective, same lighting and small-screen-readable detail. Keep each WHOLE object including all attached stem/leaves/wrapper/candle flames centered at about330–380px within its512px cell, with at least55px clear alpha margins on every side. Nothing touches or crosses cell boundaries.\nNo ground, cast shadow, detached grey ellipse, UI background, blue selection frame, card, decorative icon frame, labels, numbers, words, Chinese text, floating crumbs, particles, outside glow, fog or scenery. All gaps and exterior are genuinely transparent alpha0, only clean antialiasing around the actual food. Highest host-provided painted detail.",
+  "promptFile": "assets/items/bubble-skins/fruit-dessert/generation/fruit-dessert-b-v1.prompt.txt",
+  "promptFileSha256": "6963a70fe9af3f3b697f3c74ff5ef76cc7c628260e86e3c705764a9a73c4fbf4",
+  "submittedPromptSha256": "6963a70fe9af3f3b697f3c74ff5ef76cc7c628260e86e3c705764a9a73c4fbf4",
+  "submittedPromptUtf8ByteLength": 3846,
+  "promptSubmission": "Exact string copied from successful function-store input and encoded directly as UTF-8 bytes; no terminal stripping or universal-newline conversion.",
+  "submittedInputFile": "assets/items/bubble-skins/fruit-dessert/generation/fruit-dessert-b-v1.submitted-input.json",
+  "submittedInputFileSha256": "ccf7e1d613f5f401310b32c1a840502e6d182b2e2477158b328a0a910e42e4ef",
+  "references": [
+    {
+      "path": "assets/items/bubble-skins/fruit-dessert/references/fruit-dessert-b-structure.png",
+      "sha256": "45eacbe652dd7123ea0471047819996b8226b948204375d1a4dcf3830e9d508f",
+      "purpose": "source fruit/food semantic silhouette and colors only; no copied pixel rendering, UI border, board, labels or detached shadows"
+    },
+    {
+      "path": "assets/items/bubble-skins/fruit-dessert/fruit-dessert-a-v1.png",
+      "sha256": "957538eb05422ddee6864fbe1e90a5a2fec18cdb0ec464f36d4e5f3eb15b51c6",
+      "purpose": "already generated original fruit family A style consistency",
+      "generationRecord": "assets/items/bubble-skins/fruit-dessert/fruit-dessert-a-v1.png.generation.json",
+      "generationRecordSha256": "644eec581f0001a67602f684c3eb513e200f977c5ca7a5913d0793dcc4347489"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "user-selected original Daoist chibi hand-painted style"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "user-selected original Daoist chibi hand-painted style"
+    }
+  ],
+  "actualSubmittedReferencePaths": [
+    "E:/work/qqtang-daoist-remake/assets/items/bubble-skins/fruit-dessert/references/fruit-dessert-b-structure.png",
+    "E:/work/qqtang-daoist-remake/assets/items/bubble-skins/fruit-dessert/fruit-dessert-a-v1.png",
+    "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+    "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+  ],
+  "evidence": {
+    "functionStoreKey": "source_audit_bubble_fruit_dessert_b_v1_input",
+    "builtinSubmissions": "assets/items/bubble-skins/fruit-dessert/generation/builtin-submissions.json",
+    "builtinSubmissionsSha256": "eb05b860c323e52ae386dcdb0b87d70b7916c54e6d43a3a0e05e38193922ebbf",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748\\exec-5ae1bb52-d4bb-47e4-9d51-04d270d41cc2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748\\exec-5ae1bb52-d4bb-47e4-9d51-04d270d41cc2.png",
+    "actualModelQualityDisclosed": false
+  },
+  "operation": "Native built-in generated atlas; pixels unchanged during copying/registration.",
+  "selection": {
+    "state": "inventory-candidate-awaiting-user-review",
+    "exported": true,
+    "itemIds": [
+      3607,
+      3845,
+      1073,
+      2199,
+      2200,
+      1486
+    ],
+    "manifest": "assets/items/bubble-skins/fruit-dessert/art.json",
+    "technicalScope": "File/source/alpha geometry checks only; no user appearance or world acceptance."
+  },
+  "visualAccepted": false,
+  "accepted": false,
+  "worldAccepted": false,
+  "runtimeAdopted": false
+}

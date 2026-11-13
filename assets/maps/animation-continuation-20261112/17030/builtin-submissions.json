@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "evidence": "Exact input copied from successful function store; native output copied to project; image data omitted.",
+  "calls": [
+    {
+      "key": "17030-sequence-v1",
+      "tool": "image_gen.imagegen",
+      "input": {
+        "prompt": "Use case: stylized-concept, source-corresponding original hand-painted 2D GAME MAP TILE PHASE ATLAS, element17030. Generate one1536x1024 image divided EXACTLY into THREE columns and TWO rows of512x512 square tiles, edge to edge with NO margins, NO gutters and NO labels. Each tile is a COMPLETE FULL SQUARE OPAQUE MAP FLOOR TILE. This is not a collection of floating inventory icons. Every pixel of every square is real tile material, including its corners; no transparent background, no surrounding board.\nImage1 shows the SIX actual source frames in row-major order0,1,2,3,4,5. STRUCTURE/PHASE reference only: each has the same outer fixed left-and-bottom curved corner rail, top-right corner block, dark fine metal mesh area and a broad grey solid moving shutter plate whose silhouette/angle changes across the6 frames. The source checker-like mesh pattern is REAL mesh over a dark opaque backing, NOT transparency to remove. Precisely follow each cell's source mesh-versus-solid-plate division and the rail location. Do not invent an open/closed switch meaning, arrows, collision changes or missing phases.\nImage2 is OUR ORIGINAL CURRENT FIRST-FRAME ART for this exact element: cool charcoal-grey stone/iron mechanical floor, restrained thin warm-brass edge trim, fine crosshatched metal grate, a broad smooth grey shutter sector, segmented rail curving from the left upper edge toward bottom edge and around lower-left corner. Preserve this original identity, top-down view, border thickness, segmentation and material finish in ALL6 fresh drawings. Source frame0 should correspond to this design. Do not copy source pixels; redraw originally in our existing hand-painted finish.\nImages3 and4 are the user-selected Daoist Q hand-painted fine finish only: soft deliberate painterly material shading, controlled thin gold craftsmanship, clean mobile-readable shapes and high detail. Do not draw their UI, people, text, jade window panels, scenery or decorative symbols. This is a grey functional floor tile, not a UI button or coin.\nALL6 tiles must keep the SAME fixed outer rail geometry, border anchors, top-right corner and metal mesh pitch in register; only the broad moving solid shutter plate / exposed mesh division changes according to Image1. Match these6 source states independently, never duplicate one frame across the sheet. The broad plate and mesh boundaries are clear. Preserve the source outer square extent, no cropped corners, no isometric diamond, no camera tilt, no perspective change or floating slab.\nRow1 left/middle/right = source0/source1/source2 exactly. Row2 left/middle/right = source3/source4/source5 exactly. Use the source phase image itself to match each plate contour/angle, rather than a smooth generic spin sequence. Rails stay in exactly the same screen position from tile to tile; no size change or bobbing. Keep fine engraved detail restrained so moving and fixed parts remain easy to tell apart.\nStrict layout: six complete512px square material tiles fill the entire1536x1024 canvas as a3x2 atlas. No spaces between tiles, no composition framing, no surrounding dark/white border. No title, grid line overlay, numbers, letters, watermark, arrow symbol, added gear, handles, trap spikes, steam, flames, sparks, cast shadow, vignette, glow or ambient background. The tile's own fixed rail and dark mesh backing remain fully opaque. Highest host-provided detailed original2D painted finish.",
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17030/source-phase-board.png",
+          "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17030-grey-mesh-curve-a.png",
+          "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+          "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+        ]
+      },
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748\\exec-5e7c419f-1416-4081-8138-8ca901779677.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "returnedFields": [
+        "image_url",
+        "output_hint"
+      ],
+      "imageDataOmitted": true,
+      "actualModel": null,
+      "actualQuality": null
+    }
+  ]
+}

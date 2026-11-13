@@ -1,0 +1,95 @@
+{
+  "file": "assets/items/back-adornments/honor-capes/mothers/honor-cape-148-b-v1.png",
+  "sha256": "d56596758341d414f36a1882b3ffd5472e1e253db2a20b9dc41f0ba5bddbeafb",
+  "generatedAt": "2026-11-12T14:22:23.521037+00:00",
+  "timeEvidence": "Registration after return; provider creation time not disclosed",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "nativeDimensions": true,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "prompt": "Use case: game-sprite. Generate SIX original hand-painted HD Daoist Q short-cape WORLD overlay frames, transparent RGBA, requested1536x1024, three equal columns by two equal rows. Read source phases in image1 row-major and paint exactly ONE corresponding physical cape layer in each cell. NO labels or captions.\r\nThe source item ID is 148. Image1 is the exact six source phase/silhouette contract, not a finished style. Image2 is our OWN new inventory identity board (top148/149/150, bottom151/152); use ONLY the matching 148 cape materials/design. Image3 is our own Daoist-child material/style only, DO NOT depict wearer. Images4/5 are confirmed Daoist game style/material only; ignore all background, scenery, text/UI.\r\nIdentity: 青岚羽林披: jade/moss-green silk, ivory lining, very fine warm-gold edging and restrained gold cloud-scroll stitching. Simple collar, three main hem lobes.\r\nCRITICAL: This is a torso/back equipment layer already occluded by an invisible wearer. Preserve the actual sparse side silhouettes: do NOT draw a complete garment in the side cells, do NOT fill the large transparent central open area, do NOT invent a body to fill the gap. Short shoulder cape only, never a full-length robe. Source pixel silhouette is structural guidance, redraw all paint in refined rounded game illustration style.\r\nTOP row phases6/7/8: the opposite actual source EDGE-ON profiles, slim collar band extends LEFT from narrow hanging strip at RIGHT. Retain the mostly empty alpha below the leftward collar. Phase6 near vertical; phase7 stronger billow to right; phase8 intermediate. Repaint actual source individually, do not software-mirror. BOTTOM row phases9/10/11: broad INNER/PLAIN LINING of same short cape, open side folds, neutral then left then right billow. Broad central lining is plain and interior-facing, exterior central embroidery is NOT copied onto it.\r\nPhysical envelope for each separate cell, deviation must <=5%: cell1 sourcePhase6: visible-envelope W:H=19:18=1.05556, rawOffset[45,62]; cell2 sourcePhase7: visible-envelope W:H=26:17=1.52941, rawOffset[45,62]; cell3 sourcePhase8: visible-envelope W:H=23:17=1.35294, rawOffset[45,62]; cell4 sourcePhase9: visible-envelope W:H=26:18=1.44444, rawOffset[37,59]; cell5 sourcePhase10: visible-envelope W:H=32:19=1.68421, rawOffset[32,59]; cell6 sourcePhase11: visible-envelope W:H=32:19=1.68421, rawOffset[36,59]. These are alpha silhouette ratios, NOT cell aspect ratio. Natural repaint matching each source shape; do not stretch or pad with extra paint to meet numbers. Keep each complete physical layer centred in512x512cell with>=48px clear gutter. Sparse profiles can be larger but must retain their L-shaped empty area.\r\nTRANSPARENCY: Real transparent PNG. Alpha=0 everywhere except the PHYSICAL cape cloth, seams and attached metal trim. All empty wearer-occlusion spaces are alpha=0. No background of any color including white/black, no grey source-board field, ground, shadow, haze, fog, ambient glow, bloom, texture rectangle, stars, particles or detached decoration. No humanoid, head, body, mannequin, hanger, pedestal, UI, frame grid, source labels, numbers, words, logos. Clean antialiased physical edges only. Refined silk folds and physical gold stitching remain inside the exact envelope. Keep all six phases materially consistent.",
+  "exactPrompt": "Use case: game-sprite. Generate SIX original hand-painted HD Daoist Q short-cape WORLD overlay frames, transparent RGBA, requested1536x1024, three equal columns by two equal rows. Read source phases in image1 row-major and paint exactly ONE corresponding physical cape layer in each cell. NO labels or captions.\r\nThe source item ID is 148. Image1 is the exact six source phase/silhouette contract, not a finished style. Image2 is our OWN new inventory identity board (top148/149/150, bottom151/152); use ONLY the matching 148 cape materials/design. Image3 is our own Daoist-child material/style only, DO NOT depict wearer. Images4/5 are confirmed Daoist game style/material only; ignore all background, scenery, text/UI.\r\nIdentity: 青岚羽林披: jade/moss-green silk, ivory lining, very fine warm-gold edging and restrained gold cloud-scroll stitching. Simple collar, three main hem lobes.\r\nCRITICAL: This is a torso/back equipment layer already occluded by an invisible wearer. Preserve the actual sparse side silhouettes: do NOT draw a complete garment in the side cells, do NOT fill the large transparent central open area, do NOT invent a body to fill the gap. Short shoulder cape only, never a full-length robe. Source pixel silhouette is structural guidance, redraw all paint in refined rounded game illustration style.\r\nTOP row phases6/7/8: the opposite actual source EDGE-ON profiles, slim collar band extends LEFT from narrow hanging strip at RIGHT. Retain the mostly empty alpha below the leftward collar. Phase6 near vertical; phase7 stronger billow to right; phase8 intermediate. Repaint actual source individually, do not software-mirror. BOTTOM row phases9/10/11: broad INNER/PLAIN LINING of same short cape, open side folds, neutral then left then right billow. Broad central lining is plain and interior-facing, exterior central embroidery is NOT copied onto it.\r\nPhysical envelope for each separate cell, deviation must <=5%: cell1 sourcePhase6: visible-envelope W:H=19:18=1.05556, rawOffset[45,62]; cell2 sourcePhase7: visible-envelope W:H=26:17=1.52941, rawOffset[45,62]; cell3 sourcePhase8: visible-envelope W:H=23:17=1.35294, rawOffset[45,62]; cell4 sourcePhase9: visible-envelope W:H=26:18=1.44444, rawOffset[37,59]; cell5 sourcePhase10: visible-envelope W:H=32:19=1.68421, rawOffset[32,59]; cell6 sourcePhase11: visible-envelope W:H=32:19=1.68421, rawOffset[36,59]. These are alpha silhouette ratios, NOT cell aspect ratio. Natural repaint matching each source shape; do not stretch or pad with extra paint to meet numbers. Keep each complete physical layer centred in512x512cell with>=48px clear gutter. Sparse profiles can be larger but must retain their L-shaped empty area.\r\nTRANSPARENCY: Real transparent PNG. Alpha=0 everywhere except the PHYSICAL cape cloth, seams and attached metal trim. All empty wearer-occlusion spaces are alpha=0. No background of any color including white/black, no grey source-board field, ground, shadow, haze, fog, ambient glow, bloom, texture rectangle, stars, particles or detached decoration. No humanoid, head, body, mannequin, hanger, pedestal, UI, frame grid, source labels, numbers, words, logos. Clean antialiased physical edges only. Refined silk folds and physical gold stitching remain inside the exact envelope. Keep all six phases materially consistent.",
+  "submittedPromptSha256": "ac1157ff99e071bf19f10ec404809f3bf3f721c68451eb113fd3342189b5ee4c",
+  "promptFile": "assets/items/back-adornments/honor-capes/prompts/honor-cape-148-b-v1.prompt.txt",
+  "promptFileSha256": "ac1157ff99e071bf19f10ec404809f3bf3f721c68451eb113fd3342189b5ee4c",
+  "promptSubmission": "Exact CRLF-preserving string from pre-call JSON and functions.store; not universal-newline text read",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/148/source-phases-b.png",
+      "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/mothers/honor-capes-inventory-v2.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/runtime/daoist-child.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Builtin exposes no model/quality selector or verifiable return metadata",
+  "references": [
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/references/148/source-phases-b.png",
+      "sha256": "561d44112c9dd5e3da2a2e152b120112708f4c972a6497f77e81211c8250c1b5",
+      "purpose": "actual six native source phases/silhouettes; reference only"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/items/back-adornments/honor-capes/mothers/honor-capes-inventory-v2.png",
+      "sha256": "d8f0a814ba1c251aa02a70e55f8bd02e818edc09a8f3c10ad6df4a44f7dc98eb",
+      "purpose": "own original new inventory cape identity only; pending, its background ignored"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/assets/characters/runtime/daoist-child.png",
+      "sha256": "fec0ecc7881d65daf5cc9ee095ae6964ac7b76ec243df665e48b90b89758de63",
+      "purpose": "own Daoist child material/style identity only; no wearer drawn"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "confirmed mail game style only"
+    },
+    {
+      "path": "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "confirmed team game style only"
+    }
+  ],
+  "evidence": {
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-d61742f2-135e-4175-a072-fcda66e6234f.png",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-f05e-7380-a9cd-2c9579debcd1\\exec-d61742f2-135e-4175-a072-fcda66e6234f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "selectorsExposed": false,
+    "actualSubmissionRecord": "assets/items/back-adornments/honor-capes/submissions/honor-cape-148-b-v1.json",
+    "actualSubmissionRecordSha256": "c517659c302ed3d6edecde44904937245f16d07d78059d8e9da9f2e4a9caf899"
+  },
+  "operation": "builtin original generated source; no image resampling or program pixel editing",
+  "alphaExtrema": [
+    0,
+    254
+  ]
+}

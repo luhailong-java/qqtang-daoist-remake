@@ -1,0 +1,38 @@
+{
+  "cue": "eliminated",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/eliminated.wav",
+  "sha256": "b8e44a79137d88ce597f35b9a5f1c55980ec5c22a22bd33b3bceacd8784e644a",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "eliminated",
+    "seed": 1006,
+    "durationTargetSeconds": 0.62
+  },
+  "qa": {
+    "durationSeconds": 0.62,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 27342,
+    "peak": 0.6199951171875,
+    "rms": 0.1824130371393509,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.172021+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

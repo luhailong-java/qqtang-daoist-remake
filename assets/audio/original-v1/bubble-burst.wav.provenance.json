@@ -1,0 +1,38 @@
+{
+  "cue": "bubble-burst",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/bubble-burst.wav",
+  "sha256": "829286fb6a6ffff96ffe39cd1d8df6eb436ff1f7b1420a10c3a3fea8f416d60e",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "bubble-burst",
+    "seed": 1002,
+    "durationTargetSeconds": 0.5
+  },
+  "qa": {
+    "durationSeconds": 0.5,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 22050,
+    "peak": 0.6199951171875,
+    "rms": 0.07567313087422238,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.144288+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

@@ -1,0 +1,38 @@
+{
+  "cue": "bubble-kick",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/bubble-kick.wav",
+  "sha256": "1c4d683729a53ede12a925765707b53c529e6e66563a47558c7e4e2d63c94359",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "bubble-kick",
+    "seed": 1011,
+    "durationTargetSeconds": 0.22
+  },
+  "qa": {
+    "durationSeconds": 0.22,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 9702,
+    "peak": 0.6199951171875,
+    "rms": 0.22726757441945827,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.196276+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

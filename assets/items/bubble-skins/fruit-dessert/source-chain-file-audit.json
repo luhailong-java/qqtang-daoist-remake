@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-12T15:00:59.487713+00:00",
+  "scope": "Read-only file/source/pixel audit; no GUI, no gameplay, appearance or animation acceptance.",
+  "verificationScript": "assets/items/bubble-skins/fruit-dessert/verify-fruit-dessert.py",
+  "verificationScriptSha256": "d249a163412a4ad5eff08cf251917c496b2f8350635ce4ed0e311321a5556855",
+  "sourceCatalog": {
+    "file": "references/qqtang-item-data/catalog.json",
+    "sha256": "115930d870aeb74280e22548d85211f996087443cfb81f3c16aa199572c2db9f",
+    "category": "bomb",
+    "categoryCount": 295
+  },
+  "sourceContractSha256": "309a1644518efcbded8c9d3046385e64d653743d546ef09022f7dabcdf3b21d6",
+  "manifestSha256": "6e65de9c394e5dcabbf37fa045e958179a2f188d18430c5a5777389095906a68",
+  "archive": {
+    "file": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "sha256AsPreviouslyVerified": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "note": "This run directly compared all12 explicit icon member bytes with their authorized local input paths. Whole archive SHA is preserved prior verified fixed-input evidence, not rehashed in this audit."
+  },
+  "combinedInventoryIndex": {
+    "file": "assets/items/bubble-skins/inventory-combined.json",
+    "sha256": "4d58685cd73d318218b99a8687eea425018fcef4818b9f01c104a3840923f577",
+    "uniqueIds": 24,
+    "sourceIdsWithoutCandidate": 271
+  },
+  "atlasGeometryAudit": {
+    "file": "assets/items/bubble-skins/fruit-dessert/generation/atlas-geometry-audit.json",
+    "sha256": "210a9a79542e1cda405ba315c77c292e51d569098ce0a14e720f1a8e28321760",
+    "warnings": [
+      {
+        "itemId": 257,
+        "reason": "prompt55px-margin-target-not-met",
+        "actualMinimumMargin": 49
+      },
+      {
+        "itemId": 1969,
+        "reason": "prompt55px-margin-target-not-met",
+        "actualMinimumMargin": 46
+      },
+      {
+        "itemId": 2092,
+        "reason": "prompt55px-margin-target-not-met",
+        "actualMinimumMargin": 41
+      },
+      {
+        "itemId": 2203,
+        "reason": "prompt55px-margin-target-not-met",
+        "actualMinimumMargin": 33
+      },
+      {
+        "itemId": 2416,
+        "reason": "prompt55px-margin-target-not-met",
+        "actualMinimumMargin": 31
+      },
+      {
+        "itemId": 1486,
+        "reason": "prompt55px-margin-target-not-met",
+        "actualMinimumMargin": 43
+      }
+    ]
+  },
+  "masterChecks": [
+    {
+      "file": "assets/items/bubble-skins/fruit-dessert/fruit-dessert-a-v1.png",
+      "sha256": "957538eb05422ddee6864fbe1e90a5a2fec18cdb0ec464f36d4e5f3eb15b51c6",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "promptSha256": "889934e46bcb1775be57f02ee9016933209c383d4606871a52099413d0d8156f",
+      "submittedInputFileSha256": "5a37cf60b96d898f3add61790ac421b5e3d37163b7657abf3a3ebf55089e1b87",
+      "referencesVerified": 3,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "file": "assets/items/bubble-skins/fruit-dessert/fruit-dessert-b-v1.png",
+      "sha256": "f26d5203f60ae1e19f6f9c8bdad8dcb0523dad5b7e26b5024994ac3ec1ac6162",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "promptSha256": "6963a70fe9af3f3b697f3c74ff5ef76cc7c628260e86e3c705764a9a73c4fbf4",
+      "submittedInputFileSha256": "ccf7e1d613f5f401310b32c1a840502e6d182b2e2477158b328a0a910e42e4ef",
+      "referencesVerified": 4,
+      "actualModel": null,
+      "actualQuality": null
+    }
+  ],
+  "itemChecks": [
+    {
+      "itemId": 256,
+      "sourceName": "草莓糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/256-strawberry-cloud-bubble.png",
+      "sha256": "5c7aadc26e21dc84940a192bdf58439ca7fbc2940b79c7ddbe090398bd1fb34a",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb18.img",
+      "sourceMemberSha256": "b3533287de26deb265a95f35a0aaab639731f66f81df434152b10d465bd1bd38",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        42,
+        47
+      ],
+      "rawOffset": [
+        9,
+        15
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 257,
+      "sourceName": "西瓜糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/257-watermelon-cloud-bubble.png",
+      "sha256": "6f66041bf12e285971f260713f12d68fbe1c0a467d841cf4ad505668e173e545",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb19.img",
+      "sourceMemberSha256": "57ddbdc5332da04bbda4e7e76c25521de653a674757d58a3ecd0e7c49cc0f64d",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        48
+      ],
+      "rawOffset": [
+        12,
+        14
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1969,
+      "sourceName": "水晶苹果糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/1969-crystal-apple-cloud-bubble.png",
+      "sha256": "8f82c860d4d3ea948c24ff4d54bff1a2731ac982dff72e17f2e60d341394e025",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb124.img",
+      "sourceMemberSha256": "bbdd1da32201df7c9696888915b238d26fbcbb5813103d8bfc2564568bf275c2",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        38,
+        48
+      ],
+      "rawOffset": [
+        9,
+        4
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 2092,
+      "sourceName": "哈密瓜糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/2092-cantaloupe-cloud-bubble.png",
+      "sha256": "050725c8bd84ec3a6227bf708bd4ada1a036125cdebd155a5bada81638919be8",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb126.img",
+      "sourceMemberSha256": "421ec1d8eb62fc768551f7624d701863ff552268bcbd0f1be56d50f5ff2cb122",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        39,
+        51
+      ],
+      "rawOffset": [
+        9,
+        1
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 2203,
+      "sourceName": "草莓糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/2203-ripe-strawberry-cloud-bubble.png",
+      "sha256": "f6b33be4ecf87cacdfe61e3b90d7cb6c9fb33b61f226ae740a8da3c0192ed382",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb142.img",
+      "sourceMemberSha256": "31a6ec1964ba17c1ddcbc0c8084291768668474e9931f82824a1816d6a9dd5a4",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        38,
+        35
+      ],
+      "rawOffset": [
+        9,
+        10
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 2416,
+      "sourceName": "蟠桃糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/2416-immortal-peach-cloud-bubble.png",
+      "sha256": "6df0a2988bdaa644ff68ecc1e3918dd1da329c0df08eae917efc7e08a2b3bd1e",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb158.img",
+      "sourceMemberSha256": "5d3fc88c4a74d8d5b59db0527a72b43225afc723d7a246452650d443ca8644fe",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        41
+      ],
+      "rawOffset": [
+        8,
+        7
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 3607,
+      "sourceName": "苹果糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/3607-red-apple-cloud-bubble.png",
+      "sha256": "22e5ac1ef9963d340777c7703075fba9101a6ee4e182be4377cdff7a4a537dfe",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb240.img",
+      "sourceMemberSha256": "419323d899a0780510d6199ea1ac9bdd76e7a0b1091a7f9d51dac64fbe336b1f",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        40,
+        41
+      ],
+      "rawOffset": [
+        8,
+        12
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 3845,
+      "sourceName": "柠檬糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/3845-lemon-cloud-bubble.png",
+      "sha256": "3d639ddf41d0d1142df497f5bcc9fd30d073e2ff6db78a283de10b8e6b59de4c",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb254.img",
+      "sourceMemberSha256": "1f1648d1b257f77403d33aef1cb5211b970abfd399a60d30ba3a4419b5c1d297",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        56,
+        53
+      ],
+      "rawOffset": [
+        0,
+        0
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1073,
+      "sourceName": "巧克力糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/1073-chocolate-gift-cloud-bubble.png",
+      "sha256": "9f7e3fdf4036959448f34f1771b79debc2fd2923eadfa9118261cc2f4802bf03",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb24.img",
+      "sourceMemberSha256": "8cd3baf6062c7a221c4f6afe8a7b3b17b9cbb61d7e3c9ed42319785a129587ff",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        44,
+        52
+      ],
+      "rawOffset": [
+        11,
+        10
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 2199,
+      "sourceName": "牛奶巧克力糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/2199-milk-chocolate-cloud-bubble.png",
+      "sha256": "fa4a361c227a9304e7e4a56759db546a16a53daee375df0bc25e379f646a2bd1",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb138.img",
+      "sourceMemberSha256": "394198432a5242f4238efd39942e3faa717a236476cb03eb50b3103a69bcf1c5",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        35,
+        40
+      ],
+      "rawOffset": [
+        11,
+        2
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 2200,
+      "sourceName": "草莓巧克力糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/2200-strawberry-chocolate-cloud-bubble.png",
+      "sha256": "e1384121cd4242873f315c211834d85086ff29ba88061f6f135d72e685ab5440",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb139.img",
+      "sourceMemberSha256": "c1a87cc7eb247ca9baa2431778fe2e3d807055edcfbfb0a7736f3e5be60ea2b9",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        35,
+        40
+      ],
+      "rawOffset": [
+        11,
+        2
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    },
+    {
+      "itemId": 1486,
+      "sourceName": "蛋糕糖泡",
+      "file": "assets/items/bubble-skins/fruit-dessert/icons/1486-birthday-cake-cloud-bubble.png",
+      "sha256": "dd41b818badc6319458391ce2858f00cba9798770afc914e6f390f8b6d0dd178",
+      "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/icon/bomb/bomb65.img",
+      "sourceMemberSha256": "b421af3116ccdbd89330906ae82ebe84934c75e303cf3e1f244962ef99d6ae52",
+      "localBytesEqualFixedZipMember": true,
+      "sourceNativeFrameSize": [
+        56,
+        53
+      ],
+      "rawOffset": [
+        0,
+        0
+      ],
+      "exportDimensions": [
+        256,
+        256
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "independentExportPixelEquality": true,
+      "worldAssociation": null
+    }
+  ],
+  "previewChecks": [
+    {
+      "file": "assets/items/bubble-skins/fruit-dessert/previews/fruit-dessert-double-background.png",
+      "sha256": "555a35fb788c8cb9c9bfe35208a7d2788f795800b3d8787e4f05aa0f45745658",
+      "size": [
+        1536,
+        1152
+      ],
+      "manifestSha256": "6e65de9c394e5dcabbf37fa045e958179a2f188d18430c5a5777389095906a68",
+      "inputsVerified": 12
+    },
+    {
+      "file": "assets/items/bubble-skins/fruit-dessert/previews/fruit-dessert-mobile-size-preview.png",
+      "sha256": "f6ebacb201398c0153eb90600bef8beafb913d685c111bd8c053430961867be2",
+      "size": [
+        1680,
+        408
+      ],
+      "manifestSha256": "6e65de9c394e5dcabbf37fa045e958179a2f188d18430c5a5777389095906a68",
+      "inputsVerified": 12
+    }
+  ],
+  "inventoryCandidates": 12,
+  "noCandidateSourceBombIdsAfterBothFamilies": 271,
+  "cumulativeInventoryCandidatesFromTwoIndependentManifests": 24,
+  "worldCandidatesProduced": 0,
+  "errors": [],
+  "visualAccepted": false,
+  "accepted": false,
+  "guiUsed": false,
+  "privateDataRead": false,
+  "externalPackageExecuted": false
+}

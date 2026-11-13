@@ -1,0 +1,7 @@
+{
+  "prompt": "Use case: background-extraction. EDIT TARGET: the supplied six-hat master, keep its exact1536x1024 size, exact3x2 object positions, all six hat identities, silhouettes, embroidered toy faces, fabric textures, colours, feather/ear/teeth/ribbon/appendage details and scale unchanged.\nChange ONLY the ALPHA/BACKGROUND: remove the faint coloured backdrop and all low-opacity haze from every empty pixel around and BETWEEN objects and inside all EMPTY WEARER OPENINGS. These areas must be genuinely fully transparent alpha0, not painted white, grey, checkerboard, haze, glow or a new background. Keep natural antialiasing only on the immediate hat-edge rim. No alpha haze spanning cell gutters or the canvas boundary.\nThe hollow openings in rabbit, chick, wolf, dinosaur hood and cat-ear band must be fully clear, and the octopus hat lower wearable opening must be clear. Do not remove any hat fabric, tiny teeth, ribbons, tentacles or ear tips. Do not redraw, restyle, move, resize, mirror or add any object. Do not add shadows or text. Output the same complete six hats, cleanly isolated as a true transparent RGBA asset sheet.",
+  "referenced_image_paths": [
+    "E:\\work\\qqtang-daoist-remake\\assets\\items\\hats\\spirit-creatures-c\\hats-c-v1.png"
+  ],
+  "transparent_background": true
+}

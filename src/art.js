@@ -1,7 +1,50 @@
-const legacyRects=[[0,0,445,486],[445,0,478,486],[923,0,445,486],[1368,0,406,480],[0,486,455,401],[455,486,445,401],[900,486,450,401],[1350,480,424,407]];
-export let art={"characters":{"type":"individual-images-with-atlas-extras","assets":[{"file":"./assets/characters/runtime/daoist-child.png","width":1024,"height":1024,"rect":[195,59,633,907]},{"file":"./assets/characters/runtime/moon-shadow.png","width":1024,"height":1024,"rect":[124,59,775,906]},{"file":"./assets/characters/runtime/mountain-guardian.png","width":1024,"height":1024,"rect":[161,59,701,906]},{"file":"./assets/characters/runtime/lotus-healer.png","width":1024,"height":1024,"rect":[142,59,740,906]},{"file":"./assets/qqtang-characters-v2.png","width":1536,"height":1024,"rect":[535,580,485,425],"name":"monster"},{"file":"./assets/qqtang-characters-v2.png","width":1536,"height":1024,"rect":[1035,595,460,414],"name":"bun"}],"note":"前四项原样复用image自有透明PNG，运行时仅按Alpha包围框等比裁显；4096为历史导出画布。旧角色图集索引0-3停用，仅保留怪物和包子。"},"tiles":{"file":"./assets/game-atlas.png","width":1774,"height":887,"rects":[[0,0,445,486],[445,0,478,486],[923,0,445,486],[1368,0,406,480],[0,486,455,401],[455,486,445,401],[900,486,450,401],[1350,480,424,407]],"usedIndices":[3,4,5,6,7],"note":"既有试稿图集中，仅沿用糖泡、石块、木箱、地砖和增益葫芦；旧三角色不再使用。"}};
-const images={};
-function sourceFor(index,sheet){const a=art[sheet];return a.assets?(a.assets[index]||a.assets[0]):{file:a.file,width:a.width,height:a.height,rect:a.rects[index]||a.rects[0]};}
-export async function loadArt(){try{const response=await fetch('./assets/art.json');if(response.ok)art=await response.json();}catch{}const sources=new Map();for(const sheet of Object.values(art)){for(const source of sheet.assets||[sheet])if(source.file)sources.set(source.file,source);}await Promise.all([...sources].map(async([file])=>{const image=new Image();images[file]=image;image.src=file;await image.decode().catch(()=>{});}));}
-export function sprite(index,cls='',sheet='characters'){const a=sourceFor(index,sheet);return `<span class="sprite ${cls}" aria-hidden="true"><svg class="atlas-sprite" viewBox="${a.rect.join(' ')}" preserveAspectRatio="xMidYMid meet"><image href="${a.file}" width="${a.width}" height="${a.height}"/></svg></span>`;}
-export function drawSprite(ctx,index,x,y,w,h,sheet='characters'){const a=sourceFor(index,sheet),img=images[a.file];if(!img?.complete||!img.naturalWidth)return;const [sx,sy,sw,sh]=a.rect,scale=Math.min(w/sw,h/sh),dw=sw*scale,dh=sh*scale;ctx.drawImage(img,sx,sy,sw,sh,x+(w-dw)/2,y+(h-dh)/2,dw,dh);}
+import {ART_RUNTIME_FALLBACK} from './battle-art-fallback-data.js';
+
+export let art = structuredClone(ART_RUNTIME_FALLBACK);
+const images = new Map();
+let loadErrors = [];
+
+function sourceFor(index, sheet) {
+  if (!Number.isInteger(index) || index < 0) return null;
+  return art[sheet]?.assets?.[index] || null;
+}
+
+export async function loadArt({fetchImpl = globalThis.fetch, createImage = () => new globalThis.Image()} = {}) {
+  art = structuredClone(ART_RUNTIME_FALLBACK); images.clear(); loadErrors = [];
+  try {
+    const response = await fetchImpl('./assets/art.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const candidate = await response.json();
+    // A stale/failed JSON fetch cannot reintroduce an old atlas.
+    if (JSON.stringify(candidate) !== JSON.stringify(ART_RUNTIME_FALLBACK)) throw new Error('Runtime art table differs from its checked default');
+    art = candidate;
+  } catch (error) { loadErrors.push({file: 'assets/art.json', message: String(error.message || error)}); }
+  const sources = new Map();
+  for (const sheet of ['characters', 'tiles', 'pickups', 'effects']) {
+    for (const source of art[sheet].assets) if (source) sources.set(source.file, source);
+  }
+  await Promise.all([...sources].map(async ([file, source]) => {
+    try {
+      const image = createImage(); image.decoding = 'async'; image.src = file;
+      await image.decode();
+      if (image.naturalWidth !== source.width || image.naturalHeight !== source.height) throw new Error('PNG dimensions differ from default table');
+      images.set(file, image);
+    } catch (error) { loadErrors.push({file, message: String(error.message || error)}); }
+  }));
+  return {loadedFiles: [...images.keys()], errors: [...loadErrors]};
+}
+
+export function sprite(index, cls = '', sheet = 'characters') {
+  const source = sourceFor(index, sheet);
+  if (!source) return `<span class="sprite ${cls} missing-sprite" aria-hidden="true"></span>`;
+  return `<span class="sprite ${cls}" aria-hidden="true"><svg class="atlas-sprite" viewBox="${source.rect.join(' ')}" preserveAspectRatio="xMidYMid meet"><image href="${source.file}" width="${source.width}" height="${source.height}"/></svg></span>`;
+}
+
+export function drawSprite(ctx, index, x, y, width, height, sheet = 'characters') {
+  const source = sourceFor(index, sheet), image = source && images.get(source.file);
+  if (!source || !image || ![x, y, width, height].every(Number.isFinite) || width <= 0 || height <= 0) return false;
+  const [sx, sy, sw, sh] = source.rect, scale = Math.min(width / sw, height / sh);
+  const w = sw * scale, h = sh * scale;
+  ctx.drawImage(image, sx, sy, sw, sh, x + (width - w) / 2, y + (height - h) / 2, w, h);
+  return true;
+}

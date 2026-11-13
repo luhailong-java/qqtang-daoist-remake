@@ -1,0 +1,38 @@
+{
+  "cue": "damage",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/damage.wav",
+  "sha256": "eb7da49c7cfc0eb918f9a3712587b1bad56e7009c3771b467e985c0a9a9a7041",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "damage",
+    "seed": 1008,
+    "durationTargetSeconds": 0.18
+  },
+  "qa": {
+    "durationSeconds": 0.18,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 7938,
+    "peak": 0.6199951171875,
+    "rms": 0.12866137754430643,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.190225+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

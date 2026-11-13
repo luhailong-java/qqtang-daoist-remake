@@ -1,0 +1,38 @@
+{
+  "cue": "ui-click",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/ui-click.wav",
+  "sha256": "d9f82715d8747531ad81872149151579e306a1007972b0b62b4ce77ed526bde6",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "ui-click",
+    "seed": 1000,
+    "durationTargetSeconds": 0.12
+  },
+  "qa": {
+    "durationSeconds": 0.12,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 5292,
+    "peak": 0.6199951171875,
+    "rms": 0.26034183957936274,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.139684+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/items/bubble-skins/zodiac-a-v1.png",
+  "sha256": "87b2ce8c2f09d258ed1dcdee086851ea13799cf7802a1a9db82807d90dd66e2d",
+  "generatedAt": "2026-11-12T14:37:35.089696+00:00",
+  "timeEvidence": "UTC registration after actual successful built-in return; provider creation timestamp was not exposed.",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configSource": {
+    "path": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "modelQualityReverifiedOn": "2026-11-12",
+  "modelQualityVerificationSources": {
+    "release": "https://openai.com/index/introducing-images-2-6/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/bubble-skins/references/zodiac-a-structure.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Built-in tool exposes no model/quality selectors and returned only image_url/output_hint without actual model/quality metadata. Configuration is a target, not actual return evidence.",
+  "exactPrompt": "Use case: stylized-concept game inventory assets, original Daoist chibi hand-painted style.\nCreate a true transparent RGBA sprite atlas, requested1536x1024, exactly THREE columns and TWO rows of equal square cells, six separate complete floating zodiac crystal bubble skins. Read left-to-right, top-to-bottom. They are inventory icons, not a finished world animation.\nInput1 is source STRUCTURE/SEMANTIC reference only: six different zodiac glyphs and the color order. Preserve the understandable sign on each orb, small upper-left bubble neck, and round/softly oval orb identity. Do NOT copy the source pixel rendering, labels, grey board or the separate dark oval shadow UNDER each source orb. Inputs2 and3 are the approved jade/ivory/warm-gold Daoist chibi HAND-PAINTED visual style references only, not UI scenes or characters to draw.\nThe six objects form one refined original family: softly rounded translucent colored crystal sugar-bubbles, delicate fine painterly edge, soft hand-painted internal light, a slim warm-gold cloud-engraved rim, tiny jade-and-gold rounded neck at upper-left, subtle cloud curl INSIDE the glass, ONE large unmistakable warm ivory-gold zodiac glyph on the front. Colorful, cute, clean, crafted in jade/gold/crystal, not photoreal product renders or plastic3D. Glyphs remain clear at32px. Do not turn the transparent bubble into an opaque medal or a flat button. The glyph is central and visually dominant, no extra tiny glyphs or words.\nCell1 top-left: item1690 ARIES, blue/periwinkle crystal, exact Aries glyph ♈ (symmetric ram-horn fork).\nCell2 top-middle: item1691 TAURUS, amber-gold crystal, exact Taurus glyph ♉ (circle with upward curved horns).\nCell3 top-right: item1692 GEMINI, vermilion/coral crystal, exact Gemini glyph ♊ (two upright joined pillars, horizontal curved caps).\nCell4 bottom-left: item1693 CANCER, fresh jade/emerald crystal, exact Cancer glyph ♋ (opposed paired curls,69-like).\nCell5 bottom-middle: item1694 LEO, honey-gold crystal, exact Leo glyph ♌ (small round loop opening into a tall curved tail).\nCell6 bottom-right: item1695 VIRGO, turquoise crystal, exact Virgo glyph ♍ (three rounded m-like stems with inward loop on the right; no arrow).\nSame perspective and object scale in every cell. The complete orb INCLUDING neck roughly340–390px wide in a512px cell, with at least50px truly clear alpha margins on every side and large empty gaps. No pixel crosses a cell boundary. No labels, numbers, Chinese text, letters, UI cards, background, floor, pedestal, selection plate, ground shadow, floating dust or fog. No diffuse glow outside the object. All unused pixels including every gap and the entire exterior background are genuinely transparent. Highest host-provided detail and clean antialiasing.",
+  "promptFile": "assets/items/bubble-skins/generation/zodiac-a-v1.prompt.txt",
+  "promptFileSha256": "b5c79e94b731871dc87b692148f5495d83f4e85dec0f52b963be4acf7715c78b",
+  "submittedPromptSha256": "b5c79e94b731871dc87b692148f5495d83f4e85dec0f52b963be4acf7715c78b",
+  "submittedPromptUtf8ByteLength": 2779,
+  "promptSubmission": "Exact string copied from successful function-store input, saved as UTF-8 bytes without stripping or universal-newline conversion.",
+  "submittedInputFile": "assets/items/bubble-skins/generation/zodiac-a-v1.submitted-input.json",
+  "submittedInputFileSha256": "e6d3602abe5df8886545a0c548533be6e0c3b7bf0de667f2d018214344870848",
+  "references": [
+    {
+      "path": "assets/items/bubble-skins/references/zodiac-a-structure.png",
+      "sha256": "d949eef9255335abded02e19a569a1e2f64ad6a1666c2a48775a39327b404fb9",
+      "purpose": "source inventory sign and color structure only; no copied rendering, board, labels or bottom shadow"
+    },
+    {
+      "path": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "user-selected Daoist chibi hand-painted style only"
+    },
+    {
+      "path": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "user-selected Daoist chibi hand-painted style only"
+    }
+  ],
+  "actualSubmittedReferencePaths": [
+    "E:/work/qqtang-daoist-remake/assets/items/bubble-skins/references/zodiac-a-structure.png",
+    "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+    "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+  ],
+  "evidence": {
+    "functionStoreKey": "source_audit_bubble_zodiac_a_v1_input",
+    "builtinSubmissions": "assets/items/bubble-skins/generation/builtin-submissions.json",
+    "builtinSubmissionsSha256": "b67c391827b62de2fa42baffb2955d06abfb35de3dc155bab85335bce79ba428",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748 as C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748\\exec-7acc87f8-4f74-4cf1-97e9-c9a2357a49f0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-d602-7061-8c56-2211c0c9c748\\exec-7acc87f8-4f74-4cf1-97e9-c9a2357a49f0.png",
+    "actualModelQualityDisclosed": false
+  },
+  "operation": "Native built-in generated atlas; no pixel change during registration.",
+  "selection": {
+    "state": "inventory-candidate-awaiting-user-review",
+    "exported": true,
+    "itemIds": [
+      1690,
+      1691,
+      1692,
+      1693,
+      1694,
+      1695
+    ],
+    "manifest": "assets/items/bubble-skins/art.json",
+    "technicalScope": "Source IDs/icons checked, alpha/cell dimensions measured; no user appearance or world/action acceptance."
+  },
+  "visualAccepted": false,
+  "accepted": false,
+  "worldAccepted": false,
+  "runtimeAdopted": false
+}

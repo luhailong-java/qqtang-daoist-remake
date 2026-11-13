@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib,datetime
 from collections import Counter
 root=Path(__file__).resolve().parents[1]
-baseline=json.loads((root/'assets/maps/production-index.json').read_text(encoding='utf-8'))
+baseline=json.loads((root/'references/qqtang-map-data/visual-reference/families/index.json').read_text(encoding='utf-8'))
 definitions={e['elementId']:e for e in baseline['elements']};baseline_count=len(definitions)
 binary=json.loads((root/'references/qqtang-map-data/binary-properties-inspection.json').read_text(encoding='utf-8'))
 if binary['fieldDifferenceCount'] or binary['sharedPythonDefinitionCount']!=baseline_count:raise ValueError('Supplement source comparison changed')
@@ -57,7 +57,7 @@ record={'schemaVersion':1,'capturedAt':datetime.datetime.now(datetime.timezone.u
     'sourceIdentity':'community-patched-client; Tencent target historical version unverified',
     'baselinePythonMapDefinitionCount':baseline_count,'additionalBinaryMapDefinitionCount':len(binary['additionalIds']),
     'binaryPropertyEvidence':'references/qqtang-map-data/binary-properties-inspection.json',
-    'binarySupplementRuntimeImported':False,'binarySupplementUnserializedFields':['canDoSpecial','canHide'],
+    'binarySupplementRuntimeImported':True,'binarySupplementUnserializedFields':['canDoSpecial','canHide'],
     'mapDefinitionCount':len(definitions),'mapCandidateFilesPresent':len(covered),'mapPendingFirstPass':len(definitions)-len(covered),
     'mapAcceptedCount':0,'families':families,'foreignOrUnknownManifestIds':foreign,
     'sourceItemRecordCount':len(catalog['items']),'sourceItemCategoryCounts':catalog['categoryCounts'],
@@ -87,11 +87,11 @@ record={'schemaVersion':1,'capturedAt':datetime.datetime.now(datetime.timezone.u
     'effectUniqueReferencedPngFiles':len({f['file']for f in effect_frames if f.get('file')and(root/f['file']).is_file()}),
     'creatureStaticMasterCandidates':len({i['entityId']for i in creatures if (root/i['file']).is_file()}),
     'consumableIconAcceptedCount':0,'allGameArtComplete':False,
-    'localHeavyVerification':'paused by authorized resource coordination; docs/LOCAL_RESOURCE_WINDOW_20261028.md',
+    'localHeavyVerification':'file/data checks current; no GUI automation or user visual acceptance; docs/FULL_MAP_ART_COVERAGE_20261112.md',
     'limitations':['No complete-game percentage: 773 map definitions and 2945 source item records are separate inventories.',
         '721 Python definitions match shared binary fields exactly; 52 additional binary rows have no serialized canDoSpecial or canHide values. Native lookup and target-version authenticity remain unverified.',
         'Candidates may contain known proportion, seam, anchor, alpha, state and animation defects.',
         'Source creature identities, all character actions, costumes, UI states, effects and runtime acceptance remain in production.',
-        'assets/maps/production-index.json and runtime-manifests.json remain at their last verified snapshot until coordinated verification resumes.']}
+        'Current773 map production/runtime coverage is separately validated; this lightweight snapshot does not approve visuals or native mechanics.']}
 out=root/'docs/ART_PRODUCTION_STATUS_20261028.json';out.write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({k:record[k]for k in['mapDefinitionCount','mapCandidateFilesPresent','mapPendingFirstPass','mapAcceptedCount','sourceItemRecordCount','paintedConsumableIconCandidates','allGameArtComplete']}))

@@ -1,0 +1,38 @@
+{
+  "cue": "wood-break",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/wood-break.wav",
+  "sha256": "5aaf42848d710bcd0e100b6a62dbfc71f735cb665b149cdb448052284c941448",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "wood-break",
+    "seed": 1010,
+    "durationTargetSeconds": 0.32
+  },
+  "qa": {
+    "durationSeconds": 0.32,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 14112,
+    "peak": 0.6199951171875,
+    "rms": 0.1158211287534151,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.194673+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

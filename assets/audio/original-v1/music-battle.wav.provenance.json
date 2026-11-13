@@ -1,0 +1,40 @@
+{
+  "cue": "music-battle",
+  "kind": "music",
+  "file": "assets/audio/original-v1/music-battle.wav",
+  "sha256": "d83e11c58fc6aad64fabbdc7b9b93719a25d51b7a6f00eb5183f46a1a12a4c6e",
+  "format": "PCM WAV",
+  "loop": true,
+  "design": {
+    "tempoBPM": 120,
+    "beats": 32,
+    "scale": "D major pentatonic",
+    "composition": "original 8-bar melody, paired plucked patterns, synthesized wind, jade-bell and quiet wood pulse",
+    "seed": 20261113
+  },
+  "qa": {
+    "durationSeconds": 16.0,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 705600,
+    "peak": 0.579986572265625,
+    "rms": 0.1235744764918185,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.004486083984375
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.136624+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

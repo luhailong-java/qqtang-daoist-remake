@@ -1,0 +1,38 @@
+{
+  "cue": "respawn",
+  "kind": "sfx",
+  "file": "assets/audio/original-v1/respawn.wav",
+  "sha256": "c1d928bbcb03b10f0678fd9eeff78f91159d9958b7d612de4d089f077d319ed8",
+  "format": "PCM WAV",
+  "loop": false,
+  "design": {
+    "originalSoundDesign": "respawn",
+    "seed": 1007,
+    "durationTargetSeconds": 0.8
+  },
+  "qa": {
+    "durationSeconds": 0.8,
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 35280,
+    "peak": 0.6199951171875,
+    "rms": 0.16946399201945858,
+    "clippedSamples": 0,
+    "loopBoundaryDelta": 0.0
+  },
+  "art_source": "original_code_audio",
+  "route": "deterministic-local-synthesis",
+  "originalComposition": true,
+  "externalSamples": false,
+  "model": null,
+  "generatedAtUTC": "2026-11-12T14:23:10.187814+00:00",
+  "source": {
+    "file": "assets/audio/original-v1/generate.py",
+    "sha256": "6ea7232219f1d3c2611799014d184e409616778afb9160d0715eb58f84bd5708"
+  },
+  "sourceGameTiming": "none; cue is presented on existing event, not a timing authority",
+  "auditoryAccepted": false,
+  "runtimeApproved": false,
+  "userReviewStatus": "pending"
+}

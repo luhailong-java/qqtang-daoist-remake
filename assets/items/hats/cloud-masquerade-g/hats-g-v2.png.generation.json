@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configuredTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "modelQualityReverifiedOn": "2026-11-12",
+  "actualModel": null,
+  "actualQuality": null,
+  "actualEvidence": "Built-in tool returned image and local path only.",
+  "newModelGeneration": true,
+  "requestedCanvasViaPrompt": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "file": "assets/items/hats/cloud-masquerade-g/references/source-six-board.png",
+      "sha256": "f445a28c7ad7c02696098b8a384e70281f52b6d11310a9b6927d3a2c3de63933",
+      "role": "cap inventory structure only",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    }
+  ],
+  "sourceReferenceLimitations": [
+    "Source280/281UI frames excluded.",
+    "Source281catalog name not treated as character identity; actual visible flight helmet/goggles shape referenced and redesigned originally.",
+    "Source45wig-like silhouette is detached costume-cap object, no wearer."
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "returned",
+      "returnedAtUTC": "2026-11-13T03:16:57.075145+00:00",
+      "submittedArgsFile": "assets/items/hats/cloud-masquerade-g/submitted-args-v2.json",
+      "submittedArgsSha256": "8f551ffaab5597e9f650fbbb7684a8a1aedef29346a4cfcd202883b29c7f5172",
+      "exactPromptUtf8File": "assets/items/hats/cloud-masquerade-g/prompt-v2.txt",
+      "exactPromptUtf8Sha256": "70235e84537cd615d76d98e6f83eb13540534e823b7dfe116f7c194b8cdca6ad",
+      "promptCapture": "Exact functions.store args.prompt, written UTF-8 without newline transformation",
+      "output": {
+        "file": "assets/items/hats/cloud-masquerade-g/hats-g-v2.png",
+        "sha256": "3fd850372c048d3813b4fd3a68bd455c6f102eed94730e1149fa148841f854fc",
+        "actualNativeSize": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "bytes": 2207148,
+        "hostPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d1-305d-7c33-8bf9-012f924dd1ff\\exec-cc506c56-469f-4997-8b6e-7b6755666a28.png",
+        "hostOutputFileMtimeUTC": "2026-11-13T03:16:08.634056+00:00"
+      }
+    }
+  ],
+  "generatedAtUTC": "2026-11-13T03:16:08.634056+00:00",
+  "generationTimeEvidence": "Host output file modification time",
+  "analysis": {
+    "transparentOpeningSamples": [
+      {
+        "point": [
+          768,
+          851
+        ],
+        "alpha": 0
+      },
+      {
+        "point": [
+          1274,
+          850
+        ],
+        "alpha": 0
+      },
+      {
+        "point": [
+          1264,
+          182
+        ],
+        "alpha": 0
+      },
+      {
+        "point": [
+          1225,
+          734
+        ],
+        "alpha": 1
+      },
+      {
+        "point": [
+          1352,
+          734
+        ],
+        "alpha": 1
+      }
+    ],
+    "actualAlphaBoundingBoxSizes": [
+      [
+        429,
+        361
+      ],
+      [
+        396,
+        342
+      ],
+      [
+        427,
+        329
+      ],
+      [
+        311,
+        319
+      ],
+      [
+        445,
+        381
+      ],
+      [
+        406,
+        387
+      ]
+    ],
+    "requestedMaximumExtentPx": 400,
+    "actualMaximumExtentPx": 445,
+    "requestedSourcePaddingPx": 48,
+    "actualMinimumSourcePaddingPx": 32,
+    "nominalCellEdgesAlphaMax": 2
+  },
+  "priorUnrecoveredSubmission": {
+    "file": "assets/items/hats/cloud-masquerade-g/hats-g-v1.png.generation.json",
+    "sha256": "c169f368a31ce1b71efa16fc45a139bd03e98592a13c7b3169633b0540b6051e",
+    "status": "submitted; no verified output associated"
+  },
+  "returnedToolEvidence": {
+    "file": "assets/items/hats/cloud-masquerade-g/builtin-v2-return.json",
+    "sha256": "1c3524fdd6ffdb74b1253c0ea8633f5d56d78cb85fbd4ee77e05c4d9e2a97760"
+  },
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "file": "assets/items/hats/cloud-masquerade-g/hats-g-v2.png",
+  "sha256": "3fd850372c048d3813b4fd3a68bd455c6f102eed94730e1149fa148841f854fc",
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "cropNote": "Regular 512 cells validated against actual alpha; isolated objects only. Original blue frames and shadows excluded. Mounted art and timing are unverified."
+}

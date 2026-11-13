@@ -1,6 +1,7 @@
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {compileOriginalMap,SOURCE_MAP_EVIDENCE} from '../src/original-maps.js';
+import {mergeSourceMapElements} from '../src/source-map-elements.js';
 
 const REFERENCE_ROOT=new URL('../references/qqtang-map-data/',import.meta.url);
 export const DRAFT_MAPS=Object.freeze([
@@ -30,7 +31,10 @@ async function currentPaintedElements(){
 export async function loadMapCatalog({referenceRoot=REFERENCE_ROOT}={}){
   const read=async relative=>readFile(new URL(relative,referenceRoot));
   const[indexBytes,catalogBytes,elementsBytes,paintedIds]=await Promise.all([...['index.json','catalog.json','elements.json'].map(read),currentPaintedElements()]);
-  const index=parse(indexBytes,'index'),catalog=parse(catalogBytes,'catalog'),elements=parse(elementsBytes,'elements');
+  const supplementBytes=await readFile(new URL('../assets/maps/source-elements-supplement.json',import.meta.url));
+  const supplement=parse(supplementBytes,'element-supplement');
+  const index=parse(indexBytes,'index'),catalog=parse(catalogBytes,'catalog');
+  const elements=mergeSourceMapElements(parse(elementsBytes,'elements'),supplement,{baseCatalogSha256:hash(elementsBytes)});
   const files=new Map(index.maps.map(item=>[item.fileName,item])),runtime=new Map(),descriptors=[];
   const bytesByFile=new Map();
   for(const entry of catalog.entries){
@@ -69,7 +73,8 @@ export async function loadMapCatalog({referenceRoot=REFERENCE_ROOT}={}){
   descriptors.sort((a,b)=>a.catalogId-b.catalogId);
   const sources=new Map(descriptors.map(item=>[item.id,item])),drafts=new Map(DRAFT_MAPS.map(item=>[item.id,{...item}]));
   return{
-    source:{...index.source,indexSha256:hash(indexBytes),catalogSha256:hash(catalogBytes),elementsSha256:hash(elementsBytes)},
+    source:{...index.source,indexSha256:hash(indexBytes),catalogSha256:hash(catalogBytes),elementsSha256:hash(elementsBytes),elementSupplementSha256:hash(supplementBytes),elementDefinitionCount:elements.elementCount,
+      elementSupplementEvidence:elements.definitionSupplement},
     maps:descriptors,draftMaps:DRAFT_MAPS.map(item=>({...item})),
     get(id){return sources.get(String(id))||drafts.get(String(id))||null;},
     getRuntime(id){const map=runtime.get(String(id));return map?structuredClone(map):null;},
