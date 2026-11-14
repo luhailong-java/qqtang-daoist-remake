@@ -32,7 +32,7 @@ node scripts/serve.mjs
 
 当前地图美术可在 <http://127.0.0.1:4387/maps.html> 按主题、名称或编号浏览。预览从真实源场景绘制新画候选，未制作的元素保留缺失提示；可切换占地检查，不把预览覆盖当成正式验收。
 
-用户指定的交付入口为下载目录内的 QQTang-Local 原生客户端。当前已完成首批原生 UI 安装，全部 UI 和整款美术仍在制作。 [原生 UI 进度与恢复](docs/NATIVE_CLIENT_UI_DELIVERY_20261113.md) · [最新画稿与缺口](docs/ART_DELIVERY_20261113B.md) · [QQ堂参照与本机来源](docs/QQTANG_REFERENCE_SOURCE.md)
+用户指定的交付入口为下载目录内的 QQTang-Local 原生客户端。当前已安装 110 件原生 UI 和 578 个自有库存图标，全部 UI 和整款美术仍在制作。 [原生 UI 进度与恢复](docs/NATIVE_CLIENT_UI_DELIVERY_20261113.md) · [最新画稿与缺口](docs/ART_DELIVERY_20261114.md) · [QQ堂参照与本机来源](docs/QQTANG_REFERENCE_SOURCE.md)
 
 ## 当前范围与未完成项
 

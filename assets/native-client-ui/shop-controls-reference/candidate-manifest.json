@@ -1,0 +1,2021 @@
+{
+  "schemaVersion": 1,
+  "scope": "Twenty native shop control candidates",
+  "sourceReferences": {
+    "file": "assets/native-client-ui/shop-controls-reference/manifest.json",
+    "sha256": "94fc60e03d670a50553e4d476aa3dfff58a8f2ce132f2eb1b5fbc886b8c26ec5"
+  },
+  "renderer": {
+    "file": "scripts/native-ui-shop-controls-art.py",
+    "sha256": "b68ba3b661afe51eb5b2be4d9f9692c4756a6da69e45228be19f45b14bc3bb96"
+  },
+  "verificationScript": {
+    "file": "assets/native-client-ui/shop-controls-reference/verify-renderer.py",
+    "sha256": "b849634c4554e2197ddb2bca503140f32898265c17b46468106ff36cb870973e"
+  },
+  "codec": {
+    "file": "scripts/native-ui-format.py",
+    "sha256": "e06d8634fe409f1c6ebfdbdc66b1911bbbb49c3d533345cc756e26aa74189de8"
+  },
+  "paintInputs": [
+    {
+      "file": "assets/qqtang-world-v2.png",
+      "sha256": "df713082592761fab54e0ff29c55094dda780064857b9a5bdc3bb5b8fee2c41f"
+    },
+    {
+      "file": "assets/branding/linghu-wordmark-login-1024.png",
+      "sha256": "e6e6ae73de13021207b6887274b8c5cee73991d29c1c5fcda8de5d932a17ab0c"
+    },
+    {
+      "file": "assets/ui/window-frame.png",
+      "sha256": "49c3320e05c1b6287f3719621ede8a4f186c1cdcdcc5fb9284c7b6362a6e635e"
+    },
+    {
+      "file": "assets/ui/primary-normal.png",
+      "sha256": "2bec2f36e6ffef7c449a6d3310a58986dcaaf14862ce44c6d44318952e7d77c4"
+    },
+    {
+      "file": "assets/ui/primary-hover.png",
+      "sha256": "3adc94f824dda6f831357aa2c102ad4d6e17427dd27a5affd1ac11e2f95ef4ec"
+    },
+    {
+      "file": "assets/ui/primary-pressed.png",
+      "sha256": "14192d0aefd464ce3b403f577eba25f04efa77bbb2d0299fd863d61a9715a446"
+    },
+    {
+      "file": "assets/ui/action-icons-20261112/close.png",
+      "sha256": "7d26afc2a41615ddfe00127040c9e89c761541df415ffc40b0a3c6084b2b70ec"
+    }
+  ],
+  "font": {
+    "family": "Microsoft YaHei",
+    "sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f"
+  },
+  "items": [
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_buy.img",
+      "sha256": "976bcb5ef5ab5671284b880965ea2ea1eac30e3093abc2d8964a34ef0838188e",
+      "nativePath": "object/ui/shop/btn_buy.img",
+      "sourceSha256": "8665a3600b8f822c4c47af74b9c8966dfe3a6f2a414f79456a8d411d48a2e9a2",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.ware1.children.buyA",
+          "sourceFirstLine": 2686,
+          "bytecodeSha256": "ce65670b3f851fcddeb38afab5ce134e84a2e9b65430b0142320c0f575f4056d",
+          "literalAssignments": {
+            "initlayer": -99,
+            "rect": [
+              158,
+              25,
+              36,
+              42
+            ],
+            "bkimage": "object/ui/shop/btn_buy.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.buyDlg.children.buy1Btn",
+          "sourceFirstLine": 2940,
+          "bytecodeSha256": "1deb7829e2b35785556b0e8ff902ee94effdd3c80873f8b3e92e9a17b4254c3a",
+          "literalAssignments": {
+            "rect": [
+              260,
+              234,
+              33,
+              34
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/shop/btn_buy.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-stack-button",
+      "caption": "购\n买",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_buy-00.png",
+          "sha256": "bc8e5db4b384be644550097c9ee50b66d06e25edbf0ba84ef7f33b84e5940e6c",
+          "index": 0,
+          "nativeSize": [
+            33,
+            40
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_buy-01.png",
+          "sha256": "54097a123be46c2e22dda0c4a2d9d325bd2d6664940c3bc84d172a1f9bfcbc7f",
+          "index": 1,
+          "nativeSize": [
+            33,
+            39
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_buy-02.png",
+          "sha256": "9154d959133e81336c324df19cdb1298d512ad0e44efe95a38ac7e324dc11318",
+          "index": 2,
+          "nativeSize": [
+            33,
+            39
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_buy-03.png",
+          "sha256": "c92ff75081663e7d50d7baf7c5e8ec6832f8b23e4ee7573bc359e98594bc14d4",
+          "index": 3,
+          "nativeSize": [
+            33,
+            39
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_cancelEquip.img",
+      "sha256": "5cfe1bb55e7fe044a2043f1ce8b7387f5100126b31dd08f3f83808a69aa35a3f",
+      "nativePath": "object/ui/shop/btn_cancelEquip.img",
+      "sourceSha256": "89d17f349829072e10e785a3d011868af4a847c53f8c9b70e97f14a9068fd72d",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.cancelEquip",
+          "sourceFirstLine": 3234,
+          "bytecodeSha256": "ce65670b3f851fcddeb38afab5ce134e84a2e9b65430b0142320c0f575f4056d",
+          "literalAssignments": {
+            "initlayer": -99999,
+            "rect": [
+              720,
+              143,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/shop/btn_cancelEquip.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "默认",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_cancelEquip-00.png",
+          "sha256": "1b40a702dff77cc1cc1517517c4f4f7d00244633a90e165e9faa339fb267d0ee",
+          "index": 0,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_cancelEquip-01.png",
+          "sha256": "bfc111c4d1390faa54b681878a0ef7cf0692be522056da3c2108266a611c8fae",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_cancelEquip-02.png",
+          "sha256": "486f36d4f7227e863eb912d70c2cee2d96fb3568c347df193cbf488c3a1306f8",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_cancelEquip-03.png",
+          "sha256": "835a55626ac4a5f0687892ec3fdedf919136ec1460251af3860b8d493dd23a67",
+          "index": 3,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_collect.img",
+      "sha256": "8bcac29a663804e0820e7519da1eadc1f7f6ea77626326ec1dbafcc97ea51293",
+      "nativePath": "object/ui/shop/btn_collect.img",
+      "sourceSha256": "a623f087cd94d58b5ea03f5623b7a66ad9d004ac1678e9b758dd1a413c139e94",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.repairDlg.children.deleteBtn",
+          "sourceFirstLine": 3665,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              102,
+              309,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/shop/btn_collect.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "收藏",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_collect-00.png",
+          "sha256": "15611e35591fe140ecf6af2524e869a05e915eaf80d730eba33aaf052908e464",
+          "index": 0,
+          "nativeSize": [
+            63,
+            28
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_collect-01.png",
+          "sha256": "9d0f59844a61796a438e6752ecc43a102ef5c0920f1ab572f32f5b88a179b5d5",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_collect-02.png",
+          "sha256": "e9889c5e85e0ecbf746e0d3bc95773011026314f6e7da04b5838b2d909a0b2d5",
+          "index": 2,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_collect-03.png",
+          "sha256": "63f8e24a7923cf2ccd24971e24806e40d9470c527aa7ef76ad8e86517d61ec56",
+          "index": 3,
+          "nativeSize": [
+            63,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_donate.img",
+      "sha256": "dbd2df1475b1b1864a2654d26b8b525e67857b0f291bfc46aad6775fd100ad46",
+      "nativePath": "object/ui/shop/btn_donate.img",
+      "sourceSha256": "f85d79719af4841222dd3356fec50c6ce7b126eb62b27afd7aa0fae08b1e7d18",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.buyDlg.children.donateBtn",
+          "sourceFirstLine": 2972,
+          "bytecodeSha256": "98b69343e92e63e4c91a3b2970326dead53ede13c262207d14e0e0aad058a2e9",
+          "literalAssignments": {
+            "enable": 1,
+            "rect": [
+              100,
+              328,
+              63,
+              31
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/shop/btn_donate.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "赠送",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_donate-00.png",
+          "sha256": "5dec0cebee59316d4553fac43b51f87a98edd1c32ec12a7463cbbfab872fb3e9",
+          "index": 0,
+          "nativeSize": [
+            63,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_donate-01.png",
+          "sha256": "dd1cc3e743f3ce527bd788a230d8a59bffa2c795d35b89c459d0d627fe34852c",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_donate-02.png",
+          "sha256": "6ba550b803a9613c64a30342ba8ecc98285ed363f288527750b0b1bd5a3fe97b",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_donate-03.png",
+          "sha256": "63631396c3f742fc3d182f9f80d0145d3614ca9a02d99193d357d92bc243b092",
+          "index": 3,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_forge.img",
+      "sha256": "9228049043086bc1ef59d4da051a26e9b944b03938319ff76521875a94b88261",
+      "nativePath": "object/ui/shop/btn_forge.img",
+      "sourceSha256": "4f71e6f6f345634e679501b752a1a92e2c32cdeacac98f2b76f700524194a628",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.forgeBtn",
+          "sourceFirstLine": 3604,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              582,
+              493,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/shop/btn_forge.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "锻造合成",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_forge-00.png",
+          "sha256": "84e069f861d3b0f94e357dcb73a06cfdb672ce95da120797c068960ca13a05b6",
+          "index": 0,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_forge-01.png",
+          "sha256": "0fe693a19524ed630bc7f71b273b6a2d2302033e1ec089438be622d30c4fd311",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_forge-02.png",
+          "sha256": "eb63bf4be409b5d1b8f21bce6390d6e521a033b8af2d237ba9659ee7fbd396ef",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_forge-03.png",
+          "sha256": "45ba24832c614a989599c32f8e0bf99a6414dcc23971cb13f48ddf44e40cf577",
+          "index": 3,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_recycler.img",
+      "sha256": "5c45fb254ff0373b1b33b98acdee784329ead497a58c4dd448c44a9b46977a49",
+      "nativePath": "object/ui/shop/btn_recycler.img",
+      "sourceSha256": "d0953b2be0867a9ccb890aaa8315e724fb0547fb0c7b8f8dee6d2721b701ad4b",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.recyclerBtn",
+          "sourceFirstLine": 3597,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              512,
+              493,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/shop/btn_recycler.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "收藏柜",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_recycler-00.png",
+          "sha256": "92eeaa88784d99fe2f8fc61cbc7453b8edf5cb59b79349be534941c43e26b11c",
+          "index": 0,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_recycler-01.png",
+          "sha256": "01b28aa1e0acf291e43b539d0995578da784f82fa643dab9194ea563002980e8",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_recycler-02.png",
+          "sha256": "c9b99e20b715762dcfe2f53a87f537359578d2802686f4f45a6c97bee017d7b3",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_recycler-03.png",
+          "sha256": "47a8a24718e3a0e4ec01e60982df87d39b0295dfe8feebeb3655abb43fb6262b",
+          "index": 3,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_repair.img",
+      "sha256": "05f81e59ce388577e59c1230eb5897419491611ce266ced5edc7d6d7b1bd140a",
+      "nativePath": "object/ui/shop/btn_repair.img",
+      "sourceSha256": "c593ed79b6d6f7c3ca8aa104be3df88e98a98eb043b8b8261d13cd41bf139ea7",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.repairDlg.children.repairBtn",
+          "sourceFirstLine": 3657,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              30,
+              309,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/shop/btn_repair.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "修复",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_repair-00.png",
+          "sha256": "bf854bb881a70dd82b2739241c585e1a6329cca745d109ee153d2deb719381c7",
+          "index": 0,
+          "nativeSize": [
+            63,
+            28
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_repair-01.png",
+          "sha256": "d622361470050dceb95fd584e437d600c55722f7dd9819306271937a73328e9f",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_repair-02.png",
+          "sha256": "fb7fe27c6140f79cd9bc2dae8d0ec2764d6876982d2ddda4b10360e899aedbe2",
+          "index": 2,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_repair-03.png",
+          "sha256": "4caa6bb0a0d363f884a6ef8c972006d6c7346fa278365498c0675337f0d70a1c",
+          "index": 3,
+          "nativeSize": [
+            63,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_require.img",
+      "sha256": "8a77cf492a363c544bb9632acdf1170be271a7cf4f19fc45a1e7c993145dd5ce",
+      "nativePath": "object/ui/shop/btn_require.img",
+      "sourceSha256": "0a1ffe69f2cc1e59f4a776576d4489aa8e19acbf294098216e2c71e5aa3a4da0",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.buyDlg.children.requireBtn",
+          "sourceFirstLine": 2967,
+          "bytecodeSha256": "81c833f71fc92f4bbe20a97ffb4da261b6781a903717d3d0c1458e8a264c507a",
+          "literalAssignments": {
+            "enable": 0,
+            "rect": [
+              27,
+              328,
+              63,
+              31
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/shop/btn_require.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "索要",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_require-00.png",
+          "sha256": "3713ff46796044e41b3d7bcb63cdeb007ce138768a760f6ff7946d46c9314d4f",
+          "index": 0,
+          "nativeSize": [
+            63,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_require-01.png",
+          "sha256": "fc9105377f65732c69cd506d69ce2b1ba1016cc841da0ae0da4d08fc55dd2bb3",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_require-02.png",
+          "sha256": "b5547c87e44d572d4ce73f60f5e7118f62a8eda5f585cc51271cf49d22b5120e",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_require-03.png",
+          "sha256": "6ad3bb6b9880818fd8b5e8185de9ffba237eb25698d5194e563857753c1699a7",
+          "index": 3,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_resume.img",
+      "sha256": "86e165b8bd7bd050638aaa4b2b5aa9f66964c5da469d1c2ec7cb4840045eab4a",
+      "nativePath": "object/ui/shop/btn_resume.img",
+      "sourceSha256": "7d28395e9da14d75450f201c5bca7ed61a8d29c40bdc1c2c47947c91254ec96c",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.recycler.children.resumeBtn",
+          "sourceFirstLine": 3797,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              83,
+              323,
+              69,
+              29
+            ],
+            "bkimage": "object/ui/shop/btn_resume.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "恢复",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_resume-00.png",
+          "sha256": "bc81ff06f1b975d002bea1242670eed0ff40a842af763d995d381d0768d660ea",
+          "index": 0,
+          "nativeSize": [
+            63,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_resume-01.png",
+          "sha256": "12104154528df5a912c5eb8b645c50768faa2f2ccf13c9b0fba984bda54fba33",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_resume-02.png",
+          "sha256": "802974ebe1c2625d1636d99cf67bdf5e812baa9e7cc9048b757d109dc2ccf1ad",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_resume-03.png",
+          "sha256": "1dc0918eb6116aec758b7afc26a0c6e421990585d0ad2639ca15f58a8aad496b",
+          "index": 3,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_saveEquip.img",
+      "sha256": "775c127f6f5aba4ebfcbbd2412cef0dcf64393b95f3441b7187c0db9cb4c9a33",
+      "nativePath": "object/ui/shop/btn_saveEquip.img",
+      "sourceSha256": "fe3530f0b6dd022297a398cdf0624c0f4e0af6461254bb9ec728381c1736dbf1",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.saveEquip",
+          "sourceFirstLine": 3244,
+          "bytecodeSha256": "ce65670b3f851fcddeb38afab5ce134e84a2e9b65430b0142320c0f575f4056d",
+          "literalAssignments": {
+            "initlayer": -99999,
+            "rect": [
+              720,
+              181,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/shop/btn_saveEquip.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "装备",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_saveEquip-00.png",
+          "sha256": "29fcf191f3e353da1c1ba293a0cdd792ae1576b7fab8f043252aab4214a4dd5e",
+          "index": 0,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_saveEquip-01.png",
+          "sha256": "c1d63014e450483410f274f45bae15e7f810a2b6f645ad5b44c82f287e567050",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_saveEquip-02.png",
+          "sha256": "d7fa04ba7fd4f63c590bd064d2cdcd90ec9edb596a081fa6273c5e6908c6ddb0",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_saveEquip-03.png",
+          "sha256": "2348bbcf5ad315fba02c4c7ba137d11ee124b2dfe411077eb88a30b9293c9d0c",
+          "index": 3,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/btn_storage.img",
+      "sha256": "53cc4082e7e4d243978fb8f87d2964bf7e1076912bc00048bd23074b243d062e",
+      "nativePath": "object/ui/shop/btn_storage.img",
+      "sourceSha256": "fb13bb81803aef98a4eb2f79e0fe6f9b0514cc894beeb5ad7eb10f226d755e2f",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.storageBtn",
+          "sourceFirstLine": 3426,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              442,
+              493,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/shop/btn_storage.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-button",
+      "caption": "背包",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_storage-00.png",
+          "sha256": "eda7071221313f9caa1b75d27a0ddc21d42f5293bf6281dd5ba56187573f4e4d",
+          "index": 0,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_storage-01.png",
+          "sha256": "88dee59740f4f75cb4ceba74385f5b4ca2fa8d16d7eee82e974ce2aee2659a81",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_storage-02.png",
+          "sha256": "c2055f92aeba312533a044f0425e4186bd11dd5676439b1346819cdfcecf1eeb",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/btn_storage-03.png",
+          "sha256": "3a0fa93db7f14ba4f0ab9b9ef3bb81568b5a4b579b5fe01dc31a803b95409dc8",
+          "index": 3,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_advice.img",
+      "sha256": "8764a9789491ea3d475399145f5313427ecc411bf4c675484fc5525347e436d1",
+      "nativePath": "object/ui/shop/tab_advice.img",
+      "sourceSha256": "11d08ed1c4af14f5dc3ee6ad4ea87f0a882c99b53fd3a0e4632e81e20121fca7",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.adviceTab",
+          "sourceFirstLine": 2473,
+          "bytecodeSha256": "16a9c88f48337486d288d5ccb836dfa4ad821d0a8090f4ec3c86347296e899bf",
+          "literalAssignments": {
+            "initlayer": 999,
+            "rect": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "hotrect": [
+              16,
+              7,
+              63,
+              28
+            ],
+            "hotcover": "object/ui/shop/tab_advice.img",
+            "groupstop": 0
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "推荐",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_advice-00.png",
+          "sha256": "8df3ae3a8b91a52eca39019306506bdb8fc6b171153b2f61cc13f7878d3005c4",
+          "index": 0,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_advice-01.png",
+          "sha256": "a8c9150504e9bff2a5cb2f2b2735344c33b7d3759f6412a4ea2dcdfd64ae9640",
+          "index": 1,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_func.img",
+      "sha256": "ceca574e0cc77fe19bd083de3b3e4bfb9908a5c44c1e2f8ab59b3ddd7cf7a811",
+      "nativePath": "object/ui/shop/tab_func.img",
+      "sourceSha256": "723cdd63ddfc1bfa8778ad88654d3606d0e1282a94af210aafaa075a2a01f98a",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.functionTab",
+          "sourceFirstLine": 2456,
+          "bytecodeSha256": "e8235672e01ab8dea8b4388153c860dbd85b118dff5cb7f78ff51f858a544f1b",
+          "literalAssignments": {
+            "initlayer": 999,
+            "rect": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "hotrect": [
+              82,
+              7,
+              63,
+              28
+            ],
+            "hotcover": "object/ui/shop/tab_func.img",
+            "groupstop": 1
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "功能",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_func-00.png",
+          "sha256": "f19bccd3c3649ee26a939dc7a260456b59b1a4380d01643af87ffe4011cfaa6f",
+          "index": 0,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_func-01.png",
+          "sha256": "d05c9e1a12f914132ee57ddc795dd308dc64f93c097a0377558417f1c6440428",
+          "index": 1,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_adorn.img",
+      "sha256": "2dc3fe31cb69847c15be8c1ca7b5c648c84d301f324bf81fed777dab4821e802",
+      "nativePath": "object/ui/shop/tab_adorn.img",
+      "sourceSha256": "a1af65df1ded343c91510461016d2c30af1d481eb965d133994082716a6a0658",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.costumeTab",
+          "sourceFirstLine": 2491,
+          "bytecodeSha256": "7f2547a965b1a49b7cfaef24507453831dca87e9c895c309b03179c02d3af50a",
+          "literalAssignments": {
+            "initlayer": 999,
+            "rect": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "hotrect": [
+              149,
+              7,
+              63,
+              28
+            ],
+            "hotcover": "object/ui/shop/tab_adorn.img",
+            "groupstop": 2
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "装饰",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_adorn-00.png",
+          "sha256": "cfab549ab2fb91b1902e2f90c6746777d7fcc7558cad77df2b4fdb2e4258aec8",
+          "index": 0,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_adorn-01.png",
+          "sha256": "d5d7f791d11af2a0906c6f898bdaa0fd3544f7e59d6b04e7949faa095af88889",
+          "index": 1,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_equip.img",
+      "sha256": "d5fde09f88ea59eef92f5a7652491fbf9eb7f8ad2dd87b9975fd6a5bb01cef4e",
+      "nativePath": "object/ui/shop/tab_equip.img",
+      "sourceSha256": "4ed651a27dabf5f601b18f2e0e194caa66dde40765f364366124aeeb6c095a9d",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.equipTab",
+          "sourceFirstLine": 2509,
+          "bytecodeSha256": "7f2547a965b1a49b7cfaef24507453831dca87e9c895c309b03179c02d3af50a",
+          "literalAssignments": {
+            "initlayer": 999,
+            "rect": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "hotrect": [
+              216,
+              7,
+              63,
+              28
+            ],
+            "hotcover": "object/ui/shop/tab_equip.img",
+            "groupstop": 3
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "装备",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_equip-00.png",
+          "sha256": "0cd2eb44d4cd3c478cdbbd72e628a74072f41c5bff5d73a6219092547b15126d",
+          "index": 0,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_equip-01.png",
+          "sha256": "9789017e3b18e0841894384c906cbe3d0f3bf3682b208caf000560caf21818f1",
+          "index": 1,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_pet.img",
+      "sha256": "10f06041faeb455894e514037a6f9d52b6db31fced46b296dab103782c15844f",
+      "nativePath": "object/ui/shop/tab_pet.img",
+      "sourceSha256": "b66cfa7c9d12d4d9bf4eb1c4d6795f89021348ae6769890e249ac7162cf88491",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.petTab",
+          "sourceFirstLine": 2526,
+          "bytecodeSha256": "7f2547a965b1a49b7cfaef24507453831dca87e9c895c309b03179c02d3af50a",
+          "literalAssignments": {
+            "initlayer": 999,
+            "rect": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "hotrect": [
+              283,
+              7,
+              63,
+              28
+            ],
+            "hotcover": "object/ui/shop/tab_pet.img",
+            "groupstop": 4
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "宠物",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_pet-00.png",
+          "sha256": "b618a4507aae4f38bb2074ec969ab3992653aaf92c2fba6021b76ebe17ed54d0",
+          "index": 0,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_pet-01.png",
+          "sha256": "ba7f65d215125aa9457720b0e11542aa396dbfb2d23fc69920c2245fddfda205",
+          "index": 1,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_zizuan.img",
+      "sha256": "daa2b15c8811721729683f56be4a5d4f7766871b7b983de651f227019062bfa8",
+      "nativePath": "object/ui/shop/tab_zizuan.img",
+      "sourceSha256": "cca1b6e981963809aee5dccf3a6a787b6046f270ac1a33f3e7f5fb688171482f",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.purplediamondTab",
+          "sourceFirstLine": 2543,
+          "bytecodeSha256": "7f2547a965b1a49b7cfaef24507453831dca87e9c895c309b03179c02d3af50a",
+          "literalAssignments": {
+            "initlayer": 999,
+            "rect": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "hotrect": [
+              350,
+              7,
+              63,
+              28
+            ],
+            "hotcover": "object/ui/shop/tab_zizuan.img",
+            "groupstop": 5
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": null,
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_zizuan-00.png",
+          "sha256": "64a78700dcceab65dab4337563a1faf850d7c14ef2bef18b5dbcf8a7fff0bc13",
+          "index": 0,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_zizuan-01.png",
+          "sha256": "a0598b9274d5fde337691df21c8891535cac1712d215f82b4868484787cb28cd",
+          "index": 1,
+          "nativeSize": [
+            65,
+            25
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_itemFunc.img",
+      "sha256": "0cf1416c1c242fa5a174748cd2d63a719c725bfb1dc3097211412f8eb1019e79",
+      "nativePath": "object/ui/shop/tab_itemFunc.img",
+      "sourceSha256": "11a6a957134e0796c723ff0779235b759653544c064bb5864af4524241e67927",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.myFunction",
+          "sourceFirstLine": 3266,
+          "bytecodeSha256": "05960880956a755152507fdc3ea6c341776769015531979ab939e065c60ca674",
+          "literalAssignments": {
+            "initlayer": -9999,
+            "hotrect": [
+              436,
+              243,
+              57,
+              30
+            ],
+            "hotcover": "object/ui/shop/tab_itemFunc.img",
+            "groupid": 1,
+            "groupstop": 0
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "功能",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_itemFunc-00.png",
+          "sha256": "9de9c5d0d5c38aa2f07aefbbbda2eda970271c6c84a9bed8d92efa9ccd8371f0",
+          "index": 0,
+          "nativeSize": [
+            57,
+            21
+          ],
+          "frameOffset": [
+            0,
+            9
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_itemFunc-01.png",
+          "sha256": "4f683063621517ad4ecab97792f827707c3bb7e73ffdea2e1e9f2077a0c7c432",
+          "index": 1,
+          "nativeSize": [
+            57,
+            21
+          ],
+          "frameOffset": [
+            0,
+            9
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_itemAdorn.img",
+      "sha256": "9907702dce0240f8abc88cf3e7ca0bf01bc4fd03d703ef6248c35dc9474e43ef",
+      "nativePath": "object/ui/shop/tab_itemAdorn.img",
+      "sourceSha256": "ec7f7cc6465a41a06c78841652a183bee616136d007d3e267b87ba52d6736036",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.myCostume",
+          "sourceFirstLine": 3275,
+          "bytecodeSha256": "9b47005bcefb717c873773248effc4b835dbd1c4aedd6723dd9e38b16858795b",
+          "literalAssignments": {
+            "hotrect": [
+              495,
+              243,
+              57,
+              30
+            ],
+            "hotcover": "object/ui/shop/tab_itemAdorn.img",
+            "groupstop": 1
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "装饰",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_itemAdorn-00.png",
+          "sha256": "fede21d4c5a0debc100d8fe193ca22999ce9b79876df2b92ac0200ead8f50bc1",
+          "index": 0,
+          "nativeSize": [
+            57,
+            21
+          ],
+          "frameOffset": [
+            0,
+            9
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_itemAdorn-01.png",
+          "sha256": "0021b63706db7af25bc6bd42c085f8f46f9de59f16df95232d9f757fee89f8cb",
+          "index": 1,
+          "nativeSize": [
+            57,
+            21
+          ],
+          "frameOffset": [
+            0,
+            9
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/shop-controls-reference/candidate/patch/object/ui/shop/tab_itemEquip.img",
+      "sha256": "fc4e3e0f482f5c41e69a98c0369b39644981a33780de1dfe61b2bc489a2f4675",
+      "nativePath": "object/ui/shop/tab_itemEquip.img",
+      "sourceSha256": "edf48f7b12089bac127a871a6d2d4b2c756117b1c8fff3ae53115af595875ed2",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.myEquip",
+          "sourceFirstLine": 3282,
+          "bytecodeSha256": "9b47005bcefb717c873773248effc4b835dbd1c4aedd6723dd9e38b16858795b",
+          "literalAssignments": {
+            "hotrect": [
+              554,
+              243,
+              57,
+              30
+            ],
+            "hotcover": "object/ui/shop/tab_itemEquip.img",
+            "groupstop": 2
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "shop-tab",
+      "caption": "装备",
+      "captionEvidence": "Read from decoded native rasters; original blank tab remains blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_itemEquip-00.png",
+          "sha256": "1056f20d6144fb4d39ea614a27fbe13629cb2d30d561360eea47e0a0ce2ecc9c",
+          "index": 0,
+          "nativeSize": [
+            57,
+            21
+          ],
+          "frameOffset": [
+            0,
+            9
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/shop-controls-reference/candidate/decoded/tab_itemEquip-01.png",
+          "sha256": "9be49a7b0a2addccde7494838934fa50ac23c7993627469f6a8d4ee088707fd9",
+          "index": 1,
+          "nativeSize": [
+            57,
+            21
+          ],
+          "frameOffset": [
+            0,
+            9
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    }
+  ],
+  "preview": {
+    "file": "assets/native-client-ui/shop-controls-reference/candidate/contact-native-2x.png",
+    "sha256": "b700f72f5fa5358c4c2a399a5bb9b9212047e7882e685ce94de6ea5c1935df7c"
+  },
+  "nativeResources": 20,
+  "sourcePositions": 62,
+  "newModelGeneration": false,
+  "nativeGeometryRetained": true,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false,
+  "installedToClient": false
+}

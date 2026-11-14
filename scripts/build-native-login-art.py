@@ -1,4 +1,4 @@
-"""Build native login and shared button resources from the project's existing painted art."""
+"""Build native UI resources from the project's existing painted art."""
 import argparse
 import hashlib
 import importlib.util
@@ -21,6 +21,14 @@ post_spec.loader.exec_module(postlogin_art)
 core_spec = importlib.util.spec_from_file_location('core_art', ROOT/'scripts/native-ui-core-art.py')
 core_art = importlib.util.module_from_spec(core_spec)
 core_spec.loader.exec_module(core_art)
+MODULES = {'common': 'native-ui-common-art.py', 'room-controls': 'native-ui-room-controls-art.py',
+           'shop-controls': 'native-ui-shop-controls-art.py', 'game-controls':'native-ui-game-controls-art.py'}
+EXTRA_ART = {}
+for name, filename in MODULES.items():
+    module_spec = importlib.util.spec_from_file_location(name.replace('-', '_'), ROOT/'scripts'/filename)
+    module = importlib.util.module_from_spec(module_spec)
+    module_spec.loader.exec_module(module)
+    EXTRA_ART[name] = module
 PATHS = {
     'ui/selSect/bg_login.img': ('background', None),
     'object/ui/login/img_logo.img': ('logo', None),
@@ -34,6 +42,10 @@ PATHS = {
 }
 PATHS.update(postlogin_art.PATHS)
 PATHS.update(core_art.PATHS)
+for module in EXTRA_ART.values():
+    if PATHS.keys() & module.PATHS.keys():
+        raise ValueError('Two UI renderers target the same native resource')
+    PATHS.update(module.PATHS)
 PAINTS = {
     'background': 'assets/qqtang-world-v2.png',
     'logo': 'assets/branding/linghu-wordmark-login-1024.png',
@@ -43,6 +55,8 @@ PAINTS = {
     'pressed': 'assets/ui/primary-pressed.png',
     'cross': 'assets/ui/action-icons-20261112/close.png',
 }
+for module in EXTRA_ART.values():
+    PAINTS.update(getattr(module, 'PAINT_INPUTS', {}))
 
 
 def record(path):
@@ -88,6 +102,9 @@ def nine_slice(image, size, inset):
 
 
 def artwork(kind, label, index, size, paints, font_path, frame_count):
+    for name, module in EXTRA_ART.items():
+        if kind.startswith(name.split('-')[0] + '-'):
+            return module.render(kind, label, index, size, paints, font_path, nine_slice, scaled)
     if kind.startswith('core-'):
         return core_art.render(kind, label, index, size, paints, font_path, nine_slice, scaled)
     if kind.startswith('post-'):
@@ -153,6 +170,9 @@ def main():
     postlogin_references = {e['nativePath'].lower():e for e in json.loads(postlogin_reference_path.read_bytes())['resources']}
     core_reference_path = ROOT/'assets/native-client-ui/core-reference/manifest.json'
     core_references = {e['nativePath'].lower():e for e in json.loads(core_reference_path.read_bytes())['resources']}
+    extra_reference_paths = {name:ROOT/f'assets/native-client-ui/{name}-reference/manifest.json' for name in EXTRA_ART}
+    extra_references = {name:{e['nativePath'].lower():e for e in json.loads(path.read_bytes())['resources']}
+                        for name,path in extra_reference_paths.items()}
     sources, items = [], []
     with zipfile.ZipFile(archive_path) as archive:
         for native_path, (kind, label) in PATHS.items():
@@ -163,7 +183,8 @@ def main():
             if packed and codec.reader.unpack_resource(package, packed)[0] != original:
                 raise ValueError('Loose and packaged source art differ')
             metadata, first = codec.reader.inspect_dimg(original)
-            reference_path = HERE / 'references' / f'{Path(native_path).stem}-frame0.png'
+            artifact_name = native_path.removesuffix('.img').replace('/', '__')
+            reference_path = HERE / 'references' / f'{artifact_name}-frame0.png'
             save_image(reference_path, Image.frombytes('RGBA', (first['width'], first['height']), first['pixels']), check)
             pictures = {f['index']: artwork(kind, label, f['index'], (f['width'], f['height']), paints, font_path, metadata['frameCount'])
                         for f in metadata['frames'] if not f['empty']}
@@ -189,6 +210,14 @@ def main():
                 if core_reference['sourceSha256'] != reference['sourceSha256']:
                     raise ValueError('Core reference differs from the packed native source')
                 reference['staticCoreBindings'] = core_reference['sourceBindings']
+            for name, references in extra_references.items():
+                extra_reference = references.get(native_path.lower())
+                if extra_reference:
+                    if extra_reference['sourceSha256'] != reference['sourceSha256']:
+                        raise ValueError(f'{name} source hash differs from the native resource')
+                    reference.setdefault('additionalStaticReferences', []).append({
+                        'group':name, 'manifest':record(extra_reference_paths[name]),
+                        'sourceBindings':extra_reference.get('sourceBindings', extra_reference.get('bindings', []))})
             for scope in declarations['scopes']:
                 literals = {e['name']:e['literalValue'] for e in scope['literalAssignments']}
                 if any(c.get('type') == 'bytes' and c.get('text') == native_path for c in scope['constants']):
@@ -197,7 +226,7 @@ def main():
             sources.append(reference)
             exported = []
             for frame, image in frames:
-                path = HERE / 'decoded' / f'{Path(native_path).stem}-{frame["index"]:02d}.png'
+                path = HERE / 'decoded' / f'{artifact_name}-{frame["index"]:02d}.png'
                 save_image(path, image, check)
                 exported.append({**record(path), 'index': frame['index'], 'width': image.width, 'height': image.height,
                                  'pixelMode': frame['pixelMode'], 'frameOffset': frame['frameOffset']})
@@ -208,13 +237,20 @@ def main():
     save_json(HERE/'source-contract.json', {'schemaVersion': 1, 'sourceArchiveSha256': ARCHIVE_SHA,
               'sourcePackage': record(package_path), 'sourceIndex': record(index_path),
               'staticUiDeclarations': record(declarations_path), 'staticPostLoginReferences': record(postlogin_reference_path),
-              'staticCoreReferences': record(core_reference_path), 'items': sources}, check)
-    manifest = {'schemaVersion': 1, 'scope': 'Native QQTang main screen backgrounds, selected controls and setup surface',
+              'staticCoreReferences': record(core_reference_path),
+              'additionalStaticReferences':[record(path) for path in extra_reference_paths.values()], 'items': sources}, check)
+    manifest = {'schemaVersion': 1, 'scope': 'Native QQTang main screens, common controls, room and shop UI',
                 'sourceContract': record(HERE/'source-contract.json'), 'items': items,
                 'paintInputs': [record(ROOT/path) for path in PAINTS.values()],
                 'rendererSources': [record(ROOT/'scripts'/name) for name in (
-                    'build-native-login-art.py', 'native-ui-format.py', 'native-ui-postlogin-art.py', 'native-ui-core-art.py')],
+                    'build-native-login-art.py', 'native-ui-format.py', 'native-ui-postlogin-art.py', 'native-ui-core-art.py',
+                    *MODULES.values())],
                 'textRasterFont': {'family': 'Microsoft YaHei', 'sha256': hashlib.sha256(font_path.read_bytes()).hexdigest()},
+                'additionalRasterFonts': [{'group':name,'purpose':purpose,'filename':Path(filename).name,
+                    'sha256':hashlib.sha256(Path(filename).read_bytes()).hexdigest()}
+                    for name,module in EXTRA_ART.items() for purpose,filename in getattr(module,'FONT_INPUTS',{}).items()],
+                'structuralAlphaInputs': [{'group':name,'purpose':purpose,**record(ROOT/filename)}
+                    for name,module in EXTRA_ART.items() for purpose,filename in getattr(module,'STRUCTURAL_ALPHA_INPUTS',{}).items()],
                 'operation': 'Existing original painted UI sliced and text rendered at native control dimensions, then encoded into original DIMG pixel modes.',
                 'newModelGeneration': False, 'visualAccepted': False, 'nativeRuntimeVerified': False}
     save_json(HERE/'manifest.json', manifest, check)
