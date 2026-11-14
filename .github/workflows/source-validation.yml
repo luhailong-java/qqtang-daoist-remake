@@ -3,6 +3,8 @@ on:
   push:
     branches: ["codex/**"]
     paths:
+      - "assets/**"
+      - "references/**"
       - "src/**"
       - "server/**"
       - "scripts/**"

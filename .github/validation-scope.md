@@ -1,5 +1,9 @@
 # 源码验证分支的固定范围
 
+2026-11-14补充：主验证工作流现在也由 `assets/**` 和 `references/**` 变更自动触发。原生美术、PNG规格、源数据合同及资源哈希均是现有检查的输入，不能只把脚本／测试文件列入触发条件。此次4053文件美术提交没有自动产生运行，手动dispatch又返回403，因此以小批工作流修正触发验证。GitHub的路径筛选对大型diff有文件数上限，范围外的素材排在前面时，脚本变更可能未进入参与筛选的文件集合；见[官方路径筛选说明](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#git-diff-comparisons)。实际原因仍以远端事件／运行结果为准。
+
+以下10月小批范围是历史记录；本次主分支已发布的原生美术参与现有规格／哈希检查。19项本地图像格式测试包括两张真实私有源GIF回归，公开CI没有该ZIP时只跳过该一项，合成兼容位与篡改检查仍执行。CI通过不表示原客户端运行、用户视觉、全部UI或整款美术验收通过。
+
 2026-10-28。此验证小批基于公开首批`6ea487b8b8fe316eff28f371f2e83d243eeab25b`，保留其已发布素材；只加入当前src/server、测试、列出的解析／导出工具与HTML。工作区正在制作的新增美术不纳入这次源码验证，不把部分源码检查称全部美术或整款游戏验收。
 
 目标账号是用户已授权的luhailong-java，2026-10-28再次以现有本机Git凭据核对API账号ID300703237、public仓库及push权限；既有scope包含repo/workflow，没有新增登录或变更凭据。上传独立`codex/art-validation-20261028`分支，默认`codex/initial-public`保持原发布状态。固定提交／tree与逐文件输入SHA另存本机忽略的`.artifacts/remote-ci/`；不用切换工作分支或共享index捕捉在途美术。
