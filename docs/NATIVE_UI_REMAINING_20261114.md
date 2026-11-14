@@ -1,25 +1,26 @@
 # 原生 UI 剩余覆盖
 
-本次显式读取 3 份转换清单和 1 份静态安装回执。源目录共 4223 个路径，其中 4209 份图像。当前有 896 个同名原生资源导出，安装回执覆盖 896 个路径，其中 896 个与当前导出 SHA 一致。
+本次显式读取 3 份转换清单和 1 份静态安装回执。源目录共 4223 个路径，其中 4210 份图像。当前有 1420 个同名原生资源导出，安装回执覆盖 1420 个路径，其中 1420 个与当前导出 SHA 一致。
 
 | 来源组 | 源图像路径 | 已转换 | 回执已装 | 图像仍待转换 |
 |---|---:|---:|---:|---:|
-| object/ui | 773 | 312 | 312 | 461 |
-| ui | 14 | 1 | 1 | 13 |
+| object/ui | 774 | 774 | 774 | 0 |
+| ui | 14 | 14 | 14 | 0 |
 | res/uiRes/icon | 3205 | 583 | 583 | 2622 |
-| res/uiRes other | 217 | 0 | 0 | 217 |
+| res/uiRes other | 217 | 49 | 49 | 168 |
 
 图标行统计物品库存、角色头像等图像路径；其余三行统计界面图像。文件路径覆盖与整页、所有控件状态、动态文字和实际交互分别验收。静态安装回执也保留运行与用户画面审核的待验状态。
 
 | 原生子组 | 源图像 | 已转换 | 回执已装 | 待转换 |
 |---|---:|---:|---:|---:|
+| loose/object/ui/cursor | 1 | 1 | 1 | 0 |
 | loose/object/ui/login | 1 | 1 | 1 | 0 |
-| loose/res/uiRes | 2 | 0 | 0 | 2 |
-| loose/res/uiRes/face | 5 | 0 | 0 | 5 |
+| loose/res/uiRes | 2 | 2 | 2 | 0 |
+| loose/res/uiRes/face | 5 | 5 | 5 | 0 |
 | loose/res/uiRes/face/faces | 144 | 0 | 0 | 144 |
 | loose/res/uiRes/face/faces/member | 24 | 0 | 0 | 24 |
-| loose/res/uiRes/game | 3 | 0 | 0 | 3 |
-| loose/res/uiRes/gameChat | 8 | 0 | 0 | 8 |
+| loose/res/uiRes/game | 3 | 3 | 3 | 0 |
+| loose/res/uiRes/gameChat | 8 | 8 | 8 | 0 |
 | loose/res/uiRes/icon/bg | 395 | 6 | 6 | 389 |
 | loose/res/uiRes/icon/bomb | 295 | 24 | 24 | 271 |
 | loose/res/uiRes/icon/cap | 447 | 42 | 42 | 405 |
@@ -49,36 +50,36 @@
 | loose/res/uiRes/icon/platform | 37 | 29 | 29 | 8 |
 | loose/res/uiRes/icon/skill | 80 | 80 | 80 | 0 |
 | loose/res/uiRes/icon/thadorn | 35 | 35 | 35 | 0 |
-| loose/res/uiRes/number | 4 | 0 | 0 | 4 |
-| loose/res/uiRes/selRoom | 2 | 0 | 0 | 2 |
-| loose/res/uiRes/selRoom/icon | 6 | 0 | 0 | 6 |
-| loose/res/uiRes/selRoom/mapFilter | 1 | 0 | 0 | 1 |
-| loose/res/uiRes/selRoom/recorder | 9 | 0 | 0 | 9 |
-| loose/res/uiRes/selRoom/room | 1 | 0 | 0 | 1 |
-| loose/res/uiRes/selSect | 7 | 0 | 0 | 7 |
-| loose/res/uiRes/shop | 1 | 0 | 0 | 1 |
-| loose/ui/pawnshop | 1 | 0 | 0 | 1 |
-| loose/ui/selSect | 13 | 1 | 1 | 12 |
+| loose/res/uiRes/number | 4 | 4 | 4 | 0 |
+| loose/res/uiRes/selRoom | 2 | 2 | 2 | 0 |
+| loose/res/uiRes/selRoom/icon | 6 | 6 | 6 | 0 |
+| loose/res/uiRes/selRoom/mapFilter | 1 | 1 | 1 | 0 |
+| loose/res/uiRes/selRoom/recorder | 9 | 9 | 9 | 0 |
+| loose/res/uiRes/selRoom/room | 1 | 1 | 1 | 0 |
+| loose/res/uiRes/selSect | 7 | 7 | 7 | 0 |
+| loose/res/uiRes/shop | 1 | 1 | 1 | 0 |
+| loose/ui/pawnshop | 1 | 1 | 1 | 0 |
+| loose/ui/selSect | 13 | 13 | 13 | 0 |
 | packed/object/ui/bg | 6 | 6 | 6 | 0 |
 | packed/object/ui/chat | 15 | 15 | 15 | 0 |
 | packed/object/ui/chatRoom | 12 | 12 | 12 | 0 |
 | packed/object/ui/common | 28 | 28 | 28 | 0 |
-| packed/object/ui/cursor | 2 | 0 | 0 | 2 |
+| packed/object/ui/cursor | 2 | 2 | 2 | 0 |
 | packed/object/ui/deal | 20 | 20 | 20 | 0 |
 | packed/object/ui/forge | 21 | 21 | 21 | 0 |
 | packed/object/ui/game | 25 | 25 | 25 | 0 |
-| packed/object/ui/guideBar | 75 | 26 | 26 | 49 |
-| packed/object/ui/kinTotem | 49 | 0 | 0 | 49 |
-| packed/object/ui/level | 72 | 0 | 0 | 72 |
+| packed/object/ui/guideBar | 75 | 75 | 75 | 0 |
+| packed/object/ui/kinTotem | 49 | 49 | 49 | 0 |
+| packed/object/ui/level | 72 | 72 | 72 | 0 |
 | packed/object/ui/login | 12 | 12 | 12 | 0 |
-| packed/object/ui/map | 17 | 0 | 0 | 17 |
-| packed/object/ui/marriage | 45 | 0 | 0 | 45 |
+| packed/object/ui/map | 17 | 17 | 17 | 0 |
+| packed/object/ui/marriage | 45 | 45 | 45 | 0 |
 | packed/object/ui/pet | 23 | 23 | 23 | 0 |
 | packed/object/ui/record | 2 | 2 | 2 | 0 |
-| packed/object/ui/room | 133 | 18 | 18 | 115 |
+| packed/object/ui/room | 133 | 133 | 133 | 0 |
 | packed/object/ui/selRoom | 33 | 33 | 33 | 0 |
 | packed/object/ui/selSect | 18 | 18 | 18 | 0 |
-| packed/object/ui/shop | 132 | 20 | 20 | 112 |
+| packed/object/ui/shop | 132 | 132 | 132 | 0 |
 | packed/object/ui/storage | 9 | 9 | 9 | 0 |
 | packed/object/ui/task | 13 | 13 | 13 | 0 |
 | packed/object/ui/web | 10 | 10 | 10 | 0 |

@@ -1,6 +1,6 @@
 """Audit native source-path coverage from any number of explicit export manifests."""
 import argparse
-import ast
+import importlib.util
 from collections import Counter, defaultdict
 import hashlib
 import json
@@ -73,14 +73,14 @@ def summarize(source, converted, installed):
 def renderer_paths():
     declared = defaultdict(list)
     for path in sorted((ROOT / 'scripts').glob('native-ui-*-art.py')):
-        tree = ast.parse(path.read_bytes(), filename=str(path))
-        for node in tree.body:
-            if not isinstance(node, ast.Assign) or not any(isinstance(t, ast.Name) and t.id == 'PATHS' for t in node.targets):
-                continue
-            values = ast.literal_eval(node.value)
-            for native, definition in values.items():
-                declared[key(native)].append({'renderer': record(path), 'nativePath': native,
-                                              'rendererKind': definition[0], 'caption': definition[1]})
+        # These are our project renderers, already used by the native exporter.
+        # Import declarations so literal tables, comprehensions and own JSON joins
+        # are all covered. No source-client Python, executable or render function runs.
+        spec=importlib.util.spec_from_file_location('coverage_'+path.stem.replace('-','_'),path)
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        for native, definition in module.PATHS.items():
+            declared[key(native)].append({'renderer': record(path), 'nativePath': native,
+                                          'rendererKind': definition[0], 'caption': definition[1]})
     return declared
 
 
@@ -96,6 +96,18 @@ def main():
     census = read(source_path)
     source = census['resources']
     by_path = {r['canonicalPath']: r for r in source}
+    refinements_path=ROOT/'references/qqtang-ui-data/native-ui-format-refinements-20261114.json'
+    format_refinements=[]
+    if refinements_path.is_file():
+        refinements=read(refinements_path)
+        if refinements['sourceCensus']!=record(source_path):
+            raise ValueError('Format refinement uses a different historical source census')
+        for refinement in refinements['refinements']:
+            original=by_path[refinement['canonicalPath']]
+            if original['sourceSha256']!=refinement['sourceSha256'] or original['format']!=refinement['previousFormat']:
+                raise ValueError('Format refinement source identity differs')
+            original.update({k:refinement[k] for k in ('format','metadata','metadataVerified','reason')})
+        format_refinements.append(record(refinements_path))
     converted, installed, outside_receipt_resources = {}, {}, []
     manifests, receipts, pending = [], [], []
     for relative in args.manifest:
@@ -154,7 +166,8 @@ def main():
     pending = [item for item in pending if key(item.get('nativePath', '')) not in converted]
     body = {
         'schemaVersion': 1, 'capturedOn': '2026-11-14', 'auditScript': record(Path(__file__)),
-        'sourceCensus': record(source_path), 'exportManifests': manifests, 'installedReceipts': receipts,
+        'sourceCensus': record(source_path), 'sourceFormatRefinements':format_refinements,
+        'exportManifests': manifests, 'installedReceipts': receipts,
         'sourceScope': 'Native object/ui, ui and res/uiRes graphic/resource paths from the pinned archive',
         'summary': summarize(source, converted, installed), 'broadGroups': broad, 'detailGroups': rows,
         'convertedPaths': sorted(converted), 'installedReceiptPaths': sorted(installed),

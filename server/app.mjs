@@ -9,7 +9,7 @@ const ROOT=path.resolve(import.meta.dirname,'..');
 const MAX_BODY=8192, MAX_ROOMS=30, MAX_SESSIONS=100;
 const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8',
   '.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8',
-  '.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml',
+  '.png':'image/png','.gif':'image/gif','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml',
   '.wav':'audio/wav','.webp':'image/webp','.woff2':'font/woff2','.md':'text/plain; charset=utf-8'};
 class ApiError extends Error {
   constructor(status,message,code='BAD_REQUEST'){super(message);this.status=status;this.code=code;}
@@ -40,7 +40,7 @@ export function createAppServer({port=4387,host='127.0.0.1',tickMs=50}={}){
     }
     return {session:publicSession(session),rooms:roomList(),currentRoom,characters:characters(),modes:modes(),
       mapDirectory:{url:'/api/maps',sourceMapCount:mapCatalog.maps.length,candidatePlayableCount:mapCatalog.maps.filter(m=>m.playable).length,defaultMap:'source-201'},
-      server:{name:'QQ堂重制本地服务',version:'0.2.0',transport:'HTTP + SSE',authoritative:true,startedAt,
+      server:{name:'灵葫大作战本地服务',version:'0.2.0',transport:'HTTP + SSE',authoritative:true,startedAt,
         note:'独立重制开发服务，不连接腾讯原运营服务器'}};
   }
   function event(res,data){if(!res.destroyed&&!res.writableEnded)res.write(`event: data\ndata: ${JSON.stringify(data)}\n\n`);}

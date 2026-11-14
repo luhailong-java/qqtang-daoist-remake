@@ -1,26 +1,19 @@
 # 统一原生图片安装包
 
-2026-11-14。此包聚合已经导出的自有图片：313 件 UI／754 个位置、583 个库存图标／602 个位置、五件头饰的十个世界资源／240 个位置，以及 52 件地图元素／116 个位置。合计 958 个原生资源、1,712 个源位置，已安装到用户提供的 QQTang-Local 目录并完整回读。 [清单](manifest.json) · [原格式合同](source-contract.json) · [安装证据](../../../docs/native-client-installation-20261114.json)
+2026-11-14。当前统一包 **1,482个资源／2,548个非空位置**：UI837／1590、库存583／602、五件头饰世界10／240、地图52／116。实际用户目录已升级并完整回读，UI另保留1个结构空位。 [清单](manifest.json) · [源合同](source-contract.json) · [实际回读](../../../docs/native-client-installation-20261114.json)
 
-地图源包与 UI 共用 object.pkg／object.idx，因此不能用一个独立的原始地图包覆盖当前 UI。本次先逐批安全恢复已校验的原文件，再统一安装当前图片清单。363 个包内条目指向新的自有 zlib 流，原包作为完整前缀保留；其余 3,119 个索引条目不变。另安装 595 个松散图像文件。原文件备份统一位于项目忽略目录 `.artifacts/native-client-ui-backup/review-v1/` 的客户端专属子目录。
+包保留原object.pkg完整前缀，824条索引指向自有zlib流，其他2,658条不变；另替换658个松散图像。总660个实际文件备份在项目忽略的 `.artifacts/native-client-ui-backup/review-v1/` 客户端专属子目录。Client.exe不变。独立非执行副本已验证安装、重复执行、全量回读和恢复，实际客户端未运行。
 
-地图共导出 120 件候选／224 个源位置，此包只采用其中 52 件。13 件源不透明而新稿透明、59 件可见包络差异的警告保留在原清单中，合并去重后 68 件未默认安装；六件缺完整序列未导出。自有头饰采用完整已注册四倍帧整体降采样；库存图标采用可见内容等比适配，两类不能混用裁边方法。3941 的原不透明尾部按清单作兼容封装，实际运行仍待验。 [地图候选](../../native-client-maps/town-common-v1/manifest.json) · [头饰](../../native-client-heads/world-v1/README.md)
+地图120件／224位候选中只默认安装52件／116位；68件Alpha包络或不透明性警告仍排除，6件缺序列未导出。头饰保留注册后的完整四倍帧整体降采样；库存按可见内容等比适配，两者不能混用。3941库存的版本／尾部兼容封装例外仍待运行。TGA保留原头尾与方向，GIF保留原时间属性和C4控制位，调色板／LZW长度允许变化。 [格式](../../../docs/NATIVE_UI_FORMATS_20261114.md)
 
-安装器默认使用此统一清单。验证当前安装及重新核对构建可执行：
-
-```powershell
-python -B scripts/build-native-art-bundle.py --maps-manifest assets/native-client-maps/town-common-v1/manifest.json --check
-python -B scripts/install-native-ui.py --client-root "$env:USERPROFILE\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local\runtime\client-patched"
-```
-
-恢复本批全部图片：
+验证及恢复：
 
 ```powershell
-python -B scripts/install-native-ui.py --client-root "$env:USERPROFILE\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local\runtime\client-patched" --restore
+python scripts/build-native-art-bundle.py --check
+python scripts/install-native-ui.py --client-root "$env:USERPROFILE\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local\runtime\client-patched"
+python scripts/install-native-ui.py --client-root "$env:USERPROFILE\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local\runtime\client-patched" --restore
 ```
 
-共享消息链接的文字及描边颜色使用单独的 UI 数据补丁，图片恢复不会恢复该数据。该补丁只变一个共享颜色整数，全部 830 个代码段、网址、文案和回调保持原值。 [颜色数据与独立恢复](../../native-client-ui/text-color-v1/README.md)
+共享链接颜色和五份UI文字数据独立于图片安装包。文字层9个展示常量、2,257个代码段及网址保留证明另记；图片恢复不撤回数据层。撤回数据时先文字工具、再颜色工具，颜色工具不会直接覆盖132ffe组合版本。 [文字及恢复](../../native-client-ui/brand-text-v1/README.md) · [颜色及恢复](../../native-client-ui/text-color-v1/README.md)
 
-全部原生 UI 和整款美术均未完成。已知 UI 图像目录还有 3,313 个路径未转换，其余人物动作、装扮、地图、怪物、特效、音频及运行验收继续待补，不能把此包当成整款终验。 [逐组差额](../../../docs/NATIVE_UI_REMAINING_20261114.md)
-
-主题文案另有五份UI数据文件、九个展示常量已独立安装；2,257个代码段及网址不变。图片恢复不恢复文字或颜色层。完整撤回这两层数据时，先运行native-ui-brand-data.py --restore，再运行native-ui-color-data.py --restore；文字恢复保留54b颜色中间基线，颜色工具不会直接覆盖132ffe文字版。 [文字数据及回读](../../native-client-ui/brand-text-v1/README.md)
+**原生全部UI和整款美术仍未完成。** 包内772个UI图像已覆盖，非库存UI仍缺168个表情，库存仍缺2622个图像路径；人物完整动作、其余装扮、地图全态、怪物、特效、音频及运行验收继续待补。 [最新差额](../../../docs/NATIVE_UI_REMAINING_20261114.md) · [完整交付](../../../docs/ART_DELIVERY_20261114.md)

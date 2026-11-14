@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "scope": "Native graphic resources only; no original code, text constants or runtime callbacks changed",
+  "groups": [
+    {
+      "group": "guidebar",
+      "nativeResources": 49,
+      "sourcePositions": 83
+    },
+    {
+      "group": "marriage",
+      "nativeResources": 45,
+      "sourcePositions": 92
+    }
+  ],
+  "sourceReferences": {
+    "file": "assets/native-client-ui/social-marriage-reference/manifest.json",
+    "sha256": "6a25bb6262529f10b9da5c1f1f38a5420ed075761675d96a9fd1bae903a2c18c"
+  },
+  "layoutEvidence": {
+    "file": "assets/native-client-ui/social-marriage-reference/layout-evidence.json",
+    "sha256": "adf4a76d59be876ae77213152399c24de390503c0e121bc79bad4774732e94da"
+  },
+  "formats": {
+    "QQF/DIMG": 93,
+    "TGA": 1
+  },
+  "independentCodeSourceOriginalBytesIncluded": false,
+  "tgaCheckmark": {
+    "nativePath": "object/ui/guideBar/btn_check.img",
+    "sourceSize": [
+      10,
+      8
+    ],
+    "sourceContainerBytes": 364,
+    "sourcePixelByteRange": [
+      18,
+      338
+    ],
+    "descriptor": 8,
+    "originalStorageOrigin": "bottom-left",
+    "nonpixelPrefixHex": "0000020000000000000000000a0008002008",
+    "nonpixelSuffixHex": "000000000000000054525545564953494f4e2d5846494c452e00",
+    "ownGlyphRaster": true,
+    "originalGlyphAlphaReused": false,
+    "nativeOrientationRoundtripVerified": true
+  },
+  "sourceAlphaExact": [
+    "object/ui/guideBar/img_friendMask.img",
+    "object/ui/guideBar/kin/bg_kin_menu.img",
+    "object/ui/guideBar/player/img_expLine.img",
+    "object/ui/guideBar/player/img_expLine2.img",
+    "object/ui/guideBar/player/img_mask.img",
+    "object/ui/guideBar/player/img_modeExpLine.img",
+    "object/ui/guideBar/player/mask_demo.img",
+    "object/ui/marriage/dlg_closeLine.img",
+    "object/ui/marriage/dlg_closeLineValue.img"
+  ],
+  "sourceAlphaPolicy": "Only listed empty masks, progress fills, blank value/menu geometry retain their structural Alpha. All other scene, portrait, caption, icon, checkbox and UI skin pixels are newly composed.",
+  "uiOpacityReconstruction": {
+    "file": "assets/native-client-ui/social-marriage-reference/opacity-policy.json",
+    "sha256": "e6543e396e1385b10c8441c3abc24b11d4c7e860aa463a3f5551a68ddd37b971"
+  },
+  "sourcePathsWithoutExactLiteralBinding": [
+    "object/ui/guidebar/btn_check.img",
+    "object/ui/guidebar/kin/arrow_0.img",
+    "object/ui/guidebar/kin/arrow_1.img",
+    "object/ui/guidebar/kin/arrow_2.img",
+    "object/ui/guidebar/player/btn_lookupkin.img",
+    "object/ui/guidebar/player/img_match.img",
+    "object/ui/guidebar/player/img_sculpture.img",
+    "object/ui/guidebar/tip_entershop.img",
+    "object/ui/marriage/btn_lookup.img",
+    "object/ui/marriage/btn_spark.img",
+    "object/ui/marriage/ring/ring9021.img",
+    "object/ui/marriage/ring/ring9022.img",
+    "object/ui/marriage/ring/ring9023.img",
+    "object/ui/marriage/ring/ring9024.img",
+    "object/ui/marriage/ring/ring9025.img",
+    "object/ui/marriage/ring/ring9026.img"
+  ],
+  "pathEvidenceBoundary": "Literal occurrence, prototype inheritance and source image geometry are evidence of source intent, not executed loading. Computed filenames and active branches remain pending.",
+  "sourceLayoutAssociations": [
+    "Kin member/manager callback-named alternate backgrounds share socialityDlg coordinates",
+    "Player info mask is at(-10,-16), so parent fields are translated(+10,+16)",
+    "Marriage confirmation backgrounds occur in uiMain alongside the shared marriageConfirmDlg; its brown text remains unchanged"
+  ],
+  "sourceButtonPositions": "Every raw source position remains. Own normal/gray/bright/pressed materials or pale/jade tab families are assigned per stored family, with no timing values added.",
+  "generatedOriginalMasters": 4,
+  "derivedIllustrationResources": 10,
+  "allGameArtComplete": false,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false,
+  "originalTimingVerified": false
+}

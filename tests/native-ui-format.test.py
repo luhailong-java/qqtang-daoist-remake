@@ -1,11 +1,13 @@
 """Native pixel encoding regression checks without importing or launching a client."""
 import importlib.util
 import hashlib
+import io
 import json
 from pathlib import Path
 import struct
 import tempfile
 import unittest
+import zipfile
 
 from PIL import Image
 
@@ -25,6 +27,134 @@ def luminance(rgb):
 
 
 class NativeUiPixels(unittest.TestCase):
+    def test_opaque_24bit_tga_roundtrips_all_origins(self):
+        image=Image.new('RGBA',(3,2),(40,120,80,255))
+        for descriptor in (0,16,32,48):
+            header=bytearray(18);header[2]=2;struct.pack_into('<HHBB',header,12,3,2,24,descriptor)
+            raw=bytes(header)+bytes(18)+b'\0'*8+b'TRUEVISION-XFILE.\0'
+            out,metadata,frames=codec.replace_frames(raw,{0:image})
+            self.assertEqual(metadata['version'],'TGA-uncompressed-24')
+            self.assertEqual(out[:18],raw[:18]);self.assertEqual(out[-26:],raw[-26:])
+            self.assertEqual(frames[0][1].tobytes(),image.tobytes())
+            with self.assertRaises(ValueError):codec.replace_frames(raw,{0:Image.new('RGBA',(3,2))})
+
+    def test_single_opaque_gif_preserves_canvas_duration_loop_disposal(self):
+        original=Image.new('RGB',(12,8),'#345841');stream=io.BytesIO()
+        original.save(stream,format='GIF',duration=500,loop=0,disposal=1,interlace=False)
+        raw=stream.getvalue();replacement=Image.new('RGBA',(12,8),(150,90,40,255))
+        out,metadata,frames=codec.replace_frames(raw,{0:replacement})
+        after,_=codec.inspect_native(out,True)
+        self.assertEqual(metadata['gifProperties'],after['gifProperties'])
+        self.assertEqual(after['gifProperties'],{'duration':500,'loop':0,'disposal':1,'background':0,'interlace':False})
+        self.assertEqual(frames[0][1].tobytes(),replacement.tobytes())
+        with self.assertRaises(ValueError):codec.inspect_native(out+b'\0')
+        with self.assertRaises(ValueError):codec.replace_frames(raw,{0:Image.new('RGBA',(12,8))})
+        animated=io.BytesIO();original.save(animated,format='GIF',save_all=True,append_images=[Image.new('RGB',(12,8),'red')],duration=500,loop=0)
+        with self.assertRaises(ValueError):codec.inspect_native(animated.getvalue())
+        transparent=io.BytesIO();Image.new('P',(12,8)).save(transparent,format='GIF',transparency=0,duration=500,loop=0)
+        with self.assertRaises(ValueError):codec.inspect_native(transparent.getvalue())
+
+    def test_installer_rejects_gif_timing_mutation_despite_matching_new_hash(self):
+        stream=io.BytesIO();image=Image.new('RGB',(12,8),'#345841')
+        image.save(stream,format='GIF',duration=500,loop=0,disposal=1,interlace=False);raw=stream.getvalue()
+        metadata,_=codec.inspect_native(raw,True);previous_root=installer.ROOT
+        try:
+            with tempfile.TemporaryDirectory() as directory:
+                installer.ROOT=Path(directory);path=installer.ROOT/'own.gif';path.write_bytes(raw)
+                item={'file':'own.gif','nativePath':'res/uiRes/avt_boy.gif','sha256':hashlib.sha256(raw).hexdigest()}
+                self.assertEqual(installer.native_replacement(item,{'metadata':metadata}),raw)
+                stream=io.BytesIO();image.save(stream,format='GIF',duration=600,loop=0,disposal=1,interlace=False)
+                changed=stream.getvalue();path.write_bytes(changed);item['sha256']=hashlib.sha256(changed).hexdigest()
+                with self.assertRaisesRegex(ValueError,'semantics'):
+                    installer.native_replacement(item,{'metadata':metadata})
+        finally:installer.ROOT=previous_root
+
+    def test_gif_unknown_extensions_aspect_and_user_input_are_rejected(self):
+        stream=io.BytesIO();Image.new('RGB',(12,8),'#345841').save(stream,format='GIF',duration=500,loop=0,disposal=1)
+        raw=stream.getvalue()
+        comment=raw[:-1]+b'!\xfe\x03abc\0;'
+        custom=raw[:-1]+b'!\xff\x0bCUSTOMAPP01\x03xyz\0;'
+        aspect=bytearray(raw);aspect[12]=49
+        user_input=bytearray(raw);user_input[raw.index(b'!\xf9\x04')+3]|=2
+        for mutation in (comment,custom,bytes(aspect),bytes(user_input)):
+            with self.subTest(mutation=mutation[-25:]),self.assertRaises(ValueError):codec.inspect_native(mutation)
+
+    def test_legacy_gif_control_bits_are_preserved_and_installer_checks_them(self):
+        stream=io.BytesIO();picture=Image.new('RGBA',(12,8),(40,120,80,255))
+        picture.save(stream,format='GIF',duration=500,loop=0,disposal=1)
+        raw=bytearray(stream.getvalue());gce=raw.index(b'!\xf9\x04');raw[gce+3]|=0xc0
+        output,metadata,_=codec.replace_frames(bytes(raw),{0:picture})
+        after,_=codec.inspect_native(output,True)
+        self.assertEqual(metadata['gifControlReservedBits'],192)
+        self.assertEqual(after['gifControlReservedBits'],192)
+        self.assertEqual(output[output.index(b'!\xf9\x04')+3],0xc4)
+        unsupported=bytearray(raw);unsupported[gce+3]=0xa4
+        with self.assertRaises(ValueError):codec.inspect_native(unsupported)
+        previous_root=installer.ROOT
+        try:
+            with tempfile.TemporaryDirectory() as directory:
+                installer.ROOT=Path(directory);path=installer.ROOT/'own.gif';path.write_bytes(output)
+                item={'file':'own.gif','nativePath':'res/uiRes/avt_boy.gif','sha256':hashlib.sha256(output).hexdigest()}
+                self.assertEqual(installer.native_replacement(item,{'metadata':metadata}),output)
+                changed=bytearray(output);changed[changed.index(b'!\xf9\x04')+3]&=0x1f;path.write_bytes(changed)
+                item['sha256']=hashlib.sha256(changed).hexdigest()
+                with self.assertRaisesRegex(ValueError,'semantics'):installer.native_replacement(item,{'metadata':metadata})
+        finally:installer.ROOT=previous_root
+
+    @unittest.skipUnless((ROOT/'.artifacts/reference-inputs/QQTang-Local-v1.3.4.zip').is_file(),'Private pinned source archive unavailable')
+    def test_actual_two_profile_gifs_preserve_legacy_control_and_timing(self):
+        rows=json.loads((ROOT/'references/qqtang-ui-data/native-ui-inventory.json').read_bytes())['resources']
+        with zipfile.ZipFile(ROOT/'.artifacts/reference-inputs/QQTang-Local-v1.3.4.zip') as archive:
+            for path in ('res/uiRes/avt_boy.gif','res/uiRes/avt_girl.gif'):
+                row=next(r for r in rows if r['path']==path);raw=archive.read(row['archiveMember'])
+                self.assertEqual(hashlib.sha256(raw).hexdigest(),row['sourceSha256'])
+                metadata,_=codec.inspect_native(raw,True);self.assertEqual(metadata['gifControlReservedBits'],192)
+                out,_,frames=codec.replace_frames(raw,{0:Image.new('RGBA',(140,226),(40,120,80,255))})
+                after,_=codec.inspect_native(out,True)
+                self.assertEqual(after['gifProperties'],metadata['gifProperties'])
+                self.assertEqual(after['gifControlReservedBits'],192)
+                self.assertEqual(frames[0][1].getpixel((10,10)),(40,120,80,255))
+
+    def test_true_color_tga_keeps_header_footer_and_all_four_pixel_origins(self):
+        image = Image.new('RGBA',(3,2))
+        image.putdata([(20,30,40,0),(50,60,70,128),(80,90,100,255),
+                       (110,120,130,33),(140,150,160,200),(170,180,190,255)])
+        for descriptor in (8,24,40,56):
+            header = bytearray(18)
+            header[2]=2
+            struct.pack_into('<HHBB',header,12,3,2,32,descriptor)
+            original = bytes(header)+bytes(24)+b'\0'*8+b'TRUEVISION-XFILE.\0'
+            with self.subTest(descriptor=descriptor):
+                output,metadata,frames = codec.replace_frames(original,{0:image})
+                self.assertEqual(output[:18],original[:18])
+                self.assertEqual(output[-26:],original[-26:])
+                self.assertEqual(frames[0][1].tobytes(),image.tobytes())
+                _,first = codec.inspect_native(output)
+                self.assertEqual(first['pixels'],image.tobytes())
+                self.assertEqual(metadata['format'],'TGA')
+                with self.assertRaises(ValueError):
+                    codec.replace_frames(original,{0:Image.new('RGBA',(2,2))})
+                with self.assertRaises(ValueError):
+                    codec.inspect_native(output+b'\0')
+
+    def test_installer_rejects_tga_origin_change_even_with_matching_patch_hash(self):
+        header=bytearray(18);header[2]=2
+        struct.pack_into('<HHBB',header,12,3,2,32,8)
+        original=bytes(header)+bytes(24)+b'\0'*8+b'TRUEVISION-XFILE.\0'
+        output,metadata,_=codec.replace_frames(original,{0:Image.new('RGBA',(3,2),(40,120,80,255))})
+        previous_root=installer.ROOT
+        try:
+            with tempfile.TemporaryDirectory() as directory:
+                installer.ROOT=Path(directory);path=installer.ROOT/'check.img';path.write_bytes(output)
+                item={'file':'check.img','nativePath':'object/ui/guideBar/btn_check.img','sha256':hashlib.sha256(output).hexdigest()}
+                self.assertEqual(installer.native_replacement(item,{'metadata':metadata}),output)
+                changed=bytearray(output);changed[17]^=32;path.write_bytes(changed)
+                item['sha256']=hashlib.sha256(changed).hexdigest()
+                with self.assertRaisesRegex(ValueError,'non-pixel'):
+                    installer.native_replacement(item,{'metadata':metadata})
+        finally:
+            installer.ROOT=previous_root
+
     def container(self, mode):
         width, height = 5, 3
         header = b'QQF\x1aDIMG' + struct.pack('<8I', 65536, 24, 2, 1, 123, 456, 13, 17)

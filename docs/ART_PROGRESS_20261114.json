@@ -9,26 +9,44 @@
   "nativeClientUi": {
     "manifest": {
       "file": "assets/native-client-ui/login-v1/manifest.json",
-      "sha256": "fa71828933c84699bd4e7f6b90a40d09c37127f760fd8290a78c6f458662199b"
+      "sha256": "6d789c739fdf195b7a42e57ee391765aedf132360114d088baff4326313cbfe5"
     },
-    "installedResources": 313,
-    "sourcePositions": 754,
+    "installedResources": 837,
+    "sourcePositions": 1590,
     "sourcePackedUiCount": 772,
-    "installedPackedUiCount": 311,
+    "installedPackedUiCount": 772,
     "allUiComplete": false,
     "nativeRuntimeVerified": false,
-    "remainingUiCensusImagePaths": 3313,
+    "remainingUiCensusImagePaths": 2790,
     "censusAudit": {
       "file": "docs/native-ui-remaining-20261114.json",
-      "sha256": "6347f2cd0ea8eccea34c83c933ea9c40f791f6ed69d433ef59dfb8a15a011e53"
+      "sha256": "667c60ea7461464c6cd6dbc7150982204226c4cce0554bc368c19739b56f223c"
     },
     "upstreamPetExpressionMothers": 5,
-    "alphaNormalizationExceptions": 1
+    "sourceDeclaredSlots": 1591,
+    "preservedEmptySlots": 1,
+    "installedLooseUiCount": 65,
+    "sourceCensusImagePaths": 4210,
+    "sourceNonInventoryImagePaths": 1005,
+    "remainingNonInventoryImagePaths": 168,
+    "allPackedUiImagePathsConverted": true,
+    "sourceFormatRefinements": {
+      "file": "references/qqtang-ui-data/native-ui-format-refinements-20261114.json",
+      "sha256": "03a8e12ce1d75d4c99aa12da403cff3df511b327103ef2aaa95f35b2ac0bd64b"
+    },
+    "directArtworkGenerationRecords": 29,
+    "additionalGenerationRecordsInReferenceContracts": 4,
+    "allGenerationRecordPaths": 33,
+    "alphaPolicies": {
+      "boundedLegacyRoiNormalizationsDeclared": 1,
+      "otherArtworkAlphaRedrawsRecordedPerGroup": true,
+      "socialPriestBubbleRebuiltOpaqueForDeclaredBlueTextContrast": true
+    }
   },
   "nativeInventory": {
     "manifest": {
       "file": "assets/native-client-ui/inventory-v1/manifest.json",
-      "sha256": "ca6e7c4fd9e3f7f3b6faeae944d581fea1cafa0087224263884d2a046d7b6169"
+      "sha256": "acd367e50a6345e492334f8f9afbd56d29eaccd80b0b635bfc53b5dc4590dd04"
     },
     "installedItemIds": 583,
     "sourcePositions": 602,
@@ -42,7 +60,7 @@
     "nativeRuntimeVerified": false,
     "phaseManifest": {
       "file": "assets/native-client-ui/inventory-phases-v1/manifest.json",
-      "sha256": "87836a63d84a726f50114a93fb39c053c950a429f97a1d81a70b104e4c85be7d"
+      "sha256": "14114b3d27945bfb5b2a43bcc4669acd7bd9adf6adb624a1ce6490fecbdf5fed"
     },
     "unresolvedNativePathEvidence": {
       "file": "docs/native-item-3767-binding-20261114.json",
@@ -51,7 +69,7 @@
   },
   "installation": {
     "file": "docs/native-client-installation-20261114.json",
-    "sha256": "0e0dadcd4a22f54d14b9b59735d7745cd7be8d969818063a92e0a6e91ec9ab87"
+    "sha256": "abd935be0bee534b11c4f19a834c2a4a98006fa9ecfc1531ff38ab0cabc19bd4"
   },
   "itemInventory": {
     "sourceCount": 2945,
@@ -65,7 +83,7 @@
   "nativeWorldHeadAdornments": {
     "manifest": {
       "file": "assets/native-client-heads/world-v1/manifest.json",
-      "sha256": "84395e50022a441b467941c607de382304ec6a7ace1c5f536570d2f9a8be2987"
+      "sha256": "965ee5eb3b29413aefa4517fa310e2daf00712ee7a3e8a241f3cbd41f569a2ce"
     },
     "installedItemIds": [
       39,
@@ -85,7 +103,7 @@
   "nativeMaps": {
     "candidateManifest": {
       "file": "assets/native-client-maps/town-common-v1/manifest.json",
-      "sha256": "29924883aad36d4c50acff0918ae96cc4796071b5f178e71b39b3b9be015e812"
+      "sha256": "dcc674b2764ff74f339d67077b7c10f4068aa926f29a2981656ab3080e285258"
     },
     "convertedResources": 120,
     "convertedSourcePositions": 224,
@@ -107,11 +125,14 @@
   "nativeArtBundle": {
     "manifest": {
       "file": "assets/native-client-bundle/review-v1/manifest.json",
-      "sha256": "3d070f67c2f4d00f7bf02cc7d464adf26e9527a4f23222c3f6e07cbaa568bf2e"
+      "sha256": "681b9b6bfbef7dbb7ee677e76e18b543d22ad859430dd19fa53fbf639d0d57ec"
     },
-    "installedResources": 958,
-    "sourcePositions": 1712,
-    "fullGameArtComplete": false
+    "installedResources": 1482,
+    "sourcePositions": 2548,
+    "fullGameArtComplete": false,
+    "packedResources": 824,
+    "looseResources": 658,
+    "unchangedPackedResources": 2658
   },
   "nativeUiColorData": {
     "manifest": {
@@ -163,5 +184,65 @@
       "sha256": "ff62de5d68ec1e98aa14c69e40a7c2907404fabb1a813497a7b294f1765feaeb"
     },
     "unchangedUrlConstants": 10
+  },
+  "latestUiBatch": {
+    "nativeResources": 524,
+    "nonemptyPositions": 836,
+    "newGeneratedUiMothers": 28,
+    "groups": [
+      {
+        "group": "emblems-ranks-mode-cursors",
+        "resources": 141,
+        "positions": 188
+      },
+      {
+        "group": "social-marriage",
+        "resources": 94,
+        "positions": 175
+      },
+      {
+        "group": "shop-extra",
+        "resources": 112,
+        "positions": 168
+      },
+      {
+        "group": "room-extra",
+        "resources": 115,
+        "positions": 159
+      },
+      {
+        "group": "promotions-profile-gifs",
+        "resources": 15,
+        "positions": 15
+      },
+      {
+        "group": "loose-controls",
+        "resources": 47,
+        "declaredSlots": 132,
+        "positions": 131,
+        "emptySlots": 1
+      }
+    ]
+  },
+  "validation": {
+    "nodeTestsPassed": 89,
+    "nativeUiFormatLocalTestsPassed": 19,
+    "actualSourceGifFilesVerified": 2,
+    "nativeExportAndBundleReplayPassed": true,
+    "isolatedInstallRepeatRestore": {
+      "file": "docs/native-ui-install-fixture-20261114.json",
+      "sha256": "3348ad1468911521a1f1fb9c7b8bc70d4bb0f987115af3a91fcabbb8010d17d2"
+    },
+    "originalClientExecuted": false,
+    "guiVisualReviewPerformed": false,
+    "fullNativeUiAccepted": false,
+    "httpAssets": {
+      "file": "docs/native-art-http-check-20261114.json",
+      "sha256": "b5989da62a61efd43720796a8c173a2a5997a3696958212a9ed922d1f38f48f0"
+    }
+  },
+  "remainingEmotionPlan": {
+    "file": "docs/NATIVE_EMOTION_PLAN_20261114.json",
+    "sha256": "41801873f00ee4169779d68f8f4211ffa478e46d36252b5752edd0b9b22cf88a"
   }
 }

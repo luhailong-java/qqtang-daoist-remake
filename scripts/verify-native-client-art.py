@@ -42,15 +42,12 @@ def verify(client, manifest_paths):
                 raise ValueError('Two active batches target the same native art')
             seen.add(key)
             expected = installer.native_replacement(item,sources[item['nativePath']])
-            metadata,_ = installer.codec.reader.inspect_dimg(expected,metadata_only=True)
+            metadata,_ = installer.codec.inspect_native(expected,metadata_only=True)
             previews = {e['index']:e for e in item['frames']}
             for frame in metadata['frames']:
                 if frame['empty']:
                     continue
-                start = frame['pixelDataOffset']
-                pixels = installer.codec.reader.decode_frame_pixels(expected[start:start+frame['pixelByteLength']],
-                                frame['pixelMode'],frame['width'],frame['height'])
-                image = Image.frombytes('RGBA',(frame['width'],frame['height']),pixels)
+                image = installer.codec.decode_native_frame(expected,frame)
                 preview = previews[frame['index']]
                 preview_path = ROOT/preview['file']
                 if record(preview_path) != {'file':preview['file'],'sha256':preview['sha256']}:
@@ -90,7 +87,7 @@ def verify(client, manifest_paths):
     if executable != original_exe:
         raise ValueError('Client.exe differs from the supplied baseline')
     return {'schemaVersion':1,'verifiedOn':'2026-11-14','clientRootAlias':'QQTang-Local/runtime/client-patched',
-            'verification':'Static file readback, DIMG decode and source index comparison; no client executed',
+            'verification':'Static file readback, native image decode and source index comparison; no client executed',
             'batches':batches,'nativeResources':len(resources),
             'sourcePositions':sum(e['sourcePositions'] for e in resources),
             'packedResources':len(patched),'looseResources':sum(e['sourceLoose'] for e in resources),

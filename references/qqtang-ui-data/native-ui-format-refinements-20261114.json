@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "sourceCensus": {
+    "file": "references/qqtang-ui-data/native-ui-inventory.json",
+    "sha256": "400c1ecf633858276906092c9d340037ebd036957aab0327fea33c5a7f682197"
+  },
+  "script": {
+    "file": "scripts/refine-native-ui-formats.py",
+    "sha256": "d406153f9b541ec24b9b6fd7d4711125842cc2b0b0531794801f1f6b3f1343b7"
+  },
+  "scope": "Historical inventory refinement only; no original code or client execution",
+  "codec": {
+    "file": "scripts/native-ui-format.py",
+    "sha256": "44c2643eb25b28daaaa4c0f914072bf249b8bf22c4161a5ee4e4c1d46d138508"
+  },
+  "refinements": [
+    {
+      "canonicalPath": "object/ui/cursor/fight.gsa",
+      "sourceSha256": "cca0ade6d2a980f037a721e598d38794ccca20d409d9d0ccdcccce324130e674",
+      "previousFormat": "opaque-native-cursor-animation",
+      "format": "QQF/DIMG",
+      "metadata": {
+        "byteLength": 26239,
+        "sha256": "cca0ade6d2a980f037a721e598d38794ccca20d409d9d0ccdcccce324130e674",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 9,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          31,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "69f20683d63b2345721f0d1fe821ee43421b17a66f289a7de8f31756776e2a84"
+          },
+          {
+            "index": 1,
+            "offset": 2951,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 2979,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "d25001ad19d5435546e3e10c33f05dde9e6f341501674ad605e6355ac2c54446"
+          },
+          {
+            "index": 2,
+            "offset": 5862,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 5890,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "38be06a022fd641fda69d70b46644850f1d32454b706b0d4b4edb2f0a7260428"
+          },
+          {
+            "index": 3,
+            "offset": 8773,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 8801,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "7ac36b82eafd37f31ce4826a078943ae5ccf421376f36209a39998e06580d99b"
+          },
+          {
+            "index": 4,
+            "offset": 11684,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 11712,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "66a7de980c359e846f84bf1c428f579e5267937eca7c3a996fbec9527f8c3ff1"
+          },
+          {
+            "index": 5,
+            "offset": 14595,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 14623,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "8a5af8da5f61fce5b88e087df3428d00f1e26a8f1f64f53621854e81b8f9806a"
+          },
+          {
+            "index": 6,
+            "offset": 17506,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 17534,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "b24e2205c22fb016055695f131643a7d64927492ac36eb74e91d6c37727589fc"
+          },
+          {
+            "index": 7,
+            "offset": 20417,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 20445,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "49dcacca80d72bf67e1b8a8f47e02c39e766d360ee96caaf4c2e0f8ae331aec9"
+          },
+          {
+            "index": 8,
+            "offset": 23328,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 31,
+            "height": 31,
+            "unknownImageHeaderWord": 64,
+            "empty": false,
+            "pixelDataOffset": 23356,
+            "pixelByteLength": 2883,
+            "encodedPixelSha256": "69f20683d63b2345721f0d1fe821ee43421b17a66f289a7de8f31756776e2a84"
+          }
+        ],
+        "parsedByteLength": 26239,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "metadataVerified": true,
+      "exactSourceByteAlias": "object/ui/cursor/arror.img",
+      "decodedFrameRgbaSha256": [
+        "7ea0df0911c3b0d46f9bece9e9439cf6025ed9438e25bc7745ae353708dd9ae2",
+        "4c87c6fcb1472f720255b583f2ee05076f50ffb4d1e7bcdf0c2b10ddc801e3a5",
+        "b5f623b9b713642d9f0a6367c81ef3542d5260f9d76272afcb51141ab0cdc14a",
+        "6d55c5ce32dfff040cfece6324f34626b184776ae369cdff7fac1a20d21f6672",
+        "a0d0459c1116826ef0e87e8677c17b7bd1aba315cadd76fdefab7987796f9d1d",
+        "af62ed793838c4e988e93438f49f8b6599112be1d72eb70c644f59156bbb34b3",
+        "83788aa23c86f501811e9ce4fe004dd7d6c90df70cf0ab174a16e49f5a72434e",
+        "226074865a8f2300e5aceeda7f8cdfde7798a227197e60c174d8295dec37c562",
+        "7ea0df0911c3b0d46f9bece9e9439cf6025ed9438e25bc7745ae353708dd9ae2"
+      ],
+      "reason": "Full DIMG header, nine frames, pixel planes and exact EOF accepted irrespective of .gsa suffix"
+    }
+  ],
+  "nativeRuntimeVerified": false
+}

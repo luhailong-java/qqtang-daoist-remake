@@ -74,11 +74,21 @@ def native_replacement(item, source):
     replacement = (ROOT/item['file']).read_bytes()
     if digest(replacement) != item['sha256']:
         raise ValueError('Native patch image differs')
-    inspected, _ = codec.reader.inspect_dimg(replacement, metadata_only=True)
+    inspected, _ = codec.inspect_native(replacement, metadata_only=True)
     original = source['metadata']
+    if original.get('format') == 'TGA':
+        if (inspected.get('format') != 'TGA' or any(inspected.get(k) != original.get(k)
+                for k in ('nonPixelPrefixHex','nonPixelSuffixHex'))):
+            raise ValueError('Native TGA non-pixel bytes changed')
     normalization = item.get('containerNormalization')
     expected_length = original['byteLength']
     expected_version = original['version']
+    if original.get('format')=='GIF':
+        if (inspected.get('format')!='GIF' or inspected.get('gifProperties')!=original.get('gifProperties')
+                or inspected.get('gifControlReservedBits')!=original.get('gifControlReservedBits')):
+            raise ValueError('Native GIF canvas/timing/disposal semantics changed')
+        # Original GIF LZW bytes and palette are image encoding, not a fixed DIMG header.
+        expected_length=len(replacement)
     if normalization:
         if (not item['nativePath'].startswith('res/uiRes/icon/') or original['frameCount'] != 1
                 or original['version'] != 65537 or not original['trailingByteLength']

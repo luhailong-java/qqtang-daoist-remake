@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 1,
+  "scope": "PVE boss image-ID source proof, exact extra PVE role aliases, and remaining independent UI identity slots",
+  "script": {
+    "file": "assets/native-client-ui/room-extra-reference/analyze-extra-icon-semantics.py",
+    "sha256": "831629c64828418e0aafe374a171d61c5b84093c463bc49aac0be65227ecd406"
+  },
+  "sourceReferences": {
+    "file": "assets/native-client-ui/room-extra-reference/manifest.json",
+    "sha256": "2e1cb272fac7207bd730f6f4959b6f6adc6fc5b7be1fc41cd4aea0b7cceba3fb"
+  },
+  "rosterMapping": {
+    "file": "assets/native-client-ui/room-extra-reference/roster-mapping-audit.json",
+    "sha256": "2ce4b2290f5bc912c0fd22061b526a326a769b666db01d58299f528c93f1c73a"
+  },
+  "sourceArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "sourceUiModuleCount": 13,
+  "sourceModules": [
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/levelCFG.pyc",
+      "sourceSha256": "9170cd4c0e9b686c14e131290be67a2a906974d6828ef69ef669252016022656",
+      "parsedObjects": 464
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiConst.pyc",
+      "sourceSha256": "400a42af605f632bd541f7e58ee50dd0b7839e141796fc125e16c4792d3982c1",
+      "parsedObjects": 490
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiFunc.pyc",
+      "sourceSha256": "5dda49db4da87eee54418c4655b6922283fa3f9ad2dd38923fde31883ad02656",
+      "parsedObjects": 1170
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "sourceSha256": "29519f46bb94ebbf722f48bc8f83f118936251425204e811022cc43f990437d9",
+      "parsedObjects": 3978
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiLogin.pyc",
+      "sourceSha256": "9a794fc53610a401f3c09bfd4c2e3ea44755534263577d6b7f1af18f0c6a4474",
+      "parsedObjects": 1507
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiLogo.pyc",
+      "sourceSha256": "7089ef82e33e79fa782b02add5e2b77115a2c8ea604ed21958dcdda8b80fdd19",
+      "parsedObjects": 224
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+      "sourceSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+      "parsedObjects": 20766
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiRoom.pyc",
+      "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+      "parsedObjects": 12141
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelRoom.pyc",
+      "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+      "parsedObjects": 16037
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelSect.pyc",
+      "sourceSha256": "f2d66e23622f9adabc33ecde4dd7a5c9c1170c96fa02273ddc6517fb8f968118",
+      "parsedObjects": 2751
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+      "sourceSha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+      "parsedObjects": 20107
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+      "sourceSha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+      "parsedObjects": 753
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiWeb.pyc",
+      "sourceSha256": "004bbb6a7abf1786d390785d893158a7c371732f0ff13601801d11486b943e58",
+      "parsedObjects": 255
+    }
+  ],
+  "imagePathUses": [
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "scope": "?.ui_InitPVEBoss",
+      "sourceFirstLine": 146,
+      "bytecodeSha256": "907da26c0e53a823c2501400e0f3d9af4b4c5a013adc9336a5351003463e8f87",
+      "directConstants": [
+        "object/ui/room/char/icon_%d.img"
+      ],
+      "referencedNames": [
+        "GetPVEBossInfo",
+        "bossInfo",
+        "g_PVEBossID",
+        "len",
+        "g_PVEBossCnt",
+        "range",
+        "g_DefBossCnt",
+        "i",
+        "ui",
+        "Win_ShowWidget",
+        "posx",
+        "posy",
+        "step",
+        "Win_SetImg",
+        "m_iImageID",
+        "append",
+        "m_iNPCID",
+        "curposx",
+        "Win_Move2Pos",
+        "Win_SetRect",
+        "value_channel_winrect",
+        "Win_SetStripTotalNum",
+        "m_iHP",
+        "Win_SetStripNum",
+        "Win_SetStripDestNum"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "scope": "?.ui_InitPVEPlayer",
+      "sourceFirstLine": 187,
+      "bytecodeSha256": "5fe4241f9294916ad1700fc67d9d7b56c1066f84dd6483e60adaa361a73f4f96",
+      "directConstants": [
+        "object/ui/room/char/icon_%s.img"
+      ],
+      "referencedNames": [
+        "GetPVEPlayerInfo",
+        "playerInfo",
+        "len",
+        "g_PVEPlayerCnt",
+        "g_PVEPlayerID",
+        "range",
+        "i",
+        "append",
+        "m_nPlayerID",
+        "g_DefPlayerCnt",
+        "ui",
+        "Win_ShowWidget",
+        "Win_SetImg",
+        "g_RoleNameList",
+        "m_nRoleID",
+        "Win_SetText",
+        "str",
+        "m_szNickName",
+        "Level",
+        "getInfo",
+        "m_nPoints",
+        "level",
+        "setUI",
+        "m_nHP",
+        "Win_SetStripTotalNum",
+        "Win_SetStripNum",
+        "Win_SetStripDestNum"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "scope": "?.UI_children_game.children.pvePlayerList.children.playerInfo0.children.playerIcon",
+      "sourceFirstLine": 473,
+      "bytecodeSha256": "ac7fab07bc0777ad91cc5ed969d0619823eef00be9a1cb21d3c9a25eefedb4e2",
+      "directConstants": [
+        "object/ui/room/char/icon_xq.img"
+      ],
+      "referencedNames": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "rect",
+        "framescheme",
+        "bkimage",
+        "alphafactor"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "scope": "?.UI_children_game.children.pveBossInfo0.children.BossPortrait",
+      "sourceFirstLine": 544,
+      "bytecodeSha256": "0ddcfe153f7134e7644d40e499a1c5c2f7fdbab11f4eefe04593ccee59b912f8",
+      "directConstants": [
+        "object/ui/room/char/icon_xq.img"
+      ],
+      "referencedNames": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "rect",
+        "framescheme",
+        "bkimage"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiRoom.pyc",
+      "scope": "?.ui_UpdateRole",
+      "sourceFirstLine": 346,
+      "bytecodeSha256": "3046d60000b4262ded852fc0cccdd61e6d36d31b45015feb8fb86090dc74b648",
+      "directConstants": [
+        "object/ui/room/char/icon_%s.img"
+      ],
+      "referencedNames": [
+        "range",
+        "defRoleCnt",
+        "i",
+        "RolePos",
+        "RoleType",
+        "idx",
+        "len",
+        "RoleNameList",
+        "Win_ShowWidget",
+        "Win_SetImg",
+        "RoleIDList",
+        "id",
+        "curRoleID",
+        "Win_SetCheck"
+      ],
+      "bytecodeExecuted": false
+    }
+  ],
+  "numericBossImagePathUse": {
+    "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+    "scope": "?.ui_InitPVEBoss",
+    "sourceFirstLine": 146,
+    "bytecodeSha256": "907da26c0e53a823c2501400e0f3d9af4b4c5a013adc9336a5351003463e8f87",
+    "directConstants": [
+      "object/ui/room/char/icon_%d.img"
+    ],
+    "referencedNames": [
+      "GetPVEBossInfo",
+      "bossInfo",
+      "g_PVEBossID",
+      "len",
+      "g_PVEBossCnt",
+      "range",
+      "g_DefBossCnt",
+      "i",
+      "ui",
+      "Win_ShowWidget",
+      "posx",
+      "posy",
+      "step",
+      "Win_SetImg",
+      "m_iImageID",
+      "append",
+      "m_iNPCID",
+      "curposx",
+      "Win_Move2Pos",
+      "Win_SetRect",
+      "value_channel_winrect",
+      "Win_SetStripTotalNum",
+      "m_iHP",
+      "Win_SetStripNum",
+      "Win_SetStripDestNum"
+    ],
+    "bytecodeExecuted": false
+  },
+  "sourcePveAliasTuple": {
+    "byteStart": 174,
+    "byteEnd": 249,
+    "byteSha256": "42347d72c7062a3d70cfbf57ff3b9731d05f55691cf82df63ab9e13ef84eecf5",
+    "storeOpcode": 90,
+    "value": [
+      "",
+      "xwk",
+      "tt",
+      "xq",
+      "cl",
+      "bbl",
+      "hy",
+      "mly",
+      "hwz",
+      "boy",
+      "cbz",
+      "xz",
+      "ls",
+      "kl",
+      "nz",
+      "wll",
+      "yy",
+      "",
+      "yd",
+      "ld",
+      "ge",
+      "tb",
+      "girl"
+    ]
+  },
+  "existingOwnPveRoleBindings": [
+    {
+      "sourceRoleId": 10,
+      "nativeAlias": "cbz",
+      "nativePveRoleIndex": 10,
+      "identityId": "20_star_formation_master_girl",
+      "projectName": "星阵",
+      "uiShortName": "星阵",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/20_star_formation_master_girl-256.png",
+        "sha256": "9bb3a09a34cf65288a145f93c3c84b381c2cb66f8f1431d8f5825018e23dff4c"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/20_star_formation_master_girl-256.png.source.json",
+        "sha256": "4c5dca632e4c0dea87b8fcd657a4f01f1d6af0c1f3e1a7484f2ed7c1c4463193"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/20_star_formation_master_girl/master.png",
+        "sha256": "4a5de67ffb880a852554d460c709f7179bffd3706fa7bf825767e5369e9bd3e5"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/20_star_formation_master_girl/source.json",
+        "sha256": "29fa67f2bfc92329f53723fc365bbb9849514c44a1eeee5a85294e5e0ac252f0"
+      },
+      "roomPaths": [
+        "object/ui/room/char/icon_cbz.img"
+      ],
+      "shopPath": null,
+      "appearanceAllocation": "Existing project sourceRoleId appearance allocation; native PVE alias proven by exact tuple index",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 11,
+      "nativeAlias": "xz",
+      "nativePveRoleIndex": 11,
+      "identityId": "cloud-tortoise-warden",
+      "projectName": "玄龟",
+      "uiShortName": "玄龟",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/cloud-tortoise-warden-256.png",
+        "sha256": "0bcd0b55bc8753e2426a0dc8169b25a5e43dc1d35ac536f1bef9b6aec5027fef"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/cloud-tortoise-warden-256.png.source.json",
+        "sha256": "08bc2fb2f95dc993c64add276d5596c0eeea857d9a99fbcd994f7b3386fd2617"
+      },
+      "master": {
+        "file": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png",
+        "sha256": "8813c588ffdd453088efba6b050331c1487872af75a33fa68cd69b0535978588"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png.generation.json",
+        "sha256": "21625a929e446626f03b207e58870031a446513f6fe755d3b282070abd28b432"
+      },
+      "roomPaths": [
+        "object/ui/room/char/icon_xz.img"
+      ],
+      "shopPath": null,
+      "appearanceAllocation": "Existing project sourceRoleId appearance allocation; native PVE alias proven by exact tuple index",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    }
+  ],
+  "unboundAliasOccurrencesIn13UiConstantTrees": [],
+  "numericPlayerIniCoincidences": [
+    {
+      "numericUiImageId": 67,
+      "sameNumberPlayerIni": {
+        "id": 67,
+        "sections": {
+          "walk": {
+            "cloth": "16701"
+          },
+          "stand": {
+            "cloth": "16701"
+          },
+          "trigger": {
+            "cloth": "16701"
+          },
+          "die": {
+            "cloth": "16701"
+          },
+          "win": {
+            "cloth": "16701"
+          },
+          "cry": {
+            "cloth": "16701"
+          },
+          "lose": {
+            "cloth": "16701"
+          },
+          "wait": {
+            "cloth": "16701"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player67.ini",
+          "bytes": 169,
+          "sha256": "0a0283597222558f473caa8798a72610356d7dd35054621ec68106b0b4f38aa8",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 69,
+      "sameNumberPlayerIni": {
+        "id": 69,
+        "sections": {
+          "walk": {
+            "cloth": "16901"
+          },
+          "stand": {
+            "cloth": "16901"
+          },
+          "trigger": {
+            "cloth": "16901"
+          },
+          "die": {
+            "cloth": "16901"
+          },
+          "win": {
+            "cloth": "16901"
+          },
+          "cry": {
+            "cloth": "16901"
+          },
+          "lose": {
+            "cloth": "16901"
+          },
+          "wait": {
+            "cloth": "16901"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player69.ini",
+          "bytes": 169,
+          "sha256": "bbed6fed287e8d6551709fd9ccbeee722eff3e9877890ab5476daeb615a3f1ac",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 72,
+      "sameNumberPlayerIni": {
+        "id": 72,
+        "sections": {
+          "walk": {
+            "cloth": "17201"
+          },
+          "stand": {
+            "cloth": "17201"
+          },
+          "trigger": {
+            "cloth": "17201"
+          },
+          "die": {
+            "cloth": "17201"
+          },
+          "win": {
+            "cloth": "17201"
+          },
+          "cry": {
+            "cloth": "17201"
+          },
+          "lose": {
+            "cloth": "17201"
+          },
+          "wait": {
+            "cloth": "17201"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player72.ini",
+          "bytes": 169,
+          "sha256": "5aba687a2c87cacabf9f5dd2ba69c2923b18cd9fb4e01cdce37f944c563a792b",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 73,
+      "sameNumberPlayerIni": {
+        "id": 73,
+        "sections": {
+          "walk": {
+            "cloth": "17301"
+          },
+          "stand": {
+            "cloth": "17301"
+          },
+          "trigger": {
+            "cloth": "17301"
+          },
+          "die": {
+            "cloth": "17301"
+          },
+          "win": {
+            "cloth": "17301"
+          },
+          "cry": {
+            "cloth": "173701"
+          },
+          "lose": {
+            "cloth": "17301"
+          },
+          "wait": {
+            "cloth": "17301"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player73.ini",
+          "bytes": 170,
+          "sha256": "1f33af200ebf852ee94ec932423a071fcce2aaf188e73bcee456eb2dbdc9588d",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 75,
+      "sameNumberPlayerIni": {
+        "id": 75,
+        "sections": {
+          "walk": {
+            "cloth": "17501"
+          },
+          "stand": {
+            "cloth": "17501"
+          },
+          "trigger": {
+            "cloth": "17501"
+          },
+          "die": {
+            "cloth": "17501"
+          },
+          "win": {
+            "cloth": "17501"
+          },
+          "cry": {
+            "cloth": "17501"
+          },
+          "lose": {
+            "cloth": "17501"
+          },
+          "wait": {
+            "cloth": "17501"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player75.ini",
+          "bytes": 169,
+          "sha256": "dbadd25989f35647d3312c81ea7f3d1e894ec76356c2e3fa8ce7e160b8a299d3",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 77,
+      "sameNumberPlayerIni": {
+        "id": 77,
+        "sections": {
+          "walk": {
+            "cloth": "17701"
+          },
+          "stand": {
+            "cloth": "17701"
+          },
+          "trigger": {
+            "cloth": "17701"
+          },
+          "die": {
+            "cloth": "17701"
+          },
+          "win": {
+            "cloth": "17701"
+          },
+          "cry": {
+            "cloth": "17701"
+          },
+          "lose": {
+            "cloth": "17701"
+          },
+          "wait": {
+            "cloth": "17701"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player77.ini",
+          "bytes": 169,
+          "sha256": "6d19ad4f115a79795f18330816eda7fd41aa50af399cdaabd71f4e8114db8819",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 78,
+      "sameNumberPlayerIni": {
+        "id": 78,
+        "sections": {
+          "walk": {
+            "cloth": "17801"
+          },
+          "stand": {
+            "cloth": "17801"
+          },
+          "trigger": {
+            "cloth": "17801"
+          },
+          "die": {
+            "cloth": "17801"
+          },
+          "win": {
+            "cloth": "17801"
+          },
+          "cry": {
+            "cloth": "17801"
+          },
+          "lose": {
+            "cloth": "17801"
+          },
+          "wait": {
+            "cloth": "17801"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player78.ini",
+          "bytes": 169,
+          "sha256": "6f49851cb8ed2f4e199b4ff721b8096efda8347a70729cb26403c0120b2a5f7d",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 79,
+      "sameNumberPlayerIni": {
+        "id": 79,
+        "sections": {
+          "walk": {
+            "cloth": "17901"
+          },
+          "stand": {
+            "cloth": "17901"
+          },
+          "trigger": {
+            "cloth": "17901"
+          },
+          "die": {
+            "cloth": "17901"
+          },
+          "win": {
+            "cloth": "17901"
+          },
+          "cry": {
+            "cloth": "17901"
+          },
+          "lose": {
+            "cloth": "17901"
+          },
+          "wait": {
+            "cloth": "17901"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player79.ini",
+          "bytes": 169,
+          "sha256": "330c35466407ab9e0506b9a5874521fb7b49fabbd5409fbbb36b76c53d94e4d7",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 81,
+      "sameNumberPlayerIni": {
+        "id": 81,
+        "sections": {
+          "walk": {
+            "cloth": "18101"
+          },
+          "stand": {
+            "cloth": "18101"
+          },
+          "trigger": {
+            "cloth": "18101"
+          },
+          "die": {
+            "cloth": "18101"
+          },
+          "win": {
+            "cloth": "18101"
+          },
+          "cry": {
+            "cloth": "18101"
+          },
+          "lose": {
+            "cloth": "18101"
+          },
+          "wait": {
+            "cloth": "18101"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player81.ini",
+          "bytes": 169,
+          "sha256": "5f99f5c1e6fb7af5e0db7b68c737e8bbaac26fa8c68e01298376b9bb7bbc1269",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 85,
+      "sameNumberPlayerIni": {
+        "id": 85,
+        "sections": {
+          "walk": {
+            "cloth": "18501"
+          },
+          "stand": {
+            "cloth": "18501"
+          },
+          "trigger": {
+            "cloth": "18501"
+          },
+          "die": {
+            "cloth": "18501"
+          },
+          "win": {
+            "cloth": "18501"
+          },
+          "cry": {
+            "cloth": "18501"
+          },
+          "lose": {
+            "cloth": "18501"
+          },
+          "wait": {
+            "cloth": "18501"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player85.ini",
+          "bytes": 169,
+          "sha256": "86157136b4f9fef284598f7da6920dd48817422db746c5f5f2541f5846b9464d",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 117,
+      "sameNumberPlayerIni": {
+        "id": 117,
+        "sections": {
+          "walk": {
+            "cloth": "17801"
+          },
+          "stand": {
+            "cloth": "17801"
+          },
+          "trigger": {
+            "cloth": "17801"
+          },
+          "die": {
+            "cloth": "17801"
+          },
+          "win": {
+            "cloth": "17801"
+          },
+          "cry": {
+            "cloth": "17801"
+          },
+          "lose": {
+            "cloth": "17801"
+          },
+          "wait": {
+            "cloth": "17801"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player117.ini",
+          "bytes": 169,
+          "sha256": "6f49851cb8ed2f4e199b4ff721b8096efda8347a70729cb26403c0120b2a5f7d",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 118,
+      "sameNumberPlayerIni": {
+        "id": 118,
+        "sections": {
+          "walk": {
+            "cloth": "16701"
+          },
+          "stand": {
+            "cloth": "16701"
+          },
+          "trigger": {
+            "cloth": "16701"
+          },
+          "die": {
+            "cloth": "16701"
+          },
+          "win": {
+            "cloth": "16701"
+          },
+          "cry": {
+            "cloth": "16701"
+          },
+          "lose": {
+            "cloth": "16701"
+          },
+          "wait": {
+            "cloth": "16701"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player118.ini",
+          "bytes": 169,
+          "sha256": "0a0283597222558f473caa8798a72610356d7dd35054621ec68106b0b4f38aa8",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 119,
+      "sameNumberPlayerIni": {
+        "id": 119,
+        "sections": {
+          "walk": {
+            "cloth": "17601"
+          },
+          "stand": {
+            "cloth": "17601"
+          },
+          "trigger": {
+            "cloth": "17601"
+          },
+          "die": {
+            "cloth": "17601"
+          },
+          "win": {
+            "cloth": "17601"
+          },
+          "cry": {
+            "cloth": "17601"
+          },
+          "lose": {
+            "cloth": "17601"
+          },
+          "wait": {
+            "cloth": "17601"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player119.ini",
+          "bytes": 169,
+          "sha256": "6e74d60b4ef5b860a4df27cc846cde555ef3251e97b1409eb978250c82fff108",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 124,
+      "sameNumberPlayerIni": {
+        "id": 124,
+        "sections": {
+          "walk": {
+            "cloth": "18605"
+          },
+          "stand": {
+            "cloth": "18605"
+          },
+          "trigger": {
+            "cloth": "18605"
+          },
+          "die": {
+            "cloth": "18605"
+          },
+          "win": {
+            "cloth": "18605"
+          },
+          "cry": {
+            "cloth": "18605"
+          },
+          "lose": {
+            "cloth": "18605"
+          },
+          "wait": {
+            "cloth": "18605"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player124.ini",
+          "bytes": 169,
+          "sha256": "eba5a6663edbd0e48ec0e91a36548215ad56b033684395433cb63353b649ccbc",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    },
+    {
+      "numericUiImageId": 125,
+      "sameNumberPlayerIni": {
+        "id": 125,
+        "sections": {
+          "walk": {
+            "cloth": "18606"
+          },
+          "stand": {
+            "cloth": "18606"
+          },
+          "trigger": {
+            "cloth": "18606"
+          },
+          "die": {
+            "cloth": "18606"
+          },
+          "win": {
+            "cloth": "18606"
+          },
+          "cry": {
+            "cloth": "18606"
+          },
+          "lose": {
+            "cloth": "18606"
+          },
+          "wait": {
+            "cloth": "18606"
+          }
+        },
+        "source": {
+          "archiveEntry": "QQTang-Local/runtime/client-patched/object/player/player125.ini",
+          "bytes": 169,
+          "sha256": "06448adcf8341245458480b20214ab8a7a663f230f4edaece8b1a6be1d193f44",
+          "encoding": "utf-8-sig"
+        }
+      },
+      "namespaceBridgeVerified": false,
+      "interpretation": "Matching numeric suffix alone does not establish imageID-to-roleID or NPC/model identity"
+    }
+  ],
+  "playerIniEvidence": {
+    "file": "assets/characters/motion-generated/roster-player-static-evidence.json",
+    "sha256": "c424ef7629f882005b2a4ebafd3e7794815f619539ce514bfb240189a5f71a5a"
+  },
+  "independentUiIdentityAllocations": [
+    {
+      "nativePath": "object/ui/room/char/icon_67.img",
+      "sourceSha256": "d2afc339873b71364897a8f37a87ae7891643906fe515e9d4c7c2df41e628c49",
+      "nativeSlotKey": "67",
+      "projectUiIdentityName": "玉墨面师",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_69.img",
+      "sourceSha256": "979cd91f2f746a9771a996582fdc76daa81da92e8a49b22161b48955988b75f8",
+      "nativeSlotKey": "69",
+      "projectUiIdentityName": "苔盏灵蛙",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_72.img",
+      "sourceSha256": "baa01bd595ef2432f688d999746be6538a86d31492a40c23eaea09dc4a62cf54",
+      "nativeSlotKey": "72",
+      "projectUiIdentityName": "青崖甲卫",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_73.img",
+      "sourceSha256": "72efe57999c5eae5deef18480d1655b64a0e2a19b84c402a4785ed9d60b2cb67",
+      "nativeSlotKey": "73",
+      "projectUiIdentityName": "铜铃渡客",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_75.img",
+      "sourceSha256": "bd0bffb9382f8295169c7d566e72f2e1de92ac1381af55420fc97fe6d51ad19e",
+      "nativeSlotKey": "75",
+      "projectUiIdentityName": "松潮长髯",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_77.img",
+      "sourceSha256": "ffca09491acebb3fb899f0a74321d09392610e3c54958db1d29635bffea03eba",
+      "nativeSlotKey": "77",
+      "projectUiIdentityName": "瓷骨灯灵",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_78.img",
+      "sourceSha256": "be92cd8f1381bb150af007e9266f78245dce2dbce0ab036c4a9684243c26f4f0",
+      "nativeSlotKey": "78",
+      "projectUiIdentityName": "朱炉卜者",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_79.img",
+      "sourceSha256": "c78b40e40d50348e59e424c5ea02860bd54e0527ec02e937626191fe1b752504",
+      "nativeSlotKey": "79",
+      "projectUiIdentityName": "赤陶面灵",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_81.img",
+      "sourceSha256": "bbac9b8a4bb9b2f96cda1de9d0821e3e7b106b9225bcbe74993b8700ba361f27",
+      "nativeSlotKey": "81",
+      "projectUiIdentityName": "雪玉鸮灵",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_85.img",
+      "sourceSha256": "eeff77d617877ff4a181bb89254559c9034a12fe46447ffa227af169ffb06226",
+      "nativeSlotKey": "85",
+      "projectUiIdentityName": "夜云守星",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_117.img",
+      "sourceSha256": "bbac9b8a4bb9b2f96cda1de9d0821e3e7b106b9225bcbe74993b8700ba361f27",
+      "nativeSlotKey": "117",
+      "projectUiIdentityName": "月瓣小仙",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_118.img",
+      "sourceSha256": "bbac9b8a4bb9b2f96cda1de9d0821e3e7b106b9225bcbe74993b8700ba361f27",
+      "nativeSlotKey": "118",
+      "projectUiIdentityName": "古玉龟卜",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_119.img",
+      "sourceSha256": "bbac9b8a4bb9b2f96cda1de9d0821e3e7b106b9225bcbe74993b8700ba361f27",
+      "nativeSlotKey": "119",
+      "projectUiIdentityName": "霜晶角灵",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_124.img",
+      "sourceSha256": "bbac9b8a4bb9b2f96cda1de9d0821e3e7b106b9225bcbe74993b8700ba361f27",
+      "nativeSlotKey": "124",
+      "projectUiIdentityName": "丹岩小狮",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_125.img",
+      "sourceSha256": "bbac9b8a4bb9b2f96cda1de9d0821e3e7b106b9225bcbe74993b8700ba361f27",
+      "nativeSlotKey": "125",
+      "projectUiIdentityName": "桂金鹏灵",
+      "sourceNamespace": "PVEBossInfo.m_iImageID",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_xxm.img",
+      "sourceSha256": "3b0fd6406fc74b7daeeac79acc2523fd418b86d0ddc5a5c453426ac4af7af77c",
+      "nativeSlotKey": "xxm",
+      "projectUiIdentityName": "竹叶符使",
+      "sourceNamespace": "Unbound legacy filename alias",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    },
+    {
+      "nativePath": "object/ui/room/char/icon_zjl.img",
+      "sourceSha256": "83d7b1485bffcbc9dba3ed822d2b69709959eff2d8dd3e300bd7176a39c976b0",
+      "nativeSlotKey": "zjl",
+      "projectUiIdentityName": "朱仪仙翁",
+      "sourceNamespace": "Unbound legacy filename alias",
+      "originalActorOrNpcId": null,
+      "worldModelBindingVerified": false,
+      "independentUiAppearanceAllocated": true,
+      "existingSourceRolePortraitReused": false
+    }
+  ],
+  "existingTransformationNamespace": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    54,
+    55
+  ],
+  "existingTransformationMastersReusedForUnboundImageIds": false,
+  "aliasDecision": "Original icon pixel equality alone is not an entity identity alias; all17 unbound image paths receive independent original portraits",
+  "nativeRuntimeVerified": false,
+  "worldCreatureOrCharacterActionsCompleted": false
+}

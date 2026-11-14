@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "sourceReferences": {
+    "file": "assets/native-client-ui/room-extra-reference/manifest.json",
+    "sha256": "2e1cb272fac7207bd730f6f4959b6f6adc6fc5b7be1fc41cd4aea0b7cceba3fb"
+  },
+  "sourceColorBindings": [
+    {
+      "scope": "?.UI_children_room.children.player1.children.name",
+      "sourceFirstLine": 1952,
+      "bytecodeSha256": "9610cce0210f7d1467e8bab08135094fe17e7168fc9d82388b42dead9b5eaa91",
+      "loadByteOffset": 12,
+      "storeByteOffset": 15,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6503005a0400",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "scope": "?.UI_children_room.children.player5.children.name",
+      "sourceFirstLine": 2056,
+      "bytecodeSha256": "9610cce0210f7d1467e8bab08135094fe17e7168fc9d82388b42dead9b5eaa91",
+      "loadByteOffset": 12,
+      "storeByteOffset": 15,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6503005a0400",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiRoom",
+      "scope": "?.UI_children_room.children.matchDlg.children.systemBillboard",
+      "sourceFirstLine": 2963,
+      "bytecodeSha256": "fa5a80f8ac4d2e355f24c82c708570e10d1b84d0676d44044afbd30d971245db",
+      "literalAssignments": {
+        "rect": [
+          40,
+          106,
+          210,
+          150
+        ],
+        "drawcolor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "caption": "systemBillboard"
+      },
+      "activeControlFlowConfirmed": false
+    },
+    {
+      "module": "uiRoom",
+      "scope": "?.UI_children_room.children.matchDlg.children.scoreBillboardTitle",
+      "sourceFirstLine": 2967,
+      "bytecodeSha256": "fa5a80f8ac4d2e355f24c82c708570e10d1b84d0676d44044afbd30d971245db",
+      "literalAssignments": {
+        "rect": [
+          40,
+          296,
+          140,
+          16
+        ],
+        "drawcolor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "caption": "scoreTitle"
+      },
+      "activeControlFlowConfirmed": false
+    },
+    {
+      "module": "uiRoom",
+      "scope": "?.UI_children_room.children.matchDlg.children.scoreBillboard",
+      "sourceFirstLine": 2972,
+      "bytecodeSha256": "fa5a80f8ac4d2e355f24c82c708570e10d1b84d0676d44044afbd30d971245db",
+      "literalAssignments": {
+        "rect": [
+          40,
+          320,
+          210,
+          120
+        ],
+        "drawcolor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "caption": "scoreBillboard"
+      },
+      "activeControlFlowConfirmed": false
+    }
+  ],
+  "broadcastColorAlias": {
+    "module": "uiMain",
+    "sourceSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+    "byteStart": 454,
+    "byteEnd": 460,
+    "instructionHex": "6535005a3900",
+    "sourceSymbol": "maskColor",
+    "targetSymbol": "broadcastColor",
+    "resolvedRgba": [
+      51,
+      51,
+      51,
+      255
+    ]
+  },
+  "broadcastWordsTemplateInheritance": {
+    "module": "uiRoom",
+    "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+    "scope": "?.UI_children_room.children.chatArea.children.chatPanel.children.speaker0.children",
+    "baseLoadByteOffset": 31,
+    "baseName": "TRichEdit",
+    "baseInstructionHex": "650400",
+    "templateModuleSha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+    "templateScope": {
+      "scope": "?.TRichEdit",
+      "sourceFilename": "D:\\QQTangBuilder\\qqtangbuilder_QQTang_200410_Proj_int\\IED_QQTang_VOB\\QQTang\\Client\\source\\UI\\uiTemplate.py",
+      "firstLine": 104,
+      "bytecodeLength": 56,
+      "bytecodeSha256": "5ffa746e68ce2f42e88c08232944a453eeefc0ff98d2df5bbf4f8e14010f91e8",
+      "bytecodeExecuted": false,
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "maxchar",
+        "drawcolor",
+        "textsize",
+        "textfont",
+        "edit_talk",
+        "editmethod"
+      ],
+      "constants": [
+        {
+          "type": "NoneType",
+          "value": null
+        },
+        {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "e6ea4cf98255efc2d166793d5430ec579d3a1e3e41fb8a07caff7f5fcd9fd3e6",
+          "text": "RICHEDIT",
+          "textEncodingCandidate": "utf-8"
+        },
+        {
+          "type": "int",
+          "value": 800
+        },
+        {
+          "type": "int",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "value": 255
+        },
+        {
+          "type": "int",
+          "value": 12
+        },
+        {
+          "type": "int",
+          "value": 1
+        }
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "e6ea4cf98255efc2d166793d5430ec579d3a1e3e41fb8a07caff7f5fcd9fd3e6",
+            "text": "RICHEDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "maxchar",
+          "literalValue": {
+            "type": "int",
+            "value": 800
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 12
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "textfont",
+          "literalValue": {
+            "type": "int",
+            "value": 1
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/dlg_matchroom-00.png",
+        "sha256": "82ebe7dd62fa5228eef43c6bfd4745f3167ccd73734933d9efff423849cb2985"
+      },
+      "field": "systemBillboard",
+      "samplePixel": [
+        120,
+        150
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/dlg_matchroom-00.png",
+        "sha256": "82ebe7dd62fa5228eef43c6bfd4745f3167ccd73734933d9efff423849cb2985"
+      },
+      "field": "scoreBillboardTitle",
+      "samplePixel": [
+        120,
+        302
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/dlg_matchroom-00.png",
+        "sha256": "82ebe7dd62fa5228eef43c6bfd4745f3167ccd73734933d9efff423849cb2985"
+      },
+      "field": "scoreBillboard",
+      "samplePixel": [
+        120,
+        370
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/btn_playerUp-00.png",
+        "sha256": "db31e51f1b046d659edd97ed534c66b163fbd3464749b077b3fb30ac3a30613b"
+      },
+      "field": "player.name",
+      "samplePixel": [
+        63,
+        7
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        27,
+        62,
+        51,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        27,
+        62,
+        51
+      ],
+      "contrastRatio": 11.774895115437014
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/btn_playerUp-01.png",
+        "sha256": "1b39f3c9947baa84de33117ed11b0ef8e08c67f847725c644c0a9f384a4d48c8"
+      },
+      "field": "player.name",
+      "samplePixel": [
+        70,
+        14
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        27,
+        62,
+        51,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        27,
+        62,
+        51
+      ],
+      "contrastRatio": 11.774895115437014
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/btn_playerDown-00.png",
+        "sha256": "9c2ca5413084463d8fd4526fb69d907c2895aed223e710268237de089fa2bc98"
+      },
+      "field": "player.name",
+      "samplePixel": [
+        63,
+        110
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        27,
+        62,
+        51,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        27,
+        62,
+        51
+      ],
+      "contrastRatio": 11.774895115437014
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/btn_playerDown-01.png",
+        "sha256": "6987c10ba9bb87140ab939d9bff8c27e7ff851efa348ca698cf8c49264d8f38f"
+      },
+      "field": "player.name",
+      "samplePixel": [
+        70,
+        118
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        27,
+        62,
+        51,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        27,
+        62,
+        51
+      ],
+      "contrastRatio": 11.774895115437014
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-00.png",
+        "sha256": "b91d2833af46c8254e462e339534dba3cc99edd96d225dbe338e940beed3a68c"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-01.png",
+        "sha256": "29865d259438d497324f92e8628a2753bec6785a65406a2ab848c46d81e66cf6"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-02.png",
+        "sha256": "777bf0a86fe9824ee50c93915555d9a1ccb1a138ff0f91c4115d3a3092d9987b"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-03.png",
+        "sha256": "bf899362c6a02af0d5769153219a7cd8f67e1cac046ecdbbb9978b6652cb5c73"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-04.png",
+        "sha256": "35b630b24f790dffa51b46d082b4f4a87fa5c7b8ede7f6e2f3b526d1fc559c00"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-05.png",
+        "sha256": "63008ae736e28a8d97dc6ffea73dfa3776e48a9260546ec1af826f7ed7a3eca2"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-06.png",
+        "sha256": "8180301138d90d72a0d9dbad101e9fb38781d795faa2dfffd0b7467dd1c92167"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/teamColorStrip-07.png",
+        "sha256": "e0537f2bc72c748ac35692225b6a2dc7d7596be5185ab49c218ee6715b8000d0"
+      },
+      "field": "player.name on indexed team strip",
+      "samplePixel": [
+        70,
+        10
+      ],
+      "sourceForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledNativeRgba": [
+        37,
+        77,
+        66,
+        255
+      ],
+      "compositedBackgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "contrastRatio": 9.464219973708783
+    },
+    {
+      "nativePreviews": [
+        {
+          "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/img_popo-00.png",
+          "sha256": "6afc38400d9ce227b4abbea27e96dc0931d26a83fd21df0bb822b54782ae879a"
+        },
+        {
+          "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/mask_speaker-00.png",
+          "sha256": "ffaacb8521ad504a0b86bbb8cd897b59205aa954d300e62c1fbee4ffe738b2de"
+        }
+      ],
+      "field": "speaker.name",
+      "sourceForegroundRgba": [
+        51,
+        51,
+        51,
+        255
+      ],
+      "nativeFillFactor": 0.6,
+      "compositedBackgroundRgb": [
+        161,
+        171,
+        152
+      ],
+      "contrastRatio": 5.2908981451530925
+    },
+    {
+      "nativePreviews": [
+        {
+          "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/img_popo-00.png",
+          "sha256": "6afc38400d9ce227b4abbea27e96dc0931d26a83fd21df0bb822b54782ae879a"
+        },
+        {
+          "file": "assets/native-client-ui/room-extra-reference/candidate/decoded/mask_speaker-00.png",
+          "sha256": "ffaacb8521ad504a0b86bbb8cd897b59205aa954d300e62c1fbee4ffe738b2de"
+        }
+      ],
+      "field": "speaker.words",
+      "sourceForegroundRgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "nativeFillFactor": 0.6,
+      "compositedBackgroundRgb": [
+        161,
+        171,
+        152
+      ],
+      "contrastRatio": 8.793977106065528
+    }
+  ],
+  "sampleThreshold": 4.5,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false
+}

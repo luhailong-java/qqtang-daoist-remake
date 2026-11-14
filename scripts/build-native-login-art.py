@@ -27,7 +27,10 @@ MODULES = {'common': 'native-ui-common-art.py', 'room-controls': 'native-ui-room
            'entry-controls':'native-ui-entry-controls-art.py', 'chat-controls':'native-ui-chat-controls-art.py',
            'deal-controls':'native-ui-deal-controls-art.py', 'storage-task':'native-ui-storage-task-art.py',
            'forge-controls':'native-ui-forge-controls-art.py', 'pet-controls':'native-ui-pet-controls-art.py',
-           'lobbyextra':'native-ui-lobbyextra-art.py', 'web-controls':'native-ui-web-controls-art.py'}
+           'lobbyextra':'native-ui-lobbyextra-art.py', 'web-controls':'native-ui-web-controls-art.py',
+           'emblems':'native-ui-emblems-art.py', 'social-marriage':'native-ui-socialmarriage-art.py',
+           'promo':'native-ui-promo-art.py', 'shop-extra':'native-ui-shopextra-art.py',
+           'room-extra':'native-ui-roomextra-art.py', 'loose-controls':'native-ui-loose-controls-art.py'}
 EXTRA_ART = {}
 for name, filename in MODULES.items():
     module_spec = importlib.util.spec_from_file_location(name.replace('-', '_'), ROOT/'scripts'/filename)
@@ -110,7 +113,7 @@ def nine_slice(image, size, inset):
 
 def artwork(kind, label, index, size, paints, font_path, frame_count):
     for name, module in EXTRA_ART.items():
-        if kind.startswith(name.split('-')[0] + '-'):
+        if kind.startswith(getattr(module, 'RENDERER_PREFIX', name.split('-')[0] + '-')):
             return module.render(kind, label, index, size, paints, font_path, nine_slice, scaled)
     if kind.startswith('core-'):
         return core_art.render(kind, label, index, size, paints, font_path, nine_slice, scaled)
@@ -179,7 +182,8 @@ def main():
     postlogin_references = {e['nativePath'].lower():e for e in json.loads(postlogin_reference_path.read_bytes())['resources']}
     core_reference_path = ROOT/'assets/native-client-ui/core-reference/manifest.json'
     core_references = {e['nativePath'].lower():e for e in json.loads(core_reference_path.read_bytes())['resources']}
-    extra_reference_paths = {name:ROOT/f'assets/native-client-ui/{name}-reference/manifest.json' for name in EXTRA_ART}
+    extra_reference_paths = {name:ROOT/getattr(module, 'REFERENCE_MANIFEST',
+        f'assets/native-client-ui/{name}-reference/manifest.json') for name,module in EXTRA_ART.items()}
     extra_references = {name:{e['nativePath'].lower():e for e in json.loads(path.read_bytes())['resources']}
                         for name,path in extra_reference_paths.items()}
     sources, items = [], []
@@ -191,7 +195,7 @@ def main():
             original = archive.read(member) if loose else codec.reader.unpack_resource(package, packed)[0]
             if packed and codec.reader.unpack_resource(package, packed)[0] != original:
                 raise ValueError('Loose and packaged source art differ')
-            metadata, first = codec.reader.inspect_dimg(original)
+            metadata, first = codec.inspect_native(original)
             artifact_name = native_path.removesuffix('.img').replace('/', '__')
             reference_path = HERE / 'references' / f'{artifact_name}-frame0.png'
             save_image(reference_path, Image.frombytes('RGBA', (first['width'], first['height']), first['pixels']), check)
@@ -267,7 +271,9 @@ def main():
                     for name,module in EXTRA_ART.items() for kind,change in getattr(module,'ALPHA_NORMALIZATIONS',{}).items()],
                 'sourceArtworkGeneration': [{'group':name,**record(ROOT/filename)}
                     for name,module in EXTRA_ART.items() for filename in getattr(module,'ART_GENERATION_RECORDS',[])],
-                'operation': 'Own artwork is composed and text rasterized at native control dimensions, then encoded into original DIMG pixel modes. Upstream model-generated artwork is recorded separately; this native build does not call image models.',
+                'sourceReferenceContracts': [{'group':name,**record(ROOT/filename)}
+                    for name,module in EXTRA_ART.items() for filename in getattr(module,'REFERENCE_INPUTS',[])],
+                'operation': 'Own artwork is composed and text rasterized at native control dimensions, then encoded into original DIMG/TGA pixel modes or a GIF palette with original canvas/timing/disposal. Upstream model-generated artwork is recorded separately; this native build does not call image models.',
                 'newModelGeneration': False, 'nativeBuildInvokesImageModel':False,
                 'visualAccepted': False, 'nativeRuntimeVerified': False}
     save_json(HERE/'manifest.json', manifest, check)

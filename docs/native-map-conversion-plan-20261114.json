@@ -33,11 +33,15 @@
     },
     {
       "file": "scripts/native-ui-format.py",
-      "sha256": "e06d8634fe409f1c6ebfdbdc66b1911bbbb49c3d533345cc756e26aa74189de8"
+      "sha256": "44c2643eb25b28daaaa4c0f914072bf249b8bf22c4161a5ee4e4c1d46d138508"
     },
     {
       "file": "scripts/inspect-reference-dimg.py",
       "sha256": "271540378b68b950d59b564bd37ad2e8d9ef1ffc4e30c2811fee9fb7f1c339b6"
+    },
+    {
+      "file": "docs/native-codec-tga-extension-20261114.json",
+      "sha256": "adb40c215e0e565b9b57e2d5abb0e787f44c4560872134a78cb9734233d89c17"
     }
   ],
   "sourceArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
@@ -31926,5 +31930,13 @@
   "nativeFilesWritten": false,
   "providedClientMutated": false,
   "mainManifestsMutated": false,
-  "packageIntegrationBoundary": "The provided client currently contains custom UI/head batches. Do not replace object.pkg/object.idx with the pinned source package. Append/merge all authorized native-path replacements in one current batch and verify every unrelated entry and resource survives."
+  "packageIntegrationBoundary": "The provided client currently contains custom UI/head batches. Do not replace object.pkg/object.idx with the pinned source package. Append/merge all authorized native-path replacements in one current batch and verify every unrelated entry and resource survives.",
+  "codecExtensionCompatibility": {
+    "previousPlanSha256": "8dfeab9885e306fdaf25408c6bc903d61a17f09224f2fc9e3f58afc7f817134d",
+    "evidence": {
+      "file": "docs/native-codec-tga-extension-20261114.json",
+      "sha256": "adb40c215e0e565b9b57e2d5abb0e787f44c4560872134a78cb9734233d89c17"
+    },
+    "reason": "Added bounded TGA and opaque single-frame GIF handling for remaining UI. Existing DIMG encoder AST and all 713 native map/head/inventory outputs retain identical encoded bytes."
+  }
 }

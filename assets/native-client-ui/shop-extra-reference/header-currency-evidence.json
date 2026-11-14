@@ -1,0 +1,1546 @@
+{
+  "schemaVersion": 1,
+  "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+  "sourceSha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+  "operation": "inert source reading only",
+  "bindings": [
+    {
+      "scope": "?.UI_children_shop.children.useQBRad",
+      "bytecodeSha256": "7dd9bac463c5bc0731108017a159ce4862b1fb03c6313297f18774d4e028725d",
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": -9999
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 438
+              },
+              {
+                "type": "int",
+                "value": 3
+              },
+              {
+                "type": "int",
+                "value": 92
+              },
+              {
+                "type": "int",
+                "value": 30
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 25,
+            "sha256": "14a86d48f9e766b8238943f7b8a5906536b0f978de6770f89758c0b977313d50",
+            "text": "object/ui/shop/rad_QB.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ],
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "rect",
+        "bkimage",
+        "groupid",
+        "groupstop",
+        "OnClick"
+      ],
+      "varnames": [],
+      "instructions": [
+        {
+          "byteOffset": 0,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 0,
+          "value": "__name__"
+        },
+        {
+          "byteOffset": 3,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 1,
+          "value": "__module__"
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "int",
+            "value": -9999
+          }
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 2,
+          "value": "initlayer"
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "int",
+            "value": 438
+          }
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "int",
+            "value": 3
+          }
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "int",
+            "value": 92
+          }
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 5,
+          "value": {
+            "type": "int",
+            "value": 30
+          }
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 4,
+          "value": null
+        },
+        {
+          "byteOffset": 27,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "rect"
+        },
+        {
+          "byteOffset": 30,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 6,
+          "value": {
+            "type": "bytes",
+            "length": 25,
+            "sha256": "14a86d48f9e766b8238943f7b8a5906536b0f978de6770f89758c0b977313d50",
+            "text": "object/ui/shop/rad_QB.img",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 33,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 4,
+          "value": "bkimage"
+        },
+        {
+          "byteOffset": 36,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 7,
+          "value": {
+            "type": "int",
+            "value": 77
+          }
+        },
+        {
+          "byteOffset": 39,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 8,
+          "value": {
+            "type": "int",
+            "value": 1
+          }
+        },
+        {
+          "byteOffset": 42,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 45,
+          "opcode": 92,
+          "name": "92",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 48,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "groupid"
+        },
+        {
+          "byteOffset": 51,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 6,
+          "value": "groupstop"
+        },
+        {
+          "byteOffset": 54,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 9,
+          "value": {
+            "type": "code-reference",
+            "name": "OnClick",
+            "firstLine": 2390
+          }
+        },
+        {
+          "byteOffset": 57,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 60,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 7,
+          "value": "OnClick"
+        },
+        {
+          "byteOffset": 63,
+          "opcode": 82,
+          "name": "82",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 64,
+          "opcode": 83,
+          "name": "83",
+          "argument": null,
+          "value": null
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_shop.children.useTangBRad",
+      "bytecodeSha256": "893c89d1b850089396824eee93df21b93e1f6cdd14c6941680cb47a87a16270f",
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "initlayer",
+          "literalValue": {
+            "type": "int",
+            "value": -9999
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "groupstop",
+          "literalValue": {
+            "type": "int",
+            "value": 2
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 535
+              },
+              {
+                "type": "int",
+                "value": 3
+              },
+              {
+                "type": "int",
+                "value": 92
+              },
+              {
+                "type": "int",
+                "value": 30
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "c75ad807437f57643eb271291338b6e23d64708e67f6970ac270499331f1dde9",
+            "text": "object/ui/shop/rad_TangB.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ],
+      "names": [
+        "__name__",
+        "__module__",
+        "initlayer",
+        "groupstop",
+        "rect",
+        "bkimage",
+        "OnClick"
+      ],
+      "varnames": [],
+      "instructions": [
+        {
+          "byteOffset": 0,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 0,
+          "value": "__name__"
+        },
+        {
+          "byteOffset": 3,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 1,
+          "value": "__module__"
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "int",
+            "value": -9999
+          }
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 2,
+          "value": "initlayer"
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "int",
+            "value": 2
+          }
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "groupstop"
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "int",
+            "value": 535
+          }
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "int",
+            "value": 3
+          }
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 5,
+          "value": {
+            "type": "int",
+            "value": 92
+          }
+        },
+        {
+          "byteOffset": 27,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 6,
+          "value": {
+            "type": "int",
+            "value": 30
+          }
+        },
+        {
+          "byteOffset": 30,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 4,
+          "value": null
+        },
+        {
+          "byteOffset": 33,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 4,
+          "value": "rect"
+        },
+        {
+          "byteOffset": 36,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 7,
+          "value": {
+            "type": "bytes",
+            "length": 28,
+            "sha256": "c75ad807437f57643eb271291338b6e23d64708e67f6970ac270499331f1dde9",
+            "text": "object/ui/shop/rad_TangB.img",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 39,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "bkimage"
+        },
+        {
+          "byteOffset": 42,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 8,
+          "value": {
+            "type": "code-reference",
+            "name": "OnClick",
+            "firstLine": 2404
+          }
+        },
+        {
+          "byteOffset": 45,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 48,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 6,
+          "value": "OnClick"
+        },
+        {
+          "byteOffset": 51,
+          "opcode": 82,
+          "name": "82",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 52,
+          "opcode": 83,
+          "name": "83",
+          "argument": null,
+          "value": null
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_shop.children.sugarMoney",
+      "bytecodeSha256": "1493578c9b756f9d3c10420d9ec4cb8eeac71f5b1d87f5c8fb995fd702039314",
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 679
+              },
+              {
+                "type": "int",
+                "value": 32
+              },
+              {
+                "type": "int",
+                "value": 110
+              },
+              {
+                "type": "int",
+                "value": 13
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "d3d54b5cd0185147200bbf30a2399994e4e0c21293646d4bdb65778d7719b79c",
+            "text": "NUMLABEL",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 32,
+            "sha256": "3fd48398ba5df8ae8c5904f200a5f47e51568dd31855b4cb94417d6a136afa6c",
+            "text": "object/ui/common/numberMoney.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 10
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "textwidth",
+          "literalValue": {
+            "type": "int",
+            "value": 9
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "textheight",
+          "literalValue": {
+            "type": "int",
+            "value": 13
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ],
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "type",
+        "bkimage",
+        "textsize",
+        "textwidth",
+        "textheight",
+        "OnInit"
+      ],
+      "varnames": [],
+      "instructions": [
+        {
+          "byteOffset": 0,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 0,
+          "value": "__name__"
+        },
+        {
+          "byteOffset": 3,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 1,
+          "value": "__module__"
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "int",
+            "value": 679
+          }
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "int",
+            "value": 32
+          }
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "int",
+            "value": 110
+          }
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "int",
+            "value": 13
+          }
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 4,
+          "value": null
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 2,
+          "value": "rect"
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 5,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "d3d54b5cd0185147200bbf30a2399994e4e0c21293646d4bdb65778d7719b79c",
+            "text": "NUMLABEL",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 27,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "type"
+        },
+        {
+          "byteOffset": 30,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 6,
+          "value": {
+            "type": "bytes",
+            "length": 32,
+            "sha256": "3fd48398ba5df8ae8c5904f200a5f47e51568dd31855b4cb94417d6a136afa6c",
+            "text": "object/ui/common/numberMoney.img",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 33,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 4,
+          "value": "bkimage"
+        },
+        {
+          "byteOffset": 36,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 7,
+          "value": {
+            "type": "int",
+            "value": 10
+          }
+        },
+        {
+          "byteOffset": 39,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "textsize"
+        },
+        {
+          "byteOffset": 42,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 8,
+          "value": {
+            "type": "int",
+            "value": 9
+          }
+        },
+        {
+          "byteOffset": 45,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 6,
+          "value": "textwidth"
+        },
+        {
+          "byteOffset": 48,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "int",
+            "value": 13
+          }
+        },
+        {
+          "byteOffset": 51,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 7,
+          "value": "textheight"
+        },
+        {
+          "byteOffset": 54,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 9,
+          "value": {
+            "type": "code-reference",
+            "name": "OnInit",
+            "firstLine": 2434
+          }
+        },
+        {
+          "byteOffset": 57,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 60,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 8,
+          "value": "OnInit"
+        },
+        {
+          "byteOffset": 63,
+          "opcode": 82,
+          "name": "82",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 64,
+          "opcode": 83,
+          "name": "83",
+          "argument": null,
+          "value": null
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_shop.children.sugarMoney.OnInit",
+      "bytecodeSha256": "d6c57a9d6f0a7061e56075e6b695c687647a6f1e310939ca5105619f9bf9c68b",
+      "literalAssignments": [],
+      "names": [
+        "getMoney",
+        "qb",
+        "game",
+        "sugar",
+        "Win_SetText"
+      ],
+      "varnames": [
+        "game",
+        "qb",
+        "sugar"
+      ],
+      "instructions": [
+        {
+          "byteOffset": 0,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 0,
+          "value": "getMoney"
+        },
+        {
+          "byteOffset": 3,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 92,
+          "name": "92",
+          "argument": 3,
+          "value": null
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 125,
+          "name": "125",
+          "argument": 1,
+          "value": "qb"
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 125,
+          "name": "125",
+          "argument": 0,
+          "value": "game"
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 125,
+          "name": "125",
+          "argument": 2,
+          "value": "sugar"
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "int",
+            "value": -1
+          }
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 124,
+          "name": "124",
+          "argument": 2,
+          "value": "sugar"
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 106,
+          "name": "106",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 27,
+          "opcode": 111,
+          "name": "111",
+          "argument": 17,
+          "value": null
+        },
+        {
+          "byteOffset": 30,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 31,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 4,
+          "value": "Win_SetText"
+        },
+        {
+          "byteOffset": 34,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "bytes",
+            "length": 18,
+            "sha256": "b5905a1eeb9268efb2c2fb17307f198c5d2058ec25ca8f321ea77774e69390db",
+            "text": "UI.shop.sugarMoney",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 37,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "bytes",
+            "length": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "text": "",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 40,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 43,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 44,
+          "opcode": 110,
+          "name": "110",
+          "argument": 18,
+          "value": null
+        },
+        {
+          "byteOffset": 47,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 48,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 4,
+          "value": "Win_SetText"
+        },
+        {
+          "byteOffset": 51,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "bytes",
+            "length": 18,
+            "sha256": "b5905a1eeb9268efb2c2fb17307f198c5d2058ec25ca8f321ea77774e69390db",
+            "text": "UI.shop.sugarMoney",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 54,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "479bcebed0ea4fda2c9b97cc191139cf6ab9cb420b5fb2014a2659d240097861",
+            "text": "%11d",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 57,
+          "opcode": 124,
+          "name": "124",
+          "argument": 2,
+          "value": "sugar"
+        },
+        {
+          "byteOffset": 60,
+          "opcode": 22,
+          "name": "22",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 61,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 64,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 65,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 0,
+          "value": {
+            "type": "NoneType",
+            "value": null
+          }
+        },
+        {
+          "byteOffset": 68,
+          "opcode": 83,
+          "name": "83",
+          "argument": null,
+          "value": null
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_shop.children.shopTicket",
+      "bytecodeSha256": "8af30106c3acc5b7bccbf9c5634d121332b407f6076a08c1f870d5820bdaf4c2",
+      "literalAssignments": [
+        {
+          "storeByteOffset": 21,
+          "name": "rect",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 699
+              },
+              {
+                "type": "int",
+                "value": 8
+              },
+              {
+                "type": "int",
+                "value": 110
+              },
+              {
+                "type": "int",
+                "value": 13
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 27,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "d3d54b5cd0185147200bbf30a2399994e4e0c21293646d4bdb65778d7719b79c",
+            "text": "NUMLABEL",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "bkimage",
+          "literalValue": {
+            "type": "bytes",
+            "length": 32,
+            "sha256": "3fd48398ba5df8ae8c5904f200a5f47e51568dd31855b4cb94417d6a136afa6c",
+            "text": "object/ui/common/numberMoney.img",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 39,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 10
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 45,
+          "name": "textwidth",
+          "literalValue": {
+            "type": "int",
+            "value": 9
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "textheight",
+          "literalValue": {
+            "type": "int",
+            "value": 13
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ],
+      "names": [
+        "__name__",
+        "__module__",
+        "rect",
+        "type",
+        "bkimage",
+        "textsize",
+        "textwidth",
+        "textheight",
+        "dt_left",
+        "textstyle",
+        "OnInit"
+      ],
+      "varnames": [],
+      "instructions": [
+        {
+          "byteOffset": 0,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 0,
+          "value": "__name__"
+        },
+        {
+          "byteOffset": 3,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 1,
+          "value": "__module__"
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "int",
+            "value": 699
+          }
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "int",
+            "value": 8
+          }
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "int",
+            "value": 110
+          }
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "int",
+            "value": 13
+          }
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 4,
+          "value": null
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 2,
+          "value": "rect"
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 5,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "d3d54b5cd0185147200bbf30a2399994e4e0c21293646d4bdb65778d7719b79c",
+            "text": "NUMLABEL",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 27,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "type"
+        },
+        {
+          "byteOffset": 30,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 6,
+          "value": {
+            "type": "bytes",
+            "length": 32,
+            "sha256": "3fd48398ba5df8ae8c5904f200a5f47e51568dd31855b4cb94417d6a136afa6c",
+            "text": "object/ui/common/numberMoney.img",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 33,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 4,
+          "value": "bkimage"
+        },
+        {
+          "byteOffset": 36,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 7,
+          "value": {
+            "type": "int",
+            "value": 10
+          }
+        },
+        {
+          "byteOffset": 39,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "textsize"
+        },
+        {
+          "byteOffset": 42,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 8,
+          "value": {
+            "type": "int",
+            "value": 9
+          }
+        },
+        {
+          "byteOffset": 45,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 6,
+          "value": "textwidth"
+        },
+        {
+          "byteOffset": 48,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "int",
+            "value": 13
+          }
+        },
+        {
+          "byteOffset": 51,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 7,
+          "value": "textheight"
+        },
+        {
+          "byteOffset": 54,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 8,
+          "value": "dt_left"
+        },
+        {
+          "byteOffset": 57,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 9,
+          "value": "textstyle"
+        },
+        {
+          "byteOffset": 60,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 9,
+          "value": {
+            "type": "code-reference",
+            "name": "OnInit",
+            "firstLine": 2449
+          }
+        },
+        {
+          "byteOffset": 63,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 66,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 10,
+          "value": "OnInit"
+        },
+        {
+          "byteOffset": 69,
+          "opcode": 82,
+          "name": "82",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 70,
+          "opcode": 83,
+          "name": "83",
+          "argument": null,
+          "value": null
+        }
+      ]
+    },
+    {
+      "scope": "?.UI_children_shop.children.shopTicket.OnInit",
+      "bytecodeSha256": "0202cd7048e3f49f763850a3416cb9d69f42787e73eae93b94317e5d736542f3",
+      "literalAssignments": [],
+      "names": [
+        "QQTTicket",
+        "Win_SetText"
+      ],
+      "varnames": [],
+      "instructions": [
+        {
+          "byteOffset": 0,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 0,
+          "value": "QQTTicket"
+        },
+        {
+          "byteOffset": 3,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "int",
+            "value": 0
+          }
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 106,
+          "name": "106",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 111,
+          "name": "111",
+          "argument": 17,
+          "value": null
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 13,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 1,
+          "value": "Win_SetText"
+        },
+        {
+          "byteOffset": 16,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "bytes",
+            "length": 18,
+            "sha256": "5da6f9c35f6cc0d6526c1c8c39c354c07944002700f262b0a72387d1021e6175",
+            "text": "UI.shop.shopTicket",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 19,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "bytes",
+            "length": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "text": "",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 22,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 25,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 26,
+          "opcode": 110,
+          "name": "110",
+          "argument": 18,
+          "value": null
+        },
+        {
+          "byteOffset": 29,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 30,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 1,
+          "value": "Win_SetText"
+        },
+        {
+          "byteOffset": 33,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "bytes",
+            "length": 18,
+            "sha256": "5da6f9c35f6cc0d6526c1c8c39c354c07944002700f262b0a72387d1021e6175",
+            "text": "UI.shop.shopTicket",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 36,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "bytes",
+            "length": 3,
+            "sha256": "133232d00ae1e14a665d7905127f96a5d1dc59ee64ce7e6520f4eb8adfe4a94e",
+            "text": "%9d",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 39,
+          "opcode": 116,
+          "name": "LOAD_GLOBAL",
+          "argument": 0,
+          "value": "QQTTicket"
+        },
+        {
+          "byteOffset": 42,
+          "opcode": 22,
+          "name": "22",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 43,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 46,
+          "opcode": 1,
+          "name": "1",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 47,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 0,
+          "value": {
+            "type": "NoneType",
+            "value": null
+          }
+        },
+        {
+          "byteOffset": 50,
+          "opcode": 83,
+          "name": "83",
+          "argument": null,
+          "value": null
+        }
+      ]
+    }
+  ],
+  "conclusion": "Upper header699,8 is technically bound to shopTicket=QQTTicket, but the original raster explicitly labels it 酷比宝石, so the correct project caption is 灵玉. Lower679,32 uses sugar from getMoney(), original raster QQ糖币 -> 灵币. Variable names alone do not identify display currency. QB payment radio/deposit controls are a separate explicit Q币 category; their original currency label is retained in this art batch because callback/URL/payment values are unchanged. No 仙券 currency is introduced.",
+  "nativeRuntimeVerified": false,
+  "originalRasterObservation": {
+    "file": "assets/native-client-ui/core-reference/frames/bg_shop-000.png",
+    "sha256": "1094fbc58ad0243648833059a4b77071342956b0bd5c746bc7a9ce5637b7dfc7",
+    "actuallyViewed": true,
+    "upperBakedCaption": "酷比宝石",
+    "lowerBakedCaption": "QQ糖币",
+    "upperProjectCaption": "灵玉",
+    "lowerProjectCaption": "灵币"
+  },
+  "incorrectInferenceWithdrawn": "Earlier inference that QQTTicket meant shopping coupon or made the upper 灵玉 caption wrong is withdrawn; the original raster gives contrary direct semantic evidence."
+}

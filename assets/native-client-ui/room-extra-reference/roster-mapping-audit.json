@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "scope": "Exact native role alias-to-sourceRoleId positional proof plus existing project appearance allocation",
+  "builder": {
+    "file": "assets/native-client-ui/room-extra-reference/build-roster-mapping.py",
+    "sha256": "b126385355179f78fac077f709a43b7026c207b71dab36c2faa49e097db1ee84"
+  },
+  "sourceArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "sourceModules": [
+    {
+      "module": "uiRoom",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiRoom.pyc",
+      "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+      "parsedObjects": 12141,
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiShop",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+      "sourceSha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+      "parsedObjects": 20107,
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiGame",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "sourceSha256": "29519f46bb94ebbf722f48bc8f83f118936251425204e811022cc43f990437d9",
+      "parsedObjects": 3978,
+      "bytecodeExecuted": false
+    }
+  ],
+  "sourceRoomLists": {
+    "RoleNameList": {
+      "byteStart": 161,
+      "byteEnd": 230,
+      "byteSha256": "24d1704e5f813e895d4504d63e95c11472a4a7c288c1bf07926f3f109ead1c12",
+      "storeOpcode": 97,
+      "value": [
+        [
+          "random",
+          "boy",
+          "girl",
+          "xwk",
+          "tt",
+          "xq",
+          "cl",
+          "bbl",
+          "hy",
+          "mly",
+          "hwz",
+          "yd",
+          "ld",
+          "ge",
+          "tb"
+        ],
+        [
+          "kl",
+          "nz",
+          "wll",
+          "yy"
+        ]
+      ]
+    },
+    "RoleIDList": {
+      "byteStart": 230,
+      "byteEnd": 299,
+      "byteSha256": "8bf65f15dfaefda59f35c441a7fffa1868b28914348fbabddcfb7af5efbe2666",
+      "storeOpcode": 97,
+      "value": [
+        [
+          23,
+          9,
+          22,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          18,
+          19,
+          20,
+          21
+        ],
+        [
+          13,
+          14,
+          15,
+          16
+        ]
+      ]
+    }
+  },
+  "sourceShopAliasList": {
+    "byteStart": 1952,
+    "byteEnd": 2024,
+    "byteSha256": "bdfbef4606459f2f18bcd8d1d936514ad455c52e3a386c1be94c3e3f4aafc337",
+    "storeOpcode": 90,
+    "value": [
+      "xwk",
+      "tt",
+      "xq",
+      "cl",
+      "bbl",
+      "hy",
+      "mly",
+      "hwz",
+      "boy",
+      "",
+      "",
+      "",
+      "kl",
+      "nz",
+      "wll",
+      "yy",
+      "",
+      "yd",
+      "ld",
+      "ge",
+      "tb",
+      "girl"
+    ]
+  },
+  "sourcePveAliasTuple": {
+    "byteStart": 174,
+    "byteEnd": 249,
+    "byteSha256": "42347d72c7062a3d70cfbf57ff3b9731d05f55691cf82df63ab9e13ef84eecf5",
+    "storeOpcode": 90,
+    "value": [
+      "",
+      "xwk",
+      "tt",
+      "xq",
+      "cl",
+      "bbl",
+      "hy",
+      "mly",
+      "hwz",
+      "boy",
+      "cbz",
+      "xz",
+      "ls",
+      "kl",
+      "nz",
+      "wll",
+      "yy",
+      "",
+      "yd",
+      "ld",
+      "ge",
+      "tb",
+      "girl"
+    ]
+  },
+  "dynamicUseEvidence": [
+    {
+      "module": "uiRoom",
+      "scope": "?.ui_UpdateRole",
+      "sourceFirstLine": 346,
+      "bytecodeSha256": "3046d60000b4262ded852fc0cccdd61e6d36d31b45015feb8fb86090dc74b648",
+      "referencedNames": [
+        "range",
+        "defRoleCnt",
+        "i",
+        "RolePos",
+        "RoleType",
+        "idx",
+        "len",
+        "RoleNameList",
+        "Win_ShowWidget",
+        "Win_SetImg",
+        "RoleIDList",
+        "id",
+        "curRoleID",
+        "Win_SetCheck"
+      ],
+      "directStringConstants": [
+        "UI.room.role%d",
+        "object/ui/room/char/icon_%s.img",
+        "UI.room.role%d.frame"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiRoom",
+      "scope": "?.UI_children_room.children.role1.OnMouseMoveIn",
+      "sourceFirstLine": 2270,
+      "bytecodeSha256": "e737439ff7137bf8b04f5d6b60f0f7b649dc2a702c52c1826d640300ad033b53",
+      "referencedNames": [
+        "getMyIdx2",
+        "RolePos",
+        "RoleType",
+        "idx",
+        "ui",
+        "RoleIDList",
+        "Win_SetImg",
+        "Win_SetStripNum",
+        "RoleNameList",
+        "RoleAbility"
+      ],
+      "directStringConstants": [
+        "UI.room.roleTip",
+        ".roleAttr",
+        "",
+        ".roleName",
+        ".rolePic",
+        ".roleAttr.roleBomb",
+        ".roleAttr.roleBombMax",
+        ".roleAttr.rolePower",
+        ".roleAttr.rolePowerMax",
+        ".roleAttr.roleSpeed",
+        ".roleAttr.roleSpeedMax",
+        "object/ui/room/char/dlg_roleAttr.img",
+        "object/ui/room/char/name_%s.img",
+        "object/ui/room/char/%s.img"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiShop",
+      "scope": "?.getCharIconName",
+      "sourceFirstLine": 315,
+      "bytecodeSha256": "a43a61bfb8e8338135da5e5e598806dc40a8bb3f3948b4b2fab518b705affb74",
+      "referencedNames": [
+        "shopPlayer_getRoleIdx",
+        "i",
+        "charIconList"
+      ],
+      "directStringConstants": [
+        "",
+        "object/ui/shop/charIcon/%s.img"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiGame",
+      "scope": "?.ui_InitPVEPlayer",
+      "sourceFirstLine": 187,
+      "bytecodeSha256": "5fe4241f9294916ad1700fc67d9d7b56c1066f84dd6483e60adaa361a73f4f96",
+      "referencedNames": [
+        "GetPVEPlayerInfo",
+        "playerInfo",
+        "len",
+        "g_PVEPlayerCnt",
+        "g_PVEPlayerID",
+        "range",
+        "i",
+        "append",
+        "m_nPlayerID",
+        "g_DefPlayerCnt",
+        "ui",
+        "Win_ShowWidget",
+        "Win_SetImg",
+        "g_RoleNameList",
+        "m_nRoleID",
+        "Win_SetText",
+        "str",
+        "m_szNickName",
+        "Level",
+        "getInfo",
+        "m_nPoints",
+        "level",
+        "setUI",
+        "m_nHP",
+        "Win_SetStripTotalNum",
+        "Win_SetStripNum",
+        "Win_SetStripDestNum"
+      ],
+      "directStringConstants": [
+        "Init PvE Player: count=%d, ",
+        "UI.game.pvePlayerList.playerInfo%d",
+        ".playerIcon",
+        "object/ui/room/char/icon_%s.img",
+        ".playerName",
+        ".playerLife",
+        ".playerLifeLine"
+      ],
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiGame",
+      "scope": "?.ui_InitPVEBoss",
+      "sourceFirstLine": 146,
+      "bytecodeSha256": "907da26c0e53a823c2501400e0f3d9af4b4c5a013adc9336a5351003463e8f87",
+      "referencedNames": [
+        "GetPVEBossInfo",
+        "bossInfo",
+        "g_PVEBossID",
+        "len",
+        "g_PVEBossCnt",
+        "range",
+        "g_DefBossCnt",
+        "i",
+        "ui",
+        "Win_ShowWidget",
+        "posx",
+        "posy",
+        "step",
+        "Win_SetImg",
+        "m_iImageID",
+        "append",
+        "m_iNPCID",
+        "curposx",
+        "Win_Move2Pos",
+        "Win_SetRect",
+        "value_channel_winrect",
+        "Win_SetStripTotalNum",
+        "m_iHP",
+        "Win_SetStripNum",
+        "Win_SetStripDestNum"
+      ],
+      "directStringConstants": [
+        "Init boss cnt=",
+        "UI.game.pveBossInfo%d",
+        ".BossPortrait",
+        "object/ui/room/char/icon_%d.img",
+        "bossInfo[i].m_iImageID = ",
+        ".lifeLineBack",
+        ".lifeLineFront"
+      ],
+      "bytecodeExecuted": false
+    }
+  ],
+  "projectIdentityAllocation": {
+    "file": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+    "sha256": "a2b7d28f77e677fa6207228585f35cc2f5b08f7b80ea72de290c1e308e62a53c"
+  },
+  "projectPortraitManifest": {
+    "file": "assets/characters/portraits-candidates/manifest.json",
+    "sha256": "aea0cc0fb911604e31212ee51d0554ac4bcfb74d7c5cde7f3c383c08b512d4a4"
+  },
+  "mappedConcreteRoleCount": 20,
+  "nativeRoomAndShopListRoleCount": 18,
+  "entries": [
+    {
+      "sourceRoleId": 9,
+      "nativeAlias": "boy",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 1,
+      "nativeShopOneBasedRoleIndex": 9,
+      "identityId": "daoist-child",
+      "projectName": "道童",
+      "uiShortName": "道童",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/daoist-child-256.png",
+        "sha256": "e7c8ad42929d0d15a9d431c185cabbcd1599c49ca2f63db04cf843e918740e20"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/daoist-child-256.png.source.json",
+        "sha256": "d0f3de9da5060bee69d05c5b7299a31db2a1c8096f84bd5c1d652421b48f12fe"
+      },
+      "master": {
+        "file": "assets/characters/daoist-child.png",
+        "sha256": "0e68fc89ad535b6f93fd3e6a724d3499de45d8c105d32902506e673d358d0155"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/daoist-child.png.source.json",
+        "sha256": "b383e8c53ff3e959ef1a1b150cb9d49864ba263df2924dd14455e6f6fa66699e"
+      },
+      "roomPaths": [
+        "object/ui/room/char/boy.img",
+        "object/ui/room/char/icon_boy.img",
+        "object/ui/room/char/name_boy.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/boy.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 22,
+      "nativeAlias": "girl",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 2,
+      "nativeShopOneBasedRoleIndex": 22,
+      "identityId": "moon-shadow",
+      "projectName": "月影",
+      "uiShortName": "月影",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/moon-shadow-256.png",
+        "sha256": "2ed6729967a99de81fb90c750a83b578df36907044d894f4fde9103d7fac8bbd"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/moon-shadow-256.png.source.json",
+        "sha256": "f465157a9396281533de02495f78c74b90107004ae5a91983605d0e0576184df"
+      },
+      "master": {
+        "file": "assets/characters/moon-shadow.png",
+        "sha256": "8ccc7e9118ed1ca608a407687e5a76cf392b1f694ef7737ccc28536caae84bfc"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/moon-shadow.png.source.json",
+        "sha256": "3e7c9189d081386cbd80b12a24096c622d39cb40bef9165e6ecb4c90a8262ec0"
+      },
+      "roomPaths": [
+        "object/ui/room/char/girl.img",
+        "object/ui/room/char/icon_girl.img",
+        "object/ui/room/char/name_girl.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/girl.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 1,
+      "nativeAlias": "xwk",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 3,
+      "nativeShopOneBasedRoleIndex": 1,
+      "identityId": "mountain-guardian",
+      "projectName": "山岳",
+      "uiShortName": "山岳",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/mountain-guardian-256.png",
+        "sha256": "82f8780d9aa90de6d3f06717eca53029c2b5ac5fba5879733e3362bb6f4c7a43"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/mountain-guardian-256.png.source.json",
+        "sha256": "75bc0265bd6747f71462995aff54ad4ac71d97412eb7c8cc2f8fdc45c40a4452"
+      },
+      "master": {
+        "file": "assets/characters/mountain-guardian.png",
+        "sha256": "371bb4d303cc5bde21e73eb4ddba277aebee06b5ad65d81301ea828804263521"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/mountain-guardian.png.source.json",
+        "sha256": "14ea2ddc90dea7dbf39cc0839977e85a60a65ba73accb2619739d2f1aea26557"
+      },
+      "roomPaths": [
+        "object/ui/room/char/xwk.img",
+        "object/ui/room/char/icon_xwk.img",
+        "object/ui/room/char/name_xwk.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/xwk.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 2,
+      "nativeAlias": "tt",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 4,
+      "nativeShopOneBasedRoleIndex": 2,
+      "identityId": "lotus-healer",
+      "projectName": "莲花",
+      "uiShortName": "莲花",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/lotus-healer-256.png",
+        "sha256": "09f5b8f03ec47cec1ac31767dcf3fd39409d3a6afa501249a48ac3344992b7f8"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/lotus-healer-256.png.source.json",
+        "sha256": "0f57496fe091b2f78787f1d62dc60061f42b361aa2b0383706f9763c6fb1b929"
+      },
+      "master": {
+        "file": "assets/characters/lotus-healer.png",
+        "sha256": "eac7887f4c24cfa55da236ae0ddb915ee2f6e14bad135c7858ec0ec99f8d9354"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/lotus-healer.png.source.json",
+        "sha256": "a9a64e16254245fa4b37394a2e6eab2c694c612e46d6dfe0ae041f269f4a88da"
+      },
+      "roomPaths": [
+        "object/ui/room/char/tt.img",
+        "object/ui/room/char/icon_tt.img",
+        "object/ui/room/char/name_tt.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/tt.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 3,
+      "nativeAlias": "xq",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 5,
+      "nativeShopOneBasedRoleIndex": 3,
+      "identityId": "01_ice_sword_girl",
+      "projectName": "冰剑",
+      "uiShortName": "冰剑",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/01_ice_sword_girl-256.png",
+        "sha256": "b4fcd7a768329d5937c34e5a083f4053a329c67e2e20f596e29d65334d993639"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/01_ice_sword_girl-256.png.source.json",
+        "sha256": "6ac496a66eb158b408e8422e679897b82d5a9308f4e2d3bb13791d04ff112ea9"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/01_ice_sword_girl/master.png",
+        "sha256": "2c25b13134fdf91fbcead12c82840cafcb1fcc74855891c5c24964cde33f22ef"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/01_ice_sword_girl/source.json",
+        "sha256": "4e140d1d7e88376ca0097d19a74798dd048e638477aa3027172dcbccb2989f36"
+      },
+      "roomPaths": [
+        "object/ui/room/char/xq.img",
+        "object/ui/room/char/icon_xq.img",
+        "object/ui/room/char/name_xq.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/xq.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 4,
+      "nativeAlias": "cl",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 6,
+      "nativeShopOneBasedRoleIndex": 4,
+      "identityId": "02_fire_talisman_boy",
+      "projectName": "火符",
+      "uiShortName": "火符",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/02_fire_talisman_boy-256.png",
+        "sha256": "04e537abf86c4dde468324242e8acb9496975fe2bd2f6627d0672734b64de9eb"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/02_fire_talisman_boy-256.png.source.json",
+        "sha256": "f94b84cab6d8a5b364aefd6983265ae6b427820b7c7fb6f6ff5b2104584bc421"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/02_fire_talisman_boy/master.png",
+        "sha256": "8df2760a5a80eb54ea21558abace8bcbaeca7f7ae6f64de022b6a8b1919c854a"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/02_fire_talisman_boy/source.json",
+        "sha256": "35c8f3866630074b3f1b2760bda9eae24268e295650e847b3bc86deedb2310bc"
+      },
+      "roomPaths": [
+        "object/ui/room/char/cl.img",
+        "object/ui/room/char/icon_cl.img",
+        "object/ui/room/char/name_cl.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/cl.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 5,
+      "nativeAlias": "bbl",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 7,
+      "nativeShopOneBasedRoleIndex": 5,
+      "identityId": "05_celestial_musician_girl",
+      "projectName": "天音",
+      "uiShortName": "天音",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/05_celestial_musician_girl-256.png",
+        "sha256": "14c760b0abbb3d3df3ccbb559cbeb051952daa03417f9dcb935bf0c4360c439c"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/05_celestial_musician_girl-256.png.source.json",
+        "sha256": "076cad1e5ac0b3c219f788af49bdb786a4e7f7d8fd4d31b0322877e622590703"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/05_celestial_musician_girl/master.png",
+        "sha256": "f8cd360988a1d5d9b6aebb81d9868b5d4692aa520d7fcae1af9d525bf70e12f8"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/05_celestial_musician_girl/source.json",
+        "sha256": "ab7a53ee2fbf67de4f25a99b367e8286a05bcff56f5c499352be5dd26c1127b1"
+      },
+      "roomPaths": [
+        "object/ui/room/char/bbl.img",
+        "object/ui/room/char/icon_bbl.img",
+        "object/ui/room/char/name_bbl.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/bbl.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 6,
+      "nativeAlias": "hy",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 8,
+      "nativeShopOneBasedRoleIndex": 6,
+      "identityId": "06_thunder_caster_boy",
+      "projectName": "雷法",
+      "uiShortName": "雷法",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/06_thunder_caster_boy-256.png",
+        "sha256": "4ac2476f06708e6529a60f0a87a9a97fdb92f2a77bfcedb932ff2156ba6699fa"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/06_thunder_caster_boy-256.png.source.json",
+        "sha256": "620734863bc61009031fbb9b1b9c53fc6db1f1cc0ad903cd914147ea095b7ba7"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/06_thunder_caster_boy/master.png",
+        "sha256": "abdfbe1fdc243ea6360a5d588f9ff1294fa2f0d43876d8b63aa452ec4889cd31"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/06_thunder_caster_boy/source.json",
+        "sha256": "39f9084ab76dca8113a9f68a3ab6ce3439a0ee229fd5cca6322ff51c786d4e64"
+      },
+      "roomPaths": [
+        "object/ui/room/char/hy.img",
+        "object/ui/room/char/icon_hy.img",
+        "object/ui/room/char/name_hy.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/hy.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 7,
+      "nativeAlias": "mly",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 9,
+      "nativeShopOneBasedRoleIndex": 7,
+      "identityId": "08_alchemy_prodigy_boy",
+      "projectName": "炼丹",
+      "uiShortName": "炼丹",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/08_alchemy_prodigy_boy-256.png",
+        "sha256": "63d1d853eb4a01ec08669b5a78df1e0f89cfdbb54875897fa0f6cc4258292958"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/08_alchemy_prodigy_boy-256.png.source.json",
+        "sha256": "89a28fdc0f2ead8b00ef438cc485e991dda799a0518ffd19d65a87cbc58697da"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/08_alchemy_prodigy_boy/master.png",
+        "sha256": "fcbf04089dbc229887d9c18b2b21e9dfb7997c5ec28c086e45db2d78e9bef82e"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/08_alchemy_prodigy_boy/source.json",
+        "sha256": "e86d782bafdcc234b40290eff371b1eef2a41af8d94a4ed93610da08f8d9cf3d"
+      },
+      "roomPaths": [
+        "object/ui/room/char/mly.img",
+        "object/ui/room/char/icon_mly.img",
+        "object/ui/room/char/name_mly.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/mly.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 8,
+      "nativeAlias": "hwz",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 10,
+      "nativeShopOneBasedRoleIndex": 8,
+      "identityId": "09_bamboo_archer_girl",
+      "projectName": "竹弓",
+      "uiShortName": "竹弓",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/09_bamboo_archer_girl-256.png",
+        "sha256": "668959e75bd94158817a2c552ec4011e2c45f8285b0c3a4d219524a95f2ec338"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/09_bamboo_archer_girl-256.png.source.json",
+        "sha256": "7aa8082576e80de0bbc199a362e4d8360d26de39d62c31aa666f23c023549f2a"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/09_bamboo_archer_girl/master.png",
+        "sha256": "c7ba2937630b589f16c0581f76421f20eccb19599aba6b47cca748de450447dd"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/09_bamboo_archer_girl/source.json",
+        "sha256": "737c6c77b46e16d3cade7d6991f61cd9bab93c97e8d872d681430e43c5ba387b"
+      },
+      "roomPaths": [
+        "object/ui/room/char/hwz.img",
+        "object/ui/room/char/icon_hwz.img",
+        "object/ui/room/char/name_hwz.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/hwz.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 18,
+      "nativeAlias": "yd",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 11,
+      "nativeShopOneBasedRoleIndex": 18,
+      "identityId": "10_crimson_spear_girl",
+      "projectName": "赤枪",
+      "uiShortName": "赤枪",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/10_crimson_spear_girl-256.png",
+        "sha256": "b45592a6a02ff06a0c619ebc8bf789477f046db4f8395efac7db81acf7e5fb26"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/10_crimson_spear_girl-256.png.source.json",
+        "sha256": "110025218a6d43d0b77b6c8729dc227741cd40b4f984f5dd243606919a810507"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/10_crimson_spear_girl/master.png",
+        "sha256": "ea068eb40dbd372b108d2e7d041c8e270e898f8ae979ce039873a08e49a0260f"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/10_crimson_spear_girl/source.json",
+        "sha256": "e05d64d25663b6e36cb04e62e1616cc5cdbfe7545dae726c7efc905afcf42aa3"
+      },
+      "roomPaths": [
+        "object/ui/room/char/yd.img",
+        "object/ui/room/char/icon_yd.img",
+        "object/ui/room/char/name_yd.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/yd.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 19,
+      "nativeAlias": "ld",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 12,
+      "nativeShopOneBasedRoleIndex": 19,
+      "identityId": "14_short_hair_snow_summoner_girl",
+      "projectName": "唤雪",
+      "uiShortName": "唤雪",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/14_short_hair_snow_summoner_girl-256.png",
+        "sha256": "760191093c914e67b6271c075c821ec39a854c03bba1b6c6bf6b4ec26d91c794"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/14_short_hair_snow_summoner_girl-256.png.source.json",
+        "sha256": "0f860f4c437455479fc7639127ea073845d5377e96ac667362f3845453b5ee2b"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/14_short_hair_snow_summoner_girl/master.png",
+        "sha256": "834fbe56bc3de4aa8a241d7e12a9725095cfcf486b98066876a8e70fa343c2a8"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/14_short_hair_snow_summoner_girl/source.json",
+        "sha256": "4808c2b0fefe7351909e5b00fcd1a1eb0210c013fc5f8b125fb13b94ca1e2455"
+      },
+      "roomPaths": [
+        "object/ui/room/char/ld.img",
+        "object/ui/room/char/icon_ld.img",
+        "object/ui/room/char/name_ld.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/ld.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 20,
+      "nativeAlias": "ge",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 13,
+      "nativeShopOneBasedRoleIndex": 20,
+      "identityId": "15_water_dragon_scholar_boy",
+      "projectName": "水龙",
+      "uiShortName": "水龙",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/15_water_dragon_scholar_boy-256.png",
+        "sha256": "1f4b7aa3c3b92136db9a18a39b7c04a64ee646fcc86f700183f6cd7383a345b4"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/15_water_dragon_scholar_boy-256.png.source.json",
+        "sha256": "1fccaeca07912f1b80b31ba758638a58e11b940dac4f1de4d5dd4962e79b7658"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/15_water_dragon_scholar_boy/master.png",
+        "sha256": "c3b96a88c2fdebb36951c8b47d3b1860b0e5895ae775bb360beb036bb393de70"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/15_water_dragon_scholar_boy/source.json",
+        "sha256": "39379f60ea6427a2ea00287258b68aed279ff18dbfa046f446ff5d3cb9da7de8"
+      },
+      "roomPaths": [
+        "object/ui/room/char/ge.img",
+        "object/ui/room/char/icon_ge.img",
+        "object/ui/room/char/name_ge.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/ge.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 21,
+      "nativeAlias": "tb",
+      "nativeRoomGroupIndex": 0,
+      "nativeRoomPosition": 14,
+      "nativeShopOneBasedRoleIndex": 21,
+      "identityId": "17_ghost_script_calligrapher_boy",
+      "projectName": "灵篆",
+      "uiShortName": "灵篆",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/17_ghost_script_calligrapher_boy-256.png",
+        "sha256": "367057748af73f4fd31e23e26b454de7e54eae9d0e864d727779e2d74c37d431"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/17_ghost_script_calligrapher_boy-256.png.source.json",
+        "sha256": "e09173cf880b743bdccb6548485099f062b762d8e2966196a83506796d63e180"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/17_ghost_script_calligrapher_boy/master.png",
+        "sha256": "34d13fe2558dee7ab8403180a7cd4c26e95b0b9795181053057b5759c69a5614"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/17_ghost_script_calligrapher_boy/source.json",
+        "sha256": "2c585dfb30d36f57b12420597d7fbb04bbe11cc0230a569641e7ffe9a091ef21"
+      },
+      "roomPaths": [
+        "object/ui/room/char/tb.img",
+        "object/ui/room/char/icon_tb.img",
+        "object/ui/room/char/name_tb.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/tb.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 13,
+      "nativeAlias": "kl",
+      "nativeRoomGroupIndex": 1,
+      "nativeRoomPosition": 0,
+      "nativeShopOneBasedRoleIndex": 13,
+      "identityId": "pine-cloud-elder",
+      "projectName": "松翁",
+      "uiShortName": "松翁",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/pine-cloud-elder-256.png",
+        "sha256": "5afb9de19239d1cb81cc838d11030adf30f5c8bb4706791f63a6c6f2143c5de0"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/pine-cloud-elder-256.png.source.json",
+        "sha256": "1f9c7fa617c78b414500224254f3df08fce2a697f937136abd1b60ff8e04a495"
+      },
+      "master": {
+        "file": "assets/characters/motion-generated/roster-expansion/pine-cloud-elder/master.png",
+        "sha256": "63e816fbf4bf4a058aee04fb09b4f2f22a590ba94a0d1ba2eb3eb0bb05489bb1"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/motion-generated/roster-expansion/pine-cloud-elder/master.png.generation.json",
+        "sha256": "581926282a576fd5bc2c8f044648e8491e301a418069065b62bee40a576f4b25"
+      },
+      "roomPaths": [
+        "object/ui/room/char/kl.img",
+        "object/ui/room/char/icon_kl.img",
+        "object/ui/room/char/name_kl.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/kl.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 14,
+      "nativeAlias": "nz",
+      "nativeRoomGroupIndex": 1,
+      "nativeRoomPosition": 1,
+      "nativeShopOneBasedRoleIndex": 14,
+      "identityId": "jade-craft-artisan",
+      "projectName": "玉匠",
+      "uiShortName": "玉匠",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/jade-craft-artisan-256.png",
+        "sha256": "662abdcf370a3c7869169e1bc3f04afd77b31277f218000557529feedc53471b"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/jade-craft-artisan-256.png.source.json",
+        "sha256": "e13ac167c975d18cc0af6876079366f4d9d466168ba1f442c4b2e014d5b826e4"
+      },
+      "master": {
+        "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png",
+        "sha256": "7f3fd753d50e84e9085f9332a90f03f99583efe2396cd0579c15e0e84977eb44"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/motion-generated/roster-expansion/jade-craft-artisan/master.png.generation.json",
+        "sha256": "660f76bd86f920d98e63c2c2fd09700d475482602170fc4317ef7d5dc2adaf64"
+      },
+      "roomPaths": [
+        "object/ui/room/char/nz.img",
+        "object/ui/room/char/icon_nz.img",
+        "object/ui/room/char/name_nz.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/nz.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 15,
+      "nativeAlias": "wll",
+      "nativeRoomGroupIndex": 1,
+      "nativeRoomPosition": 2,
+      "nativeShopOneBasedRoleIndex": 15,
+      "identityId": "paper-kite-wanderer",
+      "projectName": "纸鸢",
+      "uiShortName": "纸鸢",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/paper-kite-wanderer-256.png",
+        "sha256": "e26258d46fd54a3c1dfcc9957c110945b5c3b3756e20abb90922fcf338ed71c3"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/paper-kite-wanderer-256.png.source.json",
+        "sha256": "b4617dc45097265884b26de9f51bb124e31562585e23dbb8213fa14d9e74eca2"
+      },
+      "master": {
+        "file": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/master.png",
+        "sha256": "c948ea39a2d3aff75157046e298b963a318bbfddc47366aa0742b86d1edb84ff"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/motion-generated/roster-expansion/paper-kite-wanderer/master.png.generation.json",
+        "sha256": "07714f47c349a4804ece7fd145bc7de37395fd28ecb3f3a1b18dbcfb78995333"
+      },
+      "roomPaths": [
+        "object/ui/room/char/wll.img",
+        "object/ui/room/char/icon_wll.img",
+        "object/ui/room/char/name_wll.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/wll.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 16,
+      "nativeAlias": "yy",
+      "nativeRoomGroupIndex": 1,
+      "nativeRoomPosition": 3,
+      "nativeShopOneBasedRoleIndex": 16,
+      "identityId": "cinnabar-seal-keeper",
+      "projectName": "赤砂",
+      "uiShortName": "赤砂",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/cinnabar-seal-keeper-256.png",
+        "sha256": "a1503f0ac3fdd415345ffcbca4fa36f1e587d48c87327753b850a160589d4b71"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/cinnabar-seal-keeper-256.png.source.json",
+        "sha256": "4aa9762b96f2b1086d3cf9088bba831867c1816df238f3882452565fc30ca195"
+      },
+      "master": {
+        "file": "assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/master.png",
+        "sha256": "9fe13dad822fb70bbdb891e327b1f7df7e5d09ed09bef59bacbf1d2f70338fba"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/motion-generated/roster-expansion/cinnabar-seal-keeper/master.png.generation.json",
+        "sha256": "b92577c9afb3cf0136f66eb16307d2fe83d35618013b082469e95da621c92e33"
+      },
+      "roomPaths": [
+        "object/ui/room/char/yy.img",
+        "object/ui/room/char/icon_yy.img",
+        "object/ui/room/char/name_yy.img"
+      ],
+      "shopPath": "object/ui/shop/charIcon/yy.img",
+      "appearanceAllocation": "Existing project-authored identity allocation, not Tencent identity/name recognition",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    }
+  ],
+  "pveAdditionalEntries": [
+    {
+      "sourceRoleId": 10,
+      "nativeAlias": "cbz",
+      "nativePveRoleIndex": 10,
+      "identityId": "20_star_formation_master_girl",
+      "projectName": "星阵",
+      "uiShortName": "星阵",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/20_star_formation_master_girl-256.png",
+        "sha256": "9bb3a09a34cf65288a145f93c3c84b381c2cb66f8f1431d8f5825018e23dff4c"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/20_star_formation_master_girl-256.png.source.json",
+        "sha256": "4c5dca632e4c0dea87b8fcd657a4f01f1d6af0c1f3e1a7484f2ed7c1c4463193"
+      },
+      "master": {
+        "file": "assets/characters/roster-candidates/20_star_formation_master_girl/master.png",
+        "sha256": "4a5de67ffb880a852554d460c709f7179bffd3706fa7bf825767e5369e9bd3e5"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/roster-candidates/20_star_formation_master_girl/source.json",
+        "sha256": "29fa67f2bfc92329f53723fc365bbb9849514c44a1eeee5a85294e5e0ac252f0"
+      },
+      "roomPaths": [
+        "object/ui/room/char/icon_cbz.img"
+      ],
+      "shopPath": null,
+      "appearanceAllocation": "Existing project sourceRoleId appearance allocation; native PVE alias proven by exact tuple index",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "sourceRoleId": 11,
+      "nativeAlias": "xz",
+      "nativePveRoleIndex": 11,
+      "identityId": "cloud-tortoise-warden",
+      "projectName": "玄龟",
+      "uiShortName": "玄龟",
+      "portrait": {
+        "file": "assets/characters/portraits-candidates/cloud-tortoise-warden-256.png",
+        "sha256": "0bcd0b55bc8753e2426a0dc8169b25a5e43dc1d35ac536f1bef9b6aec5027fef"
+      },
+      "portraitSourceRecord": {
+        "file": "assets/characters/portraits-candidates/cloud-tortoise-warden-256.png.source.json",
+        "sha256": "08bc2fb2f95dc993c64add276d5596c0eeea857d9a99fbcd994f7b3386fd2617"
+      },
+      "master": {
+        "file": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png",
+        "sha256": "8813c588ffdd453088efba6b050331c1487872af75a33fa68cd69b0535978588"
+      },
+      "masterSourceRecord": {
+        "file": "assets/characters/motion-generated/roster-expansion/cloud-tortoise-warden/master.png.generation.json",
+        "sha256": "21625a929e446626f03b207e58870031a446513f6fe755d3b282070abd28b432"
+      },
+      "roomPaths": [
+        "object/ui/room/char/icon_xz.img"
+      ],
+      "shopPath": null,
+      "appearanceAllocation": "Existing project sourceRoleId appearance allocation; native PVE alias proven by exact tuple index",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    }
+  ],
+  "randomPlaceholder": {
+    "sourceRoleId": 23,
+    "nativeAlias": "random",
+    "independentCharacter": false
+  },
+  "ownExtraIdsOutsideTheseNativeRoomAndShopLists": [
+    10,
+    11
+  ],
+  "extraNativeIconNumericSuffixesNotMappedByTheseLists": [
+    67,
+    69,
+    72,
+    73,
+    75,
+    77,
+    78,
+    79,
+    81,
+    85,
+    117,
+    118,
+    119,
+    124,
+    125
+  ],
+  "unlistedAliasesRequireSeparateEvidence": [
+    "xxm",
+    "zjl"
+  ],
+  "sourceRoleTimingOrNativeRuntimeVerified": false,
+  "visualAccepted": false
+}
