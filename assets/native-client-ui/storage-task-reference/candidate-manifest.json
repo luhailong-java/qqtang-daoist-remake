@@ -1,0 +1,1798 @@
+{
+  "schemaVersion": 1,
+  "scope": "Twenty-two native storage and task control candidates",
+  "sourceReferences": {
+    "file": "assets/native-client-ui/storage-task-reference/manifest.json",
+    "sha256": "6bac71d20e6b0324c8fb2dde471f4390d031abe58d47cdf714b18823fc5da12c"
+  },
+  "renderer": {
+    "file": "scripts/native-ui-storage-task-art.py",
+    "sha256": "c945e4f3e96e4fb16afc8e67fbe596afc952515c35516b08376a4c117970ba9a"
+  },
+  "verificationScript": {
+    "file": "assets/native-client-ui/storage-task-reference/verify-renderer.py",
+    "sha256": "b95515dea716e85cf851bd3b112b5a3143707e647d4fbe1e1c66dd2520edc206"
+  },
+  "codec": {
+    "file": "scripts/native-ui-format.py",
+    "sha256": "e06d8634fe409f1c6ebfdbdc66b1911bbbb49c3d533345cc756e26aa74189de8"
+  },
+  "paintInputs": [
+    {
+      "file": "assets/ui/window-frame.png",
+      "sha256": "49c3320e05c1b6287f3719621ede8a4f186c1cdcdcc5fb9284c7b6362a6e635e"
+    },
+    {
+      "file": "assets/ui/primary-normal.png",
+      "sha256": "2bec2f36e6ffef7c449a6d3310a58986dcaaf14862ce44c6d44318952e7d77c4"
+    },
+    {
+      "file": "assets/ui/primary-hover.png",
+      "sha256": "3adc94f824dda6f831357aa2c102ad4d6e17427dd27a5affd1ac11e2f95ef4ec"
+    },
+    {
+      "file": "assets/ui/primary-pressed.png",
+      "sha256": "14192d0aefd464ce3b403f577eba25f04efa77bbb2d0299fd863d61a9715a446"
+    },
+    {
+      "file": "assets/items/hats/morning-courtesy-b/46-coral-jade-cloud-crown.png",
+      "sha256": "f9ee110c837de06a1f801e0828e49d67011df4debb47e31e6b7e9847466ae748"
+    },
+    {
+      "file": "assets/items/hats/ceremony-journey-e/83-crimson-cloud-ceremonial-crown.png",
+      "sha256": "0ee6d05072bb8c90fc0fe830e1d309dac0538df650073e0718dd1dc422812e40"
+    },
+    {
+      "file": "assets/items/forge/icons/20057-purple-crystal.png",
+      "sha256": "0ce3b493fb9fb73410a6124fe675b580280e778ed1f3b7172c1cabc0fbdffdf2"
+    },
+    {
+      "file": "assets/items/head-adornments/icons/114-rose-silk-garland.png",
+      "sha256": "80ea5c540ed6c060905b1df38234a9f40fde3143cda720ab2ce75c59ac16bd27"
+    },
+    {
+      "file": "assets/characters/portraits-candidates/daoist-child-256.png",
+      "sha256": "e7c8ad42929d0d15a9d431c185cabbcd1599c49ca2f63db04cf843e918740e20"
+    },
+    {
+      "file": "assets/characters/portraits-candidates/moon-shadow-256.png",
+      "sha256": "2ed6729967a99de81fb90c750a83b578df36907044d894f4fde9103d7fac8bbd"
+    }
+  ],
+  "font": {
+    "family": "Microsoft YaHei",
+    "sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f"
+  },
+  "symbolFont": {
+    "fileName": "seguisym.ttf",
+    "sha256": "a4a35dcc62cd30e1a6c97b695ecef83e59d2b149e3af834f6a49f11851d56b37"
+  },
+  "structuralAlphaInputs": [
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/img_choose-000.png",
+      "sha256": "8b97d031219e002d3ac7291ce500c228d936178acdd347c65ded07d9e8e25250"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/img_shield-000.png",
+      "sha256": "5ef2b96841aa2f03bff860fb7bab2d61672949970669e412b2cd5ec0f9af2204"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/dlg_roomStorage-000.png",
+      "sha256": "b59cccdef1d4d5ca28c4dcd8c9740cc2605caee47093306065cb9df4b66c52de"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_first-000.png",
+      "sha256": "1f6979a44ceb4826a8aa65e14d6c21090b2e9fffd0675bbfa5cd22aff3425c0a"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_first-001.png",
+      "sha256": "396d9cafc0c6ec8bccfbd9fc4220f6b3fe7e41579c55d75774e6c54a26012a4f"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_first-002.png",
+      "sha256": "8febbc10a9bbba6810ef94d2c4c39b94d3eb3e9d3b7cca7772c38b1413b0265e"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_first-003.png",
+      "sha256": "182aa5bca86feb3b49246781a762913e01b742822f0b350e7999010b26263c18"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_last-000.png",
+      "sha256": "0e869f52b7f16f6c5a13c8f0f33570ff5fa2015b6b2a20780c3e5308dbe85100"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_last-001.png",
+      "sha256": "1eca6ba21348783af29c93f713ca107f8a1c4e270a654c07e9dd20c7e3bebea7"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_last-002.png",
+      "sha256": "e18faeecb46ddaaf5c62ec7d3fd920e74050b5a0661a56183208865228a2d98f"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_last-003.png",
+      "sha256": "7bc017f96095a059d1cb6435471796a039e6a5e899aae756ce32769163afc49c"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_left-000.png",
+      "sha256": "3e086f79a4cacba8bbb9083e34076dda7c8f0742b20a9d6aa6bd742e755b728a"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_left-001.png",
+      "sha256": "4845497357a8f11545993977eb50f0b37a24276e50db8d4bdbef62aecec8850b"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_left-002.png",
+      "sha256": "4279b73e7ca02aa522300dbc066a0d8e84a5461b736f955d462c45dbb28e6af7"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_left-003.png",
+      "sha256": "a25dff35e27f742e769df65f593b0e37c71feb88b89afbdd2bcf90e9e42ab66b"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_right-000.png",
+      "sha256": "66f1dd55d44e06624ed6b4a50bf9bcc626f5f04ffd9d5ecb83840dfa44d60ed9"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_right-001.png",
+      "sha256": "babc2b51b29258689d8c171f1098051a1a2a16c1da1d9ce140a598fc2ab8888f"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_right-002.png",
+      "sha256": "294bfb792912e4bab144d86b551b1307c48e146ed06d4aa9642ec20e41024701"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_right-003.png",
+      "sha256": "96ec2fb75bc04e92e0e4a68bf72666df264f4a7d79c1e80a66800c08d3e9672c"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_startTask-000.png",
+      "sha256": "7da2acbb112990cec204735e9a7e50cc5ededf4ae2903d1b27ce0fe9d6fc0ddd"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_startTask-001.png",
+      "sha256": "6c402b2df82203793d4abdbecca36ae245ce41925e214d1d2a6b76c03b702f47"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_startTask-002.png",
+      "sha256": "ae8bd4459bc0d22a7b3b8f9d85612d9f8e892ef9b9d08c565518035a4b1e475d"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_startTask-003.png",
+      "sha256": "0d1c4d5d7b8fa6ca41af097e5b6e5cb754c6792dfcf376b0a0e510ce625dbadc"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_finishTask-000.png",
+      "sha256": "b346b41f5e160f258c804ac28799a95eead085de8609ac413733d45ec5173321"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_finishTask-001.png",
+      "sha256": "bfdf0005c929dffa0fbcca8e9155ce6311d7a1ac588c68e8f154a1bf8629836c"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_finishTask-002.png",
+      "sha256": "675b28d01cb7b4c1e9fab38a39ab4f77fc936c3475d09a0e65c0135ae53a1f8e"
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/frames/btn_finishTask-003.png",
+      "sha256": "0d1c4d5d7b8fa6ca41af097e5b6e5cb754c6792dfcf376b0a0e510ce625dbadc"
+    }
+  ],
+  "visualMappingAssumptions": [
+    "Storage buttons retain normal/gray/highlight/pressed stored order; task step icons retain normal/highlight/pressed/gray order.",
+    "Task level indices retain their original order, with own gold, silver, red-crown, amethyst and rose artwork.",
+    "The practice selector uses two existing own portraits. Its two labels and native click rectangles retain their original functions.",
+    "The task detail background is rendered in original 430x532 coordinates, then cropped at the measured native raster (28,21,397,518).",
+    "Runtime NPC and reward item images are separate native resources and are not supplied by this background renderer."
+  ],
+  "paletteEvidence": {
+    "file": "assets/native-client-ui/storage-task-reference/palette-evidence.json",
+    "sha256": "564a4343e2a0f06fa1d30a4930776340538234cd317e6c33d4110721aa4cd06f"
+  },
+  "items": [
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/btn_cleanUp.img",
+      "sha256": "1ce0650e4c665551056beac3490904814d8a40cb81ed9090fba8612b8db126cf",
+      "nativePath": "object/ui/storage/btn_cleanUp.img",
+      "sourceSha256": "936caec7073c1a312a0e147a10b37dcdb5a48222a9c72b1110543d4e630b9cbb",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.storageDlg.children.cleanUpBtn",
+          "sourceFirstLine": 3460,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              10,
+              561,
+              63,
+              31
+            ],
+            "bkimage": "object/ui/storage/btn_cleanUp.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-button",
+      "caption": "整理",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_cleanUp-00.png",
+          "sha256": "09e4e7763c93fb774313e651a1166f2e8c3879114d94ac671b493c76927af7eb",
+          "index": 0,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_cleanUp-01.png",
+          "sha256": "2356e4a6174499e1699381025563c85c7fded77467e3e2f1c38b2dc300ad8058",
+          "index": 1,
+          "nativeSize": [
+            63,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_cleanUp-02.png",
+          "sha256": "9dfb41049e33d584a3913c8435629d5e9cff582d71aaacba70d028e3fba00051",
+          "index": 2,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_cleanUp-03.png",
+          "sha256": "407848ad12050c7b6b9044ed097c93e049e769498a4df2f0e6a15fc1a20562d1",
+          "index": 3,
+          "nativeSize": [
+            63,
+            31
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/btn_first.img",
+      "sha256": "30dbe806f904eb2f7dce742f7d22a6455bb9ddeccb8bc8a98d68bb3c158bc596",
+      "nativePath": "object/ui/storage/btn_first.img",
+      "sourceSha256": "8fee62a6374c3506a6779a78b9e0c663260d3ca7df37304de772b538c01de03f",
+      "sourceBindings": [],
+      "rendererKind": "storage-nav",
+      "caption": "btn_first",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_first-00.png",
+          "sha256": "d73ecef773793c478d92e6ba03bb8a5d0f870dded57370dc5d1186de5d28b3e9",
+          "index": 0,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_first-01.png",
+          "sha256": "e2556cba75a39af1dcb8a2d2d7fe81d3668312f02d21775d6062767988bf2427",
+          "index": 1,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_first-02.png",
+          "sha256": "debdb6c773889b0e3cee304db4107281f8c9f904bf8539f6e8c3cb6fbbe9e47f",
+          "index": 2,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_first-03.png",
+          "sha256": "f44e23f135e27eb3bd2539ba2adfd715e7c3b0b85a0a7b828224d7602065763b",
+          "index": 3,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/btn_last.img",
+      "sha256": "396fb0804adcd8ff6e00a2af31e0d758e2ead8c1a213fe9b1bb32dcdee8a925d",
+      "nativePath": "object/ui/storage/btn_last.img",
+      "sourceSha256": "84e1bd4c319405ef039f1ee7bce86838fc0c7d7cb07e7aad22f48b4034be1724",
+      "sourceBindings": [],
+      "rendererKind": "storage-nav",
+      "caption": "btn_last",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_last-00.png",
+          "sha256": "33d675dd8197ee12fdf3ee045ea8890b9a21196e1cb630fc52b04fdc146cdabd",
+          "index": 0,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_last-01.png",
+          "sha256": "42303e5dd2eeee69be653653a6b1131b4528ef3f0c5bc4a88022c3504f1d2148",
+          "index": 1,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_last-02.png",
+          "sha256": "a68857f38c7ae887ef2a962513ac7fd215202b245e98631bee7318d492239301",
+          "index": 2,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_last-03.png",
+          "sha256": "1277252a4d997ee8096e77868d5ba528ad1a0cdf04a60879d0cabbec49a2ab64",
+          "index": 3,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/btn_left.img",
+      "sha256": "75dd70d80132d29db48d9ef01087971791342fc15a8c0da3eb14580af7cebf7c",
+      "nativePath": "object/ui/storage/btn_left.img",
+      "sourceSha256": "590b2ebc5c359544a09daceb57675c8bbecf040331217071657cede5b336a3a5",
+      "sourceBindings": [],
+      "rendererKind": "storage-nav",
+      "caption": "btn_left",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_left-00.png",
+          "sha256": "93cbfa9853b7c8222b8a969b26a39091cfe7e9a74542ad7f56553405d84f889d",
+          "index": 0,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_left-01.png",
+          "sha256": "04ae3de2112c3c26e5b3e6b26c433e1a9c74b80eb202c658cba7530d31002848",
+          "index": 1,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_left-02.png",
+          "sha256": "fe9bc765a50a847ccfcdac7003ad71bcc4344b5650f19ecf068adf23921bda2c",
+          "index": 2,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_left-03.png",
+          "sha256": "87eb0780e93ac07a361793d86740d9a5f92c54c1031f6f26c816f300b9b79082",
+          "index": 3,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/btn_right.img",
+      "sha256": "5e28019c5e6e583d1ca542ccbd65c6fa94d37a4e8a2ce1cc541397cdeb1d93a0",
+      "nativePath": "object/ui/storage/btn_right.img",
+      "sourceSha256": "3bb4a619555a3fd440633ef3511e0b633d38df19e98af2c25ff7fc2acecbe4e8",
+      "sourceBindings": [],
+      "rendererKind": "storage-nav",
+      "caption": "btn_right",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_right-00.png",
+          "sha256": "f2721f10cac8073e7f5243232d64d64af1b06650a7c1b49c9f9a564c4f22006c",
+          "index": 0,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_right-01.png",
+          "sha256": "e5c3bb76b7a8d2ae7b30819a9b7486b2fd7244eb96517f4bf81d441aaad652de",
+          "index": 1,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_right-02.png",
+          "sha256": "57b5c8cd82dc566d732509107edc6cb746db800ba40a64191fd8f9215fa9ef26",
+          "index": 2,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_right-03.png",
+          "sha256": "f2c03068c2e3d37cdc98ab1042008302f384bffdb44045ede3a311fcdd37aefd",
+          "index": 3,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/dlg_roomStorage.img",
+      "sha256": "95c288f0061f686b415b90990f081807fa8fb9215ac983afbb6a6d23c99922e7",
+      "nativePath": "object/ui/storage/dlg_roomStorage.img",
+      "sourceSha256": "972925e64b8e03c7e913d7990a671c2c761ca3cca7baafa4a0b542a38d966a40",
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.storageDlg",
+          "sourceFirstLine": 4367,
+          "bytecodeSha256": "3e5a819b2eade97c7d2fbe7593f4098e84b4d2bbca8906cb79032c951a343507",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 999999,
+            "rect": [
+              178,
+              196,
+              325,
+              286
+            ],
+            "bkimage": "object/ui/storage/dlg_roomStorage.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-grid-room",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/dlg_roomStorage-00.png",
+          "sha256": "b869f6237de1fa31095a7aa117c145126f2c7936d0574b446dfb775042e181f4",
+          "index": 0,
+          "nativeSize": [
+            325,
+            294
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/dlg_shopStorage.img",
+      "sha256": "b5f75e61c26396cc2669f11d156e79bfafb574b1f1b24950a9190e27a7bc0d15",
+      "nativePath": "object/ui/storage/dlg_shopStorage.img",
+      "sourceSha256": "355e4959922e8146e38092c80099ceb533df621da46f45e994a3e35a1bae64e0",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.storageDlg",
+          "sourceFirstLine": 3446,
+          "bytecodeSha256": "7030d971325cc6247b1f1158d440511f35004bbf2cdfbb811c5a4c482ad035a2",
+          "literalAssignments": {
+            "initlayer": 999999,
+            "bkimage": "object/ui/storage/dlg_shopStorage.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-grid-shop",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/dlg_shopStorage-00.png",
+          "sha256": "3e39bd5932b04878a58cf5f679c04ce56e8782b3a9b6b7dc2dd0b9999a096b12",
+          "index": 0,
+          "nativeSize": [
+            427,
+            599
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/img_choose.img",
+      "sha256": "717b03536aec035b8073d06aeddb4eec7a8b60d1c99e6a4bd5b95c8d1122a133",
+      "nativePath": "object/ui/storage/img_choose.img",
+      "sourceSha256": "8e205aeb533638770984edef56007a66fd03d3668d30b63285d43c43ecc45c91",
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.storageDlg.children.funcItem0",
+          "sourceFirstLine": 4413,
+          "bytecodeSha256": "ed572676053f81fe03d4a21dbad4820353a22a696f142bf92688476d46503d6b",
+          "literalAssignments": {
+            "groupid": 3,
+            "groupstop": 0,
+            "rect": [
+              5,
+              2,
+              60,
+              60
+            ],
+            "dragtype": 6,
+            "bkimage": "object/ui/storage/img_choose.img",
+            "framescheme": [
+              [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.C2CDealDlg.children.funcItem0",
+          "sourceFirstLine": 4730,
+          "bytecodeSha256": "ed572676053f81fe03d4a21dbad4820353a22a696f142bf92688476d46503d6b",
+          "literalAssignments": {
+            "groupid": 3,
+            "groupstop": 0,
+            "rect": [
+              33,
+              296,
+              60,
+              60
+            ],
+            "dragtype": 7,
+            "bkimage": "object/ui/storage/img_choose.img",
+            "framescheme": [
+              [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.foodDlg.children.petItem0",
+          "sourceFirstLine": 3513,
+          "bytecodeSha256": "e84e7664694f8150e5b18bc0a57ef7fed7fdeff460496001f65563d2497b384e",
+          "literalAssignments": {
+            "rect": [
+              5,
+              2,
+              60,
+              60
+            ],
+            "bkimage": "object/ui/storage/img_choose.img",
+            "framescheme": [
+              [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.funcItem0",
+          "sourceFirstLine": 4132,
+          "bytecodeSha256": "8997d17aee1c505acd19286d1c95a29f5a6bd8e405c331b943dd4029ad28aa37",
+          "literalAssignments": {
+            "groupid": 3,
+            "groupstop": 0,
+            "rect": [
+              35,
+              265,
+              53,
+              53
+            ],
+            "dragtype": 7,
+            "bkimage": "object/ui/storage/img_choose.img",
+            "framescheme": [
+              [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-selection",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/img_choose-00.png",
+          "sha256": "299f793ec1edd79282b8f76c0cc5ff1d1716cd8ad34fd18d80e4cdb6c58905c9",
+          "index": 0,
+          "nativeSize": [
+            60,
+            60
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/storage/img_shield.img",
+      "sha256": "0c9820d825657b086c75fb41280793564b9c1a7fb7a802cd1191683afb8bc426",
+      "nativePath": "object/ui/storage/img_shield.img",
+      "sourceSha256": "678f04c08d9049630fd59d35ab3792d7af51105e9d011931050172b69b5dba1f",
+      "sourceBindings": [],
+      "rendererKind": "storage-shadow",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/img_shield-00.png",
+          "sha256": "95bb1b0cece3da9bde51c7b076ad9647b4497ebb7e8e7b0b9660956217c8c9f0",
+          "index": 0,
+          "nativeSize": [
+            37,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            142
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/bg_taskLevel1.img",
+      "sha256": "34cc7fc72d578255475c8b60a931ef760342e2aa87d0b53a13e8d30dba393acc",
+      "nativePath": "object/ui/task/bg_taskLevel1.img",
+      "sourceSha256": "f48b23d270cc6c2f3723a56494dd533df751fad068fb4ead8960d6766c61158a",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.taskDlg.children.taskMark",
+          "sourceFirstLine": 3859,
+          "bytecodeSha256": "48dd7673cc291af8c33ee3cc99be11b9c0357f4245a9a417d5e4f39e270d9e58",
+          "literalAssignments": {
+            "initlayer": 2,
+            "rect": [
+              49,
+              40,
+              37,
+              32
+            ],
+            "bkimage": "object/ui/task/bg_taskLevel1.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-task-level",
+      "caption": "1",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/bg_taskLevel1-00.png",
+          "sha256": "9fe4c82c358503b8963a81ddcb88dd8ff1f6cbf90277811c72afb4d7f6f2d25a",
+          "index": 0,
+          "nativeSize": [
+            31,
+            30
+          ],
+          "frameOffset": [
+            3,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/bg_taskLevel2.img",
+      "sha256": "61166e60a621a8e8a7c7fa51a91c80790b4e5d341e108a0b217f1fc35cae20f1",
+      "nativePath": "object/ui/task/bg_taskLevel2.img",
+      "sourceSha256": "33da424727bae8abf2f14726ad7a859256c1306044334e958b83ef886975b17c",
+      "sourceBindings": [],
+      "rendererKind": "storage-task-level",
+      "caption": "2",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/bg_taskLevel2-00.png",
+          "sha256": "56506c1fc791df901366e3f53375e32913e25d2e2d5d12bf4fb3438dc52019f8",
+          "index": 0,
+          "nativeSize": [
+            35,
+            32
+          ],
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/bg_taskLevel3.img",
+      "sha256": "1d52f2aba0ea31c9f872d99565891f5a619e1de960c3227be5b772d8e2adfb3c",
+      "nativePath": "object/ui/task/bg_taskLevel3.img",
+      "sourceSha256": "d2763597bf5daf8f47470d7facd155a1517f593c39befd6efa15c76f94173c5e",
+      "sourceBindings": [],
+      "rendererKind": "storage-task-level",
+      "caption": "3",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/bg_taskLevel3-00.png",
+          "sha256": "afbfc075b0860d85a13b7ba5c02f2ff4b2f609554a43366500682b70af739613",
+          "index": 0,
+          "nativeSize": [
+            35,
+            32
+          ],
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/bg_taskLevel4.img",
+      "sha256": "669171dc150cac42db5ef68729de61289d58a50af113c0829688e6fa0afbcb95",
+      "nativePath": "object/ui/task/bg_taskLevel4.img",
+      "sourceSha256": "e1ac3d03a63bc0a6fdf086dc21bbb9e6de162cf3bd358c3a36f8027f4e1f28a2",
+      "sourceBindings": [],
+      "rendererKind": "storage-task-level",
+      "caption": "4",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/bg_taskLevel4-00.png",
+          "sha256": "baa626d276fff77ed9bc109bd816469058f0752470aa16604cecdb8e0d11b3ad",
+          "index": 0,
+          "nativeSize": [
+            37,
+            29
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/bg_taskLevel5.img",
+      "sha256": "61edd4a9a795dc1d48bf79982e3025943ce05703489a88b8fb3ca44e18975908",
+      "nativePath": "object/ui/task/bg_taskLevel5.img",
+      "sourceSha256": "ceeae33fc4c082453328bacf5b0824bb4e7ebbae32c3dfa72c5ddeb4569a46ea",
+      "sourceBindings": [],
+      "rendererKind": "storage-task-level",
+      "caption": "5",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/bg_taskLevel5-00.png",
+          "sha256": "841a743f935808724b09cdf5f496742e1718aa86533e92add3fb393611384656",
+          "index": 0,
+          "nativeSize": [
+            37,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/btn_finishTask.img",
+      "sha256": "8dfb5a30a3e98c494cc575c5a3487605c5c99d56e3ecccb95899cbcaa15517b8",
+      "nativePath": "object/ui/task/btn_finishTask.img",
+      "sourceSha256": "8cd27ba9813c90d37aa5e4bbe0616382b9bf186495b5fe08827fd877e3721447",
+      "sourceBindings": [],
+      "rendererKind": "storage-task-step",
+      "caption": "btn_finishTask",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_finishTask-00.png",
+          "sha256": "78ac1d4b5862a96bd3ff7866480001a207d156c93cd68551ae816b4d9e168d18",
+          "index": 0,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_finishTask-01.png",
+          "sha256": "ee88e599ac531185ebc7acbc3599d48f68ec54b61d61fbc44e5c8694b8fbf14b",
+          "index": 1,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_finishTask-02.png",
+          "sha256": "ee4bcc8b2594fa77a181f6f651fae55df5142304cb44113c82c2e90008cf457f",
+          "index": 2,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_finishTask-03.png",
+          "sha256": "e4064d985c0d6bb288bf66f6c127eb471aa744f100f79f958dcc201c1f63805a",
+          "index": 3,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/btn_free.img",
+      "sha256": "1ce7c6b4b70cd55f4f03c1e92f88ec741ae2bca6b6f4740f2d252f442260d3f3",
+      "nativePath": "object/ui/task/btn_free.img",
+      "sourceSha256": "c2d79a8a22bc36689d9c7cb47f47406533a39955c31994dbc6d4195969f6c28d",
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.taskSelectDlg.children.freePractice",
+          "sourceFirstLine": 4083,
+          "bytecodeSha256": "0349a1b5d3a3274b69c866189c9d2cf1588c3dd3ebe5cbd14fce22feb4b07e67",
+          "literalAssignments": {
+            "rect": [
+              198,
+              132,
+              112,
+              91
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                0,
+                0,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            ],
+            "bkimage": "object/ui/task/btn_free.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-practice",
+      "caption": "free",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_free-00.png",
+          "sha256": "f858f28c3f60dbeabe56e7c59f76ba9576a8698a4f0e68768dc3a98fd7d6456a",
+          "index": 0,
+          "nativeSize": [
+            112,
+            91
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/btn_greenHand.img",
+      "sha256": "3f16b60358c2fc0567339faa27581ace06410c2808dad7a94d404fcca4884210",
+      "nativePath": "object/ui/task/btn_greenHand.img",
+      "sourceSha256": "9840d1e2d3474de533b75a2a07b4002a73f20a39d9fbc9057c756621951b51d1",
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.taskSelectDlg.children.taskPractic",
+          "sourceFirstLine": 4071,
+          "bytecodeSha256": "0349a1b5d3a3274b69c866189c9d2cf1588c3dd3ebe5cbd14fce22feb4b07e67",
+          "literalAssignments": {
+            "rect": [
+              52,
+              132,
+              112,
+              91
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                0,
+                0,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            ],
+            "bkimage": "object/ui/task/btn_greenHand.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-practice",
+      "caption": "new",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_greenHand-00.png",
+          "sha256": "f534b138093b73df494dc6394586d41edbcaee4c9beceaa622e3c8d8dd3ff5ea",
+          "index": 0,
+          "nativeSize": [
+            100,
+            89
+          ],
+          "frameOffset": [
+            3,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/btn_startTask.img",
+      "sha256": "028fedf36fee4317562bdd5916a455e1df52e1bd33d0a097a37dfae80d4619a1",
+      "nativePath": "object/ui/task/btn_startTask.img",
+      "sourceSha256": "7292d9e5dcfbaddcd735de61c379ff13a0baa708e54b54fb5bfed0ad6eec2a02",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.taskDlg.children.taskBtn0.children.taskCtrBtn",
+          "sourceFirstLine": 3930,
+          "bytecodeSha256": "9195d6259d46f8bde1a8d686c20e7764258fe1a32c80024ca1944ed5e28e8cfd",
+          "literalAssignments": {
+            "initlayer": 2,
+            "rect": [
+              108,
+              1,
+              30,
+              30
+            ],
+            "bkimage": "object/ui/task/btn_startTask.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-task-step",
+      "caption": "btn_startTask",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_startTask-00.png",
+          "sha256": "9b6c0f6a10e79c96b5cd6689ba683fe87424a675eec743ab461adf052f794840",
+          "index": 0,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_startTask-01.png",
+          "sha256": "9e5163adeefb24b175fed6680545c86ac5b917ea82517c434cf2ab2fe2152d03",
+          "index": 1,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_startTask-02.png",
+          "sha256": "4009afb74c60fd40f57fa4ab0ac87b7315687780e67b2ba95df83f4d8f4e4e93",
+          "index": 2,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_startTask-03.png",
+          "sha256": "e4064d985c0d6bb288bf66f6c127eb471aa744f100f79f958dcc201c1f63805a",
+          "index": 3,
+          "nativeSize": [
+            27,
+            28
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/btn_task.img",
+      "sha256": "473293e1ce4bc0b5720961e539771e45010a18ebe7213989bff1d2caae7a1b13",
+      "nativePath": "object/ui/task/btn_task.img",
+      "sourceSha256": "b40cb70699efe2849f58725426d9446470f7e36c831b70cd0b353c5ebfdb6637",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.taskBtn",
+          "sourceFirstLine": 3836,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "literalAssignments": {
+            "rect": [
+              571,
+              540,
+              48,
+              50
+            ],
+            "bkimage": "object/ui/task/btn_task.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                1,
+                1,
+                2,
+                2,
+                -1,
+                -1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-task-entry",
+      "caption": "任务\n中心",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_task-00.png",
+          "sha256": "49356a52e94af955aa2e7b19cb8b7dafa59944fda79648d2e1e90f03c7d9d891",
+          "index": 0,
+          "nativeSize": [
+            51,
+            55
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_task-01.png",
+          "sha256": "1e9cdaaff81b8a564c2e8c37385912dc5b87b5c1943cdf4f379c767f03957906",
+          "index": 1,
+          "nativeSize": [
+            51,
+            57
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_task-02.png",
+          "sha256": "76b691b3e8f39b1ca4f28d79e24fe12050ac0aa25757234a1327dd9baee0719a",
+          "index": 2,
+          "nativeSize": [
+            51,
+            57
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/btn_taskName.img",
+      "sha256": "62ead106371723f0b150147696cb5336c2ead76949139b166af3dcb5f8c861d3",
+      "nativePath": "object/ui/task/btn_taskName.img",
+      "sourceSha256": "f94f7c5265aded53cb44620985ba10027ab77621eb1e8e18cc319997fafe96f1",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.taskDlg.children.taskBtn0.children.taskNameBtn",
+          "sourceFirstLine": 3915,
+          "bytecodeSha256": "695099ca7c4bca38cad791f4e4ee43c784dc8c556b5597aeb92a9eb5c641ad4f",
+          "literalAssignments": {
+            "initlayer": 2,
+            "rect": [
+              0,
+              0,
+              107,
+              25
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/task/btn_taskName.img",
+            "drawcolor": [
+              102,
+              71,
+              39,
+              230
+            ],
+            "textEdgeType": -1,
+            "caption": "无任务"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-task-row",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_taskName-00.png",
+          "sha256": "22d857697fb3294783875789126ffc10e817202b29240fa95c6a89d75999d989",
+          "index": 0,
+          "nativeSize": [
+            105,
+            30
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_taskName-01.png",
+          "sha256": "1a48b15a8a47fca05154b8edc7e0a3a492f5c4480cb557c16a14ef598ccc25fa",
+          "index": 1,
+          "nativeSize": [
+            105,
+            30
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_taskName-02.png",
+          "sha256": "187033f593675333c4b5869042bbf9c0fab781fde3d17981571f8bcac3cce38f",
+          "index": 2,
+          "nativeSize": [
+            105,
+            30
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/btn_taskName-03.png",
+          "sha256": "2e2a111fc4cd022ae5248076247174a1fc18f0cc4e5c80e246915a5e92401af4",
+          "index": 3,
+          "nativeSize": [
+            105,
+            30
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/dlg_task.img",
+      "sha256": "adba824e6b0cc88a7b312ea9810531a0731ab3e8e31a7f28e052025bc549e589",
+      "nativePath": "object/ui/task/dlg_task.img",
+      "sourceSha256": "da3cb3c50b70d29ac6f53283dcb1b97335dd2c9a5cc07ef87764cfc7290f2e98",
+      "sourceBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.taskDlg",
+          "sourceFirstLine": 3846,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 300000,
+            "rect": [
+              401,
+              12,
+              400,
+              500
+            ],
+            "bkimage": "object/ui/task/dlg_task.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-task-detail",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/dlg_task-00.png",
+          "sha256": "ed2ed37a7c10c644087a7b23b8a43a5751b5070f9975170799b3e54e4bba391d",
+          "index": 0,
+          "nativeSize": [
+            369,
+            497
+          ],
+          "frameOffset": [
+            28,
+            21
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/storage-task-reference/candidate/patch/object/ui/task/dlg_taskSelect.img",
+      "sha256": "1ebc03c4cb90b3820a6e7ffc55ff3efe2385072c276a2c3d5272f681aef0b1d5",
+      "nativePath": "object/ui/task/dlg_taskSelect.img",
+      "sourceSha256": "a538aa5fa6eb2785f91611f5c6eacbb307e5d4125e8d2caa75df05794bd29ad4",
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.taskSelectDlg",
+          "sourceFirstLine": 4064,
+          "bytecodeSha256": "f8d014ac85c9ac0bfc7f244437a85bda3d86e2a3485e1b073ed29fcd7dca7376",
+          "literalAssignments": {
+            "initlayer": 99999,
+            "darkBG": 1,
+            "visible": 0,
+            "rect": [
+              200,
+              100,
+              368,
+              326
+            ],
+            "bkimage": "object/ui/task/dlg_taskSelect.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "storage-task-select",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/storage-task-reference/candidate/decoded/dlg_taskSelect-00.png",
+          "sha256": "c14c26bbfbc7eb61ca4e5a391ec5a2c27eb161a313b2c15736ec3705f5b3a1a3",
+          "index": 0,
+          "nativeSize": [
+            368,
+            326
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    }
+  ],
+  "preview": {
+    "file": "assets/native-client-ui/storage-task-reference/candidate/contact-native.png",
+    "sha256": "b25ae1fcbd66993d009b48a5a24175eff3aabf9a525ba355310e9071dd11b24b"
+  },
+  "nativeResources": 22,
+  "sourcePositions": 48,
+  "newModelGeneration": false,
+  "nativeGeometryRetained": true,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false,
+  "installedToClient": false
+}

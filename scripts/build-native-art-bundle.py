@@ -47,7 +47,9 @@ def write_json(path,data,check):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--maps-manifest',type=Path,help='Add only its defaultInstallNativePaths subset')
+    parser.add_argument('--maps-manifest',type=Path,
+                        default=Path('assets/native-client-maps/town-common-v1/manifest.json'),
+                        help='Map candidates; include only their defaultInstallNativePaths subset')
     parser.add_argument('--check',action='store_true')
     args = parser.parse_args()
     inputs = list(INPUTS)

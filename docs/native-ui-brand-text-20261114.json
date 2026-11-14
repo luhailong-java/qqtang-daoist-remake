@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "capturedOn": "2026-11-14",
+  "scope": "Only top-level res/uiRes/*.pyc constants in the fixed source archive; no client execution or mutation.",
+  "script": {
+    "file": "scripts/audit-native-ui-brand-text.py",
+    "sha256": "f8c1e7347837054186e05a04aced2de4d8442119e8391a9efe06f7eb299dfb0b"
+  },
+  "parser": {
+    "file": "scripts/read-legacy-ui-constants.py",
+    "sha256": "153e86efe23ddbb5fd4e54796002118f1a25aaad8cd13f97755029910477865e"
+  },
+  "sourceArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "sourceModules": [
+    {
+      "module": "levelCFG",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/levelCFG.pyc",
+      "sha256": "9170cd4c0e9b686c14e131290be67a2a906974d6828ef69ef669252016022656",
+      "byteLength": 6452,
+      "parsedObjects": 464,
+      "scopeCount": 11
+    },
+    {
+      "module": "uiConst",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiConst.pyc",
+      "sha256": "400a42af605f632bd541f7e58ee50dd0b7839e141796fc125e16c4792d3982c1",
+      "byteLength": 11119,
+      "parsedObjects": 490,
+      "scopeCount": 2
+    },
+    {
+      "module": "uiFunc",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiFunc.pyc",
+      "sha256": "5dda49db4da87eee54418c4655b6922283fa3f9ad2dd38923fde31883ad02656",
+      "byteLength": 20447,
+      "parsedObjects": 1170,
+      "scopeCount": 49
+    },
+    {
+      "module": "uiGame",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "sha256": "29519f46bb94ebbf722f48bc8f83f118936251425204e811022cc43f990437d9",
+      "byteLength": 68650,
+      "parsedObjects": 3978,
+      "scopeCount": 169
+    },
+    {
+      "module": "uiLogin",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiLogin.pyc",
+      "sha256": "9a794fc53610a401f3c09bfd4c2e3ea44755534263577d6b7f1af18f0c6a4474",
+      "byteLength": 21335,
+      "parsedObjects": 1507,
+      "scopeCount": 64
+    },
+    {
+      "module": "uiLogo",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiLogo.pyc",
+      "sha256": "7089ef82e33e79fa782b02add5e2b77115a2c8ea604ed21958dcdda8b80fdd19",
+      "byteLength": 3746,
+      "parsedObjects": 224,
+      "scopeCount": 11
+    },
+    {
+      "module": "uiMain",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+      "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+      "byteLength": 301556,
+      "parsedObjects": 20766,
+      "scopeCount": 830
+    },
+    {
+      "module": "uiRoom",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiRoom.pyc",
+      "sha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+      "byteLength": 214691,
+      "parsedObjects": 12141,
+      "scopeCount": 506
+    },
+    {
+      "module": "uiSelRoom",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelRoom.pyc",
+      "sha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+      "byteLength": 298400,
+      "parsedObjects": 16037,
+      "scopeCount": 613
+    },
+    {
+      "module": "uiSelSect",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelSect.pyc",
+      "sha256": "f2d66e23622f9adabc33ecde4dd7a5c9c1170c96fa02273ddc6517fb8f968118",
+      "byteLength": 46917,
+      "parsedObjects": 2751,
+      "scopeCount": 112
+    },
+    {
+      "module": "uiShop",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+      "sha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+      "byteLength": 359992,
+      "parsedObjects": 20107,
+      "scopeCount": 798
+    },
+    {
+      "module": "uiTemplate",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+      "sha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+      "byteLength": 12924,
+      "parsedObjects": 753,
+      "scopeCount": 34
+    },
+    {
+      "module": "uiWeb",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiWeb.pyc",
+      "sha256": "004bbb6a7abf1786d390785d893158a7c371732f0ff13601801d11486b943e58",
+      "byteLength": 4363,
+      "parsedObjects": 255,
+      "scopeCount": 14
+    }
+  ],
+  "markers": [
+    "QQ堂",
+    "QQTang",
+    "腾讯",
+    "酷比"
+  ],
+  "literalOccurrences": [
+    {
+      "module": "levelCFG",
+      "scope": "?.LevelCfg",
+      "sourceBytecodeSha256": "a945b68063c3b79ac7a20540bdba62ea88efe1b2a20dbaa35f546998f9824760",
+      "location": "constant[182]",
+      "literal": {
+        "type": "bytes",
+        "length": 8,
+        "sha256": "ca726d70ce55d0ab381b7bd4fd9e6330ff821134911edc6d43e898005768fb6c",
+        "text": "QQ堂平民",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "QQ堂"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "levelCFG",
+      "scope": "?.LevelCfg",
+      "sourceBytecodeSha256": "a945b68063c3b79ac7a20540bdba62ea88efe1b2a20dbaa35f546998f9824760",
+      "location": "constant[201]",
+      "literal": {
+        "type": "bytes",
+        "length": 8,
+        "sha256": "c57ec36f3b89f504cc51ecaae8cbc6049a7b45b7dbccb9cfe8504f00919a00d7",
+        "text": "QQ堂英雄",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "QQ堂"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "levelCFG",
+      "scope": "?.LevelCfg",
+      "sourceBytecodeSha256": "a945b68063c3b79ac7a20540bdba62ea88efe1b2a20dbaa35f546998f9824760",
+      "location": "constant[209]",
+      "literal": {
+        "type": "bytes",
+        "length": 10,
+        "sha256": "6fd8dc9dc5a0df643d3880f79472017121c45bae24e3b0424fb64ca8389c2582",
+        "text": "酷比大天使",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "酷比"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiFunc",
+      "scope": "?.ui_jumpHelpWeb",
+      "sourceBytecodeSha256": "1739fb9090117e695d378984e08fb5636482334f37154f21fa7740353cc3e466",
+      "location": "constant[3]",
+      "literal": {
+        "type": "bytes",
+        "length": 44,
+        "sha256": "ae641a68529da4d6577918bf5572dc1fa97c6a04249058143e293105c7b74490",
+        "text": "http://qqtang.qq.com/game/help/operation.htm",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiFunc",
+      "scope": "?.ui_jumpOfficialWeb",
+      "sourceBytecodeSha256": "1739fb9090117e695d378984e08fb5636482334f37154f21fa7740353cc3e466",
+      "location": "constant[3]",
+      "literal": {
+        "type": "bytes",
+        "length": 20,
+        "sha256": "61d87f4248f904fb17bf6fe1209b2f03e398ddb458adb3a596c00fda0c991ae6",
+        "text": "http://qqtang.qq.com",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiFunc",
+      "scope": "?.ui_jumpLeagueWeb",
+      "sourceBytecodeSha256": "1739fb9090117e695d378984e08fb5636482334f37154f21fa7740353cc3e466",
+      "location": "constant[3]",
+      "literal": {
+        "type": "bytes",
+        "length": 28,
+        "sha256": "79556b19bf107e8eca015ef38060976be559b1d1f5c58cfe5f2ee2f20251a1fa",
+        "text": "http://newqqtang.qq.com/vip/",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiLogin",
+      "scope": "?.UI_children_login.children.loginDlg.children.agreeUserProtocal",
+      "sourceBytecodeSha256": "db9c6e7043e139bcdf7eb6debd812e3e867dd0ae4d8f8a90c7f6132b483be598",
+      "location": "constant[7]",
+      "literal": {
+        "type": "bytes",
+        "length": 41,
+        "sha256": "1a5ac9bef6d5e89689ada50e670236a24e981f963fd99cd2cfc4123cbe677c9a",
+        "text": "http://qqtang.qq.com/service/license.html",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [
+        "URL"
+      ],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.PlayerWord",
+      "sourceBytecodeSha256": "1a320be44018f14c418d82932c72e0baa082a8b7ef2ca3fd49152588c864c099",
+      "location": "constant[12]",
+      "literal": {
+        "type": "bytes",
+        "length": 29,
+        "sha256": "1565806ae6f416d732245885e9c5ab9976dcf3da1a519cab10ff2a62379f1c31",
+        "text": "恭喜你们已经成为QQ堂合法夫妻!",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "QQ堂"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.guideBar.children.socialityBtn.OnClick",
+      "sourceBytecodeSha256": "b21ae5f3a2afb21e0291e258321d597d809803e3192d3451f94968885b728efc",
+      "location": "constant[8]",
+      "literal": {
+        "type": "bytes",
+        "length": 77,
+        "sha256": "ebfae27b5377821e76467f9ae84b12afefbc4e63e4ac9079906204a6c68ed286",
+        "text": "http%3A%2F%2Fapp.qqtang.qq.com%2Fcgi-bin%2Fa20071119jzls%2Fmy_family_rank.cgi",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.guideBar.children.socialityBtn.OnClick",
+      "sourceBytecodeSha256": "b21ae5f3a2afb21e0291e258321d597d809803e3192d3451f94968885b728efc",
+      "location": "constant[10]",
+      "literal": {
+        "type": "bytes",
+        "length": 70,
+        "sha256": "24e6269182e341c295fd0c5fc90d5e3ccb8772e5a6632e00dd247b250ab560fa",
+        "text": "http%3A%2F%2Fapp.qqtang.qq.com%2Fcgi-bin%2Fa20071119jzls%2Fmy_team.cgi",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.socialityDlg.children.kinMatchTab.OnClick",
+      "sourceBytecodeSha256": "692ab6e255541c19238a977342d5a83d479a4296601f5ccdcf0d7c81e609a5ae",
+      "location": "constant[9]",
+      "literal": {
+        "type": "bytes",
+        "length": 77,
+        "sha256": "ebfae27b5377821e76467f9ae84b12afefbc4e63e4ac9079906204a6c68ed286",
+        "text": "http%3A%2F%2Fapp.qqtang.qq.com%2Fcgi-bin%2Fa20071119jzls%2Fmy_family_rank.cgi",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.socialityDlg.children.teamTab.OnClick",
+      "sourceBytecodeSha256": "692ab6e255541c19238a977342d5a83d479a4296601f5ccdcf0d7c81e609a5ae",
+      "location": "constant[9]",
+      "literal": {
+        "type": "bytes",
+        "length": 70,
+        "sha256": "24e6269182e341c295fd0c5fc90d5e3ccb8772e5a6632e00dd247b250ab560fa",
+        "text": "http%3A%2F%2Fapp.qqtang.qq.com%2Fcgi-bin%2Fa20071119jzls%2Fmy_team.cgi",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.NegotiateBtn.OnClick",
+      "sourceBytecodeSha256": "5962f553c10341eff7765442ec60073d0e980a6a2284e6d72635b9199f5592a4",
+      "location": "constant[5]",
+      "literal": {
+        "type": "bytes",
+        "length": 33,
+        "sha256": "7a00a6463f08282a078861a22b46049469b20948a0ed93db0374a9ee9725e0da",
+        "text": "您的酷比宝石不足,本次出价没有成功",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "酷比"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiRoom",
+      "scope": "?.UI_children_room.children.selMapDlg.children.sel.OnClick",
+      "sourceBytecodeSha256": "b67be7603cd34bcb24438c7bf3e3448dd7a40571b428a4629e39d9085197b4b1",
+      "location": "constant[6]",
+      "literal": {
+        "type": "bytes",
+        "length": 15,
+        "sha256": "662c959e01d534130f2ad5591feedc4268ef51039de2bd5241ad8baee16402b7",
+        "text": "QQTang 温馨提示",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiSelSect",
+      "scope": "?.UI_children_selSect.OnInit",
+      "sourceBytecodeSha256": "cc9426a9d6146785dbbd5b5c30b679cd50140f0b7a10a4ff699e55ff762a33e4",
+      "location": "constant[4]",
+      "literal": {
+        "type": "bytes",
+        "length": 20,
+        "sha256": "61d87f4248f904fb17bf6fe1209b2f03e398ddb458adb3a596c00fda0c991ae6",
+        "text": "http://qqtang.qq.com",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiSelSect",
+      "scope": "?.UI_children_selSect.children.billboard",
+      "sourceBytecodeSha256": "9d97e9630e24c3cc080d75fed61ce2c3583ae6c28c02baa4ad7553472f489673",
+      "location": "constant[13]",
+      "literal": {
+        "type": "bytes",
+        "length": 20,
+        "sha256": "0c23175e483966fd39bac3eba33bdb74702f189b569e60d3bedaccf98065eb03",
+        "text": "    QQ堂， 即将推出!",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "QQ堂"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiSelSect",
+      "scope": "?.UI_children_selSect.children.channel5.OnClick",
+      "sourceBytecodeSha256": "91ccfb554dddfdbebf638ad09e32fb21a16ff5751c65ef2381ba3dc31bc05cbd",
+      "location": "constant[6]",
+      "literal": {
+        "type": "bytes",
+        "length": 35,
+        "sha256": "421c7f7da05fe9a4404e730ffee514f628d0bef8059b1f89896ca3bef6e6cdf8",
+        "text": "http://qqtang.qq.com/game/event.htm",
+        "textEncodingCandidate": "utf-8"
+      },
+      "matchedMarkers": [
+        "QQTang"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiShop",
+      "scope": "?.UI_children_shop.children.functionTab.OnClick",
+      "sourceBytecodeSha256": "0d0f5544edca831d9baf612d14bd49640b1eedbff925b366ad33e4ffa6cf5c4b",
+      "location": "constant[8]",
+      "literal": {
+        "type": "bytes",
+        "length": 8,
+        "sha256": "f8ed40ce795879ef9750bbc73cb6cf7f37164ff54b36fcb1e06108c2e6736106",
+        "text": "酷比宝石",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "酷比"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    },
+    {
+      "module": "uiShop",
+      "scope": "?.UI_children_shop.children.ware1.children.buyA.OnClick",
+      "sourceBytecodeSha256": "21556be54ab271db115b12508c68ea96377c3eb7e76a509506330c6368e8732b",
+      "location": "constant[23]",
+      "literal": {
+        "type": "bytes",
+        "length": 8,
+        "sha256": "f8ed40ce795879ef9750bbc73cb6cf7f37164ff54b36fcb1e06108c2e6736106",
+        "text": "酷比宝石",
+        "textEncodingCandidate": "gb18030"
+      },
+      "matchedMarkers": [
+        "酷比"
+      ],
+      "adjacentLiteralAssignedAttributes": [],
+      "displayUseConfirmed": false,
+      "review": "Trace display use and available width before replacing data; code identifiers and paths must be distinguished from captions."
+    }
+  ],
+  "occurrenceCount": 19,
+  "distinctLiteralTextCount": 15,
+  "limitations": [
+    "Source archive baseline only; this is not the current installed PYC tree.",
+    "Executable window titles, launcher controls, images, fonts, server messages and runtime-computed strings are outside this scan.",
+    "A matching constant does not prove an active display path or supply a replacement rule. This tool does not rewrite client text."
+  ],
+  "allNativeUiBrandingComplete": false,
+  "bytecodeExecuted": false,
+  "clientMutated": false
+}

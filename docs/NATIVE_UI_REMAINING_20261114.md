@@ -1,10 +1,10 @@
 # 原生 UI 剩余覆盖
 
-本次显式读取 3 份转换清单和 1 份静态安装回执。源目录共 4223 个路径，其中 4209 份图像。当前有 740 个同名原生资源导出，安装回执覆盖 740 个路径，其中 740 个与当前导出 SHA 一致。
+本次显式读取 3 份转换清单和 1 份静态安装回执。源目录共 4223 个路径，其中 4209 份图像。当前有 825 个同名原生资源导出，安装回执覆盖 825 个路径，其中 825 个与当前导出 SHA 一致。
 
 | 来源组 | 源图像路径 | 已转换 | 回执已装 | 图像仍待转换 |
 |---|---:|---:|---:|---:|
-| object/ui | 773 | 156 | 156 | 617 |
+| object/ui | 773 | 241 | 241 | 532 |
 | ui | 14 | 1 | 1 | 13 |
 | res/uiRes/icon | 3205 | 583 | 583 | 2622 |
 | res/uiRes other | 217 | 0 | 0 | 217 |
@@ -60,27 +60,27 @@
 | loose/ui/pawnshop | 1 | 0 | 0 | 1 |
 | loose/ui/selSect | 13 | 1 | 1 | 12 |
 | packed/object/ui/bg | 6 | 6 | 6 | 0 |
-| packed/object/ui/chat | 15 | 0 | 0 | 15 |
-| packed/object/ui/chatRoom | 12 | 0 | 0 | 12 |
+| packed/object/ui/chat | 15 | 15 | 15 | 0 |
+| packed/object/ui/chatRoom | 12 | 12 | 12 | 0 |
 | packed/object/ui/common | 28 | 28 | 28 | 0 |
 | packed/object/ui/cursor | 2 | 0 | 0 | 2 |
-| packed/object/ui/deal | 20 | 0 | 0 | 20 |
+| packed/object/ui/deal | 20 | 20 | 20 | 0 |
 | packed/object/ui/forge | 21 | 0 | 0 | 21 |
 | packed/object/ui/game | 25 | 25 | 25 | 0 |
 | packed/object/ui/guideBar | 75 | 26 | 26 | 49 |
 | packed/object/ui/kinTotem | 49 | 0 | 0 | 49 |
 | packed/object/ui/level | 72 | 0 | 0 | 72 |
-| packed/object/ui/login | 12 | 4 | 4 | 8 |
+| packed/object/ui/login | 12 | 12 | 12 | 0 |
 | packed/object/ui/map | 17 | 0 | 0 | 17 |
 | packed/object/ui/marriage | 45 | 0 | 0 | 45 |
 | packed/object/ui/pet | 23 | 0 | 0 | 23 |
-| packed/object/ui/record | 2 | 0 | 0 | 2 |
+| packed/object/ui/record | 2 | 2 | 2 | 0 |
 | packed/object/ui/room | 133 | 18 | 18 | 115 |
 | packed/object/ui/selRoom | 33 | 16 | 16 | 17 |
-| packed/object/ui/selSect | 18 | 12 | 12 | 6 |
+| packed/object/ui/selSect | 18 | 18 | 18 | 0 |
 | packed/object/ui/shop | 132 | 20 | 20 | 112 |
-| packed/object/ui/storage | 9 | 0 | 0 | 9 |
-| packed/object/ui/task | 13 | 0 | 0 | 13 |
+| packed/object/ui/storage | 9 | 9 | 9 | 0 |
+| packed/object/ui/task | 13 | 13 | 13 | 0 |
 | packed/object/ui/web | 10 | 0 | 0 | 10 |
 
 现有绘制资源中，0 个原生路径已有独立 renderer 定义、尚未出现在本次转换清单里；1 件库存候选仍在转换器的 pendingItems 中。对应精确路径、源尺寸和原因见机器清单。数值会随新增模块和转换清单变化，脚本接受多个 --manifest 与 --installation 参数后重算。

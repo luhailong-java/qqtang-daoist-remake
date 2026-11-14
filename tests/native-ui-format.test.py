@@ -137,6 +137,63 @@ class NativeUiPixels(unittest.TestCase):
             contrast = (max(background,foreground)+0.05)/(min(background,foreground)+0.05)
             self.assertGreaterEqual(contrast,4.5)
 
+    def test_entry_status_mask_and_verification_text_surface(self):
+        folder = ROOT/'assets/native-client-ui/entry-controls-reference'
+        manifest = json.loads((folder/'candidate-manifest.json').read_bytes())
+        item = next(e for e in manifest['items'] if e['rendererKind']=='entry-state-strip')
+        raw = (ROOT/item['file']).read_bytes()
+        metadata,_ = codec.reader.inspect_dimg(raw,metadata_only=True)
+        frame = metadata['frames'][0]
+        start = frame['pixelDataOffset']
+        decoded = codec.reader.decode_frame_pixels(raw[start:start+frame['pixelByteLength']],
+                    frame['pixelMode'],frame['width'],frame['height'])
+        native = Image.frombytes('RGBA',(frame['width'],frame['height']),decoded)
+        source = manifest['structuralAlphaInputs'][0]
+        self.assertEqual(hashlib.sha256((ROOT/source['file']).read_bytes()).hexdigest(),source['sha256'])
+        with Image.open(ROOT/source['file']) as original:
+            self.assertEqual(native.getchannel('A').tobytes(),original.getchannel('A').tobytes())
+        evidence = json.loads((folder/'input-color-evidence.json').read_bytes())
+        declarations = json.loads((ROOT/'references/qqtang-ui-data/constants/uiLogin.json').read_bytes())
+        scope = next(s for s in declarations['scopes'] if s['scope']==evidence['scope'])
+        self.assertEqual(scope['bytecodeSha256'],evidence['sourceBytecodeSha256'])
+        self.assertEqual([x['name'] for x in evidence['symbolAssignment']],['darkColor','drawcolor'])
+        item = next(e for e in manifest['items'] if e['rendererKind']=='entry-verify-panel')
+        with Image.open(ROOT/item['frames'][0]['file']) as image:
+            background = luminance(image.getpixel((100,132))[:3])
+        for color in (evidence['sharedUiMainDarkColor'][:3],(0,0,0)):
+            foreground = luminance(color)
+            self.assertGreaterEqual((background+0.05)/(foreground+0.05),4.5)
+
+    def test_chat_and_storage_functional_alpha_survives_the_central_export(self):
+        manifest = json.loads((ROOT/'assets/native-client-ui/login-v1/manifest.json').read_bytes())
+        for group, expected_count in (('chat-controls',65),('storage-task',27)):
+            references = {e['purpose']:e for e in manifest['structuralAlphaInputs'] if e['group']==group}
+            self.assertEqual(len(references),expected_count)
+            checked = 0
+            for item in manifest['items']:
+                kind = item['rendererKind']
+                fixed = {'storage-selection':'selection','storage-shadow':'shadow','storage-grid-room':'room-grid'}
+                if group=='chat-controls' and not kind.startswith('chat-'):
+                    continue
+                if group=='storage-task' and kind not in (*fixed,'storage-nav','storage-task-step'):
+                    continue
+                raw = (ROOT/item['file']).read_bytes()
+                metadata,_ = codec.reader.inspect_dimg(raw,metadata_only=True)
+                for frame in metadata['frames']:
+                    purpose = (f'{kind}-{frame["index"]:02}' if group=='chat-controls' else
+                               fixed[kind] if kind in fixed else f'{item["caption"]}-{frame["index"]}')
+                    source = references[purpose]
+                    start = frame['pixelDataOffset']
+                    decoded = codec.reader.decode_frame_pixels(raw[start:start+frame['pixelByteLength']],
+                                frame['pixelMode'],frame['width'],frame['height'])
+                    native = Image.frombytes('RGBA',(frame['width'],frame['height']),decoded)
+                    path = ROOT/source['file']
+                    self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),source['sha256'])
+                    with self.subTest(nativePath=item['nativePath'],frame=frame['index']),Image.open(path) as original:
+                        self.assertEqual(native.getchannel('A').tobytes(),original.getchannel('A').tobytes())
+                    checked += 1
+            self.assertEqual(checked,expected_count)
+
     def test_loose_batches_reject_windows_case_collisions_before_writing(self):
         raw = self.container(8)
         metadata,_ = codec.reader.inspect_dimg(raw,metadata_only=True)

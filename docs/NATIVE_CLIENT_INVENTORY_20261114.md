@@ -15,14 +15,14 @@ python -B scripts/build-native-inventory-art.py --check
 python -B scripts/install-native-ui.py --client-root "$env:USERPROFILE\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local\runtime\client-patched" --manifest assets/native-client-ui/inventory-v1/manifest.json
 ```
 
-恢复本批库存图标需明确指定本批清单；默认的 UI 清单不会恢复库存批次。
+当前库存、UI、头饰和已选地图均通过 `review-v1` 统一包安装。恢复当前图片批次使用默认统一清单，会同时恢复这四类图片。
 
 ```powershell
-python -B scripts/install-native-ui.py --client-root "$env:USERPROFILE\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local\runtime\client-patched" --manifest assets/native-client-ui/inventory-v1/manifest.json --restore
+python -B scripts/install-native-ui.py --client-root "$env:USERPROFILE\Downloads\ABDM\Compressed\QQTang-Local\QQTang-Local\runtime\client-patched" --restore
 ```
 
 人工视觉、图标实际用途与客户端运行均待验，全部 UI 与整款美术保持未完成。 [完成账](ART_COMPLETION_CHECKLIST.md)
 
-等级／材质批次独立备份于忽略目录 `inventory-phases-v1` 的客户端专属子目录，恢复该批需使用 `--manifest assets/native-client-ui/inventory-phases-v1/manifest.json --restore`。首个单帧清单的六个 pending 中，五件已由此批覆盖，全局尚余 3767。
+旧单帧和等级／材质分批安装的独立备份保留在忽略目录 `inventory-v1`、`inventory-phases-v1` 中，属于统一合包前的历史记录；当前安装请使用上面的统一恢复命令。首个单帧清单的六个 pending 中，五件已由等级／材质批次覆盖，全局尚余 3767。
 
 目前图片已通过 review-v1 统一包安装；默认安装器使用统一包。3767 的外观 alias 不能替代库存绑定，源中明确缺少 shop icon，且 PY／旧 PYC 定义有版本差异。 [3767 查证](NATIVE_ITEM_3767_BINDING_20261114.md)

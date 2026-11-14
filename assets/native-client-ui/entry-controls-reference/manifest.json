@@ -1,0 +1,2087 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only source image and literal UI reference evidence",
+  "source": {
+    "archiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "archiveFile": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "package": {
+      "file": ".artifacts/reference-inputs/object.pkg",
+      "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+    },
+    "index": {
+      "file": ".artifacts/reference-inputs/object.idx",
+      "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+    },
+    "sourceModules": [
+      {
+        "module": "uiLogin",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiLogin.pyc",
+        "sha256": "9a794fc53610a401f3c09bfd4c2e3ea44755534263577d6b7f1af18f0c6a4474",
+        "byteLength": 21335,
+        "parsedObjects": 1507,
+        "scopeCount": 64,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiSelSect",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelSect.pyc",
+        "sha256": "f2d66e23622f9adabc33ecde4dd7a5c9c1170c96fa02273ddc6517fb8f968118",
+        "byteLength": 46917,
+        "parsedObjects": 2751,
+        "scopeCount": 112,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiMain",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+        "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+        "byteLength": 301556,
+        "parsedObjects": 20766,
+        "scopeCount": 830,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiTemplate",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+        "sha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+        "byteLength": 12924,
+        "parsedObjects": 753,
+        "scopeCount": 34,
+        "bytecodeExecuted": false
+      }
+    ],
+    "inventory": {
+      "file": "references/qqtang-ui-data/native-ui-inventory.json",
+      "sha256": "400c1ecf633858276906092c9d340037ebd036957aab0327fea33c5a7f682197"
+    }
+  },
+  "decodeScript": {
+    "file": "assets/native-client-ui/entry-controls-reference/decode-references.py",
+    "sha256": "d56a350454b2656ffaa03ac85921b94ff2e2b12934f01c6379a4ec0984f4c5cb"
+  },
+  "resources": [
+    {
+      "nativePath": "object/ui/login/btn_nextpic.img",
+      "sourceSha256": "69ceac818db297555e7ff65c5fb3dd0654d975533b2fd5334a6c5d4fa6d3d800",
+      "compressedSha256": "aae574ff1ef15f00fc083b9cc1369852cc81fbf0b2a7fc4799b8a21d66967f3e",
+      "packageEntry": {
+        "ordinal": 3037,
+        "indexOffset": 154279,
+        "path": "object\\ui\\login\\btn_nextpic.img",
+        "reservedWord": 0,
+        "packageOffset": 30825032,
+        "rawByteLength": 53396,
+        "compressedByteLength": 5389
+      },
+      "metadata": {
+        "byteLength": 53396,
+        "sha256": "69ceac818db297555e7ff65c5fb3dd0654d975533b2fd5334a6c5d4fa6d3d800",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          129,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 126,
+            "height": 24,
+            "unknownImageHeaderWord": 504,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 12096,
+            "encodedPixelSha256": "30686d057d232fdc8351f1bcbabc75c02e9a26d288b85fd89210a2812ef9d159"
+          },
+          {
+            "index": 1,
+            "offset": 12164,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 127,
+            "height": 27,
+            "unknownImageHeaderWord": 512,
+            "empty": false,
+            "pixelDataOffset": 12192,
+            "pixelByteLength": 13716,
+            "encodedPixelSha256": "c2d76183fb834ca6ac3d0805c5eb7ddabc8cd489b05c8d12e386f52d90126d19"
+          },
+          {
+            "index": 2,
+            "offset": 25908,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 127,
+            "height": 27,
+            "unknownImageHeaderWord": 512,
+            "empty": false,
+            "pixelDataOffset": 25936,
+            "pixelByteLength": 13716,
+            "encodedPixelSha256": "4a8a13accebfdbc7365cb5f5db42f5557e1c8693aeb0a341572832459d9305f7"
+          },
+          {
+            "index": 3,
+            "offset": 39652,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 127,
+            "height": 27,
+            "unknownImageHeaderWord": 512,
+            "empty": false,
+            "pixelDataOffset": 39680,
+            "pixelByteLength": 13716,
+            "encodedPixelSha256": "c94b28ebc00ababac301ccef24b255a0ad0eb58303b76c5db9e9cd51c92572b4"
+          }
+        ],
+        "parsedByteLength": 53396,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_nextpic/frame-000.png",
+          "sha256": "eda5e16b01fcb4149574c809160105b2c72f4232bc14b4e5c6546ea4a768b5eb",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            126,
+            24
+          ],
+          "frameOffsetRaw": [
+            1,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "45241803bc4d70c372b32f3ce72bfc9d4e1dc1451c0240bbf1da0ed8a52b3930",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_nextpic/frame-001.png",
+          "sha256": "5cdc13500e481eb008eaf5adecbcabc8a1d3ab706b9837c79a455860ebe6b173",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            127,
+            27
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "c2d76183fb834ca6ac3d0805c5eb7ddabc8cd489b05c8d12e386f52d90126d19",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_nextpic/frame-002.png",
+          "sha256": "d6066b43005ea6f7832a79a55d8798f4b9f120392a83974402c2db65ee2251e2",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            127,
+            27
+          ],
+          "frameOffsetRaw": [
+            1,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "e2f9da3ef510107f369510c6edc4bb83bec1073ea767e94eb3c2069b74690285",
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_nextpic/frame-003.png",
+          "sha256": "0721427dcb78315ec383d62d10c77a496e75e66540e35658addeb7d7326da806",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            127,
+            27
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "08a7c0009fd5c11de2536e35d53bd2b0c5cb54a1de0192b1e8d4c2dc92527349",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiLogin",
+          "scope": "?.UI_children_login.children.verifyDlg.children.nextBtn",
+          "firstSourceLine": 316,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/login/btn_nextpic.img",
+          "literalAssignments": {
+            "rect": [
+              190,
+              170,
+              129,
+              30
+            ],
+            "bkimage": "object/ui/login/btn_nextpic.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/btn_playanim.img",
+      "sourceSha256": "7ae2517a8831b4a72939f49b77edd30444fced2c97f2f713aacb0c8bc84f21c2",
+      "compressedSha256": "6a2f3e85d30517a4bb062da76fe6e52821590f5f5ce2f58184ee80da0de13260",
+      "packageEntry": {
+        "ordinal": 3038,
+        "indexOffset": 154328,
+        "path": "object\\ui\\login\\btn_playAnim.img",
+        "reservedWord": 0,
+        "packageOffset": 30830421,
+        "rawByteLength": 27466,
+        "compressedByteLength": 7638
+      },
+      "metadata": {
+        "byteLength": 27466,
+        "sha256": "7ae2517a8831b4a72939f49b77edd30444fced2c97f2f713aacb0c8bc84f21c2",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          98,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 98,
+            "height": 31,
+            "unknownImageHeaderWord": 200,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 9114,
+            "encodedPixelSha256": "0c7e08c64474a5f008acf20e6cdd42265a6f1cd5252141e4a28c504f1337723f"
+          },
+          {
+            "index": 1,
+            "offset": 9182,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 98,
+            "height": 31,
+            "unknownImageHeaderWord": 200,
+            "empty": false,
+            "pixelDataOffset": 9210,
+            "pixelByteLength": 9114,
+            "encodedPixelSha256": "01e711d5bc9d0b554ded0502cc421b68370c04502b78907a0a1275cbbce414d9"
+          },
+          {
+            "index": 2,
+            "offset": 18324,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 98,
+            "height": 31,
+            "unknownImageHeaderWord": 200,
+            "empty": false,
+            "pixelDataOffset": 18352,
+            "pixelByteLength": 9114,
+            "encodedPixelSha256": "052519d67ee7baa21fa27c4794ea57ea5139bca4a987234cdec0a97a1ac2fca3"
+          }
+        ],
+        "parsedByteLength": 27466,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_playanim/frame-000.png",
+          "sha256": "1fe61ad6b922e715e4035edc9b035705d89ae48a3facca79d694b2912adbc295",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            98,
+            31
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "13b0de904e9ca8d25d98b94527a8b2f8c2a972ad87b9f5af3ce0a1801b96d705",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_playanim/frame-001.png",
+          "sha256": "85f959e0d1ef9785a9e4d402fbd0221bd4b5793392b30853bf194ad533a88e76",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            98,
+            31
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "3a4d3bf1ce9ae404e04aa1a093c744140c8e125b2c3def3fafc5a751d16aefb1",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_playanim/frame-002.png",
+          "sha256": "607fc49d77a0bfb30db7f7b5d9fd8d908c5b75a5a5ecb6f1e56fbcb78a7f1231",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            98,
+            31
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "6831e80723e0d0c2669b181c9a3d3343f63b98bbd798872e6a312a728106ff97",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiLogin",
+          "scope": "?.UI_children_login.children.loginDlg.children.playAnimBtn",
+          "firstSourceLine": 171,
+          "bytecodeSha256": "c0607796a0c1f64cc78ec0d63e4961fb33be067d9adb6dd0ec7a066b5263c466",
+          "nativePath": "object/ui/login/btn_playanim.img",
+          "literalAssignments": {
+            "framescheme": [
+              [
+                0,
+                0,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2
+              ]
+            ],
+            "bkimage": "object/ui/login/btn_playAnim.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/btn_vnetlogin.img",
+      "sourceSha256": "1af07dc0e881c1d72008864e0c4b27b89504619a16c88c809fb9c085f0bfb321",
+      "compressedSha256": "06cbd85c40e32bfae90a09709dc71ccb6e0bbb92c27fa50c3c8c4946358a8823",
+      "packageEntry": {
+        "ordinal": 3040,
+        "indexOffset": 154424,
+        "path": "object\\ui\\login\\btn_vnetLogin.img",
+        "reservedWord": 0,
+        "packageOffset": 30842146,
+        "rawByteLength": 28396,
+        "compressedByteLength": 3175
+      },
+      "metadata": {
+        "byteLength": 28396,
+        "sha256": "1af07dc0e881c1d72008864e0c4b27b89504619a16c88c809fb9c085f0bfb321",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          76,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 31,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 9424,
+            "encodedPixelSha256": "5b207210ef1078ba9d13329946f28ef3128e393177f73d6501383d12f1221b71"
+          },
+          {
+            "index": 1,
+            "offset": 9492,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 31,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 9520,
+            "pixelByteLength": 9424,
+            "encodedPixelSha256": "e2e6f6e9539a698b64cb8ae9189465e8d58cbe81858f7e508c9cdd2c1afe4476"
+          },
+          {
+            "index": 2,
+            "offset": 18944,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 31,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 18972,
+            "pixelByteLength": 9424,
+            "encodedPixelSha256": "2c9ba9d66652bf5a29d7eb13f41dc9e158f85d9d38b416051eade4c29f443064"
+          }
+        ],
+        "parsedByteLength": 28396,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_vnetlogin/frame-000.png",
+          "sha256": "be5cbceda14b0360b4e54ed8a5ec52702a8eada81d7eb5b532c4bbd2066ce77f",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            76,
+            31
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "6a84a7d6428a85b642b63c01738ff6aa7a21ea84a1d94fbfa87333090912e320",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_vnetlogin/frame-001.png",
+          "sha256": "5f547b3d130191cd96ee6ecbc1cac9b267be6a57b4d5426c37c3b33bd75d5c6c",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            76,
+            31
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "968020698fd4bc43d0683ff61ca09cfc22429b53e09dcd96fa228c852f550a47",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/btn_vnetlogin/frame-002.png",
+          "sha256": "e6ab9ea98be85c54cbcb0319c43fc32ec87f8835250dc5dc611596f9c1daa465",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            76,
+            31
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "9b648245f2584d949dfcf0efe2f111ca025ad6ae5b0eac7dd8eaa94a50ff40c5",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiLogin",
+          "scope": "?.UI_children_login.children.loginDlg.children.vnetLoginBtn",
+          "firstSourceLine": 233,
+          "bytecodeSha256": "1e0e8ef5fa4d17dab76d4a653f52285e61ea9c761c3bbf98a0f05a20cc505012",
+          "nativePath": "object/ui/login/btn_vnetlogin.img",
+          "literalAssignments": {
+            "visible": 1,
+            "bkimage": "object/ui/login/btn_vnetLogin.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/dlg_verify.img",
+      "sourceSha256": "915cdb94a9564db5c639324542f9424c32f8ef9a55cb0571186b46ff2fbe9842",
+      "compressedSha256": "8f8d710da840392db1abd41c4c73a587772cd4cdb5e977a3766b1bc4e83a20bc",
+      "packageEntry": {
+        "ordinal": 3042,
+        "indexOffset": 154522,
+        "path": "object\\ui\\login\\dlg_verify.img",
+        "reservedWord": 0,
+        "packageOffset": 30901039,
+        "rawByteLength": 479940,
+        "compressedByteLength": 28742
+      },
+      "metadata": {
+        "byteLength": 479940,
+        "sha256": "915cdb94a9564db5c639324542f9424c32f8ef9a55cb0571186b46ff2fbe9842",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          368,
+          326
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 368,
+            "height": 326,
+            "unknownImageHeaderWord": 1472,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 479872,
+            "encodedPixelSha256": "0fe2ec9f0d6bacae27cc9f110ab4ab2331246fb637a4996e8cee597232ea5651"
+          }
+        ],
+        "parsedByteLength": 479940,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/dlg_verify/frame-000.png",
+          "sha256": "1437c4c649eee02e7e2bb520d42ecb09b242ff7aca580bc640a9d8de7c4166b8",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            368,
+            326
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "feddac5d6ac2a1bf6353e2f229d43afcbcaaef2498a6730e46c0f60795b2409b",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiLogin",
+          "scope": "?.UI_children_login.children.verifyDlg",
+          "firstSourceLine": 301,
+          "bytecodeSha256": "fa8ef3ae25f8bf26ec0224b498055ec0a5c56f342374c36dbed03ed79510ea8f",
+          "nativePath": "object/ui/login/dlg_verify.img",
+          "literalAssignments": {
+            "initlayer": 200000,
+            "visible": 0,
+            "bkimage": "object/ui/login/dlg_verify.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/dlg_vnetlogin.img",
+      "sourceSha256": "55a43d1878d33dc98c2b678002f784f0dfcf28da01e0dfa4dc5427a1afacf13d",
+      "compressedSha256": "737df7fea8b8b46977147c4236109612f0840af11b71b5f8a9b6ac01a1ca7984",
+      "packageEntry": {
+        "ordinal": 3043,
+        "indexOffset": 154570,
+        "path": "object\\ui\\login\\dlg_vnetLogin.img",
+        "reservedWord": 0,
+        "packageOffset": 30929781,
+        "rawByteLength": 151492,
+        "compressedByteLength": 2451
+      },
+      "metadata": {
+        "byteLength": 151492,
+        "sha256": "55a43d1878d33dc98c2b678002f784f0dfcf28da01e0dfa4dc5427a1afacf13d",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          364,
+          104
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 364,
+            "height": 104,
+            "unknownImageHeaderWord": 1456,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 151424,
+            "encodedPixelSha256": "b417bec00dc1d03fce35339d2e77170f4781dc1b0c26fa4a1674d1c4f8368294"
+          }
+        ],
+        "parsedByteLength": 151492,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/dlg_vnetlogin/frame-000.png",
+          "sha256": "6f2380665340a6288b543edec1043341aae5b4302acb4582d68f570f84eb8f58",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            364,
+            104
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "f94f6720406ce33f30a17b59ccc4c52e15b0c0743d6e3ee19a436e76305dbfff",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiLogin",
+          "scope": "?.UI_children_login.children.vnetDlg",
+          "firstSourceLine": 243,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "nativePath": "object/ui/login/dlg_vnetlogin.img",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 200000,
+            "rect": [
+              420,
+              200,
+              364,
+              104
+            ],
+            "bkimage": "object/ui/login/dlg_vnetLogin.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/dlg_wait.img",
+      "sourceSha256": "0758de6312ae07f31593e10c7d8671f979f72121636d5d4b73eb2da9d593cd5b",
+      "compressedSha256": "8669dacffefb9742d4bc2b7977174268acf2078b69804943df0f0e6a3f19a192",
+      "packageEntry": {
+        "ordinal": 3044,
+        "indexOffset": 154621,
+        "path": "object\\ui\\login\\dlg_wait.img",
+        "reservedWord": 0,
+        "packageOffset": 30932232,
+        "rawByteLength": 85948,
+        "compressedByteLength": 3544
+      },
+      "metadata": {
+        "byteLength": 85948,
+        "sha256": "0758de6312ae07f31593e10c7d8671f979f72121636d5d4b73eb2da9d593cd5b",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          226,
+          95
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 226,
+            "height": 95,
+            "unknownImageHeaderWord": 904,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 85880,
+            "encodedPixelSha256": "981d9540897a5ef8cfa16cea14ec5a29bb0128ef376ba50a59b5e02ed9bf58ab"
+          }
+        ],
+        "parsedByteLength": 85948,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/dlg_wait/frame-000.png",
+          "sha256": "13191ae9a8eb00ac6f24b396b3ee3340ad031f4c64a3b760198eee19caa56bf6",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            226,
+            95
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "28ae0ce9a216bc11f1c6059e3868522dec2eda10ab03fbe901d93c5aec4ad3e5",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiLogin",
+          "scope": "?.UI_children_login.children.wait",
+          "firstSourceLine": 258,
+          "bytecodeSha256": "775bf99d29ebca4ee7abdff82c0c2f311ce0823f19dfabc1126bb33e6e94e282",
+          "nativePath": "object/ui/login/dlg_wait.img",
+          "literalAssignments": {
+            "initlayer": 999999,
+            "visible": 0,
+            "darkBG": 1,
+            "rect": [
+              287,
+              320,
+              226,
+              95
+            ],
+            "bkimage": "object/ui/login/dlg_wait.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/img_lago.img",
+      "sourceSha256": "127be3e6463c6938099b936a3f143b86b92887dfe2e34f84aef3b339c5e032ab",
+      "compressedSha256": "7f5dd760f232f2acc494006633bd76760784380a80248717c23a4141b9173416",
+      "packageEntry": {
+        "ordinal": 3046,
+        "indexOffset": 154713,
+        "path": "object\\ui\\login\\img_lago.img",
+        "reservedWord": 0,
+        "packageOffset": 30937216,
+        "rawByteLength": 105068,
+        "compressedByteLength": 33571
+      },
+      "metadata": {
+        "byteLength": 105068,
+        "sha256": "127be3e6463c6938099b936a3f143b86b92887dfe2e34f84aef3b339c5e032ab",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          201,
+          175
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 200,
+            "height": 175,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 105000,
+            "encodedPixelSha256": "9ad2698f5ae604b1e60d5a143dd548b41e971054062bf703e634511131a02fe6"
+          }
+        ],
+        "parsedByteLength": 105068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/img_lago/frame-000.png",
+          "sha256": "bd88213f0fe6b065bd697dd42b04cb2dd9666e2d0f60655693c846db169691ce",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            200,
+            175
+          ],
+          "frameOffsetRaw": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "df9d25dba2371f6b49078d86237026c628e80ca4a6e90b32affca48f3168086a",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/login/img_link.img",
+      "sourceSha256": "6a74907951ca4fdd247ab39f022356923707050dd905ba1ec17723de93ae604e",
+      "compressedSha256": "d3db1c201912a67e97d1dabfa62bbaca4f206210c898de82065395bb9f35d3b6",
+      "packageEntry": {
+        "ordinal": 3045,
+        "indexOffset": 154667,
+        "path": "object\\ui\\login\\img_link.img",
+        "reservedWord": 0,
+        "packageOffset": 30935776,
+        "rawByteLength": 32352,
+        "compressedByteLength": 1440
+      },
+      "metadata": {
+        "byteLength": 32352,
+        "sha256": "6a74907951ca4fdd247ab39f022356923707050dd905ba1ec17723de93ae604e",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          192,
+          21
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 192,
+            "height": 21,
+            "unknownImageHeaderWord": 768,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 16128,
+            "encodedPixelSha256": "58eec0f8f8d4007e37956b8c572e0d149e109da03fcb987f997a063b9334b293"
+          },
+          {
+            "index": 1,
+            "offset": 16196,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 192,
+            "height": 21,
+            "unknownImageHeaderWord": 768,
+            "empty": false,
+            "pixelDataOffset": 16224,
+            "pixelByteLength": 16128,
+            "encodedPixelSha256": "877f187292c5371799a4f3aec196522bbbbb01006b0eecdcffaf483eca70aa7a"
+          }
+        ],
+        "parsedByteLength": 32352,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/img_link/frame-000.png",
+          "sha256": "4fc2a1dcca408fcce9d523c10d77c31263539566c4977c282bce7adf730dee71",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            192,
+            21
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "604bc53dd5bda0f6728eb0af1a25b05cbae4a1c73007e08761842e1ad934fd4c",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/login/img_link/frame-001.png",
+          "sha256": "bdc94f6d60b086184695b48774841b829c82d2d982e36717397e9db613553b97",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            192,
+            21
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "d3e3013c7e41af7d318765483b6239e0b83a31702f81292480d6a9359493f9e4",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiLogin",
+          "scope": "?.UI_children_login.children.wait.children.linkAnim",
+          "firstSourceLine": 289,
+          "bytecodeSha256": "415664612f8c293d15276ebe79a410b9bbf3ed3bebc47b42e4d30adeb579874a",
+          "nativePath": "object/ui/login/img_link.img",
+          "literalAssignments": {
+            "rect": [
+              17,
+              30,
+              192,
+              21
+            ],
+            "bkimage": "object/ui/login/img_link.img",
+            "framescheme": [
+              [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selsect/img_state.img",
+      "sourceSha256": "802b3bcc6f20a0debd2d027833e66a40a46e95fe5b577cd09200dacdfaa3749f",
+      "compressedSha256": "3a3adfa4b2c850b0e260dde9bb1824059c5b604ab5b92a461d662b235cfec394",
+      "packageEntry": {
+        "ordinal": 3307,
+        "indexOffset": 167752,
+        "path": "object\\ui\\selSect\\img_state.img",
+        "reservedWord": 0,
+        "packageOffset": 34139698,
+        "rawByteLength": 2672,
+        "compressedByteLength": 428
+      },
+      "metadata": {
+        "byteLength": 2672,
+        "sha256": "802b3bcc6f20a0debd2d027833e66a40a46e95fe5b577cd09200dacdfaa3749f",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          63,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 62,
+            "height": 14,
+            "unknownImageHeaderWord": 128,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 2604,
+            "encodedPixelSha256": "e8a736f4a5797ef528f28f57bf6cf17401a0ed019f9412eaf3d9160ac9986677"
+          }
+        ],
+        "parsedByteLength": 2672,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/selsect/img_state/frame-000.png",
+          "sha256": "e9483c743d0cad260171577ff4bcce2e23af6670312983bd301c70ab52a47a02",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            62,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "51f7a213c764d2ce710454e38ae475d3ee41d3f89d2947debd19fee87a77fd5c",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.sect1.children.serverState",
+          "firstSourceLine": 437,
+          "bytecodeSha256": "4c259c2a558b9df726a680ea04565bf94fc25cf44f92a97679df422cbc5a039c",
+          "nativePath": "object/ui/selsect/img_state.img",
+          "literalAssignments": {
+            "rect": [
+              100,
+              6,
+              63,
+              14
+            ],
+            "bkimage": "object/ui/selSect/img_state.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selsect/netspeed_fast.img",
+      "sourceSha256": "bcb2cbbd71b2db7f3324be8353bd520649b173bfeb84fe94fe2acad003ea6354",
+      "compressedSha256": "8742b02a06c771e8cc7371d20fb500b86b39647c904eb497ca2bd1e95cf657f6",
+      "packageEntry": {
+        "ordinal": 3308,
+        "indexOffset": 167801,
+        "path": "object\\ui\\selSect\\netspeed_fast.img",
+        "reservedWord": 0,
+        "packageOffset": 34140126,
+        "rawByteLength": 1538,
+        "compressedByteLength": 521
+      },
+      "metadata": {
+        "byteLength": 1538,
+        "sha256": "bcb2cbbd71b2db7f3324be8353bd520649b173bfeb84fe94fe2acad003ea6354",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          35,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 35,
+            "height": 14,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1470,
+            "encodedPixelSha256": "7be9444ebdc35586a1522cfead1a33aaf38de5baffaa009938673eb1d0d8587f"
+          }
+        ],
+        "parsedByteLength": 1538,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/selsect/netspeed_fast/frame-000.png",
+          "sha256": "f16eefed49f74758d5daa09afe461173bc357cff31f5d664fe5a09a0826a1b22",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            35,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "eca9c9f9fa9b2c09a5a4a13658814330248e47e0d56d7eef89252b32131da1c8",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.selServerDlg.setList",
+          "firstSourceLine": 492,
+          "bytecodeSha256": "52f487e28d4363f2212a7a0534ba121af17ab65b9cd508243242b12ec5e049a8",
+          "nativePath": "object/ui/selsect/netspeed_fast.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selsect/netspeed_mid.img",
+      "sourceSha256": "94a5ff574697d75ad5ba88fb48583d232400accf669444aab5a331d5037ebfe7",
+      "compressedSha256": "aa7735a824ee4aa673c64b1373f662571ec60e4f7b63c7513f5a18715d108130",
+      "packageEntry": {
+        "ordinal": 3309,
+        "indexOffset": 167854,
+        "path": "object\\ui\\selSect\\netspeed_mid.img",
+        "reservedWord": 0,
+        "packageOffset": 34140647,
+        "rawByteLength": 1538,
+        "compressedByteLength": 455
+      },
+      "metadata": {
+        "byteLength": 1538,
+        "sha256": "94a5ff574697d75ad5ba88fb48583d232400accf669444aab5a331d5037ebfe7",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          35,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 35,
+            "height": 14,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1470,
+            "encodedPixelSha256": "a081c1d15018d1877302c7751fd70afe0c353f697fea486925f60475f5afe239"
+          }
+        ],
+        "parsedByteLength": 1538,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/selsect/netspeed_mid/frame-000.png",
+          "sha256": "649d673078577740ce5da0ba98f7067f59dd5be16edbb6b6d318962fbbf4fd49",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            35,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "a0482144b03d3c7149b2abc2b2a83d659f288b820ee571dbff504eecd803fa1a",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.selServerDlg.setList",
+          "firstSourceLine": 492,
+          "bytecodeSha256": "52f487e28d4363f2212a7a0534ba121af17ab65b9cd508243242b12ec5e049a8",
+          "nativePath": "object/ui/selsect/netspeed_mid.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selsect/netspeed_slow.img",
+      "sourceSha256": "8dfbf91bd34146060687f08a4da95b459382ccdd22a6f04669d713900ca4a7ed",
+      "compressedSha256": "8532683f66e7c23e606bd131b4a6f13538a03c28a33a086e3a189263a2280050",
+      "packageEntry": {
+        "ordinal": 3310,
+        "indexOffset": 167906,
+        "path": "object\\ui\\selSect\\netspeed_slow.img",
+        "reservedWord": 0,
+        "packageOffset": 34141102,
+        "rawByteLength": 1538,
+        "compressedByteLength": 496
+      },
+      "metadata": {
+        "byteLength": 1538,
+        "sha256": "8dfbf91bd34146060687f08a4da95b459382ccdd22a6f04669d713900ca4a7ed",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          35,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 35,
+            "height": 14,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1470,
+            "encodedPixelSha256": "3bdb014aa8cb4d252afa32e1bdba327ab7c356493fd498202c3d589905101861"
+          }
+        ],
+        "parsedByteLength": 1538,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/selsect/netspeed_slow/frame-000.png",
+          "sha256": "932be61b49b817b972df94d9927a8c82e5b9fadceeca24ffc98741e2ef5c2b96",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            35,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "896967dd826c3189ed814f34d806a53637e8e8bb8603950c7bd06dc756859641",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.selServerDlg.setList",
+          "firstSourceLine": 492,
+          "bytecodeSha256": "52f487e28d4363f2212a7a0534ba121af17ab65b9cd508243242b12ec5e049a8",
+          "nativePath": "object/ui/selsect/netspeed_slow.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selsect/netspeed_test.img",
+      "sourceSha256": "6f86b4be0d1726b2502b495b4126594e315c967e2f62a0b9380ee6ec42b6a2c2",
+      "compressedSha256": "35a1599578833e848640111aa4363bff6d717884e4675d5be1cf8f1e9ae1f2cf",
+      "packageEntry": {
+        "ordinal": 3311,
+        "indexOffset": 167959,
+        "path": "object\\ui\\selSect\\netspeed_test.img",
+        "reservedWord": 0,
+        "packageOffset": 34141598,
+        "rawByteLength": 1664,
+        "compressedByteLength": 621
+      },
+      "metadata": {
+        "byteLength": 1664,
+        "sha256": "6f86b4be0d1726b2502b495b4126594e315c967e2f62a0b9380ee6ec42b6a2c2",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          38,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 38,
+            "height": 14,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1596,
+            "encodedPixelSha256": "877b6cc986cdb8361c7e7a34fd9e30ef596a8eefa9b79486bdcb91eb80e2a33a"
+          }
+        ],
+        "parsedByteLength": 1664,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/selsect/netspeed_test/frame-000.png",
+          "sha256": "2bc6fdd2ae8b431bee6555dc03517eb476586682c010b527be1bbd6fae971591",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            38,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "0c9c53c6cd7a0056818891e942eebcacb8bcd83facd58eeb1463d3bd199cf9b6",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.selServerDlg.setList",
+          "firstSourceLine": 492,
+          "bytecodeSha256": "52f487e28d4363f2212a7a0534ba121af17ab65b9cd508243242b12ec5e049a8",
+          "nativePath": "object/ui/selsect/netspeed_test.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selsect/netspeed_unknown.img",
+      "sourceSha256": "cc3778405f0f1e4c90b0b0b1718fca43ce20aae5f00af0dea3fae2ddd6ed3a2a",
+      "compressedSha256": "4f44088e19423ddd820692ee1997cee1ccbb9c94562bfe6ba4719130d7ffd854",
+      "packageEntry": {
+        "ordinal": 3312,
+        "indexOffset": 168012,
+        "path": "object\\ui\\selSect\\netspeed_unknown.img",
+        "reservedWord": 0,
+        "packageOffset": 34142219,
+        "rawByteLength": 1538,
+        "compressedByteLength": 537
+      },
+      "metadata": {
+        "byteLength": 1538,
+        "sha256": "cc3778405f0f1e4c90b0b0b1718fca43ce20aae5f00af0dea3fae2ddd6ed3a2a",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          35,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 35,
+            "height": 14,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1470,
+            "encodedPixelSha256": "2cf2debfb4b674c977740404d16a3fdd9a3f3ed6ee3a5c673a7171fca8a9c3e6"
+          }
+        ],
+        "parsedByteLength": 1538,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/selsect/netspeed_unknown/frame-000.png",
+          "sha256": "5075989f4d0fc44c86e13d58b21e5d2156df163599c652b5f9020a162e950701",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            35,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "17a2ca4e0af1fb8715e0b890f65bc0208044b3b90b9950ab9e6d5ef7ba388b96",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.selServerDlg.setList",
+          "firstSourceLine": 492,
+          "bytecodeSha256": "52f487e28d4363f2212a7a0534ba121af17ab65b9cd508243242b12ec5e049a8",
+          "nativePath": "object/ui/selsect/netspeed_unknown.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/record/icon_file.img",
+      "sourceSha256": "5c053a7d2a99b499225fe04ceb80ac42af2ddf623377e4dbc94d468cca69020d",
+      "compressedSha256": "a4aa9019109b8034a2cde917b3e531b4ead9dd0ce89e416d06206813cbad9363",
+      "packageEntry": {
+        "ordinal": 3132,
+        "indexOffset": 159143,
+        "path": "object\\ui\\record\\icon_file.img",
+        "reservedWord": 0,
+        "packageOffset": 32254417,
+        "rawByteLength": 740,
+        "compressedByteLength": 115
+      },
+      "metadata": {
+        "byteLength": 740,
+        "sha256": "5c053a7d2a99b499225fe04ceb80ac42af2ddf623377e4dbc94d468cca69020d",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          16,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 16,
+            "height": 14,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 672,
+            "encodedPixelSha256": "73b3d568257f8a829f54a0036505aa6bff4045032870c89d11cdc2a1a64b2c4c"
+          }
+        ],
+        "parsedByteLength": 740,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/record/icon_file/frame-000.png",
+          "sha256": "3c1f567249c0cd6f63fdc2f007a8a9e5d0cc1db94ef136ff93b5cdb98da3e28e",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            16,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "1097b53ecb6e1e11b3ec3916ebb5b9b52f3e26cfb42c8a2e2b231d169835b02d",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.SetRecorderDlg.children.scroll.OnPosChange",
+          "firstSourceLine": 4215,
+          "bytecodeSha256": "4377e5c8849b37361d9bc38037c12c692026f3bf2796a756a5c52a31d558b841",
+          "nativePath": "object/ui/record/icon_file.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/record/icon_folder.img",
+      "sourceSha256": "458c04f20219f2eb1b2120e5c2a53e1ae134108b03f760b0750b3afec7c24d0b",
+      "compressedSha256": "241f298ba6b3c0fc062ca08b444335d31c593cd21de5d7d88865e43e3bd51a63",
+      "packageEntry": {
+        "ordinal": 3133,
+        "indexOffset": 159191,
+        "path": "object\\ui\\record\\icon_folder.img",
+        "reservedWord": 0,
+        "packageOffset": 32254532,
+        "rawByteLength": 1626,
+        "compressedByteLength": 243
+      },
+      "metadata": {
+        "byteLength": 1626,
+        "sha256": "458c04f20219f2eb1b2120e5c2a53e1ae134108b03f760b0750b3afec7c24d0b",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          17,
+          15
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 17,
+            "height": 15,
+            "unknownImageHeaderWord": 40,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 765,
+            "encodedPixelSha256": "e0113f7c7abe860052f78c9f07179a8b268f8edf15a347b615375167d8ec7ce1"
+          },
+          {
+            "index": 1,
+            "offset": 833,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 17,
+            "height": 15,
+            "unknownImageHeaderWord": 40,
+            "empty": false,
+            "pixelDataOffset": 861,
+            "pixelByteLength": 765,
+            "encodedPixelSha256": "e74ad2bbb436ba128e3bd1ac81ec8791edcaf3df907682cd9a94d3398c195913"
+          }
+        ],
+        "parsedByteLength": 1626,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/record/icon_folder/frame-000.png",
+          "sha256": "f777f3da0d0729e910342f9f9d730be1c5d0c5906d94721775b284e09052cda8",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            17,
+            15
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "7b1045bbbe7cf21e96857fe70ef2608619730187db39aeb034f7e35f1a120011",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/entry-controls-reference/frames/record/icon_folder/frame-001.png",
+          "sha256": "f8dd2e79d9cae41dc59767bffb545d4d5c11a22a5d5672420fd1aaec341c0a69",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            17,
+            15
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "f4ca85ecb7f29dba086e302760c15700e21014daaf786ce00292e0287d2053bc",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.SetRecorderDlg.children.CurrentDirLabel.children.icon",
+          "firstSourceLine": 4135,
+          "bytecodeSha256": "4f12688e5cb6e3cc631bf39e2235f243774710b0a24ad4cf506075e7e03fef29",
+          "nativePath": "object/ui/record/icon_folder.img",
+          "literalAssignments": {
+            "framescheme": [
+              [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "rect": [
+              -26,
+              -3,
+              17,
+              12
+            ],
+            "bkimage": "object/ui/record/icon_folder.img"
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.SetRecorderDlg.children.scroll.OnPosChange",
+          "firstSourceLine": 4215,
+          "bytecodeSha256": "4377e5c8849b37361d9bc38037c12c692026f3bf2796a756a5c52a31d558b841",
+          "nativePath": "object/ui/record/icon_folder.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.SetRecorderDlg.children.file1.children.icon",
+          "firstSourceLine": 4348,
+          "bytecodeSha256": "48ea2bd23586d6654efe55809d0cee4e4627ce245e6c365017417c6c301db663",
+          "nativePath": "object/ui/record/icon_folder.img",
+          "literalAssignments": {
+            "framescheme": [
+              [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "rect": [
+              0,
+              1,
+              12,
+              18
+            ],
+            "bkimage": "object/ui/record/icon_folder.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    }
+  ],
+  "resourceCount": 16,
+  "decodedNonemptyFrameCount": 25,
+  "previews": [
+    {
+      "file": "assets/native-client-ui/entry-controls-reference/source-all-states.png",
+      "sha256": "12bed71288b46dbe07714701f7d5071f26709450350f10077154480bcb2f8864"
+    }
+  ],
+  "sourcePixelsOnly": true,
+  "sourceClientMutated": false,
+  "nativeRuntimeVerified": false,
+  "interpretation": "Static literal scope and decoded source pixels. Runtime active flow and button-state semantic ordering require further evidence."
+}

@@ -1,0 +1,3597 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only source image and literal UI reference evidence",
+  "source": {
+    "archiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "archiveFile": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "package": {
+      "file": ".artifacts/reference-inputs/object.pkg",
+      "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+    },
+    "index": {
+      "file": ".artifacts/reference-inputs/object.idx",
+      "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+    },
+    "sourceModules": [
+      {
+        "module": "uiMain",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+        "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+        "byteLength": 301556,
+        "parsedObjects": 20766,
+        "scopeCount": 830,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiTemplate",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+        "sha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+        "byteLength": 12924,
+        "parsedObjects": 753,
+        "scopeCount": 34,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiShop",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+        "sha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+        "byteLength": 359992,
+        "parsedObjects": 20107,
+        "scopeCount": 798,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiSelRoom",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelRoom.pyc",
+        "sha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+        "byteLength": 298400,
+        "parsedObjects": 16037,
+        "scopeCount": 613,
+        "bytecodeExecuted": false
+      }
+    ],
+    "inventory": {
+      "file": "references/qqtang-ui-data/native-ui-inventory.json",
+      "sha256": "400c1ecf633858276906092c9d340037ebd036957aab0327fea33c5a7f682197"
+    }
+  },
+  "decodeScript": {
+    "file": "assets/native-client-ui/deal-controls-reference/decode-references.py",
+    "sha256": "afea8ca9f6b61f7a8c5408b5929633397ad61a88dfae26c6310894d322101cd6"
+  },
+  "resources": [
+    {
+      "nativePath": "object/ui/deal/agreebtn.img",
+      "sourceSha256": "fb6ea31b250763ce4d40f053aa9a5f0d0f022bd581cc25e132a31ba8e0b70616",
+      "compressedSha256": "a53f6476816943abf5128225c9b1f4000dfcce972db6aaa8f784e8c4b9a7bc63",
+      "packageEntry": {
+        "ordinal": 2773,
+        "indexOffset": 141316,
+        "path": "object\\ui\\deal\\AgreeBtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29199169,
+        "rawByteLength": 40824,
+        "compressedByteLength": 6449
+      },
+      "metadata": {
+        "byteLength": 40824,
+        "sha256": "fb6ea31b250763ce4d40f053aa9a5f0d0f022bd581cc25e132a31ba8e0b70616",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          82,
+          33
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 9840,
+            "encodedPixelSha256": "ff65591c12e83805be5bdd2ef15ec5b0ea3eb910e66c728dd61a3cd1df43d9b9"
+          },
+          {
+            "index": 1,
+            "offset": 9908,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 32,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 9936,
+            "pixelByteLength": 10496,
+            "encodedPixelSha256": "00815716c789051ee9a5f281f376fb845d07a7f17fd99b81b094ea60c19f7c16"
+          },
+          {
+            "index": 2,
+            "offset": 20432,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 32,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 20460,
+            "pixelByteLength": 10496,
+            "encodedPixelSha256": "eba6c303f92171a14b58b79cf0e323a78c66b9b7de0cb35b345cb5d2309e3b72"
+          },
+          {
+            "index": 3,
+            "offset": 30956,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 30984,
+            "pixelByteLength": 9840,
+            "encodedPixelSha256": "cd56205e84fec946cd507f140a4633a7365f23f8869a510d188a472267dfea5e"
+          }
+        ],
+        "parsedByteLength": 40824,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/agreebtn/frame-000.png",
+          "sha256": "aedcebaeb90b76bd6a05b7c0eecac8d9263e8f9caa11f87d86b8606b7d1b3061",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            82,
+            30
+          ],
+          "frameOffsetRaw": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "89d77e0126ba92c7ea31a56fee95a65f802725ed674ea069bbd2c2baab32f0cd",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/agreebtn/frame-001.png",
+          "sha256": "9b10c2f00730a8baf03fe7a9adfd33810cbb18621bcf03d3177a342d6f43578a",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            82,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "e83caec211eaa3af6efafc601e7c5aefbe8f59bced594cae0090255d44a5ec28",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/agreebtn/frame-002.png",
+          "sha256": "ea5be8499bc6b23f1c9095bd83408573fa174e6702367eaa604e00a8bf90acd6",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            82,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "c43694634acd4084dee65d096a650a5e0162a495e3e035f3adad9c78380f80be",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/agreebtn/frame-003.png",
+          "sha256": "b2452444b9948a3b160e428ae8d28715a4204a8f3dd15ae14904bc9b3ac9dc43",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            82,
+            30
+          ],
+          "frameOffsetRaw": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "ac401dd925b43d4835da77048fd3d7a711fe3a3325075f8ea0ac748626080573",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.C2CDealDlg.children.BargainingBtn",
+          "firstSourceLine": 4574,
+          "bytecodeSha256": "65bd70a4b35158ebfbfc21d7d6d78d65f38694cda3ae9c8bd4827a6962b6d3ac",
+          "nativePath": "object/ui/deal/agreebtn.img",
+          "literalAssignments": {
+            "rect": [
+              164,
+              246,
+              80,
+              31
+            ],
+            "bkimage": "object/ui/deal/AgreeBtn.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/c2cdealpanel.img",
+      "sourceSha256": "60ac110ef2f7b117aac530690a25759cc1857686bd9769432ca2f7340bf51e7f",
+      "compressedSha256": "b782f324dc2eea3f4186f2832038eb300891a62d3df19d1da8ed6c5403909994",
+      "packageEntry": {
+        "ordinal": 2775,
+        "indexOffset": 141409,
+        "path": "object\\ui\\deal\\C2CDealPanel.img",
+        "reservedWord": 0,
+        "packageOffset": 29242405,
+        "rawByteLength": 808988,
+        "compressedByteLength": 77494
+      },
+      "metadata": {
+        "byteLength": 808988,
+        "sha256": "60ac110ef2f7b117aac530690a25759cc1857686bd9769432ca2f7340bf51e7f",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          378,
+          535
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 378,
+            "height": 535,
+            "unknownImageHeaderWord": 1512,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 808920,
+            "encodedPixelSha256": "2ada6e99a6688baa0030461bce182c6517071b7100ff889cdd679baabd4e2019"
+          }
+        ],
+        "parsedByteLength": 808988,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/c2cdealpanel/frame-000.png",
+          "sha256": "5852abe9bf2a0bba694004a946a83fb5b6626edc31edb338ed12c7ab414d90e4",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            378,
+            535
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "04516d7ee9580b046af8f08d2ff18b7f2cb0064765d13916cc8d3b387f499676",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.C2CDealDlg",
+          "firstSourceLine": 4515,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "nativePath": "object/ui/deal/c2cdealpanel.img",
+          "literalAssignments": {
+            "initlayer": 999999,
+            "visible": 0,
+            "rect": [
+              26,
+              44,
+              381,
+              594
+            ],
+            "bkimage": "object/ui/deal/C2CDealPanel.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/disagreebtn.img",
+      "sourceSha256": "63c06c62f0aa6026fcf27af7a706b6a8462e455ba137df05d4ad14363a6b90b3",
+      "compressedSha256": "f547efbd81be4f4f9030728e9290b96ec7c3bbc0acd7d514d8e4c4ba09a48959",
+      "packageEntry": {
+        "ordinal": 2782,
+        "indexOffset": 141747,
+        "path": "object\\ui\\deal\\DisagreeBtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29367360,
+        "rawByteLength": 40824,
+        "compressedByteLength": 6353
+      },
+      "metadata": {
+        "byteLength": 40824,
+        "sha256": "63c06c62f0aa6026fcf27af7a706b6a8462e455ba137df05d4ad14363a6b90b3",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          82,
+          33
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 9840,
+            "encodedPixelSha256": "63dab8eb4870517cf193993ecef04d728564193efe8e5b0e47644b7e9ff39491"
+          },
+          {
+            "index": 1,
+            "offset": 9908,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 32,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 9936,
+            "pixelByteLength": 10496,
+            "encodedPixelSha256": "1a7063894bee0cd02461ba1bcc888139d867fbcfc59420b74ee4acb5a855a3bd"
+          },
+          {
+            "index": 2,
+            "offset": 20432,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 32,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 20460,
+            "pixelByteLength": 10496,
+            "encodedPixelSha256": "3ef0f6996babc520f9cda01217ac20b26dafbaff7cdeb462c4df2cc46543da1b"
+          },
+          {
+            "index": 3,
+            "offset": 30956,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 328,
+            "empty": false,
+            "pixelDataOffset": 30984,
+            "pixelByteLength": 9840,
+            "encodedPixelSha256": "c4be572ae73ea172e2aacbd9f8d958f1a625c61cf31c5f77ea44567a006c78dd"
+          }
+        ],
+        "parsedByteLength": 40824,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/disagreebtn/frame-000.png",
+          "sha256": "5a784f5b9b6ad2711b6f01d72992abe108ce83a6a44dffd16cd2732045639f9f",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            82,
+            30
+          ],
+          "frameOffsetRaw": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "92cbc52a50c5ebb269ef8b67edbbb655c07a72c48aa40b0c8aa97040ceff0ff1",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/disagreebtn/frame-001.png",
+          "sha256": "3f9fad4818d1fbbba8622249c2a49131e8b6c575bc303e34299002ff4c4213c8",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            82,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "bc06c78fa95130c460e1989572c427aedae9f548437553db6aec633d13ccaeea",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/disagreebtn/frame-002.png",
+          "sha256": "9973e830a1eef3fc7518185db99093f7c41eb8a69486fa84d56ef52cdcd5feb1",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            82,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "7bd356df20a48655f449838eded631aaf711fe217752e7df0ccc155862d4e41e",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/disagreebtn/frame-003.png",
+          "sha256": "bd302db3f8234cd35db73a00d304a6832ec6d2846a6b9c2c1c0ce16d320133c1",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            82,
+            30
+          ],
+          "frameOffsetRaw": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "2f09c37319a323f1028764c59018fa6d0848207471dd538ad8f43f7984155c96",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.C2CDealDlg.children.NegotiateBtn",
+          "firstSourceLine": 4532,
+          "bytecodeSha256": "65bd70a4b35158ebfbfc21d7d6d78d65f38694cda3ae9c8bd4827a6962b6d3ac",
+          "nativePath": "object/ui/deal/disagreebtn.img",
+          "literalAssignments": {
+            "rect": [
+              264,
+              246,
+              80,
+              31
+            ],
+            "bkimage": "object/ui/deal/DisagreeBtn.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/littleagreebtn.img",
+      "sourceSha256": "f573004a3441e391438429402c0e453fd0deb9009f8d9ab88fc5dcd39c8e6357",
+      "compressedSha256": "bd43a49a2a9e7c974f540f2432c7f0adf7aab69e5122949dd9ea21f154e863e0",
+      "packageEntry": {
+        "ordinal": 2783,
+        "indexOffset": 141795,
+        "path": "object\\ui\\deal\\LittleAgreeBtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29373713,
+        "rawByteLength": 24216,
+        "compressedByteLength": 6700
+      },
+      "metadata": {
+        "byteLength": 24216,
+        "sha256": "f573004a3441e391438429402c0e453fd0deb9009f8d9ab88fc5dcd39c8e6357",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          47,
+          34
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "50c328a4dd8afed34c6e292d7e1e789d791e058b75b630ee882a89e31714033f"
+          },
+          {
+            "index": 1,
+            "offset": 6084,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 6112,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "64b57ae02aa5b30eed5f4ba2972a482aef3ae1f89b917533ba1e872178afc63a"
+          },
+          {
+            "index": 2,
+            "offset": 12128,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 12156,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "c29512c970e6327a347f6955b13ed6c53343a029de18ffe391937256144c7903"
+          },
+          {
+            "index": 3,
+            "offset": 18172,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 18200,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "180041288a67a2d779ba4f4ad2fee2584b369ea348c30bb14cf73ee3c39801a3"
+          }
+        ],
+        "parsedByteLength": 24216,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littleagreebtn/frame-000.png",
+          "sha256": "2bd9cc8f93c75f115b00117c714c99698742a1b820c8ef7f397f75da1c3093e0",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "99a6b83618b833a69e4d30df1524ba8762bbb121515d49821141398f9ae78f14",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littleagreebtn/frame-001.png",
+          "sha256": "c1e728709a3ef19a5c532128626f6bcc2a3283f7c733ddae5b736588d5a1eb39",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "bd9961bd7c0a15848e2351a1a96f9f2c23a49a1b0d1546752f91e69510dcc5cb",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littleagreebtn/frame-002.png",
+          "sha256": "1b78d9ae3a2f9bbc71de235e07f805f81d60f8e5469abe441390a55ed88bc441",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "779f99718cf0a410b896f9087bab03045d1c3554004df60c4e6364a83cbee0e1",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littleagreebtn/frame-003.png",
+          "sha256": "35f166af30efc3251b054645fa15df56f658a4b84f4a45e0224bb22782fae8f2",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "3d79b37ca731fcc26fdaf951ff4309ffa5cdeff5ff453e252eb31020953e48ad",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.C2CInvite.children.confirm",
+          "firstSourceLine": 4496,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/deal/littleagreebtn.img",
+          "literalAssignments": {
+            "rect": [
+              40,
+              60,
+              47,
+              34
+            ],
+            "bkimage": "object/ui/deal/LittleAgreeBtn.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/littlerefusebtn.img",
+      "sourceSha256": "1da143dc3402ffa6c08ea42cb397874fc4c483f39af07b15bc8b36733411f3e1",
+      "compressedSha256": "43a13f75cafcf250817ea59f6dd83bfe1373f5db6c83d23c4099d5410a8fadc7",
+      "packageEntry": {
+        "ordinal": 2784,
+        "indexOffset": 141846,
+        "path": "object\\ui\\deal\\LittleRefuseBtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29380413,
+        "rawByteLength": 24216,
+        "compressedByteLength": 6805
+      },
+      "metadata": {
+        "byteLength": 24216,
+        "sha256": "1da143dc3402ffa6c08ea42cb397874fc4c483f39af07b15bc8b36733411f3e1",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          47,
+          34
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "ca12b4d2eed8a11169550fc6e874bdde068f60f48748264135f97a14835bbd1e"
+          },
+          {
+            "index": 1,
+            "offset": 6084,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 6112,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "0e30db95f07eca89a3b86b63da8dd9dfb20d9ea3b4b956e7a632af364130a3c0"
+          },
+          {
+            "index": 2,
+            "offset": 12128,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 12156,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "5f2cd8e84134118291b42a7cd9f93260b71d45ce2f501bcc7d539830c32a7c17"
+          },
+          {
+            "index": 3,
+            "offset": 18172,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 47,
+            "height": 32,
+            "unknownImageHeaderWord": 192,
+            "empty": false,
+            "pixelDataOffset": 18200,
+            "pixelByteLength": 6016,
+            "encodedPixelSha256": "cfbd3645fa80b6b655e2365e6d4cb7ed1b936dae87376b4687b642ed13562456"
+          }
+        ],
+        "parsedByteLength": 24216,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littlerefusebtn/frame-000.png",
+          "sha256": "0c298bb1dd417dc539d046d609727e72a89546137ce5bbfe94a25e2e967eaaa7",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "7ea649ddd666ac22586550f90556be30bc3a2ada6abe0fe31b2014d9bd1ea094",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littlerefusebtn/frame-001.png",
+          "sha256": "5eddabb732f0838dd64a87e7c2babd367c1c5ad48e538131f417e33c89b61a11",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "5ddb015aea6faf78630239cc0080b6f3fcca1f18570c1b46cd9894f5c0dfe93e",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littlerefusebtn/frame-002.png",
+          "sha256": "238b15435c53fffd1175fb3c81170f0837b151133f9a9cc70b1939cf1ba38f61",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "bec424d5022cf3d662f82b7b151f9794e6922aac208e07f3c31de5904bca1751",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/littlerefusebtn/frame-003.png",
+          "sha256": "b5cab7940b23a173d9f2a311c199561f5d0a21c735a9a0351358ac7af25d6e2e",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            47,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "049fd646279271bea71602b9667c517baf35c9205559e87f6e631f7577f36f78",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.C2CInvite.children.cancel",
+          "firstSourceLine": 4507,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/deal/littlerefusebtn.img",
+          "literalAssignments": {
+            "rect": [
+              110,
+              60,
+              47,
+              34
+            ],
+            "bkimage": "object/ui/deal/LittleRefuseBtn.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/requestdealpanel.img",
+      "sourceSha256": "bea4718927c4e56204ffc39b336b4cc31d8d40c41ee7527ccfad3753d9234562",
+      "compressedSha256": "23793d5e0e9826abe12950827cc05fb0ede35b7c355a86cf96df184427cfb0b1",
+      "packageEntry": {
+        "ordinal": 2789,
+        "indexOffset": 142101,
+        "path": "object\\ui\\deal\\RequestDealPanel.img",
+        "reservedWord": 0,
+        "packageOffset": 29416270,
+        "rawByteLength": 81644,
+        "compressedByteLength": 4852
+      },
+      "metadata": {
+        "byteLength": 81644,
+        "sha256": "bea4718927c4e56204ffc39b336b4cc31d8d40c41ee7527ccfad3753d9234562",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          198,
+          103
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 198,
+            "height": 103,
+            "unknownImageHeaderWord": 792,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 81576,
+            "encodedPixelSha256": "3afef6002cd3a282cf66f17b103c8bc938fe3223325b242c283161d7655599c1"
+          }
+        ],
+        "parsedByteLength": 81644,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/requestdealpanel/frame-000.png",
+          "sha256": "c8fafa31cd05a9ea3a96488b1858ea57b29fdff483c677b64e51d26db7ebaeed",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            198,
+            103
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "248949abfccb22839c01825ae49a9284128af221ecb7066c3de01b8581a3b9b2",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.C2CInvite",
+          "firstSourceLine": 4482,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "nativePath": "object/ui/deal/requestdealpanel.img",
+          "literalAssignments": {
+            "initlayer": 999999,
+            "visible": 0,
+            "rect": [
+              200,
+              300,
+              198,
+              103
+            ],
+            "bkimage": "object/ui/deal/RequestDealPanel.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/bg_pawnshop.img",
+      "sourceSha256": "1c9c1f99fd17ad4182aac6062d26eb4a66682711db36220a9f21ac458b9302a1",
+      "compressedSha256": "45777818daec18d82129d47732a830c655e0f053f2553d184e16d73df7c6f94d",
+      "packageEntry": {
+        "ordinal": 2774,
+        "indexOffset": 141361,
+        "path": "object\\ui\\deal\\bg_pawnshop.img",
+        "reservedWord": 0,
+        "packageOffset": 29205618,
+        "rawByteLength": 1785348,
+        "compressedByteLength": 36787
+      },
+      "metadata": {
+        "byteLength": 1785348,
+        "sha256": "1c9c1f99fd17ad4182aac6062d26eb4a66682711db36220a9f21ac458b9302a1",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          801,
+          562
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              3,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 797,
+            "height": 560,
+            "unknownImageHeaderWord": 3192,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1785280,
+            "encodedPixelSha256": "022d5b41aa681c2c055953bccc37c4af509868ed4cfdc2ed10e43127a9760736"
+          }
+        ],
+        "parsedByteLength": 1785348,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/bg_pawnshop/frame-000.png",
+          "sha256": "e6235712b8efefd07bd3a31a36f74431f05534aa0558f775f4fa561646101ee1",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            797,
+            560
+          ],
+          "frameOffsetRaw": [
+            3,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "ab57fe61228f306f0b6c99480641eb55fd70c67f6c9e3c93083120632da56dfc",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop",
+          "firstSourceLine": 3703,
+          "bytecodeSha256": "17d84a7ff575b685363620a13e8da288e8c196c1bbaa6b1c7921964825a01861",
+          "nativePath": "object/ui/deal/bg_pawnshop.img",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 999999,
+            "rect": [
+              0,
+              40,
+              800,
+              560
+            ],
+            "bkimage": "object/ui/deal/bg_pawnshop.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/cancelbtn.img",
+      "sourceSha256": "eaaf35c9199fb735bbf6a06400ba63dbc1b4e5ad853e362dc8e4d93c72f71bcd",
+      "compressedSha256": "7e0caaa31476cb9f187ef49f96a1446a7d9eea2b783fd8ede294153c8ea18329",
+      "packageEntry": {
+        "ordinal": 2776,
+        "indexOffset": 141458,
+        "path": "object\\ui\\deal\\cancelbtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29319899,
+        "rawByteLength": 35416,
+        "compressedByteLength": 8670
+      },
+      "metadata": {
+        "byteLength": 35416,
+        "sha256": "eaaf35c9199fb735bbf6a06400ba63dbc1b4e5ad853e362dc8e4d93c72f71bcd",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          76,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "66b0b3c8cd8d8a6d80cffd8b9d0aee525b0de3631758fda7cbab084bd1e39fe2"
+          },
+          {
+            "index": 1,
+            "offset": 8884,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 8912,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "52aa770b0c7f82aba2974cfc0965369f470e017be2ac60d4641e625297b08164"
+          },
+          {
+            "index": 2,
+            "offset": 17728,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 17756,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "88f033a9b527bb8d3659ee49de679a7b11dd2bbd93edb7869e0d1ea6565dec05"
+          },
+          {
+            "index": 3,
+            "offset": 26572,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 26600,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "3298ab814b5347c288a2c6b3ff61d3dfd34128934660abd87c37db117d025927"
+          }
+        ],
+        "parsedByteLength": 35416,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelbtn/frame-000.png",
+          "sha256": "0f77eb24ca8c720d64f3c6070c41177e71b361560a4c1798b06adde6b575a43f",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "ce33bd01eda8269e00347ee5c1fb82a11cd339805c8640d8e947bf72f750fb20",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelbtn/frame-001.png",
+          "sha256": "5b542df4fd957bd5183b85abc4bd278df4d889eb019ff70425394fd2a968d105",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "193fd68cd93fa1dee78f83af913f4a6a1d0e86e8e7210cfd0e84befba0fa2754",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelbtn/frame-002.png",
+          "sha256": "96e331d3917d33eefca6af8be9e551e58a041960dcb5ccd0afeb487c13de5b98",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "2154f253b448f729bab2a255842c488587f223e09e571cc5d589e9ec36791c20",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelbtn/frame-003.png",
+          "sha256": "5d3cbe617be6f6b597d5806a69f6364fb5984309daf77f037bd4ea67c6467357",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "53c3dfcdd0466e40e746680277ea1a46d7e57f378ab31750cec24518e03e001e",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/deal/cancelhorizontal.img",
+      "sourceSha256": "6b3fa2772b25d29f96d9dab81dd7de0ffff112ae69a605f4b7f28fa6ae86d02e",
+      "compressedSha256": "c783e1ebff292bc786588b65d793bbd59a0ca932d2ce0b69edfd157d7c7c4aa7",
+      "packageEntry": {
+        "ordinal": 2777,
+        "indexOffset": 141504,
+        "path": "object\\ui\\deal\\cancelhorizontal.img",
+        "reservedWord": 0,
+        "packageOffset": 29328569,
+        "rawByteLength": 17180,
+        "compressedByteLength": 2396
+      },
+      "metadata": {
+        "byteLength": 17180,
+        "sha256": "6b3fa2772b25d29f96d9dab81dd7de0ffff112ae69a605f4b7f28fa6ae86d02e",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          43,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 39,
+            "height": 24,
+            "unknownImageHeaderWord": 160,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3744,
+            "encodedPixelSha256": "469ffc5d59ba645a198cca5ef33fceeaa3fe46278481603f2c280f4da78f74e9"
+          },
+          {
+            "index": 1,
+            "offset": 3812,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 41,
+            "height": 27,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 3840,
+            "pixelByteLength": 4428,
+            "encodedPixelSha256": "2318042c3e2aaf1aceed5e4e36b435b9fc04acd8b547cb3726f80abf421cb5ad"
+          },
+          {
+            "index": 2,
+            "offset": 8268,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 41,
+            "height": 27,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 8296,
+            "pixelByteLength": 4428,
+            "encodedPixelSha256": "068eaab75053233f8e9e2b4a1fdd7105263c2763a9e9a681500b0faac36409b0"
+          },
+          {
+            "index": 3,
+            "offset": 12724,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 41,
+            "height": 27,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 12752,
+            "pixelByteLength": 4428,
+            "encodedPixelSha256": "74f79f2b7f852b18386a39b0b5cd8a608c7aa1f5c0b6229ceb3c5da1960ae6fb"
+          }
+        ],
+        "parsedByteLength": 17180,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelhorizontal/frame-000.png",
+          "sha256": "d8f4eb225804f24608a4ad417a01885c887d5071ddfce0bee27d1dcae279d586",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            39,
+            24
+          ],
+          "frameOffsetRaw": [
+            1,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "26b3789d1f7e4a00464c9333242ce1aedc0e6953be4d3bae89aa1a6ea0ae78b8",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelhorizontal/frame-001.png",
+          "sha256": "16b54fbf1fa23d68a2278c2e8e93babf26c5393756b1d813d22f28d143f75e64",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            41,
+            27
+          ],
+          "frameOffsetRaw": [
+            1,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "9d342d49062a066c06b4cd0483cf231eaef488e3f5a1beb5c92f16a0c97e3e11",
+          "alphaExtrema": [
+            0,
+            240
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelhorizontal/frame-002.png",
+          "sha256": "25690872a79668e3ebbbf21ccd7ecf84b448a76bc23d7a91a8700ef4e95f4810",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            41,
+            27
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "f602ecb939f257b646bd9cf1543d43a7b940b7232455ddc2a17c397ba3ae3c54",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/cancelhorizontal/frame-003.png",
+          "sha256": "0586c4822588f9b3bbcd8eae04c3c49f44254b13547eb4319799021c37362016",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            41,
+            27
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "8554a01b6facfb2b44b63a3b7f63dc6a0a3cf011084589780f66fca211870405",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedItem0.children.cancel",
+          "firstSourceLine": 4358,
+          "bytecodeSha256": "d90a5ea7c69c1b4fbb9441f0887582a43dfbfa4f54a2c4103b91bfa8f23841e9",
+          "nativePath": "object/ui/deal/cancelhorizontal.img",
+          "literalAssignments": {
+            "initlayer": 999999,
+            "rect": [
+              235,
+              4,
+              39,
+              31
+            ],
+            "bkimage": "object/ui/deal/cancelhorizontal.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/commitbtn.img",
+      "sourceSha256": "ce6e2bf686586e5e06e98bde4f3c9ce9d90b091bb97c1fe18ea7e84f1cbc2a9f",
+      "compressedSha256": "0d5bb9daaa488ae5255f71721c0d90b9ecd92cdb511b11783f0d9158ddac169d",
+      "packageEntry": {
+        "ordinal": 2778,
+        "indexOffset": 141557,
+        "path": "object\\ui\\deal\\commitbtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29330965,
+        "rawByteLength": 35416,
+        "compressedByteLength": 8401
+      },
+      "metadata": {
+        "byteLength": 35416,
+        "sha256": "ce6e2bf686586e5e06e98bde4f3c9ce9d90b091bb97c1fe18ea7e84f1cbc2a9f",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          76,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "8413010f0d98c3871996ef60bbe7acc8df77a7a894ad4c105515c3b1b7e1ba0f"
+          },
+          {
+            "index": 1,
+            "offset": 8884,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 8912,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "babaeb81c666be58e53234ca088482c3beaa1ab4c261e200571406f656499a6e"
+          },
+          {
+            "index": 2,
+            "offset": 17728,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 17756,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "a09f8ba6db08041722274426cb36ecdca2435dc595bb2a722187559a37c873bf"
+          },
+          {
+            "index": 3,
+            "offset": 26572,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 26600,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "54dbd947aeac2a6c5bbb4ab44211ec1fa007beb5ab702bdbb279845e14d07222"
+          }
+        ],
+        "parsedByteLength": 35416,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/commitbtn/frame-000.png",
+          "sha256": "f3049ed6806ed8d9f6ebf44ca9db69ddb135f846d2d0b528a8f7d4749af36975",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "c58f7a74ba3aa6202a980be6dbf8e0c745ddc1d2a87aeec22c1443e60c1625d2",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/commitbtn/frame-001.png",
+          "sha256": "3b6da4050f1e929f08b0745d41ee425a80aec7c883dd9dc1b55235aedb3bff5e",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "dd00b5c343f85d6d7e96771010c618d25be55fa1f4c66d57cb1cb98dc1f022cc",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/commitbtn/frame-002.png",
+          "sha256": "0a88f9424c510b6f4a42941b5aff80d30b429bf1d2346fa121670319a7fc857c",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "95336100555b27a21a33d8f857180ae4f9f4697d10ba528ba18e2a72bd8fc480",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/commitbtn/frame-003.png",
+          "sha256": "19fad23080ce37c0875bae4ad4ddfc5a7bc5b9069626bb07bfd5b7fa0e710d80",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "720a750792b6f810b92735f0e9cb7c60cf57b347b58361514f3f7ec582637a77",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.Commit",
+          "firstSourceLine": 4088,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/deal/commitbtn.img",
+          "literalAssignments": {
+            "rect": [
+              387,
+              38,
+              76,
+              31
+            ],
+            "bkimage": "object/ui/deal/commitbtn.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/commiteditem.img",
+      "sourceSha256": "417f3f836d159cb1b400d38c8c485523dd9310eee93dfc43f1f0564efc33be15",
+      "compressedSha256": "b7bb9b349490e0bc2162075a5bcd4e994ff4a007d18b1431ca8dde22e7433a97",
+      "packageEntry": {
+        "ordinal": 2779,
+        "indexOffset": 141603,
+        "path": "object\\ui\\deal\\commiteditem.img",
+        "reservedWord": 0,
+        "packageOffset": 29339366,
+        "rawByteLength": 38012,
+        "compressedByteLength": 1143
+      },
+      "metadata": {
+        "byteLength": 38012,
+        "sha256": "417f3f836d159cb1b400d38c8c485523dd9310eee93dfc43f1f0564efc33be15",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          282,
+          37
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 279,
+            "height": 34,
+            "unknownImageHeaderWord": 1120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 37944,
+            "encodedPixelSha256": "3fea6ee5ce35ea8db17cdf12a3698a024f817274cfd1f7d72f9a18b14996edd7"
+          }
+        ],
+        "parsedByteLength": 38012,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/commiteditem/frame-000.png",
+          "sha256": "b5efa7628ba7bc38e39d08259f976e37e0af74b04c61741e01064681d9694d58",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            279,
+            34
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "3fea6ee5ce35ea8db17cdf12a3698a024f817274cfd1f7d72f9a18b14996edd7",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedItem0",
+          "firstSourceLine": 4324,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "nativePath": "object/ui/deal/commiteditem.img",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 999998,
+            "rect": [
+              21,
+              17,
+              282,
+              32
+            ],
+            "bkimage": "object/ui/deal/commiteditem.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/commitpanel.img",
+      "sourceSha256": "de17a00f6b04e9e67998905573f235f9804d8c976b179698fc7417b89c92541f",
+      "compressedSha256": "2832154f2121686d166d915afd0f4912276f8b68ffefe4116990755a3f03064c",
+      "packageEntry": {
+        "ordinal": 2780,
+        "indexOffset": 141652,
+        "path": "object\\ui\\deal\\commitpanel.img",
+        "reservedWord": 0,
+        "packageOffset": 29340509,
+        "rawByteLength": 690948,
+        "compressedByteLength": 18072
+      },
+      "metadata": {
+        "byteLength": 690948,
+        "sha256": "de17a00f6b04e9e67998905573f235f9804d8c976b179698fc7417b89c92541f",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          346,
+          513
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              3,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 340,
+            "height": 508,
+            "unknownImageHeaderWord": 1360,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 690880,
+            "encodedPixelSha256": "132fab14984d46fb54aad9f42f5f09ddc5d015a099b67e7405c0206b1debfadf"
+          }
+        ],
+        "parsedByteLength": 690948,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/commitpanel/frame-000.png",
+          "sha256": "2f95c49605c4265b050e8412a31a5bd38393ca675984d2cd509df3ba75f208f2",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            340,
+            508
+          ],
+          "frameOffsetRaw": [
+            3,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "b9da3c2f4458119df88dac0397bbbf6c8af5253e164144e1ba8f1950ea7b767d",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel",
+          "firstSourceLine": 4096,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "nativePath": "object/ui/deal/commitpanel.img",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 999999,
+            "rect": [
+              15,
+              45,
+              346,
+              513
+            ],
+            "bkimage": "object/ui/deal/commitpanel.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/confirmbtn.img",
+      "sourceSha256": "0d2c64696e5c5a744f67d96eed8f3d0380666d5b26d63537c0d42a6e8b7bdd4e",
+      "compressedSha256": "6c173f9acf96e8bfc0823b70f8dfcdd7712cc72c2849becffc54cdc9c73e7595",
+      "packageEntry": {
+        "ordinal": 2781,
+        "indexOffset": 141700,
+        "path": "object\\ui\\deal\\confirmbtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29358581,
+        "rawByteLength": 35416,
+        "compressedByteLength": 8779
+      },
+      "metadata": {
+        "byteLength": 35416,
+        "sha256": "0d2c64696e5c5a744f67d96eed8f3d0380666d5b26d63537c0d42a6e8b7bdd4e",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          76,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "fc7619dedc0ace1c36d153b49af4a95b2e01c7627b247493059efbb49d976ec5"
+          },
+          {
+            "index": 1,
+            "offset": 8884,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 8912,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "9f2b4354559c8d213f07e35e523ee6520894f326465608246c4ee46fafafd073"
+          },
+          {
+            "index": 2,
+            "offset": 17728,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 17756,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "76284d2af50d7a2242a3b1026f942e54b1a973b91715333ef0826f5bc738bc98"
+          },
+          {
+            "index": 3,
+            "offset": 26572,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 26600,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "4ccaafd6e9b42783ee6b5457ef4bdea604c4644b0f8156df2932f07e55c888d3"
+          }
+        ],
+        "parsedByteLength": 35416,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/confirmbtn/frame-000.png",
+          "sha256": "6f49692439c674c772a936088a8add2694ada436094b5329446e7298d66c57c2",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "4ae62aae3961b0d65e837fe15e540a4a7dd6345cacd3e20e132c5cf8f004b44e",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/confirmbtn/frame-001.png",
+          "sha256": "a382e9ad99c7cbd776b6dec1ce0d92740098b71e1a7cd5935dfdb60c94bf7573",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "1c007cd619a11c8b69ea6a066c26c7fc8cdaad195950e7d651aac8cfa8b74694",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/confirmbtn/frame-002.png",
+          "sha256": "afa79667127b4481da588706084fe579ff3ff33bf0eebc231a23772b9935686f",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "969e3b4e8e1f5b40f04bf917c73cd17d7efeccbc25a7692afb01b7a0be7c14fc",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/confirmbtn/frame-003.png",
+          "sha256": "1a1cc80632362a6f4bcacb311d0399e5c130fcd46b6328db25fb629acad76eb1",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "29d2ae09a5c01c9fc38fb53106ad9e002494a1702afffc080b18189bb627d344",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/deal/lookuppetbtn.img",
+      "sourceSha256": "cb103071d7f2ceb3d0d4688791031623cfea74ed1315075d1bd27ba5d7a7d83d",
+      "compressedSha256": "2dc14f2408f242da478cf2270b29b87ab6b49b437c527cc1c3ac49c82743862f",
+      "packageEntry": {
+        "ordinal": 2785,
+        "indexOffset": 141898,
+        "path": "object\\ui\\deal\\lookuppetBtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29387218,
+        "rawByteLength": 3620,
+        "compressedByteLength": 1082
+      },
+      "metadata": {
+        "byteLength": 3620,
+        "sha256": "cb103071d7f2ceb3d0d4688791031623cfea74ed1315075d1bd27ba5d7a7d83d",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          19,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 17,
+            "height": 17,
+            "unknownImageHeaderWord": 40,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 867,
+            "encodedPixelSha256": "a9fe2e4f54b3ab6d1f60c6f2544e3d3392f2fa89495bf9b6e168c508afab36db"
+          },
+          {
+            "index": 1,
+            "offset": 935,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 17,
+            "height": 17,
+            "unknownImageHeaderWord": 40,
+            "empty": false,
+            "pixelDataOffset": 963,
+            "pixelByteLength": 867,
+            "encodedPixelSha256": "1937edd5e7b04761aeede42ae0daab61d65315737b246c1c2e78da7ffeb7abd4"
+          },
+          {
+            "index": 2,
+            "offset": 1830,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 17,
+            "height": 17,
+            "unknownImageHeaderWord": 40,
+            "empty": false,
+            "pixelDataOffset": 1858,
+            "pixelByteLength": 867,
+            "encodedPixelSha256": "40f827fc0f56519dd78ea29438bd0316e2c8ee992d2b85c9d33f371555dfc2fd"
+          },
+          {
+            "index": 3,
+            "offset": 2725,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 17,
+            "height": 17,
+            "unknownImageHeaderWord": 40,
+            "empty": false,
+            "pixelDataOffset": 2753,
+            "pixelByteLength": 867,
+            "encodedPixelSha256": "5a9980fe1d5f339085d3d170e84c44868be0b082c647cfe0e6167ca0e0122ec4"
+          }
+        ],
+        "parsedByteLength": 3620,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/lookuppetbtn/frame-000.png",
+          "sha256": "c98e0b563271eb8ff8644b35386c86b0e5ad211fe3d8b88621ed709b35e074c8",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            17,
+            17
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "aae6d4ddf0b0b35efef7488b1a07c1d5c81962428465c4f7777038fe956adf4c",
+          "alphaExtrema": [
+            32,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/lookuppetbtn/frame-001.png",
+          "sha256": "4a4cce9475b2f84b4196eaff393eb633cd559fdc6dda3dffce8cc2f4d520237d",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            17,
+            17
+          ],
+          "frameOffsetRaw": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "4fe0d71ba7124ae221624472842b35864e97cca2c6e6117ff4c559a6e769c843",
+          "alphaExtrema": [
+            32,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/lookuppetbtn/frame-002.png",
+          "sha256": "29e2590eec22d03a0e84773a15dd4cdf7faf1486a610689effe25170613a2a63",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            17,
+            17
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "6935d17c29532cbfd81c09ea45e55da12ac11ed564e437e270a29006316f1d0b",
+          "alphaExtrema": [
+            32,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/lookuppetbtn/frame-003.png",
+          "sha256": "bedb490fe9f35b2ad68bdebd431c307b331e563cf0148cda51927cfe6c91e5d3",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            17,
+            17
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "3cdf9c5fc589d5d923fc846117532409d74ef8dede3b2ac0ec51a02273b8a1da",
+          "alphaExtrema": [
+            32,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.ware1.children.PetInfo",
+          "firstSourceLine": 3818,
+          "bytecodeSha256": "df67b9ab4fa23a37abe6ab4fe9e196be95d6f2e5fad79ca77574aef14d5619bc",
+          "nativePath": "object/ui/deal/lookuppetbtn.img",
+          "literalAssignments": {
+            "initlayer": -99,
+            "rect": [
+              139,
+              46,
+              36,
+              36
+            ],
+            "bkimage": "object/ui/deal/lookuppetBtn.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                1,
+                1,
+                2,
+                2,
+                3,
+                3
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.wareScroll.OnPosChange",
+          "firstSourceLine": 3950,
+          "bytecodeSha256": "c0597d5f9fca89ec2625a679955b2958e24b86723a08f5e40effef7c82745338",
+          "nativePath": "object/ui/deal/lookuppetbtn.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/mystoragebtn.img",
+      "sourceSha256": "18905285e62e72c2ce02fcd941c637e7242f9f1f280869e7a2894f8b39aeba66",
+      "compressedSha256": "56fa05ca5b34420aaba1f07061576e8841ac6bf1b5d05eb7239243e8bfef4242",
+      "packageEntry": {
+        "ordinal": 2786,
+        "indexOffset": 141947,
+        "path": "object\\ui\\deal\\mystoragebtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29388300,
+        "rawByteLength": 35416,
+        "compressedByteLength": 8803
+      },
+      "metadata": {
+        "byteLength": 35416,
+        "sha256": "18905285e62e72c2ce02fcd941c637e7242f9f1f280869e7a2894f8b39aeba66",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          76,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "b1ef29640ab2280d8ea06fd9b6e2ed24487d64d2441e3e25309a9421f24635b1"
+          },
+          {
+            "index": 1,
+            "offset": 8884,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 8912,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "454275b69d72f0c540afeba5cb33f5d1f82e3a28f68c4552bcca558f0cccd102"
+          },
+          {
+            "index": 2,
+            "offset": 17728,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 17756,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "81c575513898d4f95778b31baec6e5d0f55e43268ec6f84ad175d1a37ef5b7c6"
+          },
+          {
+            "index": 3,
+            "offset": 26572,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 76,
+            "height": 29,
+            "unknownImageHeaderWord": 304,
+            "empty": false,
+            "pixelDataOffset": 26600,
+            "pixelByteLength": 8816,
+            "encodedPixelSha256": "23016fa581bc0658fcb7da595f39aa2582a38dd10c6a788b542959d239b3cf6e"
+          }
+        ],
+        "parsedByteLength": 35416,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/mystoragebtn/frame-000.png",
+          "sha256": "27723932dbebac908740b87514aa003ad2f050b72db843e9f72e22d3ec334a7e",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "57b5e57932911b9f9f6c674372b76d77c8a0aa47f6a97ace9d122311542e4680",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/mystoragebtn/frame-001.png",
+          "sha256": "10be5646fa463be67b0e5651eda935a001a5b9c4fc695d541f0fe2752431d34a",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "a190cfe8143168859bb67ea9cf09bbce3fa8852adc817de94b26b7872795ffbb",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/mystoragebtn/frame-002.png",
+          "sha256": "8b476f8cba4ef9a43f8714325e326a8e4e45edd18872bccd1522957c90d89ba3",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "e1397dc1b059090c225f5100204f6d1caa0105abec4b5c298a14a53575770bf3",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/mystoragebtn/frame-003.png",
+          "sha256": "2aa9a2fca61404905e66bf8a15f023db9ea4937f5a37d1c01cc68a5dde59fdef",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            76,
+            29
+          ],
+          "frameOffsetRaw": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "e93f6bd50733b850b79edc885ebee0b9038b58e297762aa701d37068674b045c",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.MyStorage",
+          "firstSourceLine": 4078,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/deal/mystoragebtn.img",
+          "literalAssignments": {
+            "rect": [
+              497,
+              38,
+              76,
+              31
+            ],
+            "bkimage": "object/ui/deal/mystoragebtn.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/pawnsettingpanel.img",
+      "sourceSha256": "ccd7f3902139b790d680c4f79cf3812b6083758f6ac6e6166022a8f9c72e9e9d",
+      "compressedSha256": "e8188d9e8f9ad81957b3563abcf6d693121941ca8e461130fb564c53f7ff0089",
+      "packageEntry": {
+        "ordinal": 2788,
+        "indexOffset": 142048,
+        "path": "object\\ui\\deal\\pawnSettingPanel.img",
+        "reservedWord": 0,
+        "packageOffset": 29404152,
+        "rawByteLength": 112844,
+        "compressedByteLength": 12118
+      },
+      "metadata": {
+        "byteLength": 112844,
+        "sha256": "ccd7f3902139b790d680c4f79cf3812b6083758f6ac6e6166022a8f9c72e9e9d",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          226,
+          132
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 222,
+            "height": 127,
+            "unknownImageHeaderWord": 888,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 112776,
+            "encodedPixelSha256": "5e522aa04b48771b281c4a9a6267e8b971370ef800c1f9ea17f6cde968412978"
+          }
+        ],
+        "parsedByteLength": 112844,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/pawnsettingpanel/frame-000.png",
+          "sha256": "f049c7979974013ffcbe2b47704e658b2ada87c2dbc8e39b7ce1f0874d2ca45f",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            222,
+            127
+          ],
+          "frameOffsetRaw": [
+            1,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "e5f188b493b82c79412ae2ca5c3745b37eac73311e14416757164d1c2de9f8f7",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.PawnSettings",
+          "firstSourceLine": 4243,
+          "bytecodeSha256": "3e5a819b2eade97c7d2fbe7593f4098e84b4d2bbca8906cb79032c951a343507",
+          "nativePath": "object/ui/deal/pawnsettingpanel.img",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 999999,
+            "rect": [
+              60,
+              140,
+              226,
+              132
+            ],
+            "bkimage": "object/ui/deal/pawnSettingPanel.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/pawnedcancelbtn.img",
+      "sourceSha256": "f260b69628b6bff123997482e9443d4aac6a3961ce61c9bdad8c8cf4751b71e1",
+      "compressedSha256": "cb1e3731dca54286184b6bbc9e86e93d5bad8d4f69ffb2be0650f946886a2193",
+      "packageEntry": {
+        "ordinal": 2787,
+        "indexOffset": 141996,
+        "path": "object\\ui\\deal\\pawnedcancelBtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29397103,
+        "rawByteLength": 20876,
+        "compressedByteLength": 7049
+      },
+      "metadata": {
+        "byteLength": 20876,
+        "sha256": "f260b69628b6bff123997482e9443d4aac6a3961ce61c9bdad8c8cf4751b71e1",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          33,
+          40
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 33,
+            "height": 40,
+            "unknownImageHeaderWord": 136,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 5280,
+            "encodedPixelSha256": "ba200a77422d928ffd8cd9b1d24f87ff29708c45da6cb70c9f2839e4d21c9230"
+          },
+          {
+            "index": 1,
+            "offset": 5348,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 33,
+            "height": 39,
+            "unknownImageHeaderWord": 136,
+            "empty": false,
+            "pixelDataOffset": 5376,
+            "pixelByteLength": 5148,
+            "encodedPixelSha256": "7a73fdf8211e4b5a407c1188f6500994ce5bf0e28ae665fbc67b2e841e615795"
+          },
+          {
+            "index": 2,
+            "offset": 10524,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 33,
+            "height": 39,
+            "unknownImageHeaderWord": 136,
+            "empty": false,
+            "pixelDataOffset": 10552,
+            "pixelByteLength": 5148,
+            "encodedPixelSha256": "fa21687c84f5f87fd7cc74aa8c37dfbac320cf7925526eebea3fa2aa76bb1208"
+          },
+          {
+            "index": 3,
+            "offset": 15700,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 33,
+            "height": 39,
+            "unknownImageHeaderWord": 136,
+            "empty": false,
+            "pixelDataOffset": 15728,
+            "pixelByteLength": 5148,
+            "encodedPixelSha256": "c2a5ddea965cbb5828feccad601ce15710d907ad6d3a2301c5e6eed71717e7d1"
+          }
+        ],
+        "parsedByteLength": 20876,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/pawnedcancelbtn/frame-000.png",
+          "sha256": "20cd64784758c301088231d500ef9371de0ba7643dbc6f9bee43ed02f58706e5",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            33,
+            40
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "c836f3733e8c18a91767998aa9bd93b029de04ccd0695e36ab6943477567780b",
+          "alphaExtrema": [
+            9,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/pawnedcancelbtn/frame-001.png",
+          "sha256": "f2f2ba070dbe259b6e546a3c9b7788b87ebeb177758147beaa98b23903de4121",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            33,
+            39
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "ca606614222cc8ab2df01973905063b0fcf8f23b709ebd958001c383a4041f43",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/pawnedcancelbtn/frame-002.png",
+          "sha256": "899b714cd7f2cd7924219acf9210dd7f779166ee3a626380803ec3365ac78b30",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            33,
+            39
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "b88ada5a6200134465cebd66fed499ac1df5252bd19eb4b96dfbde69a5816dea",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/pawnedcancelbtn/frame-003.png",
+          "sha256": "629efbf018d5020c72a7eba9f3a03dc98d93a19c1c93eee383d0a9a6af0c760e",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            33,
+            39
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "5cf21943c063daf98d9fdb07981967a5fafd7b490593453c278538c95d857170",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.wareScroll.OnPosChange",
+          "firstSourceLine": 3950,
+          "bytecodeSha256": "c0597d5f9fca89ec2625a679955b2958e24b86723a08f5e40effef7c82745338",
+          "nativePath": "object/ui/deal/pawnedcancelbtn.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/tab_pawned.img",
+      "sourceSha256": "b91d7c35af2611a9912e1feab2ce07e36a23a2b5ca368bbcf8f015b102f04ffa",
+      "compressedSha256": "f359152cb5f576229257484542d2988d7acd6a56436fb72f6ebade7c611ca0d0",
+      "packageEntry": {
+        "ordinal": 2790,
+        "indexOffset": 142154,
+        "path": "object\\ui\\deal\\tab_pawned.img",
+        "reservedWord": 0,
+        "packageOffset": 29421122,
+        "rawByteLength": 20896,
+        "compressedByteLength": 3873
+      },
+      "metadata": {
+        "byteLength": 20896,
+        "sha256": "b91d7c35af2611a9912e1feab2ce07e36a23a2b5ca368bbcf8f015b102f04ffa",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          80,
+          33
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 80,
+            "height": 32,
+            "unknownImageHeaderWord": 320,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 10240,
+            "encodedPixelSha256": "941ebb5e96fb7abfe0afc6e184611eda9d22347f92bd6d31eb7dfed0b7de1e52"
+          },
+          {
+            "index": 1,
+            "offset": 10308,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 80,
+            "height": 33,
+            "unknownImageHeaderWord": 320,
+            "empty": false,
+            "pixelDataOffset": 10336,
+            "pixelByteLength": 10560,
+            "encodedPixelSha256": "a37f0bdf3e7427d42ddb3a40f2dfe7dadcf02f18e17c88fe12850039d7b9a477"
+          }
+        ],
+        "parsedByteLength": 20896,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/tab_pawned/frame-000.png",
+          "sha256": "835c20671198b4183a189a19969a5565c612e8d07cc91bcfffd89984d3c4288e",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            80,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "c89849a2dd354f93e55590962878696046a55c567c9ebf72ec42652e901c323e",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/tab_pawned/frame-001.png",
+          "sha256": "1914ed9ef533ae5ca3b5585fcf97ddae226c0d7fc09c0bf8391724dab4446d35",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            80,
+            33
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "320db758967fed210735c8114c0c9e6ef8c8968387324eec71da76414692dc32",
+          "alphaExtrema": [
+            2,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.pawnedBtn",
+          "firstSourceLine": 4499,
+          "bytecodeSha256": "8004cdf42e9d942b393e3d8f826da3878cae66c67dcf16e1b3e23ffa88b76136",
+          "nativePath": "object/ui/deal/tab_pawned.img",
+          "literalAssignments": {
+            "rect": [
+              0,
+              0,
+              80,
+              33
+            ],
+            "hotrect": [
+              271,
+              513,
+              80,
+              33
+            ],
+            "groupstop": 0,
+            "initlayer": 600010,
+            "hotcover": "object/ui/deal/tab_pawned.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/tab_pawning.img",
+      "sourceSha256": "e12bd446b438635f0185950312e6a1673727455734cfbba645b7069737a41013",
+      "compressedSha256": "e776f4d563ffbf8c3b9b6aa97b101340fc7c080053c80f01b071584fde11609e",
+      "packageEntry": {
+        "ordinal": 2791,
+        "indexOffset": 142201,
+        "path": "object\\ui\\deal\\tab_pawning.img",
+        "reservedWord": 0,
+        "packageOffset": 29424995,
+        "rawByteLength": 20896,
+        "compressedByteLength": 3200
+      },
+      "metadata": {
+        "byteLength": 20896,
+        "sha256": "e12bd446b438635f0185950312e6a1673727455734cfbba645b7069737a41013",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          80,
+          33
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 80,
+            "height": 32,
+            "unknownImageHeaderWord": 320,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 10240,
+            "encodedPixelSha256": "30262835d9fea2aa587e9d211ec40f566f787ad4b54f9f7b4802750fd4a702c4"
+          },
+          {
+            "index": 1,
+            "offset": 10308,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 80,
+            "height": 33,
+            "unknownImageHeaderWord": 320,
+            "empty": false,
+            "pixelDataOffset": 10336,
+            "pixelByteLength": 10560,
+            "encodedPixelSha256": "5155ed1c25463a971a5967e43881b923b9f0232390a3af93747300c75fb60002"
+          }
+        ],
+        "parsedByteLength": 20896,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/tab_pawning/frame-000.png",
+          "sha256": "eb91319cffd0d6480ca63fdb9e5345424daefa7e92e5ff78982554d9eb207250",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            80,
+            32
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "d48aaf9e44bc65e69001c373363649f39d752153a87e8d10d7166d37ad55dc40",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/tab_pawning/frame-001.png",
+          "sha256": "ad0e88f4db0821c074ba890b068d41575587bffa6a2ec6f9c395fcc12813c978",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            80,
+            33
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "41b53476d58d7e541f12ccac95fdfb19b9fbdb967acb7594829e5116a71ee985",
+          "alphaExtrema": [
+            2,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.pawningBtn",
+          "firstSourceLine": 4512,
+          "bytecodeSha256": "79fd96768f2ce81b51a72fa10e0c7913a784884ea09c14a638cc0c4089f8c393",
+          "nativePath": "object/ui/deal/tab_pawning.img",
+          "literalAssignments": {
+            "rect": [
+              0,
+              0,
+              80,
+              33
+            ],
+            "hotrect": [
+              189,
+              513,
+              80,
+              33
+            ],
+            "groupstop": 1,
+            "initlayer": 600010,
+            "hotcover": "object/ui/deal/tab_pawning.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/deal/updatebtn.img",
+      "sourceSha256": "0bb8bcadbab54606fd3f9769c10012c2de3132b67ea0407f0f77941d28c688bd",
+      "compressedSha256": "6aaf6d99722ad3acc864d3915fdee174a99e62e3d9d4fe1026851ce3c6ae3cc6",
+      "packageEntry": {
+        "ordinal": 2792,
+        "indexOffset": 142249,
+        "path": "object\\ui\\deal\\updateBtn.img",
+        "reservedWord": 0,
+        "packageOffset": 29428195,
+        "rawByteLength": 28824,
+        "compressedByteLength": 4268
+      },
+      "metadata": {
+        "byteLength": 28824,
+        "sha256": "0bb8bcadbab54606fd3f9769c10012c2de3132b67ea0407f0f77941d28c688bd",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          58,
+          38
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              4
+            ],
+            "pixelMode": 8,
+            "width": 56,
+            "height": 32,
+            "unknownImageHeaderWord": 224,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 7168,
+            "encodedPixelSha256": "d377636488d86dc0bd382515e999cc643212b5f63bca8673164c19b1be12fec9"
+          },
+          {
+            "index": 1,
+            "offset": 7236,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 56,
+            "height": 32,
+            "unknownImageHeaderWord": 224,
+            "empty": false,
+            "pixelDataOffset": 7264,
+            "pixelByteLength": 7168,
+            "encodedPixelSha256": "a4567d39318d5bbe3affc36543f41d44bf123ac1da7d9a9aa0dd5d344f10dd69"
+          },
+          {
+            "index": 2,
+            "offset": 14432,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 56,
+            "height": 32,
+            "unknownImageHeaderWord": 224,
+            "empty": false,
+            "pixelDataOffset": 14460,
+            "pixelByteLength": 7168,
+            "encodedPixelSha256": "078f02529ca61511f74f4dc6f90d590b1de65ef44c80decd126780cbe5c514fc"
+          },
+          {
+            "index": 3,
+            "offset": 21628,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 56,
+            "height": 32,
+            "unknownImageHeaderWord": 224,
+            "empty": false,
+            "pixelDataOffset": 21656,
+            "pixelByteLength": 7168,
+            "encodedPixelSha256": "ebbe51612173a3d5010ba79d8b817e51084a4060ff18d3cf70e8ebfd09ac3300"
+          }
+        ],
+        "parsedByteLength": 28824,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/updatebtn/frame-000.png",
+          "sha256": "a4234101cdfaafc2a4cf76003e7950e38cf17478a7fafccae5116d854f24d2c1",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            56,
+            32
+          ],
+          "frameOffsetRaw": [
+            1,
+            4
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "c8e601c25fd8cbb24ac2f9caef29a868b0123b2d056b0dfa55a846fec5fe717b",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/updatebtn/frame-001.png",
+          "sha256": "397b74a81c0cd728f95d96820795ab1c260a98cfc724d057a8400ed6cbe6cf8b",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            56,
+            32
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "8880d8c111dd163ba57cffc6b663defc8193e66e712e7360c9643cc66158eda8",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/updatebtn/frame-002.png",
+          "sha256": "3ed17f290aaff6c9995bfd8a4e8ba2cadcf5d7eebd414630ae44b017e78b4797",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            56,
+            32
+          ],
+          "frameOffsetRaw": [
+            1,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "ad80e08191ebd028a3af8b55cd5e7c0e0dc73ccccbd527213763e002a0f606b9",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/frames/deal/updatebtn/frame-003.png",
+          "sha256": "37704410218b02bcce7493b4a5bb8c5b341bf3b8c4227978c9f27628990cbaf6",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            56,
+            32
+          ],
+          "frameOffsetRaw": [
+            1,
+            1
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "1d2cf7c3eb0e5a71d133666de94bfc3f22d219b41e6dbd37aca7119d9d0bc73c",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.updateSearchBtn",
+          "firstSourceLine": 4451,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/deal/updatebtn.img",
+          "literalAssignments": {
+            "rect": [
+              300,
+              38,
+              76,
+              31
+            ],
+            "bkimage": "object/ui/deal/updateBtn.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    }
+  ],
+  "resourceCount": 20,
+  "decodedNonemptyFrameCount": 58,
+  "previews": [
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/source-all-states.png",
+      "sha256": "28d5c6d7466c19c1cd0853288e1ea4c51702970a96028b68a254b5ba0a5e986e"
+    }
+  ],
+  "sourcePixelsOnly": true,
+  "sourceClientMutated": false,
+  "nativeRuntimeVerified": false,
+  "interpretation": "Static literal scope and decoded source pixels. Runtime active flow and button-state semantic ordering require further evidence.",
+  "contrastEvidence": {
+    "file": "assets/native-client-ui/deal-controls-reference/contrast-evidence.json",
+    "sha256": "20801e1fc8748138267eb44a6eb2d72b4a9f230f1823ae87de430b391e4ebb22"
+  },
+  "contrastScript": {
+    "file": "assets/native-client-ui/deal-controls-reference/contrast-evidence.py",
+    "sha256": "06344f1809f00bf14fbadbeb41dfe635c8d36b2c7c0704e4f04b852b279c5259"
+  }
+}

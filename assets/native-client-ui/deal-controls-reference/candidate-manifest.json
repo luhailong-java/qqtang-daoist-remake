@@ -1,0 +1,1028 @@
+{
+  "schemaVersion": 1,
+  "scope": "20 native peer trading and consignment resources, 58 source positions",
+  "sourceReferences": {
+    "file": "assets/native-client-ui/deal-controls-reference/manifest.json",
+    "sha256": "1b293241f2b3aa6430f6cd772dcc8c5c4b40840f7e029499c0ad9d3e7de44c57"
+  },
+  "items": [
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/AgreeBtn.img",
+      "sha256": "2c8bb4d077b9a8685c91a5688259f9dbbe8a94ed62da85283f65a2cf5bc5d50f",
+      "nativePath": "object/ui/deal/AgreeBtn.img",
+      "rendererKind": "deal-button",
+      "caption": "成交",
+      "sourceSha256": "fb6ea31b250763ce4d40f053aa9a5f0d0f022bd581cc25e132a31ba8e0b70616",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__AgreeBtn-00.png",
+          "sha256": "ccd584fdbab7d776eae6375cd1bdbf48ae1d021f95c4213fa975e0469cab2ded",
+          "index": 0,
+          "width": 82,
+          "height": 30,
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__AgreeBtn-01.png",
+          "sha256": "7cad12c351163addf09cf333e66b949ac2f5162c76709d371c07e2648bd5d0b8",
+          "index": 1,
+          "width": 82,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__AgreeBtn-02.png",
+          "sha256": "4e6a42945cd01df460cb8bf949e3b4f37d06cc2dc04ebaaa914b1be7eac9aea6",
+          "index": 2,
+          "width": 82,
+          "height": 32,
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__AgreeBtn-03.png",
+          "sha256": "d3b85f16b1b0d9de3afef21c3a9116841d05acc3da849b0595fecb12c9b21cd8",
+          "index": 3,
+          "width": 82,
+          "height": 30,
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/C2CDealPanel.img",
+      "sha256": "8f057866873abb4c3a75e4e770f268fcf8d08faeb7dfcb38ad7dc8b6269053e5",
+      "nativePath": "object/ui/deal/C2CDealPanel.img",
+      "rendererKind": "deal-exchange-panel",
+      "caption": null,
+      "sourceSha256": "60ac110ef2f7b117aac530690a25759cc1857686bd9769432ca2f7340bf51e7f",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__C2CDealPanel-00.png",
+          "sha256": "2de3144c9fb7b3f9d2a8515b2dee647746db0dcc0b76b5dee399caf6363eebe8",
+          "index": 0,
+          "width": 378,
+          "height": 535,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/DisagreeBtn.img",
+      "sha256": "e8aeb1772398956bfc2ca736d685aa2a57f4f36c0fd9699d1cee74b7bfbfbe5a",
+      "nativePath": "object/ui/deal/DisagreeBtn.img",
+      "rendererKind": "deal-button",
+      "caption": "出价",
+      "sourceSha256": "63c06c62f0aa6026fcf27af7a706b6a8462e455ba137df05d4ad14363a6b90b3",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__DisagreeBtn-00.png",
+          "sha256": "a14a8263415b76d6e262b2317e95e385490008a06d38cd3c0c1735236ef48c61",
+          "index": 0,
+          "width": 82,
+          "height": 30,
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__DisagreeBtn-01.png",
+          "sha256": "dc10c69af99765c5165c1643591949c3471a03787c94ba58dc19347b8c1f9a3c",
+          "index": 1,
+          "width": 82,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__DisagreeBtn-02.png",
+          "sha256": "1360a2e388e2a93e89fb9055b9b5c44d89ef6957725392dbd84f9314fbd37b43",
+          "index": 2,
+          "width": 82,
+          "height": 32,
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__DisagreeBtn-03.png",
+          "sha256": "53e39f235665eb354d8e7a909704076b1470aca0e82f755d73f19fc0ba6c385b",
+          "index": 3,
+          "width": 82,
+          "height": 30,
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/LittleAgreeBtn.img",
+      "sha256": "2f60a22cd7cc5ad4ddc6f1109f433c6300fccd51ff7c3da89075feca7943170a",
+      "nativePath": "object/ui/deal/LittleAgreeBtn.img",
+      "rendererKind": "deal-button",
+      "caption": "同意",
+      "sourceSha256": "f573004a3441e391438429402c0e453fd0deb9009f8d9ab88fc5dcd39c8e6357",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleAgreeBtn-00.png",
+          "sha256": "96d6bb4679b6637702591ca3df0a9599a67ad39a48e9fef15506f1bcc54105e8",
+          "index": 0,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleAgreeBtn-01.png",
+          "sha256": "5c31d27dbbff5a42e60ee52c90a887733883d2fbd19f83b532fbedfe27c5dbdc",
+          "index": 1,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleAgreeBtn-02.png",
+          "sha256": "ad44fc63590c22fc5e9a84eb112925cf95efdab0f42a415d8232c4cc5ad5a66d",
+          "index": 2,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleAgreeBtn-03.png",
+          "sha256": "6558626f2aab653ba4e04811d110a932f4495aea47b88876fc6b855c3e256e6e",
+          "index": 3,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/LittleRefuseBtn.img",
+      "sha256": "1a19452b30a0d6d0fe730607dc5c490d543d9e4f136e2528a73483aa72c853a4",
+      "nativePath": "object/ui/deal/LittleRefuseBtn.img",
+      "rendererKind": "deal-button",
+      "caption": "拒绝",
+      "sourceSha256": "1da143dc3402ffa6c08ea42cb397874fc4c483f39af07b15bc8b36733411f3e1",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleRefuseBtn-00.png",
+          "sha256": "49be5301e851b30d8ab12c33e7a0c7ac89fbb98ba74bad554d3ce8a3712be895",
+          "index": 0,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleRefuseBtn-01.png",
+          "sha256": "5bf15c7fc0fea21409e14b22679daaf1d3c2ab0265670077d3d49a064e0841b5",
+          "index": 1,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleRefuseBtn-02.png",
+          "sha256": "afda0d1e9797b3945acd5dfe5f8b2a35af83f1a41df32706ab9c2ac290733f53",
+          "index": 2,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__LittleRefuseBtn-03.png",
+          "sha256": "0202144602956729db733e3db7dddf42cc3ae983afe4537a47e5c217484ff7fd",
+          "index": 3,
+          "width": 47,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/RequestDealPanel.img",
+      "sha256": "844ed9d8dbb971dbf6686e12c53c684b01e00fab877812ce2f22e33b2ca02492",
+      "nativePath": "object/ui/deal/RequestDealPanel.img",
+      "rendererKind": "deal-invite-panel",
+      "caption": null,
+      "sourceSha256": "bea4718927c4e56204ffc39b336b4cc31d8d40c41ee7527ccfad3753d9234562",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__RequestDealPanel-00.png",
+          "sha256": "9885fcd1e2a8070f1ea13e4f4f6956addee04852ef45cd10f5f192543761fa56",
+          "index": 0,
+          "width": 198,
+          "height": 103,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/bg_pawnshop.img",
+      "sha256": "e408eded4a3a47916a66cd976d7c463870b98460c7f583cdd404ab264820fc3d",
+      "nativePath": "object/ui/deal/bg_pawnshop.img",
+      "rendererKind": "deal-market-panel",
+      "caption": null,
+      "sourceSha256": "1c9c1f99fd17ad4182aac6062d26eb4a66682711db36220a9f21ac458b9302a1",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__bg_pawnshop-00.png",
+          "sha256": "965cd0d2412e9bd2ea7c15863793a79a23f7a31c2efcef09f07b1cf92d2dc7c1",
+          "index": 0,
+          "width": 797,
+          "height": 560,
+          "frameOffset": [
+            3,
+            2
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/cancelbtn.img",
+      "sha256": "4a2f902cfaee94d13f174c917bd69c7818fa608ce2c5c0edcc8fc6adb98e0184",
+      "nativePath": "object/ui/deal/cancelbtn.img",
+      "rendererKind": "deal-button",
+      "caption": "取消修改",
+      "sourceSha256": "eaaf35c9199fb735bbf6a06400ba63dbc1b4e5ad853e362dc8e4d93c72f71bcd",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelbtn-00.png",
+          "sha256": "9ec5dd528b8674466430e4bec783730d456e4c8443f9ed46c1d34c1cc0be319c",
+          "index": 0,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelbtn-01.png",
+          "sha256": "cf9031d4e5f34411ddf4f0174bb6b68050e671db35e27eb7de91316dc32ac733",
+          "index": 1,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelbtn-02.png",
+          "sha256": "63dae4d4118cf38cf3cc9b47cf0a6ea4475e84e6e594fe3f81d0d38d8552fa49",
+          "index": 2,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelbtn-03.png",
+          "sha256": "2281b33fdc8c228f3635c64d4364740766ec6d66708ecbf2acd5d1c72254d6bb",
+          "index": 3,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/cancelhorizontal.img",
+      "sha256": "9d326bab2f67bbb80219e7aaed81e4f95cb441ff4d4a66bf2b5be46bb9f0fa57",
+      "nativePath": "object/ui/deal/cancelhorizontal.img",
+      "rendererKind": "deal-button",
+      "caption": "取消",
+      "sourceSha256": "6b3fa2772b25d29f96d9dab81dd7de0ffff112ae69a605f4b7f28fa6ae86d02e",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelhorizontal-00.png",
+          "sha256": "553b5185bf60d011ea26a1b6f61f88e410bb799b0b51960cfc870eaf7339e0d8",
+          "index": 0,
+          "width": 39,
+          "height": 24,
+          "frameOffset": [
+            1,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelhorizontal-01.png",
+          "sha256": "72eee6addfa1cc9c67077255897988a58e5136e4be4562fc340a2610f700d550",
+          "index": 1,
+          "width": 41,
+          "height": 27,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelhorizontal-02.png",
+          "sha256": "dc9656a19f0137ffd2e55df4be32584e0d1aaa7d56430cf5fb2631b7eee1c88d",
+          "index": 2,
+          "width": 41,
+          "height": 27,
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__cancelhorizontal-03.png",
+          "sha256": "be4d3fbc5688c6bfce377fdc250c90c049d7d447f324618086dd97e6230761a6",
+          "index": 3,
+          "width": 41,
+          "height": 27,
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/commitbtn.img",
+      "sha256": "737926761e7b9eeb543542d3883c6f87fbc6dcbec15299260b5b8e4cd90bdcad",
+      "nativePath": "object/ui/deal/commitbtn.img",
+      "rendererKind": "deal-button",
+      "caption": "我要寄售",
+      "sourceSha256": "ce6e2bf686586e5e06e98bde4f3c9ce9d90b091bb97c1fe18ea7e84f1cbc2a9f",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__commitbtn-00.png",
+          "sha256": "df637ba7e683d92117e257386fb92fe24ca6ed77c7cc7c7b4b8b1c5fc71f5970",
+          "index": 0,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__commitbtn-01.png",
+          "sha256": "55b70de491b22dd007730a2cc96f782e2ffe089947ef7d094e3d462e3f37497c",
+          "index": 1,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__commitbtn-02.png",
+          "sha256": "10b3a9a50dc95965526a284af8a654626e1339e4b1f7bf1a7f2def8b31395bbc",
+          "index": 2,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__commitbtn-03.png",
+          "sha256": "022a9195ced8d76f3538a8797577b7a1f670c563d4212e00915933ba0b994c3b",
+          "index": 3,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/commiteditem.img",
+      "sha256": "4d88cf33c465b9434460767320c6bab8401464a41c2ddc69dd84557c207eae13",
+      "nativePath": "object/ui/deal/commiteditem.img",
+      "rendererKind": "deal-committed-row",
+      "caption": null,
+      "sourceSha256": "417f3f836d159cb1b400d38c8c485523dd9310eee93dfc43f1f0564efc33be15",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__commiteditem-00.png",
+          "sha256": "3f84a2b8fc0f0096d4c48c768fab6c4993bdcbeaab946704049415010ff0ad01",
+          "index": 0,
+          "width": 279,
+          "height": 34,
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/commitpanel.img",
+      "sha256": "3b7b2d3172762e2308a3292419e3dc0a35317a8c6080b84aab496e3167986bc1",
+      "nativePath": "object/ui/deal/commitpanel.img",
+      "rendererKind": "deal-consign-panel",
+      "caption": null,
+      "sourceSha256": "de17a00f6b04e9e67998905573f235f9804d8c976b179698fc7417b89c92541f",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__commitpanel-00.png",
+          "sha256": "e0ced5519f060c411c89fbd0e22fb946ff6338e178e64178e57ab4127ad5b53e",
+          "index": 0,
+          "width": 340,
+          "height": 508,
+          "frameOffset": [
+            3,
+            2
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/confirmbtn.img",
+      "sha256": "4631adaf5e7cdbdaf29f6f80804fc8723f6a2018888c22dd95d3799713fc27bc",
+      "nativePath": "object/ui/deal/confirmbtn.img",
+      "rendererKind": "deal-button",
+      "caption": "确认交易",
+      "sourceSha256": "0d2c64696e5c5a744f67d96eed8f3d0380666d5b26d63537c0d42a6e8b7bdd4e",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__confirmbtn-00.png",
+          "sha256": "4ec369f84cf15b97d36bf51301fa01919f0d1ef6a106862d85c55b550b23327e",
+          "index": 0,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__confirmbtn-01.png",
+          "sha256": "3334a7b9b5f1e621d63c641324e53ce1b1f08d709e2ca9cf350d2cb06c68ad70",
+          "index": 1,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__confirmbtn-02.png",
+          "sha256": "2aeb4399ef97b80e29487e8326bbf8513215a199c45d13ae9579e067695baeff",
+          "index": 2,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__confirmbtn-03.png",
+          "sha256": "2d3bdfb29db505fbe948b24981bbde1c8a230bc0e45b15bea18ff22c79ea7b03",
+          "index": 3,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/lookuppetBtn.img",
+      "sha256": "5c3fd16d8e5ccfb1fa4067ea0e4a84cee273424c0523563c3a5075be65b938c1",
+      "nativePath": "object/ui/deal/lookuppetBtn.img",
+      "rendererKind": "deal-pet-button",
+      "caption": null,
+      "sourceSha256": "cb103071d7f2ceb3d0d4688791031623cfea74ed1315075d1bd27ba5d7a7d83d",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__lookuppetBtn-00.png",
+          "sha256": "7d87f41949f7360213d83d5bcb473f404c0149501e68ddcc8c358153ee3c57d3",
+          "index": 0,
+          "width": 17,
+          "height": 17,
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 3
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__lookuppetBtn-01.png",
+          "sha256": "d4a43d32c041cf8d5c3347d3206a01f471d4bc08b316904e120577fc0585a061",
+          "index": 1,
+          "width": 17,
+          "height": 17,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 3
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__lookuppetBtn-02.png",
+          "sha256": "c48443498a12aed0027bd12302b86fc834e482837decb4693dfd0faaed2ce6bf",
+          "index": 2,
+          "width": 17,
+          "height": 17,
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 3
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__lookuppetBtn-03.png",
+          "sha256": "0a75f4e6a8d9a74d0f53366d012ac8246ea78e1fddc41ac3c07874a262ef98da",
+          "index": 3,
+          "width": 17,
+          "height": 17,
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 3
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/mystoragebtn.img",
+      "sha256": "36b6814817ed9941fb9758c2a1e49e7f3c4e6071f216a443e5b2b05fa163a3c8",
+      "nativePath": "object/ui/deal/mystoragebtn.img",
+      "rendererKind": "deal-button",
+      "caption": "我的背包",
+      "sourceSha256": "18905285e62e72c2ce02fcd941c637e7242f9f1f280869e7a2894f8b39aeba66",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__mystoragebtn-00.png",
+          "sha256": "56d12abc1d9c6358c3fc787d833948cf68344d609905862752ae12ed9c73303b",
+          "index": 0,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__mystoragebtn-01.png",
+          "sha256": "153478af0712d0386470c9145c97b3c7d6ab071084485828838fee0d0f1c3ff9",
+          "index": 1,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__mystoragebtn-02.png",
+          "sha256": "886d25e6faf90e12687047e7e0310b53c21538e27946109be3bc10320e8a6a05",
+          "index": 2,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__mystoragebtn-03.png",
+          "sha256": "31453518a2858da8762b5b4d6304eef82dbd35cbf4b340506d648054f482fac7",
+          "index": 3,
+          "width": 76,
+          "height": 29,
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/pawnSettingPanel.img",
+      "sha256": "1edf2c1dde649f3f3c947b6dc2d1e04e954cebf7e3285f5930768fde61b970e4",
+      "nativePath": "object/ui/deal/pawnSettingPanel.img",
+      "rendererKind": "deal-settings-panel",
+      "caption": null,
+      "sourceSha256": "ccd7f3902139b790d680c4f79cf3812b6083758f6ac6e6166022a8f9c72e9e9d",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__pawnSettingPanel-00.png",
+          "sha256": "d573deb85d4a9b6cf79d005357d792282559ae08fdf0c6b07838cb031d7729db",
+          "index": 0,
+          "width": 222,
+          "height": 127,
+          "frameOffset": [
+            1,
+            2
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/pawnedcancelBtn.img",
+      "sha256": "38c4fd7642c41458ad715007e7c5332f39c558ef7abcd43f8dc722a968741f72",
+      "nativePath": "object/ui/deal/pawnedcancelBtn.img",
+      "rendererKind": "deal-cancel-stack",
+      "caption": "取\n消",
+      "sourceSha256": "f260b69628b6bff123997482e9443d4aac6a3961ce61c9bdad8c8cf4751b71e1",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__pawnedcancelBtn-00.png",
+          "sha256": "5a34ae172865a5ed961e9dcfc6bbdc28e26fc0a3655e64c17763732bdd6873a9",
+          "index": 0,
+          "width": 33,
+          "height": 40,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__pawnedcancelBtn-01.png",
+          "sha256": "beba6147991584971c455da15d09a5c958261e235b8f723f93ffd418fd0430e0",
+          "index": 1,
+          "width": 33,
+          "height": 39,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__pawnedcancelBtn-02.png",
+          "sha256": "2e63a50a4ab9f19b1e4fd410bb14722a1df48669d99459d2f462aed373426fd0",
+          "index": 2,
+          "width": 33,
+          "height": 39,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__pawnedcancelBtn-03.png",
+          "sha256": "fed041db36703b33b45a0c154e1fd1399579e522392b33d9b00b00b501957e9f",
+          "index": 3,
+          "width": 33,
+          "height": 39,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/tab_pawned.img",
+      "sha256": "0bfeace59e93d690b64215e7013a44e4fbddae0f7108d46da8922559311d2728",
+      "nativePath": "object/ui/deal/tab_pawned.img",
+      "rendererKind": "deal-tab",
+      "caption": "已寄售",
+      "sourceSha256": "b91d7c35af2611a9912e1feab2ce07e36a23a2b5ca368bbcf8f015b102f04ffa",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__tab_pawned-00.png",
+          "sha256": "943f0c1fdef96c9361425424336d2b94216f05ab8713a8244212f6fa40720704",
+          "index": 0,
+          "width": 80,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__tab_pawned-01.png",
+          "sha256": "740ea06565219cd4d4980909ec23b5cc460e1b9db5bed39967681e55d272567c",
+          "index": 1,
+          "width": 80,
+          "height": 33,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/tab_pawning.img",
+      "sha256": "ad5cca47e1936b6d7a88deea266ecb9045178eeb3968a0bd75facf108d039f27",
+      "nativePath": "object/ui/deal/tab_pawning.img",
+      "rendererKind": "deal-tab",
+      "caption": "寄售",
+      "sourceSha256": "e12bd446b438635f0185950312e6a1673727455734cfbba645b7069737a41013",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__tab_pawning-00.png",
+          "sha256": "a835449474e6e9efcb7e46c7ac1ce2229bf14de401ccf6ed5cd83c523f5fe62d",
+          "index": 0,
+          "width": 80,
+          "height": 32,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__tab_pawning-01.png",
+          "sha256": "acade2d739fd16ed5ea954d2f47bf6432aacc686a41b40f0f53a9f63bf93a2c3",
+          "index": 1,
+          "width": 80,
+          "height": 33,
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/patch/object/ui/deal/updateBtn.img",
+      "sha256": "91298958ba248c65b6acd5c3af9990271c007c7d7f76d53fd18e6c0b780537a9",
+      "nativePath": "object/ui/deal/updateBtn.img",
+      "rendererKind": "deal-button",
+      "caption": "刷新",
+      "sourceSha256": "0bb8bcadbab54606fd3f9769c10012c2de3132b67ea0407f0f77941d28c688bd",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__updateBtn-00.png",
+          "sha256": "af56e473faee5da9ab85e43d65011880df18d006d2c6465a8ae3a9dfc07b01be",
+          "index": 0,
+          "width": 56,
+          "height": 32,
+          "frameOffset": [
+            1,
+            4
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__updateBtn-01.png",
+          "sha256": "47d135591908fb419804abaeac950ee2e29f7c4c923ee42a03d6de0851b8929b",
+          "index": 1,
+          "width": 56,
+          "height": 32,
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__updateBtn-02.png",
+          "sha256": "727e30ac399d6aeabeb35adb5efcac152f7b30f5fac0fdc197c93c79f1673660",
+          "index": 2,
+          "width": 56,
+          "height": 32,
+          "frameOffset": [
+            1,
+            2
+          ],
+          "pixelMode": 8
+        },
+        {
+          "file": "assets/native-client-ui/deal-controls-reference/decoded/deal__updateBtn-03.png",
+          "sha256": "33a42ddb5b8123fe2fc024b78c37aa27a5ecb01d354b354df606c42472516d5c",
+          "index": 3,
+          "width": 56,
+          "height": 32,
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 8
+        }
+      ],
+      "allNonPixelBytesIdenticalToSource": true,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    }
+  ],
+  "renderer": {
+    "file": "scripts/native-ui-deal-controls-art.py",
+    "sha256": "53bbb272c7328660693eb892d8e124bc8bd603deca20c9d98d4c07b4471d95de"
+  },
+  "exporter": {
+    "file": "assets/native-client-ui/deal-controls-reference/export-deal.py",
+    "sha256": "4c568ac3699b4dc9699ed5003787d5c3cd4321d7dea890dcfe82bcf1f2584d04"
+  },
+  "exportHelpers": {
+    "file": "assets/native-client-ui/common-reference/export-common.py",
+    "sha256": "37c3c84964f407b39858cf648f5def02cde36a0833e60c27af72f0010be7e1b8"
+  },
+  "paintInputs": [
+    {
+      "file": "assets/ui/window-frame.png",
+      "sha256": "49c3320e05c1b6287f3719621ede8a4f186c1cdcdcc5fb9284c7b6362a6e635e"
+    },
+    {
+      "file": "assets/ui/primary-normal.png",
+      "sha256": "2bec2f36e6ffef7c449a6d3310a58986dcaaf14862ce44c6d44318952e7d77c4"
+    },
+    {
+      "file": "assets/ui/primary-hover.png",
+      "sha256": "3adc94f824dda6f831357aa2c102ad4d6e17427dd27a5affd1ac11e2f95ef4ec"
+    },
+    {
+      "file": "assets/ui/primary-pressed.png",
+      "sha256": "14192d0aefd464ce3b403f577eba25f04efa77bbb2d0299fd863d61a9715a446"
+    },
+    {
+      "file": "assets/ui/semantic-extra/pet-card.png",
+      "sha256": "5c4ab9138fba3f669cea53ec1aa744b80ac1051f9653975b90a7844f81100e92"
+    }
+  ],
+  "font": {
+    "family": "Microsoft YaHei",
+    "sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f"
+  },
+  "previews": [
+    {
+      "file": "assets/native-client-ui/deal-controls-reference/candidate-all-states.png",
+      "sha256": "9d8ac6fd578e640a608f4d46e0cefb93ae1e4327459e35d63d8888b27a856b83"
+    }
+  ],
+  "newModelGeneration": false,
+  "visualAccepted": false,
+  "nativeRuntimeVerified": false,
+  "visualMappingAssumptions": [
+    {
+      "nativePaths": [
+        "object/ui/deal/cancelbtn.img",
+        "object/ui/deal/confirmbtn.img"
+      ],
+      "evidence": "Source image captions are legible; exact path binding was not found in the four inspected inert UI modules.",
+      "runtimeBindingVerified": false
+    },
+    {
+      "nativePath": "object/ui/deal/lookuppetBtn.img",
+      "evidence": "Native PetInfo path binding is confirmed; its smile face is replaced by the existing original pet-card paw crop.",
+      "runtimeInteractionVerified": false
+    }
+  ]
+}

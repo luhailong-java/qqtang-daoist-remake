@@ -1,0 +1,3056 @@
+{
+  "schemaVersion": 1,
+  "sourceEvidence": {
+    "file": "assets/native-client-ui/chat-controls-reference/text-color-source-evidence.json",
+    "sha256": "ecb44f25c00af81f5dea099b3cc639eddc752dd807b24e28f514bcc83d9453fc"
+  },
+  "knownDefaults": [
+    {
+      "module": "uiTemplate",
+      "sourceSha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+      "scope": "?.TEdit",
+      "firstLine": 21,
+      "bytecodeSha256": "2ead36156a22425f746a20cc116444484926c4eb70acc29913e46a213c116ea0",
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "edit_normal",
+        "editmethod",
+        "drawcolor",
+        "bkcolor",
+        "focuscolor"
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "18a0c098c7fb0098093fc0fd619c8032ae193215c5f695d7f5eaafa28aa64d70",
+            "text": "EDIT",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 33,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 51,
+          "name": "bkcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 255
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 69,
+          "name": "focuscolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ],
+      "adjacentSymbolicStores": [
+        {
+          "attribute": "__module__",
+          "valueGlobalName": "__name__",
+          "loadByteOffset": 0,
+          "storeByteOffset": 3
+        },
+        {
+          "attribute": "editmethod",
+          "valueGlobalName": "edit_normal",
+          "loadByteOffset": 12,
+          "storeByteOffset": 15
+        }
+      ],
+      "classConstructionInParent": [
+        [
+          {
+            "byteOffset": 110,
+            "opcode": 89,
+            "name": "BUILD_CLASS",
+            "argument": null,
+            "value": null
+          },
+          {
+            "byteOffset": 111,
+            "opcode": 90,
+            "name": "STORE_NAME",
+            "argument": 5,
+            "value": "TDlg"
+          },
+          {
+            "byteOffset": 114,
+            "opcode": 100,
+            "name": "LOAD_CONST",
+            "argument": 12,
+            "value": {
+              "type": "bytes",
+              "length": 5,
+              "sha256": "29263614c78f03cce8c7ba7db1086bfde7ee32ba95473e1c4f454c25837c4543",
+              "text": "TEdit",
+              "textEncodingCandidate": "utf-8"
+            }
+          },
+          {
+            "byteOffset": 117,
+            "opcode": 102,
+            "name": "BUILD_TUPLE",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 120,
+            "opcode": 100,
+            "name": "LOAD_CONST",
+            "argument": 13,
+            "value": {
+              "type": "code-reference",
+              "name": "TEdit",
+              "firstLine": 21
+            }
+          },
+          {
+            "byteOffset": 123,
+            "opcode": 132,
+            "name": "MAKE_FUNCTION",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 126,
+            "opcode": 131,
+            "name": "CALL_FUNCTION",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 129,
+            "opcode": 89,
+            "name": "BUILD_CLASS",
+            "argument": null,
+            "value": null
+          },
+          {
+            "byteOffset": 130,
+            "opcode": 90,
+            "name": "STORE_NAME",
+            "argument": 6,
+            "value": "TEdit"
+          }
+        ]
+      ]
+    },
+    {
+      "module": "uiTemplate",
+      "sourceSha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+      "scope": "?.TLabel",
+      "firstLine": 88,
+      "bytecodeSha256": "6a2306652f59abf579a9beeefd49e4c9860c67a5e6931bc156f542190de2d6e6",
+      "names": [
+        "__name__",
+        "__module__",
+        "type",
+        "textsize",
+        "dt_left",
+        "dt_top",
+        "textstyle",
+        "drawcolor"
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 5,
+            "sha256": "0d6fda019c2504de9240206f3a7936e49a1190354fb65f8e1c171683b476d2cf",
+            "text": "LABEL",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 15,
+          "name": "textsize",
+          "literalValue": {
+            "type": "int",
+            "value": 12
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        },
+        {
+          "storeByteOffset": 43,
+          "name": "drawcolor",
+          "literalValue": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 255
+              }
+            ]
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ],
+      "adjacentSymbolicStores": [
+        {
+          "attribute": "__module__",
+          "valueGlobalName": "__name__",
+          "loadByteOffset": 0,
+          "storeByteOffset": 3
+        }
+      ],
+      "classConstructionInParent": [
+        [
+          {
+            "byteOffset": 284,
+            "opcode": 89,
+            "name": "BUILD_CLASS",
+            "argument": null,
+            "value": null
+          },
+          {
+            "byteOffset": 285,
+            "opcode": 90,
+            "name": "STORE_NAME",
+            "argument": 14,
+            "value": "TKeyEdit"
+          },
+          {
+            "byteOffset": 288,
+            "opcode": 100,
+            "name": "LOAD_CONST",
+            "argument": 30,
+            "value": {
+              "type": "bytes",
+              "length": 6,
+              "sha256": "7258f19deb0ccf0842ae2e973fe8671208fec31e3d381f4f6a07627c02d179d1",
+              "text": "TLabel",
+              "textEncodingCandidate": "utf-8"
+            }
+          },
+          {
+            "byteOffset": 291,
+            "opcode": 102,
+            "name": "BUILD_TUPLE",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 294,
+            "opcode": 100,
+            "name": "LOAD_CONST",
+            "argument": 31,
+            "value": {
+              "type": "code-reference",
+              "name": "TLabel",
+              "firstLine": 88
+            }
+          },
+          {
+            "byteOffset": 297,
+            "opcode": 132,
+            "name": "MAKE_FUNCTION",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 300,
+            "opcode": 131,
+            "name": "CALL_FUNCTION",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 303,
+            "opcode": 89,
+            "name": "BUILD_CLASS",
+            "argument": null,
+            "value": null
+          },
+          {
+            "byteOffset": 304,
+            "opcode": 90,
+            "name": "STORE_NAME",
+            "argument": 15,
+            "value": "TLabel"
+          }
+        ]
+      ]
+    },
+    {
+      "module": "uiTemplate",
+      "sourceSha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+      "scope": "?.TButton",
+      "firstLine": 150,
+      "bytecodeSha256": "38fb6b109ec42dc3a5cfb60a23c932ecbae705807171c1954b6429d9214eb612",
+      "names": [
+        "__name__",
+        "__module__",
+        "type"
+      ],
+      "literalAssignments": [
+        {
+          "storeByteOffset": 9,
+          "name": "type",
+          "literalValue": {
+            "type": "bytes",
+            "length": 6,
+            "sha256": "9e9f23ca031cab55d8f6a736ee0cd6df9d5220abc3e2c85b8235bb50cb1bce33",
+            "text": "BUTTON",
+            "textEncodingCandidate": "utf-8"
+          },
+          "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+        }
+      ],
+      "adjacentSymbolicStores": [
+        {
+          "attribute": "__module__",
+          "valueGlobalName": "__name__",
+          "loadByteOffset": 0,
+          "storeByteOffset": 3
+        }
+      ],
+      "classConstructionInParent": [
+        [
+          {
+            "byteOffset": 518,
+            "opcode": 89,
+            "name": "BUILD_CLASS",
+            "argument": null,
+            "value": null
+          },
+          {
+            "byteOffset": 519,
+            "opcode": 90,
+            "name": "STORE_NAME",
+            "argument": 26,
+            "value": "TPoser"
+          },
+          {
+            "byteOffset": 522,
+            "opcode": 100,
+            "name": "LOAD_CONST",
+            "argument": 54,
+            "value": {
+              "type": "bytes",
+              "length": 7,
+              "sha256": "d5de738a7bbc5d04e900dd279ea1bb710bf180463a38b53d3f8c6bb2f04446d4",
+              "text": "TButton",
+              "textEncodingCandidate": "utf-8"
+            }
+          },
+          {
+            "byteOffset": 525,
+            "opcode": 102,
+            "name": "BUILD_TUPLE",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 528,
+            "opcode": 100,
+            "name": "LOAD_CONST",
+            "argument": 55,
+            "value": {
+              "type": "code-reference",
+              "name": "TButton",
+              "firstLine": 150
+            }
+          },
+          {
+            "byteOffset": 531,
+            "opcode": 132,
+            "name": "MAKE_FUNCTION",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 534,
+            "opcode": 131,
+            "name": "CALL_FUNCTION",
+            "argument": 0,
+            "value": null
+          },
+          {
+            "byteOffset": 537,
+            "opcode": 89,
+            "name": "BUILD_CLASS",
+            "argument": null,
+            "value": null
+          },
+          {
+            "byteOffset": 538,
+            "opcode": 90,
+            "name": "STORE_NAME",
+            "argument": 27,
+            "value": "TButton"
+          }
+        ]
+      ]
+    }
+  ],
+  "lightColorAndMaskColorDefinitionUiMain": {
+    "module": "uiMain",
+    "sourceSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+    "scope": "?",
+    "firstLine": 3,
+    "bytecodeSha256": "854a5252ea30dab6c6457f4a9470e44c1dc9981a0df403d77e42c6ef533957a7",
+    "names": [
+      "uiPlayerInfoDlg",
+      "uiPvpInfoDlg",
+      "uiPveInfoDlg",
+      "uiModeInfoDlg",
+      "uiSetupDlg",
+      "uiGuideBar",
+      "uiSocialityDlg",
+      "uiMenuDlg",
+      "uiPlayerListDlg",
+      "uiKinDlg",
+      "uiKinMemberDlg",
+      "uiKinManagerDlg",
+      "uiKinCreateHintDlg",
+      "uiKinCreateDlg",
+      "uitopKinDlg",
+      "uiKinInfoDlg",
+      "uiKinInviteDlg",
+      "uiKinTipDlg",
+      "uiAddFriendDlg",
+      "uiBeAddedFriendDlg",
+      "uiPlayerMenu",
+      "uiSparkDlg",
+      "uiReceiveSparkDlg",
+      "uiMarriageDlg",
+      "uiDivorceDlg",
+      "uiModifyLoveWordDlg",
+      "uiMarriageConfirmDlg",
+      "uiWeddingOverDlg",
+      "uiWeddingDlg",
+      "uiTaskSelDlg",
+      "uiSetRecorderDlg",
+      "uiSelroomPlayerList",
+      "uiTaskDlg",
+      "uiRefineDlg",
+      "uiForgeDlg",
+      "uiComposeDlg",
+      "uiAvatarForgeDlg",
+      "uiForgeConfirmDlg",
+      "uiRoomStorageDlg",
+      "uiShopStorageDlg",
+      "uiSelModeDlg",
+      "uiModifyRoomDlg",
+      "uiMatchRoomDlg",
+      "uiGamePlayerList",
+      "uiPvePlayerList",
+      "uiPveFuncDlg",
+      "uiPetPan",
+      "uiC2CInviteDlg",
+      "uiC2CDealDlg",
+      "uiPawnShopDlg",
+      "lightColor",
+      "zoneChooseColor",
+      "darkColor",
+      "maskColor",
+      "kinColor",
+      "normalNameColor",
+      "memberNameColor",
+      "broadcastColor",
+      "MyExecFile",
+      "yesMove",
+      "mark_task",
+      "mark_shopPetTab",
+      "joinMemberURL",
+      "exitFlag",
+      "shopEntry",
+      "loginType",
+      "friendUin",
+      "beAddUin",
+      "dealUin",
+      "friendName",
+      "beSparkedUin",
+      "beSparkedNick",
+      "sparkUin",
+      "sparkNick",
+      "weddingModeID",
+      "queryingUin",
+      "beInWeddingRoom",
+      "weddingEffectFile",
+      "priestwords",
+      "beWedding",
+      "practiceMode",
+      "kinMemberCnt",
+      "CurrentPos",
+      "defkinDlgCnt",
+      "ActiveMemberPos",
+      "ShowOnline",
+      "OnlineCnt",
+      "oldTotemEventCnt",
+      "customtotemID",
+      "totemPage",
+      "totemPageNum",
+      "lookupKinID",
+      "totalStorageCnt",
+      "defShopStorageCnt",
+      "shopStoragePos",
+      "defRoomStorageCnt",
+      "roomStoragePos",
+      "defRoomEquipCnt",
+      "curRoomStorageIdx",
+      "curEquipIdx",
+      "curStorageID",
+      "uiStorageIdx",
+      "defMyPropC2CDealDlgCnt",
+      "MyPropC2CDealDlgPos",
+      "curPropC2CDealIdx",
+      "uiPropC2CInx",
+      "curBiddingIdx",
+      "MyBiddingList",
+      "totaldstGoodsListCnt",
+      "C2CDealDstGoodsPos",
+      "ticketitemid",
+      "residualTicket",
+      "bC2CDealShow",
+      "bPawnShopShow",
+      "MyDealStorageListCnt",
+      "totalP2PDealPropCnt",
+      "InvalidIdx",
+      "inviteDealUin",
+      "CHECK_PET",
+      "CHECK_PET_RELATION",
+      "storageList",
+      "g_StorageList",
+      "P2PDealPropList",
+      "g_P2PDealPropList",
+      "dstGoodsList",
+      "g_DstGoodsList",
+      "MyDealStorageList",
+      "g_MyDealStorageList",
+      "os_join",
+      "os_dirname",
+      "LogicalDrives",
+      "dr",
+      "curFile",
+      "go2setup",
+      "NotifyLoginSuccessType",
+      "ShowMemoryStatus",
+      "changeMenuMode",
+      "ReceivedRequestAddFriend",
+      "initAllUse",
+      "ui_OnMsgBoxResult",
+      "Device",
+      "keyLayout",
+      "KeyLayout",
+      "ui_msgBox",
+      "recv_FriendAvt",
+      "TStatic",
+      "TLevelIcon",
+      "TTip",
+      "MemberList",
+      "ui_updateMemberList",
+      "ShowkininviteDlg",
+      "ClearkinInfoDlg",
+      "ShowkinInfoDlg",
+      "settotemPage",
+      "TLabel",
+      "Static",
+      "TTipDown",
+      "InitRecordFileDlg",
+      "updateKinManagerDlg",
+      "C2CInviteNegotiate",
+      "ShowC2CInviteDlg",
+      "UpdateMyPropC2CDealDlg",
+      "ui_UpdateMyBidding",
+      "UpdateMyBiddingList",
+      "ui_UpdateDstBidding",
+      "removeBiddingItem",
+      "ClearMyBiddingList",
+      "InitDstBiddingList",
+      "ShowC2CDealDlg",
+      "UpdateC2CDealDlgAfterBargain",
+      "CloseC2CDealDlg",
+      "UpdateAfterNegotiate",
+      "UpdateStorageinDealDlg",
+      "DealInitialize",
+      "UnInializeDealerException",
+      "CloseC2CDealDlgFromCpp",
+      "DisableEnterRoom",
+      "ReceiveSpark",
+      "ReceiveMarriageConfirm",
+      "ui_UpdateMyMarriageInfo",
+      "ShowMarriageDlg",
+      "SetWeddingStart",
+      "SetWeddingRoom",
+      "ChangeWeddingMode",
+      "MyWeddingOver",
+      "WeddingOver",
+      "PlayerWord",
+      "UpdateLoveword",
+      "RestartWedding",
+      "UpdateWeddingMode",
+      "SetUrlText",
+      "weddingMode",
+      "playerModeDlg",
+      "playerModeImg",
+      "levelNum",
+      "modeNum",
+      "InitPlayerModeInfo",
+      "SetPlayerModeInfo",
+      "UI"
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "broadcastColor",
+        "valueGlobalName": "maskColor",
+        "loadByteOffset": 454,
+        "storeByteOffset": 457
+      }
+    ],
+    "classConstructionInParent": [],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 343,
+        "name": "lightColor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 397,
+        "name": "maskColor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 51
+            },
+            {
+              "type": "int",
+              "value": 51
+            },
+            {
+              "type": "int",
+              "value": 51
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ]
+  },
+  "explicitWhitePassword": {
+    "module": "uiRoom",
+    "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+    "scope": "?.UI_children_room.children.selChatBg.children.chatPwd",
+    "firstLine": 1118,
+    "bytecodeSha256": "9e7dd21308a82893ff0bc45df3a0e9ee86de1e199c351385cd6f41b54cd63a07",
+    "names": [
+      "__name__",
+      "__module__",
+      "initlayer",
+      "visible",
+      "captionrect",
+      "maxchar",
+      "rect",
+      "drawcolor",
+      "textEdgeColor"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 9,
+        "name": "initlayer",
+        "literalValue": {
+          "type": "int",
+          "value": 99999
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 15,
+        "name": "visible",
+        "literalValue": {
+          "type": "int",
+          "value": 1
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 33,
+        "name": "captionrect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 4
+            },
+            {
+              "type": "int",
+              "value": 100
+            },
+            {
+              "type": "int",
+              "value": 12
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 39,
+        "name": "maxchar",
+        "literalValue": {
+          "type": "int",
+          "value": 14
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 57,
+        "name": "rect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 53
+            },
+            {
+              "type": "int",
+              "value": 155
+            },
+            {
+              "type": "int",
+              "value": 100
+            },
+            {
+              "type": "int",
+              "value": 16
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 75,
+        "name": "drawcolor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 93,
+        "name": "textEdgeColor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 91,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 7,
+          "value": "confirmBtn"
+        },
+        {
+          "byteOffset": 94,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 9,
+          "value": {
+            "type": "bytes",
+            "length": 7,
+            "sha256": "ea6c5ea9856b0822ec696dad7d71cf18c0a7cedb81cca5b24bdd69532d67f750",
+            "text": "chatPwd",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 97,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 8,
+          "value": "TEdit"
+        },
+        {
+          "byteOffset": 100,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 103,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 10,
+          "value": {
+            "type": "code-reference",
+            "name": "chatPwd",
+            "firstLine": 1118
+          }
+        },
+        {
+          "byteOffset": 106,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 109,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 112,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 113,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 9,
+          "value": "chatPwd"
+        }
+      ]
+    ]
+  },
+  "explicitWhitePageLabelRoom": {
+    "module": "uiRoom",
+    "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+    "scope": "?.UI_children_room.children.chatArea.children.faceBtn.children.faceDlg.children.pageLab",
+    "firstLine": 2773,
+    "bytecodeSha256": "5dbc28eefa2c9727589327690ae6ca0904ac0dcb691ecc36fb5eefdb841e53a8",
+    "names": [
+      "__name__",
+      "__module__",
+      "rect",
+      "drawcolor",
+      "textEdgeColor"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 43,
+        "name": "drawcolor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 61,
+        "name": "textEdgeColor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 6
+            },
+            {
+              "type": "int",
+              "value": 102
+            },
+            {
+              "type": "int",
+              "value": 231
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 25,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "box"
+        },
+        {
+          "byteOffset": 28,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "bytes",
+            "length": 7,
+            "sha256": "dd62c424aac5f1b618e55e16875a57d11c75c4dc9215017da69078adcbe5a063",
+            "text": "pageLab",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 31,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 4,
+          "value": "TLabel"
+        },
+        {
+          "byteOffset": 34,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 37,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "code-reference",
+            "name": "pageLab",
+            "firstLine": 2773
+          }
+        },
+        {
+          "byteOffset": 40,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 43,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 46,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 47,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "pageLab"
+        }
+      ]
+    ]
+  },
+  "explicitWhitePageLabelLobby": {
+    "module": "uiSelRoom",
+    "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+    "scope": "?.UI_children_selRoom.children.chatArea.children.faceBtn.children.faceDlg.children.pageLab",
+    "firstLine": 3103,
+    "bytecodeSha256": "5dbc28eefa2c9727589327690ae6ca0904ac0dcb691ecc36fb5eefdb841e53a8",
+    "names": [
+      "__name__",
+      "__module__",
+      "rect",
+      "drawcolor",
+      "textEdgeColor"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 43,
+        "name": "drawcolor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 61,
+        "name": "textEdgeColor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 6
+            },
+            {
+              "type": "int",
+              "value": 102
+            },
+            {
+              "type": "int",
+              "value": 231
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 25,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "box"
+        },
+        {
+          "byteOffset": 28,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "bytes",
+            "length": 7,
+            "sha256": "dd62c424aac5f1b618e55e16875a57d11c75c4dc9215017da69078adcbe5a063",
+            "text": "pageLab",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 31,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 4,
+          "value": "TLabel"
+        },
+        {
+          "byteOffset": 34,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 37,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "code-reference",
+            "name": "pageLab",
+            "firstLine": 3103
+          }
+        },
+        {
+          "byteOffset": 40,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 43,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 46,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 47,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "pageLab"
+        }
+      ]
+    ]
+  },
+  "symbolicWhiteEditRoom": {
+    "module": "uiRoom",
+    "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+    "scope": "?.UI_children_room.children.chatArea.children.chatEdit",
+    "firstLine": 2546,
+    "bytecodeSha256": "c399bcb390c0af3426bcdfccc05fbe106ca85cbd85443cab90a1d9e817b0bd44",
+    "names": [
+      "__name__",
+      "__module__",
+      "maxchar",
+      "rect",
+      "captionrect",
+      "lightColor",
+      "drawcolor",
+      "maskColor",
+      "textEdgeColor"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 9,
+        "name": "maxchar",
+        "literalValue": {
+          "type": "int",
+          "value": 200
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 27,
+        "name": "rect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 103
+            },
+            {
+              "type": "int",
+              "value": 95
+            },
+            {
+              "type": "int",
+              "value": 283
+            },
+            {
+              "type": "int",
+              "value": 18
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 45,
+        "name": "captionrect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "value": 3
+            },
+            {
+              "type": "int",
+              "value": 280
+            },
+            {
+              "type": "int",
+              "value": 12
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      },
+      {
+        "attribute": "drawcolor",
+        "valueGlobalName": "lightColor",
+        "loadByteOffset": 48,
+        "storeByteOffset": 51
+      },
+      {
+        "attribute": "textEdgeColor",
+        "valueGlobalName": "maskColor",
+        "loadByteOffset": 54,
+        "storeByteOffset": 57
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 25,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "chatPanel"
+        },
+        {
+          "byteOffset": 28,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "a36d1b2a07d72e4e0ad63c8f36489b59cdde25500594b7ee3dfaa8ab1e73fa02",
+            "text": "chatEdit",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 31,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 4,
+          "value": "TRichEdit"
+        },
+        {
+          "byteOffset": 34,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 37,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "code-reference",
+            "name": "chatEdit",
+            "firstLine": 2546
+          }
+        },
+        {
+          "byteOffset": 40,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 43,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 46,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 47,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "chatEdit"
+        }
+      ]
+    ]
+  },
+  "symbolicWhiteEditLobby": {
+    "module": "uiSelRoom",
+    "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+    "scope": "?.UI_children_selRoom.children.chatArea.children.chatEdit",
+    "firstLine": 2879,
+    "bytecodeSha256": "6d22ddbb8b01764e1ed503d3a43733383f8666d725e638119e3020d64ee61ebb",
+    "names": [
+      "__name__",
+      "__module__",
+      "initlayer",
+      "maxchar",
+      "rect",
+      "lightColor",
+      "drawcolor",
+      "maskColor",
+      "textEdgeColor",
+      "captionrect"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 9,
+        "name": "initlayer",
+        "literalValue": {
+          "type": "int",
+          "value": 550001
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 15,
+        "name": "maxchar",
+        "literalValue": {
+          "type": "int",
+          "value": 200
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 33,
+        "name": "rect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 546
+            },
+            {
+              "type": "int",
+              "value": 500
+            },
+            {
+              "type": "int",
+              "value": 234
+            },
+            {
+              "type": "int",
+              "value": 20
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 63,
+        "name": "captionrect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 4
+            },
+            {
+              "type": "int",
+              "value": 234
+            },
+            {
+              "type": "int",
+              "value": 12
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      },
+      {
+        "attribute": "drawcolor",
+        "valueGlobalName": "lightColor",
+        "loadByteOffset": 36,
+        "storeByteOffset": 39
+      },
+      {
+        "attribute": "textEdgeColor",
+        "valueGlobalName": "maskColor",
+        "loadByteOffset": 42,
+        "storeByteOffset": 45
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 25,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "chatPanel"
+        },
+        {
+          "byteOffset": 28,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "a36d1b2a07d72e4e0ad63c8f36489b59cdde25500594b7ee3dfaa8ab1e73fa02",
+            "text": "chatEdit",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 31,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 4,
+          "value": "TRichEdit"
+        },
+        {
+          "byteOffset": 34,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 37,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "code-reference",
+            "name": "chatEdit",
+            "firstLine": 2879
+          }
+        },
+        {
+          "byteOffset": 40,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 43,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 46,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 47,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 5,
+          "value": "chatEdit"
+        }
+      ]
+    ]
+  },
+  "lobbyChatListExplicitCyan": {
+    "module": "uiSelRoom",
+    "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+    "scope": "?.UI_children_selRoom.children.chatArea.children.chatPanel.children.chatList",
+    "firstLine": 2820,
+    "bytecodeSha256": "ece7ff166bace3931cecbe6993c82decef86a422ff4dad3e33792b2ba4413952",
+    "names": [
+      "__name__",
+      "__module__",
+      "type",
+      "rect",
+      "captionrect",
+      "drawcolor",
+      "rowspace",
+      "textfont",
+      "textEdgeType",
+      "scrollspace",
+      "OnClick",
+      "OnClickName",
+      "OnClickHLink",
+      "OnDBClick",
+      "OnRClickName",
+      "children"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 9,
+        "name": "type",
+        "literalValue": {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "765b7df03e68d28629ad8e4a8cd832e4b51d29e1ea570221d840e68b0ff84f4b",
+          "text": "TEXTLIST",
+          "textEncodingCandidate": "utf-8"
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 27,
+        "name": "rect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 3
+            },
+            {
+              "type": "int",
+              "value": 20
+            },
+            {
+              "type": "int",
+              "value": 320
+            },
+            {
+              "type": "int",
+              "value": 98
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 45,
+        "name": "captionrect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 320
+            },
+            {
+              "type": "int",
+              "value": 98
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 63,
+        "name": "drawcolor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 199
+            },
+            {
+              "type": "int",
+              "value": 242
+            },
+            {
+              "type": "int",
+              "value": 252
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 69,
+        "name": "rowspace",
+        "literalValue": {
+          "type": "int",
+          "value": 6
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 75,
+        "name": "textfont",
+        "literalValue": {
+          "type": "int",
+          "value": 1
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 81,
+        "name": "textEdgeType",
+        "literalValue": {
+          "type": "int",
+          "value": -1
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 87,
+        "name": "scrollspace",
+        "literalValue": {
+          "type": "int",
+          "value": 18
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 112,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 113,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 8,
+          "value": "speaker2"
+        },
+        {
+          "byteOffset": 116,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 11,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "46ab6ec711ed8690274ae0d2bdfcbc62acf7b22909f96b8efc2d257e59be3113",
+            "text": "chatList",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 119,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 122,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 12,
+          "value": {
+            "type": "code-reference",
+            "name": "chatList",
+            "firstLine": 2820
+          }
+        },
+        {
+          "byteOffset": 125,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 128,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 131,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 132,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 9,
+          "value": "chatList"
+        }
+      ]
+    ]
+  },
+  "roomChatListColorNotDeclared": {
+    "module": "uiRoom",
+    "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+    "scope": "?.UI_children_room.children.chatArea.children.chatPanel.children.chatList",
+    "firstLine": 2510,
+    "bytecodeSha256": "b88809aa002fd4d3a9bc1228ac308ba7a07f817b4939748fb7640c48fd275f1d",
+    "names": [
+      "__name__",
+      "__module__",
+      "initlayer",
+      "type",
+      "rect",
+      "captionrect",
+      "rowspace",
+      "textfont",
+      "textEdgeType",
+      "textEdgeColor",
+      "scrollspace",
+      "OnClickName",
+      "OnClickHLink",
+      "OnDBClick",
+      "children"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 9,
+        "name": "initlayer",
+        "literalValue": {
+          "type": "int",
+          "value": -99999
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 15,
+        "name": "type",
+        "literalValue": {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "765b7df03e68d28629ad8e4a8cd832e4b51d29e1ea570221d840e68b0ff84f4b",
+          "text": "TEXTLIST",
+          "textEncodingCandidate": "utf-8"
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 33,
+        "name": "rect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "value": 498
+            },
+            {
+              "type": "int",
+              "value": 89
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 51,
+        "name": "captionrect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 480
+            },
+            {
+              "type": "int",
+              "value": 66
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 57,
+        "name": "rowspace",
+        "literalValue": {
+          "type": "int",
+          "value": 4
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 63,
+        "name": "textfont",
+        "literalValue": {
+          "type": "int",
+          "value": 1
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 69,
+        "name": "textEdgeType",
+        "literalValue": {
+          "type": "int",
+          "value": -1
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 87,
+        "name": "textEdgeColor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 93,
+        "name": "scrollspace",
+        "literalValue": {
+          "type": "int",
+          "value": 18
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 112,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 113,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 8,
+          "value": "flexDownBtn"
+        },
+        {
+          "byteOffset": 116,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 11,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "46ab6ec711ed8690274ae0d2bdfcbc62acf7b22909f96b8efc2d257e59be3113",
+            "text": "chatList",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 119,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 122,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 12,
+          "value": {
+            "type": "code-reference",
+            "name": "chatList",
+            "firstLine": 2510
+          }
+        },
+        {
+          "byteOffset": 125,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 128,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 131,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 132,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 9,
+          "value": "chatList"
+        }
+      ]
+    ]
+  },
+  "commandMenuBaseRoom": {
+    "module": "uiRoom",
+    "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+    "scope": "?.UI_children_room.children.chatArea.children.commandPrompt.children.comDlg.children.profileView",
+    "firstLine": 2602,
+    "bytecodeSha256": "e4f6eb42d56d402e6139ab7452b5c2c968af352afd64ab5ecc9a7d062ee56c69",
+    "names": [
+      "__name__",
+      "__module__",
+      "framescheme",
+      "rect",
+      "bkimage",
+      "dt_center",
+      "bkImgFlag",
+      "caption",
+      "dt_vcenter",
+      "textstyle",
+      "OnClick"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 36,
+        "name": "framescheme",
+        "literalValue": {
+          "type": "list",
+          "values": [
+            {
+              "type": "tuple",
+              "values": [
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                }
+              ]
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 54,
+        "name": "rect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "value": 92
+            },
+            {
+              "type": "int",
+              "value": 16
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 60,
+        "name": "bkimage",
+        "literalValue": {
+          "type": "bytes",
+          "length": 32,
+          "sha256": "ac52e116f33eaaafa4437f44d5b762f72215207d0a43ede84051b0dc828e9d08",
+          "text": "object/ui/chat/img_cmdChoose.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 72,
+        "name": "caption",
+        "literalValue": {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "cb52cf0b82c1189f46e95db881565200fbfc5eac973b9dbf35677a9c480c1fc6",
+          "text": "查看玩家资料",
+          "textEncodingCandidate": "gb18030"
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      },
+      {
+        "attribute": "bkImgFlag",
+        "valueGlobalName": "dt_center",
+        "loadByteOffset": 63,
+        "storeByteOffset": 66
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 3,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 1,
+          "value": "__module__"
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "bytes",
+            "length": 11,
+            "sha256": "db14dfdd4bc0ea05603ad06cd69977bd006c1b6463c4d2ec41853a8fc039c40d",
+            "text": "profileView",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 2,
+          "value": "TButton"
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "code-reference",
+            "name": "profileView",
+            "firstLine": 2602
+          }
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 25,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "profileView"
+        }
+      ]
+    ]
+  },
+  "commandMenuSiblingBaseConstructionRoom": {
+    "module": "uiRoom",
+    "sourceSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+    "scope": "?.UI_children_room.children.chatArea.children.commandPrompt.children.comDlg.children",
+    "firstLine": 2601,
+    "bytecodeSha256": "f6e2ef32ac2961f9d3b9b0bdc4c11677438ad81baf7dcee4bd014f2ebab35342",
+    "names": [
+      "__name__",
+      "__module__",
+      "TButton",
+      "profileView",
+      "enterRoom",
+      "refuseInvite",
+      "unrefuseInvite",
+      "ignoreWisper",
+      "unignoreWisper"
+    ],
+    "literalAssignments": [],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 45,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 48,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 7,
+          "value": "OnSelfHide"
+        },
+        {
+          "byteOffset": 51,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 8,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+            "text": "children",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 54,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 57,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 9,
+          "value": {
+            "type": "code-reference",
+            "name": "children",
+            "firstLine": 2601
+          }
+        },
+        {
+          "byteOffset": 60,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 63,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 66,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 67,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 8,
+          "value": "children"
+        }
+      ]
+    ]
+  },
+  "commandMenuBaseLobby": {
+    "module": "uiSelRoom",
+    "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+    "scope": "?.UI_children_selRoom.children.chatArea.children.commandPrompt.children.comDlg.children.profileView",
+    "firstLine": 2938,
+    "bytecodeSha256": "e4f6eb42d56d402e6139ab7452b5c2c968af352afd64ab5ecc9a7d062ee56c69",
+    "names": [
+      "__name__",
+      "__module__",
+      "framescheme",
+      "rect",
+      "bkimage",
+      "dt_center",
+      "bkImgFlag",
+      "caption",
+      "dt_vcenter",
+      "textstyle",
+      "OnClick"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 36,
+        "name": "framescheme",
+        "literalValue": {
+          "type": "list",
+          "values": [
+            {
+              "type": "tuple",
+              "values": [
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                },
+                {
+                  "type": "int",
+                  "value": -1
+                }
+              ]
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 54,
+        "name": "rect",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "value": 92
+            },
+            {
+              "type": "int",
+              "value": 16
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 60,
+        "name": "bkimage",
+        "literalValue": {
+          "type": "bytes",
+          "length": 32,
+          "sha256": "ac52e116f33eaaafa4437f44d5b762f72215207d0a43ede84051b0dc828e9d08",
+          "text": "object/ui/chat/img_cmdChoose.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 72,
+        "name": "caption",
+        "literalValue": {
+          "type": "bytes",
+          "length": 12,
+          "sha256": "cb52cf0b82c1189f46e95db881565200fbfc5eac973b9dbf35677a9c480c1fc6",
+          "text": "查看玩家资料",
+          "textEncodingCandidate": "gb18030"
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      },
+      {
+        "attribute": "bkImgFlag",
+        "valueGlobalName": "dt_center",
+        "loadByteOffset": 63,
+        "storeByteOffset": 66
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 3,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 1,
+          "value": "__module__"
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "bytes",
+            "length": 11,
+            "sha256": "db14dfdd4bc0ea05603ad06cd69977bd006c1b6463c4d2ec41853a8fc039c40d",
+            "text": "profileView",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 2,
+          "value": "TButton"
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "code-reference",
+            "name": "profileView",
+            "firstLine": 2938
+          }
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 25,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "profileView"
+        }
+      ]
+    ]
+  },
+  "commandMenuSiblingBaseConstructionLobby": {
+    "module": "uiSelRoom",
+    "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+    "scope": "?.UI_children_selRoom.children.chatArea.children.commandPrompt.children.comDlg.children",
+    "firstLine": 2937,
+    "bytecodeSha256": "f6e2ef32ac2961f9d3b9b0bdc4c11677438ad81baf7dcee4bd014f2ebab35342",
+    "names": [
+      "__name__",
+      "__module__",
+      "TButton",
+      "profileView",
+      "enterRoom",
+      "refuseInvite",
+      "unrefuseInvite",
+      "ignoreWisper",
+      "unignoreWisper"
+    ],
+    "literalAssignments": [],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 45,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 48,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 7,
+          "value": "OnSelfHide"
+        },
+        {
+          "byteOffset": 51,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 8,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+            "text": "children",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 54,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 57,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 9,
+          "value": {
+            "type": "code-reference",
+            "name": "children",
+            "firstLine": 2937
+          }
+        },
+        {
+          "byteOffset": 60,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 63,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 66,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 67,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 8,
+          "value": "children"
+        }
+      ]
+    ]
+  },
+  "mapFilterNameExplicitWhite": {
+    "module": "uiSelRoom",
+    "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+    "scope": "?.UI_children_selRoom.children.mapFilterDlg.children.mapMode0.children.name",
+    "firstLine": 3330,
+    "bytecodeSha256": "902c61ddc52de72adfd33d828aefa841853700a681f1726efb3e2abdad24569f",
+    "names": [
+      "__name__",
+      "__module__",
+      "rect",
+      "drawcolor"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 47,
+        "name": "drawcolor",
+        "literalValue": {
+          "type": "tuple",
+          "values": [
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            },
+            {
+              "type": "int",
+              "value": 255
+            }
+          ]
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 28,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 3,
+          "value": {
+            "type": "bytes",
+            "length": 4,
+            "sha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89",
+            "text": "name",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 31,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 4,
+          "value": "TLabel"
+        },
+        {
+          "byteOffset": 34,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 5,
+          "value": "Static"
+        },
+        {
+          "byteOffset": 37,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 2,
+          "value": null
+        },
+        {
+          "byteOffset": 40,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 4,
+          "value": {
+            "type": "code-reference",
+            "name": "name",
+            "firstLine": 3330
+          }
+        },
+        {
+          "byteOffset": 43,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 46,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 49,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 50,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 6,
+          "value": "name"
+        }
+      ]
+    ]
+  },
+  "sharedFacePanelAlsoUsedByKinTotem": {
+    "module": "uiMain",
+    "sourceSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+    "scope": "?.UI.children.socialityDlg.children.kinDlg.children.kinmanagerDlg.children.totemBtn.children.totemDlg",
+    "firstLine": 2719,
+    "bytecodeSha256": "b210efa1d3b8d4a9d9ce3bac8d0251e5c7ab9940d6d1ced570f98b1ba1fd7089",
+    "names": [
+      "__name__",
+      "__module__",
+      "visible",
+      "wgtstyle_popup",
+      "style",
+      "rect",
+      "bkimage",
+      "OnSelfHide",
+      "children"
+    ],
+    "literalAssignments": [
+      {
+        "storeByteOffset": 9,
+        "name": "visible",
+        "literalValue": {
+          "type": "int",
+          "value": 0
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      {
+        "storeByteOffset": 43,
+        "name": "bkimage",
+        "literalValue": {
+          "type": "bytes",
+          "length": 27,
+          "sha256": "cddf36322ee9abc53b2851afef46bf2babe98a320276921b8cb03e25357adf75",
+          "text": "object/ui/chat/dlg_face.img",
+          "textEncodingCandidate": "utf-8"
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      }
+    ],
+    "adjacentSymbolicStores": [
+      {
+        "attribute": "__module__",
+        "valueGlobalName": "__name__",
+        "loadByteOffset": 0,
+        "storeByteOffset": 3
+      },
+      {
+        "attribute": "style",
+        "valueGlobalName": "wgtstyle_popup",
+        "loadByteOffset": 12,
+        "storeByteOffset": 15
+      }
+    ],
+    "classConstructionInParent": [
+      [
+        {
+          "byteOffset": 3,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 1,
+          "value": "__module__"
+        },
+        {
+          "byteOffset": 6,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 1,
+          "value": {
+            "type": "bytes",
+            "length": 8,
+            "sha256": "5d5939f2eda4de2795a657a995e0904664a9f8ad171c3b7f31a9281b0a495ec2",
+            "text": "totemDlg",
+            "textEncodingCandidate": "utf-8"
+          }
+        },
+        {
+          "byteOffset": 9,
+          "opcode": 101,
+          "name": "LOAD_NAME",
+          "argument": 2,
+          "value": "TWidget"
+        },
+        {
+          "byteOffset": 12,
+          "opcode": 102,
+          "name": "BUILD_TUPLE",
+          "argument": 1,
+          "value": null
+        },
+        {
+          "byteOffset": 15,
+          "opcode": 100,
+          "name": "LOAD_CONST",
+          "argument": 2,
+          "value": {
+            "type": "code-reference",
+            "name": "totemDlg",
+            "firstLine": 2719
+          }
+        },
+        {
+          "byteOffset": 18,
+          "opcode": 132,
+          "name": "MAKE_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 21,
+          "opcode": 131,
+          "name": "CALL_FUNCTION",
+          "argument": 0,
+          "value": null
+        },
+        {
+          "byteOffset": 24,
+          "opcode": 89,
+          "name": "BUILD_CLASS",
+          "argument": null,
+          "value": null
+        },
+        {
+          "byteOffset": 25,
+          "opcode": 90,
+          "name": "STORE_NAME",
+          "argument": 3,
+          "value": "totemDlg"
+        }
+      ]
+    ]
+  },
+  "backgroundRules": [
+    {
+      "nativePath": "object/ui/chatRoom/dlg_bgPreview.img",
+      "rule": "Password child explicitly white at53,155,100,16: dark jade well; no baked password/value"
+    },
+    {
+      "nativePath": "object/ui/chat/dlg_face.img",
+      "rule": "Room/lobby page labels explicitly white; keep bottom region dark. Face cell coordinates start8,6 at26x26; preserve grid. Shared kin totem use remains pending runtime review."
+    },
+    {
+      "nativePaths": [
+        "object/ui/chat/img_commandPrompt.img",
+        "object/ui/chat/img_chatMenu.img",
+        "object/ui/chat/img_cmdChoose.img"
+      ],
+      "rule": "Dynamic menu captions not baked. TButton template declares only type, engine caption color unknown. Preserve source dark background polarity. The highlight is also used beneath explicitly white map-filter names."
+    },
+    {
+      "nativePaths": [
+        "object/ui/chatRoom/dlg_chatAreaBig.img",
+        "object/ui/chatRoom/dlg_chatAreaSmall.img"
+      ],
+      "rule": "Retain exact source128 alpha and dark polarity. Messages can receive runtime colors; no all-message contrast acceptance."
+    }
+  ],
+  "unknowns": [
+    "TButton engine default caption color is not declared in the inspected uiTemplate. No TLabel inheritance is inferred.",
+    "TEXTLIST room message colors and per-message updates remain runtime data.",
+    "img_chatMenu has no exact static UI binding in the census; export is a source-path candidate only.",
+    "State ordering reflects observed raw source art, not an executed engine scheme.",
+    "Shared panel use, caption clipping, all interactions and live alpha compositing need original-client review."
+  ],
+  "dynamicCaptionColorPatched": false,
+  "originalPycModified": false,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false
+}

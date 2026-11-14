@@ -23,7 +23,9 @@ core_art = importlib.util.module_from_spec(core_spec)
 core_spec.loader.exec_module(core_art)
 MODULES = {'common': 'native-ui-common-art.py', 'room-controls': 'native-ui-room-controls-art.py',
            'shop-controls': 'native-ui-shop-controls-art.py', 'game-controls':'native-ui-game-controls-art.py',
-           'lobby-controls':'native-ui-lobby-controls-art.py', 'guidebar':'native-ui-guidebar-art.py'}
+           'lobby-controls':'native-ui-lobby-controls-art.py', 'guidebar':'native-ui-guidebar-art.py',
+           'entry-controls':'native-ui-entry-controls-art.py', 'chat-controls':'native-ui-chat-controls-art.py',
+           'deal-controls':'native-ui-deal-controls-art.py', 'storage-task':'native-ui-storage-task-art.py'}
 EXTRA_ART = {}
 for name, filename in MODULES.items():
     module_spec = importlib.util.spec_from_file_location(name.replace('-', '_'), ROOT/'scripts'/filename)
@@ -222,7 +224,8 @@ def main():
                         raise ValueError(f'{name} source hash differs from the native resource')
                     reference.setdefault('additionalStaticReferences', []).append({
                         'group':name, 'manifest':record(extra_reference_paths[name]),
-                        'sourceBindings':extra_reference.get('sourceBindings', extra_reference.get('bindings', []))})
+                        'sourceBindings':extra_reference.get('sourceBindings',
+                            extra_reference.get('bindings', extra_reference.get('exactBindings', [])))})
             for scope in declarations['scopes']:
                 literals = {e['name']:e['literalValue'] for e in scope['literalAssignments']}
                 if any(c.get('type') == 'bytes' and c.get('text') == native_path for c in scope['constants']):

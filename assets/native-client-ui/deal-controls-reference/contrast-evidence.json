@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "scope": "Direct LOAD_NAME / STORE_NAME foreground and edge declarations only",
+  "sourceModules": [
+    {
+      "module": "uiMain",
+      "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+      "parsedObjects": 20766,
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiSelRoom",
+      "sha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+      "parsedObjects": 16037,
+      "bytecodeExecuted": false
+    }
+  ],
+  "parser": {
+    "file": "scripts/read-legacy-ui-constants.py",
+    "sha256": "153e86efe23ddbb5fd4e54796002118f1a25aaad8cd13f97755029910477865e"
+  },
+  "sharedLiteralDefinitionModule": "uiMain",
+  "sharedColorLiterals": {
+    "lightColor": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "zoneChooseColor": [
+      255,
+      250,
+      236,
+      255
+    ],
+    "maskColor": [
+      51,
+      51,
+      51,
+      255
+    ]
+  },
+  "evidence": [
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CInvite.children.name",
+      "bytecodeSha256": "d6255a02c62b7c7dccbc1c55e318da5a62868e37cf248ed8dc7bbf6e273964d5",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "zoneChooseColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            250,
+            236,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          51,
+          20,
+          120,
+          12
+        ]
+      }
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.name",
+      "bytecodeSha256": "f4a7b39d089df90bfb043aefd03ba596ad371ddefa62ac437a8a31cd60896456",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "zoneChooseColor",
+          "loadByteOffset": 32,
+          "storeByteOffset": 35,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            250,
+            236,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 38,
+          "storeByteOffset": 41,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {}
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.dstBill",
+      "bytecodeSha256": "b32e81e79a83bde669c83ff70636a0c0ee4bc4abb618dbb30caad11c9c65f797",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 46,
+          "storeByteOffset": 49,
+          "instructionHex": "6506005a0700",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 52,
+          "storeByteOffset": 55,
+          "instructionHex": "6508005a0900",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "editable": 0,
+        "initlayer": 550001,
+        "maxchar": 9,
+        "captionrect": [
+          2,
+          4,
+          78,
+          16
+        ],
+        "caption": "0.0"
+      }
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.srcBill",
+      "bytecodeSha256": "cb4f9774b9022dd97300733366130540b1d0c1ae677e51739f57941a21a0afa0",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 40,
+          "storeByteOffset": 43,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 46,
+          "storeByteOffset": 49,
+          "instructionHex": "6507005a0800",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "initlayer": 550001,
+        "maxchar": 9,
+        "captionrect": [
+          2,
+          4,
+          78,
+          16
+        ],
+        "caption": "0.0"
+      }
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.residualBill",
+      "bytecodeSha256": "edd7890e9898edc4981a07d4abd32d315f5b84b5a10fcd8064eee8f603fc39ac",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 46,
+          "storeByteOffset": 49,
+          "instructionHex": "6506005a0700",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 52,
+          "storeByteOffset": 55,
+          "instructionHex": "6508005a0900",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "editable": 0,
+        "initlayer": 550001,
+        "maxchar": 12,
+        "captionrect": [
+          2,
+          4,
+          78,
+          16
+        ]
+      }
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.DstBidding0.children.itemNum",
+      "bytecodeSha256": "a57bf79d414d10ed5bfe7393ae92df2a056b35a97ebfd8e808ccb3d397ea966a",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          36,
+          36,
+          24,
+          12
+        ]
+      }
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.Mybidding0.children.itemNum",
+      "bytecodeSha256": "a57bf79d414d10ed5bfe7393ae92df2a056b35a97ebfd8e808ccb3d397ea966a",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          36,
+          36,
+          24,
+          12
+        ]
+      }
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.PropDescription",
+      "bytecodeSha256": "636cd13fe3689ad83a244661c0a702fe30889cb26506d38597cedda4e738051a",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "maskColor",
+          "loadByteOffset": 66,
+          "storeByteOffset": 69,
+          "instructionHex": "6508005a0900",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "type": "DYLABEL",
+        "initlayer": 99999,
+        "rect": [
+          0,
+          0,
+          130,
+          1
+        ],
+        "captionrect": [
+          4,
+          4,
+          120,
+          1
+        ],
+        "bkimage": "object/ui/common/img_tip.img",
+        "textEdgeType": -1
+      }
+    },
+    {
+      "module": "uiMain",
+      "scope": "?.UI.children.C2CDealDlg.children.funcItem0.children.itemNum",
+      "bytecodeSha256": "6faea4724d75672d5283c60a2afe22894bec259ad2a559628b82d93283c97d85",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          30,
+          40,
+          24,
+          12
+        ]
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.storageDescription",
+      "bytecodeSha256": "371f709d84839841aff85a51f06050964aab254be396c8cab888a20832c5834f",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "maskColor",
+          "loadByteOffset": 66,
+          "storeByteOffset": 69,
+          "instructionHex": "6508005a0900",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "type": "DYLABEL",
+        "initlayer": 99999,
+        "rect": [
+          0,
+          0,
+          130,
+          1
+        ],
+        "captionrect": [
+          4,
+          4,
+          120,
+          1
+        ],
+        "bkimage": "object/ui/common/img_tip.img",
+        "textEdgeType": -1
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.funcItem0.children.itemNum",
+      "bytecodeSha256": "6faea4724d75672d5283c60a2afe22894bec259ad2a559628b82d93283c97d85",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          30,
+          40,
+          24,
+          12
+        ]
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.PawnSettings.children.srcBill",
+      "bytecodeSha256": "0da5cdf46a28f18b2ed6a9e5eb77d01d602c026392d32908926bc8a43435dcf2",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 36,
+          "storeByteOffset": 39,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 42,
+          "storeByteOffset": 45,
+          "instructionHex": "6507005a0800",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "initlayer": 999999,
+        "maxchar": 9,
+        "rect": [
+          89,
+          14,
+          77,
+          14
+        ],
+        "captionrect": [
+          0,
+          2,
+          77,
+          14
+        ],
+        "caption": "0.0"
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.PawnSettings.children.SaleNum",
+      "bytecodeSha256": "a2a358a7ae1097c28fe7b9dcafe26c7ef2abef65930d2648f0264b721eecb241",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 36,
+          "storeByteOffset": 39,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 42,
+          "storeByteOffset": 45,
+          "instructionHex": "6507005a0800",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "initlayer": 999999,
+        "maxchar": 4,
+        "rect": [
+          103,
+          39,
+          36,
+          14
+        ],
+        "captionrect": [
+          0,
+          2,
+          36,
+          14
+        ],
+        "caption": "0.0"
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedItem0.children.PropName",
+      "bytecodeSha256": "d9de7c813b4ee2abb2e9f580ea0705a595f4ebd7dfc13e6d548a0078d9ba3f13",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          5,
+          4,
+          90,
+          25
+        ],
+        "textEdgeType": 1,
+        "caption": "abc"
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedItem0.children.PropNum",
+      "bytecodeSha256": "d9de7c813b4ee2abb2e9f580ea0705a595f4ebd7dfc13e6d548a0078d9ba3f13",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          98,
+          4,
+          50,
+          25
+        ],
+        "textEdgeType": 1,
+        "caption": "123"
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedItem0.children.interval",
+      "bytecodeSha256": "d9de7c813b4ee2abb2e9f580ea0705a595f4ebd7dfc13e6d548a0078d9ba3f13",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          150,
+          4,
+          30,
+          25
+        ],
+        "textEdgeType": 1,
+        "caption": "12"
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedItem0.children.price",
+      "bytecodeSha256": "d9de7c813b4ee2abb2e9f580ea0705a595f4ebd7dfc13e6d548a0078d9ba3f13",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 24,
+          "storeByteOffset": 27,
+          "instructionHex": "6503005a0400",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          188,
+          4,
+          51,
+          25
+        ],
+        "textEdgeType": 1,
+        "caption": "5"
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.SearchPropName",
+      "bytecodeSha256": "7a1063b18d5113f59b6be736e3901db937a0ca7ffdbcb20cb523bd29050b0297",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 48,
+          "storeByteOffset": 51,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 54,
+          "storeByteOffset": 57,
+          "instructionHex": "6507005a0800",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "initlayer": 99999,
+        "rect": [
+          98,
+          44,
+          100,
+          18
+        ],
+        "captionrect": [
+          0,
+          5,
+          100,
+          12
+        ],
+        "caption": "",
+        "maxchar": 30
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.Rank",
+      "bytecodeSha256": "8fb6f11369fcb1043c5bf6799b7be204f65c371f85b8d2ac85294a9497abe76e",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 48,
+          "storeByteOffset": 51,
+          "instructionHex": "6505005a0600",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 54,
+          "storeByteOffset": 57,
+          "instructionHex": "6507005a0800",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "initlayer": 99999,
+        "rect": [
+          260,
+          43,
+          24,
+          18
+        ],
+        "captionrect": [
+          -2,
+          7,
+          26,
+          18
+        ],
+        "maxchar": 3
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.residualBill",
+      "bytecodeSha256": "0b85668a395684a32d5e8e3ea91281f968959bf5d1bc8f2736ada2eb3750f66d",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "lightColor",
+          "loadByteOffset": 42,
+          "storeByteOffset": 45,
+          "instructionHex": "6506005a0700",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "attribute": "textEdgeColor",
+          "globalName": "maskColor",
+          "loadByteOffset": 48,
+          "storeByteOffset": 51,
+          "instructionHex": "6508005a0900",
+          "matchingUiMainGlobalLiteral": [
+            51,
+            51,
+            51,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "editable": 0,
+        "initlayer": 550001,
+        "maxchar": 12,
+        "rect": [
+          684,
+          48,
+          81,
+          16
+        ],
+        "captionrect": [
+          2,
+          2,
+          78,
+          16
+        ]
+      }
+    },
+    {
+      "module": "uiSelRoom",
+      "scope": "?.UI_children_selRoom.children.pawnshop.children.buyTipDlg.children.prompt",
+      "bytecodeSha256": "b8b078a3dfe739717623573577e8543557229cf4bf3639c6ee3d173521af714a",
+      "directNameStores": [
+        {
+          "attribute": "drawcolor",
+          "globalName": "zoneChooseColor",
+          "loadByteOffset": 30,
+          "storeByteOffset": 33,
+          "instructionHex": "6504005a0500",
+          "matchingUiMainGlobalLiteral": [
+            255,
+            250,
+            236,
+            255
+          ]
+        }
+      ],
+      "literalAssignments": {
+        "rect": [
+          42,
+          84,
+          280,
+          130
+        ],
+        "textEdgeType": -1
+      }
+    }
+  ],
+  "sourcePathsWithBinding": 18,
+  "sourcePathsWithoutBinding": [
+    "object/ui/deal/cancelbtn.img",
+    "object/ui/deal/confirmbtn.img"
+  ],
+  "candidateLiveFieldBackground": "#254d42",
+  "interpretation": "Direct symbol stores and uiMain color definitions are static evidence. Shared namespace loading, live runtime colors, and unbound cancel/confirm resources remain unverified.",
+  "runtimeVerified": false,
+  "bytecodeExecuted": false
+}

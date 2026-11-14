@@ -169,7 +169,9 @@ def main():
         'acceptanceOutsideThisPathDenominator': [
             {'surface': 'QQTang-Launcher.exe title, labels, icon and other launcher branding', 'status': 'unknown; outside source graphic path census'},
             {'surface': 'Client native system-window title and executable VERSIONINFO/brand strings', 'status': 'unknown; outside source graphic path census'},
-            {'surface': 'PYC literal captions and dynamic native text, including original product/currency labels', 'status': 'pending text audit; image-path replacement does not prove these strings changed'},
+            {'surface': 'PYC literal captions and dynamic native text, including original product/currency labels',
+             'status': '13 source UI constant trees audited; 19 product-name/site occurrences remain for display-use tracing and text work',
+             'evidence': 'docs/native-ui-brand-text-20261114.json'},
             {'surface': 'Native font atlas res/GBK12.bmp and compiled glyph/text rendering', 'status': 'unknown; outside the selected directory census'},
             {'surface': 'Real running page behavior, tooltip placement, state transition, text contrast and original flow', 'status': 'pending runtime and user visual acceptance'},
             {'surface': 'All characters, equipped world frames, maps, monsters, effects and audio', 'status': 'separate full-game scope; inventory UI icons do not establish world-art completion'},
