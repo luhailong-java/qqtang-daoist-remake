@@ -25,7 +25,9 @@ MODULES = {'common': 'native-ui-common-art.py', 'room-controls': 'native-ui-room
            'shop-controls': 'native-ui-shop-controls-art.py', 'game-controls':'native-ui-game-controls-art.py',
            'lobby-controls':'native-ui-lobby-controls-art.py', 'guidebar':'native-ui-guidebar-art.py',
            'entry-controls':'native-ui-entry-controls-art.py', 'chat-controls':'native-ui-chat-controls-art.py',
-           'deal-controls':'native-ui-deal-controls-art.py', 'storage-task':'native-ui-storage-task-art.py'}
+           'deal-controls':'native-ui-deal-controls-art.py', 'storage-task':'native-ui-storage-task-art.py',
+           'forge-controls':'native-ui-forge-controls-art.py', 'pet-controls':'native-ui-pet-controls-art.py',
+           'lobbyextra':'native-ui-lobbyextra-art.py', 'web-controls':'native-ui-web-controls-art.py'}
 EXTRA_ART = {}
 for name, filename in MODULES.items():
     module_spec = importlib.util.spec_from_file_location(name.replace('-', '_'), ROOT/'scripts'/filename)
@@ -247,7 +249,7 @@ def main():
               'staticUiDeclarations': record(declarations_path), 'staticPostLoginReferences': record(postlogin_reference_path),
               'staticCoreReferences': record(core_reference_path),
               'additionalStaticReferences':[record(path) for path in extra_reference_paths.values()], 'items': sources}, check)
-    manifest = {'schemaVersion': 1, 'scope': 'Native QQTang main screens, common controls, room and shop UI',
+    manifest = {'schemaVersion': 1, 'scope': 'Own Daoist chibi UI resources on the pinned QQTang client layout',
                 'sourceContract': record(HERE/'source-contract.json'), 'items': items,
                 'paintInputs': [record(ROOT/path) for path in PAINTS.values()],
                 'rendererSources': [record(ROOT/'scripts'/name) for name in (
@@ -261,8 +263,13 @@ def main():
                     for name,module in EXTRA_ART.items() for purpose,filename in getattr(module,'STRUCTURAL_ALPHA_INPUTS',{}).items()],
                 'visualMappingAssumptions': [{'group':name,'assumptions':module.VISUAL_MAPPING_ASSUMPTIONS}
                     for name,module in EXTRA_ART.items() if getattr(module,'VISUAL_MAPPING_ASSUMPTIONS',None)],
-                'operation': 'Existing original painted UI sliced and text rendered at native control dimensions, then encoded into original DIMG pixel modes.',
-                'newModelGeneration': False, 'visualAccepted': False, 'nativeRuntimeVerified': False}
+                'alphaNormalizations': [{'group':name,'rendererKind':kind,**change}
+                    for name,module in EXTRA_ART.items() for kind,change in getattr(module,'ALPHA_NORMALIZATIONS',{}).items()],
+                'sourceArtworkGeneration': [{'group':name,**record(ROOT/filename)}
+                    for name,module in EXTRA_ART.items() for filename in getattr(module,'ART_GENERATION_RECORDS',[])],
+                'operation': 'Own artwork is composed and text rasterized at native control dimensions, then encoded into original DIMG pixel modes. Upstream model-generated artwork is recorded separately; this native build does not call image models.',
+                'newModelGeneration': False, 'nativeBuildInvokesImageModel':False,
+                'visualAccepted': False, 'nativeRuntimeVerified': False}
     save_json(HERE/'manifest.json', manifest, check)
     print(json.dumps({'nativeResources': len(items), 'sourcePositions': sum(len(e['frames']) for e in items), 'pixelReplay': check}))
 

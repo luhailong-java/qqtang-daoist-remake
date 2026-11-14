@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "checker": {
+    "file": "assets/native-client-ui/pet-controls-reference/check-emotion-edges.py",
+    "sha256": "bea0d04d34880bc6683976275749a503fc42f0a062c73f6fdba80fc233863292"
+  },
+  "criterion": "G>=150 and G-R>80 and G-B>80; counts exclude fully transparent pixels",
+  "visibleAlphaThreshold": 8,
+  "masters": [
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face0-master.png",
+      "sha256": "60416e31649b89856b684175fcb5632c3eb464717ceaf005b8ff31fa69faa06a",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 3380,
+      "saturatedGreenMaxAlpha": 8,
+      "saturatedGreenAlphaAtLeast8Pixels": 1,
+      "saturatedGreenAlphaAtLeast8Coordinates": [
+        {
+          "x": 733,
+          "y": 1047,
+          "rgba": [
+            63,
+            159,
+            63,
+            8
+          ]
+        }
+      ],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face1-master.png",
+      "sha256": "536232eefa3ecee2652821dbd63956b78e88672c1c56d08488ac7dbe28c9dac7",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 4910,
+      "saturatedGreenMaxAlpha": 8,
+      "saturatedGreenAlphaAtLeast8Pixels": 1,
+      "saturatedGreenAlphaAtLeast8Coordinates": [
+        {
+          "x": 167,
+          "y": 740,
+          "rgba": [
+            95,
+            191,
+            95,
+            8
+          ]
+        }
+      ],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face2-master.png",
+      "sha256": "3f6648ab58c8078a5662b2ac35aca40d1c076248be81739c29ceb577dfdbd55b",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 3474,
+      "saturatedGreenMaxAlpha": 6,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face3-master.png",
+      "sha256": "49db58a3271ae53154625ddc9f9efca58f4d20b312b665d54bd6b830d640345a",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 2809,
+      "saturatedGreenMaxAlpha": 7,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face4-master.png",
+      "sha256": "f414b01c5eaecadff3e9c19c218248cc4c4d034864e01234859d16f1a4b060df",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 5225,
+      "saturatedGreenMaxAlpha": 6,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    }
+  ],
+  "nativeDecodedFrames": [
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face0-00.png",
+      "sha256": "9a93dcd824f4ba18cd6f8ed50a75f646ea5a2476a6bdfcee14c1f873384d54bd",
+      "size": [
+        34,
+        33
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face0-01.png",
+      "sha256": "815f8040dcde223321b924d39c842a6eb29f1f67fcc5676ec47bd372558460ec",
+      "size": [
+        34,
+        32
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face1-00.png",
+      "sha256": "cde281beed3be0b81d6bc23f567e836211432133d3d1cdf020ac1da6aa222455",
+      "size": [
+        34,
+        33
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face1-01.png",
+      "sha256": "3255b04ec0d4bdbeccb644a7ceba7780724175aea5389c22405734698d060177",
+      "size": [
+        34,
+        32
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face2-00.png",
+      "sha256": "c0b3fa68dd8c8653bc20ca4f7613598bfa708b3c53173ba8c21c31550b9c94ad",
+      "size": [
+        34,
+        33
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face2-01.png",
+      "sha256": "9c3995c2549795bb18c2b384e2114d88a769f634071cd8f79bf2ae938726d651",
+      "size": [
+        34,
+        33
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face3-00.png",
+      "sha256": "afa2774cbf7db236e67c7dfe50471d104c4f69aba54f9630606aa973b08ec893",
+      "size": [
+        34,
+        33
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face3-01.png",
+      "sha256": "6f50fdde3443442e5079b9e807939991585aab73b1a62fcc1145c2535e5cdffc",
+      "size": [
+        34,
+        32
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face4-00.png",
+      "sha256": "a94dd0027e6c3e360e5eda4851ac8418c515bbeec96729eac7e2449df4824c1b",
+      "size": [
+        34,
+        33
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face4-01.png",
+      "sha256": "3207072d91f38fb23a4d61e25e6c3e572102e4b007fd7554eebd92baae7490ab",
+      "size": [
+        34,
+        32
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "saturatedGreenNonzeroAlphaPixels": 0,
+      "saturatedGreenMaxAlpha": 0,
+      "saturatedGreenAlphaAtLeast8Pixels": 0,
+      "saturatedGreenAlphaAtLeast8Coordinates": [],
+      "saturatedGreenAlphaAtLeast32Pixels": 0
+    }
+  ],
+  "nativeLogicalRegistration": [
+    {
+      "sourceIndex": 0,
+      "logicalCanvas": [
+        34,
+        33
+      ],
+      "commonNativeLogicalBox": [
+        0,
+        1,
+        34,
+        33
+      ],
+      "nativeAlphaEqualAfterRestoringOriginalOffsets": true,
+      "clippedVisiblePixels": 0,
+      "registeredAlphaSha256": "64dfdb9d1685e30d2b375e41b0b66420861197d89baf55df5e0a683c98559301"
+    },
+    {
+      "sourceIndex": 1,
+      "logicalCanvas": [
+        34,
+        33
+      ],
+      "commonNativeLogicalBox": [
+        0,
+        1,
+        34,
+        33
+      ],
+      "nativeAlphaEqualAfterRestoringOriginalOffsets": true,
+      "clippedVisiblePixels": 0,
+      "registeredAlphaSha256": "6376a61ba653105c693028c7d7ac1aaa43693a66166e5ca413a07d7f95ec5cb5"
+    },
+    {
+      "sourceIndex": 2,
+      "logicalCanvas": [
+        34,
+        33
+      ],
+      "commonNativeLogicalBox": [
+        0,
+        0,
+        34,
+        33
+      ],
+      "nativeAlphaEqualAfterRestoringOriginalOffsets": true,
+      "clippedVisiblePixels": 0,
+      "registeredAlphaSha256": "25a92fb7c63b88c094107dfed3298f4bdc7934773b935bad4e35dc266dd56369"
+    },
+    {
+      "sourceIndex": 3,
+      "logicalCanvas": [
+        34,
+        33
+      ],
+      "commonNativeLogicalBox": [
+        0,
+        1,
+        34,
+        33
+      ],
+      "nativeAlphaEqualAfterRestoringOriginalOffsets": true,
+      "clippedVisiblePixels": 0,
+      "registeredAlphaSha256": "1b70f9e168696687ef1737b7424e405d79a4b53dd2ac24323fa579cd3737acfb"
+    },
+    {
+      "sourceIndex": 4,
+      "logicalCanvas": [
+        34,
+        33
+      ],
+      "commonNativeLogicalBox": [
+        0,
+        1,
+        34,
+        33
+      ],
+      "nativeAlphaEqualAfterRestoringOriginalOffsets": true,
+      "clippedVisiblePixels": 0,
+      "registeredAlphaSha256": "1a40724a4005dc4ed7d784d85fb7cd89ca6c4b275d107aee0a30330473a8b1c0"
+    }
+  ],
+  "nativeVisibleSaturatedGreenPixels": 0,
+  "diagnostic": {
+    "file": "assets/native-client-ui/pet-controls-reference/candidate/emotions-edge-diagnostic.png",
+    "sha256": "8e319fc542dbe0f84b18fd9023718ded06e83e1763f6d17b725f8551307f5326"
+  },
+  "diagnosticMethod": "Exact RGBA alpha-composite onto deep jade and ivory, then nearest-neighbor 4x display",
+  "interpretation": "Returned mother images contain low-alpha RGB dust; after visible-bounds packing and native quantization, no native pixel meets the selected visible green-contamination criterion.",
+  "visualAccepted": false,
+  "nativeRuntimeVerified": false
+}

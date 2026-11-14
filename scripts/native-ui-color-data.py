@@ -29,6 +29,7 @@ BACKUP_ROOT = ROOT / '.artifacts/native-client-ui-backup/text-color-v1'
 NATIVE_PATH = 'res/uiRes/uiMain.pyc'
 SOURCE_SHA = '18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411'
 TARGET_SHA = '54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6'
+BRAND_TEXT_SHA = '132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38'
 FILE_BYTES = 301556
 HEADER = bytes.fromhex('3bf20d0a029f924d')
 START, END = 63481, 63485
@@ -155,6 +156,28 @@ def prepare(current):
     return before, after, proof
 
 
+def verify_brand_overlay(current):
+    """Read-only recognition of the exact downstream text-data version."""
+    require(digest(current) == BRAND_TEXT_SHA, 'Unknown brand text overlay')
+    brand = own_module('color_readonly_brand_plan', 'assets/native-client-ui/brand-text-v1/build-plan.py')
+    brand_manifest_path = ROOT / 'assets/native-client-ui/brand-text-v1/manifest.json'
+    brand_manifest = json.loads(brand_manifest_path.read_bytes())
+    for key, relative in (
+            ('builder', 'assets/native-client-ui/brand-text-v1/build-plan.py'),
+            ('inertParser', 'scripts/read-legacy-ui-constants.py'),
+            ('existingColorPatchScript', 'scripts/native-ui-color-data.py'),
+            ('existingColorPatchManifest', 'assets/native-client-ui/text-color-v1/manifest.json'),
+            ('sourceAudit', 'docs/native-ui-brand-text-20261114.json')):
+        require(brand_manifest[key] == brand.record(ROOT / relative), 'Public brand overlay dependency differs')
+    baseline, after, upstream_proof = brand.prepare_module('uiMain', current)
+    item = next(i for i in brand_manifest['items'] if i['module'] == 'uiMain')
+    require(digest(baseline) == TARGET_SHA and after == current and item['proof'] == upstream_proof
+            and item['beforeSha256'] == TARGET_SHA and item['afterSha256'] == BRAND_TEXT_SHA,
+            'Exact upstream brand/color relationship differs')
+    _, _, color_proof = prepare(baseline)
+    return color_proof, upstream_proof, digest(brand_manifest_path.read_bytes())
+
+
 def resolve_client(value):
     requested = Path(value).expanduser().absolute()
     require(not requested.is_symlink() and not (requested.exists() and
@@ -201,10 +224,20 @@ def operate(client_root, action='verify'):
     client = resolve_client(client_root)
     native = io.child(client, NATIVE_PATH)
     initial = native.read_bytes()
+    if digest(initial) == BRAND_TEXT_SHA:
+        require(action == 'verify', 'Restore brand text first with native-ui-brand-data.py --restore before color apply/restore')
+        color_proof, brand_proof, brand_manifest_sha = verify_brand_overlay(initial)
+        return {'clientRootAlias': client_alias(client), 'nativePath': NATIVE_PATH, 'action': action,
+                'state': 'patched-with-brand-text', 'actualUiMainSha256': digest(initial),
+                'colorIntermediateBaselineSha256': TARGET_SHA,
+                'upstreamBrandTextVerified': True, 'brandManifestSha256': brand_manifest_sha,
+                'proof': color_proof, 'upstreamBrandTextProof': brand_proof,
+                'nativeRuntimeVerified': False, 'visualAccepted': False}
     before, after, proof = prepare(initial)
     alias = client_alias(client)
     summary = {'clientRootAlias': alias, 'nativePath': NATIVE_PATH, 'action': action,
                'state': 'original' if initial == before else 'patched',
+               'actualUiMainSha256': digest(initial), 'upstreamBrandTextVerified': False,
                'proof': proof, 'nativeRuntimeVerified': False, 'visualAccepted': False}
     if action == 'verify':
         return summary
@@ -255,6 +288,7 @@ def operate(client_root, action='verify'):
                 require(native.read_bytes() == current, 'Color transaction rollback verification failed')
             raise
         return {**summary, 'state': 'patched' if action == 'apply' else 'original',
+                'actualUiMainSha256': digest(actual),
                 'changed': changed, 'backupVerified': original_file.exists()}
 
 

@@ -112,7 +112,8 @@ def main():
               'sourceContract':record(HERE/'source-contract.json'),'inputManifests':manifests,'groups':groups,
               'items':[items[key] for key in sorted(items)],'nativeResources':len(items),
               'sourcePositions':sum(len(item['frames']) for item in items.values()),
-              'builder':record(Path(__file__).resolve()),'newModelGeneration':False,
+              'builder':record(Path(__file__).resolve()),'newModelGeneration':False,'nativeBuildInvokesImageModel':False,
+              'upstreamArtwork':'Input manifests carry the artwork and generation records; this composer does not generate images.',
               'fullGameArtComplete':False,'visualAccepted':False,'nativeRuntimeVerified':False}
     write_json(HERE/'manifest.json',result,args.check)
     print(json.dumps({'nativeResources':result['nativeResources'],'sourcePositions':result['sourcePositions'],

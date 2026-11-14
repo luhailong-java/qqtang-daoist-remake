@@ -1,0 +1,2780 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only source image and literal UI reference evidence",
+  "source": {
+    "archiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "archiveFile": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "package": {
+      "file": ".artifacts/reference-inputs/object.pkg",
+      "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+    },
+    "index": {
+      "file": ".artifacts/reference-inputs/object.idx",
+      "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+    },
+    "sourceModules": [
+      {
+        "module": "uiMain",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+        "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+        "byteLength": 301556,
+        "parsedObjects": 20766,
+        "scopeCount": 830,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiTemplate",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+        "sha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+        "byteLength": 12924,
+        "parsedObjects": 753,
+        "scopeCount": 34,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiSelRoom",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelRoom.pyc",
+        "sha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+        "byteLength": 298400,
+        "parsedObjects": 16037,
+        "scopeCount": 613,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiRoom",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiRoom.pyc",
+        "sha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+        "byteLength": 214691,
+        "parsedObjects": 12141,
+        "scopeCount": 506,
+        "bytecodeExecuted": false
+      }
+    ],
+    "inventory": {
+      "file": "references/qqtang-ui-data/native-ui-inventory.json",
+      "sha256": "400c1ecf633858276906092c9d340037ebd036957aab0327fea33c5a7f682197"
+    }
+  },
+  "decodeScript": {
+    "file": "assets/native-client-ui/lobbyextra-reference/decode-references.py",
+    "sha256": "0aa9103887a9436784f7cb9e79dd53f7f7bee02243ce66d1ce4c0ff58c11c838"
+  },
+  "resources": [
+    {
+      "nativePath": "object/ui/selroom/btn_commandprompt.img",
+      "sourceSha256": "478bd4a38d0fd9d3c768c60c1358ba45ded43ab503378d32d61f95be60d82f4f",
+      "compressedSha256": "e06e61e8cc271bd16a610c40b88913b059bf8a8288fe19ec6c587d7d9f923289",
+      "packageEntry": {
+        "ordinal": 3267,
+        "indexOffset": 165703,
+        "path": "object\\ui\\selRoom\\btn_commandPrompt.img",
+        "reservedWord": 0,
+        "packageOffset": 33880176,
+        "rawByteLength": 8984,
+        "compressedByteLength": 2378
+      },
+      "metadata": {
+        "byteLength": 8984,
+        "sha256": "478bd4a38d0fd9d3c768c60c1358ba45ded43ab503378d32d61f95be60d82f4f",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          23,
+          24
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 23,
+            "height": 24,
+            "unknownImageHeaderWord": 96,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 2208,
+            "encodedPixelSha256": "52cb256cdeebecb51b5773dd94b4e7272057f1842c87155ba450d07fcbc90fec"
+          },
+          {
+            "index": 1,
+            "offset": 2276,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 23,
+            "height": 24,
+            "unknownImageHeaderWord": 96,
+            "empty": false,
+            "pixelDataOffset": 2304,
+            "pixelByteLength": 2208,
+            "encodedPixelSha256": "18a052c1859007cb7f5e4691f223672bb2e67ff449e2691af1b79bcf9bcd4f90"
+          },
+          {
+            "index": 2,
+            "offset": 4512,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 23,
+            "height": 24,
+            "unknownImageHeaderWord": 96,
+            "empty": false,
+            "pixelDataOffset": 4540,
+            "pixelByteLength": 2208,
+            "encodedPixelSha256": "848e8f26ebdc0df523c8744a9611b9f52539dc8f64a356b84e2c7b6cde54ce6b"
+          },
+          {
+            "index": 3,
+            "offset": 6748,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 23,
+            "height": 24,
+            "unknownImageHeaderWord": 96,
+            "empty": false,
+            "pixelDataOffset": 6776,
+            "pixelByteLength": 2208,
+            "encodedPixelSha256": "3420029f9d4566d7c0ec3341982dc3f34030a7302611ec9d7771ab5a7f99841d"
+          }
+        ],
+        "parsedByteLength": 8984,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_commandprompt/frame-000.png",
+          "sha256": "01277a03d3e95ad798d546b50258fc10587f45e8e98b4d9a4bd50e054817a57d",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            23,
+            24
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "8071a254d414bcc6b0e3bdcdeed13ab58a0b3dbc39c82a67eea97538da4ae5a6",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_commandprompt/frame-001.png",
+          "sha256": "f6355533030a32837c212e424a682cce49af52a650d3e512d46640474e426ce7",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            23,
+            24
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "d05d4540c4b9960feb42134f165a5ae253f215ae374e180a601af3f62ef1a1d6",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_commandprompt/frame-002.png",
+          "sha256": "018e110e6bf2d88dbeca0dfb8b040302df072e699f6eb709addeba0519443f28",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            23,
+            24
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "084af78f25fefdb51333c1f0eaf5fb6f4f47f780189fbe1635c185f77b56a371",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_commandprompt/frame-003.png",
+          "sha256": "06eb22ceb1491058d4a06b4e1299819a2fa80cf8cc5b1c12a705da6e81c64f28",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            23,
+            24
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "081ccb4d649968901e10135a21aabc2279beddc4b5b3a535b38d355c809e9da9",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/selroom/btn_flexdown.img",
+      "sourceSha256": "652ae992633f396e71a80d011fefb7497aaca8ba2257b15442eaaea9c7845ee4",
+      "compressedSha256": "1133497a504bff02e964c91e7e9485de5760494e653784315a9116c06698cab1",
+      "packageEntry": {
+        "ordinal": 3269,
+        "indexOffset": 165814,
+        "path": "object\\ui\\selRoom\\btn_flexDown.img",
+        "reservedWord": 0,
+        "packageOffset": 33890787,
+        "rawByteLength": 4687,
+        "compressedByteLength": 1218
+      },
+      "metadata": {
+        "byteLength": 4687,
+        "sha256": "652ae992633f396e71a80d011fefb7497aaca8ba2257b15442eaaea9c7845ee4",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          39,
+          13
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 39,
+            "height": 13,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1521,
+            "encodedPixelSha256": "eb8a3ac658df9c5a569f8a13c5b6c94d636b2cc4b647ba22ccb692b0e940d18f"
+          },
+          {
+            "index": 1,
+            "offset": 1589,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 39,
+            "height": 13,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 1617,
+            "pixelByteLength": 1521,
+            "encodedPixelSha256": "3f033b151c5e3f8788165b92ef99547a030ff3f8f6fec1e728fe31f9f27089ea"
+          },
+          {
+            "index": 2,
+            "offset": 3138,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 39,
+            "height": 13,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 3166,
+            "pixelByteLength": 1521,
+            "encodedPixelSha256": "3855c9f47f90e37dea23cd3d0d83407561e6b084c4629d97cb53b29e2ecc5252"
+          }
+        ],
+        "parsedByteLength": 4687,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_flexdown/frame-000.png",
+          "sha256": "a396ec53e90543aaa352a5edf8b074f56751f1f84fc2307aaad28f55e3f93c57",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            39,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "d2d32ffa23fe75104e67439ec84c552467a6f735f51b6c44d81ff2a948a32533",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_flexdown/frame-001.png",
+          "sha256": "e9b432625edbb9e48fd1bb4f68276b5b17e853dad2f337878475ff93d80972e7",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            39,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "1294647e5d8328349572c1dadcc33de9f4a11a88419cf2757459f248e81583fd",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_flexdown/frame-002.png",
+          "sha256": "0fb9b6c45adc5ebac0a5ea89941bdaf7545f2f515f65c14f138309c65ef77716",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            39,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "c990e4415b04dea72a00d16be09a3c1bab5a7704ede771695a01b363ec2f81b1",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.chatArea.children.chatPanel.children.flexDownBtn",
+          "firstSourceLine": 2749,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/selroom/btn_flexdown.img",
+          "literalAssignments": {
+            "rect": [
+              132,
+              2,
+              40,
+              13
+            ],
+            "bkimage": "object/ui/selRoom/btn_flexDown.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/btn_flexup.img",
+      "sourceSha256": "2118b666a43050962c1d7209f36c489eecc82bcc6922c09d90dc84dff5595465",
+      "compressedSha256": "bc0c2d2d51117e21e178afb912987e733148f01828ddf81765d4c1978fe52744",
+      "packageEntry": {
+        "ordinal": 3270,
+        "indexOffset": 165866,
+        "path": "object\\ui\\selRoom\\btn_flexUp.img",
+        "reservedWord": 0,
+        "packageOffset": 33892005,
+        "rawByteLength": 4570,
+        "compressedByteLength": 1166
+      },
+      "metadata": {
+        "byteLength": 4570,
+        "sha256": "2118b666a43050962c1d7209f36c489eecc82bcc6922c09d90dc84dff5595465",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          39,
+          13
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 38,
+            "height": 13,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1482,
+            "encodedPixelSha256": "b9c26ec0c1c52eeebadb2c3a2acc963973411821feb491ad42ce479e7539d42e"
+          },
+          {
+            "index": 1,
+            "offset": 1550,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 38,
+            "height": 13,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 1578,
+            "pixelByteLength": 1482,
+            "encodedPixelSha256": "a456492bb3726bf6673e92292484f9ed7011e414ec8251e313b5ff147330d741"
+          },
+          {
+            "index": 2,
+            "offset": 3060,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 38,
+            "height": 13,
+            "unknownImageHeaderWord": 80,
+            "empty": false,
+            "pixelDataOffset": 3088,
+            "pixelByteLength": 1482,
+            "encodedPixelSha256": "e6a32438cfd32a4eae7f80f7e846dde011d4aadbb79bd30a6e998948dd05d6ea"
+          }
+        ],
+        "parsedByteLength": 4570,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_flexup/frame-000.png",
+          "sha256": "6780f5eb47a80d0167b0325f852193c92ea9a40b43c7409623b8ec4fe0f818e1",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            38,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "901a3d100d2e4bd9f0cbae4148fc94b3875bbd2a875ce1c718046b9ec2ba065a",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_flexup/frame-001.png",
+          "sha256": "9b30eb564d8ce69d1d1176afcc215460babb36ecf2d47bb66315ae0264c00d01",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            38,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "5d088249bb4ba48593c3299e4fa55ce811934847d637fa51304f88ef8f74030b",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_flexup/frame-002.png",
+          "sha256": "e082549d01a1c983cb9f97e20f3523646c7061bcc764df1078ea963dee92eb2b",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            38,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "91380abaaa3ceec94dda5b7af92084e2a55b73a51e6e8a6ed21146557b6e45b0",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.chatArea.children.chatPanel.children.flexUpBtn",
+          "firstSourceLine": 2742,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/selroom/btn_flexup.img",
+          "literalAssignments": {
+            "rect": [
+              173,
+              2,
+              40,
+              13
+            ],
+            "bkimage": "object/ui/selRoom/btn_flexUp.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/btn_left.img",
+      "sourceSha256": "2fb05a5c7839d92ab72ef917d8e4ba205c24cb0ba16030702f6ec77539e0821c",
+      "compressedSha256": "762e9ebcc4d793c4df30c90ca1e79aa7c3d772fb09373c16808f69e7a0c48728",
+      "packageEntry": {
+        "ordinal": 3271,
+        "indexOffset": 165916,
+        "path": "object\\ui\\selRoom\\btn_left.img",
+        "reservedWord": 0,
+        "packageOffset": 33893171,
+        "rawByteLength": 10232,
+        "compressedByteLength": 1763
+      },
+      "metadata": {
+        "byteLength": 10232,
+        "sha256": "2fb05a5c7839d92ab72ef917d8e4ba205c24cb0ba16030702f6ec77539e0821c",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          15,
+          56
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "97b947481f9099ddbbe7021e4425b854befc99b91e6969b962634fb3d122e88b"
+          },
+          {
+            "index": 1,
+            "offset": 2588,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 2616,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "1850f346d59a03d809ab6ae578a83fc4ff78bb0178d492395f99f2a408d7cf20"
+          },
+          {
+            "index": 2,
+            "offset": 5136,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 5164,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "62a0e0d2120b489fbd53e9241d6a86cd09114d653cf6b4ffd6af1671aa2203a4"
+          },
+          {
+            "index": 3,
+            "offset": 7684,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 7712,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "1850f346d59a03d809ab6ae578a83fc4ff78bb0178d492395f99f2a408d7cf20"
+          }
+        ],
+        "parsedByteLength": 10232,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_left/frame-000.png",
+          "sha256": "e76bfe17326876a9cb81e4189507e17577590951786f0b2352445705b62e23e9",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "11fe5295b81e2cdb862d5ab2be86652063241c213d5a05c9c6697e518b29cae7",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_left/frame-001.png",
+          "sha256": "d70b5a735a44ace2d7448239c47294ba263b7caafaab66e795660cd3817eba25",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "44552f99f6a8b4623c9717aeab48c39449feece4388beaa9556519749cdb55f4",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_left/frame-002.png",
+          "sha256": "c685ba4bf8e0efeb3ca41a99175cb8507194af24fc0557f5f76766e6b8e53669",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "54830b6ca60c7ba59e944ccca4d01d37b8f68e39d88b48a390bcfc0ef02c41ee",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_left/frame-003.png",
+          "sha256": "d70b5a735a44ace2d7448239c47294ba263b7caafaab66e795660cd3817eba25",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "44552f99f6a8b4623c9717aeab48c39449feece4388beaa9556519749cdb55f4",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.playerListDlg.children.left",
+          "firstSourceLine": 2707,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "nativePath": "object/ui/selroom/btn_left.img",
+          "literalAssignments": {
+            "rect": [
+              -19,
+              4,
+              16,
+              57
+            ],
+            "bkimage": "object/ui/selRoom/btn_left.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.left",
+          "firstSourceLine": 3654,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "nativePath": "object/ui/selroom/btn_left.img",
+          "literalAssignments": {
+            "rect": [
+              34,
+              71,
+              16,
+              57
+            ],
+            "bkimage": "object/ui/selRoom/btn_left.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/btn_message.img",
+      "sourceSha256": "efae015ceceea3a175aaecfbb72207740f8e7a4613333584b20f376299d28805",
+      "compressedSha256": "a724d0cfce1e6ba6fdf51b504e8f4f195b1b03eb5d1367419549694f825e0e74",
+      "packageEntry": {
+        "ordinal": 3274,
+        "indexOffset": 166066,
+        "path": "object\\ui\\selRoom\\btn_message.img",
+        "reservedWord": 0,
+        "packageOffset": 33904244,
+        "rawByteLength": 7084,
+        "compressedByteLength": 884
+      },
+      "metadata": {
+        "byteLength": 7084,
+        "sha256": "efae015ceceea3a175aaecfbb72207740f8e7a4613333584b20f376299d28805",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          29,
+          25
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              5
+            ],
+            "pixelMode": 8,
+            "width": 29,
+            "height": 20,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 2320,
+            "encodedPixelSha256": "9abda9846684e3e937d15747cdcf63cda2d0e36d35b56424e9ff01e3197a8641"
+          },
+          {
+            "index": 1,
+            "offset": 2388,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 29,
+            "height": 20,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 2416,
+            "pixelByteLength": 2320,
+            "encodedPixelSha256": "fa5463009c82ba434e80b7d53b1517c07e7b248131cdfc48c0128d125bf3cea3"
+          },
+          {
+            "index": 2,
+            "offset": 4736,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              4
+            ],
+            "pixelMode": 8,
+            "width": 29,
+            "height": 20,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 4764,
+            "pixelByteLength": 2320,
+            "encodedPixelSha256": "505ca5a16d286db764bf183fc7b49eaaaf3f1de6b7b35ef3353cc17f0a2eeea7"
+          }
+        ],
+        "parsedByteLength": 7084,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_message/frame-000.png",
+          "sha256": "c45ef298b166333353baa0ab1d184ccc6c2c82625d86b8be09d3d18c91b6667b",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            29,
+            20
+          ],
+          "frameOffsetRaw": [
+            0,
+            5
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "3884cbdaceba334bb969f08950210e6ce3f5a741a69293c03f4ef80096cdac5b",
+          "alphaExtrema": [
+            9,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_message/frame-001.png",
+          "sha256": "29507e955b38185885f8183558ad53a4c71347a9879d71ec7c16251b1c350a62",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            29,
+            20
+          ],
+          "frameOffsetRaw": [
+            0,
+            3
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "db5e9412cf649e698e2d8920555d606de57d311a8303ea37a3835acb2945b836",
+          "alphaExtrema": [
+            9,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_message/frame-002.png",
+          "sha256": "01ea7f472eaf0bf19ebf585e0ce18bae3eb414cad58e5a76aac0752db79e46bc",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            29,
+            20
+          ],
+          "frameOffsetRaw": [
+            0,
+            4
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "36377158b384e7978e0ad5e836e442baa86951f9bc3688d37a46c63cc05f04ee",
+          "alphaExtrema": [
+            9,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.chatArea.children.donateInfo.OnTimer",
+          "firstSourceLine": 3021,
+          "bytecodeSha256": "31adc041167e4a75373765076943b9aeb61d56677569e8f47ab14a81a01598f4",
+          "nativePath": "object/ui/selroom/btn_message.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiRoom",
+          "scope": "?.UI_children_room.children.chatArea.children.donateInfo.OnTimer",
+          "firstSourceLine": 2691,
+          "bytecodeSha256": "31adc041167e4a75373765076943b9aeb61d56677569e8f47ab14a81a01598f4",
+          "nativePath": "object/ui/selroom/btn_message.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/btn_right.img",
+      "sourceSha256": "01b1391a7d96e0c241e87588e03ce92f448c3fbe27d36c27b58756e059b701a5",
+      "compressedSha256": "65beb85752f8fa0ac00574c3eb3fec6317d297032433ad4a207a473496bbeee8",
+      "packageEntry": {
+        "ordinal": 3275,
+        "indexOffset": 166117,
+        "path": "object\\ui\\selRoom\\btn_right.img",
+        "reservedWord": 0,
+        "packageOffset": 33905128,
+        "rawByteLength": 10232,
+        "compressedByteLength": 1816
+      },
+      "metadata": {
+        "byteLength": 10232,
+        "sha256": "01b1391a7d96e0c241e87588e03ce92f448c3fbe27d36c27b58756e059b701a5",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          15,
+          56
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "695eef3bee52efa7fc21830e9bfb9ed60e0fc49cb60bbc2f9a40c12d0a4de27a"
+          },
+          {
+            "index": 1,
+            "offset": 2588,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 2616,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "20e23f46083aa0eddf2b87d0f7651cb57f4b5f98ad53ce0b4b0f8dacd744ef7d"
+          },
+          {
+            "index": 2,
+            "offset": 5136,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 5164,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "1c34ff2a1b65452f597d7096addce0eef9c7e8fbeba28d4283cea9fc40d02287"
+          },
+          {
+            "index": 3,
+            "offset": 7684,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 15,
+            "height": 56,
+            "unknownImageHeaderWord": 32,
+            "empty": false,
+            "pixelDataOffset": 7712,
+            "pixelByteLength": 2520,
+            "encodedPixelSha256": "20e23f46083aa0eddf2b87d0f7651cb57f4b5f98ad53ce0b4b0f8dacd744ef7d"
+          }
+        ],
+        "parsedByteLength": 10232,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_right/frame-000.png",
+          "sha256": "6f366ddfc2296571df2b877c4613473ce252cce0d035164c4749c9a7ac46bb69",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "cdb5c4d37cd33f60efd8de1f576c9b9e10e79ecf8b851158c0a004ac59e42b48",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_right/frame-001.png",
+          "sha256": "da1f9308c251b41d4f3cfa4d41d63ac1e12e16245cb51fa75b989aeb0c4232d2",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ecc8137cd1ad3c6d7f8cb517253fb5c132bb4dc8e6bedcb34aa6d76c47e0da1c",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_right/frame-002.png",
+          "sha256": "9f6b0f749195a539d4a252c3e3db861481b6cf494e408498f3dbe282d257ce96",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "039100e236f968946c1d6bde15d6b002d5d0ac0155989252c554e2cd9984a27f",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/btn_right/frame-003.png",
+          "sha256": "da1f9308c251b41d4f3cfa4d41d63ac1e12e16245cb51fa75b989aeb0c4232d2",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            15,
+            56
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ecc8137cd1ad3c6d7f8cb517253fb5c132bb4dc8e6bedcb34aa6d76c47e0da1c",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.playerListDlg.children.right",
+          "firstSourceLine": 2718,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "nativePath": "object/ui/selroom/btn_right.img",
+          "literalAssignments": {
+            "rect": [
+              334,
+              4,
+              16,
+              57
+            ],
+            "bkimage": "object/ui/selRoom/btn_right.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.right",
+          "firstSourceLine": 3674,
+          "bytecodeSha256": "b94aeac3c48620e5acd453c0f486a0af62df40f98961e38f68a321bbf32fc911",
+          "nativePath": "object/ui/selroom/btn_right.img",
+          "literalAssignments": {
+            "rect": [
+              156,
+              71,
+              16,
+              57
+            ],
+            "bkimage": "object/ui/selRoom/btn_right.img",
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/dlg_chatmax.img",
+      "sourceSha256": "1d5aa76c2e32666f5ee195f7722c3a44eb6d77005afd3a96af2ba77df0adad05",
+      "compressedSha256": "29dc626d51b1c446ea1444fc16897678535829e285022ccbd199e05be8db1ad2",
+      "packageEntry": {
+        "ordinal": 3277,
+        "indexOffset": 166214,
+        "path": "object\\ui\\selRoom\\dlg_chatMax.img",
+        "reservedWord": 0,
+        "packageOffset": 33917489,
+        "rawByteLength": 317000,
+        "compressedByteLength": 35897
+      },
+      "metadata": {
+        "byteLength": 317000,
+        "sha256": "1d5aa76c2e32666f5ee195f7722c3a44eb6d77005afd3a96af2ba77df0adad05",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          343,
+          308
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 343,
+            "height": 308,
+            "unknownImageHeaderWord": 688,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 316932,
+            "encodedPixelSha256": "2775f3807d5f1031b9acca0e6909fa8daeb295848799301b3c3d5b88e72a8b73"
+          }
+        ],
+        "parsedByteLength": 317000,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/dlg_chatmax/frame-000.png",
+          "sha256": "e8e015c5e97dac78aecb89e78c4421fc8f19abb283b2d06da5a01f74571418e0",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            343,
+            308
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "687e7288b167703792ffcf72304dd8ed8f4fd2d9ddb59ebae46ad0664f1044b3",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.flexChatArea",
+          "firstSourceLine": 333,
+          "bytecodeSha256": "065804f5adef6afedd892d4116e47e83ae6d8e804e17982631fc4d6589f68240",
+          "nativePath": "object/ui/selroom/dlg_chatmax.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/dlg_chatmin.img",
+      "sourceSha256": "4d84dc391663e4357642787c062dd97c5d53311b5c6e1848931427aa096a7c9a",
+      "compressedSha256": "b2845d782dd4f312f73c456756d6051e17e2195b1f8c9649a1da489ba64051d8",
+      "packageEntry": {
+        "ordinal": 3278,
+        "indexOffset": 166265,
+        "path": "object\\ui\\selRoom\\dlg_chatMin.img",
+        "reservedWord": 0,
+        "packageOffset": 33953386,
+        "rawByteLength": 120461,
+        "compressedByteLength": 13617
+      },
+      "metadata": {
+        "byteLength": 120461,
+        "sha256": "4d84dc391663e4357642787c062dd97c5d53311b5c6e1848931427aa096a7c9a",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          343,
+          117
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 343,
+            "height": 117,
+            "unknownImageHeaderWord": 688,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 120393,
+            "encodedPixelSha256": "2883777443972618caf592d599278b56c9c873e9e03f606dc3e9fce352b7bf46"
+          }
+        ],
+        "parsedByteLength": 120461,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/dlg_chatmin/frame-000.png",
+          "sha256": "be2244c29bdd8a83dd7a389e21339f9f28b996859bf451ed51cc15e437594552",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            343,
+            117
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "3a5924779af3ca6a15ed72d8c4f3eafd883600549bcc72c950be94e8799e9df7",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.flexChatArea",
+          "firstSourceLine": 333,
+          "bytecodeSha256": "065804f5adef6afedd892d4116e47e83ae6d8e804e17982631fc4d6589f68240",
+          "nativePath": "object/ui/selroom/dlg_chatmin.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.chatArea.children.chatPanel",
+          "firstSourceLine": 2736,
+          "bytecodeSha256": "094dc961d4b5e4ac51b65a7a32898e0d8b1c66c5659c9a14ba12c6be79119b38",
+          "nativePath": "object/ui/selroom/dlg_chatmin.img",
+          "literalAssignments": {
+            "initlayer": 500000,
+            "rect": [
+              442,
+              354,
+              320,
+              116
+            ],
+            "bkimage": "object/ui/selRoom/dlg_chatMin.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/dlg_chatnormal.img",
+      "sourceSha256": "b1946dcd4d3392c2f30bd4e26f6069cec56e7206feff07e8a5e22abe21e6e02b",
+      "compressedSha256": "ac2da6e13b1a10041573f2ce18e1452a8e983eef04039cb2186ce521287500b2",
+      "packageEntry": {
+        "ordinal": 3279,
+        "indexOffset": 166316,
+        "path": "object\\ui\\selRoom\\dlg_chatNormal.img",
+        "reservedWord": 0,
+        "packageOffset": 33967003,
+        "rawByteLength": 219245,
+        "compressedByteLength": 25332
+      },
+      "metadata": {
+        "byteLength": 219245,
+        "sha256": "b1946dcd4d3392c2f30bd4e26f6069cec56e7206feff07e8a5e22abe21e6e02b",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          343,
+          213
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 343,
+            "height": 213,
+            "unknownImageHeaderWord": 688,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 219177,
+            "encodedPixelSha256": "0dbfcbe9a3a7dee159d62fa305851be5adf4e6833e6b288ac168e375c9d3685b"
+          }
+        ],
+        "parsedByteLength": 219245,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/dlg_chatnormal/frame-000.png",
+          "sha256": "7810208adc7eee9ac667b7ae225d960d33baf9a4b69d5c52b94de05d57096605",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            343,
+            213
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "1d87ed1da309ef898a1b31f3a581dfb014c10c220628ffea56346d182a9ed745",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.flexChatArea",
+          "firstSourceLine": 333,
+          "bytecodeSha256": "065804f5adef6afedd892d4116e47e83ae6d8e804e17982631fc4d6589f68240",
+          "nativePath": "object/ui/selroom/dlg_chatnormal.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/icon_vip.img",
+      "sourceSha256": "4f81aca1cc3d1cf22b263448878396e64eed8eab76f08e569e1def1fed168a12",
+      "compressedSha256": "7fecc7a2161c5c027a347a1fcaf3ff59a82f26745e2b9a1a4f5cf1e00406eb0d",
+      "packageEntry": {
+        "ordinal": 3282,
+        "indexOffset": 166468,
+        "path": "object\\ui\\selRoom\\icon_vip.img",
+        "reservedWord": 0,
+        "packageOffset": 34034387,
+        "rawByteLength": 5138,
+        "compressedByteLength": 2005
+      },
+      "metadata": {
+        "byteLength": 5138,
+        "sha256": "4f81aca1cc3d1cf22b263448878396e64eed8eab76f08e569e1def1fed168a12",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          65,
+          26
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 65,
+            "height": 26,
+            "unknownImageHeaderWord": 136,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 5070,
+            "encodedPixelSha256": "77671f967184f06879d255044ac321de623e9f82ce1b19dacd3ab19242c4b1b0"
+          }
+        ],
+        "parsedByteLength": 5138,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/icon_vip/frame-000.png",
+          "sha256": "6cce394cff5bc210289143c066c7809692fe7838d6a02e9c96f8523fe420bd86",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            65,
+            26
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "72234cc76d29e0c2f54350b0b690cfba317650f1fbb7ed488b39c050d542bebc",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.room1.children.vip",
+          "firstSourceLine": 2403,
+          "bytecodeSha256": "4c259c2a558b9df726a680ea04565bf94fc25cf44f92a97679df422cbc5a039c",
+          "nativePath": "object/ui/selroom/icon_vip.img",
+          "literalAssignments": {
+            "rect": [
+              102,
+              70,
+              62,
+              20
+            ],
+            "bkimage": "object/ui/selRoom/icon_vip.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/img_popo.img",
+      "sourceSha256": "aded6510bfe82c510534172955289310a1354840fd44da3d01c043dd9081f3e5",
+      "compressedSha256": "6e47493ae4a58e52c73674d403c20ce82f7bf3c6afc38031b572c15753768338",
+      "packageEntry": {
+        "ordinal": 3283,
+        "indexOffset": 166516,
+        "path": "object\\ui\\selRoom\\img_popo.img",
+        "reservedWord": 0,
+        "packageOffset": 34036392,
+        "rawByteLength": 23868,
+        "compressedByteLength": 611
+      },
+      "metadata": {
+        "byteLength": 23868,
+        "sha256": "aded6510bfe82c510534172955289310a1354840fd44da3d01c043dd9081f3e5",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          350,
+          17
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 350,
+            "height": 17,
+            "unknownImageHeaderWord": 1400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 23800,
+            "encodedPixelSha256": "250769eed9e22b5fb6e3491df005a64a1419611d068e3fda55502be68210243a"
+          }
+        ],
+        "parsedByteLength": 23868,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/img_popo/frame-000.png",
+          "sha256": "d6a50bcc774634d635aff09bdb7d2c02ebd1d4466d45b58b1e606e2376c8bf16",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            350,
+            17
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "9fed5e84f05d7b5ebf6440636b7b98b1f1fef076c56364c9a7c61c1d341a5cf3",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.InitSpeaker",
+          "firstSourceLine": 377,
+          "bytecodeSha256": "e68c0ceb5d975d86a163f635feb69e7677426ccd15e030141606e00c0b0d44e9",
+          "nativePath": "object/ui/selroom/img_popo.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.NotifyAddPopo",
+          "firstSourceLine": 553,
+          "bytecodeSha256": "039065b63984bb74144c55c4dac2ee930c9d007e27bc58878a1207b269a9cbb7",
+          "nativePath": "object/ui/selroom/img_popo.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.chatArea.children.chatPanel.children.speaker0.children.popo",
+          "firstSourceLine": 2764,
+          "bytecodeSha256": "e2e8e1656d958047e862443f68c46b10de0d5eb450290a85942e5b0d9aed38cd",
+          "nativePath": "object/ui/selroom/img_popo.img",
+          "literalAssignments": {
+            "rect": [
+              0,
+              0,
+              350,
+              17
+            ],
+            "alphafactor": 0.6,
+            "minalphafactor": 0.6,
+            "bkimage": "object/ui/selRoom/img_popo.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/mask_speaker.img",
+      "sourceSha256": "f7abda502a2c42fc9b01b18be2d5feb8d9530c8a84ade0eb9f6897fa5281513d",
+      "compressedSha256": "90041888cd8b05296d3198cf22ed305f111000ee8c1a1ca961b038e5eb47b42a",
+      "packageEntry": {
+        "ordinal": 3285,
+        "indexOffset": 166621,
+        "path": "object\\ui\\selRoom\\mask_speaker.img",
+        "reservedWord": 0,
+        "packageOffset": 34044348,
+        "rawByteLength": 23188,
+        "compressedByteLength": 89
+      },
+      "metadata": {
+        "byteLength": 23188,
+        "sha256": "f7abda502a2c42fc9b01b18be2d5feb8d9530c8a84ade0eb9f6897fa5281513d",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          350,
+          17
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              5,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 340,
+            "height": 17,
+            "unknownImageHeaderWord": 1360,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 23120,
+            "encodedPixelSha256": "67a0e0faa7a25b0c2c545cb366305b6443905348749ab85d8d23833950eb96c3"
+          }
+        ],
+        "parsedByteLength": 23188,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/mask_speaker/frame-000.png",
+          "sha256": "5ceda963f37c48a15543f9000dab10c88d2ca5e7f58622885ca534e428db50eb",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            340,
+            17
+          ],
+          "frameOffsetRaw": [
+            5,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "67a0e0faa7a25b0c2c545cb366305b6443905348749ab85d8d23833950eb96c3",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.chatArea.children.chatPanel.children.speaker0",
+          "firstSourceLine": 2756,
+          "bytecodeSha256": "6279b32c97767542ac0631a11346431494c6a1f04db27c212d24a1fd1a5c32a2",
+          "nativePath": "object/ui/selroom/mask_speaker.img",
+          "literalAssignments": {
+            "initlayer": 100000,
+            "rect": [
+              -4,
+              17,
+              350,
+              17
+            ],
+            "bkimage": "object/ui/selRoom/mask_speaker.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/num.img",
+      "sourceSha256": "e30e4e858eae20d6be914ebba2f83a41a9cfa20b6392daab1e223d5b437fa5e0",
+      "compressedSha256": "bd568d41adf17618d56af81494721a437ce5bd8b693c3ea1797e1b375f3ad3e9",
+      "packageEntry": {
+        "ordinal": 3286,
+        "indexOffset": 166673,
+        "path": "object\\ui\\selRoom\\num.img",
+        "reservedWord": 0,
+        "packageOffset": 34044437,
+        "rawByteLength": 4316,
+        "compressedByteLength": 1379
+      },
+      "metadata": {
+        "byteLength": 4316,
+        "sha256": "e30e4e858eae20d6be914ebba2f83a41a9cfa20b6392daab1e223d5b437fa5e0",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 10,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          11,
+          14
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 14,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 420,
+            "encodedPixelSha256": "7744dbea61fde2bd2d91ed87c08ed2a341fb80b7354654ce35d5e954bbfd5872"
+          },
+          {
+            "index": 1,
+            "offset": 488,
+            "rawMarker": 0,
+            "frameOffset": [
+              2,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 6,
+            "height": 13,
+            "unknownImageHeaderWord": 16,
+            "empty": false,
+            "pixelDataOffset": 516,
+            "pixelByteLength": 234,
+            "encodedPixelSha256": "9a1d5d8f3fe9f13ff8d4302053a2cabe163188834e5d7a608acec72dda02b9e0"
+          },
+          {
+            "index": 2,
+            "offset": 750,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 14,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 778,
+            "pixelByteLength": 420,
+            "encodedPixelSha256": "2ed2833961c01c3b50b95973071dd272174e52d15587408ea55b1c2ff57167f6"
+          },
+          {
+            "index": 3,
+            "offset": 1198,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 14,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 1226,
+            "pixelByteLength": 420,
+            "encodedPixelSha256": "e2453585391a46e89023f8d1f1257bfd1d048ec1ef9ba3746d507506802c505b"
+          },
+          {
+            "index": 4,
+            "offset": 1646,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 11,
+            "height": 14,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 1674,
+            "pixelByteLength": 462,
+            "encodedPixelSha256": "f4057bb1383f9ab937bf8622a762b88e56aded29379b122ca32a9a72e4d5ed99"
+          },
+          {
+            "index": 5,
+            "offset": 2136,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 13,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 2164,
+            "pixelByteLength": 390,
+            "encodedPixelSha256": "a2f885b376aed99d49b3b2ae75f57b904f4f6eb1ba92c1c54394b845f917d0c0"
+          },
+          {
+            "index": 6,
+            "offset": 2554,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 14,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 2582,
+            "pixelByteLength": 420,
+            "encodedPixelSha256": "ccf03785b4cbdad5cde8847626f82685b6a0ff8c3fcaafa46cb092476619d377"
+          },
+          {
+            "index": 7,
+            "offset": 3002,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 13,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 3030,
+            "pixelByteLength": 390,
+            "encodedPixelSha256": "0af027c1ecf7a9976a02052dfd50c29e63e4da32c557efd832e5592df521c0e8"
+          },
+          {
+            "index": 8,
+            "offset": 3420,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 14,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 3448,
+            "pixelByteLength": 420,
+            "encodedPixelSha256": "ff4dd477d3b24429d69b68237d8b34edf17406343721fb9c4ce258422ff71ed0"
+          },
+          {
+            "index": 9,
+            "offset": 3868,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 10,
+            "height": 14,
+            "unknownImageHeaderWord": 24,
+            "empty": false,
+            "pixelDataOffset": 3896,
+            "pixelByteLength": 420,
+            "encodedPixelSha256": "41129752b1857f7555285cd3e58fc4e6caca21558590f5b914ca52c600616711"
+          }
+        ],
+        "parsedByteLength": 4316,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-000.png",
+          "sha256": "4b98c43f27e9ff0c7c5b3c651c2759abbea061670b3ad33cb86229aa7b5bf094",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            10,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "26d13b187b5610febd256a5d007e6b5289c6868d7e12efc5b186391e93c63c7f",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-001.png",
+          "sha256": "6e190f24e5384ae1c3cac0740693b6aa39b489fee19b1fe6c03c7df4e16d5f61",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            6,
+            13
+          ],
+          "frameOffsetRaw": [
+            2,
+            1
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "953993348b8e747adc4a7926902b04e9517609e8b023c705771b9ac1a7293bfc",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-002.png",
+          "sha256": "9cf4413d8aee7632a5d49309d9637cd2e4e6037a5744c71f9a994941ae75e3bf",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            10,
+            14
+          ],
+          "frameOffsetRaw": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "45c3d6579bdcd8ad738381b30886dd14259858d07c3d63a0355524452b7beff2",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-003.png",
+          "sha256": "940343d5c6a3550fe03a2c90f5034b8b8dd93ee0a05b2038a045d08ee07e28ea",
+          "sourceFrameIndex": 3,
+          "empty": false,
+          "nativeSize": [
+            10,
+            14
+          ],
+          "frameOffsetRaw": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "8da09e50e0b88e645091764dfa0599a2ad6b6f99abb4754f905bcc3d7aaebe3a",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-004.png",
+          "sha256": "588e32586762a22137f88ed899a855816c5207452565925aacf5ae2b57d41179",
+          "sourceFrameIndex": 4,
+          "empty": false,
+          "nativeSize": [
+            11,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "24c6596f33fd1a673eee3f788c7a5d9dc6d01fe3192b94304992ba024aa55c83",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-005.png",
+          "sha256": "7b4e254bbf3eaf393b247ac34401cd10d33af6fd9466dedda495b56d30cd6290",
+          "sourceFrameIndex": 5,
+          "empty": false,
+          "nativeSize": [
+            10,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "b9bbc20ce29fb6b2244de5fa72098e5648f3c244ed5a30c7142e56080e1e73a6",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-006.png",
+          "sha256": "045a71e8d25cb5b75f07f9a94a3d90015b2c5a4d328bee02fae04da09aeae4d3",
+          "sourceFrameIndex": 6,
+          "empty": false,
+          "nativeSize": [
+            10,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "b3a1759d07cfec2bfe6238b55b76a59d3aee631b730f9f987b7b552d4eb61fec",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-007.png",
+          "sha256": "af98ad27f52dab80624b62c7466b582f50d7e0930662b3d9a66919fe15ac9b43",
+          "sourceFrameIndex": 7,
+          "empty": false,
+          "nativeSize": [
+            10,
+            13
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "a05198c93dc36f25888a4ab21cb91fae9710ce901db9baedf427834fda663c5c",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-008.png",
+          "sha256": "81ecd149688cd87176329de00b952fa5ca8b6609be5f9971ab79917d74ef7988",
+          "sourceFrameIndex": 8,
+          "empty": false,
+          "nativeSize": [
+            10,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "2e5f990e0a25eef7364320e6dd51f31671b520d159e6cd7758306077a2538dba",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/num/frame-009.png",
+          "sha256": "05ed177a3ee895853cb5ccad705cdb824f47c8dd75474b8e8cdfcae8687a0724",
+          "sourceFrameIndex": 9,
+          "empty": false,
+          "nativeSize": [
+            10,
+            14
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "826a9ad996e4e072fdea994afb13b1c584848169243a3aab0686850d554e57f7",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.room1.children.no",
+          "firstSourceLine": 2369,
+          "bytecodeSha256": "791d0dbeac2715446c4df7e915780dc5b726f30c611074ee3777cb4ea9ed7e95",
+          "nativePath": "object/ui/selroom/num.img",
+          "literalAssignments": {
+            "textsize": 10,
+            "bkimage": "object/ui/selRoom/num.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selroom/tip_guidemidright.img",
+      "sourceSha256": "f92f8d1a0428904d252252d98501212e79153ee51e7f84d1a21a2a1da340da36",
+      "compressedSha256": "28e301de419a9062feb1095bfd249832862f62e751ac99b16c85826c0bdc8d94",
+      "packageEntry": {
+        "ordinal": 3297,
+        "indexOffset": 167222,
+        "path": "object\\ui\\selRoom\\tip_GuideMidRight.img",
+        "reservedWord": 0,
+        "packageOffset": 34079008,
+        "rawByteLength": 56176,
+        "compressedByteLength": 1418
+      },
+      "metadata": {
+        "byteLength": 56176,
+        "sha256": "f92f8d1a0428904d252252d98501212e79153ee51e7f84d1a21a2a1da340da36",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          213,
+          103
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              8,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 169,
+            "height": 83,
+            "unknownImageHeaderWord": 680,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 56108,
+            "encodedPixelSha256": "da469c51968c44f8249376319bb54fc1392c1f74b5ce7f14065346de1bc63dd2"
+          }
+        ],
+        "parsedByteLength": 56176,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/tip_guidemidright/frame-000.png",
+          "sha256": "5736ad4fff57453389726a70b2456194306040a9ca68ef445f308e5417adf7bb",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            169,
+            83
+          ],
+          "frameOffsetRaw": [
+            8,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "087184c4eb55bb22ce58f162d0c2f0ac136bfb438295e6086e1142e8e2716d1e",
+          "alphaExtrema": [
+            0,
+            237
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/selroom/tip_guidemidunder.img",
+      "sourceSha256": "aa05b33ecd834f70f15db2caf3884d688b647831976fe4bfcb1dc2f2bc391db6",
+      "compressedSha256": "689d49a9753d3698b429e7e54bf70c7634ed31f751eec8ba82c1fd4634facaa8",
+      "packageEntry": {
+        "ordinal": 3298,
+        "indexOffset": 167279,
+        "path": "object\\ui\\selRoom\\tip_GuideMidUnder.img",
+        "reservedWord": 0,
+        "packageOffset": 34080426,
+        "rawByteLength": 56176,
+        "compressedByteLength": 1400
+      },
+      "metadata": {
+        "byteLength": 56176,
+        "sha256": "aa05b33ecd834f70f15db2caf3884d688b647831976fe4bfcb1dc2f2bc391db6",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          213,
+          103
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              8,
+              12
+            ],
+            "pixelMode": 8,
+            "width": 169,
+            "height": 83,
+            "unknownImageHeaderWord": 680,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 56108,
+            "encodedPixelSha256": "c3465b21a3fd6b7889f88eea08640102e041dd25861d3b5b789c36ef2d4d1c83"
+          }
+        ],
+        "parsedByteLength": 56176,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/tip_guidemidunder/frame-000.png",
+          "sha256": "3f2bc4ba2103dde105b1429e07a358396a01cc67049dfb4a69f5ab68eebaae1e",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            169,
+            83
+          ],
+          "frameOffsetRaw": [
+            8,
+            12
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "6b19766446cc42300fb5a70c77e0a1cb9dcfc223bd95dd58b49a80543d26842f",
+          "alphaExtrema": [
+            0,
+            237
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/selroom/tip_guidemidupper.img",
+      "sourceSha256": "a8b4acf2813bacbc48077c21c737943ce117f93ab66f9dcb3ed058a6f4327c12",
+      "compressedSha256": "63f2ba86e9bcf096511f5dd2c5c1ea121ea25dd16b73a5255bfd11701b0a5954",
+      "packageEntry": {
+        "ordinal": 3299,
+        "indexOffset": 167336,
+        "path": "object\\ui\\selRoom\\tip_GuideMidUpper.img",
+        "reservedWord": 0,
+        "packageOffset": 34081826,
+        "rawByteLength": 56176,
+        "compressedByteLength": 1433
+      },
+      "metadata": {
+        "byteLength": 56176,
+        "sha256": "a8b4acf2813bacbc48077c21c737943ce117f93ab66f9dcb3ed058a6f4327c12",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          213,
+          103
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              7,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 169,
+            "height": 83,
+            "unknownImageHeaderWord": 680,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 56108,
+            "encodedPixelSha256": "63e5222a1597fd3351a2af24c4564db0de51e548d5654b8cc2031367aead874e"
+          }
+        ],
+        "parsedByteLength": 56176,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/tip_guidemidupper/frame-000.png",
+          "sha256": "f4df1cf3b65127adad64fecf210e22fa96382c6b6cef62c7061e2cd26f7372d6",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            169,
+            83
+          ],
+          "frameOffsetRaw": [
+            7,
+            2
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "e798ca66782313f8144a23e71c958eee9735e47b793b7d3e92729e243a234c10",
+          "alphaExtrema": [
+            0,
+            237
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/selroom/tip_entershop.img",
+      "sourceSha256": "301a228957036ff47358de40c942a49ed5ebeb1aac2b9436165e2d7c96a319c1",
+      "compressedSha256": "b5a4bfc69e331d8f15552c7865a306b51907fc9620b8bde9257bffd2b964a2cf",
+      "packageEntry": {
+        "ordinal": 3296,
+        "indexOffset": 167169,
+        "path": "object\\ui\\selRoom\\tip_enterShop.img",
+        "reservedWord": 0,
+        "packageOffset": 34077982,
+        "rawByteLength": 6908,
+        "compressedByteLength": 1026
+      },
+      "metadata": {
+        "byteLength": 6908,
+        "sha256": "301a228957036ff47358de40c942a49ed5ebeb1aac2b9436165e2d7c96a319c1",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          57,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 30,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 6840,
+            "encodedPixelSha256": "6f874b41a057cb8427d4d3e82e829a6c6784bf8726c5a2868cae539dc81d75c4"
+          }
+        ],
+        "parsedByteLength": 6908,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/lobbyextra-reference/frames/selroom/tip_entershop/frame-000.png",
+          "sha256": "4d8bc9f54a44f1c19c738bdd8bf482e7ab87bfcb351889c408b7906094d57698",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            57,
+            30
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 8,
+          "decodedRgbaSha256": "40475894167a68372c4496834913ef736945830475281a91d3ce52d8ede16a6e",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.tipEnterShop",
+          "firstSourceLine": 2531,
+          "bytecodeSha256": "8e501298aa86872fd73f51c349a7dcece40c0a60d25de1960f836b7a39794315",
+          "nativePath": "object/ui/selroom/tip_entershop.img",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 999999,
+            "bkimage": "object/ui/selRoom/tip_enterShop.img",
+            "rect": [
+              430,
+              496,
+              1,
+              1
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    }
+  ],
+  "resourceCount": 17,
+  "decodedNonemptyFrameCount": 41,
+  "previews": [
+    {
+      "file": "assets/native-client-ui/lobbyextra-reference/source-all-states.png",
+      "sha256": "a0cbf5986feb5cde4579e2504f1226501d3c204f7a432a031eb56176fedb0c62"
+    }
+  ],
+  "sourcePixelsOnly": true,
+  "sourceClientMutated": false,
+  "nativeRuntimeVerified": false,
+  "interpretation": "Static literal scope and decoded source pixels. Runtime active flow and button-state semantic ordering require further evidence.",
+  "uiEvidence": {
+    "file": "assets/native-client-ui/lobbyextra-reference/ui-evidence.json",
+    "sha256": "4f4e396a8f5c6d2341a2ca286f18f648a8f4975b78781e5bab1b6352eba4e605"
+  },
+  "uiEvidenceReader": {
+    "file": "assets/native-client-ui/lobbyextra-reference/read-ui-evidence.py",
+    "sha256": "c649743f977c0aa0c649e171eb41459cd60e738bec1ac32d7a33bb5bef89a569"
+  }
+}

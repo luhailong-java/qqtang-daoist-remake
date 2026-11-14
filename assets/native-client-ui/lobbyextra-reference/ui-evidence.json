@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "operation": "Bounded constant-tree reading and static instruction patterns only",
+  "sourceModules": [
+    {
+      "module": "uiSelRoom",
+      "sourceSha256": "ee192f1559429bce3a1cf432df128f22b84ce4d41c5fa12ba89c0d22507f3296",
+      "parsedObjects": 16037,
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiTemplate",
+      "sourceSha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+      "parsedObjects": 753,
+      "bytecodeExecuted": false
+    }
+  ],
+  "reader": {
+    "file": "scripts/read-legacy-ui-constants.py",
+    "sha256": "153e86efe23ddbb5fd4e54796002118f1a25aaad8cd13f97755029910477865e"
+  },
+  "explicitChatForeground": {
+    "scope": "?.UI_children_selRoom.children.chatArea.children.chatPanel.children.chatList",
+    "bytecodeSha256": "ece7ff166bace3931cecbe6993c82decef86a422ff4dad3e33792b2ba4413952",
+    "literalAssignments": {
+      "type": "TEXTLIST",
+      "rect": [
+        3,
+        20,
+        320,
+        98
+      ],
+      "captionrect": [
+        0,
+        0,
+        320,
+        98
+      ],
+      "drawcolor": [
+        199,
+        242,
+        252,
+        255
+      ],
+      "rowspace": 6,
+      "textfont": 1,
+      "textEdgeType": -1,
+      "scrollspace": 18
+    }
+  },
+  "roomNumber": {
+    "scope": "?.UI_children_selRoom.children.room1.children.no",
+    "bytecodeSha256": "791d0dbeac2715446c4df7e915780dc5b726f30c611074ee3777cb4ea9ed7e95",
+    "literalAssignments": {
+      "textsize": 10,
+      "bkimage": "object/ui/selRoom/num.img"
+    },
+    "parentScope": "?.UI_children_selRoom.children.room1.children",
+    "parentBytecodeSha256": "06ab0ec1754c69aa0693c6f3143cbfef69f77f5cf4217cdecdb524ad70f7a1af",
+    "classConstruction": [
+      {
+        "offset": 9,
+        "opcode": 101,
+        "argument": 2,
+        "name": "TPicLabel"
+      },
+      {
+        "offset": 12,
+        "opcode": 101,
+        "argument": 3,
+        "name": "Static"
+      },
+      {
+        "offset": 15,
+        "opcode": 102,
+        "argument": 2
+      },
+      {
+        "offset": 18,
+        "opcode": 100,
+        "argument": 2
+      },
+      {
+        "offset": 21,
+        "opcode": 132,
+        "argument": 0
+      },
+      {
+        "offset": 24,
+        "opcode": 131,
+        "argument": 0
+      },
+      {
+        "offset": 27,
+        "opcode": 89,
+        "argument": null
+      },
+      {
+        "offset": 28,
+        "opcode": 90,
+        "argument": 4,
+        "name": "no"
+      }
+    ],
+    "classConstructionHex": "650200650300660200640200840000830000595a0400",
+    "templateScope": "?.TPicLabel",
+    "templateBytecodeSha256": "b113d5af2f5a5153b457968d7772d0d2d1d9f834180bbb68abc260d58f68c722",
+    "templateLiteralAssignments": {
+      "type": "PICLABEL",
+      "textsize": 0
+    },
+    "sourcePositionGlyphOrder": "0123456789",
+    "glyphOrderBasis": "All ten decoded source rasters inspected statically; not runtime execution"
+  },
+  "pathsWithoutExactBinding": [
+    "object/ui/selroom/btn_commandprompt.img",
+    "object/ui/selroom/tip_guidemidright.img",
+    "object/ui/selroom/tip_guidemidunder.img",
+    "object/ui/selroom/tip_guidemidupper.img"
+  ],
+  "candidateTextPolicy": {
+    "chatLists": "Deep jade, retaining source dark polarity and Alpha",
+    "guideBubbles": "Pale original-polarity paper; blank runtime captions are not invented",
+    "roomNumbers": "Own fixed-size 13px font, original ten cropped frames and offsets",
+    "remainingUnknowns": [
+      "Message-by-message color overrides",
+      "Guide caption colors and runtime bindings",
+      "Native speaker-mask blending",
+      "Notification duration and all interactions"
+    ]
+  },
+  "bytecodeExecuted": false,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false
+}

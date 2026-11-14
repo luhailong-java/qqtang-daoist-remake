@@ -164,23 +164,24 @@ class NativeUiPixels(unittest.TestCase):
             foreground = luminance(color)
             self.assertGreaterEqual((background+0.05)/(foreground+0.05),4.5)
 
-    def test_chat_and_storage_functional_alpha_survives_the_central_export(self):
+    def test_chat_storage_and_browser_alpha_survives_the_central_export(self):
         manifest = json.loads((ROOT/'assets/native-client-ui/login-v1/manifest.json').read_bytes())
-        for group, expected_count in (('chat-controls',65),('storage-task',27)):
+        for group, expected_count in (('chat-controls',65),('storage-task',27),('web-controls',24)):
             references = {e['purpose']:e for e in manifest['structuralAlphaInputs'] if e['group']==group}
             self.assertEqual(len(references),expected_count)
             checked = 0
             for item in manifest['items']:
                 kind = item['rendererKind']
                 fixed = {'storage-selection':'selection','storage-shadow':'shadow','storage-grid-room':'room-grid'}
-                if group=='chat-controls' and not kind.startswith('chat-'):
+                whole_family = group in ('chat-controls','web-controls')
+                if whole_family and not kind.startswith(group.split('-')[0]+'-'):
                     continue
                 if group=='storage-task' and kind not in (*fixed,'storage-nav','storage-task-step'):
                     continue
                 raw = (ROOT/item['file']).read_bytes()
                 metadata,_ = codec.reader.inspect_dimg(raw,metadata_only=True)
                 for frame in metadata['frames']:
-                    purpose = (f'{kind}-{frame["index"]:02}' if group=='chat-controls' else
+                    purpose = (f'{kind}-{frame["index"]:02}' if whole_family else
                                fixed[kind] if kind in fixed else f'{item["caption"]}-{frame["index"]}')
                     source = references[purpose]
                     start = frame['pixelDataOffset']
@@ -193,6 +194,36 @@ class NativeUiPixels(unittest.TestCase):
                         self.assertEqual(native.getchannel('A').tobytes(),original.getchannel('A').tobytes())
                     checked += 1
             self.assertEqual(checked,expected_count)
+
+    def test_forge_removes_old_interior_glyph_alpha_with_a_bounded_exception(self):
+        manifest = json.loads((ROOT/'assets/native-client-ui/login-v1/manifest.json').read_bytes())
+        references = {e['purpose']:e for e in manifest['structuralAlphaInputs'] if e['group']=='forge-controls'}
+        self.assertEqual(len(references),52)
+        changes = manifest['alphaNormalizations']
+        self.assertEqual(len(changes),1)
+        self.assertEqual(changes[0]['rendererKind'],'forge-confirm-panel')
+        self.assertEqual(changes[0]['sourceRoiXYXY'],[6,5,221,107])
+        checked = 0
+        for item in manifest['items']:
+            if not item['rendererKind'].startswith('forge-'):
+                continue
+            raw = (ROOT/item['file']).read_bytes()
+            metadata,_ = codec.reader.inspect_dimg(raw,metadata_only=True)
+            for frame in metadata['frames']:
+                source = references[f'{item["rendererKind"]}-{frame["index"]:02}']
+                with Image.open(ROOT/source['file']) as original:
+                    expected = bytearray(original.getchannel('A').tobytes())
+                if item['rendererKind']=='forge-confirm-panel':
+                    for y in range(5,107):
+                        start = y*frame['width']+6
+                        expected[start:start+215] = b'\xff'*215
+                start = frame['pixelDataOffset']
+                pixels = codec.reader.decode_frame_pixels(raw[start:start+frame['pixelByteLength']],
+                            frame['pixelMode'],frame['width'],frame['height'])
+                with self.subTest(nativePath=item['nativePath'],frame=frame['index']):
+                    self.assertEqual(pixels[3::4],bytes(expected))
+                checked += 1
+        self.assertEqual(checked,52)
 
     def test_loose_batches_reject_windows_case_collisions_before_writing(self):
         raw = self.container(8)

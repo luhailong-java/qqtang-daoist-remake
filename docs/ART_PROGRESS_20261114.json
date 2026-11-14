@@ -9,19 +9,21 @@
   "nativeClientUi": {
     "manifest": {
       "file": "assets/native-client-ui/login-v1/manifest.json",
-      "sha256": "bf7d5c9ea0133859259dbe82263ecb72cb48e8e2913e3c5fd7a0ba696341fa9e"
+      "sha256": "fa71828933c84699bd4e7f6b90a40d09c37127f760fd8290a78c6f458662199b"
     },
-    "installedResources": 242,
-    "sourcePositions": 570,
+    "installedResources": 313,
+    "sourcePositions": 754,
     "sourcePackedUiCount": 772,
-    "installedPackedUiCount": 240,
+    "installedPackedUiCount": 311,
     "allUiComplete": false,
     "nativeRuntimeVerified": false,
-    "remainingUiCensusImagePaths": 3384,
+    "remainingUiCensusImagePaths": 3313,
     "censusAudit": {
       "file": "docs/native-ui-remaining-20261114.json",
-      "sha256": "838cc2cd60cd51b795ad97bbf2817ffc1ca01d2aec135af59f3da689af7287b1"
-    }
+      "sha256": "6347f2cd0ea8eccea34c83c933ea9c40f791f6ed69d433ef59dfb8a15a011e53"
+    },
+    "upstreamPetExpressionMothers": 5,
+    "alphaNormalizationExceptions": 1
   },
   "nativeInventory": {
     "manifest": {
@@ -49,7 +51,7 @@
   },
   "installation": {
     "file": "docs/native-client-installation-20261114.json",
-    "sha256": "7d03877e152c4b6af05a6b5541c34a29ce0c0813be0db32ff290df61a747d2f9"
+    "sha256": "0e0dadcd4a22f54d14b9b59735d7745cd7be8d969818063a92e0a6e91ec9ab87"
   },
   "itemInventory": {
     "sourceCount": 2945,
@@ -105,10 +107,10 @@
   "nativeArtBundle": {
     "manifest": {
       "file": "assets/native-client-bundle/review-v1/manifest.json",
-      "sha256": "b94ff6c6c4ff86593ace0215d06887d9b8e515a45c9cdeae8aaf07f02bae5ba3"
+      "sha256": "3d070f67c2f4d00f7bf02cc7d464adf26e9527a4f23222c3f6e07cbaa568bf2e"
     },
-    "installedResources": 887,
-    "sourcePositions": 1528,
+    "installedResources": 958,
+    "sourcePositions": 1712,
     "fullGameArtComplete": false
   },
   "nativeUiColorData": {
@@ -118,7 +120,7 @@
     },
     "installation": {
       "file": "docs/native-ui-color-installation-20261114.json",
-      "sha256": "3e53185a05f249c544aa9031980c2359fb01914b8de7c40f35c737cba5ce19a7"
+      "sha256": "1aae73c3d28715100e7b1642497e0ae2c059888a532d27259ce132cbdc640c92"
     },
     "modifiedFiles": 1,
     "changedByteOffsets": [
@@ -126,7 +128,10 @@
     ],
     "unchangedCodeScopes": 830,
     "visualAccepted": false,
-    "nativeRuntimeVerified": false
+    "nativeRuntimeVerified": false,
+    "currentUiMainSha256": "132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38",
+    "colorLayerIntermediateUiMainSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+    "changedByteOffsetScope": "Original to color intermediate only; later text serialization is verified separately"
   },
   "characterNativeIntegrationPlan": {
     "file": "docs/native-character-integration-plan-20261114.json",
@@ -137,6 +142,26 @@
     "sha256": "c83448d4b7d6f4e769deaa1c7407f951bac1ff46eb0912c71b04066f619e6870",
     "sourceModules": 13,
     "sourceNameOrSiteOccurrences": 19,
-    "allNativeUiBrandingComplete": false
+    "allNativeUiBrandingComplete": false,
+    "sourceBaselineOnly": true,
+    "knownNonUrlOccurrencesReplaced": 9,
+    "remainingBaselineSiteOccurrences": 10
+  },
+  "nativeUiBrandTextData": {
+    "plan": {
+      "file": "assets/native-client-ui/brand-text-v1/manifest.json",
+      "sha256": "780f4e37a59c88d273654af66406246b64d5dd7c3c336246fb83cb99ff28ddcd"
+    },
+    "targetFiles": 5,
+    "displayConstantChanges": 9,
+    "unchangedCodeScopes": 2257,
+    "installed": true,
+    "nativeRuntimeVerified": false,
+    "visualAccepted": false,
+    "installation": {
+      "file": "docs/native-ui-brand-installation-20261114.json",
+      "sha256": "ff62de5d68ec1e98aa14c69e40a7c2907404fabb1a813497a7b294f1765feaeb"
+    },
+    "unchangedUrlConstants": 10
   }
 }

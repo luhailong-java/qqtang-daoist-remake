@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "sourceReferences": {
+    "file": "assets/native-client-ui/pet-controls-reference/manifest.json",
+    "sha256": "c02b66f255a3a712da16de9de1a8eb0c9f9c40e01f5c0e8952edd10e0b7a92d1"
+  },
+  "sourceGlobalLiteralScope": {
+    "module": "uiMain",
+    "scope": "?",
+    "sourceFirstLine": 3,
+    "bytecodeSha256": "854a5252ea30dab6c6457f4a9470e44c1dc9981a0df403d77e42c6ef533957a7",
+    "literalAssignments": {
+      "uiPlayerInfoDlg": "UI.playerInfoDlg",
+      "uiSetupDlg": "UI.setupDlg",
+      "uiGuideBar": "UI.guideBar",
+      "uiSocialityDlg": "UI.socialityDlg",
+      "uiMenuDlg": "UI.menuDlg",
+      "uiKinCreateHintDlg": "UI.createkinhintDlg",
+      "uiKinCreateDlg": "UI.createkinDlg",
+      "uitopKinDlg": "UI.topkinDlg",
+      "uiKinInfoDlg": "UI.kinInfoDlg",
+      "uiKinInviteDlg": "UI.kinInviteDlg",
+      "uiKinTipDlg": "UI.kinTipDlg",
+      "uiAddFriendDlg": "UI.requestMakeFriendsDlg",
+      "uiBeAddedFriendDlg": "UI.friendDlg",
+      "uiPlayerMenu": "UI.playerMenu",
+      "uiSparkDlg": "UI.sparkDlg",
+      "uiReceiveSparkDlg": "UI.receiveSparkDlg",
+      "uiMarriageDlg": "UI.marriageInfoDlg",
+      "uiDivorceDlg": "UI.divorceDlg",
+      "uiModifyLoveWordDlg": "UI.modifyLoveWordDlg",
+      "uiMarriageConfirmDlg": "UI.marriageConfirmDlg",
+      "uiWeddingOverDlg": "UI.weddingOverDlg",
+      "uiWeddingDlg": "UI.room.weddingDlg",
+      "uiTaskSelDlg": "UI.taskSelectDlg",
+      "uiSetRecorderDlg": "UI.SetRecorderDlg",
+      "uiSelroomPlayerList": "UI.selRoom.playerListDlg",
+      "uiTaskDlg": "UI.shop.taskDlg",
+      "uiRefineDlg": "UI.shop.refineDlg",
+      "uiForgeDlg": "UI.shop.refineDlg.forgeDlg",
+      "uiComposeDlg": "UI.shop.refineDlg.composeDlg",
+      "uiAvatarForgeDlg": "UI.shop.refineDlg.AvatarForgeDlg",
+      "uiForgeConfirmDlg": "UI.shop.refineDlg.forgeConfirmDlg",
+      "uiRoomStorageDlg": "UI.storageDlg",
+      "uiShopStorageDlg": "UI.shop.storageDlg",
+      "uiSelModeDlg": "UI.room.selModeDlg",
+      "uiModifyRoomDlg": "UI.room.modifyRoomDlg",
+      "uiMatchRoomDlg": "UI.room.matchDlg",
+      "uiGamePlayerList": "UI.game.playerListDlg",
+      "uiPvePlayerList": "UI.game.pvePlayerList",
+      "uiPveFuncDlg": "UI.game.pveFuncDlg",
+      "uiPetPan": "UI.selRoom.petPan",
+      "uiC2CInviteDlg": "UI.C2CInvite",
+      "uiC2CDealDlg": "UI.C2CDealDlg",
+      "uiPawnShopDlg": "UI.selRoom.pawnshop",
+      "lightColor": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "zoneChooseColor": [
+        255,
+        250,
+        236,
+        255
+      ],
+      "darkColor": [
+        102,
+        51,
+        0,
+        255
+      ],
+      "maskColor": [
+        51,
+        51,
+        51,
+        255
+      ],
+      "kinColor": [
+        153,
+        244,
+        255,
+        255
+      ],
+      "normalNameColor": [
+        199,
+        242,
+        252,
+        255
+      ],
+      "memberNameColor": [
+        255,
+        189,
+        222,
+        255
+      ],
+      "mark_shopPetTab": 0,
+      "joinMemberURL": "",
+      "shopEntry": 0,
+      "beInWeddingRoom": 0,
+      "weddingEffectFile": "effect\\lihua2.eff",
+      "practiceMode": 0,
+      "oldTotemEventCnt": -1,
+      "defShopStorageCnt": 48,
+      "defRoomEquipCnt": 7,
+      "curStorageID": 0,
+      "InvalidIdx": -1,
+      "playerModeDlg": [
+        "bunModeDlg",
+        "matchModeDlg",
+        "sculptureModeDlg"
+      ],
+      "playerModeImg": [
+        "img_bun.img",
+        "img_match.img",
+        "img_sculpture.img"
+      ],
+      "levelNum": 7,
+      "modeNum": 14
+    },
+    "activeControlFlowConfirmed": false
+  },
+  "sourceSymbolicAssignments": [
+    {
+      "scope": "?.UI_children_selRoom.children.petPan.children.nameEdit",
+      "sourceFirstLine": 3404,
+      "bytecodeSha256": "90e80acb38c52f0c25794c62e6541637370be816a5bcc190dd6aae3099a78982",
+      "loadByteOffset": 36,
+      "storeByteOffset": 39,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6505005a0600",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "scope": "?.UI_children_selRoom.children.petPan.children.level",
+      "sourceFirstLine": 3421,
+      "bytecodeSha256": "122c275da629f52b011d8d7c7d57fd8e9ec0b42bb073ae0d7e73e25b3675e91c",
+      "loadByteOffset": 30,
+      "storeByteOffset": 33,
+      "symbol": "darkColor",
+      "target": "drawcolor",
+      "instructionsHex": "6504005a0500",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "scope": "?.UI_children_selRoom.children.petPan.children.expValue",
+      "sourceFirstLine": 3430,
+      "bytecodeSha256": "6faea4724d75672d5283c60a2afe22894bec259ad2a559628b82d93283c97d85",
+      "loadByteOffset": 24,
+      "storeByteOffset": 27,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6503005a0400",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "scope": "?.UI_children_selRoom.children.petPan.children.loyaltyValue",
+      "sourceFirstLine": 3437,
+      "bytecodeSha256": "6faea4724d75672d5283c60a2afe22894bec259ad2a559628b82d93283c97d85",
+      "loadByteOffset": 24,
+      "storeByteOffset": 27,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6503005a0400",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "scope": "?.UI_children_selRoom.children.petPan.children.baseSkillDlg.children.skill0",
+      "sourceFirstLine": 3587,
+      "bytecodeSha256": "0235ff182e286db10e74c931a75c437050febd22e0ef894c4db9ca89732979d3",
+      "loadByteOffset": 42,
+      "storeByteOffset": 45,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6506005a0700",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "scope": "?.UI_children_selRoom.children.petPan.children.skillDlg.children.skill0",
+      "sourceFirstLine": 3620,
+      "bytecodeSha256": "0235ff182e286db10e74c931a75c437050febd22e0ef894c4db9ca89732979d3",
+      "loadByteOffset": 42,
+      "storeByteOffset": 45,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6506005a0700",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    },
+    {
+      "scope": "?.UI_children_selRoom.children.petPan.children.foodDlg.children.petItem0.children.itemNum",
+      "sourceFirstLine": 3551,
+      "bytecodeSha256": "6faea4724d75672d5283c60a2afe22894bec259ad2a559628b82d93283c97d85",
+      "loadByteOffset": 24,
+      "storeByteOffset": 27,
+      "symbol": "lightColor",
+      "target": "drawcolor",
+      "instructionsHex": "6503005a0400",
+      "recognizer": "Adjacent LOAD_NAME / STORE_NAME only",
+      "bytecodeExecuted": false
+    }
+  ],
+  "samples": [
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_pet-00.png",
+        "sha256": "3ddcc91e617ef96cc65cac604d27df64928219698ee4bf6c747e45cc6271424b"
+      },
+      "field": "nameEdit",
+      "samplePixel": [
+        70,
+        164
+      ],
+      "sourceGlobal": "lightColor",
+      "nativeForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledBackgroundRgb": [
+        32,
+        76,
+        65
+      ],
+      "contrastRatio": 9.670634092882723
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_pet-00.png",
+        "sha256": "3ddcc91e617ef96cc65cac604d27df64928219698ee4bf6c747e45cc6271424b"
+      },
+      "field": "level",
+      "samplePixel": [
+        100,
+        191
+      ],
+      "sourceGlobal": "darkColor",
+      "nativeForegroundRgba": [
+        102,
+        51,
+        0,
+        255
+      ],
+      "sampledBackgroundRgb": [
+        246,
+        234,
+        213
+      ],
+      "contrastRatio": 8.657654169939569
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_pet-00.png",
+        "sha256": "3ddcc91e617ef96cc65cac604d27df64928219698ee4bf6c747e45cc6271424b"
+      },
+      "field": "expValue",
+      "samplePixel": [
+        195,
+        213
+      ],
+      "sourceGlobal": "lightColor",
+      "nativeForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledBackgroundRgb": [
+        32,
+        76,
+        65
+      ],
+      "contrastRatio": 9.670634092882723
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_pet-00.png",
+        "sha256": "3ddcc91e617ef96cc65cac604d27df64928219698ee4bf6c747e45cc6271424b"
+      },
+      "field": "loyaltyValue",
+      "samplePixel": [
+        195,
+        231
+      ],
+      "sourceGlobal": "lightColor",
+      "nativeForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledBackgroundRgb": [
+        32,
+        76,
+        65
+      ],
+      "contrastRatio": 9.670634092882723
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_baseskill-00.png",
+        "sha256": "29c9e800888648f813bb556bd5811b4a7c5e429965534bcd2dcec5a32d4e756d"
+      },
+      "field": "baseSkillDlg.children.skill0",
+      "samplePixel": [
+        50,
+        25
+      ],
+      "sourceGlobal": "lightColor",
+      "nativeForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledBackgroundRgb": [
+        32,
+        76,
+        65
+      ],
+      "contrastRatio": 9.670634092882723
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_skill-00.png",
+        "sha256": "be61f5836d44f5f6fc76be7896da42816fb1bbd4056b384b125d7add245f648e"
+      },
+      "field": "skillDlg.children.skill0",
+      "samplePixel": [
+        50,
+        15
+      ],
+      "sourceGlobal": "lightColor",
+      "nativeForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledBackgroundRgb": [
+        32,
+        76,
+        65
+      ],
+      "contrastRatio": 9.670634092882723
+    },
+    {
+      "nativePreview": {
+        "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_food-00.png",
+        "sha256": "169b00905d803a158341f8239c790c615dbf57e36ef6f261c5e4dafc7b39725b"
+      },
+      "field": "foodDlg.children.petItem0.children.itemNum",
+      "samplePixel": [
+        45,
+        48
+      ],
+      "sourceGlobal": "lightColor",
+      "nativeForegroundRgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sampledBackgroundRgb": [
+        32,
+        76,
+        65
+      ],
+      "contrastRatio": 9.670634092882723
+    }
+  ],
+  "sampleThreshold": 4.5,
+  "interpretation": "Adjacent symbolic source stores and source global literals sampled against final native decoded backgrounds",
+  "runtimeTextRenderingVerified": false,
+  "userVisualAccepted": false
+}

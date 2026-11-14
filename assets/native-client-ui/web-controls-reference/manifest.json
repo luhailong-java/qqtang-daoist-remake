@@ -1,0 +1,1464 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only source image and literal UI reference evidence",
+  "source": {
+    "archiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+    "archiveFile": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "package": {
+      "file": ".artifacts/reference-inputs/object.pkg",
+      "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+    },
+    "index": {
+      "file": ".artifacts/reference-inputs/object.idx",
+      "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+    },
+    "sourceModules": [
+      {
+        "module": "uiMain",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+        "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+        "byteLength": 301556,
+        "parsedObjects": 20766,
+        "scopeCount": 830,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiTemplate",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+        "sha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+        "byteLength": 12924,
+        "parsedObjects": 753,
+        "scopeCount": 34,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiFunc",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiFunc.pyc",
+        "sha256": "5dda49db4da87eee54418c4655b6922283fa3f9ad2dd38923fde31883ad02656",
+        "byteLength": 20447,
+        "parsedObjects": 1170,
+        "scopeCount": 49,
+        "bytecodeExecuted": false
+      },
+      {
+        "module": "uiShop",
+        "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+        "sha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+        "byteLength": 359992,
+        "parsedObjects": 20107,
+        "scopeCount": 798,
+        "bytecodeExecuted": false
+      }
+    ],
+    "inventory": {
+      "file": "references/qqtang-ui-data/native-ui-inventory.json",
+      "sha256": "400c1ecf633858276906092c9d340037ebd036957aab0327fea33c5a7f682197"
+    }
+  },
+  "decodeScript": {
+    "file": "assets/native-client-ui/web-controls-reference/decode-references.py",
+    "sha256": "a16fb3272225ba2bb6d828e16e3078cfd02578e72e42db056809569ff01f765c"
+  },
+  "resources": [
+    {
+      "nativePath": "object/ui/web/bg_web.img",
+      "sourceSha256": "6d2306382f343c65b3a6bb5269b6e867bd4b1a0f441c82cde060d588579eebca",
+      "compressedSha256": "548657465b7698f07257cdf37e313b8c0dfc6da7249351e5007f14d0e2954cf7",
+      "packageEntry": {
+        "ordinal": 3472,
+        "indexOffset": 176239,
+        "path": "object\\ui\\web\\bg_web.img",
+        "reservedWord": 0,
+        "packageOffset": 35527895,
+        "rawByteLength": 60068,
+        "compressedByteLength": 925
+      },
+      "metadata": {
+        "byteLength": 60068,
+        "sha256": "6d2306382f343c65b3a6bb5269b6e867bd4b1a0f441c82cde060d588579eebca",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          25
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 800,
+            "height": 25,
+            "unknownImageHeaderWord": 1600,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 60000,
+            "encodedPixelSha256": "e7bb349b675ed5f89f883b9aa694ed14d569a4bdded6ec32b6963bd343f630cc"
+          }
+        ],
+        "parsedByteLength": 60068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/bg_web/frame-000.png",
+          "sha256": "347b159438ee1f634bd34619900e56e869adb748f2721b6cd03794fb32b9fc03",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            800,
+            25
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "bb86b662b10667475fd7a40b0fcbdc5b8e2b119bc218761b3b25273e033d768d",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/btn_back_hit.img",
+      "sourceSha256": "f4a736db801b6cbc19b649ff24819a91d5c989921ab2c08be08e6e0f77afc404",
+      "compressedSha256": "44c6ba4ae93add9a7e7a6ca668f89d6d5bd026eb181a1c1a6bdd7600a658ac43",
+      "packageEntry": {
+        "ordinal": 3474,
+        "indexOffset": 176329,
+        "path": "object\\ui\\web\\btn_back_hit.img",
+        "reservedWord": 0,
+        "packageOffset": 35531427,
+        "rawByteLength": 10042,
+        "compressedByteLength": 2432
+      },
+      "metadata": {
+        "byteLength": 10042,
+        "sha256": "f4a736db801b6cbc19b649ff24819a91d5c989921ab2c08be08e6e0f77afc404",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          58,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "2d54c9b3d73766f107bf41bbd7adda58ecb1bd24adbb3544da307e18538ca230"
+          },
+          {
+            "index": 1,
+            "offset": 3374,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 3402,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "326adb5cf4681ea87be10ec98def59e13249a299f6e19642cc8c655a6d422239"
+          },
+          {
+            "index": 2,
+            "offset": 6708,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 6736,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "cc909e194086ec920f18bd02ea53b61ffd13ae33cd1d431321b72f072230040f"
+          }
+        ],
+        "parsedByteLength": 10042,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_back_hit/frame-000.png",
+          "sha256": "0911a4903fd9db8f790bddf099263f1404de6bc188f4534f355789df2823a04f",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "15ec30b0b45ffd000bb888d7203dd55b1f945821141ca004972ec7e7d4a896dd",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_back_hit/frame-001.png",
+          "sha256": "bc3e26d60093c81d7892d48a2f0ccda2abd2867c4e2e51e0c3384a89cd4b0a29",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "5d54afab6127883dcf7700644bdcc7351b9930a7a7084655795f861336fe1605",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_back_hit/frame-002.png",
+          "sha256": "97dc3db60873eb8de2dfe6f999d60a4d8f079386bbfc3c2ec325d32bce9b823d",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ed317b5ddc786848b1e638450f59d7a276391604f97884c2d432ff239f8e3490",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/btn_backward.img",
+      "sourceSha256": "530d6c38bfbbc4094a5a2eacc5f2abdc80f40e99f27ee8547224f21fee2bbdf5",
+      "compressedSha256": "49b4679066ec8e3804c046b9e1d2ee2665f92fd523e22baf12f75a782bec5751",
+      "packageEntry": {
+        "ordinal": 3473,
+        "indexOffset": 176281,
+        "path": "object\\ui\\web\\btn_backward.img",
+        "reservedWord": 0,
+        "packageOffset": 35528820,
+        "rawByteLength": 10042,
+        "compressedByteLength": 2607
+      },
+      "metadata": {
+        "byteLength": 10042,
+        "sha256": "530d6c38bfbbc4094a5a2eacc5f2abdc80f40e99f27ee8547224f21fee2bbdf5",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          58,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "63a9043bd08bd94c86b0407166120f916baafa10166b995c7f508e3d42d5e9fd"
+          },
+          {
+            "index": 1,
+            "offset": 3374,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 3402,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "eec926b5a594441561ee46e6d4fa7532ce13bc69039075a76c0988ee60d4653c"
+          },
+          {
+            "index": 2,
+            "offset": 6708,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 6736,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "39d9f3eafc951ceece4a088e34152a64b01dd3ee93cf9144aa4954328f3ccd20"
+          }
+        ],
+        "parsedByteLength": 10042,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_backward/frame-000.png",
+          "sha256": "664cc13a5cbb2da6c78975279f0956dec18545594980fd7c1f38747b815e2d4d",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "904779f46d693b0af60c1f0d7946e18ec4e09d4fd6c7db887a5a9d51475bc9a1",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_backward/frame-001.png",
+          "sha256": "79e270b506ec0d8506d3eb41e295356f4a6286a1e8b7a9e2ddb81056c2701b04",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "1c555a3b495d935220d6947866cf03c93f2fb26dd36357395bbf7239dbf4a47a",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_backward/frame-002.png",
+          "sha256": "0e7fd59dc468b6d12c082731a1b36e621197951c7656e31a21c8620edcc6954a",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "d6f132f7607406b28f038607fc4fe1efe6677a61b986405fb2c5e93de9bd89d0",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/btn_cross.img",
+      "sourceSha256": "2835bbcc7b5803019195db87a94d911a800932448bd553348cc14496042e56ce",
+      "compressedSha256": "69ef1545d33b64cc701b3b0c83dafc88e5a05790ca86e864debfff48689dea51",
+      "packageEntry": {
+        "ordinal": 3475,
+        "indexOffset": 176377,
+        "path": "object\\ui\\web\\btn_cross.img",
+        "reservedWord": 0,
+        "packageOffset": 35533859,
+        "rawByteLength": 4480,
+        "compressedByteLength": 1842
+      },
+      "metadata": {
+        "byteLength": 4480,
+        "sha256": "2835bbcc7b5803019195db87a94d911a800932448bd553348cc14496042e56ce",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          22,
+          22
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 22,
+            "height": 22,
+            "unknownImageHeaderWord": 48,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1452,
+            "encodedPixelSha256": "d7911d8dcaaf3eb6e7f662e50ce676791f049639874ccfdc2eb2c9aea40b2706"
+          },
+          {
+            "index": 1,
+            "offset": 1520,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 22,
+            "height": 22,
+            "unknownImageHeaderWord": 48,
+            "empty": false,
+            "pixelDataOffset": 1548,
+            "pixelByteLength": 1452,
+            "encodedPixelSha256": "f240d64922a6c3bcf7515912998ab1006ca503e8946bc1b4cc3c8bb10cc0e128"
+          },
+          {
+            "index": 2,
+            "offset": 3000,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 22,
+            "height": 22,
+            "unknownImageHeaderWord": 48,
+            "empty": false,
+            "pixelDataOffset": 3028,
+            "pixelByteLength": 1452,
+            "encodedPixelSha256": "6bffab32424695b55c0fcefc37826b93fa346a37f7b1b3dd0479f5041d34fa16"
+          }
+        ],
+        "parsedByteLength": 4480,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_cross/frame-000.png",
+          "sha256": "5e6bd2613a4582646c63d1603966ddf070cea3c6e2d6985f8bf858f4eb5f4bca",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            22,
+            22
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "b911d251df3a0c9525c679a2973eee190351b37006304338437f877f24f0afa8",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_cross/frame-001.png",
+          "sha256": "d4f36071c4599fe6795085a6ee1d6985f9617d8bb3e3468af8b62d787a6c4262",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            22,
+            22
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "02543962aa57e236c6e307fa01cc6284e82577e8c3e88ed63fd44dc7ce6c9599",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_cross/frame-002.png",
+          "sha256": "9a3de89dbf906815a9fbcb69b716b21de8fc931f2fd1db6accd0bac67011286d",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            22,
+            22
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "413023e6553e95a92f7a721f751e79d5b97af9a9042a6c0791b7e2f0707f5631",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/btn_forward.img",
+      "sourceSha256": "53e46b93f3d087dd788e977d5f1879bbdff2ae3cb45d315ee1698c3252b5a36a",
+      "compressedSha256": "6d3c185d03576039a03200a6753900d7d4a1e31e10aea54fe3d2b8c9664904ca",
+      "packageEntry": {
+        "ordinal": 3476,
+        "indexOffset": 176422,
+        "path": "object\\ui\\web\\btn_forward.img",
+        "reservedWord": 0,
+        "packageOffset": 35535701,
+        "rawByteLength": 10042,
+        "compressedByteLength": 2608
+      },
+      "metadata": {
+        "byteLength": 10042,
+        "sha256": "53e46b93f3d087dd788e977d5f1879bbdff2ae3cb45d315ee1698c3252b5a36a",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          58,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "d92a066f9c8871c1740690b8e8b1fb8140d4870486057f7dad622f331b4b9378"
+          },
+          {
+            "index": 1,
+            "offset": 3374,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 3402,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "ae54dfc919200d5368aed1bf32d9be683b169147722213781ac6d083470ac1ff"
+          },
+          {
+            "index": 2,
+            "offset": 6708,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 6736,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "59de009c4df9a75b233c73d2dcc87bb2fd04aa63afa81409a3c36fbcfe370775"
+          }
+        ],
+        "parsedByteLength": 10042,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_forward/frame-000.png",
+          "sha256": "9855211e358ae82a49fe8fc0b8a5e2b52ccbbe63fafe99051581368c67e3e9ff",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "bb3c1e6c3af40689d6686775ae114f50571b6503c6b858a07b126362afa89ee4",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_forward/frame-001.png",
+          "sha256": "6914e4f0eb63c2b5fd83d1918b91671b4c0bf049806bcaf2018aaee3cd06e5cb",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "c14a3c410b79700148dda398e3a1de55398e4a249e39072284a3701ad4ae0ee0",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_forward/frame-002.png",
+          "sha256": "730453cf6278d20c926c1f03a8772e425fdc785925f81abd87943caa0678581f",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "dd066abc9ff2e73a381267f6b604343b826e1678e2045707d9bed58258b6946a",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/btn_forward_hit.img",
+      "sourceSha256": "52ae54c49c42261b371192e34b7777658d9fdede6df45d9e6ce6d0a94c39ff0c",
+      "compressedSha256": "61891a77042a3624216a98d60e17c4b847ecb7af28550dffef027549ae8155ab",
+      "packageEntry": {
+        "ordinal": 3477,
+        "indexOffset": 176469,
+        "path": "object\\ui\\web\\btn_forward_hit.img",
+        "reservedWord": 0,
+        "packageOffset": 35538309,
+        "rawByteLength": 10042,
+        "compressedByteLength": 2754
+      },
+      "metadata": {
+        "byteLength": 10042,
+        "sha256": "52ae54c49c42261b371192e34b7777658d9fdede6df45d9e6ce6d0a94c39ff0c",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          58,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "7798a927d83b2751e6ab1a9ce4bf7ffa1b0799cb9085c034584ca8fde07075ba"
+          },
+          {
+            "index": 1,
+            "offset": 3374,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 3402,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "cb86bf4e8d85c0fab61a7f9ae6c25d377866df7f248977c52da6420f56aabebf"
+          },
+          {
+            "index": 2,
+            "offset": 6708,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 6736,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "3311de6d17f80b783e3dbcca63fb9a6718b4e54dca06eb8cd91d07a37209b3c6"
+          }
+        ],
+        "parsedByteLength": 10042,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_forward_hit/frame-000.png",
+          "sha256": "841bb2c98b2300cf09644de5d466001b06d858fe30fa57b5d8e4cc3973222130",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ebf89802d4d12edfd1f2d55f86a10a8e15190aeebc68d87b9296b497df7921ad",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_forward_hit/frame-001.png",
+          "sha256": "4e37940b320d91d17ed4f1a721990ee7b1061f56581bd20c438b96d59d7d75c4",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "92ace7094cdeeaeb1ff9ff21d7afd0f2c5d39e90bd819013e6440233e282c9db",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_forward_hit/frame-002.png",
+          "sha256": "08680ce7ea5702153defbbeef473a2017c0e7f456eacdc4b68cc8af50ae1ec6d",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "f3f7888529b760365642f8354501200c201d5c29813e3a376b2496c64eb5a351",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/btn_leave.img",
+      "sourceSha256": "2992ac1115946b3f3e1075512f54a2f1ce57592445f0e53632142f1394260cb7",
+      "compressedSha256": "33f5ef8be5e2976cc42822895b80d3c48f6c7abedd479dce819a3adc3be02cf4",
+      "packageEntry": {
+        "ordinal": 3478,
+        "indexOffset": 176520,
+        "path": "object\\ui\\web\\btn_leave.img",
+        "reservedWord": 0,
+        "packageOffset": 35541063,
+        "rawByteLength": 10042,
+        "compressedByteLength": 2945
+      },
+      "metadata": {
+        "byteLength": 10042,
+        "sha256": "2992ac1115946b3f3e1075512f54a2f1ce57592445f0e53632142f1394260cb7",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          58,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "4f55d850d568b21e117ff6f0cdd96d7b2f3212b1029dacf85a766353329d0b4e"
+          },
+          {
+            "index": 1,
+            "offset": 3374,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 3402,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "e7ace692b3b6035f3a676ab7cf51ec19643ba6eb6afed00603dcd928409729df"
+          },
+          {
+            "index": 2,
+            "offset": 6708,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 6736,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "16075b911bfea561baad651f6251428b0b7467af5b9b0bb389384fbd4f281748"
+          }
+        ],
+        "parsedByteLength": 10042,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_leave/frame-000.png",
+          "sha256": "55d79e41965196bf44f23028b88240b0d5507f2a5533c110198e386f7a835534",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ca4e226dc72d1aac634dbcccd7399ff52e5eb8d67c7721d3180d67de38e20ac3",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_leave/frame-001.png",
+          "sha256": "751a44dd129bde0c26421e797580c2f0986479df6b61446d87d58d0ae65ff11e",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ee3887326bca6865f16921acd345dbb9d3947bf128da981ad19009e93dad8f41",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_leave/frame-002.png",
+          "sha256": "fe2076b3e514adaa11366e24d35308625645c014f5ca0c8703927ad8fa67f963",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "9d15963760757a63406c29b29704b7ff4d84253968dcca1f6d5b4ee29f3dc834",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/btn_return_hit.img",
+      "sourceSha256": "2992ac1115946b3f3e1075512f54a2f1ce57592445f0e53632142f1394260cb7",
+      "compressedSha256": "33f5ef8be5e2976cc42822895b80d3c48f6c7abedd479dce819a3adc3be02cf4",
+      "packageEntry": {
+        "ordinal": 3479,
+        "indexOffset": 176565,
+        "path": "object\\ui\\web\\btn_return_hit.img",
+        "reservedWord": 0,
+        "packageOffset": 35544008,
+        "rawByteLength": 10042,
+        "compressedByteLength": 2945
+      },
+      "metadata": {
+        "byteLength": 10042,
+        "sha256": "2992ac1115946b3f3e1075512f54a2f1ce57592445f0e53632142f1394260cb7",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          58,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "4f55d850d568b21e117ff6f0cdd96d7b2f3212b1029dacf85a766353329d0b4e"
+          },
+          {
+            "index": 1,
+            "offset": 3374,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 3402,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "e7ace692b3b6035f3a676ab7cf51ec19643ba6eb6afed00603dcd928409729df"
+          },
+          {
+            "index": 2,
+            "offset": 6708,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 58,
+            "height": 19,
+            "unknownImageHeaderWord": 120,
+            "empty": false,
+            "pixelDataOffset": 6736,
+            "pixelByteLength": 3306,
+            "encodedPixelSha256": "16075b911bfea561baad651f6251428b0b7467af5b9b0bb389384fbd4f281748"
+          }
+        ],
+        "parsedByteLength": 10042,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_return_hit/frame-000.png",
+          "sha256": "55d79e41965196bf44f23028b88240b0d5507f2a5533c110198e386f7a835534",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ca4e226dc72d1aac634dbcccd7399ff52e5eb8d67c7721d3180d67de38e20ac3",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_return_hit/frame-001.png",
+          "sha256": "751a44dd129bde0c26421e797580c2f0986479df6b61446d87d58d0ae65ff11e",
+          "sourceFrameIndex": 1,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "ee3887326bca6865f16921acd345dbb9d3947bf128da981ad19009e93dad8f41",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/btn_return_hit/frame-002.png",
+          "sha256": "fe2076b3e514adaa11366e24d35308625645c014f5ca0c8703927ad8fa67f963",
+          "sourceFrameIndex": 2,
+          "empty": false,
+          "nativeSize": [
+            58,
+            19
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "9d15963760757a63406c29b29704b7ff4d84253968dcca1f6d5b4ee29f3dc834",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/frame_webpage_b.img",
+      "sourceSha256": "67fddb57a9ab76d156afd33a14ae8b4b2aaace13195cd411b8dfd2caf34e6c4b",
+      "compressedSha256": "450d801c311a88e3d639e6fb958385f75700a44c2dbfaafa29a9a6b583077e6d",
+      "packageEntry": {
+        "ordinal": 3480,
+        "indexOffset": 176615,
+        "path": "object\\ui\\web\\frame_webpage_b.img",
+        "reservedWord": 0,
+        "packageOffset": 35546953,
+        "rawByteLength": 60068,
+        "compressedByteLength": 1593
+      },
+      "metadata": {
+        "byteLength": 60068,
+        "sha256": "67fddb57a9ab76d156afd33a14ae8b4b2aaace13195cd411b8dfd2caf34e6c4b",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          25
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 800,
+            "height": 25,
+            "unknownImageHeaderWord": 1600,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 60000,
+            "encodedPixelSha256": "9207a9d78178756ad129def9262e81957c408c2bd75648c8f252a293e434a3a0"
+          }
+        ],
+        "parsedByteLength": 60068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/frame_webpage_b/frame-000.png",
+          "sha256": "295d4ac8440a15ac5d27b4c4bc9c14548f2d8fc15a2418f1086cc858ddb235d9",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            800,
+            25
+          ],
+          "frameOffsetRaw": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "48cf4a7f15c95a6247d2939064e08b1ef0bf34deb97e06604e83921618015346",
+          "alphaExtrema": [
+            0,
+            151
+          ]
+        }
+      ],
+      "sourceBindings": []
+    },
+    {
+      "nativePath": "object/ui/web/webpannel.img",
+      "sourceSha256": "3048d537732420e95cd41e925ba079916b14dc91d784b2bdb4e8994cc41ff86b",
+      "compressedSha256": "60ad066c9fb8c902d0ec9502cd1f10be6e365a1660e18f536535944de4702cdc",
+      "packageEntry": {
+        "ordinal": 3481,
+        "indexOffset": 176666,
+        "path": "object\\ui\\web\\webPannel.img",
+        "reservedWord": 0,
+        "packageOffset": 35548546,
+        "rawByteLength": 291344,
+        "compressedByteLength": 5024
+      },
+      "metadata": {
+        "byteLength": 291344,
+        "sha256": "3048d537732420e95cd41e925ba079916b14dc91d784b2bdb4e8994cc41ff86b",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          1
+        ],
+        "declaredCanvas": [
+          348,
+          279
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 348,
+            "height": 279,
+            "unknownImageHeaderWord": 696,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 291276,
+            "encodedPixelSha256": "47609cb35bbb2c571362a82a7bf383e4f612202c902be68e996c05ab347a3942"
+          }
+        ],
+        "parsedByteLength": 291344,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "frames": [
+        {
+          "file": "assets/native-client-ui/web-controls-reference/frames/web/webpannel/frame-000.png",
+          "sha256": "b0dc6fb8733006238d17bba3fada30fe0a42c028eb2575679076a56d0b9588c0",
+          "sourceFrameIndex": 0,
+          "empty": false,
+          "nativeSize": [
+            348,
+            279
+          ],
+          "frameOffsetRaw": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "decodedRgbaSha256": "b46aa38e259993624d644ce995dc8a83fa7736ab9c3c5bf63b5cdb16bbd06855",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "sourceBindings": []
+    }
+  ],
+  "resourceCount": 10,
+  "decodedNonemptyFrameCount": 24,
+  "previews": [
+    {
+      "file": "assets/native-client-ui/web-controls-reference/source-all-states.png",
+      "sha256": "1904affe9f40c97d373f0d6eb56f066f6a98c4c1ec6193ea10fe9fc3f4df11b1"
+    }
+  ],
+  "sourcePixelsOnly": true,
+  "sourceClientMutated": false,
+  "nativeRuntimeVerified": false,
+  "interpretation": "Static literal scope and decoded source pixels. Runtime active flow and button-state semantic ordering require further evidence."
+}

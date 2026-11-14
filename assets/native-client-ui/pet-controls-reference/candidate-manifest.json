@@ -1,0 +1,2491 @@
+{
+  "schemaVersion": 1,
+  "scope": "Native pet control candidates; five mood indices keep distinct own emotion artwork",
+  "sourceReferences": {
+    "file": "assets/native-client-ui/pet-controls-reference/manifest.json",
+    "sha256": "c02b66f255a3a712da16de9de1a8eb0c9f9c40e01f5c0e8952edd10e0b7a92d1"
+  },
+  "renderer": {
+    "file": "scripts/native-ui-pet-controls-art.py",
+    "sha256": "fa4df87d2db820db8835c9bd26cbda99e34d5235abed8914eaa876826342402c"
+  },
+  "verificationScript": {
+    "file": "assets/native-client-ui/pet-controls-reference/verify-renderer.py",
+    "sha256": "f1e4e4cb0f691badfe2a8c8da628120b31cf848d2f04cd41cdb79ead16219e0d"
+  },
+  "buildHelpers": {
+    "file": "scripts/build-native-login-art.py",
+    "sha256": "97ad89f07f0909c2b95257c9b2643eea6191520648bfa222836d86c8461b6f3e"
+  },
+  "codec": {
+    "file": "scripts/native-ui-format.py",
+    "sha256": "e06d8634fe409f1c6ebfdbdc66b1911bbbb49c3d533345cc756e26aa74189de8"
+  },
+  "paintInputs": [
+    {
+      "file": "assets/ui/window-frame.png",
+      "sha256": "49c3320e05c1b6287f3719621ede8a4f186c1cdcdcc5fb9284c7b6362a6e635e"
+    },
+    {
+      "file": "assets/ui/primary-normal.png",
+      "sha256": "2bec2f36e6ffef7c449a6d3310a58986dcaaf14862ce44c6d44318952e7d77c4"
+    },
+    {
+      "file": "assets/ui/primary-hover.png",
+      "sha256": "3adc94f824dda6f831357aa2c102ad4d6e17427dd27a5affd1ac11e2f95ef4ec"
+    },
+    {
+      "file": "assets/ui/primary-pressed.png",
+      "sha256": "14192d0aefd464ce3b403f577eba25f04efa77bbb2d0299fd863d61a9715a446"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face0-master.png",
+      "sha256": "60416e31649b89856b684175fcb5632c3eb464717ceaf005b8ff31fa69faa06a"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face1-master.png",
+      "sha256": "536232eefa3ecee2652821dbd63956b78e88672c1c56d08488ac7dbe28c9dac7"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face2-master.png",
+      "sha256": "3f6648ab58c8078a5662b2ac35aca40d1c076248be81739c29ceb577dfdbd55b"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face3-master.png",
+      "sha256": "49db58a3271ae53154625ddc9f9efca58f4d20b312b665d54bd6b830d640345a"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face4-master.png",
+      "sha256": "f414b01c5eaecadff3e9c19c218248cc4c4d034864e01234859d16f1a4b060df"
+    }
+  ],
+  "font": {
+    "family": "Microsoft YaHei",
+    "sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f"
+  },
+  "symbolFont": {
+    "fileName": "seguisym.ttf",
+    "sha256": "a4a35dcc62cd30e1a6c97b695ecef83e59d2b149e3af834f6a49f11851d56b37"
+  },
+  "structuralAlphaInputs": [
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/dlg_food-000.png",
+      "sha256": "df6dcb3239d47aedfdecadb6c4e46dc8fd0e72b8d44a02acc2a6428767ce5761"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/img_exp-000.png",
+      "sha256": "8d7dc1f62d2388b3f1c0221fb223230ecad8c184032a76d99dc5f93e80591b0e"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-000.png",
+      "sha256": "025a29363abe402e49ea666432e22981f535d88e4233b44c8c510afac7c5b9b7"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-001.png",
+      "sha256": "f6c5d4e9f77dc6e5715741ce6e34e3b502b37fef16ee0803aecdfd7214313b3c"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-002.png",
+      "sha256": "c552bcf98c884a4d853ae228b1b9891bd10551be9e8ad02c87f2b3c2914c9b3e"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-003.png",
+      "sha256": "9bc6d4b0974ca37c18b596a5584fe12911d06ce054774c61bc781f7da5296065"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-000.png",
+      "sha256": "0d69845071c4936cc174ebdd7f43582259d912befc34c4d181cb169a876d79fa"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-001.png",
+      "sha256": "2cd02c7bf9fa7b476e33938329f73d09da67b0b31d1c8631dadfd467b60c677b"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-002.png",
+      "sha256": "37a2d9d80a648f6cd13a699024483d96a09fd621c8b71f45e97611dbf38f993f"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-003.png",
+      "sha256": "8f9b6915f883ded71c61a97a9baeca258e113fbe8e087caa4cc2264c8a61a107"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-000.png",
+      "sha256": "157572d845a919a8ce9d537a33361fa7b746c4842be2e7c370c1d2ff892cac39"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-001.png",
+      "sha256": "24317b1dc656a89ffc128a992fe3aff39d7b3bce40694184da9fda7e604662ca"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-002.png",
+      "sha256": "11564a610c8c43ed11b8fd69baeff47133104e1b37b250f1af4a319684ecb898"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-003.png",
+      "sha256": "22e86922ae3471e15bee6cf82b962b6d0c7a5d3226a50ba3ba422ef23f605f3e"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-000.png",
+      "sha256": "f7314640e239b21dc7f635c78c867f0cc5d155c5dbc5c6a1ef0f3b4f13b2a242"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-001.png",
+      "sha256": "5a26cad15c9d72d4c18819d6111c72bf03da1ba633c6d25ba270241b4b200231"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-002.png",
+      "sha256": "486bc7767b1992fa0f70efcf335f0ddc1e1e85d92a022d358092e36a0227fe44"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-003.png",
+      "sha256": "15c6b2fc3bb0baf06c2242892844a5fef49c8aa693d4fe7356cffce579bff35c"
+    }
+  ],
+  "visualMappingAssumptions": [
+    "Button captions and per-slot fold arrows were read directly from native rasters; original native callbacks and slot indices are retained.",
+    "The five face indices retain five distinct observed facial expressions; the mood value to index computation is not promoted to verified runtime behavior.",
+    "Each emotion has a separately generated own transparent master. Slot 1 is an own brighter material variant with the original raster extent and offset, not a claim to reproduce every original subpixel facial change.",
+    "Emotion packing uses the alpha>=8 visible bounding box plus one pixel padding; excluded host-cutout dust has alpha<8. The body alpha is retained, then premultiplied scaling and native quantization apply.",
+    "The main panel is laid out in its original 257x290 declared coordinate space and cropped at native raster box (2,2,253,287).",
+    "White dynamic name, values and skill labels keep dark jade wells; brown dynamic level text keeps an ivory surface, based on static source symbolic assignments.",
+    "Pet creature previews and inventory food icons are separate resources, not baked into this control group."
+  ],
+  "paletteEvidence": {
+    "file": "assets/native-client-ui/pet-controls-reference/palette-evidence.json",
+    "sha256": "1a6d69c5cb0d95aa59525cc3b6e726530df37267a0c26dae22056b5591ac55a8"
+  },
+  "emotionEdgeEvidence": {
+    "file": "assets/native-client-ui/pet-controls-reference/edge-evidence.json",
+    "sha256": "9994d80ac5381b730e2ef0489f91f19c37fe7cbb7457feb2ea1cd1ca932b85d7"
+  },
+  "sourceArtworkGeneration": [
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face0-master.png.generation.json",
+      "sha256": "5d6f560dbd66a5e79a48ee07574aeebb60965430ac70010abe2bf0b2053be50a"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face1-master.png.generation.json",
+      "sha256": "2f2082523049e1adda71ec52d1aa523c004a0135c8537517d23f419bb9f6f531"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face2-master.png.generation.json",
+      "sha256": "426296082498d889e6cc24157f4ef103521f9ca58eed6a281785e6d119b2ddbc"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face3-master.png.generation.json",
+      "sha256": "4f238cba25c8a1100e99ca51e7da05b44ecacd384e0c4c91a32fd623c81abf51"
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/emotions/face4-master.png.generation.json",
+      "sha256": "77b7ba51baa39111db79a5d6074e2165fd3c4de94431cbd7b5126bcb46a33a1f"
+    }
+  ],
+  "items": [
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_adopt.img",
+      "sha256": "01cad9942080def793ed66791cc0312fd699bf415de612542ca60b94dd1c9a26",
+      "nativePath": "object/ui/pet/btn_adopt.img",
+      "sourceSha256": "ff4cd3591ddbd8ee949709d1e4ab84ff6a82b797cf649bc54b3b923126f2a30d",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.adoptPetBtn",
+          "sourceFirstLine": 3374,
+          "bytecodeSha256": "d90a5ea7c69c1b4fbb9441f0887582a43dfbfa4f54a2c4103b91bfa8f23841e9",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              196,
+              46,
+              40,
+              30
+            ],
+            "bkimage": "object/ui/pet/btn_adopt.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "领养",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_adopt-00.png",
+          "sha256": "044690c36adfaf83371fd59093f1cb188d1a20e84a3aa692484916a056d48a59",
+          "index": 0,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_adopt-01.png",
+          "sha256": "77b8c745531b0df509669e1e7969f38414f496d13bddb55e93630a3e2b286697",
+          "index": 1,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_adopt-02.png",
+          "sha256": "1ac3d750fbe9176e72ea7837b60522f51763fc2782553b53642adbb7e9b104e1",
+          "index": 2,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_adopt-03.png",
+          "sha256": "e1c171779c2d2ab493dbed9a0578b6a0534b1874ec92dd40d00db336815e7cfb",
+          "index": 3,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_change_name.img",
+      "sha256": "9078f8b6ea7e387ebcbe70af155478cf48e82539d6833780966a3a2933a2c449",
+      "nativePath": "object/ui/pet/btn_change_name.img",
+      "sourceSha256": "3fff19ce0016dcf0478ea822fab19398803215d1f900ea4859a26635107f9d4e",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.changeNameBtn",
+          "sourceFirstLine": 3409,
+          "bytecodeSha256": "d90a5ea7c69c1b4fbb9441f0887582a43dfbfa4f54a2c4103b91bfa8f23841e9",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              182,
+              150,
+              55,
+              26
+            ],
+            "bkimage": "object/ui/pet/btn_change_name.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "更改",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_change_name-00.png",
+          "sha256": "1f01cbf7f0d7fa87ae73cd43c0c395c8ed38ba649b6595a5110d3bb55c352d96",
+          "index": 0,
+          "nativeSize": [
+            57,
+            27
+          ],
+          "frameOffset": [
+            1,
+            3
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_change_name-01.png",
+          "sha256": "13b1f1b4dd140c60b83e637027220775451f457d681223fe04e829692fb66c75",
+          "index": 1,
+          "nativeSize": [
+            57,
+            26
+          ],
+          "frameOffset": [
+            1,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_change_name-02.png",
+          "sha256": "0ade590202537a47f196d59390b2a024a63805e1c1545e3bf6f26f1d8642cdf4",
+          "index": 2,
+          "nativeSize": [
+            57,
+            26
+          ],
+          "frameOffset": [
+            1,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_change_name-03.png",
+          "sha256": "6bd206112c81570a9287df51b7e826e22d75b9d86465a9a9037628e0178cb5f6",
+          "index": 3,
+          "nativeSize": [
+            57,
+            26
+          ],
+          "frameOffset": [
+            1,
+            3
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_first_page.img",
+      "sha256": "8ac9856a194e34511017bb76c55ef22affb9001cc89feacd3c7505c688b771f7",
+      "nativePath": "object/ui/pet/btn_first_page.img",
+      "sourceSha256": "997010dfd2e20a020692788b897fee8e1c01a8a9bb1f2f02dc802c07f22de0f1",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.foodDlg.children.firstPageBtn",
+          "sourceFirstLine": 3461,
+          "bytecodeSha256": "677aa2da9655b9ae47f324e0fa1593495a744685c2da3c084c57e5a8265003b3",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              18,
+              195,
+              34,
+              21
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/pet/btn_first_page.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_first_page",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_first_page-00.png",
+          "sha256": "f873dad2b9634862d9c632b7f0894e29026fdaac7697d5d87b5bc87a651d2216",
+          "index": 0,
+          "nativeSize": [
+            25,
+            18
+          ],
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-000.png",
+            "sha256": "025a29363abe402e49ea666432e22981f535d88e4233b44c8c510afac7c5b9b7"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_first_page-01.png",
+          "sha256": "4191d32ef14339de9239adcd3362b7b32073495932f933dbd73300ffd6a9582a",
+          "index": 1,
+          "nativeSize": [
+            25,
+            18
+          ],
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-001.png",
+            "sha256": "f6c5d4e9f77dc6e5715741ce6e34e3b502b37fef16ee0803aecdfd7214313b3c"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_first_page-02.png",
+          "sha256": "279b4160aedc1fc5c04afad9b240335a71d5d8813531b18e2720ffff592b1671",
+          "index": 2,
+          "nativeSize": [
+            25,
+            18
+          ],
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-002.png",
+            "sha256": "c552bcf98c884a4d853ae228b1b9891bd10551be9e8ad02c87f2b3c2914c9b3e"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_first_page-03.png",
+          "sha256": "c2f31391875306da0213a9ba7490dbbeceb1d95d04baf7b7d49f1d8ac9fa7c00",
+          "index": 3,
+          "nativeSize": [
+            25,
+            18
+          ],
+          "frameOffset": [
+            1,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_first_page-003.png",
+            "sha256": "9bc6d4b0974ca37c18b596a5584fe12911d06ce054774c61bc781f7da5296065"
+          },
+          "functionalAlphaRetained": true
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_free.img",
+      "sha256": "5107f42359be18b1f093b0737ffa584edb0cd1ee54633c2a6305f66aa03bf4d2",
+      "nativePath": "object/ui/pet/btn_free.img",
+      "sourceSha256": "6aec1fb0580e36e4c9621df3bad210bfe053c128346eeef2b17ba8ff1dd9b23b",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.freePetBtn",
+          "sourceFirstLine": 3396,
+          "bytecodeSha256": "d90a5ea7c69c1b4fbb9441f0887582a43dfbfa4f54a2c4103b91bfa8f23841e9",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              196,
+              114,
+              40,
+              30
+            ],
+            "bkimage": "object/ui/pet/btn_free.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "放生",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_free-00.png",
+          "sha256": "e9d271f3237eec3fa36b5587bbd30f45163143224ea992d8e468f6480e4a859b",
+          "index": 0,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_free-01.png",
+          "sha256": "3832e348acfadd322d55b4a549cf67d4648be5da58549fd685b9d09d41352073",
+          "index": 1,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_free-02.png",
+          "sha256": "92d5d751b1cd0a90ed62c6b301bd6e8d5c2d604410f580f3e152589c92a8fc33",
+          "index": 2,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_free-03.png",
+          "sha256": "5feb5688741ac693429bf06fdca0c1528ef87c696ca835ab7e91f1242b058e31",
+          "index": 3,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_last_page.img",
+      "sha256": "2dc4e104fe7d7d81c119533269c3b3f8daee6662206f612f1e2a786f9db2cfa0",
+      "nativePath": "object/ui/pet/btn_last_page.img",
+      "sourceSha256": "c601785ac63045a3602dcb13889f6d52c56c36060dcf382587d3a18735e33f97",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.foodDlg.children.lastPageBtn",
+          "sourceFirstLine": 3471,
+          "bytecodeSha256": "677aa2da9655b9ae47f324e0fa1593495a744685c2da3c084c57e5a8265003b3",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              206,
+              195,
+              34,
+              21
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/pet/btn_last_page.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_last_page",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_last_page-00.png",
+          "sha256": "ebe081e0417657c66d88880ca1a981377695b40570129648c58b6ad693f07e4b",
+          "index": 0,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-000.png",
+            "sha256": "0d69845071c4936cc174ebdd7f43582259d912befc34c4d181cb169a876d79fa"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_last_page-01.png",
+          "sha256": "60ce27895c16f2d17f35dac261ce92e42f25e43f4e30cd8602f6344c669cefb3",
+          "index": 1,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-001.png",
+            "sha256": "2cd02c7bf9fa7b476e33938329f73d09da67b0b31d1c8631dadfd467b60c677b"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_last_page-02.png",
+          "sha256": "b0e548f6d02b9a27a274745bf8f9e37b06412c71e9cb8094dfb2105e62143ba2",
+          "index": 2,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-002.png",
+            "sha256": "37a2d9d80a648f6cd13a699024483d96a09fd621c8b71f45e97611dbf38f993f"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_last_page-03.png",
+          "sha256": "119744bfa957b8ad09ca961b8ae34d5ceb104a629b588e2bb2c4192d41939b96",
+          "index": 3,
+          "nativeSize": [
+            26,
+            18
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_last_page-003.png",
+            "sha256": "8f9b6915f883ded71c61a97a9baeca258e113fbe8e087caa4cc2264c8a61a107"
+          },
+          "functionalAlphaRetained": true
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_next_page.img",
+      "sha256": "953821aeb37615f5615b12e6e363dd9bd37ce69de21fcc852a1ae6825cf6da1f",
+      "nativePath": "object/ui/pet/btn_next_page.img",
+      "sourceSha256": "665de8f47ca4cd05a1a81c312ede840c53c62991b75da80de3736856c0acbb11",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.foodDlg.children.nextPageBtn",
+          "sourceFirstLine": 3493,
+          "bytecodeSha256": "677aa2da9655b9ae47f324e0fa1593495a744685c2da3c084c57e5a8265003b3",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              186,
+              195,
+              25,
+              21
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/pet/btn_next_page.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_next_page",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_next_page-00.png",
+          "sha256": "a4947e1d6746fdecb4fdc8c1531e488454666e11c13128a9b64ba1052ac8c592",
+          "index": 0,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-000.png",
+            "sha256": "157572d845a919a8ce9d537a33361fa7b746c4842be2e7c370c1d2ff892cac39"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_next_page-01.png",
+          "sha256": "aa5ad7bc36e2354605496413e8b58164214e440916c121a6b6793e9b3369f22d",
+          "index": 1,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-001.png",
+            "sha256": "24317b1dc656a89ffc128a992fe3aff39d7b3bce40694184da9fda7e604662ca"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_next_page-02.png",
+          "sha256": "3dba055489cbe3355cf0e686ec99d07aa2e5c1f3dda8f567fef8990313a86063",
+          "index": 2,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-002.png",
+            "sha256": "11564a610c8c43ed11b8fd69baeff47133104e1b37b250f1af4a319684ecb898"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_next_page-03.png",
+          "sha256": "b52c5fee0fe2904ca9bcc07d621a1408b455e8331ae914af522e5f33a5e449fe",
+          "index": 3,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_next_page-003.png",
+            "sha256": "22e86922ae3471e15bee6cf82b962b6d0c7a5d3226a50ba3ba422ef23f605f3e"
+          },
+          "functionalAlphaRetained": true
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_pre_page.img",
+      "sha256": "0c9617409e1fc59a30e978c174e5ee2a58a949bf186c20b39c7c9ccc366f66bd",
+      "nativePath": "object/ui/pet/btn_pre_page.img",
+      "sourceSha256": "c138370e23483c72d8110af1d66265372b6f485ae50989cf030fc89f4275eae9",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.foodDlg.children.prePageBtn",
+          "sourceFirstLine": 3481,
+          "bytecodeSha256": "677aa2da9655b9ae47f324e0fa1593495a744685c2da3c084c57e5a8265003b3",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              48,
+              195,
+              34,
+              21
+            ],
+            "framescheme": [
+              [
+                0,
+                0,
+                2,
+                2,
+                3,
+                3,
+                1,
+                1
+              ]
+            ],
+            "bkimage": "object/ui/pet/btn_pre_page.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_pre_page",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_pre_page-00.png",
+          "sha256": "a9bb3e9a076c997871563b0177d6f9556decacb4e5d1406d9d8a50575f7861d0",
+          "index": 0,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-000.png",
+            "sha256": "f7314640e239b21dc7f635c78c867f0cc5d155c5dbc5c6a1ef0f3b4f13b2a242"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_pre_page-01.png",
+          "sha256": "b850589618f9c4b15598b36b804e2705c676ef00fc41a354dde3c3159ec3403c",
+          "index": 1,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-001.png",
+            "sha256": "5a26cad15c9d72d4c18819d6111c72bf03da1ba633c6d25ba270241b4b200231"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_pre_page-02.png",
+          "sha256": "0c3ee46c154777f7c9db94724cdc7e5f633c11a201584db6b8803a93c5ff49ba",
+          "index": 2,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-002.png",
+            "sha256": "486bc7767b1992fa0f70efcf335f0ddc1e1e85d92a022d358092e36a0227fe44"
+          },
+          "functionalAlphaRetained": true
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_pre_page-03.png",
+          "sha256": "9014f96f1e0be1bc4810425b1f3c85b8322f6afaf1a5b28ac7552791c453dcab",
+          "index": 3,
+          "nativeSize": [
+            15,
+            17
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/btn_pre_page-003.png",
+            "sha256": "15c6b2fc3bb0baf06c2242892844a5fef49c8aa693d4fe7356cffce579bff35c"
+          },
+          "functionalAlphaRetained": true
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_raise.img",
+      "sha256": "dcf4ce87c131c76f5d77040240f0cfa30b3fd2a6ffe8cf363b8ac1101f355a21",
+      "nativePath": "object/ui/pet/btn_raise.img",
+      "sourceSha256": "b7a1e8dabf1aae1497e0e4854fd093ead603b17d7fe0f844af1f83af28934363",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.raisePetBtn",
+          "sourceFirstLine": 3441,
+          "bytecodeSha256": "d90a5ea7c69c1b4fbb9441f0887582a43dfbfa4f54a2c4103b91bfa8f23841e9",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              13,
+              246,
+              109,
+              27
+            ],
+            "bkimage": "object/ui/pet/btn_raise.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-fold",
+      "caption": "raise",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise-00.png",
+          "sha256": "aa641aebd27c58ea9f6d5430ad371b9865247610fdd2c45648ba2aa0226672db",
+          "index": 0,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise-01.png",
+          "sha256": "ecf75b0ddbf7e678efa3dd1dae220c8feb75d492cf36dd8e162e949dc0836ddf",
+          "index": 1,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise-02.png",
+          "sha256": "cba7697168fabf63da4448bd9a4bf286aaced103408dc7f7b8a33bc00c31c131",
+          "index": 2,
+          "nativeSize": [
+            109,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise-03.png",
+          "sha256": "38d71ed1477faa7736d34faeea3588f2b1f20d820729efd6df7a00aab3fe191e",
+          "index": 3,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_raise1.img",
+      "sha256": "b926b087a06e5ac63160a4ec7578ab19dae89e72769f5285fa2697d8928a29ee",
+      "nativePath": "object/ui/pet/btn_raise1.img",
+      "sourceSha256": "719dc518d827332830898532301a3baa310adcd62e260b3c612c85de3ecb05be",
+      "sourceBindings": [],
+      "rendererKind": "pet-fold",
+      "caption": "raise1",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise1-00.png",
+          "sha256": "5cd37ed4d51bff4822cfa83db72312cdee885f7dce07ba2c785452d0b56d520a",
+          "index": 0,
+          "nativeSize": [
+            109,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise1-01.png",
+          "sha256": "ecf75b0ddbf7e678efa3dd1dae220c8feb75d492cf36dd8e162e949dc0836ddf",
+          "index": 1,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise1-02.png",
+          "sha256": "a661ada553c4f7fb8ceeea1a8e0cf47d4e733f78f6a38e75de2f7ed56b189976",
+          "index": 2,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_raise1-03.png",
+          "sha256": "38d71ed1477faa7736d34faeea3588f2b1f20d820729efd6df7a00aab3fe191e",
+          "index": 3,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_skill.img",
+      "sha256": "5d0a93928cf877aa1cb5639729ab100fd4f3ae557132626ccecc4b22394108e3",
+      "nativePath": "object/ui/pet/btn_skill.img",
+      "sourceSha256": "82e6e8ea8c2f291a1416c5f00e0bd6229b62a30554a96a048d7e3b775c1922d1",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.sKillBtn",
+          "sourceFirstLine": 3566,
+          "bytecodeSha256": "d90a5ea7c69c1b4fbb9441f0887582a43dfbfa4f54a2c4103b91bfa8f23841e9",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              128,
+              246,
+              109,
+              27
+            ],
+            "bkimage": "object/ui/pet/btn_skill.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-fold",
+      "caption": "skill",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill-00.png",
+          "sha256": "3f0f4e527ec1d1289aa1f5dfff8a043791b86e477ea1bd8fb55a25ff8b976fe1",
+          "index": 0,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill-01.png",
+          "sha256": "8808be90fe50a32b1183b3187548a0b99e4af9484af767a71975f552eeeee44a",
+          "index": 1,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill-02.png",
+          "sha256": "c7ffbaef39d92cea98547ae207324180cd3032ac84cc732ed2a80a92012b835d",
+          "index": 2,
+          "nativeSize": [
+            109,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill-03.png",
+          "sha256": "95a232f145f23e6976d70008675c64c25fe79e51972ed8f51d51e770b1d503e7",
+          "index": 3,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_skill1.img",
+      "sha256": "b1c4ea0c6d2aad1c9e03b5fb7bdcb1e2560770f424747c761c97630613130b20",
+      "nativePath": "object/ui/pet/btn_skill1.img",
+      "sourceSha256": "cc31d99b680326e4a77f096b0d34df8e1a3a607871869448e763c71549725786",
+      "sourceBindings": [],
+      "rendererKind": "pet-fold",
+      "caption": "skill1",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill1-00.png",
+          "sha256": "ac057e195a89273648f32f468824d0680419c9eebf960a75258e15efba733098",
+          "index": 0,
+          "nativeSize": [
+            109,
+            29
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill1-01.png",
+          "sha256": "8808be90fe50a32b1183b3187548a0b99e4af9484af767a71975f552eeeee44a",
+          "index": 1,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill1-02.png",
+          "sha256": "2219c62d7abec743c28f65713e849e4feb64779a1273a5c816f7174c068d5b67",
+          "index": 2,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            3
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_skill1-03.png",
+          "sha256": "95a232f145f23e6976d70008675c64c25fe79e51972ed8f51d51e770b1d503e7",
+          "index": 3,
+          "nativeSize": [
+            109,
+            31
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_stop_take.img",
+      "sha256": "1560ad6dd2171ca52af592a0e715a1e85375b2585801aff84b2b3dfce383eb45",
+      "nativePath": "object/ui/pet/btn_stop_take.img",
+      "sourceSha256": "dfe9d365f56fb63c557357c63c447656221674ade905ef045c57e22872035b69",
+      "sourceBindings": [],
+      "rendererKind": "pet-button",
+      "caption": "休息",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_stop_take-00.png",
+          "sha256": "f535f51a50e59f898a66740c65d58e2625a694227807c95bc4eb4da570cf6844",
+          "index": 0,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_stop_take-01.png",
+          "sha256": "fd54bd5bc90d0cc5c9af81e7bd9a2323e5cbf808b334457071d69b8d465993c9",
+          "index": 1,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_stop_take-02.png",
+          "sha256": "a1e9de124db7c95fd448cba86dc96cfee5c3078697e7bb5cc685f009524d4f92",
+          "index": 2,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_stop_take-03.png",
+          "sha256": "8e0539a314be418bd8020e289e876865853f6fe8fe5c167c4f007869e7e6664d",
+          "index": 3,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 8,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/btn_take.img",
+      "sha256": "564b035a7cb41bc4441504ebab87fcaf3b77a6ecb62ad0b4c52a0e0faea6650b",
+      "nativePath": "object/ui/pet/btn_take.img",
+      "sourceSha256": "058fd3f082882b045ae9c5afdfe6e23773774a3c9904f521d045019515dd7c91",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.petStateBtn",
+          "sourceFirstLine": 3383,
+          "bytecodeSha256": "d90a5ea7c69c1b4fbb9441f0887582a43dfbfa4f54a2c4103b91bfa8f23841e9",
+          "literalAssignments": {
+            "initlayer": 9999,
+            "rect": [
+              196,
+              80,
+              40,
+              30
+            ],
+            "bkimage": "object/ui/pet/btn_take.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "携带",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_take-00.png",
+          "sha256": "090abcd44f7ba3eff14e7798358db1de632c5a0478510953bf9fc56cd3d93098",
+          "index": 0,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_take-01.png",
+          "sha256": "2e0c712712727e21707f92b75751fa2b7bb379fc54285a9b343cb0ed50f3db0b",
+          "index": 1,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_take-02.png",
+          "sha256": "8039363103b6d67147f7bd2a29ebde9fcf4b5f488bc20a8087f8efa4babcce8c",
+          "index": 2,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/btn_take-03.png",
+          "sha256": "350c8e4dc7e441912437754e4bdc0aeca592bdf72ec6528e02b8b820b081be91",
+          "index": 3,
+          "nativeSize": [
+            41,
+            30
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/dlg_baseskill.img",
+      "sha256": "1a1dc5a68aaf493e446af04c57ab3a21b3ae520013e427c5d52a2436a84c26b5",
+      "nativePath": "object/ui/pet/dlg_baseskill.img",
+      "sourceSha256": "beb35bc3354fc2836031b1f457756089aaf00f9e6e35644a1ef4a8c127c44c5b",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.baseSkillDlg",
+          "sourceFirstLine": 3581,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 9999,
+            "rect": [
+              244,
+              -2,
+              108,
+              100
+            ],
+            "bkimage": "object/ui/pet/dlg_baseskill.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-base-skills",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_baseskill-00.png",
+          "sha256": "29c9e800888648f813bb556bd5811b4a7c5e429965534bcd2dcec5a32d4e756d",
+          "index": 0,
+          "nativeSize": [
+            104,
+            98
+          ],
+          "frameOffset": [
+            2,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/dlg_food.img",
+      "sha256": "2d56ba5a2f37e3fce159c6df79540cc2c9e6a017e7260a09da3efdcc7b1ad675",
+      "nativePath": "object/ui/pet/dlg_food.img",
+      "sourceSha256": "19c6cd77d3701269a892770e2651531d7afc5dd0ca6d0a695470dc538db7bba2",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.foodDlg",
+          "sourceFirstLine": 3455,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 9999,
+            "rect": [
+              1,
+              280,
+              250,
+              217
+            ],
+            "bkimage": "object/ui/pet/dlg_food.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-food-grid",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_food-00.png",
+          "sha256": "169b00905d803a158341f8239c790c615dbf57e36ef6f261c5e4dafc7b39725b",
+          "index": 0,
+          "nativeSize": [
+            254,
+            223
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/dlg_food-000.png",
+            "sha256": "df6dcb3239d47aedfdecadb6c4e46dc8fd0e72b8d44a02acc2a6428767ce5761"
+          },
+          "functionalAlphaRetained": true
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/dlg_pet.img",
+      "sha256": "f2aa6e2791e9bd10e4d5221f4e63ae80d205251672788e1689928dad9a208fe9",
+      "nativePath": "object/ui/pet/dlg_pet.img",
+      "sourceSha256": "be62c99c18d9c7652fcbb78da0507c77df1eb5c36e75ef57bd8c8e77b937e4db",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan",
+          "sourceFirstLine": 3345,
+          "bytecodeSha256": "ae19beaeec7a1966518f611e03e445e16515dbe8fe49abe43411664ede7cf173",
+          "literalAssignments": {
+            "visible": 0,
+            "darkBG": 1,
+            "initlayer": 999999,
+            "rect": [
+              80,
+              100,
+              353,
+              530
+            ],
+            "bkimage": "object/ui/pet/dlg_pet.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-main",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_pet-00.png",
+          "sha256": "3ddcc91e617ef96cc65cac604d27df64928219698ee4bf6c747e45cc6271424b",
+          "index": 0,
+          "nativeSize": [
+            251,
+            285
+          ],
+          "frameOffset": [
+            2,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/dlg_skill.img",
+      "sha256": "1bde7e2f1445a85eb8db2b527eb4fefe52ff7a007207c5009227fef65c6e112d",
+      "nativePath": "object/ui/pet/dlg_skill.img",
+      "sourceSha256": "0a14a2530f0b34c633a021e60beb38fe38541025533b8f383294b0c764e34b7c",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.skillDlg",
+          "sourceFirstLine": 3614,
+          "bytecodeSha256": "603ff63323f2b4b6c2f7056d225d4f568aa6f3cce7ae6e6e663288de935133cd",
+          "literalAssignments": {
+            "visible": 0,
+            "initlayer": 9999,
+            "rect": [
+              244,
+              96,
+              108,
+              282
+            ],
+            "bkimage": "object/ui/pet/dlg_skill.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-skills",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/dlg_skill-00.png",
+          "sha256": "be61f5836d44f5f6fc76be7896da42816fb1bbd4056b384b125d7add245f648e",
+          "index": 0,
+          "nativeSize": [
+            104,
+            298
+          ],
+          "frameOffset": [
+            2,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/face0.img",
+      "sha256": "ce4aafdb47fd4aa74088c4253c698d4c66c210cb599eaadbdfae4f790f4f15f3",
+      "nativePath": "object/ui/pet/face0.img",
+      "sourceSha256": "a035ab4843c44193e101d8bf0732e2f53f6b68f28ad6f520a2550607140601ed",
+      "sourceBindings": [],
+      "rendererKind": "pet-face",
+      "caption": "0",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face0-00.png",
+          "sha256": "9a93dcd824f4ba18cd6f8ed50a75f646ea5a2476a6bdfcee14c1f873384d54bd",
+          "index": 0,
+          "nativeSize": [
+            34,
+            33
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face0-01.png",
+          "sha256": "815f8040dcde223321b924d39c842a6eb29f1f67fcc5676ec47bd372558460ec",
+          "index": 1,
+          "nativeSize": [
+            34,
+            32
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face0-master.png",
+          "sha256": "60416e31649b89856b684175fcb5632c3eb464717ceaf005b8ff31fa69faa06a"
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face0-master.png.generation.json",
+          "sha256": "5d6f560dbd66a5e79a48ee07574aeebb60965430ac70010abe2bf0b2053be50a"
+        }
+      ],
+      "emotionPacking": {
+        "alphaThreshold": 8,
+        "sourceBox": [
+          135,
+          171,
+          1095,
+          1063
+        ],
+        "excludedMaxAlpha": 5,
+        "logicalCanvas": [
+          34,
+          33
+        ],
+        "commonNativeLogicalBox": [
+          0,
+          1,
+          34,
+          33
+        ],
+        "operation": "Bound visible cutout plus one-pixel padding; premultiplied fit once into both native state windows intersection; cut each original state window"
+      },
+      "emotionSecondSlot": {
+        "brightnessFactor": 1.1,
+        "nativeGeometryRetained": true,
+        "originalSubpixelPhaseEqualityVerified": false
+      }
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/face1.img",
+      "sha256": "2a702192b4fb85fd7107cd236d9ac8aa63e08b9180db306be9bf76188a9c38a4",
+      "nativePath": "object/ui/pet/face1.img",
+      "sourceSha256": "200d85aa65372046ed3247b1cc0a2906162316faed397a0f3543fb13df3b728e",
+      "sourceBindings": [],
+      "rendererKind": "pet-face",
+      "caption": "1",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face1-00.png",
+          "sha256": "cde281beed3be0b81d6bc23f567e836211432133d3d1cdf020ac1da6aa222455",
+          "index": 0,
+          "nativeSize": [
+            34,
+            33
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face1-01.png",
+          "sha256": "3255b04ec0d4bdbeccb644a7ceba7780724175aea5389c22405734698d060177",
+          "index": 1,
+          "nativeSize": [
+            34,
+            32
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face1-master.png",
+          "sha256": "536232eefa3ecee2652821dbd63956b78e88672c1c56d08488ac7dbe28c9dac7"
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face1-master.png.generation.json",
+          "sha256": "2f2082523049e1adda71ec52d1aa523c004a0135c8537517d23f419bb9f6f531"
+        }
+      ],
+      "emotionPacking": {
+        "alphaThreshold": 8,
+        "sourceBox": [
+          154,
+          177,
+          1090,
+          1060
+        ],
+        "excludedMaxAlpha": 4,
+        "logicalCanvas": [
+          34,
+          33
+        ],
+        "commonNativeLogicalBox": [
+          0,
+          1,
+          34,
+          33
+        ],
+        "operation": "Bound visible cutout plus one-pixel padding; premultiplied fit once into both native state windows intersection; cut each original state window"
+      },
+      "emotionSecondSlot": {
+        "brightnessFactor": 1.1,
+        "nativeGeometryRetained": true,
+        "originalSubpixelPhaseEqualityVerified": false
+      }
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/face2.img",
+      "sha256": "54b38c7c5a18cb2aedffc7fa1d086afcfa21da5aca5d906fb7498e3d4353bc92",
+      "nativePath": "object/ui/pet/face2.img",
+      "sourceSha256": "8adf8e2f2f17b2857449f7da34ad85d77eaee27b9c6aa4999bb473a945552c2a",
+      "sourceBindings": [],
+      "rendererKind": "pet-face",
+      "caption": "2",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face2-00.png",
+          "sha256": "c0b3fa68dd8c8653bc20ca4f7613598bfa708b3c53173ba8c21c31550b9c94ad",
+          "index": 0,
+          "nativeSize": [
+            34,
+            33
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face2-01.png",
+          "sha256": "9c3995c2549795bb18c2b384e2114d88a769f634071cd8f79bf2ae938726d651",
+          "index": 1,
+          "nativeSize": [
+            34,
+            33
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face2-master.png",
+          "sha256": "3f6648ab58c8078a5662b2ac35aca40d1c076248be81739c29ceb577dfdbd55b"
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face2-master.png.generation.json",
+          "sha256": "426296082498d889e6cc24157f4ef103521f9ca58eed6a281785e6d119b2ddbc"
+        }
+      ],
+      "emotionPacking": {
+        "alphaThreshold": 8,
+        "sourceBox": [
+          145,
+          165,
+          1078,
+          1058
+        ],
+        "excludedMaxAlpha": 3,
+        "logicalCanvas": [
+          34,
+          33
+        ],
+        "commonNativeLogicalBox": [
+          0,
+          0,
+          34,
+          33
+        ],
+        "operation": "Bound visible cutout plus one-pixel padding; premultiplied fit once into both native state windows intersection; cut each original state window"
+      },
+      "emotionSecondSlot": {
+        "brightnessFactor": 1.1,
+        "nativeGeometryRetained": true,
+        "originalSubpixelPhaseEqualityVerified": false
+      }
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/face3.img",
+      "sha256": "f2beb18b9cff06e1e6546f4d409628e5446e4abcc4bee96d4af5b628b848e531",
+      "nativePath": "object/ui/pet/face3.img",
+      "sourceSha256": "8ebeaff4c4c0ba6f4a9fa95cca8911c4afd17588386c3a17cfe2bfc1b6f3275b",
+      "sourceBindings": [],
+      "rendererKind": "pet-face",
+      "caption": "3",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face3-00.png",
+          "sha256": "afa2774cbf7db236e67c7dfe50471d104c4f69aba54f9630606aa973b08ec893",
+          "index": 0,
+          "nativeSize": [
+            34,
+            33
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face3-01.png",
+          "sha256": "6f50fdde3443442e5079b9e807939991585aab73b1a62fcc1145c2535e5cdffc",
+          "index": 1,
+          "nativeSize": [
+            34,
+            32
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face3-master.png",
+          "sha256": "49db58a3271ae53154625ddc9f9efca58f4d20b312b665d54bd6b830d640345a"
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face3-master.png.generation.json",
+          "sha256": "4f238cba25c8a1100e99ca51e7da05b44ecacd384e0c4c91a32fd623c81abf51"
+        }
+      ],
+      "emotionPacking": {
+        "alphaThreshold": 8,
+        "sourceBox": [
+          136,
+          173,
+          1084,
+          1078
+        ],
+        "excludedMaxAlpha": 5,
+        "logicalCanvas": [
+          34,
+          33
+        ],
+        "commonNativeLogicalBox": [
+          0,
+          1,
+          34,
+          33
+        ],
+        "operation": "Bound visible cutout plus one-pixel padding; premultiplied fit once into both native state windows intersection; cut each original state window"
+      },
+      "emotionSecondSlot": {
+        "brightnessFactor": 1.1,
+        "nativeGeometryRetained": true,
+        "originalSubpixelPhaseEqualityVerified": false
+      }
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/face4.img",
+      "sha256": "e8893d4a6928fc57aedcb83c072597132cd25ab4ca7387fadad15fbbeb82fd19",
+      "nativePath": "object/ui/pet/face4.img",
+      "sourceSha256": "b64d3eb0d3d4e377b205d23f84a4f0d784206686b455c1e4ab5aa1cdd364ade5",
+      "sourceBindings": [],
+      "rendererKind": "pet-face",
+      "caption": "4",
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face4-00.png",
+          "sha256": "a94dd0027e6c3e360e5eda4851ac8418c515bbeec96729eac7e2449df4824c1b",
+          "index": 0,
+          "nativeSize": [
+            34,
+            33
+          ],
+          "frameOffset": [
+            0,
+            0
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/face4-01.png",
+          "sha256": "3207072d91f38fb23a4d61e25e6c3e572102e4b007fd7554eebd92baae7490ab",
+          "index": 1,
+          "nativeSize": [
+            34,
+            32
+          ],
+          "frameOffset": [
+            0,
+            1
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": null,
+          "functionalAlphaRetained": null
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face4-master.png",
+          "sha256": "f414b01c5eaecadff3e9c19c218248cc4c4d034864e01234859d16f1a4b060df"
+        },
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/emotions/face4-master.png.generation.json",
+          "sha256": "77b7ba51baa39111db79a5d6074e2165fd3c4de94431cbd7b5126bcb46a33a1f"
+        }
+      ],
+      "emotionPacking": {
+        "alphaThreshold": 8,
+        "sourceBox": [
+          123,
+          190,
+          1107,
+          1096
+        ],
+        "excludedMaxAlpha": 5,
+        "logicalCanvas": [
+          34,
+          33
+        ],
+        "commonNativeLogicalBox": [
+          0,
+          1,
+          34,
+          33
+        ],
+        "operation": "Bound visible cutout plus one-pixel padding; premultiplied fit once into both native state windows intersection; cut each original state window"
+      },
+      "emotionSecondSlot": {
+        "brightnessFactor": 1.1,
+        "nativeGeometryRetained": true,
+        "originalSubpixelPhaseEqualityVerified": false
+      }
+    },
+    {
+      "file": "assets/native-client-ui/pet-controls-reference/candidate/patch/object/ui/pet/img_exp.img",
+      "sha256": "3182d25d4825eb815959d857058a9170853c2add1f3f3fdc152cf9711e46eb6a",
+      "nativePath": "object/ui/pet/img_exp.img",
+      "sourceSha256": "22f1c7da3edba3462bf7f49aa8fa119987cd7de88e24ea4cd97e2dfaaba936c4",
+      "sourceBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.expLine",
+          "sourceFirstLine": 3427,
+          "bytecodeSha256": "57b7188e6c3cb3d38a891f4d362c76da4b0852dfeab06608d6615fc782a09645",
+          "literalAssignments": {
+            "bkimage": "object/ui/pet/img_exp.img",
+            "rect": [
+              74,
+              209,
+              94,
+              12
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.petPan.children.loyaltyLine",
+          "sourceFirstLine": 3434,
+          "bytecodeSha256": "57b7188e6c3cb3d38a891f4d362c76da4b0852dfeab06608d6615fc782a09645",
+          "literalAssignments": {
+            "bkimage": "object/ui/pet/img_exp.img",
+            "rect": [
+              74,
+              227,
+              94,
+              12
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ],
+      "rendererKind": "pet-progress",
+      "caption": null,
+      "captionEvidence": "Read from native rasters and source declarations; runtime text surfaces remain blank",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/pet-controls-reference/candidate/decoded/img_exp-00.png",
+          "sha256": "dc17cc4d1c387728e269150f5deb35a5697fd03eb58506a2e73062fac1ee3c71",
+          "index": 0,
+          "nativeSize": [
+            160,
+            7
+          ],
+          "frameOffset": [
+            0,
+            2
+          ],
+          "pixelMode": 3,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "functionalAlphaSource": {
+            "file": "assets/native-client-ui/pet-controls-reference/frames/img_exp-000.png",
+            "sha256": "8d7dc1f62d2388b3f1c0221fb223230ecad8c184032a76d99dc5f93e80591b0e"
+          },
+          "functionalAlphaRetained": true
+        }
+      ],
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false,
+      "derivedInputs": [],
+      "emotionPacking": null,
+      "emotionSecondSlot": null
+    }
+  ],
+  "preview": {
+    "file": "assets/native-client-ui/pet-controls-reference/candidate/contact-native.png",
+    "sha256": "498460a0b155fcb2d1caa438d18e73a7fea3eb7a49022d6eafd03ad5b3109b8f"
+  },
+  "nativeResources": 23,
+  "emotionPreview": {
+    "file": "assets/native-client-ui/pet-controls-reference/candidate/emotions-native.png",
+    "sha256": "96f8f84f77cc31a0df31d60817edfa752bdb1485c3c12432a5c5ddddb4da96d7"
+  },
+  "sourcePositions": 67,
+  "functionalAlphaRetainedPositions": 18,
+  "nativeBuildInvokesImageModel": false,
+  "sourceArtworkNewGeneration": true,
+  "includedEmotionCandidates": true,
+  "nativeGeometryRetained": true,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false,
+  "installedToClient": false
+}

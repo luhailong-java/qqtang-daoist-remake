@@ -3,12 +3,12 @@
   "scope": "Selected Daoist native graphics installation bundle",
   "sourceContract": {
     "file": "assets/native-client-bundle/review-v1/source-contract.json",
-    "sha256": "0a72aabbb6679937e4326bbe8a46e37a7b0249fd4bcfcfbd8ea649ac458609e0"
+    "sha256": "ddf3f6268f5ae6acd40a2f561063047c746fdcd3ecaedcecb59213457067d8fd"
   },
   "inputManifests": [
     {
       "file": "assets/native-client-ui/login-v1/manifest.json",
-      "sha256": "bf7d5c9ea0133859259dbe82263ecb72cb48e8e2913e3c5fd7a0ba696341fa9e"
+      "sha256": "fa71828933c84699bd4e7f6b90a40d09c37127f760fd8290a78c6f458662199b"
     },
     {
       "file": "assets/native-client-ui/inventory-v1/manifest.json",
@@ -32,10 +32,10 @@
       "group": "ui",
       "manifest": {
         "file": "assets/native-client-ui/login-v1/manifest.json",
-        "sha256": "bf7d5c9ea0133859259dbe82263ecb72cb48e8e2913e3c5fd7a0ba696341fa9e"
+        "sha256": "fa71828933c84699bd4e7f6b90a40d09c37127f760fd8290a78c6f458662199b"
       },
-      "nativeResources": 242,
-      "sourcePositions": 570,
+      "nativeResources": 313,
+      "sourcePositions": 754,
       "selection": "all prepared items"
     },
     {
@@ -55067,6 +55067,924 @@
       "nativeRuntimeVerified": false
     },
     {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_avatarforge.img",
+      "sha256": "4bdf906440aeefcb2b194724777255b70ad45773d35eb1ef3f8ff1777be2f1a8",
+      "nativePath": "object/ui/forge/btn_avatarforge.img",
+      "sourceSha256": "a6490f3607efea7ad711239b1c58b9a38dedf0d5a53f9a3b90a7d253d316b38f",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarforge-00.png",
+          "sha256": "cff617e48be4b5879d3a3463d80576a2d0b352895625ce2ceb50e93233fb74ea",
+          "index": 0,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarforge-01.png",
+          "sha256": "3b91c84bca10dcaec05757ff8a77a4d05a8612dda25c08d848b328072c37757c",
+          "index": 1,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarforge-02.png",
+          "sha256": "f4ee42a59b2ad0a801a64a5a9c97272f1b0a6078da946bddf663d10bed9e01ac",
+          "index": 2,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarforge-03.png",
+          "sha256": "83b1de3e5bec86ed2010e7bdd1ba31f7235c790944f9064a175b37477dfde3e2",
+          "index": 3,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "forge-avatar-forge",
+      "caption": "锻造",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_avatarrevert.img",
+      "sha256": "db5a4765cd4d67d61c04a3566b1ff2d5c5413998bcc5830b898af35d0ddd6e2a",
+      "nativePath": "object/ui/forge/btn_avatarrevert.img",
+      "sourceSha256": "0cc47d19e37079a28ac5f3394cf0371a04b905277c1b01392b4a4ae0e86ac7d1",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarrevert-00.png",
+          "sha256": "138edeca5448adb12d48a8794d819cc29f75dd181b405c00f6b90270be9d72a9",
+          "index": 0,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarrevert-01.png",
+          "sha256": "d8b67ade3303a0324f60a4d45cc0d0c9d4a30a693c6c4343f9934a00e0bf429e",
+          "index": 1,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarrevert-02.png",
+          "sha256": "55496308470c5b3e908de3a4f9d09e37a23155f3d6e1c24dba2d3412b6c172d2",
+          "index": 2,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarrevert-03.png",
+          "sha256": "169c606aad51d9766ab03219b4276089df32135bb18f0cad555d2ebe862914c6",
+          "index": 3,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "forge-avatar-revert",
+      "caption": "还原",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_avatarsplit.img",
+      "sha256": "d4751d9c9d91fb736e657c7245554e9d39277527f607d8af45d9f90625b5ad62",
+      "nativePath": "object/ui/forge/btn_avatarsplit.img",
+      "sourceSha256": "cd01da0ee4935ba7fedc5f9fdfd1fc7e85b1f918c6332056384debe4e0fc061e",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarsplit-00.png",
+          "sha256": "989d9850c9f8c0c115dff4021b2528994ee643eb6607be61b9b1296ef9466d8f",
+          "index": 0,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarsplit-01.png",
+          "sha256": "906d9a8eae562448cf599bf6d7f5b7e3ffce79c7152cd2f2e8be537d829abfd1",
+          "index": 1,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarsplit-02.png",
+          "sha256": "6f68c442342861dbe2620142d17f0285eea3115467553f4689bcc0d1316f6b13",
+          "index": 2,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_avatarsplit-03.png",
+          "sha256": "91aeb0fa8d63bdbdb5e6fe11260e72a4d8664747478477fa21a17d192b3e63e8",
+          "index": 3,
+          "width": 99,
+          "height": 43,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "forge-avatar-split",
+      "caption": "拆分",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_forgeconfirm.img",
+      "sha256": "5fecc0e501433809bccfc497be5c7c775892e8d09d24aa6d34ff5d1b7ac77df9",
+      "nativePath": "object/ui/forge/btn_forgeconfirm.img",
+      "sourceSha256": "3b08f706e2cf156097c6f209f1dbdb28fa1edc5655fb9d9c3cc30fa748817809",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_forgeconfirm-00.png",
+          "sha256": "efa12ddf1531e1f6c32f9ff40252354523d90c6fe510750ad3c66b3c13fc1813",
+          "index": 0,
+          "width": 93,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_forgeconfirm-01.png",
+          "sha256": "aa545cd83a7e5de943e6531c7b2b844e0eb27d19eaa1e2b6bd28a60fb44cf6b4",
+          "index": 1,
+          "width": 93,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_forgeconfirm-02.png",
+          "sha256": "20c05160059ceef87547404e5aa9fe6e291be001d9d6cb2b2b8e7c59ad6d2d2d",
+          "index": 2,
+          "width": 93,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_forgeconfirm-03.png",
+          "sha256": "059181e03015df576bf47b801c57e7ab9bf39b68341d0a4222ffb3202f5ba100",
+          "index": 3,
+          "width": 93,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "forge-confirm-button",
+      "caption": "确定",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_item.img",
+      "sha256": "fde52e31f197a9bef048390ef93cbf06627e542c532cdf9d51b0b3cb9f3faa20",
+      "nativePath": "object/ui/forge/btn_item.img",
+      "sourceSha256": "88be85b59dafbcaedcc494637cf2273de619c0919d65af9d760b8acbcc5e05ff",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_item-00.png",
+          "sha256": "2e5a14f4182299ab45fdad6c291b7b14efb39aca10feedf5783c3ab5b74603ad",
+          "index": 0,
+          "width": 130,
+          "height": 17,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_item-01.png",
+          "sha256": "1e9b4c4a02b4131a838174cadd41858a46b867aeaa42b352d1ee9c9482a08479",
+          "index": 1,
+          "width": 124,
+          "height": 17,
+          "pixelMode": 8,
+          "frameOffset": [
+            3,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-item-row",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_startCompose.img",
+      "sha256": "a9d18e80399b627e441177a1f2a415470f8ebb20131ddbc75eba6027daee0425",
+      "nativePath": "object/ui/forge/btn_startCompose.img",
+      "sourceSha256": "4b306382f4d494f9fa7b09b35e3221eca5d9c7bea02a69a40f70a743534569b2",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startCompose-00.png",
+          "sha256": "8d2fa6c933c4d5d0539e2e1e83caad456c3a308f243586b354ddcb173c882e51",
+          "index": 0,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            7
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startCompose-01.png",
+          "sha256": "9621247adab8797137613bf9b1373df3d3403d6712ec5e4c070c3a441cce527e",
+          "index": 1,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            7
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startCompose-02.png",
+          "sha256": "ffffcc93ba3eec2e150d9ba4d141ec3682b1a95d21087c62bf6b288f62d0e483",
+          "index": 2,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            6
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startCompose-03.png",
+          "sha256": "c50c499252fffce2b6a81d7a638b2144ac8ee56bb3cdd358ed747eba2981c9bd",
+          "index": 3,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            7
+          ]
+        }
+      ],
+      "rendererKind": "forge-start-compose",
+      "caption": "开始合成",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_startForge.img",
+      "sha256": "94ba58a14a789777870842c7e4c125b667f2ad69c6d9e65bf513d59a84072c69",
+      "nativePath": "object/ui/forge/btn_startForge.img",
+      "sourceSha256": "e325168d11e739505c277633bb1a820c15f13a585870b91da7ecc204e975cd58",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startForge-00.png",
+          "sha256": "a3d31a4958c369823cc3d9b7b8f0682d87796b08289441e99851ab1e03d0e4c1",
+          "index": 0,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            7
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startForge-01.png",
+          "sha256": "ee545af525cb2635ac577346d97d00452c2e030b861f8a264cdb5fc647fa3fbd",
+          "index": 1,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            7
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startForge-02.png",
+          "sha256": "377525059c5a123fba20e3012a506e3819c1143f1010b618e11893a5bf8aef87",
+          "index": 2,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            6
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_startForge-03.png",
+          "sha256": "06e3e64c5a2b962f809280eceaaa4835d19813b6b4e62e4b8d1131f59807ee89",
+          "index": 3,
+          "width": 114,
+          "height": 47,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            7
+          ]
+        }
+      ],
+      "rendererKind": "forge-start-forge",
+      "caption": "开始锻造",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/btn_type.img",
+      "sha256": "7cd6832e54384f383e007f5d9087213490ebca515c95ee1ebbc045fa4e912a8d",
+      "nativePath": "object/ui/forge/btn_type.img",
+      "sourceSha256": "47c4287ee71966d0289328ed6e570a4f6a54dfee3d5b4f309067bfb955f21fbc",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__btn_type-00.png",
+          "sha256": "f1b4c45f8f0b5683c8a68a1a38b3ab6f3d028bcea9e617fba3af12267b7c47e4",
+          "index": 0,
+          "width": 132,
+          "height": 19,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-type-row",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/dlg_avatarforge.img",
+      "sha256": "b29519278da2f63a84e92c46708268840656bc2fea89aa36d39a35b8f8df9c9e",
+      "nativePath": "object/ui/forge/dlg_avatarforge.img",
+      "sourceSha256": "87d031d923d7f332764af0d299bbc47534557c7102908903dc870f379b03bc59",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__dlg_avatarforge-00.png",
+          "sha256": "a2b811b4235301d1aab3bd6c6a6d4235ac8a832f32ffdc2f0fc2fe4ab2a6dafe",
+          "index": 0,
+          "width": 427,
+          "height": 587,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-avatar-panel",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/dlg_forge.img",
+      "sha256": "f4093cb0b629fd319de0935e177592b001ec06b46525e5e0f9111b7ef6a40344",
+      "nativePath": "object/ui/forge/dlg_forge.img",
+      "sourceSha256": "a81ecf72d7ed9346304d153bc7b747e356ae56305f40a575fe5741e01722755a",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__dlg_forge-00.png",
+          "sha256": "2f6a514745b62ed42a251495a9943cd366785f408cdc0a70a0f449ad8a75fde9",
+          "index": 0,
+          "width": 427,
+          "height": 587,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-compose-panel",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/dlg_forgeconfirm.img",
+      "sha256": "f89512c94cd8490a59b8eab3687520eb197bf76f902e362a14dafa81497aaa1d",
+      "nativePath": "object/ui/forge/dlg_forgeconfirm.img",
+      "sourceSha256": "86a82e600924d600162aa99ce8f24a5290931917c54f566479e557c0af8b1be6",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__dlg_forgeconfirm-00.png",
+          "sha256": "4db3c54a81be66a0ae774825386438d61ba08270e5d2c07df9f942b2e81fccca",
+          "index": 0,
+          "width": 225,
+          "height": 122,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-confirm-panel",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/dlg_forgeMask.img",
+      "sha256": "e9d241de24eabbc973004f3907ad16886077b03f9e3825a7ca45ac7de0c358ec",
+      "nativePath": "object/ui/forge/dlg_forgeMask.img",
+      "sourceSha256": "92e7f7f329f2cfcaedf3a5e36c505c356870a0f04c18bb517f756ca480f47253",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__dlg_forgeMask-00.png",
+          "sha256": "3983c6dc8cec0ab140852c667f12d111830378bc2c88f3edd8061ae880080461",
+          "index": 0,
+          "width": 311,
+          "height": 244,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-slot-mask",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/dlg_meterial.img",
+      "sha256": "a9eae79a7c968a84533d2fe473462e840fb3a1dfead3a52af001fba86c305447",
+      "nativePath": "object/ui/forge/dlg_meterial.img",
+      "sourceSha256": "e7a8a3bd6a5614b08b6f4ab7b4da84bf5d26368ac319d319beba0bfca810e25c",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__dlg_meterial-00.png",
+          "sha256": "cc9ecd19047df74cd3693cbc8d400c35f7e129c70b3b898e7e4575ad6fb9d4a4",
+          "index": 0,
+          "width": 196,
+          "height": 194,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-material-panel",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/scl_down.img",
+      "sha256": "9a5862c9b17f1376c496b757fd4f452b5b4a00e84515a416d22f0f05e3e428e4",
+      "nativePath": "object/ui/forge/scl_down.img",
+      "sourceSha256": "fd8991eca7be149c9cf8b9a772c64a4df5d54beeae8ec20fdcfd31f523df5223",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_down-00.png",
+          "sha256": "d603f2e7d129437bba4a388b2de21cac061e49e39efd1ae8e02055c4b256f70b",
+          "index": 0,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_down-01.png",
+          "sha256": "b67fdefd400fd1a529067dc013a483f87a62ef811146219da4cab98023c2e302",
+          "index": 1,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_down-02.png",
+          "sha256": "9d5e641819d6b7acf6e56b325a6f6f0ebd9316a4ee9df3d1fd543a2dda429e17",
+          "index": 2,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_down-03.png",
+          "sha256": "09ca97475959038e720ffb6b0e5513626a98919561ced1e971cdb6ba9d4cc302",
+          "index": 3,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-scroll-down",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/scl_up.img",
+      "sha256": "1e7018cb9219cdc2a6bf96f0c90a3c488a36b43e75177483069555412e0717de",
+      "nativePath": "object/ui/forge/scl_up.img",
+      "sourceSha256": "cd1c8bbb818ea65d9afbde952466dcab0aafd6c1873b4dad2d1c75531c721800",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_up-00.png",
+          "sha256": "e2898c168abc799d65dbbace569949471d1b9803dc23aa95b7fdb3e4b5692015",
+          "index": 0,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_up-01.png",
+          "sha256": "01f1c0e083af72c0911feb4c83af3aaeaaf188fb0967f9e25107220c88bd5f71",
+          "index": 1,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_up-02.png",
+          "sha256": "db98ad2833cb4c9fd0ddc3f39d01fa40a799fdae2ef5abad64446ec279956588",
+          "index": 2,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__scl_up-03.png",
+          "sha256": "323ad12360f9a83361c0fe13b4b58165b2f27b9847e4256b403b79412f0875da",
+          "index": 3,
+          "width": 18,
+          "height": 18,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-scroll-up",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/tab_compose.img",
+      "sha256": "0cb3705bf215847a2935bf3d00499c5bcf6db237e3580262b633722e7497f60d",
+      "nativePath": "object/ui/forge/tab_compose.img",
+      "sourceSha256": "0c785bbc6f91b42276ce1507910d2c9876fb4b9f57f5650040b62e06be62f48f",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_compose-00.png",
+          "sha256": "69e52f7bb462e3b2a1cabaddc96bc35672aae35869b68158cc2f406757687e5e",
+          "index": 0,
+          "width": 95,
+          "height": 22,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            5
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_compose-01.png",
+          "sha256": "82b24d698468fbe9d2bffa8e3cfa8f75d7e7d4304d4a25f0429d76efbbd8adfc",
+          "index": 1,
+          "width": 95,
+          "height": 24,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            3
+          ]
+        }
+      ],
+      "rendererKind": "forge-compose-tab",
+      "caption": "合成",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/tab_forge.img",
+      "sha256": "42a5ea0227fb1a28485739f203c93e52c91ebc5231673ae61b30a6e0244898f1",
+      "nativePath": "object/ui/forge/tab_forge.img",
+      "sourceSha256": "02e91585fb6c3a09ac3d2a6dc63f51fb47ece6324cb8bed810b46563e8635d6a",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forge-00.png",
+          "sha256": "8af0e73f759e6554481ab23d34d0256b244ac77baa28d462e0a60c4dbcf32f7d",
+          "index": 0,
+          "width": 95,
+          "height": 22,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            5
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forge-01.png",
+          "sha256": "2cbba5001368c9e4f44c28d859c8fae1aaf482150f9f5603fbae0bfb704c48d3",
+          "index": 1,
+          "width": 95,
+          "height": 24,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            3
+          ]
+        }
+      ],
+      "rendererKind": "forge-forge-tab",
+      "caption": "锻造",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/tab_forgetype0.img",
+      "sha256": "dd0bfd38ce739b910f6989d8edb83d81c79b9e78ed25ae39e16f9a80f0e73981",
+      "nativePath": "object/ui/forge/tab_forgetype0.img",
+      "sourceSha256": "ed8c6a9d7117fcb2ab893566b2149be0d568c9862cadf24d9330416696788d56",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype0-00.png",
+          "sha256": "8a7f3f874a069f9f9aebf7da14191b033ec2666e5bc9aa3be218c5b1922d50d4",
+          "index": 0,
+          "width": 57,
+          "height": 19,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype0-01.png",
+          "sha256": "734e3308014c5146fe840df3fb577b86aad4d15d9ebd796e3ab5746c36e39c61",
+          "index": 1,
+          "width": 57,
+          "height": 29,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-head-tab",
+      "caption": "头部",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/tab_forgetype1.img",
+      "sha256": "77d1c0a3c5e3bd7021ffcb64613c6978daf1370459828cdb3c0598d592df9b86",
+      "nativePath": "object/ui/forge/tab_forgetype1.img",
+      "sourceSha256": "ff95a776b3ffe80ca905e4f41247d2091fb35c7125091d910675c6831ac5b906",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype1-00.png",
+          "sha256": "e8ad6afec4d29c855fa5488eb496adfd542fd6e74f66b66a5c035cbd4a4cf0d9",
+          "index": 0,
+          "width": 57,
+          "height": 19,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype1-01.png",
+          "sha256": "d80eb10e1e3a39cf8f7fa8c263f69e0392677b86089da4ea5c5cc35b8ed91db1",
+          "index": 1,
+          "width": 57,
+          "height": 29,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-body-tab",
+      "caption": "身体",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/tab_forgetype2.img",
+      "sha256": "0ccf8ce4d044158858147a33fcc3960fa9fb934287d462c6420bab03eebeff4f",
+      "nativePath": "object/ui/forge/tab_forgetype2.img",
+      "sourceSha256": "9fd18f65a5dd7febdbe5b3a51b8256add91f0dd76d9477ede04af7a9848033ea",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype2-00.png",
+          "sha256": "27bf239fc219a117b49feb6236613bb5762bf80d6f711735e0cf32876bfdffef",
+          "index": 0,
+          "width": 57,
+          "height": 19,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype2-01.png",
+          "sha256": "7a165b605e749833f10ad73a8a564299774ba1c92191fb9425d4a0508af6972f",
+          "index": 1,
+          "width": 57,
+          "height": 29,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-back-tab",
+      "caption": "背面",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/forge/tab_forgetype3.img",
+      "sha256": "0f47b2ba71589c12b739c3ce9b217c425a1a521f916086c3e1b78126bb9c471c",
+      "nativePath": "object/ui/forge/tab_forgetype3.img",
+      "sourceSha256": "35444d0281e7e2581a90910b81a60d2e37beff5652be4a16efdc5ed94318ead2",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype3-00.png",
+          "sha256": "1327c5e4b1093619685f9f206533a363346e1f88055318fd5b9e2458193fc201",
+          "index": 0,
+          "width": 57,
+          "height": 19,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__forge__tab_forgetype3-01.png",
+          "sha256": "6c78f68374f3276a0c53f1a64db4e1b33ab51efc9e764bcdc8de856139244a05",
+          "index": 1,
+          "width": 57,
+          "height": 29,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "forge-bubble-tab",
+      "caption": "糖泡",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
       "file": "assets/native-client-ui/login-v1/patch/object/ui/game/btn_cancelSaveReplay.img",
       "sha256": "75df78ce47e7c20619450cf5d0d3b24526826c4ac025f8167c8da7b911361578",
       "nativePath": "object/ui/game/btn_cancelSaveReplay.img",
@@ -57739,6 +58657,1132 @@
       "nativeRuntimeVerified": false
     },
     {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_adopt.img",
+      "sha256": "01cad9942080def793ed66791cc0312fd699bf415de612542ca60b94dd1c9a26",
+      "nativePath": "object/ui/pet/btn_adopt.img",
+      "sourceSha256": "ff4cd3591ddbd8ee949709d1e4ab84ff6a82b797cf649bc54b3b923126f2a30d",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_adopt-00.png",
+          "sha256": "044690c36adfaf83371fd59093f1cb188d1a20e84a3aa692484916a056d48a59",
+          "index": 0,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_adopt-01.png",
+          "sha256": "77b8c745531b0df509669e1e7969f38414f496d13bddb55e93630a3e2b286697",
+          "index": 1,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_adopt-02.png",
+          "sha256": "1ac3d750fbe9176e72ea7837b60522f51763fc2782553b53642adbb7e9b104e1",
+          "index": 2,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_adopt-03.png",
+          "sha256": "e1c171779c2d2ab493dbed9a0578b6a0534b1874ec92dd40d00db336815e7cfb",
+          "index": 3,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "领养",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_change_name.img",
+      "sha256": "9078f8b6ea7e387ebcbe70af155478cf48e82539d6833780966a3a2933a2c449",
+      "nativePath": "object/ui/pet/btn_change_name.img",
+      "sourceSha256": "3fff19ce0016dcf0478ea822fab19398803215d1f900ea4859a26635107f9d4e",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_change_name-00.png",
+          "sha256": "1f01cbf7f0d7fa87ae73cd43c0c395c8ed38ba649b6595a5110d3bb55c352d96",
+          "index": 0,
+          "width": 57,
+          "height": 27,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_change_name-01.png",
+          "sha256": "13b1f1b4dd140c60b83e637027220775451f457d681223fe04e829692fb66c75",
+          "index": 1,
+          "width": 57,
+          "height": 26,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_change_name-02.png",
+          "sha256": "0ade590202537a47f196d59390b2a024a63805e1c1545e3bf6f26f1d8642cdf4",
+          "index": 2,
+          "width": 57,
+          "height": 26,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_change_name-03.png",
+          "sha256": "6bd206112c81570a9287df51b7e826e22d75b9d86465a9a9037628e0178cb5f6",
+          "index": 3,
+          "width": 57,
+          "height": 26,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            3
+          ]
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "更改",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_first_page.img",
+      "sha256": "8ac9856a194e34511017bb76c55ef22affb9001cc89feacd3c7505c688b771f7",
+      "nativePath": "object/ui/pet/btn_first_page.img",
+      "sourceSha256": "997010dfd2e20a020692788b897fee8e1c01a8a9bb1f2f02dc802c07f22de0f1",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_first_page-00.png",
+          "sha256": "f873dad2b9634862d9c632b7f0894e29026fdaac7697d5d87b5bc87a651d2216",
+          "index": 0,
+          "width": 25,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_first_page-01.png",
+          "sha256": "4191d32ef14339de9239adcd3362b7b32073495932f933dbd73300ffd6a9582a",
+          "index": 1,
+          "width": 25,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_first_page-02.png",
+          "sha256": "279b4160aedc1fc5c04afad9b240335a71d5d8813531b18e2720ffff592b1671",
+          "index": 2,
+          "width": 25,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_first_page-03.png",
+          "sha256": "c2f31391875306da0213a9ba7490dbbeceb1d95d04baf7b7d49f1d8ac9fa7c00",
+          "index": 3,
+          "width": 25,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_first_page",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_free.img",
+      "sha256": "5107f42359be18b1f093b0737ffa584edb0cd1ee54633c2a6305f66aa03bf4d2",
+      "nativePath": "object/ui/pet/btn_free.img",
+      "sourceSha256": "6aec1fb0580e36e4c9621df3bad210bfe053c128346eeef2b17ba8ff1dd9b23b",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_free-00.png",
+          "sha256": "e9d271f3237eec3fa36b5587bbd30f45163143224ea992d8e468f6480e4a859b",
+          "index": 0,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_free-01.png",
+          "sha256": "3832e348acfadd322d55b4a549cf67d4648be5da58549fd685b9d09d41352073",
+          "index": 1,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_free-02.png",
+          "sha256": "92d5d751b1cd0a90ed62c6b301bd6e8d5c2d604410f580f3e152589c92a8fc33",
+          "index": 2,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_free-03.png",
+          "sha256": "5feb5688741ac693429bf06fdca0c1528ef87c696ca835ab7e91f1242b058e31",
+          "index": 3,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "放生",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_last_page.img",
+      "sha256": "2dc4e104fe7d7d81c119533269c3b3f8daee6662206f612f1e2a786f9db2cfa0",
+      "nativePath": "object/ui/pet/btn_last_page.img",
+      "sourceSha256": "c601785ac63045a3602dcb13889f6d52c56c36060dcf382587d3a18735e33f97",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_last_page-00.png",
+          "sha256": "ebe081e0417657c66d88880ca1a981377695b40570129648c58b6ad693f07e4b",
+          "index": 0,
+          "width": 26,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_last_page-01.png",
+          "sha256": "60ce27895c16f2d17f35dac261ce92e42f25e43f4e30cd8602f6344c669cefb3",
+          "index": 1,
+          "width": 26,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_last_page-02.png",
+          "sha256": "b0e548f6d02b9a27a274745bf8f9e37b06412c71e9cb8094dfb2105e62143ba2",
+          "index": 2,
+          "width": 26,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_last_page-03.png",
+          "sha256": "119744bfa957b8ad09ca961b8ae34d5ceb104a629b588e2bb2c4192d41939b96",
+          "index": 3,
+          "width": 26,
+          "height": 18,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_last_page",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_next_page.img",
+      "sha256": "953821aeb37615f5615b12e6e363dd9bd37ce69de21fcc852a1ae6825cf6da1f",
+      "nativePath": "object/ui/pet/btn_next_page.img",
+      "sourceSha256": "665de8f47ca4cd05a1a81c312ede840c53c62991b75da80de3736856c0acbb11",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_next_page-00.png",
+          "sha256": "a4947e1d6746fdecb4fdc8c1531e488454666e11c13128a9b64ba1052ac8c592",
+          "index": 0,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_next_page-01.png",
+          "sha256": "aa5ad7bc36e2354605496413e8b58164214e440916c121a6b6793e9b3369f22d",
+          "index": 1,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_next_page-02.png",
+          "sha256": "3dba055489cbe3355cf0e686ec99d07aa2e5c1f3dda8f567fef8990313a86063",
+          "index": 2,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_next_page-03.png",
+          "sha256": "b52c5fee0fe2904ca9bcc07d621a1408b455e8331ae914af522e5f33a5e449fe",
+          "index": 3,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_next_page",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_pre_page.img",
+      "sha256": "0c9617409e1fc59a30e978c174e5ee2a58a949bf186c20b39c7c9ccc366f66bd",
+      "nativePath": "object/ui/pet/btn_pre_page.img",
+      "sourceSha256": "c138370e23483c72d8110af1d66265372b6f485ae50989cf030fc89f4275eae9",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_pre_page-00.png",
+          "sha256": "a9bb3e9a076c997871563b0177d6f9556decacb4e5d1406d9d8a50575f7861d0",
+          "index": 0,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_pre_page-01.png",
+          "sha256": "b850589618f9c4b15598b36b804e2705c676ef00fc41a354dde3c3159ec3403c",
+          "index": 1,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_pre_page-02.png",
+          "sha256": "0c3ee46c154777f7c9db94724cdc7e5f633c11a201584db6b8803a93c5ff49ba",
+          "index": 2,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_pre_page-03.png",
+          "sha256": "9014f96f1e0be1bc4810425b1f3c85b8322f6afaf1a5b28ac7552791c453dcab",
+          "index": 3,
+          "width": 15,
+          "height": 17,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-nav",
+      "caption": "btn_pre_page",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_raise.img",
+      "sha256": "dcf4ce87c131c76f5d77040240f0cfa30b3fd2a6ffe8cf363b8ac1101f355a21",
+      "nativePath": "object/ui/pet/btn_raise.img",
+      "sourceSha256": "b7a1e8dabf1aae1497e0e4854fd093ead603b17d7fe0f844af1f83af28934363",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise-00.png",
+          "sha256": "aa641aebd27c58ea9f6d5430ad371b9865247610fdd2c45648ba2aa0226672db",
+          "index": 0,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise-01.png",
+          "sha256": "ecf75b0ddbf7e678efa3dd1dae220c8feb75d492cf36dd8e162e949dc0836ddf",
+          "index": 1,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise-02.png",
+          "sha256": "cba7697168fabf63da4448bd9a4bf286aaced103408dc7f7b8a33bc00c31c131",
+          "index": 2,
+          "width": 109,
+          "height": 29,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise-03.png",
+          "sha256": "38d71ed1477faa7736d34faeea3588f2b1f20d820729efd6df7a00aab3fe191e",
+          "index": 3,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "pet-fold",
+      "caption": "raise",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_raise1.img",
+      "sha256": "b926b087a06e5ac63160a4ec7578ab19dae89e72769f5285fa2697d8928a29ee",
+      "nativePath": "object/ui/pet/btn_raise1.img",
+      "sourceSha256": "719dc518d827332830898532301a3baa310adcd62e260b3c612c85de3ecb05be",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise1-00.png",
+          "sha256": "5cd37ed4d51bff4822cfa83db72312cdee885f7dce07ba2c785452d0b56d520a",
+          "index": 0,
+          "width": 109,
+          "height": 29,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise1-01.png",
+          "sha256": "ecf75b0ddbf7e678efa3dd1dae220c8feb75d492cf36dd8e162e949dc0836ddf",
+          "index": 1,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise1-02.png",
+          "sha256": "a661ada553c4f7fb8ceeea1a8e0cf47d4e733f78f6a38e75de2f7ed56b189976",
+          "index": 2,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_raise1-03.png",
+          "sha256": "38d71ed1477faa7736d34faeea3588f2b1f20d820729efd6df7a00aab3fe191e",
+          "index": 3,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "pet-fold",
+      "caption": "raise1",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_skill.img",
+      "sha256": "5d0a93928cf877aa1cb5639729ab100fd4f3ae557132626ccecc4b22394108e3",
+      "nativePath": "object/ui/pet/btn_skill.img",
+      "sourceSha256": "82e6e8ea8c2f291a1416c5f00e0bd6229b62a30554a96a048d7e3b775c1922d1",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill-00.png",
+          "sha256": "3f0f4e527ec1d1289aa1f5dfff8a043791b86e477ea1bd8fb55a25ff8b976fe1",
+          "index": 0,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill-01.png",
+          "sha256": "8808be90fe50a32b1183b3187548a0b99e4af9484af767a71975f552eeeee44a",
+          "index": 1,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill-02.png",
+          "sha256": "c7ffbaef39d92cea98547ae207324180cd3032ac84cc732ed2a80a92012b835d",
+          "index": 2,
+          "width": 109,
+          "height": 29,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill-03.png",
+          "sha256": "95a232f145f23e6976d70008675c64c25fe79e51972ed8f51d51e770b1d503e7",
+          "index": 3,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "pet-fold",
+      "caption": "skill",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_skill1.img",
+      "sha256": "b1c4ea0c6d2aad1c9e03b5fb7bdcb1e2560770f424747c761c97630613130b20",
+      "nativePath": "object/ui/pet/btn_skill1.img",
+      "sourceSha256": "cc31d99b680326e4a77f096b0d34df8e1a3a607871869448e763c71549725786",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill1-00.png",
+          "sha256": "ac057e195a89273648f32f468824d0680419c9eebf960a75258e15efba733098",
+          "index": 0,
+          "width": 109,
+          "height": 29,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill1-01.png",
+          "sha256": "8808be90fe50a32b1183b3187548a0b99e4af9484af767a71975f552eeeee44a",
+          "index": 1,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill1-02.png",
+          "sha256": "2219c62d7abec743c28f65713e849e4feb64779a1273a5c816f7174c068d5b67",
+          "index": 2,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_skill1-03.png",
+          "sha256": "95a232f145f23e6976d70008675c64c25fe79e51972ed8f51d51e770b1d503e7",
+          "index": 3,
+          "width": 109,
+          "height": 31,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "pet-fold",
+      "caption": "skill1",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_stop_take.img",
+      "sha256": "1560ad6dd2171ca52af592a0e715a1e85375b2585801aff84b2b3dfce383eb45",
+      "nativePath": "object/ui/pet/btn_stop_take.img",
+      "sourceSha256": "dfe9d365f56fb63c557357c63c447656221674ade905ef045c57e22872035b69",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_stop_take-00.png",
+          "sha256": "f535f51a50e59f898a66740c65d58e2625a694227807c95bc4eb4da570cf6844",
+          "index": 0,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_stop_take-01.png",
+          "sha256": "fd54bd5bc90d0cc5c9af81e7bd9a2323e5cbf808b334457071d69b8d465993c9",
+          "index": 1,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_stop_take-02.png",
+          "sha256": "a1e9de124db7c95fd448cba86dc96cfee5c3078697e7bb5cc685f009524d4f92",
+          "index": 2,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_stop_take-03.png",
+          "sha256": "8e0539a314be418bd8020e289e876865853f6fe8fe5c167c4f007869e7e6664d",
+          "index": 3,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "休息",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/btn_take.img",
+      "sha256": "564b035a7cb41bc4441504ebab87fcaf3b77a6ecb62ad0b4c52a0e0faea6650b",
+      "nativePath": "object/ui/pet/btn_take.img",
+      "sourceSha256": "058fd3f082882b045ae9c5afdfe6e23773774a3c9904f521d045019515dd7c91",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_take-00.png",
+          "sha256": "090abcd44f7ba3eff14e7798358db1de632c5a0478510953bf9fc56cd3d93098",
+          "index": 0,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_take-01.png",
+          "sha256": "2e0c712712727e21707f92b75751fa2b7bb379fc54285a9b343cb0ed50f3db0b",
+          "index": 1,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_take-02.png",
+          "sha256": "8039363103b6d67147f7bd2a29ebde9fcf4b5f488bc20a8087f8efa4babcce8c",
+          "index": 2,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__btn_take-03.png",
+          "sha256": "350c8e4dc7e441912437754e4bdc0aeca592bdf72ec6528e02b8b820b081be91",
+          "index": 3,
+          "width": 41,
+          "height": 30,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-button",
+      "caption": "携带",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/dlg_baseskill.img",
+      "sha256": "1a1dc5a68aaf493e446af04c57ab3a21b3ae520013e427c5d52a2436a84c26b5",
+      "nativePath": "object/ui/pet/dlg_baseskill.img",
+      "sourceSha256": "beb35bc3354fc2836031b1f457756089aaf00f9e6e35644a1ef4a8c127c44c5b",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__dlg_baseskill-00.png",
+          "sha256": "29c9e800888648f813bb556bd5811b4a7c5e429965534bcd2dcec5a32d4e756d",
+          "index": 0,
+          "width": 104,
+          "height": 98,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-base-skills",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/dlg_food.img",
+      "sha256": "2d56ba5a2f37e3fce159c6df79540cc2c9e6a017e7260a09da3efdcc7b1ad675",
+      "nativePath": "object/ui/pet/dlg_food.img",
+      "sourceSha256": "19c6cd77d3701269a892770e2651531d7afc5dd0ca6d0a695470dc538db7bba2",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__dlg_food-00.png",
+          "sha256": "169b00905d803a158341f8239c790c615dbf57e36ef6f261c5e4dafc7b39725b",
+          "index": 0,
+          "width": 254,
+          "height": 223,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-food-grid",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/dlg_pet.img",
+      "sha256": "f2aa6e2791e9bd10e4d5221f4e63ae80d205251672788e1689928dad9a208fe9",
+      "nativePath": "object/ui/pet/dlg_pet.img",
+      "sourceSha256": "be62c99c18d9c7652fcbb78da0507c77df1eb5c36e75ef57bd8c8e77b937e4db",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__dlg_pet-00.png",
+          "sha256": "3ddcc91e617ef96cc65cac604d27df64928219698ee4bf6c747e45cc6271424b",
+          "index": 0,
+          "width": 251,
+          "height": 285,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "pet-main",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/dlg_skill.img",
+      "sha256": "1bde7e2f1445a85eb8db2b527eb4fefe52ff7a007207c5009227fef65c6e112d",
+      "nativePath": "object/ui/pet/dlg_skill.img",
+      "sourceSha256": "0a14a2530f0b34c633a021e60beb38fe38541025533b8f383294b0c764e34b7c",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__dlg_skill-00.png",
+          "sha256": "be61f5836d44f5f6fc76be7896da42816fb1bbd4056b384b125d7add245f648e",
+          "index": 0,
+          "width": 104,
+          "height": 298,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-skills",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/face0.img",
+      "sha256": "ce4aafdb47fd4aa74088c4253c698d4c66c210cb599eaadbdfae4f790f4f15f3",
+      "nativePath": "object/ui/pet/face0.img",
+      "sourceSha256": "a035ab4843c44193e101d8bf0732e2f53f6b68f28ad6f520a2550607140601ed",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face0-00.png",
+          "sha256": "9a93dcd824f4ba18cd6f8ed50a75f646ea5a2476a6bdfcee14c1f873384d54bd",
+          "index": 0,
+          "width": 34,
+          "height": 33,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face0-01.png",
+          "sha256": "815f8040dcde223321b924d39c842a6eb29f1f67fcc5676ec47bd372558460ec",
+          "index": 1,
+          "width": 34,
+          "height": 32,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-face",
+      "caption": "0",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/face1.img",
+      "sha256": "2a702192b4fb85fd7107cd236d9ac8aa63e08b9180db306be9bf76188a9c38a4",
+      "nativePath": "object/ui/pet/face1.img",
+      "sourceSha256": "200d85aa65372046ed3247b1cc0a2906162316faed397a0f3543fb13df3b728e",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face1-00.png",
+          "sha256": "cde281beed3be0b81d6bc23f567e836211432133d3d1cdf020ac1da6aa222455",
+          "index": 0,
+          "width": 34,
+          "height": 33,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face1-01.png",
+          "sha256": "3255b04ec0d4bdbeccb644a7ceba7780724175aea5389c22405734698d060177",
+          "index": 1,
+          "width": 34,
+          "height": 32,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-face",
+      "caption": "1",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/face2.img",
+      "sha256": "54b38c7c5a18cb2aedffc7fa1d086afcfa21da5aca5d906fb7498e3d4353bc92",
+      "nativePath": "object/ui/pet/face2.img",
+      "sourceSha256": "8adf8e2f2f17b2857449f7da34ad85d77eaee27b9c6aa4999bb473a945552c2a",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face2-00.png",
+          "sha256": "c0b3fa68dd8c8653bc20ca4f7613598bfa708b3c53173ba8c21c31550b9c94ad",
+          "index": 0,
+          "width": 34,
+          "height": 33,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face2-01.png",
+          "sha256": "9c3995c2549795bb18c2b384e2114d88a769f634071cd8f79bf2ae938726d651",
+          "index": 1,
+          "width": 34,
+          "height": 33,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "pet-face",
+      "caption": "2",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/face3.img",
+      "sha256": "f2beb18b9cff06e1e6546f4d409628e5446e4abcc4bee96d4af5b628b848e531",
+      "nativePath": "object/ui/pet/face3.img",
+      "sourceSha256": "8ebeaff4c4c0ba6f4a9fa95cca8911c4afd17588386c3a17cfe2bfc1b6f3275b",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face3-00.png",
+          "sha256": "afa2774cbf7db236e67c7dfe50471d104c4f69aba54f9630606aa973b08ec893",
+          "index": 0,
+          "width": 34,
+          "height": 33,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face3-01.png",
+          "sha256": "6f50fdde3443442e5079b9e807939991585aab73b1a62fcc1145c2535e5cdffc",
+          "index": 1,
+          "width": 34,
+          "height": 32,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-face",
+      "caption": "3",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/face4.img",
+      "sha256": "e8893d4a6928fc57aedcb83c072597132cd25ab4ca7387fadad15fbbeb82fd19",
+      "nativePath": "object/ui/pet/face4.img",
+      "sourceSha256": "b64d3eb0d3d4e377b205d23f84a4f0d784206686b455c1e4ab5aa1cdd364ade5",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face4-00.png",
+          "sha256": "a94dd0027e6c3e360e5eda4851ac8418c515bbeec96729eac7e2449df4824c1b",
+          "index": 0,
+          "width": 34,
+          "height": 33,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__face4-01.png",
+          "sha256": "3207072d91f38fb23a4d61e25e6c3e572102e4b007fd7554eebd92baae7490ab",
+          "index": 1,
+          "width": 34,
+          "height": 32,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "pet-face",
+      "caption": "4",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/pet/img_exp.img",
+      "sha256": "3182d25d4825eb815959d857058a9170853c2add1f3f3fdc152cf9711e46eb6a",
+      "nativePath": "object/ui/pet/img_exp.img",
+      "sourceSha256": "22f1c7da3edba3462bf7f49aa8fa119987cd7de88e24ea4cd97e2dfaaba936c4",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__pet__img_exp-00.png",
+          "sha256": "dc17cc4d1c387728e269150f5deb35a5697fd03eb58506a2e73062fac1ee3c71",
+          "index": 0,
+          "width": 160,
+          "height": 7,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "pet-progress",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
       "file": "assets/native-client-ui/login-v1/patch/object/ui/record/icon_file.img",
       "sha256": "8992cfcbefb328f19f29ceca687fdbc113b75bf04c599e9ac33af11d43479bdf",
       "nativePath": "object/ui/record/icon_file.img",
@@ -58583,6 +60627,68 @@
       "nativeRuntimeVerified": false
     },
     {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_commandPrompt.img",
+      "sha256": "ebf86fde49157e2a5c161396219f43e83c60e43b884a141e9d05c6654f264a16",
+      "nativePath": "object/ui/selRoom/btn_commandPrompt.img",
+      "sourceSha256": "478bd4a38d0fd9d3c768c60c1358ba45ded43ab503378d32d61f95be60d82f4f",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_commandPrompt-00.png",
+          "sha256": "63c6ee33bbfd6a3ca1c86a41e60f1548916cb59890079f0d0d2035efb92f45d6",
+          "index": 0,
+          "width": 23,
+          "height": 24,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_commandPrompt-01.png",
+          "sha256": "4d0dcae3b67551d3fe851f177d02132baa0a9ea05198a7b8fa25f30ff9792a41",
+          "index": 1,
+          "width": 23,
+          "height": 24,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_commandPrompt-02.png",
+          "sha256": "d2771b87ced8594bd8d67d963e2f184af32d51870aebb08481e15727317b9b28",
+          "index": 2,
+          "width": 23,
+          "height": 24,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_commandPrompt-03.png",
+          "sha256": "f1a5e36da2d849f46be277d89e3f6832df7e058c040870e013bf1e6c5f4027cb",
+          "index": 3,
+          "width": 23,
+          "height": 24,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-command",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
       "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_createroom.img",
       "sha256": "1264177b8ccceeab7a28a8b59ca709e651c8a315566d48ed81fe26e6eb3c02d4",
       "nativePath": "object/ui/selRoom/btn_createroom.img",
@@ -58629,6 +60735,168 @@
       ],
       "rendererKind": "post-stack-button",
       "caption": "创建\n房间",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_flexDown.img",
+      "sha256": "1d4939ef6b21cb5351d62b7d627581b197224a81cd338a53b9bc40d1af465e63",
+      "nativePath": "object/ui/selRoom/btn_flexDown.img",
+      "sourceSha256": "652ae992633f396e71a80d011fefb7497aaca8ba2257b15442eaaea9c7845ee4",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_flexDown-00.png",
+          "sha256": "aeed2d81f6c1e8879e456ff44b1192c778859570fafa0cedf2bec5b720d56bb5",
+          "index": 0,
+          "width": 39,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_flexDown-01.png",
+          "sha256": "b7e8e9bf3fcc4c257e0d27f27660e83a82d70a714aa0f8fcde81b78812f78a63",
+          "index": 1,
+          "width": 39,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_flexDown-02.png",
+          "sha256": "895dfb85f15f014d9fcffe19b7f55db90bbd495a292313846c32dc6d3af81562",
+          "index": 2,
+          "width": 39,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-flexdown",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_flexUp.img",
+      "sha256": "9eebecc1218e766ad063288c2640404fe493b7e67f9c358007af6da1bb61a9fe",
+      "nativePath": "object/ui/selRoom/btn_flexUp.img",
+      "sourceSha256": "2118b666a43050962c1d7209f36c489eecc82bcc6922c09d90dc84dff5595465",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_flexUp-00.png",
+          "sha256": "1cdb29ca82acba75c60fc5664c4b4f71c9c8f0459a86b2ab21a1e6407293aa7b",
+          "index": 0,
+          "width": 38,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_flexUp-01.png",
+          "sha256": "5287937043fc8654b691ee42fec7d1d8f48fe4b17914a506eebea758800ac1a0",
+          "index": 1,
+          "width": 38,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_flexUp-02.png",
+          "sha256": "476146bde404dd0154d608da194e40ccff435324485a68114516e471ff64a746",
+          "index": 2,
+          "width": 38,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-flexup",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_left.img",
+      "sha256": "de71b38258fa47f4d8c8a5e4c5a64b9cd1e8dc2c72a42c8a468652f3511b418d",
+      "nativePath": "object/ui/selRoom/btn_left.img",
+      "sourceSha256": "2fb05a5c7839d92ab72ef917d8e4ba205c24cb0ba16030702f6ec77539e0821c",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_left-00.png",
+          "sha256": "dbcfb918be4ddfe5337b846cbbe6cf8ac06faf742ae1057a26a71e9b89e76580",
+          "index": 0,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_left-01.png",
+          "sha256": "4b4fa3d85a66c5cdb10225cb1520f1e89541c463dc258a579b2e8bce871e182d",
+          "index": 1,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_left-02.png",
+          "sha256": "928d80de2212a77a35132678b64ff668bf56d0470c9548d516b657580ff49c31",
+          "index": 2,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_left-03.png",
+          "sha256": "b743348c164bac8d35ba9b5ada1e15f131698ce1aecfbff9ea48e82450c8fd7a",
+          "index": 3,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-left",
+      "caption": null,
       "visualAccepted": false,
       "nativeRuntimeVerified": false
     },
@@ -58733,6 +61001,118 @@
       "nativeRuntimeVerified": false
     },
     {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_message.img",
+      "sha256": "1c3a55759cbe5edf57faa171787131c27e5d3528d866fd11d04d323b9aec3fa7",
+      "nativePath": "object/ui/selRoom/btn_message.img",
+      "sourceSha256": "efae015ceceea3a175aaecfbb72207740f8e7a4613333584b20f376299d28805",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_message-00.png",
+          "sha256": "099b43a97c164bbaa8308df6342a773e9745cef97927712402352b49f4797dee",
+          "index": 0,
+          "width": 29,
+          "height": 20,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            5
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_message-01.png",
+          "sha256": "ad7a794a7a78d8fc3c04491cbef5d98247d1c0af30163fae587f100821dc29e7",
+          "index": 1,
+          "width": 29,
+          "height": 20,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            3
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_message-02.png",
+          "sha256": "488b98b5f878fee02806de24230b7c006e857e38b5edf32f871b6e4d26e077a4",
+          "index": 2,
+          "width": 29,
+          "height": 20,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            4
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-message",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_right.img",
+      "sha256": "bb5ff0903e4a826c1ae12152d18e1437628609a1c4099cf31783784b439bc7a3",
+      "nativePath": "object/ui/selRoom/btn_right.img",
+      "sourceSha256": "01b1391a7d96e0c241e87588e03ce92f448c3fbe27d36c27b58756e059b701a5",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_right-00.png",
+          "sha256": "96fdb77bef54f4b29ffa26faab190b20aa6b75767feed5a448038d381258e8bc",
+          "index": 0,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_right-01.png",
+          "sha256": "57a7695bfa71c5b13cce78890fa5e401fcf7532d27d24f8ee6ded3f89c2811bd",
+          "index": 1,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_right-02.png",
+          "sha256": "cc93bd57ff13b57060e0460e6555085ad9b710684716db45dc64436246eaf574",
+          "index": 2,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__btn_right-03.png",
+          "sha256": "9f9d7f595c29d434084e174ce68533a8b78d54a25a0aa823423f047eb30f51c1",
+          "index": 3,
+          "width": 15,
+          "height": 56,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-right",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
       "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/btn_shop.img",
       "sha256": "295dd4d6b29e09ca8964150442839ba5db9e15325711d48633c0e710c99334f5",
       "nativePath": "object/ui/selRoom/btn_shop.img",
@@ -58779,6 +61159,84 @@
       ],
       "rendererKind": "lobby-stack-button",
       "caption": "道具\n商城",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/dlg_chatMax.img",
+      "sha256": "249271a99f7e080e00cf8fb1d33892ce75e9c46aab37853a2fd060733778cfb9",
+      "nativePath": "object/ui/selRoom/dlg_chatMax.img",
+      "sourceSha256": "1d5aa76c2e32666f5ee195f7722c3a44eb6d77005afd3a96af2ba77df0adad05",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__dlg_chatMax-00.png",
+          "sha256": "45b113516f6f338fe41498825437783ee42dbae4e65f4eb9bb9f7037d8b6b4b3",
+          "index": 0,
+          "width": 343,
+          "height": 308,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-chatmax",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/dlg_chatMin.img",
+      "sha256": "339eaa6c504683b0b827fc572bd3a9eecf295e83b01f6ab51739602c0c74fd5a",
+      "nativePath": "object/ui/selRoom/dlg_chatMin.img",
+      "sourceSha256": "4d84dc391663e4357642787c062dd97c5d53311b5c6e1848931427aa096a7c9a",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__dlg_chatMin-00.png",
+          "sha256": "e1922403229de647063b4e23e45a63291167a757ff89416c8be3ad3c9778c2f4",
+          "index": 0,
+          "width": 343,
+          "height": 117,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-chatmin",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/dlg_chatNormal.img",
+      "sha256": "26283fe29edee38c81373f052e4b6536f87154c5f741a62e6b73c498bd664854",
+      "nativePath": "object/ui/selRoom/dlg_chatNormal.img",
+      "sourceSha256": "b1946dcd4d3392c2f30bd4e26f6069cec56e7206feff07e8a5e22abe21e6e02b",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__dlg_chatNormal-00.png",
+          "sha256": "5e1c3dfe12d139d667929b15c3c08e06f3ac4a9c63c094b2542c3eb8768e2ecf",
+          "index": 0,
+          "width": 343,
+          "height": 213,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-chatnormal",
+      "caption": null,
       "visualAccepted": false,
       "nativeRuntimeVerified": false
     },
@@ -58859,6 +61317,58 @@
       "nativeRuntimeVerified": false
     },
     {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/icon_vip.img",
+      "sha256": "433d912d0469256297e76be46ded8a092de01b3c4741c377f0e3bbc7ff8ffd35",
+      "nativePath": "object/ui/selRoom/icon_vip.img",
+      "sourceSha256": "4f81aca1cc3d1cf22b263448878396e64eed8eab76f08e569e1def1fed168a12",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__icon_vip-00.png",
+          "sha256": "588345fc177768a2eb6aa27ed1fb6ad40d6c19d2c40d4cdc29d5448eeed04cf0",
+          "index": 0,
+          "width": 65,
+          "height": 26,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-vip",
+      "caption": "VIP",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/img_popo.img",
+      "sha256": "2f7107801ebd8b9b9a338c8915c592985c895819ff4edcf874ce283e3595fed8",
+      "nativePath": "object/ui/selRoom/img_popo.img",
+      "sourceSha256": "aded6510bfe82c510534172955289310a1354840fd44da3d01c043dd9081f3e5",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__img_popo-00.png",
+          "sha256": "b7b0c819259dde097da8433a67b4ab26391a67323bb26a4d1ad8679550841ce2",
+          "index": 0,
+          "width": 350,
+          "height": 17,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-popo",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
       "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/map/dlg_mapFilter.img",
       "sha256": "1f11c6acbf140e240ac71a0432899f8e4f3aff2adcf654df28e888e33f6eec6f",
       "nativePath": "object/ui/selRoom/map/dlg_mapFilter.img",
@@ -58881,6 +61391,166 @@
       ],
       "rendererKind": "lobby-map-filter-panel",
       "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/mask_speaker.img",
+      "sha256": "642798e5e06acb4f24ad1b8160e12e9a29997d37ad3f999de48b1b3635900aa7",
+      "nativePath": "object/ui/selRoom/mask_speaker.img",
+      "sourceSha256": "f7abda502a2c42fc9b01b18be2d5feb8d9530c8a84ade0eb9f6897fa5281513d",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__mask_speaker-00.png",
+          "sha256": "42ea779a20a8e00dab0bcda704f28740d47c409f39db3f1164ef26f4e749a77f",
+          "index": 0,
+          "width": 340,
+          "height": 17,
+          "pixelMode": 8,
+          "frameOffset": [
+            5,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-speaker-mask",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/num.img",
+      "sha256": "a3b56f013d684673b64a855168c91466daff3ed646bc8bab65136d1ab4ee471d",
+      "nativePath": "object/ui/selRoom/num.img",
+      "sourceSha256": "e30e4e858eae20d6be914ebba2f83a41a9cfa20b6392daab1e223d5b437fa5e0",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-00.png",
+          "sha256": "e9ab40c4d346ce2f215671e04188903a923ed2c4c7576609ed87b073812500a3",
+          "index": 0,
+          "width": 10,
+          "height": 14,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-01.png",
+          "sha256": "a9189425f05c5847bbde16667624c6f31efbc9ef630d998d53e7c338a0fdd79b",
+          "index": 1,
+          "width": 6,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-02.png",
+          "sha256": "f17efefa8246b4c3548660e3edf9bca843e514720c326fb9a406613b397c93ae",
+          "index": 2,
+          "width": 10,
+          "height": 14,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-03.png",
+          "sha256": "7b53dcb2b3ca74bc9df26f52d71cc63076a719f853f91d71100a156dce043a4b",
+          "index": 3,
+          "width": 10,
+          "height": 14,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-04.png",
+          "sha256": "bbd827ec3be12a9569da3025240dad724ce6c3a41a3bd82794b9b4a989b63870",
+          "index": 4,
+          "width": 11,
+          "height": 14,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-05.png",
+          "sha256": "50bedd8d1067dddb23ebbce0c0e9a06e471b66ff8862385c6e5b7d44c5dfca7b",
+          "index": 5,
+          "width": 10,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-06.png",
+          "sha256": "8d167ec94b7f26f8895b0f5819ca31a9b9c1b6004e03c02b79ace50373130547",
+          "index": 6,
+          "width": 10,
+          "height": 14,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-07.png",
+          "sha256": "70c93655d82a0aae51d4633b021691dcd978cb3201e37fa452b91ce248e46ef4",
+          "index": 7,
+          "width": 10,
+          "height": 13,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-08.png",
+          "sha256": "f58abfeeb3fef6da117da0b87046e08569dfa9923c1477ce7b0ff394b3b37e58",
+          "index": 8,
+          "width": 10,
+          "height": 14,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__num-09.png",
+          "sha256": "93996786c018a2ca1c15193a1db3184ce31c31a17f60b8520a8afc1fc9387073",
+          "index": 9,
+          "width": 10,
+          "height": 14,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-digit",
+      "caption": "0123456789",
       "visualAccepted": false,
       "nativeRuntimeVerified": false
     },
@@ -59223,6 +61893,110 @@
       ],
       "rendererKind": "lobby-list-tab",
       "caption": "玩家",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/tip_enterShop.img",
+      "sha256": "01eaf04ba2a22a7325cf36be6755277e027612f9462c81c04ea6195404852c94",
+      "nativePath": "object/ui/selRoom/tip_enterShop.img",
+      "sourceSha256": "301a228957036ff47358de40c942a49ed5ebeb1aac2b9436165e2d7c96a319c1",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__tip_enterShop-00.png",
+          "sha256": "b5fcf75d907263b9002b78a70c3fd7cc2c14521a1ef9dab66059b01f71fbc3d9",
+          "index": 0,
+          "width": 57,
+          "height": 30,
+          "pixelMode": 8,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-shop-tip",
+      "caption": "进入商城",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/tip_GuideMidRight.img",
+      "sha256": "1efc5e7261f44387c20b6b19245be30b1e5fa05aff57e24f770997a8ff141677",
+      "nativePath": "object/ui/selRoom/tip_GuideMidRight.img",
+      "sourceSha256": "f92f8d1a0428904d252252d98501212e79153ee51e7f84d1a21a2a1da340da36",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__tip_GuideMidRight-00.png",
+          "sha256": "882e0d21185b3db403f40875a08c73dcf4edcc38b10b29f207268c87cd43feac",
+          "index": 0,
+          "width": 169,
+          "height": 83,
+          "pixelMode": 8,
+          "frameOffset": [
+            8,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-guide-right",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/tip_GuideMidUnder.img",
+      "sha256": "cd4a6b7d0c66989c7942cda1157f721a60c46db9ec60b360327b8a3b1ed71df4",
+      "nativePath": "object/ui/selRoom/tip_GuideMidUnder.img",
+      "sourceSha256": "aa05b33ecd834f70f15db2caf3884d688b647831976fe4bfcb1dc2f2bc391db6",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__tip_GuideMidUnder-00.png",
+          "sha256": "3d896042dc450cb09edefd12d7ef3fb5b7ad3ae05733b0691f368807eb5a2bc7",
+          "index": 0,
+          "width": 169,
+          "height": 83,
+          "pixelMode": 8,
+          "frameOffset": [
+            8,
+            12
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-guide-under",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/selRoom/tip_GuideMidUpper.img",
+      "sha256": "84025873a3e85cd9d55c19bd50ac21acd8db01c1ab0cd89d09649189cbf25dd3",
+      "nativePath": "object/ui/selRoom/tip_GuideMidUpper.img",
+      "sourceSha256": "a8b4acf2813bacbc48077c21c737943ce117f93ab66f9dcb3ed058a6f4327c12",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__selRoom__tip_GuideMidUpper-00.png",
+          "sha256": "41e5cd31c8e09ee5f98c34894a7920198a3406cecf5d86d3469de7b62d62b1f1",
+          "index": 0,
+          "width": 169,
+          "height": 83,
+          "pixelMode": 8,
+          "frameOffset": [
+            7,
+            2
+          ]
+        }
+      ],
+      "rendererKind": "lobbyextra-guide-upper",
+      "caption": null,
       "visualAccepted": false,
       "nativeRuntimeVerified": false
     },
@@ -61754,6 +64528,434 @@
         }
       ],
       "rendererKind": "storage-task-select",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/bg_web.img",
+      "sha256": "06a449ef73af3a3007b8ddfc628103598c6fccb5f0c2f04b070d042c0e0f155a",
+      "nativePath": "object/ui/web/bg_web.img",
+      "sourceSha256": "6d2306382f343c65b3a6bb5269b6e867bd4b1a0f441c82cde060d588579eebca",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__bg_web-00.png",
+          "sha256": "7c1a8583a82fcd55087e4537fb47c20b38c9b79816115056b9ceb8557c8adb9b",
+          "index": 0,
+          "width": 800,
+          "height": 25,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-upper-strip",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/btn_back_hit.img",
+      "sha256": "66801ce1c079b40ef492a1a0fe130f0006c8db54f2e6e2c2cbc5604f07ef4b5e",
+      "nativePath": "object/ui/web/btn_back_hit.img",
+      "sourceSha256": "f4a736db801b6cbc19b649ff24819a91d5c989921ab2c08be08e6e0f77afc404",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_back_hit-00.png",
+          "sha256": "4fc03ce214c3b5ae0239fb3a82e1928a1cddc1e04f3db94bcd85dc37c804bf22",
+          "index": 0,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_back_hit-01.png",
+          "sha256": "2565c1c02cf7253c14e8ee2cb3d6d3f0c11740eb5437ab29f37b56652c80d905",
+          "index": 1,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_back_hit-02.png",
+          "sha256": "4a48c2e15b2c171c57b8ad939f3bf96cc4be9d17c6d926986aa5fd77ca5f5fef",
+          "index": 2,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-button-back-hit",
+      "caption": "后退",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/btn_backward.img",
+      "sha256": "66801ce1c079b40ef492a1a0fe130f0006c8db54f2e6e2c2cbc5604f07ef4b5e",
+      "nativePath": "object/ui/web/btn_backward.img",
+      "sourceSha256": "530d6c38bfbbc4094a5a2eacc5f2abdc80f40e99f27ee8547224f21fee2bbdf5",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_backward-00.png",
+          "sha256": "4fc03ce214c3b5ae0239fb3a82e1928a1cddc1e04f3db94bcd85dc37c804bf22",
+          "index": 0,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_backward-01.png",
+          "sha256": "2565c1c02cf7253c14e8ee2cb3d6d3f0c11740eb5437ab29f37b56652c80d905",
+          "index": 1,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_backward-02.png",
+          "sha256": "4a48c2e15b2c171c57b8ad939f3bf96cc4be9d17c6d926986aa5fd77ca5f5fef",
+          "index": 2,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-button-back",
+      "caption": "后退",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/btn_cross.img",
+      "sha256": "c16ad4e606541f1b0fb62944c2347d3b7b75872b71a07939fcdbf12b640ef038",
+      "nativePath": "object/ui/web/btn_cross.img",
+      "sourceSha256": "2835bbcc7b5803019195db87a94d911a800932448bd553348cc14496042e56ce",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_cross-00.png",
+          "sha256": "e24df93f47613050fed0e212149b64216b597eaf9b7bec023394135f361592d5",
+          "index": 0,
+          "width": 22,
+          "height": 22,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_cross-01.png",
+          "sha256": "7e455197c4bf4c5f625b291e8465dde7e38b1d944daa835867ee0ccf45502d81",
+          "index": 1,
+          "width": 22,
+          "height": 22,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_cross-02.png",
+          "sha256": "cda0b6d15a2372ff405c9f142ccf3e963bfa9557ee91727cbae32f4517f76c1d",
+          "index": 2,
+          "width": 22,
+          "height": 22,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-cross",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/btn_forward.img",
+      "sha256": "b1e8a04aa5fcd990d2c21b17523c9947b374930df6b89a5bee423ca7b1f96c69",
+      "nativePath": "object/ui/web/btn_forward.img",
+      "sourceSha256": "53e46b93f3d087dd788e977d5f1879bbdff2ae3cb45d315ee1698c3252b5a36a",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_forward-00.png",
+          "sha256": "1714a08142abd7584e4578f33f6e1da25e11b75975bcc574c4bf112c41f05533",
+          "index": 0,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_forward-01.png",
+          "sha256": "f21f52c64dd5fb32cda562fb360c04a18037aa0fa45b976eb46c922f0f52b383",
+          "index": 1,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_forward-02.png",
+          "sha256": "ef2a15e0093bb4b6816ad77320887ffeae4230ab1f2ffbcae493402a24dd97d4",
+          "index": 2,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-button-forward",
+      "caption": "前进",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/btn_forward_hit.img",
+      "sha256": "b1e8a04aa5fcd990d2c21b17523c9947b374930df6b89a5bee423ca7b1f96c69",
+      "nativePath": "object/ui/web/btn_forward_hit.img",
+      "sourceSha256": "52ae54c49c42261b371192e34b7777658d9fdede6df45d9e6ce6d0a94c39ff0c",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_forward_hit-00.png",
+          "sha256": "1714a08142abd7584e4578f33f6e1da25e11b75975bcc574c4bf112c41f05533",
+          "index": 0,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_forward_hit-01.png",
+          "sha256": "f21f52c64dd5fb32cda562fb360c04a18037aa0fa45b976eb46c922f0f52b383",
+          "index": 1,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_forward_hit-02.png",
+          "sha256": "ef2a15e0093bb4b6816ad77320887ffeae4230ab1f2ffbcae493402a24dd97d4",
+          "index": 2,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-button-forward-hit",
+      "caption": "前进",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/btn_leave.img",
+      "sha256": "3f40a25a8a0f52a5c6d32d4755a38532f9d398093b0e95447e2f5d715cf1eb49",
+      "nativePath": "object/ui/web/btn_leave.img",
+      "sourceSha256": "2992ac1115946b3f3e1075512f54a2f1ce57592445f0e53632142f1394260cb7",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_leave-00.png",
+          "sha256": "9db846975aa346726eb86890d6b816d316628f7112c8c451064fd302bf9c85af",
+          "index": 0,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_leave-01.png",
+          "sha256": "1f953f31cde677cbcee01bf98791e9cd5c3385e9a71f8e17295b20e5a20b4fa5",
+          "index": 1,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_leave-02.png",
+          "sha256": "ae013dc70e4f42734ffe1923b35db80e2a60e1b9357b7b7501fc3ac3e020d22c",
+          "index": 2,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-button-leave",
+      "caption": "返回游戏",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/btn_return_hit.img",
+      "sha256": "3f40a25a8a0f52a5c6d32d4755a38532f9d398093b0e95447e2f5d715cf1eb49",
+      "nativePath": "object/ui/web/btn_return_hit.img",
+      "sourceSha256": "2992ac1115946b3f3e1075512f54a2f1ce57592445f0e53632142f1394260cb7",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_return_hit-00.png",
+          "sha256": "9db846975aa346726eb86890d6b816d316628f7112c8c451064fd302bf9c85af",
+          "index": 0,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_return_hit-01.png",
+          "sha256": "1f953f31cde677cbcee01bf98791e9cd5c3385e9a71f8e17295b20e5a20b4fa5",
+          "index": 1,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__btn_return_hit-02.png",
+          "sha256": "ae013dc70e4f42734ffe1923b35db80e2a60e1b9357b7b7501fc3ac3e020d22c",
+          "index": 2,
+          "width": 58,
+          "height": 19,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-button-return-hit",
+      "caption": "返回游戏",
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/frame_webpage_b.img",
+      "sha256": "952ac5493986ea2d004fed388934f47a4d1b805ee9a75b184e8879017e2f7d75",
+      "nativePath": "object/ui/web/frame_webpage_b.img",
+      "sourceSha256": "67fddb57a9ab76d156afd33a14ae8b4b2aaace13195cd411b8dfd2caf34e6c4b",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__frame_webpage_b-00.png",
+          "sha256": "d63e480657fcf41b40747abba5900e2e4f7cf83365ea7cf7ea79b84d462b8291",
+          "index": 0,
+          "width": 800,
+          "height": 25,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "rendererKind": "web-lower-strip",
+      "caption": null,
+      "visualAccepted": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "file": "assets/native-client-ui/login-v1/patch/object/ui/web/webPannel.img",
+      "sha256": "063449028dd1b27cb88e0aeb43002c5fbff71576458445c9602b4be47b3f4399",
+      "nativePath": "object/ui/web/webPannel.img",
+      "sourceSha256": "3048d537732420e95cd41e925ba079916b14dc91d784b2bdb4e8994cc41ff86b",
+      "sourceLoose": false,
+      "sourcePacked": true,
+      "frames": [
+        {
+          "file": "assets/native-client-ui/login-v1/decoded/object__ui__web__webPannel-00.png",
+          "sha256": "033c5eb78796fa4ca4883ae3908dc1eac98252d8836982d5257663fce34d1c25",
+          "index": 0,
+          "width": 348,
+          "height": 279,
+          "pixelMode": 3,
+          "frameOffset": [
+            0,
+            1
+          ]
+        }
+      ],
+      "rendererKind": "web-panel",
       "caption": null,
       "visualAccepted": false,
       "nativeRuntimeVerified": false
@@ -94219,13 +97421,15 @@
       "nativeRuntimeVerified": false
     }
   ],
-  "nativeResources": 887,
-  "sourcePositions": 1528,
+  "nativeResources": 958,
+  "sourcePositions": 1712,
   "builder": {
     "file": "scripts/build-native-art-bundle.py",
-    "sha256": "747cd3afd4db1d86899dafc8d7c327731d22f6efccc67677698e18664fa67216"
+    "sha256": "ebbf07b817e190af95e3cfb50b5faa014a248c708e68f5bd36ffcf34b1bc6751"
   },
   "newModelGeneration": false,
+  "nativeBuildInvokesImageModel": false,
+  "upstreamArtwork": "Input manifests carry the artwork and generation records; this composer does not generate images.",
   "fullGameArtComplete": false,
   "visualAccepted": false,
   "nativeRuntimeVerified": false

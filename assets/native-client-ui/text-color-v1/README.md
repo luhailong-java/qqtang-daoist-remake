@@ -46,3 +46,5 @@ python tests/native-ui-color-data.test.py -v
 当前为技术验证通过的配色候选，未由本工具运行客户端，也未完成人工视觉验收。不能据此声称全游戏美术完成。
 
 本批已由 root 安装到用户提供目录，安装后重新惰性解析，目标 SHA 与清单一致；全部 830 个代码段保持原值。变更的是超链接前景和共享描边颜色，实际 GUI 字库效果仍待验。 [安装回读](../../../docs/native-ui-color-installation-20261114.json)
+
+2026-11-14 文案叠加：54b目标是颜色层的中间基线，当前uiMain在此基础上叠加两处自有文案后为132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38。默认verify可严格逆还原文本字段后验证颜色，不写文件，并返回实际SHA与upstreamBrandTextVerified。颜色apply/restore会拒绝直接覆盖文案版；完整恢复必须先用 [文字工具](../brand-text-v1/README.md) --restore，再用本工具 --restore。 [当前叠加回读](../../../docs/native-ui-color-installation-20261114.json)

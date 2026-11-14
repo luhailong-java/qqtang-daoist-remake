@@ -2,7 +2,11 @@
   "clientRootAlias": "selected-client-db6688ccd485b1bb",
   "nativePath": "res/uiRes/uiMain.pyc",
   "action": "verify",
-  "state": "patched",
+  "state": "patched-with-brand-text",
+  "actualUiMainSha256": "132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38",
+  "colorIntermediateBaselineSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+  "upstreamBrandTextVerified": true,
+  "brandManifestSha256": "780f4e37a59c88d273654af66406246b64d5dd7c3c336246fb83cb99ff28ddcd",
   "proof": {
     "sourceSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
     "targetSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
@@ -60,10 +64,113 @@
     ],
     "thirdPartyCodeExecuted": false
   },
+  "upstreamBrandTextProof": {
+    "beforeSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+    "afterSha256": "132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38",
+    "beforeByteLength": 301556,
+    "afterByteLength": 301553,
+    "headerHex": "3bf20d0a029f924d",
+    "completeByteConsumption": true,
+    "parsedObjects": 20766,
+    "scopeCount": 830,
+    "changedDisplayConstants": 2,
+    "reversibleStringFields": [
+      {
+        "scope": "?.PlayerWord",
+        "constantIndex": 12,
+        "encoding": "GBK",
+        "beforeText": "恭喜你们已经成为QQ堂合法夫妻!",
+        "afterText": "恭喜你们已在灵葫仙境结为道侣!",
+        "beforeStart": 49559,
+        "beforeEnd": 49593,
+        "afterStart": 49559,
+        "afterEnd": 49593,
+        "beforePayloadByteLength": 29,
+        "afterPayloadByteLength": 29,
+        "beforeSerializedFieldHex": "731d000000b9a7cfb2c4e3c3c7d2d1beadb3c9ceaa5151ccc3bacfb7a8b7f2c6de21",
+        "afterSerializedFieldHex": "731d000000b9a7cfb2c4e3c3c7d2d1d4dac1e9baf9cfc9beb3bde1ceaab5c0c2c221",
+        "sourceBytecodeSha256": "1a320be44018f14c418d82932c72e0baa082a8b7ef2ca3fd49152588c864c099"
+      },
+      {
+        "scope": "?.UI.children.C2CDealDlg.children.NegotiateBtn.OnClick",
+        "constantIndex": 5,
+        "encoding": "GBK",
+        "beforeText": "您的酷比宝石不足,本次出价没有成功",
+        "afterText": "您的灵玉不足，本次出价未成功。",
+        "beforeStart": 273206,
+        "beforeEnd": 273244,
+        "afterStart": 273206,
+        "afterEnd": 273241,
+        "beforePayloadByteLength": 33,
+        "afterPayloadByteLength": 30,
+        "beforeSerializedFieldHex": "7321000000c4fab5c4bfe1b1c8b1a6caafb2bbd7e32cb1beb4ceb3f6bcdbc3bbd3d0b3c9b9a6",
+        "afterSerializedFieldHex": "731e000000c4fab5c4c1e9d3f1b2bbd7e3a3acb1beb4ceb3f6bcdbceb4b3c9b9a6a1a3",
+        "sourceBytecodeSha256": "5962f553c10341eff7765442ec60073d0e980a6a2284e6d72635b9199f5592a4"
+      }
+    ],
+    "allCoCodeUnchanged": true,
+    "allOtherInertFieldsUnchanged": true,
+    "afterTreeWithOnlyAuthorizedTextRestoredEqualsBeforeTree": true,
+    "serializedBytesOutsideTargetFieldsIdentical": true,
+    "serializedOutsideFieldsSha256": "3d438ffafc9e9267f08592660fcdcdb914e5fc9e450ef9afbf239114e095c9d0",
+    "scopeBytecodeHashListSha256": "cac8abb6c87c28146abff1cdff3e270624d165f3969958d03d248b72f7ca4d05",
+    "urlConstantCount": 5,
+    "urlConstants": [
+      {
+        "scope": "?.UI.children.SysMsgbox.children.hyPerLink1",
+        "constantIndexPath": [
+          8
+        ],
+        "sha256": "9640475b33067fd388dc833428da956fcbf506649a02bc25f474905ed5531006",
+        "byteLength": 19
+      },
+      {
+        "scope": "?.UI.children.guideBar.children.socialityBtn.OnClick",
+        "constantIndexPath": [
+          8
+        ],
+        "sha256": "ebfae27b5377821e76467f9ae84b12afefbc4e63e4ac9079906204a6c68ed286",
+        "byteLength": 77
+      },
+      {
+        "scope": "?.UI.children.guideBar.children.socialityBtn.OnClick",
+        "constantIndexPath": [
+          10
+        ],
+        "sha256": "24e6269182e341c295fd0c5fc90d5e3ccb8772e5a6632e00dd247b250ab560fa",
+        "byteLength": 70
+      },
+      {
+        "scope": "?.UI.children.socialityDlg.children.kinMatchTab.OnClick",
+        "constantIndexPath": [
+          9
+        ],
+        "sha256": "ebfae27b5377821e76467f9ae84b12afefbc4e63e4ac9079906204a6c68ed286",
+        "byteLength": 77
+      },
+      {
+        "scope": "?.UI.children.socialityDlg.children.teamTab.OnClick",
+        "constantIndexPath": [
+          9
+        ],
+        "sha256": "24e6269182e341c295fd0c5fc90d5e3ccb8772e5a6632e00dd247b250ab560fa",
+        "byteLength": 70
+      }
+    ],
+    "allUrlsUnchanged": true,
+    "reverseRangesRestoreExactBeforeBytes": true,
+    "uiMainColorVersionPreserved": true,
+    "thirdPartyCodeExecuted": false,
+    "nativeRuntimeVerified": false,
+    "textWidthVerified": false
+  },
   "nativeRuntimeVerified": false,
   "visualAccepted": false,
-  "schemaVersion": 1,
   "verifiedOn": "2026-11-14",
+  "script": {
+    "file": "scripts/native-ui-color-data.py",
+    "sha256": "8c79731793bba6afcc3f4e0b6aa23001b1ebc743f9a6dd403198c64aa65aa37c"
+  },
   "manifest": {
     "file": "assets/native-client-ui/text-color-v1/manifest.json",
     "sha256": "b3c5e960f9c2fd170a075eebb5d8d184c8e0a205925194f73a39047250b9c7cb"

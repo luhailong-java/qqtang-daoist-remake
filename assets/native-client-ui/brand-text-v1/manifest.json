@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "id": "native-ui-brand-text-v1",
+  "scope": "Nine non-URL display-byte-string edits across five native UI modules; candidate plan only",
+  "sourceArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "sourceAudit": {
+    "file": "docs/native-ui-brand-text-20261114.json",
+    "sha256": "c83448d4b7d6f4e769deaa1c7407f951bac1ff46eb0912c71b04066f619e6870"
+  },
+  "items": [
+    {
+      "module": "levelCFG",
+      "nativePath": "res/uiRes/levelCFG.pyc",
+      "sourceArchiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/levelCFG.pyc",
+      "sourceArchiveOriginalSha256": "9170cd4c0e9b686c14e131290be67a2a906974d6828ef69ef669252016022656",
+      "beforeSha256": "9170cd4c0e9b686c14e131290be67a2a906974d6828ef69ef669252016022656",
+      "afterSha256": "af7b740165336a93686fee7d8ea8d7bd22668ee261698fb23f01780a945fec9a",
+      "privateCandidate": {
+        "file": ".artifacts/native-client-brand-text-v1/after/res/uiRes/levelCFG.pyc",
+        "sha256": "af7b740165336a93686fee7d8ea8d7bd22668ee261698fb23f01780a945fec9a"
+      },
+      "proof": {
+        "beforeSha256": "9170cd4c0e9b686c14e131290be67a2a906974d6828ef69ef669252016022656",
+        "afterSha256": "af7b740165336a93686fee7d8ea8d7bd22668ee261698fb23f01780a945fec9a",
+        "beforeByteLength": 6452,
+        "afterByteLength": 6452,
+        "headerHex": "3bf20d0aa70c1b46",
+        "completeByteConsumption": true,
+        "parsedObjects": 464,
+        "scopeCount": 11,
+        "changedDisplayConstants": 3,
+        "reversibleStringFields": [
+          {
+            "scope": "?.LevelCfg",
+            "constantIndex": 182,
+            "encoding": "GBK",
+            "beforeText": "QQ堂平民",
+            "afterText": "灵葫道友",
+            "beforeStart": 1687,
+            "beforeEnd": 1700,
+            "afterStart": 1687,
+            "afterEnd": 1700,
+            "beforePayloadByteLength": 8,
+            "afterPayloadByteLength": 8,
+            "beforeSerializedFieldHex": "73080000005151ccc3c6bdc3f1",
+            "afterSerializedFieldHex": "7308000000c1e9baf9b5c0d3d1",
+            "sourceBytecodeSha256": "a945b68063c3b79ac7a20540bdba62ea88efe1b2a20dbaa35f546998f9824760"
+          },
+          {
+            "scope": "?.LevelCfg",
+            "constantIndex": 201,
+            "encoding": "GBK",
+            "beforeText": "QQ堂英雄",
+            "afterText": "灵葫真人",
+            "beforeStart": 1950,
+            "beforeEnd": 1963,
+            "afterStart": 1950,
+            "afterEnd": 1963,
+            "beforePayloadByteLength": 8,
+            "afterPayloadByteLength": 8,
+            "beforeSerializedFieldHex": "73080000005151ccc3d3a2d0db",
+            "afterSerializedFieldHex": "7308000000c1e9baf9d5e6c8cb",
+            "sourceBytecodeSha256": "a945b68063c3b79ac7a20540bdba62ea88efe1b2a20dbaa35f546998f9824760"
+          },
+          {
+            "scope": "?.LevelCfg",
+            "constantIndex": 209,
+            "encoding": "GBK",
+            "beforeText": "酷比大天使",
+            "afterText": "灵葫大天师",
+            "beforeStart": 2054,
+            "beforeEnd": 2069,
+            "afterStart": 2054,
+            "afterEnd": 2069,
+            "beforePayloadByteLength": 10,
+            "afterPayloadByteLength": 10,
+            "beforeSerializedFieldHex": "730a000000bfe1b1c8b4f3cceccab9",
+            "afterSerializedFieldHex": "730a000000c1e9baf9b4f3cceccaa6",
+            "sourceBytecodeSha256": "a945b68063c3b79ac7a20540bdba62ea88efe1b2a20dbaa35f546998f9824760"
+          }
+        ],
+        "allCoCodeUnchanged": true,
+        "allOtherInertFieldsUnchanged": true,
+        "afterTreeWithOnlyAuthorizedTextRestoredEqualsBeforeTree": true,
+        "serializedBytesOutsideTargetFieldsIdentical": true,
+        "serializedOutsideFieldsSha256": "12a8d3ed2ce9fa9fd445ec7551035233d460ac6e1bf98119b1b22563c3a5fa7e",
+        "scopeBytecodeHashListSha256": "7e8f7a1f67daffff80c58fcd25e26146ed82742afa2a70924882455c5ef852d7",
+        "urlConstantCount": 0,
+        "urlConstants": [],
+        "allUrlsUnchanged": true,
+        "reverseRangesRestoreExactBeforeBytes": true,
+        "uiMainColorVersionPreserved": false,
+        "thirdPartyCodeExecuted": false,
+        "nativeRuntimeVerified": false,
+        "textWidthVerified": false
+      },
+      "installedToClient": false,
+      "textWidthVerified": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "module": "uiMain",
+      "nativePath": "res/uiRes/uiMain.pyc",
+      "sourceArchiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+      "sourceArchiveOriginalSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+      "beforeSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+      "afterSha256": "132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38",
+      "privateCandidate": {
+        "file": ".artifacts/native-client-brand-text-v1/after/res/uiRes/uiMain.pyc",
+        "sha256": "132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38"
+      },
+      "proof": {
+        "beforeSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+        "afterSha256": "132ffe6179118c04c74a78c128acad027853eb4c65704e8b3ce20b09faf66d38",
+        "beforeByteLength": 301556,
+        "afterByteLength": 301553,
+        "headerHex": "3bf20d0a029f924d",
+        "completeByteConsumption": true,
+        "parsedObjects": 20766,
+        "scopeCount": 830,
+        "changedDisplayConstants": 2,
+        "reversibleStringFields": [
+          {
+            "scope": "?.PlayerWord",
+            "constantIndex": 12,
+            "encoding": "GBK",
+            "beforeText": "恭喜你们已经成为QQ堂合法夫妻!",
+            "afterText": "恭喜你们已在灵葫仙境结为道侣!",
+            "beforeStart": 49559,
+            "beforeEnd": 49593,
+            "afterStart": 49559,
+            "afterEnd": 49593,
+            "beforePayloadByteLength": 29,
+            "afterPayloadByteLength": 29,
+            "beforeSerializedFieldHex": "731d000000b9a7cfb2c4e3c3c7d2d1beadb3c9ceaa5151ccc3bacfb7a8b7f2c6de21",
+            "afterSerializedFieldHex": "731d000000b9a7cfb2c4e3c3c7d2d1d4dac1e9baf9cfc9beb3bde1ceaab5c0c2c221",
+            "sourceBytecodeSha256": "1a320be44018f14c418d82932c72e0baa082a8b7ef2ca3fd49152588c864c099"
+          },
+          {
+            "scope": "?.UI.children.C2CDealDlg.children.NegotiateBtn.OnClick",
+            "constantIndex": 5,
+            "encoding": "GBK",
+            "beforeText": "您的酷比宝石不足,本次出价没有成功",
+            "afterText": "您的灵玉不足，本次出价未成功。",
+            "beforeStart": 273206,
+            "beforeEnd": 273244,
+            "afterStart": 273206,
+            "afterEnd": 273241,
+            "beforePayloadByteLength": 33,
+            "afterPayloadByteLength": 30,
+            "beforeSerializedFieldHex": "7321000000c4fab5c4bfe1b1c8b1a6caafb2bbd7e32cb1beb4ceb3f6bcdbc3bbd3d0b3c9b9a6",
+            "afterSerializedFieldHex": "731e000000c4fab5c4c1e9d3f1b2bbd7e3a3acb1beb4ceb3f6bcdbceb4b3c9b9a6a1a3",
+            "sourceBytecodeSha256": "5962f553c10341eff7765442ec60073d0e980a6a2284e6d72635b9199f5592a4"
+          }
+        ],
+        "allCoCodeUnchanged": true,
+        "allOtherInertFieldsUnchanged": true,
+        "afterTreeWithOnlyAuthorizedTextRestoredEqualsBeforeTree": true,
+        "serializedBytesOutsideTargetFieldsIdentical": true,
+        "serializedOutsideFieldsSha256": "3d438ffafc9e9267f08592660fcdcdb914e5fc9e450ef9afbf239114e095c9d0",
+        "scopeBytecodeHashListSha256": "cac8abb6c87c28146abff1cdff3e270624d165f3969958d03d248b72f7ca4d05",
+        "urlConstantCount": 5,
+        "urlConstants": [
+          {
+            "scope": "?.UI.children.SysMsgbox.children.hyPerLink1",
+            "constantIndexPath": [
+              8
+            ],
+            "sha256": "9640475b33067fd388dc833428da956fcbf506649a02bc25f474905ed5531006",
+            "byteLength": 19
+          },
+          {
+            "scope": "?.UI.children.guideBar.children.socialityBtn.OnClick",
+            "constantIndexPath": [
+              8
+            ],
+            "sha256": "ebfae27b5377821e76467f9ae84b12afefbc4e63e4ac9079906204a6c68ed286",
+            "byteLength": 77
+          },
+          {
+            "scope": "?.UI.children.guideBar.children.socialityBtn.OnClick",
+            "constantIndexPath": [
+              10
+            ],
+            "sha256": "24e6269182e341c295fd0c5fc90d5e3ccb8772e5a6632e00dd247b250ab560fa",
+            "byteLength": 70
+          },
+          {
+            "scope": "?.UI.children.socialityDlg.children.kinMatchTab.OnClick",
+            "constantIndexPath": [
+              9
+            ],
+            "sha256": "ebfae27b5377821e76467f9ae84b12afefbc4e63e4ac9079906204a6c68ed286",
+            "byteLength": 77
+          },
+          {
+            "scope": "?.UI.children.socialityDlg.children.teamTab.OnClick",
+            "constantIndexPath": [
+              9
+            ],
+            "sha256": "24e6269182e341c295fd0c5fc90d5e3ccb8772e5a6632e00dd247b250ab560fa",
+            "byteLength": 70
+          }
+        ],
+        "allUrlsUnchanged": true,
+        "reverseRangesRestoreExactBeforeBytes": true,
+        "uiMainColorVersionPreserved": true,
+        "thirdPartyCodeExecuted": false,
+        "nativeRuntimeVerified": false,
+        "textWidthVerified": false
+      },
+      "installedToClient": false,
+      "textWidthVerified": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "module": "uiRoom",
+      "nativePath": "res/uiRes/uiRoom.pyc",
+      "sourceArchiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiRoom.pyc",
+      "sourceArchiveOriginalSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+      "beforeSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+      "afterSha256": "72a15897c00ee5e7b0bd4fc2e90da9b320790eab25b9ef93a7f6eae34300e73b",
+      "privateCandidate": {
+        "file": ".artifacts/native-client-brand-text-v1/after/res/uiRes/uiRoom.pyc",
+        "sha256": "72a15897c00ee5e7b0bd4fc2e90da9b320790eab25b9ef93a7f6eae34300e73b"
+      },
+      "proof": {
+        "beforeSha256": "ce34a19a8924595fb3659ef3938216ad1fc8a21f4d8dee5c52ce5234d3239064",
+        "afterSha256": "72a15897c00ee5e7b0bd4fc2e90da9b320790eab25b9ef93a7f6eae34300e73b",
+        "beforeByteLength": 214691,
+        "afterByteLength": 214688,
+        "headerHex": "3bf20d0a81e59c49",
+        "completeByteConsumption": true,
+        "parsedObjects": 12141,
+        "scopeCount": 506,
+        "changedDisplayConstants": 1,
+        "reversibleStringFields": [
+          {
+            "scope": "?.UI_children_room.children.selMapDlg.children.sel.OnClick",
+            "constantIndex": 6,
+            "encoding": "GBK",
+            "beforeText": "QQTang 温馨提示",
+            "afterText": "灵葫温馨提示",
+            "beforeStart": 83611,
+            "beforeEnd": 83631,
+            "afterStart": 83611,
+            "afterEnd": 83628,
+            "beforePayloadByteLength": 15,
+            "afterPayloadByteLength": 12,
+            "beforeSerializedFieldHex": "730f000000515154616e6720cec2dcb0cce1cabe",
+            "afterSerializedFieldHex": "730c000000c1e9baf9cec2dcb0cce1cabe",
+            "sourceBytecodeSha256": "b67be7603cd34bcb24438c7bf3e3448dd7a40571b428a4629e39d9085197b4b1"
+          }
+        ],
+        "allCoCodeUnchanged": true,
+        "allOtherInertFieldsUnchanged": true,
+        "afterTreeWithOnlyAuthorizedTextRestoredEqualsBeforeTree": true,
+        "serializedBytesOutsideTargetFieldsIdentical": true,
+        "serializedOutsideFieldsSha256": "781061eb725e8abe8ff7a15da089bbcb76cd1739430c530b1fa30d00bf63d078",
+        "scopeBytecodeHashListSha256": "ef4e6bc2651f4e9fa32b7ddad29be5dc8fbe1793406cbbdc11edac6e4fd54c21",
+        "urlConstantCount": 0,
+        "urlConstants": [],
+        "allUrlsUnchanged": true,
+        "reverseRangesRestoreExactBeforeBytes": true,
+        "uiMainColorVersionPreserved": false,
+        "thirdPartyCodeExecuted": false,
+        "nativeRuntimeVerified": false,
+        "textWidthVerified": false
+      },
+      "installedToClient": false,
+      "textWidthVerified": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "module": "uiSelSect",
+      "nativePath": "res/uiRes/uiSelSect.pyc",
+      "sourceArchiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelSect.pyc",
+      "sourceArchiveOriginalSha256": "f2d66e23622f9adabc33ecde4dd7a5c9c1170c96fa02273ddc6517fb8f968118",
+      "beforeSha256": "f2d66e23622f9adabc33ecde4dd7a5c9c1170c96fa02273ddc6517fb8f968118",
+      "afterSha256": "e5600e23b3884f01d23487ac841e08f688e57fc2c9f91b6595d64b69edbb67e5",
+      "privateCandidate": {
+        "file": ".artifacts/native-client-brand-text-v1/after/res/uiRes/uiSelSect.pyc",
+        "sha256": "e5600e23b3884f01d23487ac841e08f688e57fc2c9f91b6595d64b69edbb67e5"
+      },
+      "proof": {
+        "beforeSha256": "f2d66e23622f9adabc33ecde4dd7a5c9c1170c96fa02273ddc6517fb8f968118",
+        "afterSha256": "e5600e23b3884f01d23487ac841e08f688e57fc2c9f91b6595d64b69edbb67e5",
+        "beforeByteLength": 46917,
+        "afterByteLength": 46923,
+        "headerHex": "3bf20d0abaef1b49",
+        "completeByteConsumption": true,
+        "parsedObjects": 2751,
+        "scopeCount": 112,
+        "changedDisplayConstants": 1,
+        "reversibleStringFields": [
+          {
+            "scope": "?.UI_children_selSect.children.billboard",
+            "constantIndex": 13,
+            "encoding": "GBK",
+            "beforeText": "    QQ堂， 即将推出!",
+            "afterText": "    灵葫大作战，欢迎道友！",
+            "beforeStart": 12084,
+            "beforeEnd": 12109,
+            "afterStart": 12084,
+            "afterEnd": 12115,
+            "beforePayloadByteLength": 20,
+            "afterPayloadByteLength": 26,
+            "beforeSerializedFieldHex": "7314000000202020205151ccc3a3ac20bcb4bdabcdc6b3f621",
+            "afterSerializedFieldHex": "731a00000020202020c1e9baf9b4f3d7f7d5bda3acbbb6d3adb5c0d3d1a3a1",
+            "sourceBytecodeSha256": "9d97e9630e24c3cc080d75fed61ce2c3583ae6c28c02baa4ad7553472f489673"
+          }
+        ],
+        "allCoCodeUnchanged": true,
+        "allOtherInertFieldsUnchanged": true,
+        "afterTreeWithOnlyAuthorizedTextRestoredEqualsBeforeTree": true,
+        "serializedBytesOutsideTargetFieldsIdentical": true,
+        "serializedOutsideFieldsSha256": "e94207cc37e217e984f4c49929c2c511d753c9d16d162a803f4b57457e4e1fd1",
+        "scopeBytecodeHashListSha256": "cf7147247b5e944772b1fb96a765e10162776fe249a51782a51cea9000da522b",
+        "urlConstantCount": 2,
+        "urlConstants": [
+          {
+            "scope": "?.UI_children_selSect.OnInit",
+            "constantIndexPath": [
+              4
+            ],
+            "sha256": "61d87f4248f904fb17bf6fe1209b2f03e398ddb458adb3a596c00fda0c991ae6",
+            "byteLength": 20
+          },
+          {
+            "scope": "?.UI_children_selSect.children.channel5.OnClick",
+            "constantIndexPath": [
+              6
+            ],
+            "sha256": "421c7f7da05fe9a4404e730ffee514f628d0bef8059b1f89896ca3bef6e6cdf8",
+            "byteLength": 35
+          }
+        ],
+        "allUrlsUnchanged": true,
+        "reverseRangesRestoreExactBeforeBytes": true,
+        "uiMainColorVersionPreserved": false,
+        "thirdPartyCodeExecuted": false,
+        "nativeRuntimeVerified": false,
+        "textWidthVerified": false
+      },
+      "installedToClient": false,
+      "textWidthVerified": false,
+      "nativeRuntimeVerified": false
+    },
+    {
+      "module": "uiShop",
+      "nativePath": "res/uiRes/uiShop.pyc",
+      "sourceArchiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+      "sourceArchiveOriginalSha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+      "beforeSha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+      "afterSha256": "fec1dd8a7500301437236ad145c68344c566b6522a0194f6c2975d77f20ba8f9",
+      "privateCandidate": {
+        "file": ".artifacts/native-client-brand-text-v1/after/res/uiRes/uiShop.pyc",
+        "sha256": "fec1dd8a7500301437236ad145c68344c566b6522a0194f6c2975d77f20ba8f9"
+      },
+      "proof": {
+        "beforeSha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+        "afterSha256": "fec1dd8a7500301437236ad145c68344c566b6522a0194f6c2975d77f20ba8f9",
+        "beforeByteLength": 359992,
+        "afterByteLength": 359984,
+        "headerHex": "3bf20d0a5a692f4a",
+        "completeByteConsumption": true,
+        "parsedObjects": 20107,
+        "scopeCount": 798,
+        "changedDisplayConstants": 2,
+        "reversibleStringFields": [
+          {
+            "scope": "?.UI_children_shop.children.functionTab.OnClick",
+            "constantIndex": 8,
+            "encoding": "GBK",
+            "beforeText": "酷比宝石",
+            "afterText": "灵玉",
+            "beforeStart": 136821,
+            "beforeEnd": 136834,
+            "afterStart": 136821,
+            "afterEnd": 136830,
+            "beforePayloadByteLength": 8,
+            "afterPayloadByteLength": 4,
+            "beforeSerializedFieldHex": "7308000000bfe1b1c8b1a6caaf",
+            "afterSerializedFieldHex": "7304000000c1e9d3f1",
+            "sourceBytecodeSha256": "0d0f5544edca831d9baf612d14bd49640b1eedbff925b366ad33e4ffa6cf5c4b"
+          },
+          {
+            "scope": "?.UI_children_shop.children.ware1.children.buyA.OnClick",
+            "constantIndex": 23,
+            "encoding": "GBK",
+            "beforeText": "酷比宝石",
+            "afterText": "灵玉",
+            "beforeStart": 153252,
+            "beforeEnd": 153265,
+            "afterStart": 153248,
+            "afterEnd": 153257,
+            "beforePayloadByteLength": 8,
+            "afterPayloadByteLength": 4,
+            "beforeSerializedFieldHex": "7308000000bfe1b1c8b1a6caaf",
+            "afterSerializedFieldHex": "7304000000c1e9d3f1",
+            "sourceBytecodeSha256": "21556be54ab271db115b12508c68ea96377c3eb7e76a509506330c6368e8732b"
+          }
+        ],
+        "allCoCodeUnchanged": true,
+        "allOtherInertFieldsUnchanged": true,
+        "afterTreeWithOnlyAuthorizedTextRestoredEqualsBeforeTree": true,
+        "serializedBytesOutsideTargetFieldsIdentical": true,
+        "serializedOutsideFieldsSha256": "b9b06199d595553f05e032922cb5024d6bdbce4afd0eeb28b9b3131d949750c5",
+        "scopeBytecodeHashListSha256": "bbe1baf329ad015e0aba32c0d81f7483888f79c73de87d780ae5d2f89b7a024d",
+        "urlConstantCount": 3,
+        "urlConstants": [
+          {
+            "scope": "?.UI_children_shop.children.secrecyCardDlg.children.resetCardLink",
+            "constantIndexPath": [
+              7
+            ],
+            "sha256": "15efe0b18178816237363623725bed46a2692ef3718b2908a8edf6f24b0eacd3",
+            "byteLength": 36
+          },
+          {
+            "scope": "?.UI_children_shop.children.buyFailDlg.children.QB.OnClick",
+            "constantIndexPath": [
+              3
+            ],
+            "sha256": "9db25e1de279d1284b401ff46f05a18ab8fc6ccf3d6df2db13a6fab6549f431c",
+            "byteLength": 18
+          },
+          {
+            "scope": "?.UI_children_shop.children.depositQB.OnClick",
+            "constantIndexPath": [
+              1
+            ],
+            "sha256": "ce551650c3f83c4249b0e866687173cd662db962f879c29f78d247342cee358a",
+            "byteLength": 40
+          }
+        ],
+        "allUrlsUnchanged": true,
+        "reverseRangesRestoreExactBeforeBytes": true,
+        "uiMainColorVersionPreserved": false,
+        "thirdPartyCodeExecuted": false,
+        "nativeRuntimeVerified": false,
+        "textWidthVerified": false
+      },
+      "installedToClient": false,
+      "textWidthVerified": false,
+      "nativeRuntimeVerified": false
+    }
+  ],
+  "moduleCount": 5,
+  "displayConstantCount": 9,
+  "verifiedUnchangedCodeScopeCount": 2257,
+  "builder": {
+    "file": "assets/native-client-ui/brand-text-v1/build-plan.py",
+    "sha256": "b997966875bedbb4bcc64abd1c6a85c0ba5ce641e986d0cf882fd9d28e7dcc05"
+  },
+  "inertParser": {
+    "file": "scripts/read-legacy-ui-constants.py",
+    "sha256": "153e86efe23ddbb5fd4e54796002118f1a25aaad8cd13f97755029910477865e"
+  },
+  "existingColorPatchScript": {
+    "file": "scripts/native-ui-color-data.py",
+    "sha256": "8c79731793bba6afcc3f4e0b6aa23001b1ebc743f9a6dd403198c64aa65aa37c"
+  },
+  "existingColorPatchManifest": {
+    "file": "assets/native-client-ui/text-color-v1/manifest.json",
+    "sha256": "b3c5e960f9c2fd170a075eebb5d8d184c8e0a205925194f73a39047250b9c7cb"
+  },
+  "api": "prepare_module(module_name,raw_bytes) -> (before_bytes,after_bytes,proof); exact pinned before or pinned after only",
+  "offsetConvention": "Absolute serialized PYC byte offsets, half-open; each range includes tag s, signed little-endian length, GBK payload",
+  "bytecodeModified": false,
+  "allOtherInertFieldsUnchanged": true,
+  "allUrlsUnchanged": true,
+  "uiMainBeforeMustBeExistingColorVersion": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+  "uncoloredUiMainInputRejected": true,
+  "unknownOrTamperedInputRejected": true,
+  "prepareApplyRestoreRequireSourceArchive": false,
+  "sourceArchiveRequiredOnlyForBuildingOriginalSourcePlan": true,
+  "privatePycCandidatesOnly": true,
+  "thirdPartyPycIncludedInPublicAssets": false,
+  "providedDirectoryReadOrMutated": false,
+  "installedToClient": false,
+  "nativeRuntimeVerified": false,
+  "textWidthVerified": false,
+  "visualAccepted": false,
+  "remainingScope": "URLs, window/launcher branding, executable strings, other PYC data and GBK12 glyph coverage are outside this plan"
+}

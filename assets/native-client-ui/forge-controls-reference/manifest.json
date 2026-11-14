@@ -1,0 +1,5329 @@
+{
+  "schemaVersion": 1,
+  "scope": "All21 packed object/ui/forge resources",
+  "sourceCensus": {
+    "file": "references/qqtang-ui-data/native-ui-inventory.json",
+    "sha256": "400c1ecf633858276906092c9d340037ebd036957aab0327fea33c5a7f682197"
+  },
+  "sourcePackage": {
+    "file": ".artifacts/reference-inputs/object.pkg",
+    "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+  },
+  "sourceIndex": {
+    "file": ".artifacts/reference-inputs/object.idx",
+    "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+  },
+  "resources": [
+    {
+      "nativePath": "object/ui/forge/btn_avatarforge.img",
+      "sourceSha256": "a6490f3607efea7ad711239b1c58b9a38dedf0d5a53f9a3b90a7d253d316b38f",
+      "sourceCompressedSha256": "6f7ea829671c2c50e6081abb532a45996d1a46193be33ab5d8f5a4932786cee5",
+      "packageEntry": {
+        "ordinal": 2793,
+        "indexOffset": 142295,
+        "path": "object\\ui\\forge\\btn_avatarforge.img",
+        "reservedWord": 0,
+        "packageOffset": 29432463,
+        "rawByteLength": 68264,
+        "compressedByteLength": 18542
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 68264,
+        "sha256": "a6490f3607efea7ad711239b1c58b9a38dedf0d5a53f9a3b90a7d253d316b38f",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          99,
+          47
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "ac52c2d4fd8ca4a3982066c1fdce619ae4ee58a3f0a142313778d5f46080d6d9"
+          },
+          {
+            "index": 1,
+            "offset": 17096,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 17124,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "31980d47c970db885b94d66c127532f0665929d11b4b7b7295fcc0b412f7856a"
+          },
+          {
+            "index": 2,
+            "offset": 34152,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 34180,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "fe18077cd7d0fb90c53255905a7f0f22edef400782f5f51de62395ac4fc43770"
+          },
+          {
+            "index": 3,
+            "offset": 51208,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 51236,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "292b8f98ac22ebf0dcf233e889b5165c874b21bdc9c9797740fe1d4d021ec7ad"
+          }
+        ],
+        "parsedByteLength": 68264,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeBtn",
+          "pathLiteral": "object/ui/forge/btn_avatarforge.img",
+          "canonicalPath": "object/ui/forge/btn_avatarforge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeBtn",
+          "pathLiteral": "object/ui/forge/btn_avatarforge.img",
+          "canonicalPath": "object/ui/forge/btn_avatarforge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 27,
+          "literalRect": {
+            "type": "list",
+            "values": [
+              {
+                "type": "int",
+                "value": 288
+              },
+              {
+                "type": "int",
+                "value": 300
+              },
+              {
+                "type": "int",
+                "value": 103
+              },
+              {
+                "type": "int",
+                "value": 47
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarforge-00.png",
+          "sha256": "0705e6c38e19a3bfedf534eeac64f819a9d7d38934784d585b8540b448a2587f",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "ac52c2d4fd8ca4a3982066c1fdce619ae4ee58a3f0a142313778d5f46080d6d9"
+          },
+          "decodedRgbaSha256": "3f5c081b1aa2f7c0b8d3d5e11e357fcda90935cc24cdf87e4ae825e48867937f",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarforge-01.png",
+          "sha256": "1582cc0e4aeb734badd483f08bdcca2e1644ba68377db46fc72fe5ca3c585015",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 17096,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 17124,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "31980d47c970db885b94d66c127532f0665929d11b4b7b7295fcc0b412f7856a"
+          },
+          "decodedRgbaSha256": "476c3f9e1358150a664835f83d7a7eed1e287ea481da651b95f2f886033d36b3",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarforge-02.png",
+          "sha256": "8eeb28b54b03e1c69f6b4e50dd2d17dc0d53c86dd25f153b6ea571728c992536",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 34152,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 34180,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "fe18077cd7d0fb90c53255905a7f0f22edef400782f5f51de62395ac4fc43770"
+          },
+          "decodedRgbaSha256": "437193e31f20b2d222408931fec752b91a7d427c57e8884eea73461ca044dfe7",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarforge-03.png",
+          "sha256": "3435d9d1a07c678d58804de40144cfc93f0a9c789aaebd27d5383038da9bcc5f",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 51208,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 51236,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "292b8f98ac22ebf0dcf233e889b5165c874b21bdc9c9797740fe1d4d021ec7ad"
+          },
+          "decodedRgbaSha256": "a17f6f5dc9ff29d7712eb2806033b971f22f891582234197f27e8311fa2a21b5",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/btn_avatarrevert.img",
+      "sourceSha256": "0cc47d19e37079a28ac5f3394cf0371a04b905277c1b01392b4a4ae0e86ac7d1",
+      "sourceCompressedSha256": "3890c542a68570e7db033c7ae070fb5556bdd176a77f14f5e63e37e20cc269f0",
+      "packageEntry": {
+        "ordinal": 2794,
+        "indexOffset": 142348,
+        "path": "object\\ui\\forge\\btn_avatarrevert.img",
+        "reservedWord": 0,
+        "packageOffset": 29451005,
+        "rawByteLength": 68264,
+        "compressedByteLength": 17870
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 68264,
+        "sha256": "0cc47d19e37079a28ac5f3394cf0371a04b905277c1b01392b4a4ae0e86ac7d1",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          99,
+          47
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "a163d9219c2996989bf23a450ce0b2d77b40da2fe8b33164f80913f568c6e96e"
+          },
+          {
+            "index": 1,
+            "offset": 17096,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 17124,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "ac9ecc54709cf1c477f257757d64a9491a99e7dcfa6751bab81003da42dcc80c"
+          },
+          {
+            "index": 2,
+            "offset": 34152,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 34180,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "ce885d3c1da7bf8a890c9cd2b98fe8437dd82e28faba75c7247f9cdd83ab4985"
+          },
+          {
+            "index": 3,
+            "offset": 51208,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 51236,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "cf887a00dcd26cfe5e4f9c24e260b20f9b862b5149d655f48ffbffbd37edad5c"
+          }
+        ],
+        "parsedByteLength": 68264,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.revertBtn",
+          "pathLiteral": "object/ui/forge/btn_avatarrevert.img",
+          "canonicalPath": "object/ui/forge/btn_avatarrevert.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.revertBtn",
+          "pathLiteral": "object/ui/forge/btn_avatarrevert.img",
+          "canonicalPath": "object/ui/forge/btn_avatarrevert.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 27,
+          "literalRect": {
+            "type": "list",
+            "values": [
+              {
+                "type": "int",
+                "value": 288
+              },
+              {
+                "type": "int",
+                "value": 394
+              },
+              {
+                "type": "int",
+                "value": 103
+              },
+              {
+                "type": "int",
+                "value": 47
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarrevert-00.png",
+          "sha256": "b415165b170d36df9b3ed517506660668bcda6862889c5885d7eb5b454938734",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "a163d9219c2996989bf23a450ce0b2d77b40da2fe8b33164f80913f568c6e96e"
+          },
+          "decodedRgbaSha256": "e5467f90ecfaea81252901673e3f489f78c2ef511f289702d72a408ff0c5ebe5",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarrevert-01.png",
+          "sha256": "e36f5887a8b944c892af88d151ed4b1a320ee15ca930c9fc42f811e2cedda7af",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 17096,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 17124,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "ac9ecc54709cf1c477f257757d64a9491a99e7dcfa6751bab81003da42dcc80c"
+          },
+          "decodedRgbaSha256": "190b2fa8a6a5a1a8a893918d95c60edda1e07ba46ca7d697a0eff0ecf37def6e",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarrevert-02.png",
+          "sha256": "349aca02b25adf0bf902abc5de315239001f5e1f8971192eec036ef9272a4c68",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 34152,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 34180,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "ce885d3c1da7bf8a890c9cd2b98fe8437dd82e28faba75c7247f9cdd83ab4985"
+          },
+          "decodedRgbaSha256": "6427be4bb9abb474ba62c5f0bcc6e42fdf7859bf1297e87a5061b0fbbbf2fcf1",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarrevert-03.png",
+          "sha256": "58eecaafce8381b967974c272bf354fe19fab0fd33e66ef48c6705118a94e15c",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 51208,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 51236,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "cf887a00dcd26cfe5e4f9c24e260b20f9b862b5149d655f48ffbffbd37edad5c"
+          },
+          "decodedRgbaSha256": "0fa081b9728a9dba6065d9b0cad9b60f0a13576f05d7bb4ac19527dfbd2fc55e",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/btn_avatarsplit.img",
+      "sourceSha256": "cd01da0ee4935ba7fedc5f9fdfd1fc7e85b1f918c6332056384debe4e0fc061e",
+      "sourceCompressedSha256": "47599416abc43c5bafa5765f3c0a8ec7aeefedf29e0aba3807607f202a13b1a0",
+      "packageEntry": {
+        "ordinal": 2795,
+        "indexOffset": 142402,
+        "path": "object\\ui\\forge\\btn_avatarsplit.img",
+        "reservedWord": 0,
+        "packageOffset": 29468875,
+        "rawByteLength": 68264,
+        "compressedByteLength": 18648
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 68264,
+        "sha256": "cd01da0ee4935ba7fedc5f9fdfd1fc7e85b1f918c6332056384debe4e0fc061e",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          99,
+          47
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "3e4a1ee366168168c539bf9795270e9b5eff2f3a7baf1fec771082d2a77a1528"
+          },
+          {
+            "index": 1,
+            "offset": 17096,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 17124,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "73e7400e84b296488e0a52c6f6a297824688f7e59ccf7f92ad130876fb59d03a"
+          },
+          {
+            "index": 2,
+            "offset": 34152,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 34180,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "e4de3eb3d0f018461397924161d74d13070d2ebcfa6bb49986b749401de554dc"
+          },
+          {
+            "index": 3,
+            "offset": 51208,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 51236,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "68efae30da63d8ce4e82ffc6ec614430f2942b986b99f18cb550c120d25f5d21"
+          }
+        ],
+        "parsedByteLength": 68264,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.splitBtn",
+          "pathLiteral": "object/ui/forge/btn_avatarsplit.img",
+          "canonicalPath": "object/ui/forge/btn_avatarsplit.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.splitBtn",
+          "pathLiteral": "object/ui/forge/btn_avatarsplit.img",
+          "canonicalPath": "object/ui/forge/btn_avatarsplit.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 27,
+          "literalRect": {
+            "type": "list",
+            "values": [
+              {
+                "type": "int",
+                "value": 288
+              },
+              {
+                "type": "int",
+                "value": 347
+              },
+              {
+                "type": "int",
+                "value": 103
+              },
+              {
+                "type": "int",
+                "value": 47
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarsplit-00.png",
+          "sha256": "12df5515912c7f3d587cafe4c583d3e5494d906dd2e66ed6422d6d76f974c7e8",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "3e4a1ee366168168c539bf9795270e9b5eff2f3a7baf1fec771082d2a77a1528"
+          },
+          "decodedRgbaSha256": "4c0f1bfc80bc6406695093b14907aa26de5d1bfb6c5aa999fae89b3d2a411c84",
+          "decodedAlpha": {
+            "sha256": "89984f56e5302ea0270053f91b6313d4cefcbaf0ad4b86a905dbd0c57e144df8",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarsplit-01.png",
+          "sha256": "9b153fa06805dadb09883e74b7566b80c4a0a3ca72fb3676f595ff181cf273ad",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 17096,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 17124,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "73e7400e84b296488e0a52c6f6a297824688f7e59ccf7f92ad130876fb59d03a"
+          },
+          "decodedRgbaSha256": "79e4f46bb19280f7352f6650fbd7b06fd0d728a9926f07dbeba7a4717c00c4d2",
+          "decodedAlpha": {
+            "sha256": "4db35672413cda8aa667188de2b865db5e682c1f8ea615a25e89ec575c2fe7fe",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarsplit-02.png",
+          "sha256": "c9f3ff3c10e82771c97b3c4f03c07c3741d966477fa401d8b5db2a1598a5b6b0",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 34152,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 34180,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "e4de3eb3d0f018461397924161d74d13070d2ebcfa6bb49986b749401de554dc"
+          },
+          "decodedRgbaSha256": "dc93956fd109481315dded58dc0364b39c9f4082ad4ad64c5270cb8261409a7d",
+          "decodedAlpha": {
+            "sha256": "89984f56e5302ea0270053f91b6313d4cefcbaf0ad4b86a905dbd0c57e144df8",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_avatarsplit-03.png",
+          "sha256": "3780cbbe82c73ef0b5959040ac098a6410b9c3a8b07443bf0485d6ff73d85239",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 51208,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 99,
+            "height": 43,
+            "unknownImageHeaderWord": 400,
+            "empty": false,
+            "pixelDataOffset": 51236,
+            "pixelByteLength": 17028,
+            "encodedPixelSha256": "68efae30da63d8ce4e82ffc6ec614430f2942b986b99f18cb550c120d25f5d21"
+          },
+          "decodedRgbaSha256": "c9aa07a4c02889023c3fb975b8da2f68762a1fd79f5f551f181320cb75c81cba",
+          "decodedAlpha": {
+            "sha256": "89984f56e5302ea0270053f91b6313d4cefcbaf0ad4b86a905dbd0c57e144df8",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              99,
+              43
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/btn_forgeconfirm.img",
+      "sourceSha256": "3b08f706e2cf156097c6f209f1dbdb28fa1edc5655fb9d9c3cc30fa748817809",
+      "sourceCompressedSha256": "5fb895db74f2e36d6e791b007665ac7d9b0d3c5dad5834f5a4d0319a3cdf0182",
+      "packageEntry": {
+        "ordinal": 2796,
+        "indexOffset": 142455,
+        "path": "object\\ui\\forge\\btn_forgeconfirm.img",
+        "reservedWord": 0,
+        "packageOffset": 29487523,
+        "rawByteLength": 70088,
+        "compressedByteLength": 16345
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 70088,
+        "sha256": "3b08f706e2cf156097c6f209f1dbdb28fa1edc5655fb9d9c3cc30fa748817809",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          93,
+          50
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "e974c224a70270429b35eeba0565bfa3621a5e1f4784c4026ae510b8fa3c021d"
+          },
+          {
+            "index": 1,
+            "offset": 17552,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 17580,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "637262d19d984c15bfc3bdb9df864a4a3711c86a620e37a4166b4d68998860e7"
+          },
+          {
+            "index": 2,
+            "offset": 35064,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 35092,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "0f71e0da3bbee853ae906697b0fd37a16cf591e4560d547f8b37bbdaba7d7ef5"
+          },
+          {
+            "index": 3,
+            "offset": 52576,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 52604,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "d400a1925ee5560b6f1e1b1c17b016b76dcb0eae30ef12ebfd1d599f46ea76a9"
+          }
+        ],
+        "parsedByteLength": 70088,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.forgeConfirmDlg.children.confirmBtn",
+          "pathLiteral": "object/ui/forge/btn_forgeconfirm.img",
+          "canonicalPath": "object/ui/forge/btn_forgeconfirm.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            9
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.forgeConfirmDlg.children.confirmBtn",
+          "pathLiteral": "object/ui/forge/btn_forgeconfirm.img",
+          "canonicalPath": "object/ui/forge/btn_forgeconfirm.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 70
+              },
+              {
+                "type": "int",
+                "value": 55
+              },
+              {
+                "type": "int",
+                "value": 93
+              },
+              {
+                "type": "int",
+                "value": 50
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_forgeconfirm-00.png",
+          "sha256": "bcf728d52c7a5d31b784db91ca717046d3069d89ea439f854e5f9eb0aa2c5001",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "e974c224a70270429b35eeba0565bfa3621a5e1f4784c4026ae510b8fa3c021d"
+          },
+          "decodedRgbaSha256": "4222af4918500ce42289adad420947b5420e906baa0a5052eddd277d5dc47e38",
+          "decodedAlpha": {
+            "sha256": "c340e613f88d26151da7e616bd5fb45696909823748d52b28a7a783d9d31b270",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              1,
+              0,
+              92,
+              46
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_forgeconfirm-01.png",
+          "sha256": "5f7042b8dc4b4837442840f9931ea52ff3b7af36b828a9f4dbe7304aa2dd2ceb",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 17552,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 17580,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "637262d19d984c15bfc3bdb9df864a4a3711c86a620e37a4166b4d68998860e7"
+          },
+          "decodedRgbaSha256": "134499bf2d4aae6881f2f27c7a09489286d2696ec8d28d6d1cc2c2ac96b6c523",
+          "decodedAlpha": {
+            "sha256": "c340e613f88d26151da7e616bd5fb45696909823748d52b28a7a783d9d31b270",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              1,
+              0,
+              92,
+              46
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_forgeconfirm-02.png",
+          "sha256": "ba25b88dad1e1fac7ae539d570dec7e297e031a7898b7da957634191ad3d9995",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 35064,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 35092,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "0f71e0da3bbee853ae906697b0fd37a16cf591e4560d547f8b37bbdaba7d7ef5"
+          },
+          "decodedRgbaSha256": "bc3ba2ff56f238928e210859ee73c609cc0eebdab33ddff0434abc4aee1d2b70",
+          "decodedAlpha": {
+            "sha256": "c340e613f88d26151da7e616bd5fb45696909823748d52b28a7a783d9d31b270",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              1,
+              0,
+              92,
+              46
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_forgeconfirm-03.png",
+          "sha256": "63631c2cd942efc5a5d623ee16906daf1e073693ddf540e4a05755edd62914b1",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 52576,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 93,
+            "height": 47,
+            "unknownImageHeaderWord": 376,
+            "empty": false,
+            "pixelDataOffset": 52604,
+            "pixelByteLength": 17484,
+            "encodedPixelSha256": "d400a1925ee5560b6f1e1b1c17b016b76dcb0eae30ef12ebfd1d599f46ea76a9"
+          },
+          "decodedRgbaSha256": "2ca4e9726c71716c92b85e5cefef4dfa905e5c7f7c4606aabf14a2d1faef8895",
+          "decodedAlpha": {
+            "sha256": "c340e613f88d26151da7e616bd5fb45696909823748d52b28a7a783d9d31b270",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              1,
+              0,
+              92,
+              46
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/btn_item.img",
+      "sourceSha256": "88be85b59dafbcaedcc494637cf2273de619c0919d65af9d760b8acbcc5e05ff",
+      "sourceCompressedSha256": "f24ce44140ce7059fffe0d4e2755bae79327f4151a0deb6115c2b04baf6f4652",
+      "packageEntry": {
+        "ordinal": 2797,
+        "indexOffset": 142509,
+        "path": "object\\ui\\forge\\btn_item.img",
+        "reservedWord": 0,
+        "packageOffset": 29503868,
+        "rawByteLength": 17368,
+        "compressedByteLength": 545
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 17368,
+        "sha256": "88be85b59dafbcaedcc494637cf2273de619c0919d65af9d760b8acbcc5e05ff",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          130,
+          17
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 130,
+            "height": 17,
+            "unknownImageHeaderWord": 520,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8840,
+            "encodedPixelSha256": "c59a80baf015fcb282ef78d76e2e60f1fd8b44516dc0d12efcc06aedf512e5f3"
+          },
+          {
+            "index": 1,
+            "offset": 8908,
+            "rawMarker": 0,
+            "frameOffset": [
+              3,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 124,
+            "height": 17,
+            "unknownImageHeaderWord": 496,
+            "empty": false,
+            "pixelDataOffset": 8936,
+            "pixelByteLength": 8432,
+            "encodedPixelSha256": "9517f95bef869d1c42907f7db443fc8d97d0bb5beda79695b7b6a26eef46b62a"
+          }
+        ],
+        "parsedByteLength": 17368,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemScroll.OnPosChange",
+          "pathLiteral": "object/ui/forge/btn_item.img",
+          "canonicalPath": "object/ui/forge/btn_item.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            7
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemScroll.OnPosChange",
+          "pathLiteral": "object/ui/forge/btn_item.img",
+          "canonicalPath": "object/ui/forge/btn_item.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            6
+          ],
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_item-00.png",
+          "sha256": "4fe0c746dabdb5574e8a57ce79f4ae0f1cb3270c3ce626c18e7f87ba8494b579",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 130,
+            "height": 17,
+            "unknownImageHeaderWord": 520,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8840,
+            "encodedPixelSha256": "c59a80baf015fcb282ef78d76e2e60f1fd8b44516dc0d12efcc06aedf512e5f3"
+          },
+          "decodedRgbaSha256": "612e399c3ee3d3a73323715fa2ae79544317abb2bacde3f8bc01cfb9e8dce7c6",
+          "decodedAlpha": {
+            "sha256": "e3d747df852f03f9a03e357d26c7ece19c2bc3ee5c9156ea0cc98c287537fae5",
+            "extrema": [
+              63,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              130,
+              17
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_item-01.png",
+          "sha256": "e2889259b85714def2fa68e524ad6a2f09bbfbed3c22bdf06dd8e9118c294b3c",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 8908,
+            "rawMarker": 0,
+            "frameOffset": [
+              3,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 124,
+            "height": 17,
+            "unknownImageHeaderWord": 496,
+            "empty": false,
+            "pixelDataOffset": 8936,
+            "pixelByteLength": 8432,
+            "encodedPixelSha256": "9517f95bef869d1c42907f7db443fc8d97d0bb5beda79695b7b6a26eef46b62a"
+          },
+          "decodedRgbaSha256": "ac604c3087693a7f5f67b051af97d2828908287d3761dec20aa321596e532ca0",
+          "decodedAlpha": {
+            "sha256": "0ac0068f90bd47a1e3a63ab5be6f145dc6220ec48a7e20f5c959b4205d444ebb",
+            "extrema": [
+              63,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              124,
+              17
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/btn_startCompose.img",
+      "sourceSha256": "4b306382f4d494f9fa7b09b35e3221eca5d9c7bea02a69a40f70a743534569b2",
+      "sourceCompressedSha256": "9dc39f0d1a6d9c64adffa9adcda6a7f9674125ffc3a7a1a708120c29d7024f34",
+      "packageEntry": {
+        "ordinal": 2798,
+        "indexOffset": 142555,
+        "path": "object\\ui\\forge\\btn_startCompose.img",
+        "reservedWord": 0,
+        "packageOffset": 29504413,
+        "rawByteLength": 85880,
+        "compressedByteLength": 18381
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 85880,
+        "sha256": "4b306382f4d494f9fa7b09b35e3221eca5d9c7bea02a69a40f70a743534569b2",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          114,
+          54
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "233bf997bd32b7aabaa329c306a0b582e07180b14199751086d6dd43cca104cb"
+          },
+          {
+            "index": 1,
+            "offset": 21500,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 21528,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "15dc65e4c4525ec4d6656141980f9a6059dc03670bf282770577c5cadde6d637"
+          },
+          {
+            "index": 2,
+            "offset": 42960,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              6
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 42988,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "a966f257a96ad60396047132a8920d58d52036fe43da5fb934cb158e764b0828"
+          },
+          {
+            "index": 3,
+            "offset": 64420,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 64448,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "027e8dfa09850fe2186ee502ad1df1d6f7c54521ce68fbfacbbcc655229f2a73"
+          }
+        ],
+        "parsedByteLength": 85880,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.composeBtn",
+          "pathLiteral": "object/ui/forge/btn_startCompose.img",
+          "canonicalPath": "object/ui/forge/btn_startcompose.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.composeBtn",
+          "pathLiteral": "object/ui/forge/btn_startCompose.img",
+          "canonicalPath": "object/ui/forge/btn_startcompose.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 27,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 152
+              },
+              {
+                "type": "int",
+                "value": 523
+              },
+              {
+                "type": "int",
+                "value": 102
+              },
+              {
+                "type": "int",
+                "value": 50
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startCompose-00.png",
+          "sha256": "3708af60baf8fe1e4d6eadd02f164f9c8c13406d7cd8168b97687e64d375a0a7",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "233bf997bd32b7aabaa329c306a0b582e07180b14199751086d6dd43cca104cb"
+          },
+          "decodedRgbaSha256": "7a1a4edf47e3b284636dd9a848e9569464187d19b416a3d54fb34082e94d69c5",
+          "decodedAlpha": {
+            "sha256": "afcbb4eaca0889cf39d05c425a32bde38b8cb42921dbdd9991ae3b3fed202958",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startCompose-01.png",
+          "sha256": "031a849b18debf38e8301cd45209928b6c6d349ee0037a36e280b61ba7e54fb0",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 21500,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 21528,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "15dc65e4c4525ec4d6656141980f9a6059dc03670bf282770577c5cadde6d637"
+          },
+          "decodedRgbaSha256": "a9ae581d9a91305a18efc1422c9f4da92e47c9855f2fe9d8b90ad3ad2df33ef5",
+          "decodedAlpha": {
+            "sha256": "afcbb4eaca0889cf39d05c425a32bde38b8cb42921dbdd9991ae3b3fed202958",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startCompose-02.png",
+          "sha256": "942864feaf6b1eefc6d61b8d4cbe48202bd6a92448f8296c4c4d91ece7c3f9d2",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 42960,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              6
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 42988,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "a966f257a96ad60396047132a8920d58d52036fe43da5fb934cb158e764b0828"
+          },
+          "decodedRgbaSha256": "1c5a15fea02927307ff386cbfb73451b0ec8d2566d4907ee2dbf63426066c610",
+          "decodedAlpha": {
+            "sha256": "afcbb4eaca0889cf39d05c425a32bde38b8cb42921dbdd9991ae3b3fed202958",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startCompose-03.png",
+          "sha256": "366ca7b799625bebd782e6badd6f5b4f49ef47cb4ba2ae8dc9d30f5650ad11f6",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 64420,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 64448,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "027e8dfa09850fe2186ee502ad1df1d6f7c54521ce68fbfacbbcc655229f2a73"
+          },
+          "decodedRgbaSha256": "c37b6f425bcd5fded6750c54f19a9be736146a7139a6aa2fb3d840333901ab1a",
+          "decodedAlpha": {
+            "sha256": "afcbb4eaca0889cf39d05c425a32bde38b8cb42921dbdd9991ae3b3fed202958",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/btn_startForge.img",
+      "sourceSha256": "e325168d11e739505c277633bb1a820c15f13a585870b91da7ecc204e975cd58",
+      "sourceCompressedSha256": "e2a3389ccacc8c3377c6b534535fd29e1d377412a8ee9f7150e16bbb421e088e",
+      "packageEntry": {
+        "ordinal": 2799,
+        "indexOffset": 142609,
+        "path": "object\\ui\\forge\\btn_startForge.img",
+        "reservedWord": 0,
+        "packageOffset": 29522794,
+        "rawByteLength": 85880,
+        "compressedByteLength": 18732
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 85880,
+        "sha256": "e325168d11e739505c277633bb1a820c15f13a585870b91da7ecc204e975cd58",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          114,
+          54
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "c6cef741a38ae99ee11d892b9a0813eace758bfcb0a923906492646a0c8bebd2"
+          },
+          {
+            "index": 1,
+            "offset": 21500,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 21528,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "d1ce486bb11bf0d6fcab92230f4603987776100bd570947a7f08dea1e851bac6"
+          },
+          {
+            "index": 2,
+            "offset": 42960,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              6
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 42988,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "0e7d4d724fe5dd603bf75d1edf84580970e97759180502ca7da2dc6db8634b06"
+          },
+          {
+            "index": 3,
+            "offset": 64420,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 64448,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "80ffcd51b9d9d60bda528a801756ac5e8e37ae8637d62011ea1ec144cd957d3f"
+          }
+        ],
+        "parsedByteLength": 85880,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startForge-00.png",
+          "sha256": "3c1fe669a84fd9449bb68549f21ca3f7e1b7db09d9ea236560224c45fc0c396d",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "c6cef741a38ae99ee11d892b9a0813eace758bfcb0a923906492646a0c8bebd2"
+          },
+          "decodedRgbaSha256": "49678c3f7ede0417beaaad08dee4dfd430e8e3ab458a76619ee0fcd02057f0e7",
+          "decodedAlpha": {
+            "sha256": "4f99904460dd4ed2d2292dc4453a56954fe133ba7c2f126e86efab820c9c603f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startForge-01.png",
+          "sha256": "84a433d9b1e2128b46d1ee5b616048c0e72853bca5132179d241d7e06fecb75a",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 21500,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 21528,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "d1ce486bb11bf0d6fcab92230f4603987776100bd570947a7f08dea1e851bac6"
+          },
+          "decodedRgbaSha256": "e97145edac5afe3c99ad6b47a1d00efad611ad7ea01459581af2f64e8a1b6ec1",
+          "decodedAlpha": {
+            "sha256": "4f99904460dd4ed2d2292dc4453a56954fe133ba7c2f126e86efab820c9c603f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startForge-02.png",
+          "sha256": "4c1a100bd6f86dd401f297f9de85ed8c8828dbd3117c525a5cd651e2ef6e318a",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 42960,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              6
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 42988,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "0e7d4d724fe5dd603bf75d1edf84580970e97759180502ca7da2dc6db8634b06"
+          },
+          "decodedRgbaSha256": "e76f2a55138c978bafd0a683c5a990815710895c542fe1dbd5825ca69afc4689",
+          "decodedAlpha": {
+            "sha256": "4f99904460dd4ed2d2292dc4453a56954fe133ba7c2f126e86efab820c9c603f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_startForge-03.png",
+          "sha256": "a5838b024dc92c3dc3e04dde90f6e5f87cd8b9c9d305979a5047f09be986fb5e",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 64420,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              7
+            ],
+            "pixelMode": 8,
+            "width": 114,
+            "height": 47,
+            "unknownImageHeaderWord": 456,
+            "empty": false,
+            "pixelDataOffset": 64448,
+            "pixelByteLength": 21432,
+            "encodedPixelSha256": "80ffcd51b9d9d60bda528a801756ac5e8e37ae8637d62011ea1ec144cd957d3f"
+          },
+          "decodedRgbaSha256": "3ec4b9c973ce2536cf0c2862157345fcfd380d5974f969dbeca699dd567686a3",
+          "decodedAlpha": {
+            "sha256": "4f99904460dd4ed2d2292dc4453a56954fe133ba7c2f126e86efab820c9c603f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              114,
+              47
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/btn_type.img",
+      "sourceSha256": "47c4287ee71966d0289328ed6e570a4f6a54dfee3d5b4f309067bfb955f21fbc",
+      "sourceCompressedSha256": "f4f288ab0752fe4b0279a653de932248f4bbfa7031831fb2c57b58795f283676",
+      "packageEntry": {
+        "ordinal": 2800,
+        "indexOffset": 142661,
+        "path": "object\\ui\\forge\\btn_type.img",
+        "reservedWord": 0,
+        "packageOffset": 29541526,
+        "rawByteLength": 10100,
+        "compressedByteLength": 845
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 10100,
+        "sha256": "47c4287ee71966d0289328ed6e570a4f6a54dfee3d5b4f309067bfb955f21fbc",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          132,
+          19
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 132,
+            "height": 19,
+            "unknownImageHeaderWord": 528,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 10032,
+            "encodedPixelSha256": "15323c3900dc1972415ea498e7c13378ace9dd61c7053c0b85876de097063a8e"
+          }
+        ],
+        "parsedByteLength": 10100,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemList0",
+          "pathLiteral": "object/ui/forge/btn_type.img",
+          "canonicalPath": "object/ui/forge/btn_type.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemList0",
+          "pathLiteral": "object/ui/forge/btn_type.img",
+          "canonicalPath": "object/ui/forge/btn_type.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 27,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 190
+              },
+              {
+                "type": "int",
+                "value": 75
+              },
+              {
+                "type": "int",
+                "value": 132
+              },
+              {
+                "type": "int",
+                "value": 19
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemScroll.OnPosChange",
+          "pathLiteral": "object/ui/forge/btn_type.img",
+          "canonicalPath": "object/ui/forge/btn_type.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            6
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemList0",
+          "pathLiteral": "object/ui/forge/btn_type.img",
+          "canonicalPath": "object/ui/forge/btn_type.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemList0",
+          "pathLiteral": "object/ui/forge/btn_type.img",
+          "canonicalPath": "object/ui/forge/btn_type.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 27,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 20
+              },
+              {
+                "type": "int",
+                "value": 70
+              },
+              {
+                "type": "int",
+                "value": 132
+              },
+              {
+                "type": "int",
+                "value": 19
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemScroll.OnPosChange",
+          "pathLiteral": "object/ui/forge/btn_type.img",
+          "canonicalPath": "object/ui/forge/btn_type.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__btn_type-00.png",
+          "sha256": "36277f6ace4612bc0d7e53be8dca8db2d41cb18ce5c197da1603ac8de8d01486",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 132,
+            "height": 19,
+            "unknownImageHeaderWord": 528,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 10032,
+            "encodedPixelSha256": "15323c3900dc1972415ea498e7c13378ace9dd61c7053c0b85876de097063a8e"
+          },
+          "decodedRgbaSha256": "2760220d57ab91c15dee1a9c3d7950d883b7c48954d35985356de654e462ff8a",
+          "decodedAlpha": {
+            "sha256": "9885dd4bd59a056be9b43bbd8e29c841efe73a86fb5195a5b01b63947a90cf43",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              132,
+              19
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/dlg_avatarforge.img",
+      "sourceSha256": "87d031d923d7f332764af0d299bbc47534557c7102908903dc870f379b03bc59",
+      "sourceCompressedSha256": "4df4b31976ef022807d3ed7b9b885c2efe47d4341d05748fece732c45d484e12",
+      "packageEntry": {
+        "ordinal": 2801,
+        "indexOffset": 142707,
+        "path": "object\\ui\\forge\\dlg_avatarforge.img",
+        "reservedWord": 0,
+        "packageOffset": 29542371,
+        "rawByteLength": 1002664,
+        "compressedByteLength": 56498
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 1002664,
+        "sha256": "87d031d923d7f332764af0d299bbc47534557c7102908903dc870f379b03bc59",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          427,
+          587
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 427,
+            "height": 587,
+            "unknownImageHeaderWord": 1712,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1002596,
+            "encodedPixelSha256": "d61d6759775788f990fa31cc6e2085875436ebc38ddbe13b6759b3380e7a1379"
+          }
+        ],
+        "parsedByteLength": 1002664,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg",
+          "pathLiteral": "object/ui/forge/dlg_avatarforge.img",
+          "canonicalPath": "object/ui/forge/dlg_avatarforge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            5
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg",
+          "pathLiteral": "object/ui/forge/dlg_avatarforge.img",
+          "canonicalPath": "object/ui/forge/dlg_avatarforge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 33,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 427
+              },
+              {
+                "type": "int",
+                "value": 587
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__dlg_avatarforge-00.png",
+          "sha256": "dc05714fee13bcf8a52e1e1221b45fc65dea285029901ab7b46b295e36881126",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 427,
+            "height": 587,
+            "unknownImageHeaderWord": 1712,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1002596,
+            "encodedPixelSha256": "d61d6759775788f990fa31cc6e2085875436ebc38ddbe13b6759b3380e7a1379"
+          },
+          "decodedRgbaSha256": "f5aa67b14bf0ad4f8de0025f9270c53a5e568bec6847881988f1f3b2000f3443",
+          "decodedAlpha": {
+            "sha256": "163bc894d8459aae14163fb26d0c2500ded343708fdbb0431bc327d978e9bec0",
+            "extrema": [
+              1,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              427,
+              587
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/dlg_forge.img",
+      "sourceSha256": "a81ecf72d7ed9346304d153bc7b747e356ae56305f40a575fe5741e01722755a",
+      "sourceCompressedSha256": "dbc21a5ff7cc1758d513ace5cc9f94a595fd149f241dd5604660837eaf83d6db",
+      "packageEntry": {
+        "ordinal": 2802,
+        "indexOffset": 142760,
+        "path": "object\\ui\\forge\\dlg_forge.img",
+        "reservedWord": 0,
+        "packageOffset": 29598869,
+        "rawByteLength": 1002664,
+        "compressedByteLength": 37204
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 1002664,
+        "sha256": "a81ecf72d7ed9346304d153bc7b747e356ae56305f40a575fe5741e01722755a",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          427,
+          587
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 427,
+            "height": 587,
+            "unknownImageHeaderWord": 1712,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1002596,
+            "encodedPixelSha256": "0cd7c60b81b90155356c3e171403438e17d7ad84d6c0bbcff345c7984b5fd9ee"
+          }
+        ],
+        "parsedByteLength": 1002664,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg",
+          "pathLiteral": "object/ui/forge/dlg_forge.img",
+          "canonicalPath": "object/ui/forge/dlg_forge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            4
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg",
+          "pathLiteral": "object/ui/forge/dlg_forge.img",
+          "canonicalPath": "object/ui/forge/dlg_forge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 33,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 427
+              },
+              {
+                "type": "int",
+                "value": 587
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__dlg_forge-00.png",
+          "sha256": "ae17073e87107d23cc8b7fb8a4783f0514b693520ce9ef8c70ab8e18270a9fa4",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 427,
+            "height": 587,
+            "unknownImageHeaderWord": 1712,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1002596,
+            "encodedPixelSha256": "0cd7c60b81b90155356c3e171403438e17d7ad84d6c0bbcff345c7984b5fd9ee"
+          },
+          "decodedRgbaSha256": "4ea66986ca0653912c4835cbb0fd98d914ea40bd7af9869ebc87bb7cbe9b8092",
+          "decodedAlpha": {
+            "sha256": "163bc894d8459aae14163fb26d0c2500ded343708fdbb0431bc327d978e9bec0",
+            "extrema": [
+              1,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              427,
+              587
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/dlg_forgeconfirm.img",
+      "sourceSha256": "86a82e600924d600162aa99ce8f24a5290931917c54f566479e557c0af8b1be6",
+      "sourceCompressedSha256": "2a5a309e0ab2aab6c04818e350330dfe0637aa9a4f3469f080f81716d03c4bf7",
+      "packageEntry": {
+        "ordinal": 2803,
+        "indexOffset": 142807,
+        "path": "object\\ui\\forge\\dlg_forgeconfirm.img",
+        "reservedWord": 0,
+        "packageOffset": 29636073,
+        "rawByteLength": 109868,
+        "compressedByteLength": 4931
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 109868,
+        "sha256": "86a82e600924d600162aa99ce8f24a5290931917c54f566479e557c0af8b1be6",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          225,
+          122
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 225,
+            "height": 122,
+            "unknownImageHeaderWord": 904,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 109800,
+            "encodedPixelSha256": "bbc4d97d972d5634db0e9438bb3a68bf556b0cf31c698ed38d7065961deb3261"
+          }
+        ],
+        "parsedByteLength": 109868,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.forgeConfirmDlg",
+          "pathLiteral": "object/ui/forge/dlg_forgeconfirm.img",
+          "canonicalPath": "object/ui/forge/dlg_forgeconfirm.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            7
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.forgeConfirmDlg",
+          "pathLiteral": "object/ui/forge/dlg_forgeconfirm.img",
+          "canonicalPath": "object/ui/forge/dlg_forgeconfirm.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 39,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 100
+              },
+              {
+                "type": "int",
+                "value": 200
+              },
+              {
+                "type": "int",
+                "value": 225
+              },
+              {
+                "type": "int",
+                "value": 122
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__dlg_forgeconfirm-00.png",
+          "sha256": "53a8a4be0976a6c81bac0fe8e4aacb6e9e7fc3c5cd69ebedf95038ed6c666416",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 225,
+            "height": 122,
+            "unknownImageHeaderWord": 904,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 109800,
+            "encodedPixelSha256": "bbc4d97d972d5634db0e9438bb3a68bf556b0cf31c698ed38d7065961deb3261"
+          },
+          "decodedRgbaSha256": "bbc4d97d972d5634db0e9438bb3a68bf556b0cf31c698ed38d7065961deb3261",
+          "decodedAlpha": {
+            "sha256": "ff810a67e296350e2134c00a2de5bad394f419b7940747aadf04423d8c25ca6f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              225,
+              122
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/dlg_forgeMask.img",
+      "sourceSha256": "92e7f7f329f2cfcaedf3a5e36c505c356870a0f04c18bb517f756ca480f47253",
+      "sourceCompressedSha256": "0ef74a4dbed33ed65adada1ed2f0bec64d98727396bc85439400d095a8f271e4",
+      "packageEntry": {
+        "ordinal": 2804,
+        "indexOffset": 142861,
+        "path": "object\\ui\\forge\\dlg_forgeMask.img",
+        "reservedWord": 0,
+        "packageOffset": 29641004,
+        "rawByteLength": 303604,
+        "compressedByteLength": 5482
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 303604,
+        "sha256": "92e7f7f329f2cfcaedf3a5e36c505c356870a0f04c18bb517f756ca480f47253",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          311,
+          244
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 311,
+            "height": 244,
+            "unknownImageHeaderWord": 1248,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 303536,
+            "encodedPixelSha256": "2fc81152ebce2e4d0de37abd97ff6e23f4faf344e9cc50c2f836f858327b03ab"
+          }
+        ],
+        "parsedByteLength": 303604,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__dlg_forgeMask-00.png",
+          "sha256": "ba18edbdbc3ecf8448ef5d412df439b077f8251cd0c164d4215d0ba8b24e643d",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 311,
+            "height": 244,
+            "unknownImageHeaderWord": 1248,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 303536,
+            "encodedPixelSha256": "2fc81152ebce2e4d0de37abd97ff6e23f4faf344e9cc50c2f836f858327b03ab"
+          },
+          "decodedRgbaSha256": "ff700a76c5fb6f3a88513a61e3ca06a3c408ae68ed2bceae5abd2841c580a71f",
+          "decodedAlpha": {
+            "sha256": "0a68b937624a94a6e0b4a8f27e3857bcde1a04eeff674eb3f1b505a22d758079",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              311,
+              244
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/dlg_meterial.img",
+      "sourceSha256": "e7a8a3bd6a5614b08b6f4ab7b4da84bf5d26368ac319d319beba0bfca810e25c",
+      "sourceCompressedSha256": "4f4e1752a79cadd4bcc526df35831e5550ab73a0c4c2c114f6353491ecac3447",
+      "packageEntry": {
+        "ordinal": 2805,
+        "indexOffset": 142912,
+        "path": "object\\ui\\forge\\dlg_meterial.img",
+        "reservedWord": 0,
+        "packageOffset": 29646486,
+        "rawByteLength": 152164,
+        "compressedByteLength": 11723
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 152164,
+        "sha256": "e7a8a3bd6a5614b08b6f4ab7b4da84bf5d26368ac319d319beba0bfca810e25c",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          196,
+          194
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 196,
+            "height": 194,
+            "unknownImageHeaderWord": 784,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 152096,
+            "encodedPixelSha256": "be976e988ea43a8b66b5326a1ec29e564cf411e8de5330f3afeeb20c802aff95"
+          }
+        ],
+        "parsedByteLength": 152164,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.meterialList",
+          "pathLiteral": "object/ui/forge/dlg_meterial.img",
+          "canonicalPath": "object/ui/forge/dlg_meterial.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            4
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.meterialList",
+          "pathLiteral": "object/ui/forge/dlg_meterial.img",
+          "canonicalPath": "object/ui/forge/dlg_meterial.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 27,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 189
+              },
+              {
+                "type": "int",
+                "value": 200
+              },
+              {
+                "type": "int",
+                "value": 200
+              },
+              {
+                "type": "int",
+                "value": 212
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__dlg_meterial-00.png",
+          "sha256": "b7047308b9de5d99c7df2fd5fd995d892c41b7029798bb9dca743ca326d6e8f2",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 196,
+            "height": 194,
+            "unknownImageHeaderWord": 784,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 152096,
+            "encodedPixelSha256": "be976e988ea43a8b66b5326a1ec29e564cf411e8de5330f3afeeb20c802aff95"
+          },
+          "decodedRgbaSha256": "0265ef55923348288d33661b4f089ea6beaa808ba12c0c768d2f9572d1dd2949",
+          "decodedAlpha": {
+            "sha256": "667735f9067ace63627b2b8b97a192ffa68125f46370f680ac323b7d21627058",
+            "extrema": [
+              255,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              196,
+              194
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/scl_down.img",
+      "sourceSha256": "fd8991eca7be149c9cf8b9a772c64a4df5d54beeae8ec20fdcfd31f523df5223",
+      "sourceCompressedSha256": "4f32c245e17bf1fa61fd3ae6c65d08c7a748ec36af0193943b5fe6223d1b88d3",
+      "packageEntry": {
+        "ordinal": 2806,
+        "indexOffset": 142962,
+        "path": "object\\ui\\forge\\scl_down.img",
+        "reservedWord": 0,
+        "packageOffset": 29658209,
+        "rawByteLength": 5336,
+        "compressedByteLength": 970
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 5336,
+        "sha256": "fd8991eca7be149c9cf8b9a772c64a4df5d54beeae8ec20fdcfd31f523df5223",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          18,
+          18
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "58dd17798710a435fd216bac06dd12f0bfa3547c02b143fc649d4d0934677f75"
+          },
+          {
+            "index": 1,
+            "offset": 1364,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 1392,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "70547809769c68fd0215a4b54225a1c9b9642ceef563a9ad0d9c49761ec1e85b"
+          },
+          {
+            "index": 2,
+            "offset": 2688,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 2716,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "f0af89413eda22e855bfc4762b092d7220389c1177ee0ffffe6c9b116f27995e"
+          },
+          {
+            "index": 3,
+            "offset": 4012,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 4040,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "f9da891e812295f2f773ff25e0a678f4a422ab19dcb686cf1d18203feb521929"
+          }
+        ],
+        "parsedByteLength": 5336,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            9
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 64,
+          "literalRect": null,
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.wareScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            9
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.wareScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 64,
+          "literalRect": null,
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.StorageScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.StorageScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": 192
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": 191
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeInfo.children.chatScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeInfo.children.chatScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": 55
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": 301
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.composeInfo.children.chatScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.composeInfo.children.chatScroll.children.spindown",
+          "pathLiteral": "object/ui/forge/scl_down.img",
+          "canonicalPath": "object/ui/forge/scl_down.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": 55
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_down-00.png",
+          "sha256": "f180395e4c26cdaaddad7644737dec53b3cd5e7d5724ff41f25841fc99ef1c1e",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "58dd17798710a435fd216bac06dd12f0bfa3547c02b143fc649d4d0934677f75"
+          },
+          "decodedRgbaSha256": "3e6beac027491c04327912ea33bc3a36dd1be9010096663532132ee826a23d15",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_down-01.png",
+          "sha256": "e7cc2358326c2568b77dbc3302a9221de620536eb2bfefa64c5d5714d370709d",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 1364,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 1392,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "70547809769c68fd0215a4b54225a1c9b9642ceef563a9ad0d9c49761ec1e85b"
+          },
+          "decodedRgbaSha256": "70547809769c68fd0215a4b54225a1c9b9642ceef563a9ad0d9c49761ec1e85b",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_down-02.png",
+          "sha256": "5604a37bbfc7f7fee64a642a4dd762d7a46f10fbfed85b6f19811508dc1974a3",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 2688,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 2716,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "f0af89413eda22e855bfc4762b092d7220389c1177ee0ffffe6c9b116f27995e"
+          },
+          "decodedRgbaSha256": "f14984d99add76afdef25a43608eae0350db59fb77b66272681072ba17bd4c27",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_down-03.png",
+          "sha256": "e8122757e85cba503f5dae7fc7d45431e4e1235b80a10c98c8ab4683ae0d1435",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 4012,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 4040,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "f9da891e812295f2f773ff25e0a678f4a422ab19dcb686cf1d18203feb521929"
+          },
+          "decodedRgbaSha256": "df205d71beb4ed7d29f3528e177678505dff1c97cec858b7055482921fa5e9f5",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/scl_up.img",
+      "sourceSha256": "cd1c8bbb818ea65d9afbde952466dcab0aafd6c1873b4dad2d1c75531c721800",
+      "sourceCompressedSha256": "4088767404e17df28d413cb6d1e450c7cb3ac88da147d4353a1521e43bb3b14e",
+      "packageEntry": {
+        "ordinal": 2807,
+        "indexOffset": 143008,
+        "path": "object\\ui\\forge\\scl_up.img",
+        "reservedWord": 0,
+        "packageOffset": 29659179,
+        "rawByteLength": 5336,
+        "compressedByteLength": 920
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 5336,
+        "sha256": "cd1c8bbb818ea65d9afbde952466dcab0aafd6c1873b4dad2d1c75531c721800",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          18,
+          18
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "7ae748542a613c44be85c9542b92b1b1c26916d0dbb3a5948eee64c15b83ff51"
+          },
+          {
+            "index": 1,
+            "offset": 1364,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 1392,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "b547de464a604df1adbb62d0a6ee98b31234d39ad2f32f090341439219a898b2"
+          },
+          {
+            "index": 2,
+            "offset": 2688,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 2716,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "cb322e2073a4258609f59a215ee43eda63d71eaa0c5a0093328f815ee26a52cf"
+          },
+          {
+            "index": 3,
+            "offset": 4012,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 4040,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "af1e9379735d7009af8104907ba81ee8df04fbea89691de5e67401e949397d9f"
+          }
+        ],
+        "parsedByteLength": 5336,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.itemScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": -17
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.wareScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.wareScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": -17
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.StorageScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.StorageScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": -17
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.pawnshop.children.CommitPanel.children.CommittedScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": -15
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeInfo.children.chatScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeInfo.children.chatScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": -17
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.itemScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": -17
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.composeInfo.children.chatScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeDlg.children.composeInfo.children.chatScroll.children.spinup",
+          "pathLiteral": "object/ui/forge/scl_up.img",
+          "canonicalPath": "object/ui/forge/scl_up.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "bkimage",
+          "storeByteOffset": 60,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 5
+              },
+              {
+                "type": "int",
+                "value": -17
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 18
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_up-00.png",
+          "sha256": "b24e905aee09526d7ffc013eb50c854914cc432d96e762f547232f831bdb5632",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "7ae748542a613c44be85c9542b92b1b1c26916d0dbb3a5948eee64c15b83ff51"
+          },
+          "decodedRgbaSha256": "18847c326ef6ddc5541667d7205aa96397da5d56a42b752f0cc7cbfd70ee9209",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_up-01.png",
+          "sha256": "eda21b47ca08d169d21ff010770558903064cd4bac841bac601813dbd9790af1",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 1364,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 1392,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "b547de464a604df1adbb62d0a6ee98b31234d39ad2f32f090341439219a898b2"
+          },
+          "decodedRgbaSha256": "b547de464a604df1adbb62d0a6ee98b31234d39ad2f32f090341439219a898b2",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_up-02.png",
+          "sha256": "521812d038b12e01aa025c44a471cf8916fd7d88af1cd4f53a9a71c5b9acdfb9",
+          "sourceFrame": {
+            "index": 2,
+            "offset": 2688,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 2716,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "cb322e2073a4258609f59a215ee43eda63d71eaa0c5a0093328f815ee26a52cf"
+          },
+          "decodedRgbaSha256": "eba001a1ca1a2576f5e0643985246dbadd65d828b783934fd6d657faf93f504f",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__scl_up-03.png",
+          "sha256": "18c821c8851b70899cfc051aeb39bcefb381aa61e7b9f0a1ef0b35198f0d6156",
+          "sourceFrame": {
+            "index": 3,
+            "offset": 4012,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 18,
+            "height": 18,
+            "unknownImageHeaderWord": 72,
+            "empty": false,
+            "pixelDataOffset": 4040,
+            "pixelByteLength": 1296,
+            "encodedPixelSha256": "af1e9379735d7009af8104907ba81ee8df04fbea89691de5e67401e949397d9f"
+          },
+          "decodedRgbaSha256": "8bbca0feccab84e41d03891424b07d99a9820ff9bc7a8c4e6676d49ff60319d6",
+          "decodedAlpha": {
+            "sha256": "d04b7795407b3ed6fafe06e17fb83fb620ec112343e1a069d30003da4d1a1e50",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              18,
+              18
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/tab_compose.img",
+      "sourceSha256": "0c785bbc6f91b42276ce1507910d2c9876fb4b9f57f5650040b62e06be62f48f",
+      "sourceCompressedSha256": "92c4cba0283b7fc696a868ff9e26cbf9532f9d0eb64d785d1c1714562e7d4fae",
+      "packageEntry": {
+        "ordinal": 2808,
+        "indexOffset": 143052,
+        "path": "object\\ui\\forge\\tab_compose.img",
+        "reservedWord": 0,
+        "packageOffset": 29660099,
+        "rawByteLength": 17576,
+        "compressedByteLength": 4054
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 17576,
+        "sha256": "0c785bbc6f91b42276ce1507910d2c9876fb4b9f57f5650040b62e06be62f48f",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          95,
+          27
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              5
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 22,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8360,
+            "encodedPixelSha256": "f467a1234b7e501bda57670f6de55752fedac5247c7922dfa962741ab6a2cd96"
+          },
+          {
+            "index": 1,
+            "offset": 8428,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 24,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 8456,
+            "pixelByteLength": 9120,
+            "encodedPixelSha256": "9a17a59393b4cd58bd8153d9caf4a3fedc778a46d88f54891003769c735d59b9"
+          }
+        ],
+        "parsedByteLength": 17576,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeTab",
+          "pathLiteral": "object/ui/forge/tab_compose.img",
+          "canonicalPath": "object/ui/forge/tab_compose.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.composeTab",
+          "pathLiteral": "object/ui/forge/tab_compose.img",
+          "canonicalPath": "object/ui/forge/tab_compose.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "hotcover",
+          "storeByteOffset": 51,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 1
+              },
+              {
+                "type": "int",
+                "value": 1
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_compose-00.png",
+          "sha256": "fde2bc7408f5009253e5b6b762b6b1e23f8c5a1d225a1efb7343f41ec39be284",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              5
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 22,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8360,
+            "encodedPixelSha256": "f467a1234b7e501bda57670f6de55752fedac5247c7922dfa962741ab6a2cd96"
+          },
+          "decodedRgbaSha256": "5d46d1e5c6f728a1d010b3cab858b92bb9fb1c5ed83fb503e4914a296c1ab0b5",
+          "decodedAlpha": {
+            "sha256": "4b56df966ddae0ce6bf71bb5180ce86661a973120a311ac9ade42ea576b3f310",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              95,
+              22
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_compose-01.png",
+          "sha256": "151a4e491b933d1ffa785375b2e2645308ea15475f3ab20050c83dafd2106b1f",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 8428,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 24,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 8456,
+            "pixelByteLength": 9120,
+            "encodedPixelSha256": "9a17a59393b4cd58bd8153d9caf4a3fedc778a46d88f54891003769c735d59b9"
+          },
+          "decodedRgbaSha256": "e2dd2f571d1e5c6fb6b41cf1f63b686b8f205ae9aae1c14c21dff5ce2ced8885",
+          "decodedAlpha": {
+            "sha256": "04e411a8f3d51753bbcb70c64ac21913d3f76b5d8422d3e136c07d48358e7cf2",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              95,
+              24
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/tab_forge.img",
+      "sourceSha256": "02e91585fb6c3a09ac3d2a6dc63f51fb47ece6324cb8bed810b46563e8635d6a",
+      "sourceCompressedSha256": "52bdac6a007a6e6b4457af916e62915e5e044e238269137eeee455c09145b993",
+      "packageEntry": {
+        "ordinal": 2809,
+        "indexOffset": 143101,
+        "path": "object\\ui\\forge\\tab_forge.img",
+        "reservedWord": 0,
+        "packageOffset": 29664153,
+        "rawByteLength": 17576,
+        "compressedByteLength": 4223
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 17576,
+        "sha256": "02e91585fb6c3a09ac3d2a6dc63f51fb47ece6324cb8bed810b46563e8635d6a",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          95,
+          27
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              5
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 22,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8360,
+            "encodedPixelSha256": "6c4c4892fac1386417486ac9ade7cc49afa499ae9625db2ef5d5f4a426ab49c7"
+          },
+          {
+            "index": 1,
+            "offset": 8428,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 24,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 8456,
+            "pixelByteLength": 9120,
+            "encodedPixelSha256": "f1554a864db1f862dc3f7d9dfc477d134b1b6037c64812ced61e2a99f45b3a0e"
+          }
+        ],
+        "parsedByteLength": 17576,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.forgeTab",
+          "pathLiteral": "object/ui/forge/tab_forge.img",
+          "canonicalPath": "object/ui/forge/tab_forge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            8
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.forgeTab",
+          "pathLiteral": "object/ui/forge/tab_forge.img",
+          "canonicalPath": "object/ui/forge/tab_forge.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "hotcover",
+          "storeByteOffset": 51,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 1
+              },
+              {
+                "type": "int",
+                "value": 1
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forge-00.png",
+          "sha256": "fbd43cb92a404ba94609384d59ee05e1da7ae2ee87b697721dc7ce46c6b34ca1",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              5
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 22,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8360,
+            "encodedPixelSha256": "6c4c4892fac1386417486ac9ade7cc49afa499ae9625db2ef5d5f4a426ab49c7"
+          },
+          "decodedRgbaSha256": "e878849251ff858847bcfe1f5cf81cb28ea5232323736b8859d3775604d5240a",
+          "decodedAlpha": {
+            "sha256": "4b56df966ddae0ce6bf71bb5180ce86661a973120a311ac9ade42ea576b3f310",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              95,
+              22
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forge-01.png",
+          "sha256": "96926d181f949004e02b4916849038efac21ead2fa819703ed74c0fef9708664",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 8428,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 95,
+            "height": 24,
+            "unknownImageHeaderWord": 384,
+            "empty": false,
+            "pixelDataOffset": 8456,
+            "pixelByteLength": 9120,
+            "encodedPixelSha256": "f1554a864db1f862dc3f7d9dfc477d134b1b6037c64812ced61e2a99f45b3a0e"
+          },
+          "decodedRgbaSha256": "47f953a28ee0a818bfb5673ddc391029e8f33f7d10b39674ba7440795df95b14",
+          "decodedAlpha": {
+            "sha256": "04e411a8f3d51753bbcb70c64ac21913d3f76b5d8422d3e136c07d48358e7cf2",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              95,
+              24
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/tab_forgetype0.img",
+      "sourceSha256": "ed8c6a9d7117fcb2ab893566b2149be0d568c9862cadf24d9330416696788d56",
+      "sourceCompressedSha256": "e18f9aaa441d9d11c081ad369d00ef1693be4d031d792c5765bb0474f0c23f4c",
+      "packageEntry": {
+        "ordinal": 2810,
+        "indexOffset": 143148,
+        "path": "object\\ui\\forge\\tab_forgetype0.img",
+        "reservedWord": 0,
+        "packageOffset": 29668376,
+        "rawByteLength": 11040,
+        "compressedByteLength": 3453
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 11040,
+        "sha256": "ed8c6a9d7117fcb2ab893566b2149be0d568c9862cadf24d9330416696788d56",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          57,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "cef74cf6e528a7d4b20e9d2679663e90fcdb07ef981d4f4c80e02cb6779529da"
+          },
+          {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "e0f73607eaf2c8ac7c66512faeee01a69231d6c889632f18558f33beb96b9a85"
+          }
+        ],
+        "parsedByteLength": 11040,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType0",
+          "pathLiteral": "object/ui/forge/tab_forgetype0.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype0.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            7
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType0",
+          "pathLiteral": "object/ui/forge/tab_forgetype0.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype0.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "hotcover",
+          "storeByteOffset": 45,
+          "literalRect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 1
+              },
+              {
+                "type": "int",
+                "value": 1
+              }
+            ]
+          },
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype0-00.png",
+          "sha256": "1ed819a2030ed2768c6b47496849a514d5cf00f8da21fd355da7a656b757c112",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "cef74cf6e528a7d4b20e9d2679663e90fcdb07ef981d4f4c80e02cb6779529da"
+          },
+          "decodedRgbaSha256": "5dc8d16edc73408fde8ad6bde564755630038b732c7773962e9cf1db176635c8",
+          "decodedAlpha": {
+            "sha256": "47455ce09d930cf5b98a4ef93c7d3f277f542ddf993b806caaafb15058063a4b",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              19
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype0-01.png",
+          "sha256": "38fb83d30ed49f649d271007257a023674e44280a694a95de3feae5823d12aef",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "e0f73607eaf2c8ac7c66512faeee01a69231d6c889632f18558f33beb96b9a85"
+          },
+          "decodedRgbaSha256": "942fe7071ef1faef2077a4b06a595f00ec9a96b7747ff7f7e6697f1562075acd",
+          "decodedAlpha": {
+            "sha256": "9cc144e6e7c44db98f660789aa62ccfe5b14188ae40cc57024df082399446359",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              28
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/tab_forgetype1.img",
+      "sourceSha256": "ff95a776b3ffe80ca905e4f41247d2091fb35c7125091d910675c6831ac5b906",
+      "sourceCompressedSha256": "9310fbf8cde253cf8ecfe784b7670582b4d2511bb373242ea73ab0330d53f87a",
+      "packageEntry": {
+        "ordinal": 2811,
+        "indexOffset": 143200,
+        "path": "object\\ui\\forge\\tab_forgetype1.img",
+        "reservedWord": 0,
+        "packageOffset": 29671829,
+        "rawByteLength": 11040,
+        "compressedByteLength": 2455
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 11040,
+        "sha256": "ff95a776b3ffe80ca905e4f41247d2091fb35c7125091d910675c6831ac5b906",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          57,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "502adea4305eb730e0c08ba20c66d677eea265f2f9c885b9d9b93adb17c86de7"
+          },
+          {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "f5439a96c101978324813b2fb3c45764397e74979398ec0c72ee6046a0dcff10"
+          }
+        ],
+        "parsedByteLength": 11040,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType1",
+          "pathLiteral": "object/ui/forge/tab_forgetype1.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype1.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            6
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType1",
+          "pathLiteral": "object/ui/forge/tab_forgetype1.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype1.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "hotcover",
+          "storeByteOffset": 31,
+          "literalRect": null,
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype1-00.png",
+          "sha256": "dea4539504323f76077ba660b51b1ab0736af49c1f3f04c6e3ec8ec6213f63ee",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "502adea4305eb730e0c08ba20c66d677eea265f2f9c885b9d9b93adb17c86de7"
+          },
+          "decodedRgbaSha256": "5cc4253d4bd00ce6cdf514450175450aecc7b4ef95265f6c9c94a0054a561ab7",
+          "decodedAlpha": {
+            "sha256": "575304991fd9f0b1e7bb85a0ad729bdd91c3b6094bae3ffa080eefefb4694a2f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              19
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype1-01.png",
+          "sha256": "a00e73b541c31369bc2c0b324abb5ab21ea294e2ad3506f41ea9cd6393d701bb",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "f5439a96c101978324813b2fb3c45764397e74979398ec0c72ee6046a0dcff10"
+          },
+          "decodedRgbaSha256": "cd5d4e560da410823ff7b1ce3c3a8fd0d582bc5e8fc669e28a09dd37f66862ab",
+          "decodedAlpha": {
+            "sha256": "e675fd7714a458a64b12321ef450aa8094595459f0a059a031d572ebf8a86d9f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              28
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/tab_forgetype2.img",
+      "sourceSha256": "9fd18f65a5dd7febdbe5b3a51b8256add91f0dd76d9477ede04af7a9848033ea",
+      "sourceCompressedSha256": "109531d1cfecd398d59d943bef4769d588fdc8ff1fcdd72f64ddf1a4fd773924",
+      "packageEntry": {
+        "ordinal": 2812,
+        "indexOffset": 143252,
+        "path": "object\\ui\\forge\\tab_forgetype2.img",
+        "reservedWord": 0,
+        "packageOffset": 29674284,
+        "rawByteLength": 11040,
+        "compressedByteLength": 3357
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 11040,
+        "sha256": "9fd18f65a5dd7febdbe5b3a51b8256add91f0dd76d9477ede04af7a9848033ea",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          57,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "51cbc6e1cdbc3daea2df2fea8e99622752854f6041ad3671b9dd73135bf5b062"
+          },
+          {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "63bdc1255874bbb3f8722bbfe9bac58e945e7ecbf6a9578cd2eb1c14ea6e0e4c"
+          }
+        ],
+        "parsedByteLength": 11040,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType2",
+          "pathLiteral": "object/ui/forge/tab_forgetype2.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype2.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            7
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType2",
+          "pathLiteral": "object/ui/forge/tab_forgetype2.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype2.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "hotcover",
+          "storeByteOffset": 35,
+          "literalRect": null,
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype2-00.png",
+          "sha256": "0b34b73d85f1081f8939bcfd5a86cebac2970429f875ece1bd32feabf048dd7c",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "51cbc6e1cdbc3daea2df2fea8e99622752854f6041ad3671b9dd73135bf5b062"
+          },
+          "decodedRgbaSha256": "08d95ddef77f7888d3678ed8742ee0bc312b810212f8fb284e42a51f7113a64a",
+          "decodedAlpha": {
+            "sha256": "cc6cf07ace61c4ea659cef89e0058f038e1312512409e62db7e56d6b4192723f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              19
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype2-01.png",
+          "sha256": "12ccadac254732a778dcdfdac389d210604e2cddcd768ccad359d0a24c21e803",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "63bdc1255874bbb3f8722bbfe9bac58e945e7ecbf6a9578cd2eb1c14ea6e0e4c"
+          },
+          "decodedRgbaSha256": "ab760b94ca9ba78e08d8313ea4a191963ace612a9fa576f65763821fd68e0b02",
+          "decodedAlpha": {
+            "sha256": "378e153e29053c2d60000adf03ac24ab65caa7c2c1284d4cb12a2343ecf106d8",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              28
+            ]
+          },
+          "empty": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/forge/tab_forgetype3.img",
+      "sourceSha256": "35444d0281e7e2581a90910b81a60d2e37beff5652be4a16efdc5ed94318ead2",
+      "sourceCompressedSha256": "a68a2d8acaf9086bb200bb92aae78629ddef24d5dd2b7ff53efa33b173ff83b1",
+      "packageEntry": {
+        "ordinal": 2813,
+        "indexOffset": 143304,
+        "path": "object\\ui\\forge\\tab_forgetype3.img",
+        "reservedWord": 0,
+        "packageOffset": 29677641,
+        "rawByteLength": 11040,
+        "compressedByteLength": 2414
+      },
+      "sourcePacked": true,
+      "sourceLoose": false,
+      "metadata": {
+        "byteLength": 11040,
+        "sha256": "35444d0281e7e2581a90910b81a60d2e37beff5652be4a16efdc5ed94318ead2",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          57,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "fc1596fc150c9f7ec8da0c2d8d93ca6b91714a0f36f809ea5a93992498cf07e1"
+          },
+          {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "fc627a4f6672b67b8ba416c0365bf103c2a88eca918e06308346220cb90949d4"
+          }
+        ],
+        "parsedByteLength": 11040,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": false,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null,
+        "metadataOnly": true,
+        "pixelDecodePerformed": false,
+        "pixelPayloadValidation": "unknown",
+        "visibleAlpha": "unknown",
+        "visibleAlphaValidation": "unknown",
+        "runtimeUsable": false,
+        "strictDeclaredStructureAccepted": true,
+        "inspectionScope": "declared header/frame boundaries, encoded payload hashes, offsets, structural empty markers and EOF only; no pixel or runtime validation"
+      },
+      "exactBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType3",
+          "pathLiteral": "object/ui/forge/tab_forgetype3.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype3.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "full-string-literal",
+          "activeControlFlowConfirmed": false,
+          "constantIndexPath": [
+            7
+          ],
+          "resolution": "exact-ui-path-present"
+        },
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop.children.refineDlg.children.AvatarForgeDlg.children.forgeType3",
+          "pathLiteral": "object/ui/forge/tab_forgetype3.img",
+          "canonicalPath": "object/ui/forge/tab_forgetype3.img",
+          "dynamicTemplate": false,
+          "occurrenceKind": "adjacent-literal-store",
+          "activeControlFlowConfirmed": false,
+          "propertyName": "hotcover",
+          "storeByteOffset": 35,
+          "literalRect": null,
+          "textOccurrence": "full-string-literal",
+          "resolution": "exact-ui-path-present"
+        }
+      ],
+      "frames": [
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype3-00.png",
+          "sha256": "f583cd7f2dcf91f70eccba508bc87a8d07427c12743c11442076ea17e2ecfac6",
+          "sourceFrame": {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 19,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 4332,
+            "encodedPixelSha256": "fc1596fc150c9f7ec8da0c2d8d93ca6b91714a0f36f809ea5a93992498cf07e1"
+          },
+          "decodedRgbaSha256": "efffb4fda03cfd9793f83cafd0470fa021d3d1de4b9d6e5fceb2e49d23aee0a6",
+          "decodedAlpha": {
+            "sha256": "575304991fd9f0b1e7bb85a0ad729bdd91c3b6094bae3ffa080eefefb4694a2f",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              19
+            ]
+          },
+          "empty": false
+        },
+        {
+          "file": "assets/native-client-ui/forge-controls-reference/source/forge__tab_forgetype3-01.png",
+          "sha256": "fa9029da2e3f37f833addd8450ed2f930694620258e6948c01c82891211f9eca",
+          "sourceFrame": {
+            "index": 1,
+            "offset": 4400,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 57,
+            "height": 29,
+            "unknownImageHeaderWord": 232,
+            "empty": false,
+            "pixelDataOffset": 4428,
+            "pixelByteLength": 6612,
+            "encodedPixelSha256": "fc627a4f6672b67b8ba416c0365bf103c2a88eca918e06308346220cb90949d4"
+          },
+          "decodedRgbaSha256": "f5988462fe2f105d304c65e0890a7ac53fad7b3e2b4f25eb1196f70e66a45c65",
+          "decodedAlpha": {
+            "sha256": "fd4ea2540c4926f2e9a9b59bcedadaee5171526aae1898195fad5fc7bd251783",
+            "extrema": [
+              0,
+              255
+            ],
+            "alpha8BBox": [
+              0,
+              0,
+              57,
+              28
+            ]
+          },
+          "empty": false
+        }
+      ]
+    }
+  ],
+  "sourceFramePositions": 52,
+  "sourceBoards": [
+    {
+      "file": "assets/native-client-ui/forge-controls-reference/source-all-states-1.png",
+      "sha256": "eef3b15d14644314ddfc80c8b6f048c3516869ed6f29d42ccdfa1cfc06cbb46c"
+    },
+    {
+      "file": "assets/native-client-ui/forge-controls-reference/source-all-states-2.png",
+      "sha256": "abc7dc047ac93f87075c3bc28fdef55f734247a95244b524c2f85d6dc0ebf1ce"
+    },
+    {
+      "file": "assets/native-client-ui/forge-controls-reference/source-all-states-3.png",
+      "sha256": "0fdcaec32027e72dc2ed703d3fa52ef19c6f5616319c36d706281f34ab277b54"
+    }
+  ],
+  "textColorSourceEvidence": {
+    "file": "assets/native-client-ui/forge-controls-reference/text-color-source-evidence.json",
+    "sha256": "bbf4f5b6816fb634e5703693195ccb8eb62658bf72a055e24536ed933d56ffb0"
+  },
+  "sourceAlphaObservation": {
+    "nativePath": "object/ui/forge/dlg_forgeconfirm.img",
+    "observation": "Original interior alpha visibly contains old sample confirmation glyphs, a button rectangle and close block; retain as reference, not as functional exterior mask",
+    "darkDiagnostic": {
+      "file": "assets/native-client-ui/forge-controls-reference/source-confirm-dark-diagnostic.png",
+      "sha256": "e07473954e683dc8cf8cdf6c17ba1020451eb35641ef3a5909fc7265e260a569"
+    },
+    "alphaDiagnostic": {
+      "file": "assets/native-client-ui/forge-controls-reference/source-confirm-alpha-diagnostic.png",
+      "sha256": "ceb476b817347eeac37663d4a39681edd651d83705e3f72754909f2ea2f67df0"
+    }
+  },
+  "providedDirectoryReadOrMutated": false,
+  "nativeProgramExecuted": false,
+  "visualAccepted": false,
+  "nativeRuntimeVerified": false
+}
