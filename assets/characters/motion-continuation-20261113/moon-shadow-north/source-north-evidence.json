@@ -1,0 +1,1633 @@
+{
+  "archive": {
+    "file": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "sha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7"
+  },
+  "playerIni": {
+    "member": "QQTang-Local/runtime/client-patched/object/player/player22.ini",
+    "sha256": "a1827a93658408e3a4ff1b8e640d1ce4865786854f2a9763e56287360e80d931",
+    "bytes": 285,
+    "walk": {
+      "hair": "12201",
+      "face": "12201",
+      "cloth": "12201",
+      "leg": "12201",
+      "head": "1",
+      "body": "1",
+      "foot": "2"
+    }
+  },
+  "sourceRoleMapping": {
+    "file": "assets/characters/motion-generated/roster-skin-mapping-20261028.json",
+    "sha256": "a2b7d28f77e677fa6207228585f35cc2f5b08f7b80ea72de290c1e308e62a53c"
+  },
+  "objectIdx": {
+    "member": "QQTang-Local/runtime/client-patched/data/object.idx",
+    "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+  },
+  "objectPkg": {
+    "member": "QQTang-Local/runtime/client-patched/data/object.pkg",
+    "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+  },
+  "sourceRoleId": 22,
+  "identityId": "moon-shadow",
+  "sourceDirectionGroupIndex": 1,
+  "direction": "N",
+  "declaredCanvas": [
+    100,
+    100
+  ],
+  "frameCount": 24,
+  "directions": 4,
+  "diagnosticLayerOrder": [
+    "body",
+    "foot",
+    "leg",
+    "cloth",
+    "face",
+    "hair"
+  ],
+  "nativeCompositeOrderConfirmed": false,
+  "headLayerMetadata": {
+    "member": "object/head/head1_walk.img",
+    "packageIndexEntry": {
+      "ordinal": 821,
+      "indexOffset": 41172,
+      "path": "object\\head\\head1_walk.img",
+      "reservedWord": 0,
+      "packageOffset": 10540802,
+      "rawByteLength": 82144,
+      "compressedByteLength": 8436
+    },
+    "compressedSha256": "a2046d9177de54137a9cc376bbf20d1b53d99cadd3bb3709f592fbcceb97996a",
+    "sourceDimgSha256": "f01a06f5b2f22c9124b690461ccdb8c0c61157473b40eb8ccb258c01c68971c8",
+    "version": 65536,
+    "pixelDecodePerformed": false
+  },
+  "sourceFrameDurationMs": null,
+  "nativeActorAnchor": null,
+  "positions": [
+    {
+      "frameIndex": 6,
+      "phaseIndex": 0,
+      "layers": [
+        {
+          "layer": "body",
+          "member": "object/body/body1_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 21,
+            "indexOffset": 1031,
+            "path": "object\\body\\body1_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 244353,
+            "rawByteLength": 22192,
+            "compressedByteLength": 3090
+          },
+          "compressedSha256": "a40a0fbd427c17fe46c0d460f1f82b92ac824b91a1a57f19cc3855f84ab40fcb",
+          "sourceDimgSha256": "dc08bafa610678c36d9f6302d25491d8cb9b43140a6ae8a8034d72d637a2b8e9",
+          "version": 65536,
+          "index": 6,
+          "offset": 4732,
+          "rawMarker": 0,
+          "frameOffset": [
+            37,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 26,
+          "height": 14,
+          "unknownImageHeaderWord": 56,
+          "empty": false,
+          "pixelDataOffset": 4760,
+          "pixelByteLength": 1092,
+          "encodedPixelSha256": "3b396ea889329fb41962f48130391ac339f5a7f4f871155aec03cabb675aafc5",
+          "decodedRgbaSha256": "89385ce85efe9dbd8a5aec277134c1f95dffa1d3e7edbec730baed7aad8a6403"
+        },
+        {
+          "layer": "foot",
+          "member": "object/foot/foot2_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 751,
+            "indexOffset": 37721,
+            "path": "object\\foot\\foot2_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10025178,
+            "rawByteLength": 10618,
+            "compressedByteLength": 1616
+          },
+          "compressedSha256": "fd8f0b1c59faf50f5761b6413f5d8d041190fe756c1be180d87374bf0f74cc09",
+          "sourceDimgSha256": "40489344fe9096c74744aea767a0003098ce3f6f1355be0dab399c8ecae8a8db",
+          "version": 65536,
+          "index": 6,
+          "offset": 2683,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            73
+          ],
+          "pixelMode": 3,
+          "width": 16,
+          "height": 8,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 2711,
+          "pixelByteLength": 384,
+          "encodedPixelSha256": "ff2a736993dd595d7242cb2ba9835835a0e1c8ef0e0c65e0d1b754507fe3005e",
+          "decodedRgbaSha256": "fe989f5cf8457b1af249a4a2eac82b002a77862446478eb1fa6e0fdbaaa771b6"
+        },
+        {
+          "layer": "leg",
+          "member": "object/leg/leg12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 1198,
+            "indexOffset": 59203,
+            "path": "object\\leg\\leg12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 11558917,
+            "rawByteLength": 8458,
+            "compressedByteLength": 877
+          },
+          "compressedSha256": "872a6daa67432402c459c8b368d4ebd72cebace53e5ed9074c178939bafa47d6",
+          "sourceDimgSha256": "c37114201fdb64e5d398d0ed464b2a9ab6c57e3dd76b0095d9c2f0cad38302df",
+          "version": 65536,
+          "index": 6,
+          "offset": 2437,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            77
+          ],
+          "pixelMode": 3,
+          "width": 16,
+          "height": 4,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 2465,
+          "pixelByteLength": 192,
+          "encodedPixelSha256": "7f73e355ca43efadb0a09da45fd11a6bab8c5d4040066157b82a6a69b2104a30",
+          "decodedRgbaSha256": "02149f7b179be86c39c3390ad88e7b38f715f9080aca94deba88ad4478c11c69"
+        },
+        {
+          "layer": "cloth",
+          "member": "object/cloth/cloth12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 503,
+            "indexOffset": 25330,
+            "path": "object\\cloth\\cloth12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 3871940,
+            "rawByteLength": 21904,
+            "compressedByteLength": 2723
+          },
+          "compressedSha256": "7d5e789ff8025022aa8a2b2ce6f89a96ee72da0aa5533b4cd12c4fc9f6eda8f5",
+          "sourceDimgSha256": "565b48a7cd52b893b5366d30a4c4d75a350ffea0ebcab6a62ae66d71d02d9f0b",
+          "version": 65536,
+          "index": 6,
+          "offset": 5068,
+          "rawMarker": 0,
+          "frameOffset": [
+            39,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 14,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 5096,
+          "pixelByteLength": 924,
+          "encodedPixelSha256": "1f5f8aa8ab4e1016c5e4f441ebe2314a701a064b7988c522a6bcb484e1800dd1",
+          "decodedRgbaSha256": "234ee6b44dda9acf4e02c6485d505535f55c66807916cda78c7efe57dac248df"
+        },
+        {
+          "layer": "face",
+          "member": "object/face/face12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 730,
+            "indexOffset": 36692,
+            "path": "object\\face\\face12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 9954658,
+            "rawByteLength": 80752,
+            "compressedByteLength": 9082
+          },
+          "compressedSha256": "7e62e1ed605b1f324a58344713927f2efde733d7f341f7dc44f5ea94002acc8b",
+          "sourceDimgSha256": "aaaf619a9fadbb79c7ced39eed6249e029ac9ec697ba9de87e8a9f3984e6ed96",
+          "version": 65536,
+          "index": 6,
+          "offset": 19216,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            28
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 34,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 19244,
+          "pixelByteLength": 3672,
+          "encodedPixelSha256": "67dbf982f11eeac4a46999413b89421c31d4443d3f1674e3de321c9a56d3c351",
+          "decodedRgbaSha256": "451e2b400e921eea27ff802f1a86fb99686086a1363409fe796e95815aba389a"
+        },
+        {
+          "layer": "hair",
+          "member": "object/hair/hair12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 818,
+            "indexOffset": 41029,
+            "path": "object\\hair\\hair12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10514765,
+            "rawByteLength": 99058,
+            "compressedByteLength": 10769
+          },
+          "compressedSha256": "508758f82d106c5d5e93791607bffa7fa230ee8a1b4c58cf039d060af0ae389c",
+          "sourceDimgSha256": "36d8a06bff36a19e6b3b03b0cdcc263add12188a58ee29ff2ef620a50411627b",
+          "version": 65536,
+          "index": 6,
+          "offset": 25405,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            24
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 38,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 25433,
+          "pixelByteLength": 4104,
+          "encodedPixelSha256": "ef7c240120866bf1a69e05ae6608dfecc779ce6595c7a2471fb215cc3ab05b72",
+          "decodedRgbaSha256": "be04f3074a0d9f056476c28c2b63cd98a60ab8f139e60f46fa3ff132a04a3358"
+        }
+      ],
+      "headLayer": {
+        "layer": "head",
+        "index": 6,
+        "offset": 19810,
+        "rawMarker": 0,
+        "frameOffset": [
+          32,
+          28
+        ],
+        "pixelMode": 3,
+        "width": 36,
+        "height": 34,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 19838,
+        "pixelByteLength": 3672,
+        "encodedPixelSha256": "8a329a4447ec7d85c53709e58362d036a4c90b3c9701553b7412edb29f1e3e93"
+      }
+    },
+    {
+      "frameIndex": 7,
+      "phaseIndex": 1,
+      "layers": [
+        {
+          "layer": "body",
+          "member": "object/body/body1_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 21,
+            "indexOffset": 1031,
+            "path": "object\\body\\body1_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 244353,
+            "rawByteLength": 22192,
+            "compressedByteLength": 3090
+          },
+          "compressedSha256": "a40a0fbd427c17fe46c0d460f1f82b92ac824b91a1a57f19cc3855f84ab40fcb",
+          "sourceDimgSha256": "dc08bafa610678c36d9f6302d25491d8cb9b43140a6ae8a8034d72d637a2b8e9",
+          "version": 65536,
+          "index": 7,
+          "offset": 5852,
+          "rawMarker": 0,
+          "frameOffset": [
+            37,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 26,
+          "height": 14,
+          "unknownImageHeaderWord": 56,
+          "empty": false,
+          "pixelDataOffset": 5880,
+          "pixelByteLength": 1092,
+          "encodedPixelSha256": "a64194a6282e4f41bfbf8ebaa39af211e86243c70018ba73349ccb48624b8455",
+          "decodedRgbaSha256": "9240f8026d29750c8a94cb73acb29e2f227aacc414191f0d6fb8a2277c24ca48"
+        },
+        {
+          "layer": "foot",
+          "member": "object/foot/foot2_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 751,
+            "indexOffset": 37721,
+            "path": "object\\foot\\foot2_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10025178,
+            "rawByteLength": 10618,
+            "compressedByteLength": 1616
+          },
+          "compressedSha256": "fd8f0b1c59faf50f5761b6413f5d8d041190fe756c1be180d87374bf0f74cc09",
+          "sourceDimgSha256": "40489344fe9096c74744aea767a0003098ce3f6f1355be0dab399c8ecae8a8db",
+          "version": 65536,
+          "index": 7,
+          "offset": 3095,
+          "rawMarker": 0,
+          "frameOffset": [
+            43,
+            73
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 9,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 3123,
+          "pixelByteLength": 405,
+          "encodedPixelSha256": "2ec38fbe81cccf64cbd6bedc0f3dfc5a93f7900a32f5fd685880bd2763dc921c",
+          "decodedRgbaSha256": "04842fea00b3d4a3ad84732d3214affde76c8b533567f83547c2f71572ca1428"
+        },
+        {
+          "layer": "leg",
+          "member": "object/leg/leg12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 1198,
+            "indexOffset": 59203,
+            "path": "object\\leg\\leg12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 11558917,
+            "rawByteLength": 8458,
+            "compressedByteLength": 877
+          },
+          "compressedSha256": "872a6daa67432402c459c8b368d4ebd72cebace53e5ed9074c178939bafa47d6",
+          "sourceDimgSha256": "c37114201fdb64e5d398d0ed464b2a9ab6c57e3dd76b0095d9c2f0cad38302df",
+          "version": 65536,
+          "index": 7,
+          "offset": 2657,
+          "rawMarker": 0,
+          "frameOffset": [
+            43,
+            75
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 7,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 2685,
+          "pixelByteLength": 315,
+          "encodedPixelSha256": "894567c095f79cf49aa9e4d6c5a394b4ff58a1f07e9aa1c2cd53fe39c129c098",
+          "decodedRgbaSha256": "3363cd5194a48419758ff7cfe8335397bcedd1d03ac43509b5db1b070e5a65a6"
+        },
+        {
+          "layer": "cloth",
+          "member": "object/cloth/cloth12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 503,
+            "indexOffset": 25330,
+            "path": "object\\cloth\\cloth12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 3871940,
+            "rawByteLength": 21904,
+            "compressedByteLength": 2723
+          },
+          "compressedSha256": "7d5e789ff8025022aa8a2b2ce6f89a96ee72da0aa5533b4cd12c4fc9f6eda8f5",
+          "sourceDimgSha256": "565b48a7cd52b893b5366d30a4c4d75a350ffea0ebcab6a62ae66d71d02d9f0b",
+          "version": 65536,
+          "index": 7,
+          "offset": 6020,
+          "rawMarker": 0,
+          "frameOffset": [
+            39,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 14,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 6048,
+          "pixelByteLength": 924,
+          "encodedPixelSha256": "6feb50aabee5a7bbb93a94e7dc24664fd7285deca05cf3664810c0f3ba6febdd",
+          "decodedRgbaSha256": "579dc05643c2f8483405031b13b4858ca0b54f455a2cacda95d6e7857bfab841"
+        },
+        {
+          "layer": "face",
+          "member": "object/face/face12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 730,
+            "indexOffset": 36692,
+            "path": "object\\face\\face12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 9954658,
+            "rawByteLength": 80752,
+            "compressedByteLength": 9082
+          },
+          "compressedSha256": "7e62e1ed605b1f324a58344713927f2efde733d7f341f7dc44f5ea94002acc8b",
+          "sourceDimgSha256": "aaaf619a9fadbb79c7ced39eed6249e029ac9ec697ba9de87e8a9f3984e6ed96",
+          "version": 65536,
+          "index": 7,
+          "offset": 22916,
+          "rawMarker": 0,
+          "frameOffset": [
+            33,
+            28
+          ],
+          "pixelMode": 3,
+          "width": 34,
+          "height": 34,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 22944,
+          "pixelByteLength": 3468,
+          "encodedPixelSha256": "b9b9a7b6597036eb3db22d91a95f68ee3f9b462066a7ce7562b20c2be2160849",
+          "decodedRgbaSha256": "6cdf72333a203f80dbf38c2e2bda32a4fa613774a67902e09ad02a9acc57e01c"
+        },
+        {
+          "layer": "hair",
+          "member": "object/hair/hair12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 818,
+            "indexOffset": 41029,
+            "path": "object\\hair\\hair12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10514765,
+            "rawByteLength": 99058,
+            "compressedByteLength": 10769
+          },
+          "compressedSha256": "508758f82d106c5d5e93791607bffa7fa230ee8a1b4c58cf039d060af0ae389c",
+          "sourceDimgSha256": "36d8a06bff36a19e6b3b03b0cdcc263add12188a58ee29ff2ef620a50411627b",
+          "version": 65536,
+          "index": 7,
+          "offset": 29537,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            24
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 38,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 29565,
+          "pixelByteLength": 4104,
+          "encodedPixelSha256": "2b782bab8e6a5f1abdbd44ce403d6bbe0a622f9ccb308f7d85de69751a42d352",
+          "decodedRgbaSha256": "19228e43115022a21d9863dfc7789213397a562d9fdff438bb50193e24c2a360"
+        }
+      ],
+      "headLayer": {
+        "layer": "head",
+        "index": 7,
+        "offset": 23510,
+        "rawMarker": 0,
+        "frameOffset": [
+          33,
+          28
+        ],
+        "pixelMode": 3,
+        "width": 34,
+        "height": 34,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 23538,
+        "pixelByteLength": 3468,
+        "encodedPixelSha256": "d7b227a8c2a2495cbcd80355d2f6377081550a6176b68040412edfb8fdb067a8"
+      }
+    },
+    {
+      "frameIndex": 8,
+      "phaseIndex": 2,
+      "layers": [
+        {
+          "layer": "body",
+          "member": "object/body/body1_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 21,
+            "indexOffset": 1031,
+            "path": "object\\body\\body1_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 244353,
+            "rawByteLength": 22192,
+            "compressedByteLength": 3090
+          },
+          "compressedSha256": "a40a0fbd427c17fe46c0d460f1f82b92ac824b91a1a57f19cc3855f84ab40fcb",
+          "sourceDimgSha256": "dc08bafa610678c36d9f6302d25491d8cb9b43140a6ae8a8034d72d637a2b8e9",
+          "version": 65536,
+          "index": 8,
+          "offset": 6972,
+          "rawMarker": 0,
+          "frameOffset": [
+            38,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 14,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 7000,
+          "pixelByteLength": 924,
+          "encodedPixelSha256": "578fc6413cbf373b78eeaeabb900e6c824aa1af760661777d51fc7445a80fcee",
+          "decodedRgbaSha256": "9198010e820a03d11263d983bc1b4c881c8c303d7fee2a192098bcd848ec1e9f"
+        },
+        {
+          "layer": "foot",
+          "member": "object/foot/foot2_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 751,
+            "indexOffset": 37721,
+            "path": "object\\foot\\foot2_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10025178,
+            "rawByteLength": 10618,
+            "compressedByteLength": 1616
+          },
+          "compressedSha256": "fd8f0b1c59faf50f5761b6413f5d8d041190fe756c1be180d87374bf0f74cc09",
+          "sourceDimgSha256": "40489344fe9096c74744aea767a0003098ce3f6f1355be0dab399c8ecae8a8db",
+          "version": 65536,
+          "index": 8,
+          "offset": 3528,
+          "rawMarker": 0,
+          "frameOffset": [
+            43,
+            73
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 10,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 3556,
+          "pixelByteLength": 450,
+          "encodedPixelSha256": "4c874e26cdb2edb263cf2a25d8bf285f8a6b14aa6e5ba1249bb0af7c675c3d41",
+          "decodedRgbaSha256": "7a79d3f227e0d983454486bca67c01f56e60cd76731d1df4e3bbe529913080ff"
+        },
+        {
+          "layer": "leg",
+          "member": "object/leg/leg12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 1198,
+            "indexOffset": 59203,
+            "path": "object\\leg\\leg12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 11558917,
+            "rawByteLength": 8458,
+            "compressedByteLength": 877
+          },
+          "compressedSha256": "872a6daa67432402c459c8b368d4ebd72cebace53e5ed9074c178939bafa47d6",
+          "sourceDimgSha256": "c37114201fdb64e5d398d0ed464b2a9ab6c57e3dd76b0095d9c2f0cad38302df",
+          "version": 65536,
+          "index": 8,
+          "offset": 3000,
+          "rawMarker": 0,
+          "frameOffset": [
+            43,
+            76
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 7,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 3028,
+          "pixelByteLength": 315,
+          "encodedPixelSha256": "af04a05cecf5353aca0f0dc51f9e28ca38e66f226ab1472a344dd0cbcbbc1263",
+          "decodedRgbaSha256": "3fca2671c4b602d86826be96a74646e878c2394c9eb951a6fb5da10db1054546"
+        },
+        {
+          "layer": "cloth",
+          "member": "object/cloth/cloth12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 503,
+            "indexOffset": 25330,
+            "path": "object\\cloth\\cloth12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 3871940,
+            "rawByteLength": 21904,
+            "compressedByteLength": 2723
+          },
+          "compressedSha256": "7d5e789ff8025022aa8a2b2ce6f89a96ee72da0aa5533b4cd12c4fc9f6eda8f5",
+          "sourceDimgSha256": "565b48a7cd52b893b5366d30a4c4d75a350ffea0ebcab6a62ae66d71d02d9f0b",
+          "version": 65536,
+          "index": 8,
+          "offset": 6972,
+          "rawMarker": 0,
+          "frameOffset": [
+            39,
+            60
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 15,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 7000,
+          "pixelByteLength": 990,
+          "encodedPixelSha256": "0f279f2a36f5554d5ed562cfcc270e54f46930b181cb29a035799ce0ee83046a",
+          "decodedRgbaSha256": "47e3ba878e55b98a6c9eda7404cd6874ca627a672ea40b86880362b1d82853fd"
+        },
+        {
+          "layer": "face",
+          "member": "object/face/face12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 730,
+            "indexOffset": 36692,
+            "path": "object\\face\\face12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 9954658,
+            "rawByteLength": 80752,
+            "compressedByteLength": 9082
+          },
+          "compressedSha256": "7e62e1ed605b1f324a58344713927f2efde733d7f341f7dc44f5ea94002acc8b",
+          "sourceDimgSha256": "aaaf619a9fadbb79c7ced39eed6249e029ac9ec697ba9de87e8a9f3984e6ed96",
+          "version": 65536,
+          "index": 8,
+          "offset": 26412,
+          "rawMarker": 0,
+          "frameOffset": [
+            34,
+            28
+          ],
+          "pixelMode": 3,
+          "width": 32,
+          "height": 34,
+          "unknownImageHeaderWord": 64,
+          "empty": false,
+          "pixelDataOffset": 26440,
+          "pixelByteLength": 3264,
+          "encodedPixelSha256": "22eb85134ccaf7cbb1d8b2a0b0967c9c66b712be6c26e4b8fdef0da2f3718e5c",
+          "decodedRgbaSha256": "300631e66d462e6286e96932d65ed486b0f57cb8677fa9b21afa48c6e363e28e"
+        },
+        {
+          "layer": "hair",
+          "member": "object/hair/hair12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 818,
+            "indexOffset": 41029,
+            "path": "object\\hair\\hair12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10514765,
+            "rawByteLength": 99058,
+            "compressedByteLength": 10769
+          },
+          "compressedSha256": "508758f82d106c5d5e93791607bffa7fa230ee8a1b4c58cf039d060af0ae389c",
+          "sourceDimgSha256": "36d8a06bff36a19e6b3b03b0cdcc263add12188a58ee29ff2ef620a50411627b",
+          "version": 65536,
+          "index": 8,
+          "offset": 33669,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            24
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 38,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 33697,
+          "pixelByteLength": 4104,
+          "encodedPixelSha256": "3a77e38b27e3339250cd0fa303ece57c29f182ea5a89b2e1babbce2002dcfd3c",
+          "decodedRgbaSha256": "b1ccb3e520175ccd2af2ed839417be16f818070d2b54d6f5e737b55814b743d3"
+        }
+      ],
+      "headLayer": {
+        "layer": "head",
+        "index": 8,
+        "offset": 27006,
+        "rawMarker": 0,
+        "frameOffset": [
+          34,
+          28
+        ],
+        "pixelMode": 3,
+        "width": 32,
+        "height": 34,
+        "unknownImageHeaderWord": 64,
+        "empty": false,
+        "pixelDataOffset": 27034,
+        "pixelByteLength": 3264,
+        "encodedPixelSha256": "e5c047843c59060b4c992001be8737f8e4587a61223ac2153144cb8fc66289c2"
+      }
+    },
+    {
+      "frameIndex": 9,
+      "phaseIndex": 3,
+      "layers": [
+        {
+          "layer": "body",
+          "member": "object/body/body1_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 21,
+            "indexOffset": 1031,
+            "path": "object\\body\\body1_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 244353,
+            "rawByteLength": 22192,
+            "compressedByteLength": 3090
+          },
+          "compressedSha256": "a40a0fbd427c17fe46c0d460f1f82b92ac824b91a1a57f19cc3855f84ab40fcb",
+          "sourceDimgSha256": "dc08bafa610678c36d9f6302d25491d8cb9b43140a6ae8a8034d72d637a2b8e9",
+          "version": 65536,
+          "index": 9,
+          "offset": 7924,
+          "rawMarker": 0,
+          "frameOffset": [
+            37,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 26,
+          "height": 14,
+          "unknownImageHeaderWord": 56,
+          "empty": false,
+          "pixelDataOffset": 7952,
+          "pixelByteLength": 1092,
+          "encodedPixelSha256": "3b396ea889329fb41962f48130391ac339f5a7f4f871155aec03cabb675aafc5",
+          "decodedRgbaSha256": "89385ce85efe9dbd8a5aec277134c1f95dffa1d3e7edbec730baed7aad8a6403"
+        },
+        {
+          "layer": "foot",
+          "member": "object/foot/foot2_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 751,
+            "indexOffset": 37721,
+            "path": "object\\foot\\foot2_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10025178,
+            "rawByteLength": 10618,
+            "compressedByteLength": 1616
+          },
+          "compressedSha256": "fd8f0b1c59faf50f5761b6413f5d8d041190fe756c1be180d87374bf0f74cc09",
+          "sourceDimgSha256": "40489344fe9096c74744aea767a0003098ce3f6f1355be0dab399c8ecae8a8db",
+          "version": 65536,
+          "index": 9,
+          "offset": 4006,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            73
+          ],
+          "pixelMode": 3,
+          "width": 16,
+          "height": 8,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 4034,
+          "pixelByteLength": 384,
+          "encodedPixelSha256": "ff2a736993dd595d7242cb2ba9835835a0e1c8ef0e0c65e0d1b754507fe3005e",
+          "decodedRgbaSha256": "fe989f5cf8457b1af249a4a2eac82b002a77862446478eb1fa6e0fdbaaa771b6"
+        },
+        {
+          "layer": "leg",
+          "member": "object/leg/leg12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 1198,
+            "indexOffset": 59203,
+            "path": "object\\leg\\leg12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 11558917,
+            "rawByteLength": 8458,
+            "compressedByteLength": 877
+          },
+          "compressedSha256": "872a6daa67432402c459c8b368d4ebd72cebace53e5ed9074c178939bafa47d6",
+          "sourceDimgSha256": "c37114201fdb64e5d398d0ed464b2a9ab6c57e3dd76b0095d9c2f0cad38302df",
+          "version": 65536,
+          "index": 9,
+          "offset": 3343,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            77
+          ],
+          "pixelMode": 3,
+          "width": 16,
+          "height": 4,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 3371,
+          "pixelByteLength": 192,
+          "encodedPixelSha256": "7f73e355ca43efadb0a09da45fd11a6bab8c5d4040066157b82a6a69b2104a30",
+          "decodedRgbaSha256": "02149f7b179be86c39c3390ad88e7b38f715f9080aca94deba88ad4478c11c69"
+        },
+        {
+          "layer": "cloth",
+          "member": "object/cloth/cloth12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 503,
+            "indexOffset": 25330,
+            "path": "object\\cloth\\cloth12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 3871940,
+            "rawByteLength": 21904,
+            "compressedByteLength": 2723
+          },
+          "compressedSha256": "7d5e789ff8025022aa8a2b2ce6f89a96ee72da0aa5533b4cd12c4fc9f6eda8f5",
+          "sourceDimgSha256": "565b48a7cd52b893b5366d30a4c4d75a350ffea0ebcab6a62ae66d71d02d9f0b",
+          "version": 65536,
+          "index": 9,
+          "offset": 7990,
+          "rawMarker": 0,
+          "frameOffset": [
+            39,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 14,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 8018,
+          "pixelByteLength": 924,
+          "encodedPixelSha256": "1f5f8aa8ab4e1016c5e4f441ebe2314a701a064b7988c522a6bcb484e1800dd1",
+          "decodedRgbaSha256": "234ee6b44dda9acf4e02c6485d505535f55c66807916cda78c7efe57dac248df"
+        },
+        {
+          "layer": "face",
+          "member": "object/face/face12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 730,
+            "indexOffset": 36692,
+            "path": "object\\face\\face12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 9954658,
+            "rawByteLength": 80752,
+            "compressedByteLength": 9082
+          },
+          "compressedSha256": "7e62e1ed605b1f324a58344713927f2efde733d7f341f7dc44f5ea94002acc8b",
+          "sourceDimgSha256": "aaaf619a9fadbb79c7ced39eed6249e029ac9ec697ba9de87e8a9f3984e6ed96",
+          "version": 65536,
+          "index": 9,
+          "offset": 29704,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            28
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 34,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 29732,
+          "pixelByteLength": 3672,
+          "encodedPixelSha256": "67dbf982f11eeac4a46999413b89421c31d4443d3f1674e3de321c9a56d3c351",
+          "decodedRgbaSha256": "451e2b400e921eea27ff802f1a86fb99686086a1363409fe796e95815aba389a"
+        },
+        {
+          "layer": "hair",
+          "member": "object/hair/hair12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 818,
+            "indexOffset": 41029,
+            "path": "object\\hair\\hair12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10514765,
+            "rawByteLength": 99058,
+            "compressedByteLength": 10769
+          },
+          "compressedSha256": "508758f82d106c5d5e93791607bffa7fa230ee8a1b4c58cf039d060af0ae389c",
+          "sourceDimgSha256": "36d8a06bff36a19e6b3b03b0cdcc263add12188a58ee29ff2ef620a50411627b",
+          "version": 65536,
+          "index": 9,
+          "offset": 37801,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            24
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 38,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 37829,
+          "pixelByteLength": 4104,
+          "encodedPixelSha256": "ef7c240120866bf1a69e05ae6608dfecc779ce6595c7a2471fb215cc3ab05b72",
+          "decodedRgbaSha256": "be04f3074a0d9f056476c28c2b63cd98a60ab8f139e60f46fa3ff132a04a3358"
+        }
+      ],
+      "headLayer": {
+        "layer": "head",
+        "index": 9,
+        "offset": 30298,
+        "rawMarker": 0,
+        "frameOffset": [
+          32,
+          28
+        ],
+        "pixelMode": 3,
+        "width": 36,
+        "height": 34,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 30326,
+        "pixelByteLength": 3672,
+        "encodedPixelSha256": "8a329a4447ec7d85c53709e58362d036a4c90b3c9701553b7412edb29f1e3e93"
+      }
+    },
+    {
+      "frameIndex": 10,
+      "phaseIndex": 4,
+      "layers": [
+        {
+          "layer": "body",
+          "member": "object/body/body1_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 21,
+            "indexOffset": 1031,
+            "path": "object\\body\\body1_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 244353,
+            "rawByteLength": 22192,
+            "compressedByteLength": 3090
+          },
+          "compressedSha256": "a40a0fbd427c17fe46c0d460f1f82b92ac824b91a1a57f19cc3855f84ab40fcb",
+          "sourceDimgSha256": "dc08bafa610678c36d9f6302d25491d8cb9b43140a6ae8a8034d72d637a2b8e9",
+          "version": 65536,
+          "index": 10,
+          "offset": 9044,
+          "rawMarker": 0,
+          "frameOffset": [
+            37,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 26,
+          "height": 14,
+          "unknownImageHeaderWord": 56,
+          "empty": false,
+          "pixelDataOffset": 9072,
+          "pixelByteLength": 1092,
+          "encodedPixelSha256": "a537ac75a757de96cb30677ec670fd65dc0e1760c691006d63ce3ca28714d677",
+          "decodedRgbaSha256": "1c65575115caab205fbe406d11c685b07706ce5ef80d7c4b41eb8d24b0efb0e2"
+        },
+        {
+          "layer": "foot",
+          "member": "object/foot/foot2_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 751,
+            "indexOffset": 37721,
+            "path": "object\\foot\\foot2_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10025178,
+            "rawByteLength": 10618,
+            "compressedByteLength": 1616
+          },
+          "compressedSha256": "fd8f0b1c59faf50f5761b6413f5d8d041190fe756c1be180d87374bf0f74cc09",
+          "sourceDimgSha256": "40489344fe9096c74744aea767a0003098ce3f6f1355be0dab399c8ecae8a8db",
+          "version": 65536,
+          "index": 10,
+          "offset": 4418,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            73
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 9,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 4446,
+          "pixelByteLength": 405,
+          "encodedPixelSha256": "2e65f4da3ca887a8bc09c4946090091cfe78a7e79c6c7e70aa5f2e5e008eb531",
+          "decodedRgbaSha256": "841cffe694d18f821ba0a303d72ad75077da435881d42dc50080219b06142aa4"
+        },
+        {
+          "layer": "leg",
+          "member": "object/leg/leg12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 1198,
+            "indexOffset": 59203,
+            "path": "object\\leg\\leg12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 11558917,
+            "rawByteLength": 8458,
+            "compressedByteLength": 877
+          },
+          "compressedSha256": "872a6daa67432402c459c8b368d4ebd72cebace53e5ed9074c178939bafa47d6",
+          "sourceDimgSha256": "c37114201fdb64e5d398d0ed464b2a9ab6c57e3dd76b0095d9c2f0cad38302df",
+          "version": 65536,
+          "index": 10,
+          "offset": 3563,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            75
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 7,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 3591,
+          "pixelByteLength": 315,
+          "encodedPixelSha256": "3e00682e749758d64abbb3d52ba151261edc6ba529dc631ef17c350b11b4fa1b",
+          "decodedRgbaSha256": "a435a0830a34a16d5228b5408dfbac42a40ee51e5d01749f014403d1e4f638a9"
+        },
+        {
+          "layer": "cloth",
+          "member": "object/cloth/cloth12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 503,
+            "indexOffset": 25330,
+            "path": "object\\cloth\\cloth12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 3871940,
+            "rawByteLength": 21904,
+            "compressedByteLength": 2723
+          },
+          "compressedSha256": "7d5e789ff8025022aa8a2b2ce6f89a96ee72da0aa5533b4cd12c4fc9f6eda8f5",
+          "sourceDimgSha256": "565b48a7cd52b893b5366d30a4c4d75a350ffea0ebcab6a62ae66d71d02d9f0b",
+          "version": 65536,
+          "index": 10,
+          "offset": 8942,
+          "rawMarker": 0,
+          "frameOffset": [
+            39,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 14,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 8970,
+          "pixelByteLength": 924,
+          "encodedPixelSha256": "dc65007ef9180e33b2578b16488842bb8f9de1a952279b357fab74f942ba0dfe",
+          "decodedRgbaSha256": "b5af6f163fcb5c58b8b268bbb70f15c23d912656df9b17f24cd68ca4157bf4b9"
+        },
+        {
+          "layer": "face",
+          "member": "object/face/face12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 730,
+            "indexOffset": 36692,
+            "path": "object\\face\\face12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 9954658,
+            "rawByteLength": 80752,
+            "compressedByteLength": 9082
+          },
+          "compressedSha256": "7e62e1ed605b1f324a58344713927f2efde733d7f341f7dc44f5ea94002acc8b",
+          "sourceDimgSha256": "aaaf619a9fadbb79c7ced39eed6249e029ac9ec697ba9de87e8a9f3984e6ed96",
+          "version": 65536,
+          "index": 10,
+          "offset": 33404,
+          "rawMarker": 0,
+          "frameOffset": [
+            33,
+            28
+          ],
+          "pixelMode": 3,
+          "width": 34,
+          "height": 34,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 33432,
+          "pixelByteLength": 3468,
+          "encodedPixelSha256": "c83702aed28867668b2969f4165b6f9c541186aa22a8cc8106d7774e33e76379",
+          "decodedRgbaSha256": "fb93f324e76c2725fff842bc874d614438e397be9a6f07698cfd16f4d5dedfaa"
+        },
+        {
+          "layer": "hair",
+          "member": "object/hair/hair12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 818,
+            "indexOffset": 41029,
+            "path": "object\\hair\\hair12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10514765,
+            "rawByteLength": 99058,
+            "compressedByteLength": 10769
+          },
+          "compressedSha256": "508758f82d106c5d5e93791607bffa7fa230ee8a1b4c58cf039d060af0ae389c",
+          "sourceDimgSha256": "36d8a06bff36a19e6b3b03b0cdcc263add12188a58ee29ff2ef620a50411627b",
+          "version": 65536,
+          "index": 10,
+          "offset": 41933,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            24
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 38,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 41961,
+          "pixelByteLength": 4104,
+          "encodedPixelSha256": "e122add941fc730322b4b3a2f8b55c63c9295b33d7ad34bcf4281e3cb8d5d5ca",
+          "decodedRgbaSha256": "b74d4243b30ca6e13a70944664d6780386e1250b2a7b25b283bb4e24631db7cd"
+        }
+      ],
+      "headLayer": {
+        "layer": "head",
+        "index": 10,
+        "offset": 33998,
+        "rawMarker": 0,
+        "frameOffset": [
+          32,
+          28
+        ],
+        "pixelMode": 3,
+        "width": 35,
+        "height": 34,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 34026,
+        "pixelByteLength": 3570,
+        "encodedPixelSha256": "ac58144ca3c5faf430e87142cb3e362bb06517da0621190da3fd8fc5bb6085ce"
+      }
+    },
+    {
+      "frameIndex": 11,
+      "phaseIndex": 5,
+      "layers": [
+        {
+          "layer": "body",
+          "member": "object/body/body1_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 21,
+            "indexOffset": 1031,
+            "path": "object\\body\\body1_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 244353,
+            "rawByteLength": 22192,
+            "compressedByteLength": 3090
+          },
+          "compressedSha256": "a40a0fbd427c17fe46c0d460f1f82b92ac824b91a1a57f19cc3855f84ab40fcb",
+          "sourceDimgSha256": "dc08bafa610678c36d9f6302d25491d8cb9b43140a6ae8a8034d72d637a2b8e9",
+          "version": 65536,
+          "index": 11,
+          "offset": 10164,
+          "rawMarker": 0,
+          "frameOffset": [
+            40,
+            61
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 14,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 10192,
+          "pixelByteLength": 924,
+          "encodedPixelSha256": "67cd75fb1970fac4dc8103cc33a138ff1ff7968b97c9c844e42f3f29e827dd66",
+          "decodedRgbaSha256": "bc207d9cbcc9c159deb0ea5da4833c9ac6f6ce452d435df651f5b70af1b70f68"
+        },
+        {
+          "layer": "foot",
+          "member": "object/foot/foot2_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 751,
+            "indexOffset": 37721,
+            "path": "object\\foot\\foot2_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10025178,
+            "rawByteLength": 10618,
+            "compressedByteLength": 1616
+          },
+          "compressedSha256": "fd8f0b1c59faf50f5761b6413f5d8d041190fe756c1be180d87374bf0f74cc09",
+          "sourceDimgSha256": "40489344fe9096c74744aea767a0003098ce3f6f1355be0dab399c8ecae8a8db",
+          "version": 65536,
+          "index": 11,
+          "offset": 4851,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            73
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 10,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 4879,
+          "pixelByteLength": 450,
+          "encodedPixelSha256": "6f681b58d8388f702c447865cbad722ba5ee8b66c9168e2858af15f522e17d62",
+          "decodedRgbaSha256": "8c01527af218fa7ac7f2d89df693537e63a34878709ee27b69e120824ec7507f"
+        },
+        {
+          "layer": "leg",
+          "member": "object/leg/leg12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 1198,
+            "indexOffset": 59203,
+            "path": "object\\leg\\leg12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 11558917,
+            "rawByteLength": 8458,
+            "compressedByteLength": 877
+          },
+          "compressedSha256": "872a6daa67432402c459c8b368d4ebd72cebace53e5ed9074c178939bafa47d6",
+          "sourceDimgSha256": "c37114201fdb64e5d398d0ed464b2a9ab6c57e3dd76b0095d9c2f0cad38302df",
+          "version": 65536,
+          "index": 11,
+          "offset": 3906,
+          "rawMarker": 0,
+          "frameOffset": [
+            42,
+            76
+          ],
+          "pixelMode": 3,
+          "width": 15,
+          "height": 7,
+          "unknownImageHeaderWord": 32,
+          "empty": false,
+          "pixelDataOffset": 3934,
+          "pixelByteLength": 315,
+          "encodedPixelSha256": "ba461ee7920614c0e39882af699d5d9496e35f4262f07bc1416e4a48032345e3",
+          "decodedRgbaSha256": "1b1ad459ebced22897b124537bc5b125e0472973957305eb51a17ee00593679f"
+        },
+        {
+          "layer": "cloth",
+          "member": "object/cloth/cloth12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 503,
+            "indexOffset": 25330,
+            "path": "object\\cloth\\cloth12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 3871940,
+            "rawByteLength": 21904,
+            "compressedByteLength": 2723
+          },
+          "compressedSha256": "7d5e789ff8025022aa8a2b2ce6f89a96ee72da0aa5533b4cd12c4fc9f6eda8f5",
+          "sourceDimgSha256": "565b48a7cd52b893b5366d30a4c4d75a350ffea0ebcab6a62ae66d71d02d9f0b",
+          "version": 65536,
+          "index": 11,
+          "offset": 9894,
+          "rawMarker": 0,
+          "frameOffset": [
+            39,
+            60
+          ],
+          "pixelMode": 3,
+          "width": 22,
+          "height": 15,
+          "unknownImageHeaderWord": 48,
+          "empty": false,
+          "pixelDataOffset": 9922,
+          "pixelByteLength": 990,
+          "encodedPixelSha256": "d52d37d65eaa9c625f672bbcf5911330f5eb2d2c1f960bcf2b959b022c3c871b",
+          "decodedRgbaSha256": "dd450e50e57872db4df3646e2064fdcb57e9a468d03048e5f0a2ac6f964e0ccf"
+        },
+        {
+          "layer": "face",
+          "member": "object/face/face12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 730,
+            "indexOffset": 36692,
+            "path": "object\\face\\face12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 9954658,
+            "rawByteLength": 80752,
+            "compressedByteLength": 9082
+          },
+          "compressedSha256": "7e62e1ed605b1f324a58344713927f2efde733d7f341f7dc44f5ea94002acc8b",
+          "sourceDimgSha256": "aaaf619a9fadbb79c7ced39eed6249e029ac9ec697ba9de87e8a9f3984e6ed96",
+          "version": 65536,
+          "index": 11,
+          "offset": 36900,
+          "rawMarker": 0,
+          "frameOffset": [
+            34,
+            28
+          ],
+          "pixelMode": 3,
+          "width": 32,
+          "height": 34,
+          "unknownImageHeaderWord": 64,
+          "empty": false,
+          "pixelDataOffset": 36928,
+          "pixelByteLength": 3264,
+          "encodedPixelSha256": "3bce5f14f56d6e05ed9be7fbd01b1803573f0776c58908184a597af36f7331da",
+          "decodedRgbaSha256": "0212db57aeb19ef90849a8ee5366c54b2d3811928efd0ffd95b2ff90901d7ea7"
+        },
+        {
+          "layer": "hair",
+          "member": "object/hair/hair12201_walk.img",
+          "packageIndexEntry": {
+            "ordinal": 818,
+            "indexOffset": 41029,
+            "path": "object\\hair\\hair12201_walk.img",
+            "reservedWord": 0,
+            "packageOffset": 10514765,
+            "rawByteLength": 99058,
+            "compressedByteLength": 10769
+          },
+          "compressedSha256": "508758f82d106c5d5e93791607bffa7fa230ee8a1b4c58cf039d060af0ae389c",
+          "sourceDimgSha256": "36d8a06bff36a19e6b3b03b0cdcc263add12188a58ee29ff2ef620a50411627b",
+          "version": 65536,
+          "index": 11,
+          "offset": 46065,
+          "rawMarker": 0,
+          "frameOffset": [
+            32,
+            24
+          ],
+          "pixelMode": 3,
+          "width": 36,
+          "height": 38,
+          "unknownImageHeaderWord": 72,
+          "empty": false,
+          "pixelDataOffset": 46093,
+          "pixelByteLength": 4104,
+          "encodedPixelSha256": "5b90f69f6dbe5585e1bc435131d02eeab97ef24589bd40b9a75a74661935205e",
+          "decodedRgbaSha256": "fec2f8d6d5c7c844d3afcdd175b3b211fa50f0d211d9aa0616f37322be3c0481"
+        }
+      ],
+      "headLayer": {
+        "layer": "head",
+        "index": 11,
+        "offset": 37596,
+        "rawMarker": 0,
+        "frameOffset": [
+          33,
+          28
+        ],
+        "pixelMode": 3,
+        "width": 33,
+        "height": 34,
+        "unknownImageHeaderWord": 72,
+        "empty": false,
+        "pixelDataOffset": 37624,
+        "pixelByteLength": 3366,
+        "encodedPixelSha256": "fa437f1a607e4ea173832f5ab52d14671a3eeba83877ee5655db1580dde5c51e"
+      }
+    }
+  ],
+  "phaseBoard": {
+    "file": "assets/characters/motion-continuation-20261113/moon-shadow-north/source-north-six-phases.png",
+    "sha256": "a0d973ed18be82f0e2ba3a81bb1614a5111dc2104686d432e7d26617a9f1a9d6"
+  },
+  "lowerBodyBoard": {
+    "file": "assets/characters/motion-continuation-20261113/moon-shadow-north/source-north-lower-body.png",
+    "sha256": "df806510b18e49cf7d813f35f25844889413f158b3cea7c71618e9010fce2d00"
+  },
+  "directionEvidence": {
+    "file": "assets/characters/motion-continuation-20261112/moon-shadow-east/source-face-groups.png",
+    "sha256": "f02e124077e5ba70a2dc4255e312ce570783af70d2dfca9ba2de882bb4924ac5"
+  },
+  "encodedLayerPairComparisons": {
+    "comparedFields": [
+      "width",
+      "height",
+      "frameOffset",
+      "pixelMode",
+      "empty",
+      "encodedPixelSha256"
+    ],
+    "pairs": [
+      {
+        "sourceFrameIndices": [
+          6,
+          7
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          6,
+          8
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          6,
+          9
+        ],
+        "sameByLayer": {
+          "body": true,
+          "foot": true,
+          "leg": true,
+          "cloth": true,
+          "face": true,
+          "hair": true,
+          "head": true
+        },
+        "sevenDeclaredLayersEqual": true
+      },
+      {
+        "sourceFrameIndices": [
+          6,
+          10
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          6,
+          11
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          7,
+          8
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          7,
+          9
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          7,
+          10
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          7,
+          11
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          8,
+          9
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          8,
+          10
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          8,
+          11
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          9,
+          10
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          9,
+          11
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      },
+      {
+        "sourceFrameIndices": [
+          10,
+          11
+        ],
+        "sameByLayer": {
+          "body": false,
+          "foot": false,
+          "leg": false,
+          "cloth": false,
+          "face": false,
+          "hair": false,
+          "head": false
+        },
+        "sevenDeclaredLayersEqual": false
+      }
+    ],
+    "sourcePlaybackReuseConfirmed": false
+  },
+  "referenceOnly": true
+}

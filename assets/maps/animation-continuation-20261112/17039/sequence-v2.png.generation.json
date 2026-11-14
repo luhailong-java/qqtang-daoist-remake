@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/maps/animation-continuation-20261112/17039/sequence-v2.png",
+  "sha256": "1bceb72f1d6836f7e21f3169d5aadfc241d3630ed0d915f9327139a2d275419d",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "actualModel": null,
+  "actualQuality": null,
+  "config": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "references": [
+    {
+      "file": "assets/maps/animation-continuation-20261112/17039/source-phase-board.png",
+      "sha256": "f4adac62e4f9eadce77fc1a639bb350949033a3ed5534a6f07e9f06b455c0cc0",
+      "role": "Source phase board"
+    },
+    {
+      "file": "assets/maps/common/pieces/17039-cyan-cauldron.png",
+      "sha256": "47a45123a29d3c6690e9f0c92061fc17061bacce4b6e56dc2cbaf1219101caf3",
+      "role": "Existing original identity"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q art finish"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q art finish"
+    }
+  ],
+  "promptFile": "assets/maps/animation-continuation-20261112/17039/prompt-v2.txt",
+  "promptSha256": "8634513f44b005585feabb29fe70ceeaa3b451d47704d195cfadb71ee9b2c30a",
+  "exactSubmittedInput": {
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17039/source-phase-board.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17039-cyan-cauldron.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "prompt": "Draw ONE ORIGINAL DAOIST Q game sprite atlas for map prop 17039. EXACT landscape aspect 3:2, exactly 3 columns and 2 rows of equal square cells on genuine transparent alpha, ideally 1536×1024. Image 1 is actual source phase board: match its exact reading order, placement and mechanics. Image 2 is our original game prop sprite with correct design; keep its material, color and cute ornamental silhouette. Images 3 and 4 show our softly hand-painted Daoist Q finish, decorative motifs and colors. Paint the same broad low sea-green enamel Daoist alchemy cauldron, two identical curled handles, gold-lined open elliptical rim, short feet and original blue-gold cloud panels, visible side-on with view into the liquid. All six cauldron bodies have precisely the same bowl, handles, rim height and feet, resting at the same baseline, same size. The only motion is the short diagonal amber wooden stirrer in the bright cyan liquid, its ripples and a few cyan bubble highlights. Every position contains exactly one stirrer, oriented from lower left to upper right with round golden cut end. TOP ROW left to right: 0 raised at upper right of center, 1 middle right, 2 lower right near front rim. BOTTOM ROW left to right: 3 forward and just left of center, 4 middle left, 5 raised back near upper center. Position the stirrer tip exactly like these six source poses. Keep the top of the liquid in a broad simple elliptical opening. No excess decoration or strong glow outside the bowl. In each active square cell, isolate one complete prop on alpha. Keep the object exactly in register on its own shared baseline 80% down each cell. Entire figure and effects stay within the middle 80% of each cell, with at least 38 px transparent gutter on all sides at requested resolution. Do not write words, numbers or registration marks, do not paint the backdrop, checkerboard, floor, drop shadow, exterior panels, sheets with borders, or add extra props. The outside of the figure is true transparent and edges should stay clean. Designed to read at low resolution."
+  },
+  "callRecord": {
+    "file": "assets/maps/animation-continuation-20261112/17039/builtin-submission-v2.json",
+    "sha256": "65517ab692ff4f69aeda258fbe33f463979276b80203379b5b96d219cc5f44e1",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-4af9f09e-479b-4a2e-852b-7db5977bd74d.png",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-4af9f09e-479b-4a2e-852b-7db5977bd74d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "imageDataOmitted": true,
+    "localAtlasSha256": "1bceb72f1d6836f7e21f3169d5aadfc241d3630ed0d915f9327139a2d275419d"
+  },
+  "accepted": false,
+  "visualAccepted": false,
+  "geometryAccepted": false,
+  "stateCorrespondenceAccepted": false,
+  "seamlessVerified": false,
+  "runtimeIntegrated": false
+}

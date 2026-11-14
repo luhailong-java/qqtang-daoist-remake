@@ -47,7 +47,7 @@ function selectedCandidates(runtime) {
   return [...['capacity', 'range', 'speed'].map(type => runtime.pickupDescriptor({type})),
     ...['needle', 'shield', 'bun'].map(slot => runtime.propDescriptor(slot)),
     runtime.monsterDescriptor({boss: false}, game).asset, runtime.monsterDescriptor({boss: true}, game).asset,
-    runtime.bubbleDescriptor(), runtime.blastDescriptor(), runtime.heldShieldDescriptor()];
+    runtime.bubbleDescriptor(), runtime.blastDescriptor(), runtime.heldShieldDescriptor(), ...runtime.rescueDescriptors()];
 }
 
 test('capacity, range and speed use separate scene-factory paintings, without inventory-ID confusion', async () => {
@@ -81,7 +81,7 @@ test('synthetic normal/Boss appearances remain distinct from exact native entity
 test('currently used paintings have exact PNG hashes, dimensions and a present generation/provenance chain', async () => {
   const {runtime} = fixture(); await runtime.load();
   const selected = selectedCandidates(runtime);
-  assert.equal(new Set(selected.map(entry => entry.file)).size, 11);
+  assert.equal(new Set(selected.map(entry => entry.file)).size, 13);
   for (const entry of selected) {
     const bytes = await readFile(rootFile(entry.file));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), entry.sha256);
@@ -123,6 +123,21 @@ test('shield painting follows only the live held flag, separately from the picku
   assert.equal(render({...player, shield: false, invulnerableUntil: 1000}), false);
   assert.deepEqual(draws, ['./' + runtime.heldShieldDescriptor().file]);
   assert.notEqual(runtime.heldShieldDescriptor().file, runtime.pickupDescriptor({type: 'shield'}).file);
+});
+
+test('rescue cue restores alpha and does not draw a partial pair or expired event', async () => {
+  const {runtime} = fixture(); await runtime.preloadDefaults();
+  const calls = [];
+  const ctx = {globalAlpha: 0.8, save() { this.previous = this.globalAlpha; },
+    restore() { this.globalAlpha = this.previous; }, drawImage(image) { calls.push([image.src, this.globalAlpha]); }};
+  assert.equal(runtime.drawRescueCue(ctx, -1, 32, 52), false);
+  assert.equal(runtime.drawRescueCue(ctx, 320, 32, 52), false);
+  assert.equal(runtime.drawRescueCue(ctx, 240, 32, 52), true);
+  assert.equal(ctx.globalAlpha, 0.8);
+  assert.deepEqual(calls, runtime.rescueDescriptors().reverse().map(entry => ['./' + entry.file, 0.4]));
+  const missing = fixture({rejectImage: runtime.rescueDescriptors()[0].file}).runtime;
+  await missing.preloadDefaults();
+  assert.equal(missing.drawRescueCue({drawImage() { assert.fail('Partial rescue art'); }}, 0, 32, 52), false);
 });
 
 test('unavailable/not-decoded art returns false for the existing caller fallback, with one decode attempt', async () => {

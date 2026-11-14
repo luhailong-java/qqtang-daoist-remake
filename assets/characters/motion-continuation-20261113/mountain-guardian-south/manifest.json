@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "characterId": "mountain-guardian",
+  "sourceRoleId": 1,
+  "direction": "S",
+  "sourceDirectionGroupIndex": 3,
+  "sourceFrameOrder": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "sourceDeclaredCanvas": [
+    100,
+    100
+  ],
+  "sourceEvidence": {
+    "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/source-south-evidence.json",
+    "sha256": "8604eb11f59dc746493f49a22c49e968e7ca4aee2548b81fe5bc61c259f6024d"
+  },
+  "sourceFrameDurationMs": null,
+  "originalLoop": null,
+  "nativeActorAnchor": null,
+  "frames": [],
+  "generatedMothers": [
+    {
+      "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/mother-a-v1.png",
+      "sha256": "54ad1bad3765a31685b41a20cb0c5168144d960c126670fd939f8e7a576ef9ed",
+      "generationRecord": {
+        "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/mother-a-v1.png.generation.json",
+        "sha256": "261e27c375489983c2d87274b9b226e0c7207ceb04e84c66c9d53ea52464f168"
+      },
+      "width": 2172,
+      "height": 724,
+      "alphaExtrema": [
+        163,
+        251
+      ],
+      "alpha8BBox": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "technicalAccepted": false,
+      "technicalFailure": "Nontransparent white background with alpha above 8 over the entire native canvas",
+      "spriteFramesExported": 0
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/mother-b-v1.png",
+      "sha256": "4e5a76ab1b2a63d6b730b6cce3e42f07b270504665d5403dc3e7a067ee619ec8",
+      "generationRecord": {
+        "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/mother-b-v1.png.generation.json",
+        "sha256": "ebabebc29cf47eeb9a6ccd381f3e433a81e89cf38560718de032a36134de31f5"
+      },
+      "width": 2172,
+      "height": 724,
+      "alphaExtrema": [
+        166,
+        251
+      ],
+      "alpha8BBox": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "technicalAccepted": false,
+      "technicalFailure": "Nontransparent white background with alpha above 8 over the entire native canvas",
+      "spriteFramesExported": 0
+    }
+  ],
+  "technicalStatus": "failed_alpha_background",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false,
+  "motionContinuityConfirmed": false,
+  "userReviewStatus": "pending",
+  "reasonNoExport": "Native outputs lack transparent pixels. Both backgrounds cover every crop boundary."
+}

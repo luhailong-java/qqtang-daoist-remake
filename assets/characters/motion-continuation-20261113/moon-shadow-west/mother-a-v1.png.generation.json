@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261113/moon-shadow-west/mother-a-v1.png",
+  "sha256": "5471a0bb6e8757bcb891be741032177d18edb03a676d4342caf5cca063a78528",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Use case: original mobile game sprite. Draw Moon Shadow, our chibi Daoist swordswoman, as exactly THREE transparent walking key poses in one horizontal PNG. Equal square cells with clean transparent gutters and no text or floors. Reference 1 is the exact existing character and view; reference 2 is the native action position/order, reference 3 magnifies native legs and arms. Use references 2 and 3 for action anatomy only. References 4 and 5 set the original hand-painted Chinese Daoist Q finish only. Render silver bob hair, navy and gold hairflower, navy scarf, ivory sleeves, navy coat with brushed gold embroidered moon/cloud motifs, dark blue cuffed trousers, gold-striped navy boots and ONE silver crescent blade held firmly in EACH hand, blades distinct and separated. Preserve exact costume, face or back-of-head and camera across all three panels. Short same-scale body, same head and belt height and consistent proportions. This is a compact steady walk. Arms move slightly and each blade follows its own hand. No leaps, high knees, lunges, oversized feet, detached weapons, shadows, captions, panel lines, backdrop, glow or checkerboard. Actual transparent background, 12% horizontal clear gutter around each character, clean silhouette for small mobile size. Strict side profile facing SCREEN LEFT, one visible purple eye, silver bob with gold-blue flower and navy scarf flowing SCREEN RIGHT. Show both attached compact legs with two distinct navy boots, toes aimed LEFT. Ref 2 and 3 TOP row, left to right. f12 eyes open, two boots almost overlap under hips with sliver of shaded toe a little farther left. f13 leading toe to the LEFT and slightly tipped up with heel lower, trailing boot flat to RIGHT and a little above the leading heel. Bring the nearer arm and blade a little backward (RIGHT), keep the blade gripped. f14 leading LEFT boot sole flat and lowest, rear RIGHT boot folded back with heel visibly lifted and still attached to cuff. Near sleeve/held blade slightly back, other blade toward front. Do not hide all of either blade or redraw her face as a three-quarter front view.",
+  "submittedPromptSha256": "a8f30ac5e368751a3d866fedaab3073967e2c656f04852d00781a05127ced248",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/moon-shadow-W.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/moon-shadow-west/source-west-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/moon-shadow-west/source-west-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin output did not disclose model/quality.",
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/moon-shadow-W.png",
+      "sha256": "92e8062800247789e777f545df2d4c9105fc85dc570147b960047ef2ab2e4d30",
+      "role": "own identity"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/moon-shadow-west/source-west-six-phases.png",
+      "sha256": "f8f5618fcd6b8594cfb6b384121ddec51afc10dac9cae5948c7a26c1bd423803",
+      "role": "source pose structure"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/moon-shadow-west/source-west-lower-body.png",
+      "sha256": "3c22f4877a99e1f1a1f54b0f1bb2ee0aff42d578eb6525b715fc8cf5670fbea0",
+      "role": "source feet and sleeve timing order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q hand-painted style"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261113/moon-shadow-west/submission-a-v1.json",
+    "sha256": "22964404a3c12067cb3967a2dd49eba71aae62f8da1a55ea857a374b8e69f50b"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261113/moon-shadow-west/result-a-v1.json",
+    "sha256": "110774e567fb867153cf8aea499e04e04c2c21691190ab547af54bc158b49b99"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-664ffea8-403e-49ae-b7b3-bdc1f37e0ff9.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T08:13:05.067242+00:00",
+  "timeEvidence": "Native file modification time; actual model-side generation time undisclosed.",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}

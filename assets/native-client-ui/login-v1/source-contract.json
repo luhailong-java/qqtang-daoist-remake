@@ -1,0 +1,3064 @@
+{
+  "schemaVersion": 1,
+  "sourceArchiveSha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7",
+  "sourcePackage": {
+    "file": ".artifacts/reference-inputs/object.pkg",
+    "sha256": "3f5a8dfe0f629bd8bbd02ea81226f69be968e1e4c5d737ac78439a7221c1188a"
+  },
+  "sourceIndex": {
+    "file": ".artifacts/reference-inputs/object.idx",
+    "sha256": "7f26487ceef121ab4352fab8d26051ddb88c8db8fc591c4ac4f267ac5c6e355e"
+  },
+  "staticUiDeclarations": {
+    "file": "references/qqtang-ui-data/constants/uiLogin.json",
+    "sha256": "39da0112a7b94b4bc535a67c74b820671d1913021bd5d5f7f6e6c8356000d2f5"
+  },
+  "staticPostLoginReferences": {
+    "file": "assets/native-client-ui/postlogin-reference/manifest.json",
+    "sha256": "aed6485d6ed547329feb5d00ecb8f284a4a627de1a96732664cfb9d5dc25d48a"
+  },
+  "staticCoreReferences": {
+    "file": "assets/native-client-ui/core-reference/manifest.json",
+    "sha256": "f772f82675d1ce4b09b8db1a47f2d8aaac6555202d09009d4ca7f4258f10eeb1"
+  },
+  "items": [
+    {
+      "nativePath": "ui/selSect/bg_login.img",
+      "sourceSha256": "558f15af4d87e72e11c414f30889570514e2d93544ca01b18de51cd4c9a85fd5",
+      "sourceArchiveMember": "QQTang-Local/runtime/client-patched/ui/selSect/bg_login.img",
+      "packedIndexEntry": null,
+      "metadata": {
+        "byteLength": 1440068,
+        "sha256": "558f15af4d87e72e11c414f30889570514e2d93544ca01b18de51cd4c9a85fd5",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 800,
+            "height": 600,
+            "unknownImageHeaderWord": 1600,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1440000,
+            "encodedPixelSha256": "a2f3ae5126e33bed298b9f1a9686bc44d8ee8302df8514a168d4d185e30c182b",
+            "decodedRgbaSha256": "6e2df533f10630f4e8c307d6520ebc9db4ffef103e2c0da8c340df3ecd45e038"
+          }
+        ],
+        "parsedByteLength": 1440068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/bg_login-frame0.png",
+        "sha256": "e54cdd4c20db42488acd0bbe3345da7c17a510ae724d04fea380e6e95c38348f"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login",
+          "rect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 0
+              },
+              {
+                "type": "int",
+                "value": 800
+              },
+              {
+                "type": "int",
+                "value": 331
+              }
+            ]
+          },
+          "frameScheme": null
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/img_logo.img",
+      "sourceSha256": "d87c92b22749a5787fc5c6938b5187ba5cdf53a06c2a2b32b3e1257e23d93387",
+      "sourceArchiveMember": "QQTang-Local/runtime/client-patched/object/ui/login/img_logo.img",
+      "packedIndexEntry": null,
+      "metadata": {
+        "byteLength": 101204,
+        "sha256": "d87c92b22749a5787fc5c6938b5187ba5cdf53a06c2a2b32b3e1257e23d93387",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          201,
+          175
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              5,
+              3
+            ],
+            "pixelMode": 3,
+            "width": 196,
+            "height": 172,
+            "unknownImageHeaderWord": 392,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 101136,
+            "encodedPixelSha256": "222c3078210cbbf1337a7bd500f50d68aa1d17d420e3df64788c3499f7fdca03",
+            "decodedRgbaSha256": "11e96a4fdf2ffa5babb3a4e5e26d9d11757cde51573c88081a91ae5eb3a85902"
+          }
+        ],
+        "parsedByteLength": 101204,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/img_logo-frame0.png",
+        "sha256": "41490cb50e18cdedd803a5594c67fbf0ef19b9e41883043d04b2448d89ffdccd"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.logo",
+          "rect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 504
+              },
+              {
+                "type": "int",
+                "value": 18
+              },
+              {
+                "type": "int",
+                "value": 199
+              },
+              {
+                "type": "int",
+                "value": 167
+              }
+            ]
+          },
+          "frameScheme": null
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/dlg_login.img",
+      "sourceSha256": "ec1f1771ed11559d95cc13fcb67aa3d07b79ec1001af82d246489119b1f19e82",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3041,
+        "indexOffset": 154475,
+        "path": "object\\ui\\login\\dlg_login.img",
+        "reservedWord": 0,
+        "packageOffset": 30845321,
+        "rawByteLength": 444332,
+        "compressedByteLength": 55718
+      },
+      "metadata": {
+        "byteLength": 444332,
+        "sha256": "ec1f1771ed11559d95cc13fcb67aa3d07b79ec1001af82d246489119b1f19e82",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          346,
+          429
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 346,
+            "height": 428,
+            "unknownImageHeaderWord": 696,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 444264,
+            "encodedPixelSha256": "2e947281e1bbfd87136ace8e0def46f62adc618a35cda8a6350bf9aa504c6709",
+            "decodedRgbaSha256": "028e39728f61528d8d488a012763598fde7684d08ebfe76dd51c67ea02fdcea2"
+          }
+        ],
+        "parsedByteLength": 444332,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/dlg_login-frame0.png",
+        "sha256": "0e7b6b3f5a1000d2553b1ffab12ba8791ac62f74198f52608796274a03fc829f"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.loginDlg",
+          "rect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 437
+              },
+              {
+                "type": "int",
+                "value": 112
+              },
+              {
+                "type": "int",
+                "value": 346
+              },
+              {
+                "type": "int",
+                "value": 429
+              }
+            ]
+          },
+          "frameScheme": null
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/btn_login.img",
+      "sourceSha256": "e4f02b0bba2a81acc452ffc402051b800763a65555d53f66bf9a9958b7a4c4a5",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3036,
+        "indexOffset": 154232,
+        "path": "object\\ui\\login\\btn_login.img",
+        "reservedWord": 0,
+        "packageOffset": 30819761,
+        "rawByteLength": 22018,
+        "compressedByteLength": 5271
+      },
+      "metadata": {
+        "byteLength": 22018,
+        "sha256": "e4f02b0bba2a81acc452ffc402051b800763a65555d53f66bf9a9958b7a4c4a5",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          82,
+          33
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              4
+            ],
+            "pixelMode": 3,
+            "width": 82,
+            "height": 29,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 7134,
+            "encodedPixelSha256": "4e3590eae3c936fd9ec697f7466e4401c825b4d49b9ee5a668ca0b9744949d69",
+            "decodedRgbaSha256": "a2439f8a049c0bb55ea59d512c8aa8220d816dfa0ff530d45530cb89baf97e10"
+          },
+          {
+            "index": 1,
+            "offset": 7202,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 7230,
+            "pixelByteLength": 7380,
+            "encodedPixelSha256": "4cda02e4bebd57726e96ce9ff52930cc852340e38f09e06dcb62c24a451a41f5"
+          },
+          {
+            "index": 2,
+            "offset": 14610,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 3,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 14638,
+            "pixelByteLength": 7380,
+            "encodedPixelSha256": "09d0c5f69785db3b2007415b10f4235052671065f01c5e67d9f4a50117d3a6bd"
+          }
+        ],
+        "parsedByteLength": 22018,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_login-frame0.png",
+        "sha256": "1a86ae6116d184611eca405e9d02278e9250f0f814d595f5efbc3d18edc43d6c"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.loginDlg.children.confirmBtn",
+          "rect": null,
+          "frameScheme": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/btn_quit.img",
+      "sourceSha256": "5783fb3789c65ea3a3a32f3286b600b2148db14e8815b9144ab8ea34e81cb63a",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3039,
+        "indexOffset": 154378,
+        "path": "object\\ui\\login\\btn_quit.img",
+        "reservedWord": 0,
+        "packageOffset": 30838059,
+        "rawByteLength": 12004,
+        "compressedByteLength": 4087
+      },
+      "metadata": {
+        "byteLength": 12004,
+        "sha256": "5783fb3789c65ea3a3a32f3286b600b2148db14e8815b9144ab8ea34e81cb63a",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          44,
+          32
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 3,
+            "width": 44,
+            "height": 29,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 3828,
+            "encodedPixelSha256": "054b2641448e4b1794347273b5a12f02f7840d3d26c2594e97238dda8be8fc5e",
+            "decodedRgbaSha256": "28b962f102ea2a0b57cc16df875e56bdc8f8e00c1e8a711cd78c3e2a11b83aef"
+          },
+          {
+            "index": 1,
+            "offset": 3896,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 44,
+            "height": 31,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 3924,
+            "pixelByteLength": 4092,
+            "encodedPixelSha256": "5605076ab1fd03016e8dd779ced64b57abef2a6c2c19350b36c13716bf84a7a7"
+          },
+          {
+            "index": 2,
+            "offset": 8016,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 3,
+            "width": 44,
+            "height": 30,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 8044,
+            "pixelByteLength": 3960,
+            "encodedPixelSha256": "a1c39545a9082a4e492f6bc0eace160a268ace0b4068678b879abdac44112b16"
+          }
+        ],
+        "parsedByteLength": 12004,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_quit-frame0.png",
+        "sha256": "0f23e59c1e0c7bdf5631ec1253a58ba10d880e1452df992afb874dbdfb62183c"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.loginDlg.children.quitBtn",
+          "rect": null,
+          "frameScheme": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/login/btn_help.img",
+      "sourceSha256": "5015ab7f722c2b083b9f12873813d843ea3b1444946a592e04695166ad1b33a7",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3035,
+        "indexOffset": 154186,
+        "path": "object\\ui\\login\\btn_help.img",
+        "reservedWord": 0,
+        "packageOffset": 30811438,
+        "rawByteLength": 29426,
+        "compressedByteLength": 8323
+      },
+      "metadata": {
+        "byteLength": 29426,
+        "sha256": "5015ab7f722c2b083b9f12873813d843ea3b1444946a592e04695166ad1b33a7",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          82,
+          31
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 3,
+            "width": 82,
+            "height": 29,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 7134,
+            "encodedPixelSha256": "df7fc0f2a7c13cff7a6f10a9db5d1aeace1a5a618a5b50d538b067ff0fa5381d",
+            "decodedRgbaSha256": "b1c6af9ea80b287d38dbdf2cdb933e15709ee879b8819ffdb39b45e740ae71bd"
+          },
+          {
+            "index": 1,
+            "offset": 7202,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 7230,
+            "pixelByteLength": 7380,
+            "encodedPixelSha256": "d9a4b04b8026ded242490e1570ba634b1cf3db77665ca24b0a4e1d566eb86198"
+          },
+          {
+            "index": 2,
+            "offset": 14610,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 14638,
+            "pixelByteLength": 7380,
+            "encodedPixelSha256": "b446e68326272906a0a70e165427d1186c4e7bd46cab497a8047e9c967ff77d9"
+          },
+          {
+            "index": 3,
+            "offset": 22018,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 3,
+            "width": 82,
+            "height": 30,
+            "unknownImageHeaderWord": 168,
+            "empty": false,
+            "pixelDataOffset": 22046,
+            "pixelByteLength": 7380,
+            "encodedPixelSha256": "1f0633e24a2310ed275a048ea574d9c1182e2e8ed9372c3fbf378a43b19364b4"
+          }
+        ],
+        "parsedByteLength": 29426,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_help-frame0.png",
+        "sha256": "cf22751d6f81f7c4ea5af8a73770275b5c1f86368347bc728515a3f2c3aa943d"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.loginDlg.children.helpBtn",
+          "rect": null,
+          "frameScheme": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/common/btn_cross.img",
+      "sourceSha256": "37eaa893b701d7bd28bf34512dbea1a92068c349dcf4b0229fc0820a313b57f9",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2748,
+        "indexOffset": 140134,
+        "path": "object\\ui\\common\\btn_cross.img",
+        "reservedWord": 0,
+        "packageOffset": 28913745,
+        "rawByteLength": 7896,
+        "compressedByteLength": 918
+      },
+      "metadata": {
+        "byteLength": 7896,
+        "sha256": "37eaa893b701d7bd28bf34512dbea1a92068c349dcf4b0229fc0820a313b57f9",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          22,
+          22
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 22,
+            "height": 22,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1936,
+            "encodedPixelSha256": "aaa1b7ed78927b6b641b5fb0dbf021f36fa5568328ba81d98e6c79853d9b2ade",
+            "decodedRgbaSha256": "f25a6385aa76f7e1e4f3dbfdd9b36612ee786e95ab53562a5c858ee78ee09726"
+          },
+          {
+            "index": 1,
+            "offset": 2004,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 22,
+            "height": 22,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 2032,
+            "pixelByteLength": 1936,
+            "encodedPixelSha256": "ab84a7f86d62835407aa3d982a6692f92c11a7d1a37e8bdadbfed2eb6c10f92e"
+          },
+          {
+            "index": 2,
+            "offset": 3968,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 22,
+            "height": 22,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 3996,
+            "pixelByteLength": 1936,
+            "encodedPixelSha256": "52fe7bb7630e986185a8da979cefe90fa1afbb71cc7ef713446cf727a6f70402"
+          },
+          {
+            "index": 3,
+            "offset": 5932,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 22,
+            "height": 22,
+            "unknownImageHeaderWord": 88,
+            "empty": false,
+            "pixelDataOffset": 5960,
+            "pixelByteLength": 1936,
+            "encodedPixelSha256": "ab84a7f86d62835407aa3d982a6692f92c11a7d1a37e8bdadbfed2eb6c10f92e"
+          }
+        ],
+        "parsedByteLength": 7896,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_cross-frame0.png",
+        "sha256": "e347379e0e68f82092a7138b33c4bc00257618dcc15d1904b6dcc3ffbd66a40d"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.vnetDlg.children.crossBtn",
+          "rect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 335
+              },
+              {
+                "type": "int",
+                "value": 4
+              },
+              {
+                "type": "int",
+                "value": 22
+              },
+              {
+                "type": "int",
+                "value": 22
+              }
+            ]
+          },
+          "frameScheme": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "scope": "?.UI_children_login.children.verifyDlg.children.crossBtn",
+          "rect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 340
+              },
+              {
+                "type": "int",
+                "value": 6
+              },
+              {
+                "type": "int",
+                "value": 22
+              },
+              {
+                "type": "int",
+                "value": 22
+              }
+            ]
+          },
+          "frameScheme": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/common/btn_confirm.img",
+      "sourceSha256": "12bd5d7d12e4c685849bc81de2c0f3822f7b6da43f4cba4044e2c7ef757a761e",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2747,
+        "indexOffset": 140084,
+        "path": "object\\ui\\common\\btn_confirm.img",
+        "reservedWord": 0,
+        "packageOffset": 28906090,
+        "rawByteLength": 21272,
+        "compressedByteLength": 7655
+      },
+      "metadata": {
+        "byteLength": 21272,
+        "sha256": "12bd5d7d12e4c685849bc81de2c0f3822f7b6da43f4cba4044e2c7ef757a761e",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          44,
+          32
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 29,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 5104,
+            "encodedPixelSha256": "34994626aba19febc1ba218050415db24b282318a634c5cd40819da44d7002db",
+            "decodedRgbaSha256": "28226001eac2c2588556fad7262b70c8c6814270997e684c055052ce0142efec"
+          },
+          {
+            "index": 1,
+            "offset": 5172,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 30,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 5200,
+            "pixelByteLength": 5280,
+            "encodedPixelSha256": "022aebca4da9f7e6e9c86095f4ea272f6360b96e499673174a520815790d8a97"
+          },
+          {
+            "index": 2,
+            "offset": 10480,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 31,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 10508,
+            "pixelByteLength": 5456,
+            "encodedPixelSha256": "fc3a4f2b007378cdc627836bc4f00febbe6cc4a1bf09077cdfa9ffda87515f80"
+          },
+          {
+            "index": 3,
+            "offset": 15964,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 30,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 15992,
+            "pixelByteLength": 5280,
+            "encodedPixelSha256": "b5ff2f90f3e550d2e675357cb3dfec63a4c70144b60809fd54a93b6ae86cc534"
+          }
+        ],
+        "parsedByteLength": 21272,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_confirm-frame0.png",
+        "sha256": "c9fe7cc51dc4df2a6998258237b1089b4bde589e5c24630cf667249a7b86cabc"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.verifyDlg.children.confirm",
+          "rect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 160
+              },
+              {
+                "type": "int",
+                "value": 280
+              },
+              {
+                "type": "int",
+                "value": 65
+              },
+              {
+                "type": "int",
+                "value": 31
+              }
+            ]
+          },
+          "frameScheme": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/common/btn_cancel.img",
+      "sourceSha256": "8c71df9f67d5f747edca790cb68cdafe02e80ed094f27760e9d048805d76c415",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2744,
+        "indexOffset": 139939,
+        "path": "object\\ui\\common\\btn_cancel.img",
+        "reservedWord": 0,
+        "packageOffset": 28890650,
+        "rawByteLength": 21272,
+        "compressedByteLength": 7666
+      },
+      "metadata": {
+        "byteLength": 21272,
+        "sha256": "8c71df9f67d5f747edca790cb68cdafe02e80ed094f27760e9d048805d76c415",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 4,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          44,
+          32
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 29,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 5104,
+            "encodedPixelSha256": "345aeec24e371a03c6ab173d0446cca25f11f336d2eb314322610b05e0cd45ae",
+            "decodedRgbaSha256": "7826b6dd9451ea355d195479972a584386811736a1c56de9e22fff3b266ac1e1"
+          },
+          {
+            "index": 1,
+            "offset": 5172,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 30,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 5200,
+            "pixelByteLength": 5280,
+            "encodedPixelSha256": "cf2517ee55c3fd10d6e48f03c53e31f746a071fe09be0527a013508da6731c2b"
+          },
+          {
+            "index": 2,
+            "offset": 10480,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 31,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 10508,
+            "pixelByteLength": 5456,
+            "encodedPixelSha256": "73a0ea39af568093b23288bfd68eeb1a7bb4e094799bd4f5039bc7bd7f5e1bb8"
+          },
+          {
+            "index": 3,
+            "offset": 15964,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 8,
+            "width": 44,
+            "height": 30,
+            "unknownImageHeaderWord": 176,
+            "empty": false,
+            "pixelDataOffset": 15992,
+            "pixelByteLength": 5280,
+            "encodedPixelSha256": "dee02deebd72d488e7ac400a4bf77c87ae4989842f39177c06654f9bda632aa7"
+          }
+        ],
+        "parsedByteLength": 21272,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_cancel-frame0.png",
+        "sha256": "a4f2cf71a6ed89bdc471a5016ad50073ba3f7bb5c027a28a6f0095eaa18a7be3"
+      },
+      "staticUiBindings": [
+        {
+          "scope": "?.UI_children_login.children.wait.children.cancelBtn",
+          "rect": {
+            "type": "tuple",
+            "values": [
+              {
+                "type": "int",
+                "value": 91
+              },
+              {
+                "type": "int",
+                "value": 55
+              },
+              {
+                "type": "int",
+                "value": 43
+              },
+              {
+                "type": "int",
+                "value": 31
+              }
+            ]
+          },
+          "frameScheme": {
+            "type": "list",
+            "values": [
+              {
+                "type": "tuple",
+                "values": [
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 0
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 2
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 3
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  },
+                  {
+                    "type": "int",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/bg/bg_selSect.img",
+      "sourceSha256": "1cd6fa56a6ae1e31bde53b3b25af9251575241a0741598b9f8ce4c838cfd0399",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2714,
+        "indexOffset": 138392,
+        "path": "object\\ui\\bg\\bg_selSect.img",
+        "reservedWord": 0,
+        "packageOffset": 28220267,
+        "rawByteLength": 1920068,
+        "compressedByteLength": 193463
+      },
+      "metadata": {
+        "byteLength": 1920068,
+        "sha256": "1cd6fa56a6ae1e31bde53b3b25af9251575241a0741598b9f8ce4c838cfd0399",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 800,
+            "height": 600,
+            "unknownImageHeaderWord": 3200,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1920000,
+            "encodedPixelSha256": "73ed080954beaf016f2486d403e544f33981d0aa0f1635b809d99fe9845780ff",
+            "decodedRgbaSha256": "6ee791cd9b0b3ea12430e3ea31d36e13c503dfe5c8bb76ac27788793e12cf391"
+          }
+        ],
+        "parsedByteLength": 1920068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/bg_selSect-frame0.png",
+        "sha256": "d34f4c2aef75dc7079e3c332047f2ecff41b627fdd0aa2c1d2f8977be48ca912"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect",
+          "firstSourceLine": 144,
+          "bytecodeSha256": "0052fe77d74a8b0f5154cde30a73e7677fbff4a9e1ee41cd1b4c051286e65b12",
+          "nativePath": "object/ui/bg/bg_selsect.img",
+          "literalAssignments": {
+            "type": "SCREEN",
+            "rect": [
+              0,
+              0,
+              800,
+              600
+            ],
+            "bkimage": "object/ui/bg/bg_selSect.img",
+            "accel": [
+              [
+                "OnAccel_OnF1",
+                112,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF2",
+                113,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF3",
+                114,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF6",
+                117,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF7",
+                118,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF8",
+                119,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF9",
+                120,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF10",
+                121,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF12",
+                123,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/bg/bg_selRoom.img",
+      "sourceSha256": "ab2f562e08a4957f1b1eb0a734dcd6b6e9744e10c9d6ba59b6d72ca3161dd99e",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2713,
+        "indexOffset": 138347,
+        "path": "object\\ui\\bg\\bg_selRoom.img",
+        "reservedWord": 0,
+        "packageOffset": 27962013,
+        "rawByteLength": 1920068,
+        "compressedByteLength": 258254
+      },
+      "metadata": {
+        "byteLength": 1920068,
+        "sha256": "ab2f562e08a4957f1b1eb0a734dcd6b6e9744e10c9d6ba59b6d72ca3161dd99e",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 800,
+            "height": 600,
+            "unknownImageHeaderWord": 3200,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1920000,
+            "encodedPixelSha256": "d1762bb44783746f06c056168bfd8cb818e5e4cb8c3fd581df8b6a8e4f88d81f",
+            "decodedRgbaSha256": "0d58254cdd5a5e55855875de0fb5efd5d009d30659c23e8a3f181afc7bc58d3c"
+          }
+        ],
+        "parsedByteLength": 1920068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/bg_selRoom-frame0.png",
+        "sha256": "4f2071c17ab847419a7da486d8f9a19e899e031811bdc6198de473ae54ee962e"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom",
+          "firstSourceLine": 2086,
+          "bytecodeSha256": "72bc42a8ddc7e145185dec1a12e514e78c34c226c67f26b564b1eb04fec27751",
+          "nativePath": "object/ui/bg/bg_selroom.img",
+          "literalAssignments": {
+            "type": "SCREEN",
+            "rect": [
+              0,
+              0,
+              800,
+              600
+            ],
+            "bkimage": "object/ui/bg/bg_selRoom.img",
+            "accel": [
+              [
+                "OnAccel_OnF1",
+                112,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF2",
+                113,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF4",
+                115,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF7",
+                118,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selSect/dlg_selserver.img",
+      "sourceSha256": "2cbc7388c8bb10d508d0ea77c7c3948a8503c506a654ddb2fd7a9344e143a8df",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3305,
+        "indexOffset": 167651,
+        "path": "object\\ui\\selSect\\dlg_selServer.img",
+        "reservedWord": 0,
+        "packageOffset": 34118167,
+        "rawByteLength": 303264,
+        "compressedByteLength": 20651
+      },
+      "metadata": {
+        "byteLength": 303264,
+        "sha256": "2cbc7388c8bb10d508d0ea77c7c3948a8503c506a654ddb2fd7a9344e143a8df",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          229,
+          331
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 229,
+            "height": 331,
+            "unknownImageHeaderWord": 920,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 303196,
+            "encodedPixelSha256": "90e697994e58564eb767d35850f96e5194a79fea1c65eda86b524e4f8e361272",
+            "decodedRgbaSha256": "c394b13fcdfc7da0fa04587c919676aa7d877ea598559d247f2fea8044dbf845"
+          }
+        ],
+        "parsedByteLength": 303264,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/dlg_selserver-frame0.png",
+        "sha256": "51581847500cc1787a18e7514f0352f8e1b1456c935ce90f74d7c242ecbf0abc"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.selServerDlg",
+          "firstSourceLine": 484,
+          "bytecodeSha256": "828f0ba8a2a9d40cfa4bb5aa610677ee622091132ea8f660cdfc2274da2e4f24",
+          "nativePath": "object/ui/selsect/dlg_selserver.img",
+          "literalAssignments": {
+            "initlayer": 999999,
+            "visible": 0,
+            "rect": [
+              500,
+              200,
+              229,
+              331
+            ],
+            "bkimage": "object/ui/selSect/dlg_selServer.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selSect/img_sect.img",
+      "sourceSha256": "091ed19dc9d37ac63707285d8e7c38f5bcc650adfc9cd4c5949ca40b294a445f",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3306,
+        "indexOffset": 167704,
+        "path": "object\\ui\\selSect\\img_sect.img",
+        "reservedWord": 0,
+        "packageOffset": 34138818,
+        "rawByteLength": 19516,
+        "compressedByteLength": 880
+      },
+      "metadata": {
+        "byteLength": 19516,
+        "sha256": "091ed19dc9d37ac63707285d8e7c38f5bcc650adfc9cd4c5949ca40b294a445f",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          187,
+          26
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 187,
+            "height": 26,
+            "unknownImageHeaderWord": 752,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 19448,
+            "encodedPixelSha256": "263e855796d1399fd176186deee21e3cba14c2c7ccec7807ede48cffbed7e01d",
+            "decodedRgbaSha256": "e0ca7e1336767b380169e1bbac629dbbbba30ff8ad842e66efd22554afaf90b9"
+          }
+        ],
+        "parsedByteLength": 19516,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/img_sect-frame0.png",
+        "sha256": "157b1794ec25642b8eeb68b314073d277dd58b13d219219999b970affcb728a6"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.sect1",
+          "firstSourceLine": 411,
+          "bytecodeSha256": "9885435ff4ba4fe2beb62c31fd43c90ef89000f1630ab519e879387dc8bc0689",
+          "nativePath": "object/ui/selsect/img_sect.img",
+          "literalAssignments": {
+            "groupid": 5,
+            "groupstop": 1,
+            "rect": [
+              383,
+              97,
+              187,
+              26
+            ],
+            "bkimage": "object/ui/selSect/img_sect.img",
+            "framescheme": [
+              [
+                -1,
+                -1,
+                0,
+                0,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selRoom/dlg_room.img",
+      "sourceSha256": "c5a105f5dc08c5af1c1c218a569d4ab5c9433d99fbee9bab90bbc9680ba0035c",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3281,
+        "indexOffset": 166420,
+        "path": "object\\ui\\selRoom\\dlg_room.img",
+        "reservedWord": 0,
+        "packageOffset": 34020333,
+        "rawByteLength": 232132,
+        "compressedByteLength": 14054
+      },
+      "metadata": {
+        "byteLength": 232132,
+        "sha256": "c5a105f5dc08c5af1c1c218a569d4ab5c9433d99fbee9bab90bbc9680ba0035c",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          181,
+          111
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              4
+            ],
+            "pixelMode": 8,
+            "width": 178,
+            "height": 107,
+            "unknownImageHeaderWord": 712,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 76184,
+            "encodedPixelSha256": "5fcda6e747e14b9ecac040cd227c889c77120ccca0cccd016c6b343ccacad1ea",
+            "decodedRgbaSha256": "a694956d522ba3c9ecf1d390626d0f0b8baedd05caf237e97ad5a1d18155d63e"
+          },
+          {
+            "index": 1,
+            "offset": 76252,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 181,
+            "height": 110,
+            "unknownImageHeaderWord": 728,
+            "empty": false,
+            "pixelDataOffset": 76280,
+            "pixelByteLength": 79640,
+            "encodedPixelSha256": "6e710249e129ebdfaaca01aaaceb0ae2e79df947e44a22255f118f359e2294b1"
+          },
+          {
+            "index": 2,
+            "offset": 155920,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              4
+            ],
+            "pixelMode": 8,
+            "width": 178,
+            "height": 107,
+            "unknownImageHeaderWord": 712,
+            "empty": false,
+            "pixelDataOffset": 155948,
+            "pixelByteLength": 76184,
+            "encodedPixelSha256": "05494d8d87a2f239fe86401f52e690876c4b30d43be528fe879ecc2d04fb4206"
+          }
+        ],
+        "parsedByteLength": 232132,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/dlg_room-frame0.png",
+        "sha256": "ee239c643c52e12315f3e18d6043451d117b4c82eae4d367697bb34ca934d27d"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.updateRoom",
+          "firstSourceLine": 1153,
+          "bytecodeSha256": "d92e999e4893434cc9cc73ae15dabc479748815c53b39b350e3116deaa0ce108",
+          "nativePath": "object/ui/selroom/dlg_room.img",
+          "literalAssignments": {},
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.room1",
+          "firstSourceLine": 2347,
+          "bytecodeSha256": "ea8d1ee802a4679dbc5678d577734ef102d1109c0e9f3a87513d80f8c5fb24a4",
+          "nativePath": "object/ui/selroom/dlg_room.img",
+          "literalAssignments": {
+            "framescheme": [
+              [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                0,
+                0
+              ]
+            ],
+            "rect": [
+              27,
+              101,
+              181,
+              111
+            ],
+            "bkimage": "object/ui/selRoom/dlg_room.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selSect/btn_selzone.img",
+      "sourceSha256": "ec9b4142185fd4ed387b4d2be8e08f3d4bf6aad7600bfb7cf74b3f30cf2b50ac",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3303,
+        "indexOffset": 167548,
+        "path": "object\\ui\\selSect\\btn_selZone.img",
+        "reservedWord": 0,
+        "packageOffset": 34101257,
+        "rawByteLength": 25981,
+        "compressedByteLength": 8187
+      },
+      "metadata": {
+        "byteLength": 25981,
+        "sha256": "ec9b4142185fd4ed387b4d2be8e08f3d4bf6aad7600bfb7cf74b3f30cf2b50ac",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          51,
+          57
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 55,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8415,
+            "encodedPixelSha256": "11c96597324fbb218ce6e2c2b31fd07c751ff23b6b6fdc4e7475b0e2108acf68",
+            "decodedRgbaSha256": "725d8c02f41b454d5cf2a48563725b889e1efd35d7117124dc70b4a259ad1b8f"
+          },
+          {
+            "index": 1,
+            "offset": 8483,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 57,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 8511,
+            "pixelByteLength": 8721,
+            "encodedPixelSha256": "d8fa43ac4d100bb355119fe618267abe654107054c341a8879c9d0696dd2dbd5"
+          },
+          {
+            "index": 2,
+            "offset": 17232,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 57,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 17260,
+            "pixelByteLength": 8721,
+            "encodedPixelSha256": "b422c307e958f122d092637133aa11bdb61b93582f521db48cd35d74253ef062"
+          }
+        ],
+        "parsedByteLength": 25981,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_selzone-frame0.png",
+        "sha256": "53861a4c84fef2cd0397162787460d4b7f8179fe9f20897fcdfd4cca55e7b43b"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.selZoneBtn",
+          "firstSourceLine": 261,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/selsect/btn_selzone.img",
+          "literalAssignments": {
+            "rect": [
+              445,
+              513,
+              51,
+              74
+            ],
+            "bkimage": "object/ui/selSect/btn_selZone.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selSect/btn_quickjoin.img",
+      "sourceSha256": "bd4343cbd5420468af443d9b63ba5aef247a5333328adb07fe349a97906ec428",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3302,
+        "indexOffset": 167495,
+        "path": "object\\ui\\selSect\\btn_quickJoin.img",
+        "reservedWord": 0,
+        "packageOffset": 34093168,
+        "rawByteLength": 25981,
+        "compressedByteLength": 8089
+      },
+      "metadata": {
+        "byteLength": 25981,
+        "sha256": "bd4343cbd5420468af443d9b63ba5aef247a5333328adb07fe349a97906ec428",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          51,
+          57
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 55,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8415,
+            "encodedPixelSha256": "2164d9f97d6221c0eb1e19befdf791f3ead1e3eec64ec236781d960e18aca9e6",
+            "decodedRgbaSha256": "759add7c56edabccb8bb7870649a4d68b27a1e6a8a303fb63bb8090c4964a24c"
+          },
+          {
+            "index": 1,
+            "offset": 8483,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 57,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 8511,
+            "pixelByteLength": 8721,
+            "encodedPixelSha256": "997cf5092a9b31ae61b01296803e8ed164990ecfe990ec3022ffac564c5e985e"
+          },
+          {
+            "index": 2,
+            "offset": 17232,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 57,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 17260,
+            "pixelByteLength": 8721,
+            "encodedPixelSha256": "493611876a40f1c192b6191bb0855b90c1313813aaa73ca8f8a693cd16823f40"
+          }
+        ],
+        "parsedByteLength": 25981,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_quickjoin-frame0.png",
+        "sha256": "0ecdc1470ee50fb3e3aab255104fab7e3f032a54201a2affd39ac9437bfe5f2b"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.quickJoin",
+          "firstSourceLine": 273,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/selsect/btn_quickjoin.img",
+          "literalAssignments": {
+            "rect": [
+              511,
+              513,
+              51,
+              74
+            ],
+            "bkimage": "object/ui/selSect/btn_quickJoin.img"
+          },
+          "activeControlFlowConfirmed": false
+        },
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.fastJoinRoomBtn",
+          "firstSourceLine": 2472,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/selsect/btn_quickjoin.img",
+          "literalAssignments": {
+            "rect": [
+              560,
+              538,
+              51,
+              54
+            ],
+            "bkimage": "object/ui/selSect/btn_quickJoin.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selRoom/btn_createroom.img",
+      "sourceSha256": "31ada8039327e8a2b70f26f9c84c8d72e8b9b0c34d314aec888f1f6c1627728c",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3268,
+        "indexOffset": 165760,
+        "path": "object\\ui\\selRoom\\btn_createRoom.img",
+        "reservedWord": 0,
+        "packageOffset": 33882554,
+        "rawByteLength": 25981,
+        "compressedByteLength": 8233
+      },
+      "metadata": {
+        "byteLength": 25981,
+        "sha256": "31ada8039327e8a2b70f26f9c84c8d72e8b9b0c34d314aec888f1f6c1627728c",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 3,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          51,
+          57
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              2
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 55,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8415,
+            "encodedPixelSha256": "04ec2013d765f9152cadda6908e893365fd836a57e39a957f405704f54023a68",
+            "decodedRgbaSha256": "7c282e09bd20de5d96bd4baa519547807ab6d8a04b890d51057edcd42a6845fc"
+          },
+          {
+            "index": 1,
+            "offset": 8483,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 57,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 8511,
+            "pixelByteLength": 8721,
+            "encodedPixelSha256": "7cada2396dd15632d76db02fb480f7e135fada3686678a12ac81096702051b57"
+          },
+          {
+            "index": 2,
+            "offset": 17232,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 51,
+            "height": 57,
+            "unknownImageHeaderWord": 104,
+            "empty": false,
+            "pixelDataOffset": 17260,
+            "pixelByteLength": 8721,
+            "encodedPixelSha256": "903fe49f81f8dda5b45a0802670fef6f68dac0697f597a49b7046c7f8a41d7a6"
+          }
+        ],
+        "parsedByteLength": 25981,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/btn_createroom-frame0.png",
+        "sha256": "b2518e044763b80ebb65ec929f8091cd659cd23228adb4b21f1a64d4c8cbe4f2"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.newRoomBtn",
+          "firstSourceLine": 2485,
+          "bytecodeSha256": "4b17a4619c8f6cd707074bc7aa4131d14ab00c167734c297ae6326cb999ea4f1",
+          "nativePath": "object/ui/selroom/btn_createroom.img",
+          "literalAssignments": {
+            "rect": [
+              615,
+              538,
+              51,
+              54
+            ],
+            "bkimage": "object/ui/selRoom/btn_createRoom.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selRoom/tab_compete.img",
+      "sourceSha256": "78227ef591e480afe8a91f9ba45d3525aa012b34cb2e2c1e3fe11a675d8537ea",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3289,
+        "indexOffset": 166820,
+        "path": "object\\ui\\selRoom\\tab_compete.img",
+        "reservedWord": 0,
+        "packageOffset": 34054259,
+        "rawByteLength": 14796,
+        "compressedByteLength": 5387
+      },
+      "metadata": {
+        "byteLength": 14796,
+        "sha256": "78227ef591e480afe8a91f9ba45d3525aa012b34cb2e2c1e3fe11a675d8537ea",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          98,
+          30
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              5
+            ],
+            "pixelMode": 3,
+            "width": 98,
+            "height": 25,
+            "unknownImageHeaderWord": 200,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 7350,
+            "encodedPixelSha256": "df911d13150d549e5e538b1f2c34cb8d85076e60ab602c83f0d2c59ec7690bda",
+            "decodedRgbaSha256": "c3bec7f35452adbeae842257b38048c0831c0231210dee155587222414be4c7c"
+          },
+          {
+            "index": 1,
+            "offset": 7418,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              5
+            ],
+            "pixelMode": 3,
+            "width": 98,
+            "height": 25,
+            "unknownImageHeaderWord": 200,
+            "empty": false,
+            "pixelDataOffset": 7446,
+            "pixelByteLength": 7350,
+            "encodedPixelSha256": "b1bb7b35c08516da0df27a70223759dcf47517ab10ba1be5983bbe4782eba82a"
+          }
+        ],
+        "parsedByteLength": 14796,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/tab_compete-frame0.png",
+        "sha256": "c2875d17ff01745890dbdd94f5270184c970ff638e613360909e9b1ae893d571"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelRoom",
+          "scope": "?.UI_children_selRoom.children.modeCompete",
+          "firstSourceLine": 2263,
+          "bytecodeSha256": "843673f74d34d0e8e30a18e3e67157ca1b0381505a8a24f1673e1a9c308dd27b",
+          "nativePath": "object/ui/selroom/tab_compete.img",
+          "literalAssignments": {
+            "rect": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "hotrect": [
+              20,
+              39,
+              98,
+              30
+            ],
+            "groupid": 1,
+            "groupstop": 0,
+            "hotcover": "object/ui/selRoom/tab_compete.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/selSect/tab_freedom.img",
+      "sourceSha256": "a490c527cd43dc64e41d3da10e119c4c37b3a999e8ece23b1ad2ef3f39ee9e49",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 3313,
+        "indexOffset": 168068,
+        "path": "object\\ui\\selSect\\tab_freedom.img",
+        "reservedWord": 0,
+        "packageOffset": 34142756,
+        "rawByteLength": 19020,
+        "compressedByteLength": 5826
+      },
+      "metadata": {
+        "byteLength": 19020,
+        "sha256": "a490c527cd43dc64e41d3da10e119c4c37b3a999e8ece23b1ad2ef3f39ee9e49",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 2,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          72,
+          37
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              2,
+              3
+            ],
+            "pixelMode": 8,
+            "width": 67,
+            "height": 33,
+            "unknownImageHeaderWord": 272,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 8844,
+            "encodedPixelSha256": "4cd31043a5e2f04e1b57e37f98015e816facfb0db2fa365383c7128358b357ea",
+            "decodedRgbaSha256": "4e92124bb98a240ee7234675caa0ff22ac45ab31077b3d85e9c760d764062c31"
+          },
+          {
+            "index": 1,
+            "offset": 8912,
+            "rawMarker": 0,
+            "frameOffset": [
+              1,
+              1
+            ],
+            "pixelMode": 8,
+            "width": 70,
+            "height": 36,
+            "unknownImageHeaderWord": 280,
+            "empty": false,
+            "pixelDataOffset": 8940,
+            "pixelByteLength": 10080,
+            "encodedPixelSha256": "224340e0d2c4599d1ce13bc97cebca0f3227125cf738089bf8a16c949c1a5a3a"
+          }
+        ],
+        "parsedByteLength": 19020,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/tab_freedom-frame0.png",
+        "sha256": "3a89fbe4482512d6e8566afe627dba4732f0bc51e3d1099c3b97f18725a5b573"
+      },
+      "staticUiBindings": [],
+      "staticPostLoginBindings": [
+        {
+          "module": "uiSelSect",
+          "scope": "?.UI_children_selSect.children.channel3",
+          "firstSourceLine": 332,
+          "bytecodeSha256": "345e11564e5c4733f00b48b4a3f4091b8fae05e0affd26c9cef69d7e83cb8bec",
+          "nativePath": "object/ui/selsect/tab_freedom.img",
+          "literalAssignments": {
+            "rect": [
+              524,
+              58,
+              72,
+              37
+            ],
+            "bkimage": "object/ui/selSect/tab_freedom.img",
+            "groupstop": 3
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/bg/bg_room.img",
+      "sourceSha256": "47f1f4583776afaef1ab897a8b2e4c8bf07ac4d52b6c3d290dfd51397a0c7c55",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2712,
+        "indexOffset": 138305,
+        "path": "object\\ui\\bg\\bg_room.img",
+        "reservedWord": 0,
+        "packageOffset": 27796242,
+        "rawByteLength": 1920068,
+        "compressedByteLength": 165771
+      },
+      "metadata": {
+        "byteLength": 1920068,
+        "sha256": "47f1f4583776afaef1ab897a8b2e4c8bf07ac4d52b6c3d290dfd51397a0c7c55",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 800,
+            "height": 600,
+            "unknownImageHeaderWord": 3200,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1920000,
+            "encodedPixelSha256": "526404fb98b6bbc1d75f156fda30217cbd4db087a4a96618e189e0ea26879b31",
+            "decodedRgbaSha256": "fd87f8ce95fee56094464c1742b2b7dc07fe2581caf492606ae62520575890e6"
+          }
+        ],
+        "parsedByteLength": 1920068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/bg_room-frame0.png",
+        "sha256": "d7d55c2e9b226b736b1a95a0f1c515e6dee24074f31ce029a80a726fee18de5e"
+      },
+      "staticUiBindings": [],
+      "staticCoreBindings": [
+        {
+          "module": "uiRoom",
+          "scope": "?.UI_children_room",
+          "sourceFirstLine": 823,
+          "bytecodeSha256": "bd1a4ee49da9926fa51da10c590d2783571b73d02def1a10d18ac6e86ea4621a",
+          "literalAssignments": {
+            "type": "SCREEN",
+            "rect": [
+              0,
+              0,
+              800,
+              600
+            ],
+            "bkimage": "object/ui/bg/bg_room.img",
+            "accel": [
+              [
+                "OnAccel_OnF1",
+                112,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF2",
+                113,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF3",
+                114,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF4",
+                115,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF5",
+                116,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF7",
+                118,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF8",
+                119,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF9",
+                120,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF12",
+                123,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/bg/bg_shop.img",
+      "sourceSha256": "ae18e74bc15653af2e25aefa65b311beb77301ad441ad31b91ed8bc98c64194a",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2715,
+        "indexOffset": 138437,
+        "path": "object\\ui\\bg\\bg_shop.img",
+        "reservedWord": 0,
+        "packageOffset": 28413730,
+        "rawByteLength": 1920068,
+        "compressedByteLength": 275268
+      },
+      "metadata": {
+        "byteLength": 1920068,
+        "sha256": "ae18e74bc15653af2e25aefa65b311beb77301ad441ad31b91ed8bc98c64194a",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 800,
+            "height": 600,
+            "unknownImageHeaderWord": 3200,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1920000,
+            "encodedPixelSha256": "bc94b30ca34ef43571ca402396684acf1c65f54c50a31328e6f4a328b7e5a0ec",
+            "decodedRgbaSha256": "4937383a96c0e432b8b201fb9ceb5803761a9a894b00a75de18d158108ae6aab"
+          }
+        ],
+        "parsedByteLength": 1920068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/bg_shop-frame0.png",
+        "sha256": "9834eb690fa20218a31f7e8194275d6170c8f210a11589e1cb5d47757ddc6294"
+      },
+      "staticUiBindings": [],
+      "staticCoreBindings": [
+        {
+          "module": "uiShop",
+          "scope": "?.UI_children_shop",
+          "sourceFirstLine": 1697,
+          "bytecodeSha256": "d86f90a48e3789df24c888d83a3c898d800456624043d0633a74f3e47d79baf3",
+          "literalAssignments": {
+            "type": "SCREEN",
+            "rect": [
+              0,
+              0,
+              800,
+              600
+            ],
+            "bkimage": "object/ui/bg/bg_shop.img",
+            "accel": [
+              [
+                "OnAccel_OnF1",
+                112,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF2",
+                113,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF3",
+                114,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF5",
+                116,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF7",
+                118,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF8",
+                119,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF9",
+                120,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF11",
+                122,
+                0,
+                0,
+                0
+              ],
+              [
+                "OnAccel_OnF12",
+                123,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/bg/bg_game.img",
+      "sourceSha256": "de0be50b0692ad443ad43712dcd019bd9543fbef8b91d3c6412f8946291e0587",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2710,
+        "indexOffset": 138221,
+        "path": "object\\ui\\bg\\bg_game.img",
+        "reservedWord": 0,
+        "packageOffset": 27528177,
+        "rawByteLength": 480068,
+        "compressedByteLength": 65526
+      },
+      "metadata": {
+        "byteLength": 480068,
+        "sha256": "de0be50b0692ad443ad43712dcd019bd9543fbef8b91d3c6412f8946291e0587",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          200,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 200,
+            "height": 600,
+            "unknownImageHeaderWord": 800,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 480000,
+            "encodedPixelSha256": "caed30350b09f64813e570f97a299797093ba21beb0b1ca89431c5f52eff27bc",
+            "decodedRgbaSha256": "e631e9656863074405d03e414ee87283f3f0c0410dbbb096b2023bd81908bb09"
+          }
+        ],
+        "parsedByteLength": 480068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/bg_game-frame0.png",
+        "sha256": "63832b1fd55dede6498822a3b752716a6abdc2272d8798528cc53a348cb5f5ad"
+      },
+      "staticUiBindings": [],
+      "staticCoreBindings": []
+    },
+    {
+      "nativePath": "object/ui/bg/bg_logo.img",
+      "sourceSha256": "3e48d2dc4c38bfc97a1f23f30837b972cc1548d12819df059f8f39b860977b3b",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2711,
+        "indexOffset": 138263,
+        "path": "object\\ui\\bg\\bg_logo.img",
+        "reservedWord": 0,
+        "packageOffset": 27593703,
+        "rawByteLength": 1440068,
+        "compressedByteLength": 202539
+      },
+      "metadata": {
+        "byteLength": 1440068,
+        "sha256": "3e48d2dc4c38bfc97a1f23f30837b972cc1548d12819df059f8f39b860977b3b",
+        "version": 65536,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          800,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 3,
+            "width": 800,
+            "height": 600,
+            "unknownImageHeaderWord": 1600,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 1440000,
+            "encodedPixelSha256": "031bdebdc51bd65ee311bb0cd5d9ae9898daf2b253dbcd3d4354b6467651038d",
+            "decodedRgbaSha256": "b2bb2b88d489fb45d1b2b2a03c7f1080475782c27de55da5b60315b1d2915603"
+          }
+        ],
+        "parsedByteLength": 1440068,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/bg_logo-frame0.png",
+        "sha256": "cd203a68a92aeb5126177c765869da4c7892dc57962e8077fb86b1f703514561"
+      },
+      "staticUiBindings": [],
+      "staticCoreBindings": [
+        {
+          "module": "uiLogo",
+          "scope": "?.UI_children_logo.children.bgLogo",
+          "sourceFirstLine": 17,
+          "bytecodeSha256": "85345799e59e704c3cf52092af2c909cc859f5e792b4b62e09f296d39ac8b186",
+          "literalAssignments": {
+            "initlayer": 100000,
+            "rect": [
+              0,
+              0,
+              800,
+              600
+            ],
+            "bkimage": "object/ui/bg/bg_logo.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/common/dlg_setup.img",
+      "sourceSha256": "c74bdb2d873fa3c605d68d199e8cb828abe4357e7e353498590a75f8285b0137",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2759,
+        "indexOffset": 140666,
+        "path": "object\\ui\\common\\dlg_setup.img",
+        "reservedWord": 0,
+        "packageOffset": 29000689,
+        "rawByteLength": 840992,
+        "compressedByteLength": 61562
+      },
+      "metadata": {
+        "byteLength": 840992,
+        "sha256": "c74bdb2d873fa3c605d68d199e8cb828abe4357e7e353498590a75f8285b0137",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          423,
+          497
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              0,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 423,
+            "height": 497,
+            "unknownImageHeaderWord": 1696,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 840924,
+            "encodedPixelSha256": "bd035d8e089fa8bcfe27d12952ea7a6774856bbace63d8fcce9775c7708970dc",
+            "decodedRgbaSha256": "61013ae2813bf548188a07c2ed56782511353bcb8b6ff67d9ed901d5aaa7cc22"
+          }
+        ],
+        "parsedByteLength": 840992,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/dlg_setup-frame0.png",
+        "sha256": "a78429cc284571155ee8b812073225674f76665915471f6fa91cc9b1cb8f96be"
+      },
+      "staticUiBindings": [],
+      "staticCoreBindings": [
+        {
+          "module": "uiMain",
+          "scope": "?.UI.children.setupDlg",
+          "sourceFirstLine": 1960,
+          "bytecodeSha256": "a00f2512bb829e5d84d1e8259708b0838338a25620c7d2cdf0767da8a070d6ba",
+          "literalAssignments": {
+            "initlayer": 99999,
+            "darkBG": 1,
+            "visible": 0,
+            "bkimage": "object/ui/common/dlg_setup.img",
+            "bkimagepos": [
+              -8,
+              -6
+            ]
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    },
+    {
+      "nativePath": "object/ui/game/dlg_playerList.img",
+      "sourceSha256": "939bcbc3beec840390d62d2183be27bddaca9d0e557f913b824b40a202a4f1e0",
+      "sourceArchiveMember": null,
+      "packedIndexEntry": {
+        "ordinal": 2820,
+        "indexOffset": 143649,
+        "path": "object\\ui\\game\\dlg_playerList.img",
+        "reservedWord": 0,
+        "packageOffset": 29745602,
+        "rawByteLength": 441668,
+        "compressedByteLength": 39661
+      },
+      "metadata": {
+        "byteLength": 441668,
+        "sha256": "939bcbc3beec840390d62d2183be27bddaca9d0e557f913b824b40a202a4f1e0",
+        "version": 65537,
+        "frameInfoSize": 24,
+        "frameCount": 1,
+        "directions": 1,
+        "unknownHeaderWordsAt24And28": [
+          0,
+          0
+        ],
+        "declaredCanvas": [
+          191,
+          600
+        ],
+        "declaredCanvasWithinBound": true,
+        "frames": [
+          {
+            "index": 0,
+            "offset": 40,
+            "rawMarker": 0,
+            "frameOffset": [
+              7,
+              0
+            ],
+            "pixelMode": 8,
+            "width": 184,
+            "height": 600,
+            "unknownImageHeaderWord": 736,
+            "empty": false,
+            "pixelDataOffset": 68,
+            "pixelByteLength": 441600,
+            "encodedPixelSha256": "7739acc68f0aeed3ec9ebdcc739795bd51ad77af4199dbb9e37cf5ff359bb5d7",
+            "decodedRgbaSha256": "7b20c93149da0107ed575f09dc330c3d5bee5a748d5de9a7e7c45c0dacaf61be"
+          }
+        ],
+        "parsedByteLength": 441668,
+        "trailingByteLength": 0,
+        "strictCompleteContainerAccepted": true,
+        "referenceOnlyOpaqueVersionedSuffix": false,
+        "trailingBytesSha256": null,
+        "suffixInterpretation": null
+      },
+      "reference": {
+        "file": "assets/native-client-ui/login-v1/references/dlg_playerList-frame0.png",
+        "sha256": "969b58313a0fb2a55017305efd09ee35469e37c92ac1d45e982e3e134e1341d0"
+      },
+      "staticUiBindings": [],
+      "staticCoreBindings": [
+        {
+          "module": "uiGame",
+          "scope": "?.UI_children_game.children.playerListDlg",
+          "sourceFirstLine": 362,
+          "bytecodeSha256": "099fe587d0be8446ee7c9f461e68e37a68551eb1a3a0fe0787ffff8c5f460886",
+          "literalAssignments": {
+            "initlayer": -999999,
+            "rect": [
+              609,
+              0,
+              1,
+              1
+            ],
+            "bkimage": "object/ui/game/dlg_playerList.img"
+          },
+          "activeControlFlowConfirmed": false
+        }
+      ]
+    }
+  ]
+}

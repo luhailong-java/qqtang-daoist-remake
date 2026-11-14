@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "scope": "local draft creature pose candidates",
+  "catalog": {
+    "file": "assets/maps/exploration/creatures/art.json",
+    "sha256": "2e11ad2dc9d912a2f5ce29d55ae6e92c71bd070c22ea547996d12967b8e12cad"
+  },
+  "entries": [
+    {
+      "id": "sprout",
+      "projectDisplayName": "初芽团精",
+      "artworkCatalogId": 30000,
+      "sourceEntityId": null,
+      "sourcePlaybackVerified": false,
+      "originalMaster": "assets/maps/exploration/creatures/30000-master-v1.png",
+      "frames": [
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/stand.png",
+          "sha256": "5c7c64c2d6d8630fc1a30aae328be3259396f1ee46673b1562c7c4af310396b1",
+          "pose": "stand",
+          "projectDisplayName": "待机",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            52,
+            31,
+            203,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png",
+            "sha256": "9f36ee2a7c3225c5b9ea638bdd94005fbc5310605956678f685776e75b5ec5a5"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png.generation.json",
+            "sha256": "3664834b79b11c4fc994fe098776720fadbfb6d212fff74e9c78b89e7f8a7a11"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/stand.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "alpha8BoxWithinCell": [
+              108,
+              19,
+              430,
+              434
+            ],
+            "maximumEdgeAlpha": 2,
+            "uniformScale": 0.47,
+            "sourceRootXWithinCellForPreview": 270,
+            "placementPx": [
+              52,
+              31
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/step-left.png",
+          "sha256": "f53fa3c7f7a6de805aa34be5e030ff720566e643495535d95b29e0a3ba7424f5",
+          "pose": "step-left",
+          "projectDisplayName": "左脚着地",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            57,
+            30,
+            205,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png",
+            "sha256": "9f36ee2a7c3225c5b9ea638bdd94005fbc5310605956678f685776e75b5ec5a5"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png.generation.json",
+            "sha256": "3664834b79b11c4fc994fe098776720fadbfb6d212fff74e9c78b89e7f8a7a11"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/step-left.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "alpha8BoxWithinCell": [
+              94,
+              19,
+              408,
+              435
+            ],
+            "maximumEdgeAlpha": 2,
+            "uniformScale": 0.47,
+            "sourceRootXWithinCellForPreview": 246,
+            "placementPx": [
+              57,
+              30
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/step-right.png",
+          "sha256": "3cad809920f57b163706f856a8e7ec021dc2540c8c7cc7c191cfda49b77a4fce",
+          "pose": "step-right",
+          "projectDisplayName": "右脚着地",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            58,
+            30,
+            205,
+            225
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png",
+            "sha256": "9f36ee2a7c3225c5b9ea638bdd94005fbc5310605956678f685776e75b5ec5a5"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png.generation.json",
+            "sha256": "3664834b79b11c4fc994fe098776720fadbfb6d212fff74e9c78b89e7f8a7a11"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/step-right.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              1024,
+              0,
+              1536,
+              512
+            ],
+            "alpha8BoxWithinCell": [
+              90,
+              21,
+              405,
+              437
+            ],
+            "maximumEdgeAlpha": 2,
+            "uniformScale": 0.47,
+            "sourceRootXWithinCellForPreview": 239,
+            "placementPx": [
+              58,
+              30
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/windup.png",
+          "sha256": "ff1da03c25b7bd015ea093cb6b2c897d5655ae15871c5be45cad111a7e37eb55",
+          "pose": "windup",
+          "projectDisplayName": "蓄势",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            54,
+            34,
+            209,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png",
+            "sha256": "9f36ee2a7c3225c5b9ea638bdd94005fbc5310605956678f685776e75b5ec5a5"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png.generation.json",
+            "sha256": "3664834b79b11c4fc994fe098776720fadbfb6d212fff74e9c78b89e7f8a7a11"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/windup.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "alpha8BoxWithinCell": [
+              110,
+              33,
+              439,
+              441
+            ],
+            "maximumEdgeAlpha": 1,
+            "uniformScale": 0.47,
+            "sourceRootXWithinCellForPreview": 267,
+            "placementPx": [
+              54,
+              34
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/release.png",
+          "sha256": "567d514554defa98703a1169fc27d9ba94274b4470e026cd25fe0e509f3da54d",
+          "pose": "release",
+          "projectDisplayName": "挥杖",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            22,
+            32,
+            200,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout_fix-atlas.png",
+            "sha256": "292d0bb65960340b4e818614b6da42b11462f25b27e035c266431e0c7a9a4bb6"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout_fix-atlas.png.generation.json",
+            "sha256": "9b74449719915f1c661fea4fb47082d86aa5099a8ca5dc9b161447b066c4b986"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/release.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              512,
+              512,
+              1024,
+              1024
+            ],
+            "alpha8BoxWithinCell": [
+              23,
+              27,
+              403,
+              440
+            ],
+            "maximumEdgeAlpha": 1,
+            "uniformScale": 0.47,
+            "sourceRootXWithinCellForPreview": 250,
+            "placementPx": [
+              21,
+              32
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/recoil.png",
+          "sha256": "977cc3c23049710519a0378ac0c52d9e48479f416d31cdc6d0b4ea220c990954",
+          "pose": "recoil",
+          "projectDisplayName": "受击",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            55,
+            23,
+            205,
+            218
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png",
+            "sha256": "9f36ee2a7c3225c5b9ea638bdd94005fbc5310605956678f685776e75b5ec5a5"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png.generation.json",
+            "sha256": "3664834b79b11c4fc994fe098776720fadbfb6d212fff74e9c78b89e7f8a7a11"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/sprout/recoil.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              1024,
+              512,
+              1536,
+              1024
+            ],
+            "alpha8BoxWithinCell": [
+              96,
+              22,
+              415,
+              437
+            ],
+            "maximumEdgeAlpha": 1,
+            "uniformScale": 0.47,
+            "sourceRootXWithinCellForPreview": 252,
+            "placementPx": [
+              55,
+              23
+            ],
+            "previewBaselineY": 218,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        }
+      ],
+      "preview": {
+        "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-contact.png",
+        "sha256": "bc8b9d00af43224334427c7844e47586c890521a5fbf9b4b654615373773c306",
+        "sizesPx": [
+          32,
+          48,
+          64,
+          128
+        ],
+        "backgrounds": [
+          "#f6f0df",
+          "#183e37"
+        ],
+        "newModelGeneration": false,
+        "runtimeScreenshot": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false
+    },
+    {
+      "id": "lingzhi",
+      "projectDisplayName": "灵芝盘翁",
+      "artworkCatalogId": 30006,
+      "sourceEntityId": null,
+      "sourcePlaybackVerified": false,
+      "originalMaster": "assets/maps/exploration/creatures/boss-extension/30006-master-v1.png",
+      "frames": [
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/stand.png",
+          "sha256": "b214410fc95803f6501f9829cd47122fc2500599817457ce501c19a14a0c5313",
+          "pose": "stand",
+          "projectDisplayName": "待机",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            41,
+            54,
+            223,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png",
+            "sha256": "7ab591add6878b6c56e81845a3e264957deada120b4a25cea3c27d130332950c"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png.generation.json",
+            "sha256": "cc8570d78059d03ccf0d930c971557ffd07636c5eb9ed097dd3a49f256d4c3da"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/stand.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "alpha8BoxWithinCell": [
+              54,
+              56,
+              467,
+              447
+            ],
+            "maximumEdgeAlpha": 2,
+            "uniformScale": 0.44,
+            "sourceRootXWithinCellForPreview": 252,
+            "placementPx": [
+              41,
+              54
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/step-left.png",
+          "sha256": "c1e14c0074d6512fe19a44b8502b1f112c29ed022c39b1ab91a9e921c5d27160",
+          "pose": "step-left",
+          "projectDisplayName": "左脚着地",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            40,
+            54,
+            219,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png",
+            "sha256": "7ab591add6878b6c56e81845a3e264957deada120b4a25cea3c27d130332950c"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png.generation.json",
+            "sha256": "cc8570d78059d03ccf0d930c971557ffd07636c5eb9ed097dd3a49f256d4c3da"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/step-left.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "alpha8BoxWithinCell": [
+              50,
+              57,
+              456,
+              447
+            ],
+            "maximumEdgeAlpha": 1,
+            "uniformScale": 0.44,
+            "sourceRootXWithinCellForPreview": 249,
+            "placementPx": [
+              40,
+              54
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/step-right.png",
+          "sha256": "a31272e5c226e3eaf1224da1fbdd2b1ef37a050a713b74fc00c345a3cfa69525",
+          "pose": "step-right",
+          "projectDisplayName": "右脚着地",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            41,
+            54,
+            224,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png",
+            "sha256": "7ab591add6878b6c56e81845a3e264957deada120b4a25cea3c27d130332950c"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png.generation.json",
+            "sha256": "cc8570d78059d03ccf0d930c971557ffd07636c5eb9ed097dd3a49f256d4c3da"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/step-right.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              1024,
+              0,
+              1536,
+              512
+            ],
+            "alpha8BoxWithinCell": [
+              46,
+              56,
+              461,
+              447
+            ],
+            "maximumEdgeAlpha": 2,
+            "uniformScale": 0.44,
+            "sourceRootXWithinCellForPreview": 243,
+            "placementPx": [
+              41,
+              54
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/windup.png",
+          "sha256": "28096bd0a372cf22659711e1526ecf741e8ded887adc3e8d62de82d899fae1a2",
+          "pose": "windup",
+          "projectDisplayName": "蓄势",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            38,
+            51,
+            229,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png",
+            "sha256": "7ab591add6878b6c56e81845a3e264957deada120b4a25cea3c27d130332950c"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png.generation.json",
+            "sha256": "cc8570d78059d03ccf0d930c971557ffd07636c5eb9ed097dd3a49f256d4c3da"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/windup.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "alpha8BoxWithinCell": [
+              56,
+              50,
+              489,
+              448
+            ],
+            "maximumEdgeAlpha": 2,
+            "uniformScale": 0.44,
+            "sourceRootXWithinCellForPreview": 260,
+            "placementPx": [
+              38,
+              51
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/release.png",
+          "sha256": "67fe24b98b57ff8e32ac28aa652c4b1c30fa5ee014c5716b10e5f3794ca735f6",
+          "pose": "release",
+          "projectDisplayName": "挥杖",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            20,
+            52,
+            227,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png",
+            "sha256": "7ab591add6878b6c56e81845a3e264957deada120b4a25cea3c27d130332950c"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png.generation.json",
+            "sha256": "cc8570d78059d03ccf0d930c971557ffd07636c5eb9ed097dd3a49f256d4c3da"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/release.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              512,
+              512,
+              1024,
+              1024
+            ],
+            "alpha8BoxWithinCell": [
+              15,
+              52,
+              486,
+              448
+            ],
+            "maximumEdgeAlpha": 1,
+            "uniformScale": 0.44,
+            "sourceRootXWithinCellForPreview": 260,
+            "placementPx": [
+              20,
+              52
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        },
+        {
+          "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/recoil.png",
+          "sha256": "d718001eead3813fbfe3365b460b680d53e2a662ba283e180608b9233d4ff00f",
+          "pose": "recoil",
+          "projectDisplayName": "受击",
+          "width": 256,
+          "height": 256,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alpha8BBox": [
+            36,
+            52,
+            226,
+            226
+          ],
+          "derivedFrom": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png",
+            "sha256": "7ab591add6878b6c56e81845a3e264957deada120b4a25cea3c27d130332950c"
+          },
+          "generationRecord": {
+            "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-atlas.png.generation.json",
+            "sha256": "cc8570d78059d03ccf0d930c971557ffd07636c5eb9ed097dd3a49f256d4c3da"
+          },
+          "provenanceRecord": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi/recoil.png.provenance.json",
+          "operation": {
+            "sourceCellLTRB": [
+              1024,
+              512,
+              1536,
+              1024
+            ],
+            "alpha8BoxWithinCell": [
+              48,
+              51,
+              479,
+              447
+            ],
+            "maximumEdgeAlpha": 2,
+            "uniformScale": 0.44,
+            "sourceRootXWithinCellForPreview": 258,
+            "placementPx": [
+              36,
+              52
+            ],
+            "previewBaselineY": 226,
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "sourceFrameIndex": null,
+          "sourceTimingMs": null,
+          "nativeActorAnchor": null,
+          "visualAccepted": false,
+          "runtimeAdopted": false
+        }
+      ],
+      "preview": {
+        "file": "assets/maps/exploration/creatures/draft-motion-20261113/lingzhi-contact.png",
+        "sha256": "d9584fd7aab52284b5aa15a1b600910be229d794359450d240bed15cb2d83d72",
+        "sizesPx": [
+          32,
+          48,
+          64,
+          128
+        ],
+        "backgrounds": [
+          "#f6f0df",
+          "#183e37"
+        ],
+        "newModelGeneration": false,
+        "runtimeScreenshot": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false
+    }
+  ]
+}

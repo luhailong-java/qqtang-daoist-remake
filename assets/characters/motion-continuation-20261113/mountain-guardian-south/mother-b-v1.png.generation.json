@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/mother-b-v1.png",
+  "sha256": "4e5a76ab1b2a63d6b730b6cce3e42f07b270504665d5403dc3e7a067ee619ec8",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Produce one original transparent game sprite strip with exactly THREE full-body Mountain Guardian poses, one per equal horizontal cell. Match ref 1 for identity. Refs 2–3 are only the phase order and action geometry from our motion reference; disregard source red clothes and back-mounted prop. Refs 4–5 are handcrafted Chinese Daoist Q finishing style. Our guardian has a brown updo, sage ribbon, gold-embroidered jade and warm ochre robes, gold shoulder caps, ivory puff trousers, short gold-trimmed jade brown boots. Keep exactly one round jade-gold shield with pale tassel on his shield arm and exactly one gold ring staff, gripped upright in the other hand. Lock both prop hands, both prop shapes, head height, waist height, silhouette scale and camera. Staff ring, tassel, robes and feet stay fully in cell with clear space all around. Both short legs attached, only a modest receding toe/heel lift, no marching, kick, long leg, action effects, shadows, text or scene. True transparent PNG. Strict straight FRONT view, exactly ref 1, both eyes open in all three. Staff on SCREEN LEFT, shield on SCREEN RIGHT. Follow BOTTOM row. f21: both front-pointing boots flat and level, arms neutral. f22: the boot nearest the STAFF (screen LEFT) stays LOWEST at the standing baseline and fully planted, the boot beneath the SHIELD (screen RIGHT) is slightly receding. The receding toe appears higher on the page, by roughly 25 to 40 pixels in a 724px cell. f23: staff-side boot remains lowest, shield-side boot stays slightly higher, keep both toes visible from above, no bottom of shoe seen. Raise the shield-side sleeve and shield slightly together. Keep the gait compact.",
+  "submittedPromptSha256": "c15ec342b7a56e92e1600cd7d9db122d02373754874dabe8456be2da344c003b",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/mountain-guardian-S.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/mountain-guardian-south/source-south-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/mountain-guardian-south/source-south-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin output did not disclose model/quality.",
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/mountain-guardian-S.png",
+      "sha256": "819799c0774aa4d5637c4b7438007df37458e79cbcc5554f854b0abcf39af051",
+      "role": "own identity"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/source-south-six-phases.png",
+      "sha256": "557c86284d69925ed5c8c3fa41090d27cf5fe71510b3d2b0813b50ff4cd2bc23",
+      "role": "source pose structure"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/source-south-lower-body.png",
+      "sha256": "1dfaf9d267712951f9f22bd7e7e16e98cd1b1f181300986b81de77d2b4473ab7",
+      "role": "source feet and sleeve timing order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q hand-painted style"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/submission-b-v1.json",
+    "sha256": "376a291737df1cb69fba0864030259b7d76334ff7847c47ff11f5abd652eaf1f"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261113/mountain-guardian-south/result-b-v1.json",
+    "sha256": "3c6ae84a7a58c07fbd7ed77db59a8969cead6cbb95dd8d80518049c4ce601f2a"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-e29bc776-e676-4147-940c-86ac09e3ddf3.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T09:38:09.430258+00:00",
+  "timeEvidence": "Native file modification time; actual model-side generation time undisclosed.",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}

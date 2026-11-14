@@ -14,6 +14,7 @@ const CONTENT_RECTS = Object.freeze({
   30000: Object.freeze([247, 84, 823, 1041]),
   30006: Object.freeze([57, 138, 1181, 1014]),
 });
+const RESCUE_CUE_DURATION_MS = 320;
 const safePath = value => typeof value === 'string' && value.startsWith('assets/')
   && !value.includes('..') && !/[\\?#:\u0000-\u001f]/.test(value);
 
@@ -37,7 +38,7 @@ function asset(entry, manifest, extra = {}) {
 export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
   createImage = () => new globalThis.Image()} = {}) {
   const pickups = new Map(), creatures = new Map(), props = new Map(), images = new Map(), errors = [];
-  let bubble = null, blast = null, heldShield = null, loading;
+  let bubble = null, blast = null, heldShield = null, rescueLower = null, rescueUpper = null, loading;
 
   async function read(manifest, apply) {
     try {
@@ -81,10 +82,19 @@ export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
         blast = asset(frame || {}, MANIFESTS.flames, {artworkResource: 'flame10_stand', selectedFrameIndex: 0});
       }),
       read(MANIFESTS.states, data => {
+        const frameOf = (resource, index) => data.resources.find(entry => entry.sourceResource === resource)?.frames
+          .find(entry => entry.frameIndex === index && !entry.empty);
         // A static own painting for the existing shield flag. The original lookup, anchor and pace remain unknown.
-        const frame = data.resources.find(entry => entry.sourceResource === 'magic3')?.frames
-          .find(entry => entry.frameIndex === 2 && !entry.empty);
-        heldShield = asset(frame || {}, MANIFESTS.states, {artworkResource: 'magic3', selectedFrameIndex: 2});
+        const shieldFrame = frameOf('magic3', 2);
+        heldShield = asset(shieldFrame || {}, MANIFESTS.states, {artworkResource: 'magic3', selectedFrameIndex: 2});
+        // Draw only a complete pair. This local cue has its own placement and duration.
+        const lowerFrame = frameOf('magic40', 0), upperFrame = frameOf('magic41', 0);
+        if (lowerFrame && upperFrame) {
+          const lower = asset(lowerFrame, MANIFESTS.states, {artworkResource: 'magic40', selectedFrameIndex: 0});
+          const upper = asset(upperFrame, MANIFESTS.states, {artworkResource: 'magic41', selectedFrameIndex: 0});
+          rescueLower = lower;
+          rescueUpper = upper;
+        }
       }),
       read(MANIFESTS.props, data => {
         const entries = new Map();
@@ -151,9 +161,24 @@ export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
     ctx.drawImage(entry.image, sx, sy, sw, sh, x + (width - w) / 2, y + (height - h) / 2, w, h);
     return true;
   }
+  function drawRescueCue(ctx, elapsedMs, x, y) {
+    if (!Number.isFinite(elapsedMs) || elapsedMs < 0 || elapsedMs >= RESCUE_CUE_DURATION_MS) return false;
+    if (![x, y].every(Number.isFinite) || !rescueLower || !rescueUpper) return false;
+    const lower = requestImage(rescueLower), upper = requestImage(rescueUpper);
+    if (!lower.ready || !upper.ready) return false;
+    ctx.save();
+    try {
+      ctx.globalAlpha *= Math.min(1, 2 * (1 - elapsedMs / RESCUE_CUE_DURATION_MS));
+      draw(ctx, rescueUpper, x - 48, y - 41, 96, 34);
+      draw(ctx, rescueLower, x - 43, y + 13, 86, 41);
+    } finally {
+      ctx.restore();
+    }
+    return true;
+  }
   async function preloadDefaults() {
     await load();
-    await Promise.all([pickups.get(1), pickups.get(2), pickups.get(3), bubble, blast, heldShield, ...props.values()]
+    await Promise.all([pickups.get(1), pickups.get(2), pickups.get(3), bubble, blast, heldShield, rescueLower, rescueUpper, ...props.values()]
       .filter(Boolean).map(descriptor => requestImage(descriptor).promise));
     return status();
   }
@@ -167,6 +192,8 @@ export function createBattleArtRuntime({fetchImpl = globalThis.fetch,
     propDescriptor: slot => props.get(slot) || null,
     bubbleDescriptor: () => bubble, blastDescriptor: () => blast,
     heldShieldDescriptor: () => heldShield,
+    rescueDescriptors: () => [rescueLower, rescueUpper].filter(Boolean),
+    drawRescueCue,
     drawPickup: (ctx, pickup, ...bounds) => draw(ctx, pickupDescriptor(pickup), ...bounds),
     drawProp: (ctx, slot, ...bounds) => draw(ctx, props.get(slot), ...bounds),
     drawMonster: (ctx, monster, game, ...bounds) => draw(ctx, monsterDescriptor(monster, game)?.asset, ...bounds),
@@ -184,4 +211,5 @@ export const drawBattleMonster = (...args) => runtime.drawMonster(...args);
 export const drawBattleBubble = (...args) => runtime.drawBubble(...args);
 export const drawBattleBlast = (...args) => runtime.drawBlast(...args);
 export const drawHeldShield = (...args) => runtime.drawHeldShield(...args);
+export const drawRescueCue = (...args) => runtime.drawRescueCue(...args);
 export const battleArtStatus = () => runtime.status();

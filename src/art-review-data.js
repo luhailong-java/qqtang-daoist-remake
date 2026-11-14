@@ -1,5 +1,34 @@
 // Diagnostic adapters only. Raw offsets retain their source meaning; these are not gameplay bindings.
-export const sequenceCategories = new Set(['effects', 'pickupSequences', 'headWorld', 'headWorld114', 'headWorld39', 'backWorld', 'mapSequences', 'characterMotion']);
+export const sequenceCategories = new Set(['effects', 'pickupSequences', 'headWorld', 'headWorld114', 'headWorld39', 'backWorld', 'wingWorld', 'entryWorld', 'mapSequences', 'characterMotion']);
+export function entryWorldSequence(data) {
+  return {
+    sourceResource: `enter${data.resourceId}_stand`, projectEffectName: data.projectDisplayName,
+    frameCount: data.positions.length, originalFrameDurationMs: null,
+    diagnosticNote: '原资源是满幅不透明图。按源偏移显示，入场触发、层次和时序待核。',
+    frames: data.positions.map(p => ({...p, frameIndex: p.index,
+      sourceFrame: {width: p.sourceSize[0], height: p.sourceSize[1], frameOffset: p.sourceRawOffset}})),
+  };
+}
+export function wingWorldSequences(data) {
+  return Object.entries(data.memberPositions).map(([kind, positions]) => {
+    const originals = new Map();
+    return {
+      sourceResource: `fpack${data.resourceId}_${kind}`,
+      projectEffectName: `${data.projectDisplayName} · ${kind === 'stand' ? '站立源位置' : '行走源位置'}`,
+      frameCount: positions.length,
+      originalFrameDurationMs: null,
+      diagnosticNote: '两份源资源字节相同。按源偏移展示，视向、实际佩戴锚点和时序待核。',
+      frames: positions.map((position, ordinal) => {
+        const first = originals.get(position.uniqueRasterIndex);
+        if (first === undefined) originals.set(position.uniqueRasterIndex, ordinal);
+        return {
+          ...position.candidate, frameIndex: position.index, reuseOfFrameIndex: first,
+          sourceFrame: {width: position.sourceSize[0], height: position.sourceSize[1], frameOffset: position.sourceRawOffset},
+        };
+      }),
+    };
+  });
+}
 export function headWorldSequences(data, sourceClass = 'thadorn') {
   return data.items.map(item => ({
     ...item, sourceResource: `${sourceClass}-${item.itemId}`, projectEffectName: item.projectDisplayName??item.sourceName,
@@ -25,7 +54,7 @@ export function mapSequence(data) {
 }
 
 export function characterDiagnosticSequence(data) {
-  const actor = {'daoist-child': '道童', 'moon-shadow': '月影'}[data.characterId] ?? data.characterId;
+  const actor = {'daoist-child': '道童', 'moon-shadow': '月影', 'mountain-guardian': '山岳'}[data.characterId] ?? data.characterId;
   const direction = {N: '北向', E: '东向', S: '南向', W: '西向'}[data.direction] ?? data.direction;
   const previewPosition = new Map(data.frames.map((frame, index) => [frame.sourceFrameIndex, index]));
   return {

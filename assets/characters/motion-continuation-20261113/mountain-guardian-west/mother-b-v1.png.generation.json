@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/motion-continuation-20261113/mountain-guardian-west/mother-b-v1.png",
+  "sha256": "422477ba1b5ffdbbe897a09900abaca15c8dc2b8a9df88b0f4802e43a75b4d9f",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Paint exactly three original transparent game sprite poses of OUR Mountain Guardian walking toward the LEFT, arranged in one horizontal row, one full-body chibi per equal square panel, generous completely transparent gutters. Ref 1 is our exact own existing west-facing character identity, refs 2 and 3 show the action poses and source view only, and refs 4 and 5 give the handcrafted Chinese Daoist Q palette and painted finish. Keep our own brown updo with sage ribbon, exactly one visible profile eye, ivory and warm jade robes with gold embroidery, gold shoulder cap, compact navy-green boots, single round jade-gold shield worn on the near arm and single gold ring-topped staff held upright in the far hand and visible just ahead of the nose. Preserve tassel and shield center. Staff and shield silhouettes must stay entirely inside their own cell. Fixed left profile with one eye for all three frames. No second weapon, no source red-orange clothing, no flickering shield shape, no side swaps. All three same scale, grounded compact walking, short legs with two clearly attached recognizable shoes emerging below the shield and coat. No explosion, decorative scene, grid, shadows, floor or text. Crisp true transparent alpha around each pose and all props. Follow the BOTTOM source row. f15: closed single eyelid for a blink, legs overlap almost fully under waist, nearer sole flat and tiny far toe peeks left and higher. Both arms low and steady. f16: eye open. Leading LEFT boot is visibly lifted and tipped upward a little, trailing RIGHT boot is firmly planted flat and carries weight. Near arm and shield swing very slightly forward toward screen LEFT. f17: eye open. Leading LEFT boot is now flat and lowest, rear RIGHT heel lifts with the toe close to the ground. Near shield remains slightly forward. Both props in their established hands. Short compact steps and same hip height. ",
+  "submittedPromptSha256": "093876f323ba68d562bde092747c9b1dc230b9edfc3356ac11fa71ddfe8db373",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/characters/idle/v1/mountain-guardian-W.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/mountain-guardian-west/source-west-six-phases.png",
+      "E:/work/qqtang-daoist-remake/assets/characters/motion-continuation-20261113/mountain-guardian-west/source-west-lower-body.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin output did not disclose model/quality.",
+  "references": [
+    {
+      "file": "assets/characters/idle/v1/mountain-guardian-W.png",
+      "sha256": "eea80454223de6b96e28a315f7c8cac5c1ca64a6e9101f2103a952fb3d0ad332",
+      "role": "own identity"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/mountain-guardian-west/source-west-six-phases.png",
+      "sha256": "edf854e1d090bb2ff395b2eb889bf511804441dcb01ecb862a9db6bb01de9aa9",
+      "role": "source pose structure"
+    },
+    {
+      "file": "assets/characters/motion-continuation-20261113/mountain-guardian-west/source-west-lower-body.png",
+      "sha256": "69f27dc6c25ac580b1f02a250756f001794cff402655d8505a1ef4d59777a5da",
+      "role": "source feet and sleeve timing order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q hand-painted style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q hand-painted style"
+    }
+  ],
+  "submission": {
+    "file": "assets/characters/motion-continuation-20261113/mountain-guardian-west/submission-b-v1.json",
+    "sha256": "194eec380b733d2fe45599bfa63ba47ae5cb6d2ca50ce2cb7b2939ca11fa32dd"
+  },
+  "returnedMetadata": {
+    "file": "assets/characters/motion-continuation-20261113/mountain-guardian-west/result-b-v1.json",
+    "sha256": "cb652862ce67c429afae3378a04a9a21e077a2342aecafc2918049e1f2fdb308"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-b269f208-63b4-4fe7-a4bd-37bda6586e62.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-13T08:36:00.156130+00:00",
+  "timeEvidence": "Native file modification time; actual model-side generation time undisclosed.",
+  "visualAccepted": false,
+  "runtimeAdopted": false,
+  "accepted": false
+}

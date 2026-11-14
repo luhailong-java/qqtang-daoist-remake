@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "category": "enter",
+  "itemId": 1658,
+  "resourceId": 32,
+  "projectDisplayName": "玉龙迎云",
+  "density": 4,
+  "sourceDeclaredCanvas": [
+    100,
+    100
+  ],
+  "sourceContract": {
+    "file": "assets/items/entry-effects/world-1658/source-contract.json",
+    "sha256": "024eb6681abb29ffd4696a3c45e32915a8a735d889466caabe409c6f91f41fb8"
+  },
+  "sourceMember": {
+    "path": "QQTang-Local/runtime/client-patched/object/enter/enter32_stand.img",
+    "catalogInstalledFile": "object/enter/enter32_stand.img",
+    "sha256": "24ce511725bbbffa3ca3e795d31d862bfa31f5a9850483f43ae0182200c403c7"
+  },
+  "positions": [
+    {
+      "index": 0,
+      "phaseDescription": "星空",
+      "sourceSize": [
+        100,
+        100
+      ],
+      "sourceRawOffset": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "assets/items/entry-effects/world-1658/references/00-source.png",
+        "sha256": "da21fe93ad40ff7bb85d2158660732430949f6c9d55a58db50b26260348d1118"
+      },
+      "density4Size": [
+        400,
+        400
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "file": "assets/items/entry-effects/world-1658/sprites/00-entry.png",
+      "sha256": "0d0cf2838d2e2f539867ca671648b8ecf0aa4f0e06abb674599b4bce677ec762",
+      "derivedFrom": [
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        }
+      ],
+      "operation": {
+        "commonBackground": {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        "layersInCompositeOrder": [],
+        "composite": "RGBA source-over",
+        "newModelGeneration": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "provenance": {
+        "file": "assets/items/entry-effects/world-1658/sprites/00-entry.png.provenance.json",
+        "sha256": "aaf973c6bc3f3a5153d887382de444310896201fcd4e0f36a73458ff41866795"
+      }
+    },
+    {
+      "index": 1,
+      "phaseDescription": "窄光柱",
+      "sourceSize": [
+        100,
+        100
+      ],
+      "sourceRawOffset": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "assets/items/entry-effects/world-1658/references/01-source.png",
+        "sha256": "77c9d7cceccf8fbc23370f9d1048a34b10a1afa0f152cf7b7be72718461ef811"
+      },
+      "density4Size": [
+        400,
+        400
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "file": "assets/items/entry-effects/world-1658/sprites/01-entry.png",
+      "sha256": "10dec576288f3a8f091bd53e172dfb99af00eaca774596fe04a36d7adf433548",
+      "derivedFrom": [
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        }
+      ],
+      "operation": {
+        "commonBackground": {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        "layersInCompositeOrder": [
+          {
+            "name": "beamNarrow",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "cropEdgeAlphaMax": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "alpha16BoundsInCrop": [
+              224,
+              78,
+              288,
+              435
+            ],
+            "destinationXYXY": [
+              158,
+              0,
+              242,
+              400
+            ],
+            "actualPaintedSize": [
+              84,
+              400
+            ],
+            "placement": [
+              158,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "fit axis-aligned light shaft to full-height target"
+          }
+        ],
+        "composite": "RGBA source-over",
+        "newModelGeneration": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "provenance": {
+        "file": "assets/items/entry-effects/world-1658/sprites/01-entry.png.provenance.json",
+        "sha256": "2e54b9a220bd569cf489bb67f186dddfaaea9d7f327e61d99f93c051aadec5da"
+      }
+    },
+    {
+      "index": 2,
+      "phaseDescription": "宽光柱与金白龙影",
+      "sourceSize": [
+        100,
+        100
+      ],
+      "sourceRawOffset": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "assets/items/entry-effects/world-1658/references/02-source.png",
+        "sha256": "f1902b98a78be2dc5f02696857f78ad6fc120577d2c34dcaf8dbd9a4d5b4b720"
+      },
+      "density4Size": [
+        400,
+        400
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "file": "assets/items/entry-effects/world-1658/sprites/02-entry.png",
+      "sha256": "507da9958a6460c63d707574f3e990bb9d9486d656fb2ace4b40ab291b917cc1",
+      "derivedFrom": [
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        }
+      ],
+      "operation": {
+        "commonBackground": {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        "layersInCompositeOrder": [
+          {
+            "name": "beamWide",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "cropEdgeAlphaMax": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "alpha16BoundsInCrop": [
+              189,
+              78,
+              322,
+              435
+            ],
+            "destinationXYXY": [
+              134,
+              0,
+              266,
+              400
+            ],
+            "actualPaintedSize": [
+              132,
+              400
+            ],
+            "placement": [
+              134,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "fit axis-aligned light shaft to full-height target"
+          },
+          {
+            "name": "silhouette",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              1024,
+              0,
+              1536,
+              512
+            ],
+            "cropEdgeAlphaMax": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "alpha16BoundsInCrop": [
+              55,
+              143,
+              450,
+              362
+            ],
+            "destinationXYXY": [
+              16,
+              58,
+              384,
+              274
+            ],
+            "actualPaintedSize": [
+              368,
+              204
+            ],
+            "placement": [
+              16,
+              64
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "uniformly fit dragon alpha crop into authored target area"
+          }
+        ],
+        "composite": "RGBA source-over",
+        "newModelGeneration": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "provenance": {
+        "file": "assets/items/entry-effects/world-1658/sprites/02-entry.png.provenance.json",
+        "sha256": "c7c78733ac56d8257643d64215e198251294186b66f65d13217bd3f6be112523"
+      }
+    },
+    {
+      "index": 3,
+      "phaseDescription": "窄光柱与暖色显形",
+      "sourceSize": [
+        100,
+        100
+      ],
+      "sourceRawOffset": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "assets/items/entry-effects/world-1658/references/03-source.png",
+        "sha256": "b79f5e204a16829baf6a154b862a28f5d1a91f202f015f03c486a53973b2e666"
+      },
+      "density4Size": [
+        400,
+        400
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "file": "assets/items/entry-effects/world-1658/sprites/03-entry.png",
+      "sha256": "5d299f4f6afa0904b1d3746507bcd8af90140573a4e7e37c271ca14fb9e53097",
+      "derivedFrom": [
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        }
+      ],
+      "operation": {
+        "commonBackground": {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        "layersInCompositeOrder": [
+          {
+            "name": "beamNarrow",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "cropEdgeAlphaMax": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "alpha16BoundsInCrop": [
+              224,
+              78,
+              288,
+              435
+            ],
+            "destinationXYXY": [
+              158,
+              0,
+              242,
+              400
+            ],
+            "actualPaintedSize": [
+              84,
+              400
+            ],
+            "placement": [
+              158,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "fit axis-aligned light shaft to full-height target"
+          },
+          {
+            "name": "warmDragon",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "cropEdgeAlphaMax": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "alpha16BoundsInCrop": [
+              59,
+              139,
+              456,
+              362
+            ],
+            "destinationXYXY": [
+              16,
+              58,
+              384,
+              274
+            ],
+            "actualPaintedSize": [
+              368,
+              207
+            ],
+            "placement": [
+              16,
+              62
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "uniformly fit dragon alpha crop into authored target area"
+          }
+        ],
+        "composite": "RGBA source-over",
+        "newModelGeneration": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "provenance": {
+        "file": "assets/items/entry-effects/world-1658/sprites/03-entry.png.provenance.json",
+        "sha256": "b6e7141ad6a7225fd1cd6942c6bd68310f0104bf18961cac2c313ff25cdc61fc"
+      }
+    },
+    {
+      "index": 4,
+      "phaseDescription": "宽光柱与青玉龙",
+      "sourceSize": [
+        100,
+        100
+      ],
+      "sourceRawOffset": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "assets/items/entry-effects/world-1658/references/04-source.png",
+        "sha256": "3c39b69b9a9b79ad33f5e998693c6925fd0adf49861eed789b6e677f44f13f9c"
+      },
+      "density4Size": [
+        400,
+        400
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "file": "assets/items/entry-effects/world-1658/sprites/04-entry.png",
+      "sha256": "ff2ec204155c86f610d2e8375c4c48ce267c772a30e56ee83a719dfd450c3f8f",
+      "derivedFrom": [
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        }
+      ],
+      "operation": {
+        "commonBackground": {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        "layersInCompositeOrder": [
+          {
+            "name": "beamWide",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "cropEdgeAlphaMax": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "alpha16BoundsInCrop": [
+              189,
+              78,
+              322,
+              435
+            ],
+            "destinationXYXY": [
+              134,
+              0,
+              266,
+              400
+            ],
+            "actualPaintedSize": [
+              132,
+              400
+            ],
+            "placement": [
+              134,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "fit axis-aligned light shaft to full-height target"
+          },
+          {
+            "name": "jadeDragon",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              512,
+              512,
+              1024,
+              1024
+            ],
+            "cropEdgeAlphaMax": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "alpha16BoundsInCrop": [
+              59,
+              139,
+              455,
+              362
+            ],
+            "destinationXYXY": [
+              16,
+              58,
+              384,
+              274
+            ],
+            "actualPaintedSize": [
+              368,
+              207
+            ],
+            "placement": [
+              16,
+              62
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "uniformly fit dragon alpha crop into authored target area"
+          }
+        ],
+        "composite": "RGBA source-over",
+        "newModelGeneration": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "provenance": {
+        "file": "assets/items/entry-effects/world-1658/sprites/04-entry.png.provenance.json",
+        "sha256": "6826038f5c0030da86a4e6d376274ad22e63628a6738a9240ae0d3f5d19d1146"
+      }
+    },
+    {
+      "index": 5,
+      "phaseDescription": "窄光柱与青玉亮边",
+      "sourceSize": [
+        100,
+        100
+      ],
+      "sourceRawOffset": [
+        0,
+        0
+      ],
+      "sourceReference": {
+        "file": "assets/items/entry-effects/world-1658/references/05-source.png",
+        "sha256": "52647051463d81b14e9e6d0f2718dc9bad3640cc28d01cc77b88fac6f6fc92a2"
+      },
+      "density4Size": [
+        400,
+        400
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "file": "assets/items/entry-effects/world-1658/sprites/05-entry.png",
+      "sha256": "395f8bb8755d626b98c72379530a5e45b3b72a798edeb340ebebb7294274d794",
+      "derivedFrom": [
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        },
+        {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        }
+      ],
+      "operation": {
+        "commonBackground": {
+          "file": "assets/items/entry-effects/world-1658/entry-background.png",
+          "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+        },
+        "layersInCompositeOrder": [
+          {
+            "name": "beamNarrow",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "cropEdgeAlphaMax": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "alpha16BoundsInCrop": [
+              224,
+              78,
+              288,
+              435
+            ],
+            "destinationXYXY": [
+              158,
+              0,
+              242,
+              400
+            ],
+            "actualPaintedSize": [
+              84,
+              400
+            ],
+            "placement": [
+              158,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "fit axis-aligned light shaft to full-height target"
+          },
+          {
+            "name": "litDragon",
+            "derivedFrom": {
+              "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+              "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+              "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+            },
+            "cropXYXY": [
+              1024,
+              512,
+              1536,
+              1024
+            ],
+            "cropEdgeAlphaMax": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "alpha16BoundsInCrop": [
+              58,
+              139,
+              456,
+              363
+            ],
+            "destinationXYXY": [
+              16,
+              58,
+              384,
+              274
+            ],
+            "actualPaintedSize": [
+              368,
+              207
+            ],
+            "placement": [
+              16,
+              62
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "method": "uniformly fit dragon alpha crop into authored target area"
+          }
+        ],
+        "composite": "RGBA source-over",
+        "newModelGeneration": false
+      },
+      "visualAccepted": false,
+      "runtimeAdopted": false,
+      "provenance": {
+        "file": "assets/items/entry-effects/world-1658/sprites/05-entry.png.provenance.json",
+        "sha256": "75dffcb9f970cbce3f6f6ff8ddd0a067b4c7b497e1a92b2e2df50f99eeeb8742"
+      }
+    }
+  ],
+  "previews": [
+    {
+      "file": "assets/items/entry-effects/world-1658/contact-source-candidate-mobile.png",
+      "sha256": "5eb3bda928f4ce7d89a5be2aa62850a8fef11e20298cfa1e618d260bb3cd61ff",
+      "inputWorldFrames": [
+        "assets/items/entry-effects/world-1658/sprites/00-entry.png",
+        "assets/items/entry-effects/world-1658/sprites/01-entry.png",
+        "assets/items/entry-effects/world-1658/sprites/02-entry.png",
+        "assets/items/entry-effects/world-1658/sprites/03-entry.png",
+        "assets/items/entry-effects/world-1658/sprites/04-entry.png",
+        "assets/items/entry-effects/world-1658/sprites/05-entry.png"
+      ],
+      "inputInventory": {
+        "file": "assets/items/entry-effects/world-1658/1658-auspicious-jade-dragon.png",
+        "sha256": "1d3f756f49322cafaf8a585aecc018b8b0f87155a8411019e6ddfc7bacd31cd2"
+      },
+      "sourceContract": {
+        "file": "assets/items/entry-effects/world-1658/source-contract.json",
+        "sha256": "024eb6681abb29ffd4696a3c45e32915a8a735d889466caabe409c6f91f41fb8"
+      },
+      "runtimeScreenshot": false
+    }
+  ],
+  "accepted": false,
+  "visualAccepted": false,
+  "geometryAccepted": false,
+  "runtimeAdopted": false,
+  "directionSemanticsConfirmed": false,
+  "timingConfirmed": false,
+  "worldAnchorConfirmed": false,
+  "completeAnimationAccepted": false
+}

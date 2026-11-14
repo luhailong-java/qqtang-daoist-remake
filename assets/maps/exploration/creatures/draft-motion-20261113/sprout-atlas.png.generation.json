@@ -1,0 +1,62 @@
+{
+  "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-atlas.png",
+  "sha256": "9f36ee2a7c3225c5b9ea638bdd94005fbc5310605956678f685776e75b5ec5a5",
+  "generatedAt": "2026-11-13T08:13:53.944Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Tool only disclosed image_url and output_hint.",
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "exactSubmittedArgs": {
+    "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-submitted.json",
+    "sha256": "9737a3e4c017193df76649553a23752ade66c1cb64ea27c6d6f4b09d19ac5a32"
+  },
+  "exactPromptUtf8": {
+    "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-prompt.txt",
+    "sha256": "b79450c230cc004ffaf531987630b611e4e45dca64bb99990d000a31b13a23e3"
+  },
+  "returnedToolEvidence": {
+    "file": "assets/maps/exploration/creatures/draft-motion-20261113/sprout-returned.json",
+    "sha256": "e1904f9329cfbe319e77972b156083a1ca9a7d86a00b7028be158f65ba950a54"
+  },
+  "references": [
+    {
+      "file": "assets/maps/exploration/creatures/30000-master-v1.png",
+      "sha256": "ac282234abf7aca126a992b1cf85157f0a9f12a83efbfc9a39768297c6e10ee4",
+      "role": "existing own character identity"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved mail material and rendering"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved team material and rendering"
+    }
+  ]
+}

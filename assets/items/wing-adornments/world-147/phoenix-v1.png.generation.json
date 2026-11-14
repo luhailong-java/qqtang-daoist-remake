@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/items/wing-adornments/world-147/phoenix-v1.png",
+  "sha256": "a05b8b3c96bea0623908734af644f7cb1cdbd6f3e768bf906c18460d3c9a75d9",
+  "generationRecord": "assets/items/wing-adornments/world-147/phoenix-v1.png.generation.json",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "generatedAtUTC": "2026-11-13T08:12:29.209138+00:00",
+  "timeEvidence": "Host file modification time",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "newModelGeneration": true,
+  "configuredTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "configuredTargetSha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b",
+  "modelQualityReverifiedOn": "2026-11-13",
+  "actualModel": null,
+  "actualQuality": null,
+  "actualEvidence": "Host image generation returned an image and local file path only.",
+  "hostResponseFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d1-305d-7c33-8bf9-012f924dd1ff\\exec-5c1de93d-b716-433d-b3ee-f607ca7231e8.png",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "E:\\work\\qqtang-daoist-remake\\assets\\items\\wing-adornments\\world-147\\references\\source-nine-board.png",
+      "E:\\work\\qqtang-daoist-remake\\assets\\items\\wing-adornments\\spirit-wings-a\\147-ember-phoenix-wings.png",
+      "E:\\work\\qqtang-daoist-remake\\references\\image\\01-mail-event.png",
+      "E:\\work\\qqtang-daoist-remake\\references\\image\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "exactSubmittedArgs": {
+    "file": "assets/items/wing-adornments/world-147/builtin-v1-submission.json",
+    "sha256": "44445189b34e5f9dd5c462e7bc1b9f38188e7bc806695a78760e06b2dc45244b"
+  },
+  "exactPromptUtf8": {
+    "file": "assets/items/wing-adornments/world-147/phoenix-v1.prompt.txt",
+    "sha256": "83e309f67ba2eb2ac54420d2b201a92c71127d349f68e805302ad19568c06919"
+  },
+  "requestedCanvasViaPrompt": [
+    1536,
+    1536
+  ],
+  "references": [
+    {
+      "file": "assets/items/wing-adornments/world-147/references/source-nine-board.png",
+      "sha256": "6f0364d68be9f3e6561f585d0d4955e93a308df46e1f8cd20d0cb8fa414208cc",
+      "role": "source pose morphology",
+      "actuallyViewed": true
+    },
+    {
+      "file": "assets/items/wing-adornments/spirit-wings-a/147-ember-phoenix-wings.png",
+      "sha256": "b2a84825e5509e1091d2cbf882ce2129fc17b2680ebafafaf9b2cd4853054b35",
+      "role": "project inventory identity",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary Daoist style",
+      "actuallyViewed": true
+    }
+  ]
+}

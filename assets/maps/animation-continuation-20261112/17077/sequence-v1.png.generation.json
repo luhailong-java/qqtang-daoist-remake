@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/maps/animation-continuation-20261112/17077/sequence-v1.png",
+  "sha256": "035a96135066096295eb28b4c94f9fc473f096f9c7abe78d87f3171b1302fd9f",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "actualModel": null,
+  "actualQuality": null,
+  "config": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "references": [
+    {
+      "file": "assets/maps/animation-continuation-20261112/17077/source-phase-board.png",
+      "sha256": "41ea8c53f75274d027320733bd69d277f22d431ee4f21862140eb0d64c8bc09b",
+      "role": "Four source phases"
+    },
+    {
+      "file": "assets/maps/common/pieces/17077-crooked-purple-lamp-right-v2.png",
+      "sha256": "34f471d910e95008ff583090d6e32ddfbd1a19901910ef61fdf0086384a668fe",
+      "role": "Original first-frame design"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q art finish"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q art finish"
+    }
+  ],
+  "promptFile": "assets/maps/animation-continuation-20261112/17077/prompt-v1.txt",
+  "promptSha256": "953f26323acc11ae553183762929658c8ccaa983d8240978dbd478dbfb0b7b3e",
+  "exactSubmittedInput": {
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17077/source-phase-board.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17077-crooked-purple-lamp-right-v2.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "prompt": "Draw a four-frame ORIGINAL DAOIST Q game sprite atlas, 1024×1024 square, exactly two columns and two rows, on genuine transparent alpha. Asset 17077. Image 1 is a 2×2 exact source phase board that establishes phase order and relative geometry. Image 2 is our existing original first-frame design and is primary identity reference. Images 3 and 4 provide only the project's hand-painted Daoist Q art finish. The purple jade lantern hangs on the RIGHT of a crooked jade-green support stem; the stem arcs from its stone pedestal UP AND TO THE LEFT then hooks RIGHT to the lamp handle. Follow the right-handed art in attached image 2; this orientation is essential. The stone pedestal is slightly left of center with carved clouds and antique gold border. A polished bronze pagoda shade covers a purple glass cup. The cup's internal warm light changes in cell 0 faint violet with dim amber center, cell 1 lit lilac with visible small soft gold core, cell 2 brightest violet with pale warm white-yellow glow inside the glass, cell 3 moderate purple and gold between cell 0 and 2. Pale light tints only the adjacent glass and pedestal top. No external glow. Stand, shade, pedestal, hook, body silhouette and position are fixed. Trace the silhouette consistently across all four drawings. This sequence is stationary color illumination, so the object MUST NOT move, scale, rotate or change outline between cells. Each cell contains the entire isolated sprite, displayed at the same relative size, with top and bottom at matching positions. The four objects are independently separated by at least 45 pixels of clear alpha. Each object occupies 76 to 82 percent of its own cell height and the same proportional width as image 2. Center all four in their own cell, all exactly aligned, empty space at borders; no labels, graphics, alignment marks, repeated panel borders, stones on ground, backdrop, stars or effects beyond the object. Soft dark outline and a small number of clear shapes, hand-painted gradients and gold edges. Transparent around each silhouette and inside openings. Do not add checkerboard or paint a background. Read order is upper left 0, upper right 1, lower left 2, lower right 3. Preserve the leaf/stand, pedestal, body and sockets exactly throughout. Main illumination must be visibly distinct, while preserving each fixed silhouette."
+  },
+  "callRecord": {
+    "file": "assets/maps/animation-continuation-20261112/17077/builtin-submission-v1.json",
+    "sha256": "0f6eb8c6252cbbaf64d4bc1d84be113bd7b8fe1d7cf332ffc61b34784a53abc7",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-b8dfa607-5fcf-492a-95e4-7d178502d17a.png",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-b8dfa607-5fcf-492a-95e4-7d178502d17a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "imageDataOmitted": true,
+    "localAtlasSha256": "035a96135066096295eb28b4c94f9fc473f096f9c7abe78d87f3171b1302fd9f"
+  },
+  "accepted": false,
+  "visualAccepted": false,
+  "geometryAccepted": false,
+  "stateCorrespondenceAccepted": false,
+  "seamlessVerified": false,
+  "runtimeIntegrated": false
+}

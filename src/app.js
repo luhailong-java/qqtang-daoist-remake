@@ -7,7 +7,7 @@ import {loadCharacterMotion,drawCharacterMotion,loadCharacterIdle,drawCharacterI
 import {GAME_NAME,GAME_TAGLINE} from './branding.js';
 import {resultPresentation} from './result-art.js';
 import {loadTrappedArt,drawTrappedArt} from './trapped-art.js';
-import {loadBattleArt,drawBattlePickup,drawBattleProp,drawBattleMonster,drawBattleBubble,drawBattleBlast,drawHeldShield} from './render-battle-art.js';
+import {loadBattleArt,drawBattlePickup,drawBattleProp,drawBattleMonster,drawBattleBubble,drawBattleBlast,drawHeldShield,drawRescueCue} from './render-battle-art.js';
 import {PICKUP_FALLBACK_SLOTS} from './battle-art-fallback-data.js';
 
 const gameAudio = new GameAudio();
@@ -165,6 +165,12 @@ function paintBoard(canvas,g,preview=false){
     }
     for(const b of g.blasts){if(drawBattleBlast(ctx,b.x*64-10,b.y*64-10,84,84)||drawSprite(ctx,0,b.x*64-10,b.y*64-10,84,84,'effects'))continue;const grad=ctx.createRadialGradient(b.x*64+32,b.y*64+32,3,b.x*64+32,b.y*64+32,42);grad.addColorStop(0,'#fff9dfee');grad.addColorStop(.4,'#f7bb4fcc');grad.addColorStop(1,'#f6ca5c00');ctx.fillStyle=grad;ctx.fillRect(b.x*64-10,b.y*64-10,84,84);}
   });
+  const rescueTimes = new Map();
+  if (!preview) {
+    for (const event of g.events) {
+      if (event.type === 'rescued') rescueTimes.set(event.playerId, event.time);
+    }
+  }
   const entities=[];
   for(const b of g.bombs)entities.push({sortY:(b.y+.8)*cell,draw:()=>{
     if(!drawBattleBubble(ctx,b.x*64-5,b.y*64-5,74,74))drawSprite(ctx,3,b.x*64-5,b.y*64-5,74,74,'tiles');
@@ -187,7 +193,13 @@ function paintBoard(canvas,g,preview=false){
         const directional=!animated&&!p.trappedUntil&&drawCharacterIdle(ctx,p.character,p.facing,p.x*64+32,p.y*64+59,110);
         if(!animated&&!directional)drawSprite(ctx,char(p.character).sprite,p.x*64-9,p.y*64-27,82,90);
       }
-      if(!preview)drawHeldShield(ctx,p,p.x*64-22,p.y*64-50,108,108);
+      if (!preview) {
+        drawHeldShield(ctx,p,p.x*64-22,p.y*64-50,108,108);
+        const rescuedAt = rescueTimes.get(p.id);
+        if (rescuedAt !== undefined && p.trappedUntil == null) {
+          drawRescueCue(ctx, g.time - rescuedAt, p.x * 64 + 32, p.y * 64 + 12);
+        }
+      }
       if(p.trappedUntil){
         if(!paintedTrapped){
           ctx.fillStyle='#94dbed70';ctx.strokeStyle='#f2ffff';ctx.lineWidth=3;

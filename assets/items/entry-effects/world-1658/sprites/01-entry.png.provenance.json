@@ -1,0 +1,93 @@
+{
+  "index": 1,
+  "phaseDescription": "窄光柱",
+  "sourceSize": [
+    100,
+    100
+  ],
+  "sourceRawOffset": [
+    0,
+    0
+  ],
+  "sourceReference": {
+    "file": "assets/items/entry-effects/world-1658/references/01-source.png",
+    "sha256": "77c9d7cceccf8fbc23370f9d1048a34b10a1afa0f152cf7b7be72718461ef811"
+  },
+  "density4Size": [
+    400,
+    400
+  ],
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "file": "assets/items/entry-effects/world-1658/sprites/01-entry.png",
+  "sha256": "10dec576288f3a8f091bd53e172dfb99af00eaca774596fe04a36d7adf433548",
+  "derivedFrom": [
+    {
+      "file": "assets/items/entry-effects/world-1658/entry-background.png",
+      "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+      "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+    },
+    {
+      "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+      "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+      "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+    }
+  ],
+  "operation": {
+    "commonBackground": {
+      "file": "assets/items/entry-effects/world-1658/entry-background.png",
+      "sha256": "1ed90070a62227b436331be2a87d0c5d2a15605b16dafca0c3162b9ca073c83d",
+      "generationRecord": "assets/items/entry-effects/world-1658/entry-background.png.generation.json"
+    },
+    "layersInCompositeOrder": [
+      {
+        "name": "beamNarrow",
+        "derivedFrom": {
+          "file": "assets/items/entry-effects/world-1658/entry-layers.png",
+          "sha256": "fadeb237fd9704939b7da34d02d460111e5d9af5b8feb02cc36a0f5956a980af",
+          "generationRecord": "assets/items/entry-effects/world-1658/entry-layers.png.generation.json"
+        },
+        "cropXYXY": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "cropEdgeAlphaMax": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "alpha16BoundsInCrop": [
+          224,
+          78,
+          288,
+          435
+        ],
+        "destinationXYXY": [
+          158,
+          0,
+          242,
+          400
+        ],
+        "actualPaintedSize": [
+          84,
+          400
+        ],
+        "placement": [
+          158,
+          0
+        ],
+        "resampler": "premultiplied-alpha LANCZOS",
+        "method": "fit axis-aligned light shaft to full-height target"
+      }
+    ],
+    "composite": "RGBA source-over",
+    "newModelGeneration": false
+  },
+  "visualAccepted": false,
+  "runtimeAdopted": false
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/maps/animation-continuation-20261112/17132/painted-material-v1.png",
+  "sha256": "2de86dadb5fcd2253f921681b0438337e7cd7e8e5231b42d2c68b550a6673c58",
+  "width": 1254,
+  "height": 1254,
+  "storedMode": "RGB",
+  "decodedRGBAAlphaExtrema": [
+    255,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "actualModel": null,
+  "actualQuality": null,
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "references": [
+    {
+      "file": "assets/maps/animation-continuation-20261112/17132/source-frames/frame-000.png",
+      "sha256": "70e2f011e592d73d79b515ac90f827eaa3ec617906aa791900829487abaa4003",
+      "role": "Exact source frame 0"
+    },
+    {
+      "file": "assets/maps/common/pieces/17132-grey-grate-vertical-a-v2.png",
+      "sha256": "38b8ccb3eec4744abe8d4cfdb997f10ba74fddc063825e86e3e5fb52d1a2755c",
+      "role": "Existing original identity"
+    },
+    {
+      "file": "assets/maps/animation-continuation-20261112/17030/sequence-v1.png",
+      "sha256": "e763865e99e6db47ccc44e9cf9943e7b6fe7da02f0614adffdc9b6dcf255bbc7",
+      "role": "Original material family"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q paint style"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q paint style"
+    }
+  ],
+  "promptFile": "assets/maps/animation-continuation-20261112/17132/prompt-material-v1.txt",
+  "promptFileSha256": "5168e32296ac51e453d003c80f51c497799df86a9d4282d2c5fdebe6404dce2e",
+  "submittedInput": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17132/source-frames/frame-000.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/common/pieces/17132-grey-grate-vertical-a-v2.png",
+      "E:/work/qqtang-daoist-remake/assets/maps/animation-continuation-20261112/17030/sequence-v1.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "prompt": "Create ONE original square edge-to-edge Daoist Q game map grate tile at 1024×1024 for element 17132. This is painted material for an orthographic pixel-aligned top-down floor animation. Image 1 is the real source tile's exact geometry (40×40 square enlarged); image 2 is the existing first painted candidate and identifies the art. Image 3 provides our dark slate and finely trimmed metal identity, and images 4/5 our style paint. Use the colors and clean bold material separation of image 2 and dark slate grade of image 3. Source shape stays axis aligned without camera angle. Draw horizontal rails on the top/bottom and vertical slate/grille bands down the central well. Place the two rails within the outermost approximately 17.5% of the tile on their appropriate opposite edges. The rails are polished aged bronze tinted with muted gold lines and dark thin shoulders. Each has exactly two slim dark segment joints at source positions, around 35% and 57.5% of horizontal length measured from the top or left. Joints of the two opposite rails align perfectly. Rail bright rim highlights run parallel to the movement axis and may end only at these two joints. Continue rail materials to the two open borders of the tile, with no external stroke perpendicular to the movement axis. The central zone between the rails contains two rectangular charcoal slate plates alternating with two rectangular opaque square-hole grille bands. Broad slate approximately 30% of the image width, compact mesh approximately 20%. Follow image 1 for the exact locations at this source position. All boundaries between bands straight and perpendicular to the rail, with fine recessed dark breaks, no extra bars. The grille band's dark wells are painted and opaque; square perforations have enough scale and contrast to read at tiny 40 pixels. Use evenly spaced grille rows and columns in graphite gray, dull steel, few subtle restrained bronze glints. Leave central solid areas quiet and uniform, with gentle charcoal chiseled slate texture. These are ordinary old floor mechanisms inside our Daoist fantasy game, not icons or ornate treasure. Absolutely no gems, clouds, symbols, bolts, diagonal marks, angle, lettering, drop shadow, inset square frame, margin, or alpha. Exact image edge IS the crop, and all four edges are full bleed."
+  },
+  "submissionEvidence": {
+    "file": "assets/maps/animation-continuation-20261112/17132/builtin-material-submission.json",
+    "sha256": "aaa0455a3972555a6cb24aa54fcee9be877e18487f35e9520615f6e0cf78ba06",
+    "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-7dec4771-9c62-4282-88b4-71f61f2cf5ce.png",
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e as C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-e756-7632-9b41-28ff0a48253e\\exec-7dec4771-9c62-4282-88b4-71f61f2cf5ce.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "imageDataOmitted": true,
+    "localAtlasSha256": "2de86dadb5fcd2253f921681b0438337e7cd7e8e5231b42d2c68b550a6673c58"
+  },
+  "accepted": false,
+  "visualAccepted": false,
+  "geometryAccepted": false,
+  "stateCorrespondenceAccepted": false,
+  "seamlessVerified": false,
+  "runtimeIntegrated": false
+}
