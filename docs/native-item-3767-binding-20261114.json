@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only static source check of item3767 native inventory binding; no art or installer changes",
+  "sourceArchive": {
+    "file": ".artifacts/reference-inputs/QQTang-Local-v1.3.4.zip",
+    "sha256": "fd9d80320605bebbe6c5d42fa182dfbe74486405fa3718093513b10969fabec7"
+  },
+  "catalog": {
+    "file": "references/qqtang-item-data/catalog.json",
+    "sha256": "115930d870aeb74280e22548d85211f996087443cfb81f3c16aa199572c2db9f"
+  },
+  "sourceMembers": [
+    {
+      "member": "QQTang-Local/configs/item-image-aliases.json",
+      "sha256": "9216c80096ef98592715f2eccecf1ff0ad55276453e61cec6377823e2c013a84",
+      "byteLength": 2183
+    },
+    {
+      "member": "QQTang-Local/runtime/patches/item-resource-index.json",
+      "sha256": "aaef2410d597a9342ad690d166c164354ac8e96657d9bda9ca3f0235452fe098",
+      "byteLength": 1983774
+    },
+    {
+      "member": "QQTang-Local/runtime/client-patched/object/itemCFG.py",
+      "sha256": "7ed2f6e1a325aa1a147ed32e19fd7e7ea04d4cc835866024f2ba5aa9947cbcf0",
+      "byteLength": 318135
+    },
+    {
+      "member": "QQTang-Local/runtime/client-patched/object/itemCFG.pyc",
+      "sha256": "5929a11cf7a5e5b81d1b144573e52ca761ca90c50dbbcd3550d6bb89b92826de",
+      "byteLength": 98289
+    },
+    {
+      "member": "QQTang-Local/runtime/client-patched/object/commodityCFG.py",
+      "sha256": "a52135fb928c4015f118cd2928e9843108b817e2063b62f244617fd00ac6774b",
+      "byteLength": 306359
+    },
+    {
+      "member": "QQTang-Local/runtime/client-patched/object/commodityCFG.pyc",
+      "sha256": "054783c33a40a563df5790d280ae3c20c7cd30396f37042e8d6cb9375ceb333d",
+      "byteLength": 91822
+    },
+    {
+      "member": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+      "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+      "byteLength": 301556
+    },
+    {
+      "member": "QQTang-Local/runtime/client-patched/res/uiRes/uiShop.pyc",
+      "sha256": "a81d44cbaf696ee8ed4e51a0e97d45678dafea74d4be9282abcc96d8ec4bb406",
+      "byteLength": 359992
+    },
+    {
+      "member": "QQTang-Local/runtime/client-patched/object/eye/eye123.img",
+      "sha256": "6fa6d578e6e5cf0db2cd0671f3c705fc7f839cf7560237f473b6b5035035b9d3",
+      "byteLength": 2348
+    }
+  ],
+  "sourceRestorationRow": {
+    "item_id": 3767,
+    "category": "eye",
+    "resource_id": 12,
+    "name": "08纪念·篮球",
+    "description": "源自奥运专用篮球的设计，又超越奥运专用篮球的设计，这款篮球无疑是奥运期间的焦点，备受关注。",
+    "commodity_ids": [
+      3767
+    ],
+    "source_zip": "eye/eye12.zip",
+    "resource_status": "restored",
+    "zip_sha256": "14083BA2AF45BB0EBE6C6D0EB484152A2453741C4EF717344766A4EDDC66F2E0",
+    "zip_bytes": 8202,
+    "installed_files": [
+      "object/eye/eye123.img",
+      "object/eye/eye125_stand.img",
+      "object/eye/eye125_walk.img"
+    ],
+    "restoration_basis": "verified-filepath-installed"
+  },
+  "explicitOuterAlias": {
+    "item_id": 3767,
+    "relative_path": "object/eye/eye123.img",
+    "tight_frame": true,
+    "basis": "eye12.zip has no shop icon; its official FilePath installs eye123.img as the first exact appearance layer"
+  },
+  "outerAliasIsExistingNativeInventoryImg": false,
+  "outerAliasTargetMetadata": {
+    "version": 65537,
+    "declaredCanvas": [
+      58,
+      55
+    ],
+    "frameCount": 1,
+    "directions": 1,
+    "frameSize": [
+      38,
+      15
+    ],
+    "frameOffsetRaw": [
+      11,
+      21
+    ],
+    "pixelMode": 8
+  },
+  "nativeSourceConfigRows": [
+    {
+      "module": "itemCFG",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/itemCFG.py",
+      "line": 1818,
+      "row": "3767:('eye', 12, '08纪念·篮球', '源自奥运专用篮球的设计，又超越奥运专用篮球的设计，这款篮球无疑是奥运期间的焦点，备受关注。', '', 0),",
+      "sourcePyVersion": 848,
+      "pycLiteralVersionStore": {
+        "storeByteOffset": 3,
+        "name": "version",
+        "literalValue": {
+          "type": "int",
+          "value": 163
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      "pycInertConstantTreeContainsInteger3767": false,
+      "pycSourceRuntimeSelectionVerified": false
+    },
+    {
+      "module": "commodityCFG",
+      "sourceMember": "QQTang-Local/runtime/client-patched/object/commodityCFG.py",
+      "line": 2420,
+      "row": "3767:('eye', 12, '08纪念·篮球[1月', '源自奥运专用篮球的设计，又超越奥运专用篮球的设计，这款篮球无疑是奥运期间的焦点，备受关注。'),",
+      "sourcePyVersion": 848,
+      "pycLiteralVersionStore": {
+        "storeByteOffset": 3,
+        "name": "version",
+        "literalValue": {
+          "type": "int",
+          "value": 163
+        },
+        "scope": "adjacent literal construction and STORE_NAME only; not executed or guaranteed active"
+      },
+      "pycInertConstantTreeContainsInteger3767": false,
+      "pycSourceRuntimeSelectionVerified": false
+    }
+  ],
+  "nativeInventoryTemplate": {
+    "sourceMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+    "scope": "?.UpdateMyPropC2CDealDlg",
+    "firstLine": 768,
+    "bytecodeSha256": "53e635c082ae7b6894407f06ad1cf1c675430272f0adcf91fdb00611c7b07ed3",
+    "template": "res/uires/icon/%s/%s%d.img",
+    "arguments": "itemList[info.m_nItemID][0], itemList[info.m_nItemID][0], itemList[info.m_nItemID][1]",
+    "staticInstructions": [
+      {
+        "byteOffset": 437,
+        "opcode": 131,
+        "name": "CALL_FUNCTION",
+        "argument": 1,
+        "value": null
+      },
+      {
+        "byteOffset": 440,
+        "opcode": 111,
+        "name": "111",
+        "argument": 68,
+        "value": null
+      },
+      {
+        "byteOffset": 443,
+        "opcode": 1,
+        "name": "1",
+        "argument": null,
+        "value": null
+      },
+      {
+        "byteOffset": 444,
+        "opcode": 116,
+        "name": "LOAD_GLOBAL",
+        "argument": 25,
+        "value": "itemList"
+      },
+      {
+        "byteOffset": 447,
+        "opcode": 124,
+        "name": "LOAD_FAST",
+        "argument": 3,
+        "value": "info"
+      },
+      {
+        "byteOffset": 450,
+        "opcode": 105,
+        "name": "LOAD_ATTR",
+        "argument": 15,
+        "value": "m_nItemID"
+      },
+      {
+        "byteOffset": 453,
+        "opcode": 25,
+        "name": "BINARY_SUBSCR",
+        "argument": null,
+        "value": null
+      },
+      {
+        "byteOffset": 454,
+        "opcode": 100,
+        "name": "LOAD_CONST",
+        "argument": 1,
+        "value": {
+          "type": "int",
+          "value": 0
+        }
+      },
+      {
+        "byteOffset": 457,
+        "opcode": 25,
+        "name": "BINARY_SUBSCR",
+        "argument": null,
+        "value": null
+      },
+      {
+        "byteOffset": 458,
+        "opcode": 125,
+        "name": "STORE_FAST",
+        "argument": 2,
+        "value": "iconType"
+      },
+      {
+        "byteOffset": 461,
+        "opcode": 116,
+        "name": "LOAD_GLOBAL",
+        "argument": 25,
+        "value": "itemList"
+      },
+      {
+        "byteOffset": 464,
+        "opcode": 124,
+        "name": "LOAD_FAST",
+        "argument": 3,
+        "value": "info"
+      },
+      {
+        "byteOffset": 467,
+        "opcode": 105,
+        "name": "LOAD_ATTR",
+        "argument": 15,
+        "value": "m_nItemID"
+      },
+      {
+        "byteOffset": 470,
+        "opcode": 25,
+        "name": "BINARY_SUBSCR",
+        "argument": null,
+        "value": null
+      },
+      {
+        "byteOffset": 471,
+        "opcode": 100,
+        "name": "LOAD_CONST",
+        "argument": 5,
+        "value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "byteOffset": 474,
+        "opcode": 25,
+        "name": "BINARY_SUBSCR",
+        "argument": null,
+        "value": null
+      },
+      {
+        "byteOffset": 475,
+        "opcode": 125,
+        "name": "STORE_FAST",
+        "argument": 7,
+        "value": "iconIdx"
+      },
+      {
+        "byteOffset": 478,
+        "opcode": 116,
+        "name": "LOAD_GLOBAL",
+        "argument": 9,
+        "value": "Win_SetImg"
+      },
+      {
+        "byteOffset": 481,
+        "opcode": 124,
+        "name": "LOAD_FAST",
+        "argument": 6,
+        "value": "ui"
+      },
+      {
+        "byteOffset": 484,
+        "opcode": 100,
+        "name": "LOAD_CONST",
+        "argument": 7,
+        "value": {
+          "type": "bytes",
+          "length": 8,
+          "sha256": "42b76eeaa1da73ae374ebf551ad613a298471b61925324d8ec6dcaec14052415",
+          "text": ".itemPic",
+          "textEncodingCandidate": "utf-8"
+        }
+      },
+      {
+        "byteOffset": 487,
+        "opcode": 23,
+        "name": "23",
+        "argument": null,
+        "value": null
+      },
+      {
+        "byteOffset": 488,
+        "opcode": 100,
+        "name": "LOAD_CONST",
+        "argument": 14,
+        "value": {
+          "type": "bytes",
+          "length": 26,
+          "sha256": "57b43f912f80192ee202dc50261debf353bd1c4d12126b64771fcf754e070025",
+          "text": "res/uires/icon/%s/%s%d.img",
+          "textEncodingCandidate": "utf-8"
+        }
+      },
+      {
+        "byteOffset": 491,
+        "opcode": 124,
+        "name": "LOAD_FAST",
+        "argument": 2,
+        "value": "iconType"
+      },
+      {
+        "byteOffset": 494,
+        "opcode": 124,
+        "name": "LOAD_FAST",
+        "argument": 2,
+        "value": "iconType"
+      },
+      {
+        "byteOffset": 497,
+        "opcode": 124,
+        "name": "LOAD_FAST",
+        "argument": 7,
+        "value": "iconIdx"
+      },
+      {
+        "byteOffset": 500,
+        "opcode": 102,
+        "name": "BUILD_TUPLE",
+        "argument": 3,
+        "value": null
+      },
+      {
+        "byteOffset": 503,
+        "opcode": 22,
+        "name": "BINARY_MODULO",
+        "argument": null,
+        "value": null
+      },
+      {
+        "byteOffset": 504,
+        "opcode": 131,
+        "name": "CALL_FUNCTION",
+        "argument": 2,
+        "value": null
+      },
+      {
+        "byteOffset": 507,
+        "opcode": 1,
+        "name": "1",
+        "argument": null,
+        "value": null
+      }
+    ]
+  },
+  "expectedNativeInventoryPathUnderSourcePyRow": "res/uires/icon/eye/eye12.img",
+  "expectedPathBasis": "Explicit native template applied to exact source-config tuple eye/12; not item-ID filename inference. Whether source848 or older PYC163 is loaded remains unverified.",
+  "expectedPathLooseArchiveMatches": [],
+  "expectedPathPackedIndexMatches": [],
+  "sourceProgramFilesCheckedForAliasConsumer": 13,
+  "sourceProgramAliasConsumersFound": [],
+  "nativeUiPycAliasFilenameLiteralsFound": [],
+  "existingUniqueNativeInventoryImgVerified": false,
+  "createMissingNativePathPerformed": false,
+  "originalSourceShopIconExists": false,
+  "conclusion": "Explicit external appearance alias exists, but its own basis says there is no shop icon. Native template expects eye12.img from the source-PY tuple, yet neither the pinned loose tree nor package index contains it. No existing native icon can be safely selected for replacement.",
+  "ownInventoryCandidateStatusUnchanged": {
+    "ownCandidateItemIds": 584,
+    "installedNativeInventoryItemIds": 583,
+    "remainingExistingCandidateItemId": 3767,
+    "otherSourceItemIdsMissingOwnArt": 2361
+  },
+  "nativeRuntimeVerified": false,
+  "providedDirectoryRead": false,
+  "providedDirectoryMutated": false,
+  "bundleMutated": false,
+  "newArtCreated": false,
+  "gitUsed": false
+}

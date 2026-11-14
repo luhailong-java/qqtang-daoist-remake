@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png",
+  "sha256": "aa815c570fd9e440ccb03bb6d6389ee90094df30957f47b78fe3c54fb1b67e09",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSource": {
+    "file": "config/image-generation.json",
+    "sha256": "585c0365da6151aba4d7a5a53bf48e47f86327c6d912a8ef93004e1e39e25a2b"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.6-sunburst",
+    "quality": "high",
+    "builtin_product": "ChatGPT Images 2.6",
+    "selection": "latest_officially_verified_target",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-11",
+    "sources": {
+      "release": "https://openai.com/index/introducing-images-2-6/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "evidenceBoundary": "Project-local target revalidated from official pages. Built-in image_gen exposes no model or quality selectors; actual model and quality must remain unknown unless the return discloses them. Official API reference limits xhigh/max statement to 2.5; high is highest verified 2.6 quality here. No paid API route authorized or invoked. Historical references/image configuration remains a historical snapshot."
+  },
+  "exactPrompt": "Use case: small inventory item art, original Chinese Daoist Q handpainted game icons. Ref 1 is OUR exact existing illustrated skill book with jade-gold cloud carving, curled corners, real page block and tassel. Create its matching level variants, carefully retaining the same camera, thickness, spine side, cover outline, ornaments and colors. Ref 2 shows the stored original native level states for exact numeral mapping only, do not reproduce its pixel art or words LEVEL. Refs 3 and 4 set the Chinese Daoist Q painted finish. True transparent alpha between every book, no background, checkerboard, captions, cell labels, UI, or shadows. One full book per equal square cell with generous clear margins. Numerals must be clean GOLD, outlined for contrast and large enough for a 60px native icon. They sit centered on the same cover position and must have the SAME TYPOGRAPHIC HEIGHT. Use exact Arabic digits. Avoid Roman numerals, Chinese numbers or extra labels. Full attached icon cleanly inside its cell. Fine polished painted detailing consistent with our existing icon. Make a SQUARE 3 by 3 grid of exactly NINE books, read left-to-right, top-to-bottom. The levels are exactly: top row 2, 3, 4. Middle row 5, 6, 7. Bottom row 8, 9, 10. Match the RED COVER and JADE SPINE of reference1, gold SHIELD and small red FLAME above the numeral, jade clasp on right edge and red tassel at lower left. Preserve this specific courage skill identity in every cell. Do not add pink hearts or flower decorations. All nine same scale and view.",
+  "submittedPromptSha256": "40a973855eba9c6405be0e6902ebd17e23119ffacafd7818285b2948774597db",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "E:/work/qqtang-daoist-remake/assets/items/skills/icons/27061-courage-double-level-1.png",
+      "E:/work/qqtang-daoist-remake/assets/native-client-ui/inventory-phases-v1/source/27061/all-phases.png",
+      "E:/work/qqtang-daoist-remake/references/image/01-mail-event.png",
+      "E:/work/qqtang-daoist-remake/references/image/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "actualParametersEvidence": "Builtin tool exposes no model or quality selector and disclosed neither.",
+  "references": [
+    {
+      "file": "assets/items/skills/icons/27061-courage-double-level-1.png",
+      "sha256": "d62ab0cba08cbe12be46b7ba0c420acf44f91c227bdf7c5a205f43955f2a4cab",
+      "role": "own skill identity"
+    },
+    {
+      "file": "assets/native-client-ui/inventory-phases-v1/source/27061/all-phases.png",
+      "sha256": "d073cb2aa7684b6d9c27cbcc9a2f542c0fb64d3268137a9d181a19faf0c3caa9",
+      "role": "source level order only"
+    },
+    {
+      "file": "references/image/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Daoist Q finish"
+    },
+    {
+      "file": "references/image/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Daoist Q finish"
+    }
+  ],
+  "submission": {
+    "file": "assets/native-client-ui/inventory-phases-v1/submission-courage-levels-v1.json",
+    "sha256": "3dbff76602cacd1649348332dc06637e02b91657b4746fcb7be81fe7d6fd20dc"
+  },
+  "returnedMetadata": {
+    "file": "assets/native-client-ui/inventory-phases-v1/result-courage-levels-v1.json",
+    "sha256": "cb0fb1fe6e7050dc88850af1fff27d1d7ad405650933636bcf8b78e273ecb90e"
+  },
+  "hostSource": "C:\\Users\\luyua\\.codex\\generated_images\\01a1d2d0-9c42-7c90-8dc0-dedc509f59a4\\exec-f5de2b2f-4cdc-454b-b74d-8afba4370af2.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostFileModifiedTimeUtc": "2026-11-14T06:06:10.257525+00:00",
+  "timeEvidence": "Native file modification time; model-side timestamp undisclosed",
+  "visualAccepted": false,
+  "nativeRuntimeVerified": false
+}

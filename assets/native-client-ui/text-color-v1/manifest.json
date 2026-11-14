@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "native-ui-text-color-v1",
+  "clientRootAlias": "user-selected-client",
+  "nativePath": "res/uiRes/uiMain.pyc",
+  "operation": "Replace one pinned four-byte integer payload in the inert serialized constant tree; never execute client code.",
+  "source": {
+    "archiveAlias": "QQTang-Local-v1.3.4",
+    "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+    "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+    "fileBytes": 301556,
+    "headerHex": "3bf20d0a029f924d"
+  },
+  "targetSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+  "payload": {
+    "start": 63481,
+    "end": 63485,
+    "beforeHex": "00000000",
+    "afterHex": "c8000000",
+    "marshalTagOffset": 63480,
+    "marshalTagHex": "69"
+  },
+  "scope": "?.UI.children.SysMsgbox.children.hyPerLink1",
+  "constantIndex": 6,
+  "offsetConvention": "Absolute byte offsets from the beginning of the exact source PYC, half-open range.",
+  "proof": {
+    "sourceSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+    "targetSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+    "fileBytes": 301556,
+    "completeByteConsumption": true,
+    "parsedObjects": 20766,
+    "scopeCount": 830,
+    "allCoCodeUnchanged": true,
+    "allOtherCodeFieldsUnchanged": true,
+    "URLCaptionCallbacksAndNonColorLiteralsUnchanged": true,
+    "scopeBytecodeHashListSha256": "cac8abb6c87c28146abff1cdff3e270624d165f3969958d03d248b72f7ca4d05",
+    "literalAssignmentChanges": [
+      {
+        "scope": "?.UI.children.SysMsgbox.children.hyPerLink1",
+        "attribute": "drawcolor",
+        "before": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "after": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      {
+        "scope": "?.UI.children.SysMsgbox.children.hyPerLink1",
+        "attribute": "textEdgeColor",
+        "before": [
+          255,
+          0,
+          0,
+          0
+        ],
+        "after": [
+          255,
+          200,
+          200,
+          200
+        ]
+      }
+    ],
+    "constant6LoadOffsets": [
+      30,
+      33,
+      51,
+      54,
+      57
+    ],
+    "changedByteOffsets": [
+      63481
+    ],
+    "thirdPartyCodeExecuted": false
+  },
+  "plan": {
+    "file": "docs/native-sysmsgbox-color-patch-plan-20261114.json",
+    "sha256": "721fc6da02909bfe8e5ff6e5d7424b101cd24ec7c231041e3d356f89c6f2be12"
+  },
+  "thirdPartyPycIncluded": false,
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false
+}

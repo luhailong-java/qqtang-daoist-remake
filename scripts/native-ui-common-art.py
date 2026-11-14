@@ -127,8 +127,8 @@ def render(kind, label, index, size, paints, font_path, nine_slice, scaled):
         out = nine_slice(paints['panel'], size, 72)
         draw = ImageDraw.Draw(out)
         draw.rounded_rectangle((28, 58, size[0] - 29, 256), radius=7,
-                               fill='#f0e7cf', outline='#c9ad6c', width=2)
-        # Shared LABEL children inherit black text; captions remain runtime data.
+                               fill='#244d40', outline='#c9ad6c', width=2)
+        # Message text explicitly loads the light global zoneChooseColor.
         return out
     if kind in ('common-tip', 'common-chat'):
         body_height = size[1] - 7 if kind == 'common-chat' else size[1]

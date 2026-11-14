@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('native_ui_format', ROOT/'scripts/native-ui-format.py')
 codec = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(codec)
-BACKUP = ROOT/'.artifacts/native-client-ui-backup/login-v1'
-MANIFEST_PATH = ROOT/'assets/native-client-ui/login-v1/manifest.json'
+BACKUP = ROOT/'.artifacts/native-client-ui-backup/review-v1'
+MANIFEST_PATH = ROOT/'assets/native-client-bundle/review-v1/manifest.json'
 
 
 def digest(data):
@@ -102,13 +102,14 @@ def native_replacement(item, source):
 
 def prepare_loose(client, manifest, contract):
     sources = {entry['nativePath']:entry for entry in contract['items']}
-    files = {}
+    files, destinations = {}, set()
     for item in manifest['items']:
         if item['sourcePacked'] or not item['sourceLoose']:
             raise ValueError('Loose-only batch has a packaged resource')
         native_path = item['nativePath']
-        if native_path in files:
+        if native_path.lower() in destinations:
             raise ValueError('Duplicate native destination in loose batch')
+        destinations.add(native_path.lower())
         original = child(client,native_path).read_bytes()
         if digest(original) != item['sourceSha256']:
             raise ValueError(f'Loose native source changed: {native_path}')
@@ -137,8 +138,11 @@ def prepare(client):
     entries = codec.reader.parse_index(index, len(package))['entries']
     by_path = {e['path'].replace('\\', '/').lower():e for e in entries}
     output_package, output_index = bytearray(package), bytearray(index)
-    replacements, loose = {}, {}
+    replacements, loose, destinations = {}, {}, set()
     for item in manifest['items']:
+        if item['nativePath'].lower() in destinations:
+            raise ValueError('Duplicate native destination in package batch')
+        destinations.add(item['nativePath'].lower())
         source = next(r for r in contract['items'] if r['nativePath'] == item['nativePath'])
         replacement = native_replacement(item,source)
         if not item['sourceLoose'] and child(client, item['nativePath']).exists():

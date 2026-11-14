@@ -1,0 +1,71 @@
+{
+  "clientRootAlias": "selected-client-db6688ccd485b1bb",
+  "nativePath": "res/uiRes/uiMain.pyc",
+  "action": "verify",
+  "state": "patched",
+  "proof": {
+    "sourceSha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+    "targetSha256": "54b1bc67712edcf6ee4649effa9adf1e1d7b66174bd9bb637cbf3f90b02b9bf6",
+    "fileBytes": 301556,
+    "completeByteConsumption": true,
+    "parsedObjects": 20766,
+    "scopeCount": 830,
+    "allCoCodeUnchanged": true,
+    "allOtherCodeFieldsUnchanged": true,
+    "URLCaptionCallbacksAndNonColorLiteralsUnchanged": true,
+    "scopeBytecodeHashListSha256": "cac8abb6c87c28146abff1cdff3e270624d165f3969958d03d248b72f7ca4d05",
+    "literalAssignmentChanges": [
+      {
+        "scope": "?.UI.children.SysMsgbox.children.hyPerLink1",
+        "attribute": "drawcolor",
+        "before": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "after": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      {
+        "scope": "?.UI.children.SysMsgbox.children.hyPerLink1",
+        "attribute": "textEdgeColor",
+        "before": [
+          255,
+          0,
+          0,
+          0
+        ],
+        "after": [
+          255,
+          200,
+          200,
+          200
+        ]
+      }
+    ],
+    "constant6LoadOffsets": [
+      30,
+      33,
+      51,
+      54,
+      57
+    ],
+    "changedByteOffsets": [
+      63481
+    ],
+    "thirdPartyCodeExecuted": false
+  },
+  "nativeRuntimeVerified": false,
+  "visualAccepted": false,
+  "schemaVersion": 1,
+  "verifiedOn": "2026-11-14",
+  "manifest": {
+    "file": "assets/native-client-ui/text-color-v1/manifest.json",
+    "sha256": "b3c5e960f9c2fd170a075eebb5d8d184c8e0a205925194f73a39047250b9c7cb"
+  }
+}

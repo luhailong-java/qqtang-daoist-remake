@@ -1,0 +1,1828 @@
+{
+  "schemaVersion": 1,
+  "scope": "Five native inventory level and material state resources",
+  "sourceContract": {
+    "file": "assets/native-client-ui/inventory-phases-v1/source-contract.json",
+    "sha256": "0a430c0735e1febdc35f5da86f282876a53720b2fe677056c396f9908cdd6d98"
+  },
+  "items": [
+    {
+      "file": "assets/native-client-ui/inventory-phases-v1/patch/res/uiRes/icon/skill/skill61.img",
+      "sha256": "add2620d36e5cde85e22b412f8391b62974a0622778146d827a9f67766794ffc",
+      "nativePath": "res/uiRes/icon/skill/skill61.img",
+      "itemId": 27061,
+      "category": "skill",
+      "resourceId": 61,
+      "sourceSha256": "41b2c56c48d778fc53044eb2d9764ea45a3be26887f857e287227eca7f5976b0",
+      "sourceLoose": true,
+      "sourcePacked": false,
+      "stateInterpretation": "displayed skill levels",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/00.png",
+          "sha256": "b7f0c72c60e89965b3ff57614628d68b51f5ab6e64774d5da1994dc9775cd4fb",
+          "index": 0,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 0,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/00.png",
+            "sha256": "91c33c08ac392735b41f401aa3298fc910acc62165eae352b9b024302f4f7ada",
+            "index": 0,
+            "decodedRgbaSha256": "6b2e9c36743c402aecb3132dcdc83d02cce8327e2d95a47a99358114c8c04c6b",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/skills/icons/27061-courage-double-level-1.png",
+            "sha256": "d62ab0cba08cbe12be46b7ba0c420acf44f91c227bdf7c5a205f43955f2a4cab",
+            "provenance": {
+              "file": "assets/items/skills/icons/27061-courage-double-level-1.png.provenance.json",
+              "sha256": "1ced27f8c1be53322933a9068435f3c791778e1189fd3f4de61a3ecc22dd35c7"
+            },
+            "generationRecord": {
+              "file": "assets/items/skills/skills-k-v1.png.generation.json",
+              "sha256": "e419d14029d90562fe945d1c768131711063e11c0dd40e2252365808fdbc8a82"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              30,
+              16,
+              226,
+              240
+            ],
+            "uniformScale": 0.25892857142857145,
+            "scaledSize": [
+              51,
+              58
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 1
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/01.png",
+          "sha256": "1f9d3e44c8dc332f0b5590e03b457107b37443e9f8e066434127bf67d225b61c",
+          "index": 1,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 1,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/01.png",
+            "sha256": "d255e49b76846fc2c9c53e9ebfbdf1d6972eec66ba4fc51e7132ba785572d1f0",
+            "index": 1,
+            "decodedRgbaSha256": "f3a15e0f97e92e11d0d9f6b48d11cf51a39213f0265bdecc5986afc1c1910d90",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/01.png",
+            "sha256": "a9a6ca654af2556418efeaabc5d01cd5f5abe42aa9552e4fd3a24e27d8d0b11e",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/01.png.provenance.json",
+              "sha256": "70a064591014bb99bf6621682e8225db715b6315e77850abb40497e32e331aff"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 2
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              66,
+              23,
+              387,
+              391
+            ],
+            "uniformScale": 0.15760869565217392,
+            "scaledSize": [
+              51,
+              58
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 2
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/02.png",
+          "sha256": "e4893b3a5d0d9e2d37f8ffccb82b02c0d7dbc57b08fc0b23442a02a28b885569",
+          "index": 2,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 2,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/02.png",
+            "sha256": "efa1d9de603edae50e4d594f59cceba2f5424f5fc7a0e65ebd61aa24d1bdeb85",
+            "index": 2,
+            "decodedRgbaSha256": "0e9ed8ce0dd9078298359c38a6d5bd3920a22de121d57739593ea4c2cdb2d66a",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/02.png",
+            "sha256": "bd5dddc0bad85ad0c6aa8dd13a069933b0e9865d401e98802e49dd78f0b7843c",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/02.png.provenance.json",
+              "sha256": "27509459f0c134aa95e1f6bb58b3e2b5aa524322dfe24ce2245762d406279614"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 3
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              53,
+              21,
+              373,
+              392
+            ],
+            "uniformScale": 0.15633423180592992,
+            "scaledSize": [
+              50,
+              58
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 3
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/03.png",
+          "sha256": "d29be6217298d40fb460e43a9d367b983a34fbbfd9a44d0e1ccd1d51d818c0af",
+          "index": 3,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 3,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/03.png",
+            "sha256": "2d50f5d2b6d722a9319cd862168b02670e697e1c55198a2196d3548471c62c68",
+            "index": 3,
+            "decodedRgbaSha256": "5af8296a1a6f27a33ead9d78c099a65a06d04a6a1a5e8e37eb45ede9f1cdadd0",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/03.png",
+            "sha256": "4734f7ef0a5897d6b50de65306e35f26e9eae2564d7847f118ce7a447a8b4b3e",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/03.png.provenance.json",
+              "sha256": "c458d64184ee3e32851312911768c37da53a9015ce937815c2afa72ead50ccf8"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 4
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              40,
+              21,
+              361,
+              391
+            ],
+            "uniformScale": 0.15675675675675677,
+            "scaledSize": [
+              50,
+              58
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 4
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/04.png",
+          "sha256": "09b8d7de7bef6ebe19a5fa814cf72c0959c1b04615f2544c64275b9ac5516a57",
+          "index": 4,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 4,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/04.png",
+            "sha256": "e1cc32ef6f8cdf61e66d1706956b2e5bc8e121636273a347836b9b6b89dc0a14",
+            "index": 4,
+            "decodedRgbaSha256": "33e3f6e39aa09951a88397eeb955c3dfd0985b35dc4784000e685e6b9e8b5f2d",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/04.png",
+            "sha256": "a71b668a9581eeefadc6acab70054465fd12fbacc3f3ceea7cbe984f583fa222",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/04.png.provenance.json",
+              "sha256": "05a617f651db2aa377d6377d7f6742b924c8fbb30e5ebce81c512112d8cd5afa"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 5
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              66,
+              21,
+              387,
+              391
+            ],
+            "uniformScale": 0.15675675675675677,
+            "scaledSize": [
+              50,
+              58
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 5
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/05.png",
+          "sha256": "8d282baf92765f4679e550e8ba5e15d4fc7e3392b8a4204931517ec0ab98cfbd",
+          "index": 5,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 5,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/05.png",
+            "sha256": "1e25cf180bb37d078c8081776bd109801e3be32cace4c8497c2f6bf34353583c",
+            "index": 5,
+            "decodedRgbaSha256": "82d15d424f38a60dbefd7e3d3cba6b6cfcc8ae88c26f52be2f40e45ce015dacd",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/05.png",
+            "sha256": "529beece2f4dbd2ce860d17c0df36a69c89dc77223834f50ee00c20e03a6c0fb",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/05.png.provenance.json",
+              "sha256": "f7b83ea5207a63304a19772158755febbb1305f1afdda341f42efeaeb99d70d3"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 6
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              53,
+              21,
+              373,
+              391
+            ],
+            "uniformScale": 0.15675675675675677,
+            "scaledSize": [
+              50,
+              58
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 6
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/06.png",
+          "sha256": "bf413fce8d1317ddca7bbaa87ac8b878d0eff064dbbef1ff6f7c05b5e90f769d",
+          "index": 6,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 6,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/06.png",
+            "sha256": "f210d80425213bc29f2ff220e6aec5d15de5d40b316042b3a08b84fcee5dffcf",
+            "index": 6,
+            "decodedRgbaSha256": "36ba76c09e02f227c7570a59617280397307fa59aee6dec13f690467da32189d",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/06.png",
+            "sha256": "a287156b2635363f6c87230d0b5c3962c3c94fe99d24d4ef33fc3999b5047144",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/06.png.provenance.json",
+              "sha256": "2cdeaf58786b9860e3e2641d029960a25c51980a42a1df50ba4bf636a75e883a"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 7
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              40,
+              21,
+              361,
+              391
+            ],
+            "uniformScale": 0.15675675675675677,
+            "scaledSize": [
+              50,
+              58
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 7
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/07.png",
+          "sha256": "5cbf4dcf5e81ed6ea07a0d2c9a5e55fc061960142bdaa4d9b09337801e075e53",
+          "index": 7,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 7,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/07.png",
+            "sha256": "d824c08a66f9e7c6c4dfa3acfe4820036a90a5f628938c19068b3a22c4a5eb5b",
+            "index": 7,
+            "decodedRgbaSha256": "68f349e175f2fac67fee56910505477b048b68c50ee7b76b253bc082d5eeac12",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/07.png",
+            "sha256": "08b97595f53f43094ccf1a175e1994756f3b7a6b450ceab79caeef6e1735b2d5",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/07.png.provenance.json",
+              "sha256": "da278cbdc066d3dc5efebb47fa1506640b91dd804a8a571ebc1bd32a47d71616"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 8
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              66,
+              23,
+              387,
+              391
+            ],
+            "uniformScale": 0.15760869565217392,
+            "scaledSize": [
+              51,
+              58
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 8
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/08.png",
+          "sha256": "4315ae5625a68a6dc8d565bef639615b1be31f589c661afecaf7c110ca31c6a3",
+          "index": 8,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 8,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/08.png",
+            "sha256": "63d21463da062894bf1f3d5b47b2c7ad3d485b89925296e379831e74324da35f",
+            "index": 8,
+            "decodedRgbaSha256": "80871c1ce34f7c988996d88fbe5c6d68e203a01f80f8e88a36912ed83c154864",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/08.png",
+            "sha256": "5907b7030b6e0b3b33351ee1c3c329bdea37b72a60cd77351a6e18126cc43e9f",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/08.png.provenance.json",
+              "sha256": "59d17d88af42e523934f088c501999eaabd8773e760c84cf3640773eda934762"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 9
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              51,
+              22,
+              373,
+              392
+            ],
+            "uniformScale": 0.15675675675675677,
+            "scaledSize": [
+              50,
+              58
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 9
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27061/09.png",
+          "sha256": "5b97e5573dad97cc9a200c8bbb7765020b15efdeaeace978e8e116a7d70cecaa",
+          "index": 9,
+          "width": 52,
+          "height": 58,
+          "pixelMode": 3,
+          "frameOffset": [
+            4,
+            1
+          ],
+          "sourceFrameIndex": 9,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27061/09.png",
+            "sha256": "6c53b8f86eba8d26a24521d0ced639c71b958cd080da4d9e51a4504390855ff4",
+            "index": 9,
+            "decodedRgbaSha256": "0c6a0db08acdad62073c60f491b9d618120ecdcb5db1f2cf4d6e6ded2db9dc1c",
+            "nativeSize": [
+              52,
+              58
+            ],
+            "frameOffset": [
+              4,
+              1
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/09.png",
+            "sha256": "a6e8d1706ca2588f72c87ecc7f5f82e1fb84107a3c62b0713daa6a815c8b08b5",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27061/09.png.provenance.json",
+              "sha256": "2f3fca0f5e2b9fc9a892cc73dfd42bbde7d7d429f4e1137af937c3492647a64f"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-courage-levels-v1.png.generation.json",
+              "sha256": "be1e6f2c61f32deef0230cbeba6059ffb86557aa43d5689637de98bfdf331217"
+            },
+            "displayedLevel": 10
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              40,
+              22,
+              362,
+              391
+            ],
+            "uniformScale": 0.15718157181571815,
+            "scaledSize": [
+              51,
+              58
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 10
+        }
+      ],
+      "sourceFrameDurationMs": null,
+      "nativeRuntimeVerified": false,
+      "visualAccepted": false
+    },
+    {
+      "file": "assets/native-client-ui/inventory-phases-v1/patch/res/uiRes/icon/skill/skill73.img",
+      "sha256": "d00226f2b3546bf1c0430ad57a15d93ae6b990fd0ccacef70ad2b08accbdcdc4",
+      "nativePath": "res/uiRes/icon/skill/skill73.img",
+      "itemId": 27073,
+      "category": "skill",
+      "resourceId": 73,
+      "sourceSha256": "abb7bf2136d80650915cebbd35ad409df7bdaac5d275b0cabba2476acb7e9c89",
+      "sourceLoose": true,
+      "sourcePacked": false,
+      "stateInterpretation": "displayed skill levels",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/00.png",
+          "sha256": "836ddbcff03ba1671ad1aa9ccdee8a4d217f25b1befe5739469bbc81c6a88a29",
+          "index": 0,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 0,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/00.png",
+            "sha256": "dc921ada62eb5c72ccaebe937736558e7e57cd9283776cec1a5288a4a382eca6",
+            "index": 0,
+            "decodedRgbaSha256": "6dd7cb737180b67bbe072c6025a9b6614405f511a8824ccf115906c610f502de",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/skills/icons/27073-affinity-double-level-3.png",
+            "sha256": "b47a892c9fa8ac5bee0112a676d9bdcac10001bf3d327e57830a29485182331a",
+            "provenance": {
+              "file": "assets/items/skills/icons/27073-affinity-double-level-3.png.provenance.json",
+              "sha256": "3163fa41b8e8f627034622b6c4730e130230193b3cd9afda686a39cc5308fba8"
+            },
+            "generationRecord": {
+              "file": "assets/items/skills/skills-m-v1.png.generation.json",
+              "sha256": "45590dbd5eb0a636bd28a49e374a9d18839c0da71d12efac301c0eda6d013fe1"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              26,
+              16,
+              230,
+              240
+            ],
+            "uniformScale": 0.25980392156862747,
+            "scaledSize": [
+              53,
+              58
+            ],
+            "placementPx": [
+              0,
+              1
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 3
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/01.png",
+          "sha256": "fa5cf5c084e4b08dcfe08931347b2090af2479ec6e245c0e7177f0e84462bf06",
+          "index": 1,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 1,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/01.png",
+            "sha256": "c3688982550a4daadb3512eec2f76cebd746f07ad6e6f8f4138a87482c8c7c99",
+            "index": 1,
+            "decodedRgbaSha256": "b4b459e39d86ae552df23ca5d427b59bd5985f6ce2c01388fe05f018abc2f0dd",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/01.png",
+            "sha256": "24b462c451f6aec3d6db3858c29cde62aa8548a86861f347e4bf548b99037801",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/01.png.provenance.json",
+              "sha256": "ac43c980e09286935d247799074552d6bdb5108bb208fc6922d838cf72ae707f"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-affinity-levels-v1.png.generation.json",
+              "sha256": "dd1f4a39b384531118b3c5d13868884aae9071d16957bb6e568d5a5b2c49b528"
+            },
+            "displayedLevel": 4
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              63,
+              21,
+              421,
+              417
+            ],
+            "uniformScale": 0.14804469273743018,
+            "scaledSize": [
+              53,
+              59
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 4
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/02.png",
+          "sha256": "5beec09d79812fcc3a2df0b6677f0710e659989c17168bf188ce5bf71f37f5a4",
+          "index": 2,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 2,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/02.png",
+            "sha256": "c86fe3d7201b0a59aa16721d50a8eb846338f406452f67f340a55ac5feedece7",
+            "index": 2,
+            "decodedRgbaSha256": "4d46ff71dfa8820c6497f0112f79254a34224fd4cb3b8bb4dad5394420718bd4",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/02.png",
+            "sha256": "e23693e843006c0593958c11bb6e1ae4fc7a7be20a79fb01bd09b51f90993d13",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/02.png.provenance.json",
+              "sha256": "db671f93ccd45db3d714e321415227ebe1b00c35ee379141528a23f9f58f1d30"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-affinity-levels-v1.png.generation.json",
+              "sha256": "dd1f4a39b384531118b3c5d13868884aae9071d16957bb6e568d5a5b2c49b528"
+            },
+            "displayedLevel": 5
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              64,
+              23,
+              421,
+              417
+            ],
+            "uniformScale": 0.1484593837535014,
+            "scaledSize": [
+              53,
+              58
+            ],
+            "placementPx": [
+              0,
+              1
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 5
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/03.png",
+          "sha256": "38aec0f7bfd320716670e0efabfd48c563eb508ca8adcf78eec0a7097981f34e",
+          "index": 3,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 3,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/03.png",
+            "sha256": "4691afbea7e6b30ff20de590536099303dcc3463f3a0046207a9be1540534352",
+            "index": 3,
+            "decodedRgbaSha256": "e89ed4eb48f1bb49f5fbbdc7bc32fc3653d04aed1df22e2a28f7793b8eb0a83d",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/03.png",
+            "sha256": "14fd3c6bbf62ffc13fd23a1164f52f4e9da92ee7f31ba93d93f15b2d5bd85913",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/03.png.provenance.json",
+              "sha256": "5f2d90712dd533c62d86bceff8b55fd323cba9ae7b6797a0bc32da69aa1004ca"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-affinity-levels-v1.png.generation.json",
+              "sha256": "dd1f4a39b384531118b3c5d13868884aae9071d16957bb6e568d5a5b2c49b528"
+            },
+            "displayedLevel": 6
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              65,
+              23,
+              421,
+              417
+            ],
+            "uniformScale": 0.14887640449438203,
+            "scaledSize": [
+              53,
+              59
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 6
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/04.png",
+          "sha256": "e3ce5d58f92022314a3e56721abaed58f608c747a6e572d21358187c0b03ad10",
+          "index": 4,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 4,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/04.png",
+            "sha256": "62f5316e58d1448ca752c09bda7a593a54e5e75377aa9094b0b19a794a6bfc92",
+            "index": 4,
+            "decodedRgbaSha256": "41ab06cfcbf7db4bd669ce11fc1c94e4433a8e05c85d197b0b95411b0168e67f",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/04.png",
+            "sha256": "1a0f86dda752ad8f2d12f5f859b375f37c108380a1c31ed1f3cc887921b23d8e",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/04.png.provenance.json",
+              "sha256": "292c72a1a8e9c1f760fbe65cd6d44ef14ff792d32c9d1214fff427a617b24ba1"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-affinity-levels-v1.png.generation.json",
+              "sha256": "dd1f4a39b384531118b3c5d13868884aae9071d16957bb6e568d5a5b2c49b528"
+            },
+            "displayedLevel": 7
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              64,
+              24,
+              421,
+              418
+            ],
+            "uniformScale": 0.1484593837535014,
+            "scaledSize": [
+              53,
+              58
+            ],
+            "placementPx": [
+              0,
+              1
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 7
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/05.png",
+          "sha256": "f55931ddc3de0e877fb0cecc6eef5eea108299eeb6d3a580388d9ea452d0a531",
+          "index": 5,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 5,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/05.png",
+            "sha256": "402f19fc1c3f47cdba2a49919ffa622da4c88154b82c5aab046a37097c55a1b9",
+            "index": 5,
+            "decodedRgbaSha256": "cb6ced3028497dc3163e531afca228e2e40503eaa2e61d29a8000ffc92703d75",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/05.png",
+            "sha256": "dda823580f0eb760dba1fd19e753ef507497eaf70f22f7e7b2ba44f9f5487d2a",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/05.png.provenance.json",
+              "sha256": "edb3f628846c22de3e6f13213557bb97d8ea544e94cda2e9aa3aa94e7ca80f1a"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-affinity-levels-v1.png.generation.json",
+              "sha256": "dd1f4a39b384531118b3c5d13868884aae9071d16957bb6e568d5a5b2c49b528"
+            },
+            "displayedLevel": 8
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              64,
+              24,
+              421,
+              418
+            ],
+            "uniformScale": 0.1484593837535014,
+            "scaledSize": [
+              53,
+              58
+            ],
+            "placementPx": [
+              0,
+              1
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 8
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/06.png",
+          "sha256": "a16d763025f5960888bd2f55136a96015d9c771bd865358075c5a631ec6263ff",
+          "index": 6,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 6,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/06.png",
+            "sha256": "9731a1c1d8cfc667e6851a86baffd63991124618b22dac5f42642b4102e4cbca",
+            "index": 6,
+            "decodedRgbaSha256": "21abc61ef26db41853bc747843f53bc181bff6ff3b78f1e4c7d974322e60de47",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/06.png",
+            "sha256": "e6f9fa7c5c8e160a384c4e33a436a2be392980766ebc9e258f064426ebd6f2e3",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/06.png.provenance.json",
+              "sha256": "9bfc5374ccabdaa2a5b5869ff7a0318fd91a4a1cc2b020b6fbaa12bfb91f5d62"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-affinity-levels-v1.png.generation.json",
+              "sha256": "dd1f4a39b384531118b3c5d13868884aae9071d16957bb6e568d5a5b2c49b528"
+            },
+            "displayedLevel": 9
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              64,
+              24,
+              421,
+              417
+            ],
+            "uniformScale": 0.1484593837535014,
+            "scaledSize": [
+              53,
+              58
+            ],
+            "placementPx": [
+              0,
+              1
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 9
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/27073/07.png",
+          "sha256": "9b6acae44feb7f8b387ee5c55ffd57a4a538435f01f94de1287934e4b4069c9c",
+          "index": 7,
+          "width": 53,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            2,
+            0
+          ],
+          "sourceFrameIndex": 7,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/27073/07.png",
+            "sha256": "43da72c89e3c7cf1fb3e150bde7952933f41cedeb24b7d05c1a6a48eb9a78642",
+            "index": 7,
+            "decodedRgbaSha256": "0b9a1a098c6b4c388cf03feb7f07899566eb941c32e579a5600f88981c935bf5",
+            "nativeSize": [
+              53,
+              60
+            ],
+            "frameOffset": [
+              2,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/07.png",
+            "sha256": "ced5f300226d05df298cc574789a61ee46238ecce9864c5dd3b050c988b9ac20",
+            "provenance": {
+              "file": "assets/native-client-ui/inventory-phases-v1/painted-frames/27073/07.png.provenance.json",
+              "sha256": "10519fcc53c03966b8cff35c298610a749c618952b36f62734bcdba784a9cd98"
+            },
+            "generationRecord": {
+              "file": "assets/native-client-ui/inventory-phases-v1/mother-affinity-levels-v1.png.generation.json",
+              "sha256": "dd1f4a39b384531118b3c5d13868884aae9071d16957bb6e568d5a5b2c49b528"
+            },
+            "displayedLevel": 10
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              65,
+              24,
+              421,
+              417
+            ],
+            "uniformScale": 0.14887640449438203,
+            "scaledSize": [
+              53,
+              59
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "displayedLevel": 10
+        }
+      ],
+      "sourceFrameDurationMs": null,
+      "nativeRuntimeVerified": false,
+      "visualAccepted": false
+    },
+    {
+      "file": "assets/native-client-ui/inventory-phases-v1/patch/res/uiRes/icon/platform/platform9011.img",
+      "sha256": "7d7f4b16b37003530ab11210b568e59732a445bfb63ecfd2c482b6f9fccfc739",
+      "nativePath": "res/uiRes/icon/platform/platform9011.img",
+      "itemId": 9011,
+      "category": "platform",
+      "resourceId": 9011,
+      "sourceSha256": "282dd6f9a7bc2670a7caf34cfc93ff40f1b946f8e6d4ea27eae12832c8e8a3fb",
+      "sourceLoose": true,
+      "sourcePacked": false,
+      "stateInterpretation": "material brightness variants",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/9011/00.png",
+          "sha256": "c14fd41094eceda8f099e8c1fd310a2616b1e7e61e3dcdee0fd2d2cb153d7f05",
+          "index": 0,
+          "width": 59,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "sourceFrameIndex": 0,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/9011/00.png",
+            "sha256": "6bf5b2d9318ad617eccf6c177f9e594fe4a7051f41c7f968c1c9b0996cd6232c",
+            "index": 0,
+            "decodedRgbaSha256": "e9ae5a190d8d28b18641a9994f554d6ce06670aa786d7f54d14ad9e4f0a7944f",
+            "nativeSize": [
+              59,
+              60
+            ],
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/platform/icons/9011-cloud-iron-hammer.png",
+            "sha256": "f72784d7d722f51e0fed7863bae243338e4a169936c4c6486b2a004d61ec5916",
+            "provenance": {
+              "file": "assets/items/platform/icons/9011-cloud-iron-hammer.png.provenance.json",
+              "sha256": "750e80ea12f458487849a4cd0c1ce02414d3e71199688c85856a2b91da187443"
+            },
+            "generationRecord": {
+              "file": "assets/items/platform/platform-e-v1.png.generation.json",
+              "sha256": "f580dd4a90bf360e50fb47599b695fdb43661031e84a495fecf00ef53dd6bcbf"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              22,
+              16,
+              233,
+              240
+            ],
+            "uniformScale": 0.26785714285714285,
+            "scaledSize": [
+              57,
+              60
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          }
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/9011/01.png",
+          "sha256": "b33781280f901ca480c686cf9988c290be9e1fa459fd5db0a7fe9653b982a327",
+          "index": 1,
+          "width": 59,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "sourceFrameIndex": 1,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/9011/01.png",
+            "sha256": "77483719d1d2d9f44aeb4b19c15f450983aaae1f2184766d4068937530412f44",
+            "index": 1,
+            "decodedRgbaSha256": "7744a23b2391f032a8550819ac213e8b7260bdbaed062cf551d15e51bd904a57",
+            "nativeSize": [
+              59,
+              60
+            ],
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/platform/icons/9011-cloud-iron-hammer.png",
+            "sha256": "f72784d7d722f51e0fed7863bae243338e4a169936c4c6486b2a004d61ec5916",
+            "provenance": {
+              "file": "assets/items/platform/icons/9011-cloud-iron-hammer.png.provenance.json",
+              "sha256": "750e80ea12f458487849a4cd0c1ce02414d3e71199688c85856a2b91da187443"
+            },
+            "generationRecord": {
+              "file": "assets/items/platform/platform-e-v1.png.generation.json",
+              "sha256": "f580dd4a90bf360e50fb47599b695fdb43661031e84a495fecf00ef53dd6bcbf"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              22,
+              16,
+              233,
+              240
+            ],
+            "uniformScale": 0.26785714285714285,
+            "scaledSize": [
+              57,
+              60
+            ],
+            "placementPx": [
+              1,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "materialVariation": {
+            "type": "own painted material brightness variation",
+            "brightnessFactor": 1.2432631899649107,
+            "sourceEvidence": {
+              "sourceAlphaPlanesEqual": true,
+              "sourceOpaquePixelsCompared": 1734,
+              "sourceOpaqueChannelSumRatio": 1.2432631899649107,
+              "sourceAllComparedPixelRgbSumsNonDecreasing": true,
+              "interpretation": "Same silhouette and pose; second stored state uses brighter material",
+              "runtimeTriggerConfirmed": false
+            },
+            "alphaPreserved": true,
+            "newModelGeneration": false
+          }
+        }
+      ],
+      "sourceFrameDurationMs": null,
+      "nativeRuntimeVerified": false,
+      "visualAccepted": false
+    },
+    {
+      "file": "assets/native-client-ui/inventory-phases-v1/patch/res/uiRes/icon/platform/platform9012.img",
+      "sha256": "59d8a4f10e4623e27ea451fa85b9b1c4cbeb0dac69456b6b82de425a354d355d",
+      "nativePath": "res/uiRes/icon/platform/platform9012.img",
+      "itemId": 9012,
+      "category": "platform",
+      "resourceId": 9012,
+      "sourceSha256": "b1c12175b529449bcaf1907d7fab2e1e1d3c3cb826317183a8deaa83d12367f8",
+      "sourceLoose": true,
+      "sourcePacked": false,
+      "stateInterpretation": "material brightness variants",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/9012/00.png",
+          "sha256": "f03150b6bc19f88b5976ca50316f864b475931e0b56b1eabdad4346e447a712e",
+          "index": 0,
+          "width": 59,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "sourceFrameIndex": 0,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/9012/00.png",
+            "sha256": "e1958228dd43afe59cfbd964b465ab7bb54825f88b42b15243c12b279edc3834",
+            "index": 0,
+            "decodedRgbaSha256": "5deaded82095af7e291460a04982b6461ecce1e0f6a3c2dd14e1661d320caa16",
+            "nativeSize": [
+              59,
+              60
+            ],
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/platform/icons/9012-cloud-silver-hammer.png",
+            "sha256": "5a5c27a39474334d5be0ff2c14cd0907cb2293873410b9694783f721e33f040c",
+            "provenance": {
+              "file": "assets/items/platform/icons/9012-cloud-silver-hammer.png.provenance.json",
+              "sha256": "acd2ffd3bf99ff7abade2f5ac5ad8d37d59160dfa8dbaf89333a099e75c53b12"
+            },
+            "generationRecord": {
+              "file": "assets/items/platform/platform-e-v1.png.generation.json",
+              "sha256": "f580dd4a90bf360e50fb47599b695fdb43661031e84a495fecf00ef53dd6bcbf"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              24,
+              16,
+              231,
+              240
+            ],
+            "uniformScale": 0.26785714285714285,
+            "scaledSize": [
+              55,
+              60
+            ],
+            "placementPx": [
+              2,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          }
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/9012/01.png",
+          "sha256": "bcdca7cb72a81ad3e1eaef6e03256029c17dc7f4fbd0ab21776787716a6f894b",
+          "index": 1,
+          "width": 59,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "sourceFrameIndex": 1,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/9012/01.png",
+            "sha256": "34fdd9e2547e67c0201fe5dbc6dfcd20281b6b060bb9c78fc45af51f701d40bb",
+            "index": 1,
+            "decodedRgbaSha256": "bc6b6272d72a0011535061bf8569dfe8bf464251aec192e582d18e6c322e0733",
+            "nativeSize": [
+              59,
+              60
+            ],
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/platform/icons/9012-cloud-silver-hammer.png",
+            "sha256": "5a5c27a39474334d5be0ff2c14cd0907cb2293873410b9694783f721e33f040c",
+            "provenance": {
+              "file": "assets/items/platform/icons/9012-cloud-silver-hammer.png.provenance.json",
+              "sha256": "acd2ffd3bf99ff7abade2f5ac5ad8d37d59160dfa8dbaf89333a099e75c53b12"
+            },
+            "generationRecord": {
+              "file": "assets/items/platform/platform-e-v1.png.generation.json",
+              "sha256": "f580dd4a90bf360e50fb47599b695fdb43661031e84a495fecf00ef53dd6bcbf"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              24,
+              16,
+              231,
+              240
+            ],
+            "uniformScale": 0.26785714285714285,
+            "scaledSize": [
+              55,
+              60
+            ],
+            "placementPx": [
+              2,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "materialVariation": {
+            "type": "own painted material brightness variation",
+            "brightnessFactor": 1.4089925177287304,
+            "sourceEvidence": {
+              "sourceAlphaPlanesEqual": true,
+              "sourceOpaquePixelsCompared": 1734,
+              "sourceOpaqueChannelSumRatio": 1.4089925177287304,
+              "sourceAllComparedPixelRgbSumsNonDecreasing": true,
+              "interpretation": "Same silhouette and pose; second stored state uses brighter material",
+              "runtimeTriggerConfirmed": false
+            },
+            "alphaPreserved": true,
+            "newModelGeneration": false
+          }
+        }
+      ],
+      "sourceFrameDurationMs": null,
+      "nativeRuntimeVerified": false,
+      "visualAccepted": false
+    },
+    {
+      "file": "assets/native-client-ui/inventory-phases-v1/patch/res/uiRes/icon/platform/platform9013.img",
+      "sha256": "c1103ef7755bf2398c63fcc39b1e3f9ac8ce3be9ca3c0197d2007b0fb8596b7b",
+      "nativePath": "res/uiRes/icon/platform/platform9013.img",
+      "itemId": 9013,
+      "category": "platform",
+      "resourceId": 9013,
+      "sourceSha256": "1e9643d9e9de76f8637a4ff6fdd2e301c4bfab0b6219df7eed2d3f8a0d7cf84a",
+      "sourceLoose": true,
+      "sourcePacked": false,
+      "stateInterpretation": "material brightness variants",
+      "frames": [
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/9013/00.png",
+          "sha256": "99a81d784f8a98b8bbd624abfb79f08eaff25dbedf4df34569742c9122b8b69c",
+          "index": 0,
+          "width": 59,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "sourceFrameIndex": 0,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/9013/00.png",
+            "sha256": "46d51da50c70227315594db0ee6c6c18c2b01aabbd35b14ce5ad5ff4ff4de599",
+            "index": 0,
+            "decodedRgbaSha256": "71001ffc2d9c666ed36d6cac4fd999539d29762a028e68c7f6ebf46f6a9bd595",
+            "nativeSize": [
+              59,
+              60
+            ],
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/platform/icons/9013-cloud-gold-hammer.png",
+            "sha256": "cd52bfc5517d4460422974d23dca077cd5f42041464aa45c31fc567f0fa8267e",
+            "provenance": {
+              "file": "assets/items/platform/icons/9013-cloud-gold-hammer.png.provenance.json",
+              "sha256": "55ada2d6b0f6d7b916d1b02a36f4f93106878dd2084f2442eb5abc6a6b2eb03b"
+            },
+            "generationRecord": {
+              "file": "assets/items/platform/platform-e-v1.png.generation.json",
+              "sha256": "f580dd4a90bf360e50fb47599b695fdb43661031e84a495fecf00ef53dd6bcbf"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              19,
+              16,
+              236,
+              240
+            ],
+            "uniformScale": 0.26785714285714285,
+            "scaledSize": [
+              58,
+              60
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          }
+        },
+        {
+          "file": "assets/native-client-ui/inventory-phases-v1/decoded/9013/01.png",
+          "sha256": "f08d5771259a432cebf66ea57009416f6c3eba4ec2ba70b720c808695469970e",
+          "index": 1,
+          "width": 59,
+          "height": 60,
+          "pixelMode": 3,
+          "frameOffset": [
+            1,
+            0
+          ],
+          "sourceFrameIndex": 1,
+          "sourceOriginalFrame": {
+            "file": "assets/native-client-ui/inventory-phases-v1/source/9013/01.png",
+            "sha256": "d61e05a5f6688dc1a3be687a809ff81591753d63c667fa73a038f3251dcc1a54",
+            "index": 1,
+            "decodedRgbaSha256": "d85fb4106421141b7a7006cd1f4ff807a5bdc1011b869d5a9e5529e1d6f6a99b",
+            "nativeSize": [
+              59,
+              60
+            ],
+            "frameOffset": [
+              1,
+              0
+            ],
+            "pixelMode": 3,
+            "alphaExtrema": [
+              0,
+              255
+            ]
+          },
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "derivedFrom": {
+            "file": "assets/items/platform/icons/9013-cloud-gold-hammer.png",
+            "sha256": "cd52bfc5517d4460422974d23dca077cd5f42041464aa45c31fc567f0fa8267e",
+            "provenance": {
+              "file": "assets/items/platform/icons/9013-cloud-gold-hammer.png.provenance.json",
+              "sha256": "55ada2d6b0f6d7b916d1b02a36f4f93106878dd2084f2442eb5abc6a6b2eb03b"
+            },
+            "generationRecord": {
+              "file": "assets/items/platform/platform-e-v1.png.generation.json",
+              "sha256": "f580dd4a90bf360e50fb47599b695fdb43661031e84a495fecf00ef53dd6bcbf"
+            }
+          },
+          "operation": {
+            "type": "visible alpha content, uniform centered fit into original native frame",
+            "sourceAlpha8BBox": [
+              19,
+              16,
+              236,
+              240
+            ],
+            "uniformScale": 0.26785714285714285,
+            "scaledSize": [
+              58,
+              60
+            ],
+            "placementPx": [
+              0,
+              0
+            ],
+            "resampler": "premultiplied-alpha LANCZOS",
+            "newModelGeneration": false
+          },
+          "materialVariation": {
+            "type": "own painted material brightness variation",
+            "brightnessFactor": 1.3260508886774134,
+            "sourceEvidence": {
+              "sourceAlphaPlanesEqual": true,
+              "sourceOpaquePixelsCompared": 1734,
+              "sourceOpaqueChannelSumRatio": 1.3260508886774134,
+              "sourceAllComparedPixelRgbSumsNonDecreasing": true,
+              "interpretation": "Same silhouette and pose; second stored state uses brighter material",
+              "runtimeTriggerConfirmed": false
+            },
+            "alphaPreserved": true,
+            "newModelGeneration": false
+          }
+        }
+      ],
+      "sourceFrameDurationMs": null,
+      "nativeRuntimeVerified": false,
+      "visualAccepted": false
+    }
+  ],
+  "convertedItemCount": 5,
+  "sourcePositions": 24,
+  "converterSources": [
+    {
+      "file": "scripts/build-native-inventory-phases.py",
+      "sha256": "f79170c76b882ee29bbaa493ec6f3065bb10fec32ef0aa5ebfd79bfd860d0941"
+    },
+    {
+      "file": "scripts/native-ui-format.py",
+      "sha256": "e06d8634fe409f1c6ebfdbdc66b1911bbbb49c3d533345cc756e26aa74189de8"
+    },
+    {
+      "file": "scripts/build-native-inventory-art.py",
+      "sha256": "2801a3ef3ccbd495e8bb3f98dac151167508116dc8d99031dd5fcd168b8eee6d"
+    }
+  ],
+  "paintedLevelGenerationCalls": 2,
+  "newModelGeneration": false,
+  "sourceFrameDurationMs": null,
+  "visualAccepted": false,
+  "nativeRuntimeVerified": false,
+  "preview": {
+    "file": "assets/native-client-ui/inventory-phases-v1/contact-native-light-dark.png",
+    "sha256": "bc133797decca2040ac7613c840aa9a556d28ff74efd9b58c286390d21ae3a24"
+  }
+}

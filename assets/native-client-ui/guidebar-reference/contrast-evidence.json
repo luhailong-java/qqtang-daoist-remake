@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "operation": "Bounded inert code-tree and instruction reading only",
+  "sourceModules": [
+    {
+      "module": "uiMain",
+      "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411"
+    },
+    {
+      "module": "uiTemplate",
+      "sha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85"
+    }
+  ],
+  "templateDefaults": [
+    {
+      "scope": "?.TEdit",
+      "literalAssignments": {
+        "type": "EDIT",
+        "drawcolor": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "bkcolor": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "focuscolor": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "scope": "?.TLabel",
+      "literalAssignments": {
+        "type": "LABEL",
+        "textsize": 12,
+        "drawcolor": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "scope": "?.TButton",
+      "literalAssignments": {
+        "type": "BUTTON"
+      }
+    }
+  ],
+  "menuParentScope": "?.UI.children.playerMenu.children",
+  "parentBytecodeSha256": "e4e02503c716325c08811378deaf0c32a1432a5bb493af03acf6c9524dd98c65",
+  "classConstruction": [
+    {
+      "className": "messageBtn",
+      "baseName": "TButton",
+      "loadBaseOffset": 9,
+      "buildClassOffset": 24,
+      "storeClassOffset": 25,
+      "instructionWindowHex": "650200660100640200840000830000595a0300"
+    },
+    {
+      "className": "traceBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 31,
+      "buildClassOffset": 46,
+      "storeClassOffset": 47,
+      "instructionWindowHex": "650300660100640400840000830000595a0400"
+    },
+    {
+      "className": "addBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 53,
+      "buildClassOffset": 68,
+      "storeClassOffset": 69,
+      "instructionWindowHex": "650300660100640600840000830000595a0500"
+    },
+    {
+      "className": "deleteBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 75,
+      "buildClassOffset": 90,
+      "storeClassOffset": 91,
+      "instructionWindowHex": "650300660100640800840000830000595a0600"
+    },
+    {
+      "className": "infoBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 97,
+      "buildClassOffset": 112,
+      "storeClassOffset": 113,
+      "instructionWindowHex": "650300660100640a00840000830000595a0700"
+    },
+    {
+      "className": "shieldBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 119,
+      "buildClassOffset": 134,
+      "storeClassOffset": 135,
+      "instructionWindowHex": "650300660100640c00840000830000595a0800"
+    },
+    {
+      "className": "unshieldBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 141,
+      "buildClassOffset": 156,
+      "storeClassOffset": 157,
+      "instructionWindowHex": "650300660100640e00840000830000595a0900"
+    },
+    {
+      "className": "kininviteBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 163,
+      "buildClassOffset": 178,
+      "storeClassOffset": 179,
+      "instructionWindowHex": "650300660100641000840000830000595a0a00"
+    },
+    {
+      "className": "C2CInviteBtn",
+      "baseName": "messageBtn",
+      "loadBaseOffset": 185,
+      "buildClassOffset": 200,
+      "storeClassOffset": 201,
+      "instructionWindowHex": "650300660100641200840000830000595a0b00"
+    }
+  ],
+  "messageBtnDrawcolor": {
+    "globalName": "lightColor",
+    "rgba": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "loadOffset": 69,
+    "storeOffset": 72,
+    "textEdgeType": -1,
+    "bytecodeSha256": "e7fb08cf17cab46748af0d366e2b40cd276eefbe12288d09e975cf6c080e1c28"
+  },
+  "candidateBackgrounds": {
+    "contextMenu": "#224a3b",
+    "contextHover": "#2b5743",
+    "systemMenu": "pale painted paper with baked control captions"
+  },
+  "bytecodeExecuted": false,
+  "runtimeVerified": false
+}

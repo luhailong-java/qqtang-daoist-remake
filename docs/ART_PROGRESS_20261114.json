@@ -9,39 +9,47 @@
   "nativeClientUi": {
     "manifest": {
       "file": "assets/native-client-ui/login-v1/manifest.json",
-      "sha256": "a937e3376d04a9839c5680f0e72a881f8506a164a6bb05818f9dbd01a3bc635f"
+      "sha256": "76c6d321f80fcc262e666392ecda22265217bfd7ae7e1053446cd01393b3bfce"
     },
-    "installedResources": 110,
-    "sourcePositions": 253,
+    "installedResources": 157,
+    "sourcePositions": 374,
     "sourcePackedUiCount": 772,
-    "installedPackedUiCount": 108,
+    "installedPackedUiCount": 155,
     "allUiComplete": false,
-    "nativeRuntimeVerified": false
+    "nativeRuntimeVerified": false,
+    "remainingUiCensusImagePaths": 3469,
+    "censusAudit": {
+      "file": "docs/native-ui-remaining-20261114.json",
+      "sha256": "5356493e1bb3e5663103b7d988ea882236b172270cecc2ad3ea26a5444757fc7"
+    }
   },
   "nativeInventory": {
     "manifest": {
       "file": "assets/native-client-ui/inventory-v1/manifest.json",
       "sha256": "ca6e7c4fd9e3f7f3b6faeae944d581fea1cafa0087224263884d2a046d7b6169"
     },
-    "installedItemIds": 578,
-    "sourcePositions": 578,
+    "installedItemIds": 583,
+    "sourcePositions": 602,
     "knownOwnCandidateIds": 584,
     "pendingCandidateIds": [
-      3767,
-      9011,
-      9012,
-      9013,
-      27061,
-      27073
+      3767
     ],
     "containerCompatibilityCandidates": [
       3941
     ],
-    "nativeRuntimeVerified": false
+    "nativeRuntimeVerified": false,
+    "phaseManifest": {
+      "file": "assets/native-client-ui/inventory-phases-v1/manifest.json",
+      "sha256": "87836a63d84a726f50114a93fb39c053c950a429f97a1d81a70b104e4c85be7d"
+    },
+    "unresolvedNativePathEvidence": {
+      "file": "docs/native-item-3767-binding-20261114.json",
+      "sha256": "5069c98975daf185b9580402ddbfb23cf1909cc69cb5e63469f7387faf9ac0b4"
+    }
   },
   "installation": {
     "file": "docs/native-client-installation-20261114.json",
-    "sha256": "acfed509e582f87fc4cbb6b4ef2cb5ece26af7c6284993c6cca84e705d5dc456"
+    "sha256": "74411f93e289740341ca503f25debd5500b5d25e05f624d2e9c2a2220277e798"
   },
   "itemInventory": {
     "sourceCount": 2945,
@@ -51,5 +59,77 @@
   "allCandidateImagesUserAccepted": false,
   "originalTimingVerified": false,
   "originalMountsVerified": false,
-  "mobileFullArtComplete": false
+  "mobileFullArtComplete": false,
+  "nativeWorldHeadAdornments": {
+    "manifest": {
+      "file": "assets/native-client-heads/world-v1/manifest.json",
+      "sha256": "84395e50022a441b467941c607de382304ec6a7ace1c5f536570d2f9a8be2987"
+    },
+    "installedItemIds": [
+      39,
+      114,
+      407,
+      2000,
+      408
+    ],
+    "installedNativeResources": 10,
+    "sourcePositions": 240,
+    "uniqueNativeRasters": 94,
+    "nativeRuntimeVerified": false,
+    "userVisualAccepted": false,
+    "originalTimingVerified": false,
+    "originalMountsVerified": false
+  },
+  "nativeMaps": {
+    "candidateManifest": {
+      "file": "assets/native-client-maps/town-common-v1/manifest.json",
+      "sha256": "29924883aad36d4c50acff0918ae96cc4796071b5f178e71b39b3b9be015e812"
+    },
+    "convertedResources": 120,
+    "convertedSourcePositions": 224,
+    "installedResources": 52,
+    "installedSourcePositions": 116,
+    "notDefaultInstalledDueToWarnings": 68,
+    "sourceDeclaredDefinitions": 773,
+    "missingSequenceIds": [
+      17024,
+      17025,
+      17026,
+      17027,
+      17028,
+      17029
+    ],
+    "visualAccepted": false,
+    "nativeRuntimeVerified": false
+  },
+  "nativeArtBundle": {
+    "manifest": {
+      "file": "assets/native-client-bundle/review-v1/manifest.json",
+      "sha256": "aaf8c462fc7d312d7996af2cefe8000ecd76d93ed5a468f60f5b16e364bec030"
+    },
+    "installedResources": 802,
+    "sourcePositions": 1332,
+    "fullGameArtComplete": false
+  },
+  "nativeUiColorData": {
+    "manifest": {
+      "file": "assets/native-client-ui/text-color-v1/manifest.json",
+      "sha256": "b3c5e960f9c2fd170a075eebb5d8d184c8e0a205925194f73a39047250b9c7cb"
+    },
+    "installation": {
+      "file": "docs/native-ui-color-installation-20261114.json",
+      "sha256": "3e53185a05f249c544aa9031980c2359fb01914b8de7c40f35c737cba5ce19a7"
+    },
+    "modifiedFiles": 1,
+    "changedByteOffsets": [
+      63481
+    ],
+    "unchangedCodeScopes": 830,
+    "visualAccepted": false,
+    "nativeRuntimeVerified": false
+  },
+  "characterNativeIntegrationPlan": {
+    "file": "docs/native-character-integration-plan-20261114.json",
+    "sha256": "d921ed220c5b8e16c616a37a215be4dab35706f44bfdac8cac26bd81e66c892f"
+  }
 }

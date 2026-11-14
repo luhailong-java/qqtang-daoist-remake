@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-14",
+  "scope": "Read-only symbolic color resolution and native UI contrast review",
+  "sourceModules": [
+    {
+      "module": "uiSelSect",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiSelSect.pyc",
+      "byteLength": 46917,
+      "sha256": "f2d66e23622f9adabc33ecde4dd7a5c9c1170c96fa02273ddc6517fb8f968118",
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiMain",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiMain.pyc",
+      "byteLength": 301556,
+      "sha256": "18074d6e8e0e6cd0fdcb0d70eba6e94d3b512359c191b8a37030e017b2839411",
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiTemplate",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiTemplate.pyc",
+      "byteLength": 12924,
+      "sha256": "8b3cac8e606971886d6f24eadae62803c258c638489f5008ce457725673c5a85",
+      "bytecodeExecuted": false
+    },
+    {
+      "module": "uiGame",
+      "archiveMember": "QQTang-Local/runtime/client-patched/res/uiRes/uiGame.pyc",
+      "byteLength": 68650,
+      "sha256": "29519f46bb94ebbf722f48bc8f83f118936251425204e811022cc43f990437d9",
+      "bytecodeExecuted": false
+    }
+  ],
+  "sharedUiMainColorLiterals": {
+    "scope": "?",
+    "bytecodeSha256": "854a5252ea30dab6c6457f4a9470e44c1dc9981a0df403d77e42c6ef533957a7",
+    "values": {
+      "lightColor": {
+        "value": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "storeByteOffset": 343
+      },
+      "zoneChooseColor": {
+        "value": [
+          255,
+          250,
+          236,
+          255
+        ],
+        "storeByteOffset": 361
+      },
+      "darkColor": {
+        "value": [
+          102,
+          51,
+          0,
+          255
+        ],
+        "storeByteOffset": 379
+      },
+      "maskColor": {
+        "value": [
+          51,
+          51,
+          51,
+          255
+        ],
+        "storeByteOffset": 397
+      },
+      "kinColor": {
+        "value": [
+          153,
+          244,
+          255,
+          255
+        ],
+        "storeByteOffset": 415
+      },
+      "normalNameColor": {
+        "value": [
+          199,
+          242,
+          252,
+          255
+        ],
+        "storeByteOffset": 433
+      },
+      "memberNameColor": {
+        "value": [
+          255,
+          189,
+          222,
+          255
+        ],
+        "storeByteOffset": 451
+      }
+    }
+  },
+  "regionName": {
+    "scope": "?.UI_children_selSect.children.sect1.children.name",
+    "parentScope": "?.UI_children_selSect.children.sect1.children",
+    "parentBytecodeSha256": "6eacf6def35054737acf035b6006992c26a70272b6f12d52e5b54e1115b1232f",
+    "parentClassConstructionBytes6To31Hex": "640100650200650300660200640200840000830000595a0400",
+    "classConstruction": {
+      "loadTLabelOffset": 9,
+      "loadStaticOffset": 12,
+      "buildTwoBasesTupleOffset": 15,
+      "buildClassOffset": 27,
+      "storeNameOffset": 28
+    },
+    "localBytecodeSha256": "6faea4724d75672d5283c60a2afe22894bec259ad2a559628b82d93283c97d85",
+    "localSymbolAssignments": [
+      {
+        "loadNameOffset": 24,
+        "storeNameOffset": 27,
+        "attribute": "drawcolor",
+        "sourceName": "zoneChooseColor",
+        "instructionBytesHex": "6503005a0400"
+      },
+      {
+        "loadNameOffset": 30,
+        "storeNameOffset": 33,
+        "attribute": "textEdgeColor",
+        "sourceName": "maskColor",
+        "instructionBytesHex": "6505005a0600"
+      }
+    ],
+    "resolvedDrawcolor": [
+      255,
+      250,
+      236,
+      255
+    ],
+    "resolvedTextEdgeColor": [
+      51,
+      51,
+      51,
+      255
+    ],
+    "localRect": [
+      20,
+      8,
+      150,
+      12
+    ],
+    "sectRect": [
+      383,
+      97,
+      187,
+      26
+    ],
+    "sectFrameScheme": [
+      [
+        -1,
+        -1,
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "templateTLabelDefault": {
+      "type": "LABEL",
+      "textsize": 12,
+      "drawcolor": [
+        0,
+        0,
+        0,
+        255
+      ]
+    },
+    "templateDefaultOverridden": true,
+    "rowCanBeOmitted": true
+  },
+  "correction": {
+    "initialDefaultBlackInferenceWithdrawn": true,
+    "reason": "The adjacent literal recognizer omitted LOAD_NAME symbol assignments. The local name class explicitly assigns zoneChooseColor to drawcolor, overriding TLabel black.",
+    "requiredForeground": [
+      255,
+      250,
+      236,
+      255
+    ],
+    "backgroundRecommendation": "Deep jade in the region list screen area and optional row image, including -1 row-image states."
+  },
+  "illustrativePaletteChecks": [
+    {
+      "backgroundRgb": [
+        37,
+        77,
+        66
+      ],
+      "foregroundRgb": [
+        255,
+        250,
+        236
+      ],
+      "contrastRatio": 9.075496795848279
+    },
+    {
+      "backgroundRgb": [
+        243,
+        234,
+        210
+      ],
+      "foregroundRgb": [
+        255,
+        250,
+        236
+      ],
+      "contrastRatio": 1.1500097784993852
+    }
+  ],
+  "otherResolvedColors": {
+    "gameMapName": {
+      "scope": "?.UI_children_game.children.playerListDlg.children.mapName",
+      "sourceName": "lightColor",
+      "rgba": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "lobbyPlayerName": {
+      "setter": "updatePlayer calls Win_SetDrawColor using normalNameColor/memberNameColor",
+      "normalRgba": [
+        199,
+        242,
+        252,
+        255
+      ],
+      "memberRgba": [
+        255,
+        189,
+        222,
+        255
+      ]
+    }
+  },
+  "knownPasswordAndMapFilterEvidence": {
+    "manifest": "assets/native-client-ui/lobby-controls-reference/manifest.json",
+    "sha256": "46aeeb26007d401d009aac18627e961025484cd454ebc44d01c28704220287c2"
+  },
+  "interpretation": "Source bytecode and shared uiMain literal definitions establish these script color choices. This record does not execute UI modules or verify live client rendering.",
+  "sourceClientMutated": false,
+  "nativeRuntimeVerified": false,
+  "systemMessageBody": {
+    "scope": "?.UI.children.SysMsgbox.children.textlabel",
+    "typeLiteral": "LABEL",
+    "classBases": "empty tuple in the parent class-construction sequence",
+    "coNames": [
+      "__name__",
+      "__module__",
+      "type",
+      "rowspace",
+      "rect",
+      "bkimagepos",
+      "textsize",
+      "dt_left",
+      "dt_top",
+      "textstyle",
+      "textEdgeType",
+      "zoneChooseColor",
+      "drawcolor"
+    ],
+    "coCodeSha256": "fc7207b516862905cca610f72693c0b4cde87d445a8c865675f09c098ff81618",
+    "symbolAssignments": [
+      {
+        "loadNameOffset": 70,
+        "storeNameOffset": 73,
+        "attribute": "drawcolor",
+        "sourceName": "zoneChooseColor",
+        "instructionBytesHex": "650b005a0c00"
+      }
+    ],
+    "drawcolorSymbol": "zoneChooseColor",
+    "resolvedStaticRgba": [
+      255,
+      250,
+      236,
+      255
+    ],
+    "uiMainGlobalEvidence": "docs/native-ui-text-contrast-audit-20261114.json",
+    "localRect": [
+      40,
+      82,
+      280,
+      130
+    ],
+    "patchPlan": {
+      "file": "docs/native-sysmsgbox-color-patch-plan-20261114.json",
+      "sha256": "721fc6da02909bfe8e5ff6e5d7424b101cd24ec7c231041e3d356f89c6f2be12"
+    },
+    "conclusion": "The body is explicitly zoneChooseColor light cream. Its surface should support that foreground. Blue hyperlink remains a separate contrast concern.",
+    "classConstruction": {
+      "parentScope": "?.UI.children.SysMsgbox.children",
+      "parentCodeSha256": "31a5ca9605ca6fc4d8bf213a73d4da4ac16f8c5556a72900e10f0bba68b2f4f0",
+      "loadClassNameOffset": 44,
+      "buildBasesTupleOffset": 47,
+      "baseCount": 0,
+      "buildClassOffset": 59,
+      "constructionBytesHex": "640500660000640600840000830000595a0400"
+    },
+    "plannedHyperlinkColors": {
+      "foreground": [
+        200,
+        200,
+        255,
+        255
+      ],
+      "edge": [
+        255,
+        200,
+        200,
+        200
+      ],
+      "inMemoryValidated": true,
+      "appliedToClientByThisAudit": false
+    }
+  }
+}

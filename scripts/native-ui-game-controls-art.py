@@ -6,7 +6,11 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 FONT_INPUTS = {'replay-symbols':'C:/Windows/Fonts/seguisym.ttf'}
 PAINT_INPUTS = {'game-play':'assets/ui/action-icons-20261112/play.png',
-                'game-replay-ring':'assets/ui/controls/radio-off.png'}
+                'game-replay-ring':'assets/ui/controls/radio-off.png',
+                'game-needle':'assets/runtime/battle-props-20261112/needle.png',
+                'game-guard':'assets/runtime/battle-props-20261112/shield.png',
+                'game-boot':'assets/items/battlefield/masters/3-speed-boot.png'}
+VISUAL_MAPPING_ASSUMPTIONS = ['Status-bar fixed slots visually match a needle, armor/guard and winged boot. Own images replace those visual roles; exact native inventory IDs and effects are not inferred.']
 PATHS = {
     'object/ui/game/btn_cancelSaveReplay.img':('game-button','取消保存'),
     'object/ui/game/btn_saveReplay.img':('game-button','保存录像'),
@@ -15,6 +19,7 @@ PATHS = {
     'object/ui/game/chatpopo2.img':('game-chat',None),
     'object/ui/game/chatpopo3.img':('game-chat',None),
     'object/ui/game/dlg_pveFunc.img':('game-panel',None),
+    'object/ui/game/dlg_statusBar.img':('game-status',None),
     'object/ui/game/gameLeft.img':('game-edge',None),
     'object/ui/game/gameTop.img':('game-edge',None),
     'object/ui/game/img_itemMask.img':('game-alpha','img_itemmask'),
@@ -38,6 +43,29 @@ STRUCTURAL_ALPHA_INPUTS = {name:f'assets/native-client-ui/game-controls-referenc
 
 
 def render(kind,label,index,size,paints,font_path,nine_slice,scaled):
+    if kind == 'game-status':
+        if size != (556,59) or index != 0:
+            raise ValueError('Native status-bar layout differs from the source')
+        out = scaled(paints['normal'].crop((90,35,400,110)),size)
+        draw = ImageDraw.Draw(out)
+        for position,key in enumerate(('game-needle','game-guard','game-boot')):
+            x = 11 + position*51
+            draw.rounded_rectangle((x-4,3,x+47,55),radius=5,fill='#244d40',outline='#bda46c')
+            icon = paints[key]
+            visible = icon.getchannel('A').point(lambda v:255 if v>=8 else 0).getbbox()
+            if visible is None:
+                raise ValueError('Fixed UI icon is empty')
+            icon = icon.crop(visible)
+            fit = min(44/icon.width,44/icon.height)
+            extent = tuple(max(1,round(axis*fit)) for axis in icon.size)
+            out.alpha_composite(scaled(icon,extent),(x+(44-extent[0])//2,5+(44-extent[1])//2))
+        font = ImageFont.truetype(str(font_path),11)
+        draw = ImageDraw.Draw(out)
+        for cell in range(7):
+            x = 177+54*cell
+            draw.rounded_rectangle((x,3,min(size[0]-1,x+52),56),radius=4,fill='#244d40',outline='#c9af75')
+            draw.text((x+5,4),str(cell+1),font=font,fill='#f7e6b4')
+        return out
     if kind == 'game-button':
         style = ('normal','normal','hover','pressed')[index]
         out = nine_slice(paints[style],size,42)

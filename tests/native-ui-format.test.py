@@ -18,6 +18,12 @@ installer = importlib.util.module_from_spec(install_spec)
 install_spec.loader.exec_module(installer)
 
 
+def luminance(rgb):
+    values = [c/255 for c in rgb]
+    linear = [v/12.92 if v<=0.04045 else ((v+0.055)/1.055)**2.4 for v in values]
+    return sum(weight*v for weight,v in zip((0.2126,0.7152,0.0722),linear,strict=True))
+
+
 class NativeUiPixels(unittest.TestCase):
     def container(self, mode):
         width, height = 5, 3
@@ -117,25 +123,58 @@ class NativeUiPixels(unittest.TestCase):
                 with Image.open(path) as original:
                     self.assertEqual(image.getchannel('A').tobytes(),original.getchannel('A').tobytes())
 
-    def test_shared_message_body_supports_declared_black_and_blue_text(self):
-        def color_from(module,scope_name):
-            data = json.loads((ROOT/f'references/qqtang-ui-data/constants/{module}.json').read_bytes())
-            scope = next(s for s in data['scopes'] if s['scope']==scope_name)
-            value = next(v['literalValue'] for v in scope['literalAssignments'] if v['name']=='drawcolor')
-            return tuple(v['value'] for v in value['values'])[:3]
-        def luminance(rgb):
-            values = [c/255 for c in rgb]
-            linear = [v/12.92 if v<=0.04045 else ((v+0.055)/1.055)**2.4 for v in values]
-            return sum(weight*v for weight,v in zip((0.2126,0.7152,0.0722),linear,strict=True))
-        colors = (color_from('uiTemplate','?.TLabel'),
-                  color_from('uiMain','?.UI.children.SysMsgbox.children.hyPerLink1'))
+    def test_shared_message_body_supports_the_explicit_global_light_text(self):
+        sources = json.loads((ROOT/'assets/native-client-ui/core-reference/manifest.json').read_bytes())
+        scope = next(s for s in sources['sourceScopes'] if s['module']=='uiMain' and s['scope']=='?')
+        color = scope['literalAssignments']['zoneChooseColor'][:3]
         path = ROOT/'assets/native-client-ui/login-v1/decoded/object__ui__common__dlg_msgBox-00.png'
         with Image.open(path) as image:
             background = luminance(image.getpixel((184,140))[:3])
-        for color in colors:
-            foreground = luminance(color)
+        style = json.loads((ROOT/'assets/native-client-ui/text-color-v1/manifest.json').read_bytes())
+        link = next(v['after'][:3] for v in style['proof']['literalAssignmentChanges'] if v['attribute']=='drawcolor')
+        for foreground_color in (color,link):
+            foreground = luminance(foreground_color)
             contrast = (max(background,foreground)+0.05)/(min(background,foreground)+0.05)
             self.assertGreaterEqual(contrast,4.5)
+
+    def test_loose_batches_reject_windows_case_collisions_before_writing(self):
+        raw = self.container(8)
+        metadata,_ = codec.reader.inspect_dimg(raw,metadata_only=True)
+        previous_root = installer.ROOT
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            client = root/'client'
+            name = 'res/uiRes/icon/eye/eye80.img'
+            native = client/name
+            native.parent.mkdir(parents=True)
+            native.write_bytes(raw)
+            installer.ROOT = root
+            (root/'patch.img').write_bytes(raw)
+            item = {'nativePath':name,'file':'patch.img','sha256':installer.digest(raw),
+                    'sourceSha256':installer.digest(raw),'sourcePacked':False,'sourceLoose':True}
+            other = {**item,'nativePath':name.upper()}
+            contract = {'items':[{'nativePath':e['nativePath'],'metadata':metadata} for e in (item,other)]}
+            try:
+                with self.assertRaisesRegex(ValueError,'Duplicate native destination'):
+                    installer.prepare_loose(client,{'items':[item,other]},contract)
+                self.assertEqual(native.read_bytes(),raw)
+            finally:
+                installer.ROOT = previous_root
+
+    def test_region_backgrounds_support_the_declared_light_global_color(self):
+        root = ROOT/'assets/native-client-ui/login-v1/decoded'
+        sources = json.loads((ROOT/'assets/native-client-ui/core-reference/manifest.json').read_bytes())
+        scope = next(s for s in sources['sourceScopes'] if s['module']=='uiMain' and s['scope']=='?')
+        foreground = luminance(scope['literalAssignments']['zoneChooseColor'][:3])
+        # sect1.name assigns zoneChooseColor; -1 frames expose the screen background.
+        for filename,point in (('object__ui__bg__bg_selSect-00.png',(500,180)),
+                               ('object__ui__selSect__img_sect-00.png',(40,14))):
+            with self.subTest(filename=filename),Image.open(root/filename) as image:
+                red,green,blue,alpha = image.getpixel(point)
+                # Test the lightest possible underlay when the painted row has partial alpha.
+                opacity = alpha/255
+                background = luminance(tuple(round(c*opacity+255*(1-opacity)) for c in (red,green,blue)))
+                self.assertGreaterEqual((max(foreground,background)+0.05)/(min(foreground,background)+0.05),4.5)
 
 
 if __name__ == '__main__':

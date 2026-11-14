@@ -22,7 +22,8 @@ core_spec = importlib.util.spec_from_file_location('core_art', ROOT/'scripts/nat
 core_art = importlib.util.module_from_spec(core_spec)
 core_spec.loader.exec_module(core_art)
 MODULES = {'common': 'native-ui-common-art.py', 'room-controls': 'native-ui-room-controls-art.py',
-           'shop-controls': 'native-ui-shop-controls-art.py', 'game-controls':'native-ui-game-controls-art.py'}
+           'shop-controls': 'native-ui-shop-controls-art.py', 'game-controls':'native-ui-game-controls-art.py',
+           'lobby-controls':'native-ui-lobby-controls-art.py', 'guidebar':'native-ui-guidebar-art.py'}
 EXTRA_ART = {}
 for name, filename in MODULES.items():
     module_spec = importlib.util.spec_from_file_location(name.replace('-', '_'), ROOT/'scripts'/filename)
@@ -46,6 +47,8 @@ for module in EXTRA_ART.values():
     if PATHS.keys() & module.PATHS.keys():
         raise ValueError('Two UI renderers target the same native resource')
     PATHS.update(module.PATHS)
+if len(PATHS) != len({path.lower() for path in PATHS}):
+    raise ValueError('Native UI destinations collide on Windows')
 PAINTS = {
     'background': 'assets/qqtang-world-v2.png',
     'logo': 'assets/branding/linghu-wordmark-login-1024.png',
@@ -109,6 +112,8 @@ def artwork(kind, label, index, size, paints, font_path, frame_count):
         return core_art.render(kind, label, index, size, paints, font_path, nine_slice, scaled)
     if kind.startswith('post-'):
         return postlogin_art.render(kind, label, index, size, paints, font_path, nine_slice, scaled)
+    if kind not in ('background','logo','cross','panel','button'):
+        raise ValueError(f'Unknown native UI renderer kind: {kind}')
     state = ('normal', 'hover', 'pressed')[index] if frame_count == 3 else ('normal', 'alternate', 'hover', 'pressed')[min(index, 3)]
     if kind == 'background':
         return ImageOps.fit(paints[kind], size, method=Image.Resampling.LANCZOS).convert('RGBA')
@@ -251,6 +256,8 @@ def main():
                     for name,module in EXTRA_ART.items() for purpose,filename in getattr(module,'FONT_INPUTS',{}).items()],
                 'structuralAlphaInputs': [{'group':name,'purpose':purpose,**record(ROOT/filename)}
                     for name,module in EXTRA_ART.items() for purpose,filename in getattr(module,'STRUCTURAL_ALPHA_INPUTS',{}).items()],
+                'visualMappingAssumptions': [{'group':name,'assumptions':module.VISUAL_MAPPING_ASSUMPTIONS}
+                    for name,module in EXTRA_ART.items() if getattr(module,'VISUAL_MAPPING_ASSUMPTIONS',None)],
                 'operation': 'Existing original painted UI sliced and text rendered at native control dimensions, then encoded into original DIMG pixel modes.',
                 'newModelGeneration': False, 'visualAccepted': False, 'nativeRuntimeVerified': False}
     save_json(HERE/'manifest.json', manifest, check)

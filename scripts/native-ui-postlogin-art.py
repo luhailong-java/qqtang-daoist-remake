@@ -44,6 +44,7 @@ def render(kind, label, index, size, paints, font_path, nine_slice, scaled):
             # The client paints announcements and region controls into these existing extents.
             jade_area(out, (19, 51, 338, 218))
             jade_area(out, (24, 238, 333, 552))
+            # Region names use uiMain's light zoneChooseColor, including hidden-row states.
             jade_area(out, (376, 91, 773, 509))
         else:
             panel(out, (3, 67, 426, 528))
